@@ -1,0 +1,320 @@
+id: prissmm
+name: "PRISSMM/GENIE BPC"
+version: "2.0.0"
+description: "GENIE BPC clinical data model with site-specific extensions"
+is_free_text: false
+
+categories:
+  - id: patient
+    name: Patient Dataset
+    description: "Patient-level demographic and survival data"
+    per_diagnosis: false
+    items:
+      - id: birth_year
+        name: Birth Year
+        description: "Year of birth"
+        data_type: integer
+        length: null
+      - id: naaccr_sex_code
+        name: NAACCR Sex Code
+        description: "1=Male, 2=Female"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "1"
+            description: "Male"
+          - code: "2"
+            description: "Female"
+      - id: race_ethnicity
+        name: Race/Ethnicity
+        description: "Combined race/ethnicity category"
+        data_type: string
+        length: null
+      - id: age_at_diagnosis
+        name: Age at Diagnosis
+        description: "Age in years at first cancer diagnosis"
+        data_type: integer
+        length: null
+      - id: os_status
+        name: OS Status
+        description: "Overall survival status"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "Alive"
+          - code: "1"
+            description: "Dead"
+      - id: os_months
+        name: OS Months
+        description: "Overall survival in months"
+        data_type: float
+        length: null
+      - id: number_of_cancers
+        name: Number of Cancers
+        description: "Total number of cancer diagnoses"
+        data_type: integer
+        length: null
+
+  - id: cancer_diagnosis
+    name: Cancer Diagnosis Dataset
+    description: "Per-cancer diagnosis data linked by ca_seq"
+    per_diagnosis: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer sequence number (0=first cancer)"
+        data_type: integer
+        length: null
+      - id: cohort
+        name: Cohort
+        description: "Cancer cohort (NSCLC, Breast, CRC)"
+        data_type: string
+        length: null
+      - id: ca_type
+        name: Cancer Type
+        description: "Cancer type description"
+        data_type: string
+        length: null
+      - id: naaccr_histology_code
+        name: NAACCR Histology Code
+        description: "ICD-O-3 histology code"
+        data_type: string
+        length: null
+      - id: ca_hist_adeno_squamous
+        name: Histologic Classification
+        description: "Histologic classification (adenocarcinoma, squamous, etc.)"
+        data_type: string
+        length: null
+      - id: naaccr_primary_site
+        name: NAACCR Primary Site
+        description: "ICD-O-3 primary site code"
+        data_type: string
+        length: null
+      - id: ca_stage
+        name: Cancer Stage
+        description: "AJCC stage (I, IA, IB, II, IIA, IIB, III, IIIA, IIIB, IIIC, IV, IVA, IVB)"
+        data_type: string
+        length: null
+      - id: ca_tnm_t
+        name: TNM T
+        description: "T component of TNM staging"
+        data_type: string
+        length: null
+      - id: ca_tnm_n
+        name: TNM N
+        description: "N component of TNM staging"
+        data_type: string
+        length: null
+      - id: ca_tnm_m
+        name: TNM M
+        description: "M component of TNM staging"
+        data_type: string
+        length: null
+      - id: ca_dmets_yn
+        name: Distant Metastases
+        description: "Distant metastases present (Yes/No)"
+        data_type: string
+        length: null
+      - id: dmets_brain
+        name: Mets Brain
+        description: "Brain metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_bone
+        name: Mets Bone
+        description: "Bone metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_liver
+        name: Mets Liver
+        description: "Liver metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_lung
+        name: Mets Lung
+        description: "Lung metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_lymph
+        name: Mets Lymph
+        description: "Lymph node metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_adrenal
+        name: Mets Adrenal
+        description: "Adrenal metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_pleura
+        name: Mets Pleura
+        description: "Pleural metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_peritoneum
+        name: Mets Peritoneum
+        description: "Peritoneal metastases"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: dmets_other
+        name: Mets Other
+        description: "Other metastatic sites"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+
+  - id: regimen
+    name: Cancer-Directed Regimen Dataset
+    description: "Treatment regimens linked to cancers by ca_seq"
+    per_diagnosis: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer sequence this regimen treats"
+        data_type: integer
+        length: null
+      - id: regimen_number
+        name: Regimen Number
+        description: "Sequential number (1=first regimen)"
+        data_type: integer
+        length: null
+      - id: regimen_drugs
+        name: Regimen Drugs
+        description: "Drug names"
+        data_type: string
+        length: null
+      - id: drugs_num
+        name: Number of Drugs
+        description: "Number of drugs in regimen"
+        data_type: integer
+        length: null
+      - id: regimen_setting
+        name: Regimen Setting
+        description: "Neoadjuvant/Adjuvant/First-line metastatic/Subsequent/Maintenance"
+        data_type: string
+        length: null
+      - id: dx_reg_start_days
+        name: Days from Dx to Regimen Start
+        description: "Days from diagnosis to regimen start"
+        data_type: integer
+        length: null
+      - id: dx_reg_end_days
+        name: Days from Dx to Regimen End
+        description: "Days from diagnosis to regimen end"
+        data_type: integer
+        length: null
+      - id: regimen_ongoing
+        name: Regimen Ongoing
+        description: "Yes/No"
+        data_type: string
+        length: null
+      - id: regimen_disc_reason
+        name: Discontinuation Reason
+        description: "Completed/Progression/Toxicity/Patient preference"
+        data_type: string
+        length: null
+      - id: includes_immunotherapy
+        name: Includes Immunotherapy
+        description: "Regimen includes immunotherapy"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: includes_targeted
+        name: Includes Targeted
+        description: "Regimen includes targeted therapy"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+      - id: includes_chemo
+        name: Includes Chemo
+        description: "Regimen includes chemotherapy"
+        data_type: code
+        length: 1
+        valid_values:
+          - code: "0"
+            description: "No"
+          - code: "1"
+            description: "Yes"
+
+  - id: medical_oncologist_assessment
+    name: Medical Oncologist Assessment Dataset
+    description: "Longitudinal medical oncologist assessments"
+    per_diagnosis: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer being assessed"
+        data_type: integer
+        length: null
+      - id: md_dx_days
+        name: Days from Diagnosis
+        description: "Days from diagnosis"
+        data_type: integer
+        length: null
+      - id: md_ca
+        name: Cancer Evidence
+        description: "Evidence of cancer / No evidence of cancer"
+        data_type: string
+        length: null
+      - id: md_ca_status
+        name: Cancer Status
+        description: "Improving/Stable/Mixed/Worsening"
+        data_type: string
+        length: null
+      - id: md_ecog
+        name: ECOG
+        description: "ECOG performance status (0-4)"
+        data_type: integer
+        length: null

@@ -1,0 +1,56 @@
+id: naaccr
+name: "NAACCR v26 Cancer Registry"
+version: "26.0"
+description: "North American cancer registry fields with site-specific items (dictionary-driven)"
+is_free_text: false
+
+# NAACCR fields are loaded dynamically from CSV dictionary files in codes/
+# (DataItems.csv, CodeList.csv, AlternateNames.csv)
+# rather than being fully enumerated here.
+#
+# The categories below represent the high-level NAACCR sections.
+# Individual data items within each section are resolved at runtime
+# from the CSV data dictionary.
+
+dictionary_files:
+  data_items: "codes/DataItems.csv"
+  code_list: "codes/CodeList.csv"
+  alternate_names: "codes/AlternateNames.csv"
+
+categories:
+  - id: demographics
+    name: Demographics
+    description: "NAACCR demographics data items"
+    per_diagnosis: false
+    sections:
+      - "Record ID"
+      - "Patient Set--Demographics"
+
+  - id: tumor_identification
+    name: Tumor Identification
+    description: "NAACCR cancer identification data items"
+    per_diagnosis: true
+    sections:
+      - "Cancer Identification"
+
+  - id: staging
+    name: Staging
+    description: "NAACCR stage/prognostic factors data items"
+    per_diagnosis: true
+    sections:
+      - "Stage/Prognostic Factors"
+
+  - id: treatment
+    name: Treatment
+    description: "NAACCR treatment data items (first course and subsequent)"
+    per_diagnosis: true
+    sections:
+      - "Treatment-1st Course"
+      - "Treatment-Subsequent"
+
+  - id: followup
+    name: Follow-up
+    description: "NAACCR follow-up/recurrence/death data items"
+    per_diagnosis: true
+    sections:
+      - "Follow-up/Recurrence/Death"

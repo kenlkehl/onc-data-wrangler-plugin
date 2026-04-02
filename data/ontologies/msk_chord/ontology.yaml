@@ -1,0 +1,430 @@
+id: msk_chord
+name: "MSK-CHORD (cBioPortal Clinical Data Model)"
+version: "2023.12"
+description: "MSK oncology data model with timeline events"
+is_free_text: false
+
+categories:
+  - id: patient_summary
+    name: Patient Summary
+    description: "Patient-level clinical attributes"
+    per_diagnosis: false
+    items:
+      - id: patient_id
+        name: Patient ID
+        description: "Unique patient identifier"
+        data_type: string
+        length: null
+      - id: gender
+        name: Gender
+        description: "Patient gender (Male/Female)"
+        data_type: string
+        length: null
+      - id: race
+        name: Race
+        description: "Race category (self-reported)"
+        data_type: string
+        length: null
+      - id: ethnicity
+        name: Ethnicity
+        description: "Ethnicity category (self-reported)"
+        data_type: string
+        length: null
+      - id: current_age
+        name: Current Age
+        description: "Patient age (capped at 89)"
+        data_type: integer
+        length: null
+      - id: ancestry_label
+        name: Ancestry Label
+        description: "Genomic ancestry (EUR, ASJ, AFR, EAS, SAS, NAM, ADM)"
+        data_type: string
+        length: null
+      - id: smoking_history
+        name: Smoking History
+        description: "Current/Former, Never, or Unknown"
+        data_type: string
+        length: null
+      - id: ecog_kps_first
+        name: ECOG/KPS First
+        description: "First ECOG/KPS score (0-4, 4=poorest)"
+        data_type: string
+        length: null
+      - id: bmi_first
+        name: BMI First
+        description: "First BMI measurement"
+        data_type: float
+        length: null
+      - id: prior_treatment_to_msk
+        name: Prior Treatment to MSK
+        description: "Prior anti-cancer treatment before coming to MSK (Yes/No)"
+        data_type: string
+        length: null
+      - id: history_of_pdl1_positive
+        name: History of PD-L1 Positive
+        description: "Ever PD-L1 positive (Yes/No)"
+        data_type: string
+        length: null
+      - id: history_of_dmmr
+        name: History of dMMR
+        description: "History of MMR deficiency (Yes/No)"
+        data_type: string
+        length: null
+      - id: gleason_first_reported
+        name: Gleason First Reported
+        description: "First Gleason score (prostate)"
+        data_type: string
+        length: null
+      - id: gleason_highest_reported
+        name: Gleason Highest Reported
+        description: "Highest Gleason score (prostate)"
+        data_type: string
+        length: null
+      - id: stage_highest_recorded
+        name: Stage Highest Recorded
+        description: "Highest stage from tumor registry"
+        data_type: string
+        length: null
+      - id: os_months
+        name: OS Months
+        description: "Overall survival in months"
+        data_type: float
+        length: null
+      - id: os_status
+        name: OS Status
+        description: "Living or Deceased"
+        data_type: string
+        length: null
+
+  - id: tumor_site_summary
+    name: "Tumor Site Summary (NLP)"
+    description: "Patient-level tumor site history from radiology"
+    per_diagnosis: false
+    items:
+      - id: adrenal_glands
+        name: Adrenal Glands
+        description: "Tumor ever indicated in adrenal glands"
+        data_type: string
+        length: null
+      - id: bone
+        name: Bone
+        description: "Tumor ever indicated in bone"
+        data_type: string
+        length: null
+      - id: cns_brain
+        name: CNS/Brain
+        description: "Tumor ever indicated in CNS/brain"
+        data_type: string
+        length: null
+      - id: intra_abdominal
+        name: Intra-Abdominal
+        description: "Tumor ever indicated intra-abdominally"
+        data_type: string
+        length: null
+      - id: liver
+        name: Liver
+        description: "Tumor ever indicated in liver"
+        data_type: string
+        length: null
+      - id: lung
+        name: Lung
+        description: "Tumor ever indicated in lung"
+        data_type: string
+        length: null
+      - id: lymph_nodes
+        name: Lymph Nodes
+        description: "Tumor ever indicated in lymph nodes"
+        data_type: string
+        length: null
+      - id: pleura
+        name: Pleura
+        description: "Tumor ever indicated in pleura"
+        data_type: string
+        length: null
+      - id: reproductive_organs
+        name: Reproductive Organs
+        description: "Tumor ever indicated in reproductive organs"
+        data_type: string
+        length: null
+      - id: other
+        name: Other
+        description: "Tumor ever indicated at other sites"
+        data_type: string
+        length: null
+
+  - id: sample_summary
+    name: Sample Summary
+    description: "Sample-level clinical and genomic attributes"
+    per_diagnosis: true
+    items:
+      - id: sample_id
+        name: Sample ID
+        description: "Unique sample identifier"
+        data_type: string
+        length: null
+      - id: cancer_type
+        name: Cancer Type
+        description: "Main cancer type (Oncotree)"
+        data_type: string
+        length: null
+      - id: cancer_type_detailed
+        name: Cancer Type Detailed
+        description: "Cancer subtype (Oncotree)"
+        data_type: string
+        length: null
+      - id: oncotree_code
+        name: Oncotree Code
+        description: "Oncotree classification code"
+        data_type: string
+        length: null
+      - id: sample_type
+        name: Sample Type
+        description: "Primary, Metastasis, Recurrence, Normal"
+        data_type: string
+        length: null
+      - id: primary_site
+        name: Primary Site
+        description: "Primary tumor location"
+        data_type: string
+        length: null
+      - id: metastatic_site
+        name: Metastatic Site
+        description: "Metastatic site if applicable"
+        data_type: string
+        length: null
+      - id: tumor_purity
+        name: Tumor Purity
+        description: "Proportion of cancer cells"
+        data_type: float
+        length: null
+      - id: msi_type
+        name: MSI Type
+        description: "Stable, Instable, Indeterminate"
+        data_type: string
+        length: null
+      - id: msi_score
+        name: MSI Score
+        description: "MSI numeric score"
+        data_type: float
+        length: null
+      - id: tmb_score
+        name: TMB Score
+        description: "Tumor Mutational Burden score"
+        data_type: float
+        length: null
+      - id: tmb_cohort_percentile
+        name: TMB Cohort Percentile
+        description: "TMB percentile across all cancers"
+        data_type: float
+        length: null
+      - id: gene_panel
+        name: Gene Panel
+        description: "Sequencing panel used (e.g., MSK-IMPACT468)"
+        data_type: string
+        length: null
+      - id: pdl1_positive
+        name: PD-L1 Positive
+        description: "Sample PD-L1 positive (Yes/No)"
+        data_type: string
+        length: null
+      - id: gleason_sample_level
+        name: Gleason Sample Level
+        description: "Gleason score at sample collection"
+        data_type: string
+        length: null
+
+  - id: diagnosis
+    name: Primary Diagnosis
+    description: "Diagnoses from ICD-O tumor registry"
+    per_diagnosis: true
+    items:
+      - id: diagnosis_date
+        name: Diagnosis Date
+        description: "Date of diagnosis (YYYY-MM-DD)"
+        data_type: date
+        length: null
+      - id: dx_description
+        name: Diagnosis Description
+        description: "ICD-O histology, site, and codes"
+        data_type: string
+        length: null
+      - id: ajcc_stage
+        name: AJCC Stage
+        description: "AJCC staging"
+        data_type: string
+        length: null
+      - id: clinical_stage
+        name: Clinical Stage
+        description: "Clinical stage group"
+        data_type: string
+        length: null
+      - id: pathologic_stage
+        name: Pathologic Stage
+        description: "Pathologic stage group"
+        data_type: string
+        length: null
+      - id: stage_cdm_derived
+        name: Stage CDM Derived
+        description: "Stage 1-3 or Stage 4"
+        data_type: string
+        length: null
+
+  - id: treatment
+    name: Anti-Cancer Medications
+    description: "Timeline of anti-cancer medications"
+    per_diagnosis: true
+    items:
+      - id: start_date
+        name: Start Date
+        description: "Treatment start date"
+        data_type: date
+        length: null
+      - id: end_date
+        name: End Date
+        description: "Treatment end date"
+        data_type: date
+        length: null
+      - id: agent
+        name: Agent
+        description: "Drug name (generic)"
+        data_type: string
+        length: null
+      - id: medication_type
+        name: Medication Type
+        description: "Chemo, Hormone, Targeted, Immuno, Biologic, Other"
+        data_type: string
+        length: null
+      - id: investigational
+        name: Investigational
+        description: "Yes/No for clinical trial drugs"
+        data_type: string
+        length: null
+
+  - id: radiation_therapy
+    name: Radiation Therapy
+    description: "Timeline of radiation treatments"
+    per_diagnosis: true
+    items:
+      - id: start_date
+        name: Start Date
+        description: "Radiation start date"
+        data_type: date
+        length: null
+      - id: end_date
+        name: End Date
+        description: "Radiation end date"
+        data_type: date
+        length: null
+      - id: treatment_site
+        name: Treatment Site
+        description: "Anatomic site"
+        data_type: string
+        length: null
+      - id: total_dose
+        name: Total Dose
+        description: "Dose in cGy"
+        data_type: float
+        length: null
+      - id: num_fractions
+        name: Number of Fractions
+        description: "Number of fractions"
+        data_type: integer
+        length: null
+      - id: technique
+        name: Technique
+        description: "Radiation technique"
+        data_type: string
+        length: null
+
+  - id: surgery
+    name: Surgery and IR
+    description: "Timeline of surgical and IR procedures"
+    per_diagnosis: true
+    items:
+      - id: procedure_date
+        name: Procedure Date
+        description: "Date performed"
+        data_type: date
+        length: null
+      - id: procedure_type
+        name: Procedure Type
+        description: "Surgery or IR"
+        data_type: string
+        length: null
+      - id: description
+        name: Description
+        description: "Procedure description"
+        data_type: string
+        length: null
+      - id: anatomic_site
+        name: Anatomic Site
+        description: "Site of procedure"
+        data_type: string
+        length: null
+
+  - id: progression
+    name: Cancer Progression
+    description: "NLP-derived cancer progression events from radiology"
+    per_diagnosis: true
+    items:
+      - id: progression_date
+        name: Progression Date
+        description: "Date of assessment"
+        data_type: date
+        length: null
+      - id: progression_status
+        name: Progression Status
+        description: "Progressing or Mixed / Improving or Stable"
+        data_type: string
+        length: null
+      - id: progression_probability
+        name: Progression Probability
+        description: "Model probability (0-1)"
+        data_type: float
+        length: null
+      - id: source
+        name: Source
+        description: "CT, MRI, or PET"
+        data_type: string
+        length: null
+
+  - id: biomarker
+    name: Biomarkers
+    description: "NLP-derived biomarker results from pathology"
+    per_diagnosis: true
+    items:
+      - id: pdl1_status
+        name: PD-L1 Status
+        description: "Positive/Negative"
+        data_type: string
+        length: null
+      - id: pdl1_score
+        name: PD-L1 Score
+        description: "TPS or CPS if available"
+        data_type: string
+        length: null
+      - id: mmr_status
+        name: MMR Status
+        description: "dMMR (deficient) or pMMR (proficient)"
+        data_type: string
+        length: null
+      - id: mmr_proteins
+        name: MMR Proteins
+        description: "MLH1, PMS2, MSH2, MSH6 status"
+        data_type: string
+        length: null
+      - id: gleason_score
+        name: Gleason Score
+        description: "Total Gleason score"
+        data_type: string
+        length: null
+      - id: gleason_primary
+        name: Gleason Primary
+        description: "Primary pattern score"
+        data_type: string
+        length: null
+      - id: gleason_secondary
+        name: Gleason Secondary
+        description: "Secondary pattern score"
+        data_type: string
+        length: null

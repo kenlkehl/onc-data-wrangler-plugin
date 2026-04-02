@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv:*)",
+      "Bash(python3:*)",
+      "Bash(python:*)",
+      "Bash(pip:*)",
+      "Bash(ls:*)",
+      "Bash(wc:*)",
+      "Bash(head:*)",
+      "Write(*.json)",
+      "Write(*.yaml)",
+      "Write(*.yml)",
+      "Write(*.csv)",
+      "Write(*.xlsx)",
+      "Write(*.md)",
+      "Write(*.txt)",
+      "mcp__onc_query__*"
+    ]
+  }
+}

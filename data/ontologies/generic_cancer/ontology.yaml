@@ -1,0 +1,230 @@
+id: generic_cancer
+name: Generic Cancer
+version: "1.0.0"
+description: "Cancer-type-agnostic extraction fields (diagnosis, biomarker, treatment, surgery, radiation, burden, social history)"
+is_free_text: false
+
+categories:
+  - id: cancer_diagnosis
+    name: Cancer Diagnosis
+    description: >-
+      Cancer diagnosis information. One entry per cancer diagnosis; recurrences
+      or metastases do not count as a new diagnosis. Be very careful not to
+      include non-cancer diagnoses.
+    per_diagnosis: true
+    items:
+      - id: primary_site
+        name: Primary Site
+        description: "Primary anatomical site of the cancer"
+        data_type: string
+        length: null
+      - id: overall_stage_at_diagnosis
+        name: Overall Stage at Diagnosis
+        description: "Overall cancer stage at time of diagnosis (e.g., I, IIA, IIIB, IV)"
+        data_type: string
+        length: null
+      - id: t_stage_at_diagnosis
+        name: T Stage at Diagnosis
+        description: "Tumor stage component at diagnosis (e.g., T2a, T3b)"
+        data_type: string
+        length: null
+      - id: n_stage_at_diagnosis
+        name: N Stage at Diagnosis
+        description: "Nodal stage component at diagnosis (e.g., N0, N1, N2, N3)"
+        data_type: string
+        length: null
+      - id: m_stage_at_diagnosis
+        name: M Stage at Diagnosis
+        description: "Metastasis stage component at diagnosis (e.g., M0, M1a, M1b)"
+        data_type: string
+        length: null
+      - id: histology
+        name: Histology
+        description: "Histological type of the cancer"
+        data_type: string
+        length: null
+      - id: diagnosis_date
+        name: Diagnosis Date
+        description: >-
+          Date of cancer diagnosis. As specific as is known; if only year is
+          indicated, list year; if month is indicated also, list month and year.
+          Format YYYY-MM-DD when possible.
+        data_type: date
+        length: null
+
+  - id: cancer_biomarker
+    name: Cancer Biomarker
+    description: >-
+      Cancer biomarker testing results. Note that EGFR should only refer to an
+      EGFR mutation, not estimated GFR (which is kidney function). PSA refers to
+      prostate-specific antigen testing for prostate cancer.
+    per_diagnosis: true
+    items:
+      - id: biomarker_type
+        name: Biomarker Type
+        description: "Type of biomarker assay (e.g., mutation, rearrangement, expression, amplification, serum_marker)"
+        data_type: string
+        length: null
+      - id: biomarker_tested
+        name: Biomarker Tested
+        description: "Name of the biomarker tested"
+        data_type: string
+        length: null
+      - id: biomarker_result
+        name: Biomarker Result
+        description: "Result of the biomarker test (e.g., positive, negative, 60%, L858R mutant, MSI-high)"
+        data_type: string
+        length: null
+
+  - id: cancer_systemic_therapy_regimen
+    name: Cancer Systemic Therapy Regimen
+    description: >-
+      Systemic therapy regimens administered to the patient. Only extract
+      regimens actually administered, not discussed options.
+    per_diagnosis: true
+    items:
+      - id: regimen_drug_list
+        name: Regimen Drug List
+        description: "List of individual drug names in the regimen"
+        data_type: string
+        length: null
+      - id: regimen_start_date
+        name: Regimen Start Date
+        description: "Start date of the regimen, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: regimen_end_date
+        name: Regimen End Date
+        description: "End date of the regimen, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: regimen_toxicity_list
+        name: Regimen Toxicity List
+        description: "List of individual toxicities experienced with this regimen"
+        data_type: string
+        length: null
+
+  - id: cancer_surgery
+    name: Cancer Surgery
+    description: "Cancer surgical procedures performed on the patient."
+    per_diagnosis: true
+    items:
+      - id: surgery_type
+        name: Surgery Type
+        description: "Type of surgical procedure performed"
+        data_type: string
+        length: null
+      - id: surgery_site
+        name: Surgery Site
+        description: "Anatomical site of surgery"
+        data_type: string
+        length: null
+      - id: surgery_date
+        name: Surgery Date
+        description: "Date of surgery, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+
+  - id: cancer_radiation_therapy
+    name: Cancer Radiation Therapy
+    description: "Radiation therapy courses administered to the patient."
+    per_diagnosis: true
+    items:
+      - id: radiation_type
+        name: Radiation Type
+        description: "Type of radiation therapy (e.g., external_beam, SBRT, SRS, brachytherapy, proton)"
+        data_type: string
+        length: null
+      - id: radiation_start_date
+        name: Radiation Start Date
+        description: "Start date of radiation therapy, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: radiation_end_date
+        name: Radiation End Date
+        description: "End date of radiation therapy, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: radiation_site
+        name: Radiation Site
+        description: "Anatomical site treated with radiation"
+        data_type: string
+        length: null
+
+  - id: cancer_burden
+    name: Cancer Burden
+    description: >-
+      Cancer burden and disease status assessments. Progression/worsening should
+      only be called if the tumor is growing. If burden_type is cancer_site, add
+      another cancer_site subfield to specify the location.
+    per_diagnosis: true
+    items:
+      - id: burden_assessor_type
+        name: Burden Assessor Type
+        description: "Type of clinician making the assessment (e.g., radiologist, oncologist)"
+        data_type: string
+        length: null
+      - id: burden_assessment_date
+        name: Burden Assessment Date
+        description: "Date of the burden assessment. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: burden_type
+        name: Burden Type
+        description: "Type of burden assessment result"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "response/improvement"
+            description: "Response or improvement"
+          - code: "progression/worsening"
+            description: "Progression or worsening"
+          - code: "cancer_site"
+            description: "Cancer site indication"
+      - id: cancer_site
+        name: Cancer Site
+        description: "Location of cancer burden when burden_type is cancer_site"
+        data_type: string
+        length: null
+
+  - id: social_history
+    name: Social History
+    description: "Patient social history relevant to cancer care, including smoking, alcohol, and substance use."
+    per_diagnosis: true
+    items:
+      - id: categorical_smoking_history
+        name: Categorical Smoking History
+        description: "Categorical smoking status"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "never"
+            description: "Never smoker"
+          - code: "former"
+            description: "Former smoker"
+          - code: "current"
+            description: "Current smoker"
+      - id: pack_years
+        name: Pack Years
+        description: "Smoking exposure in pack-years, extract whatever was documented"
+        data_type: string
+        length: null
+      - id: alcohol_use
+        name: Alcohol Use
+        description: "Alcohol use status"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "never"
+            description: "Never"
+          - code: "former"
+            description: "Former"
+          - code: "current"
+            description: "Current"
+          - code: "social"
+            description: "Social"
+      - id: substance_use
+        name: Substance Use
+        description: "Other substance use history as documented"
+        data_type: string
+        length: null

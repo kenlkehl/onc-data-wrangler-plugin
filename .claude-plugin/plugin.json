@@ -1,0 +1,8 @@
+{
+  "name": "onc-data-wrangler",
+  "description": "Oncology data wrangling: extract structured data from clinical notes, build privacy-preserving DuckDB databases, query cohorts, reproduce published paper results, and perform individual-level analysis.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Kenneth Kehl"
+  }
+}
