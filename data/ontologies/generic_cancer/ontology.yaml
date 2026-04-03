@@ -1,7 +1,7 @@
 id: generic_cancer
 name: Generic Cancer
-version: "1.0.0"
-description: "Cancer-type-agnostic extraction fields (diagnosis, biomarker, treatment, surgery, radiation, burden, social history)"
+version: "1.1.0"
+description: "Cancer-type-agnostic extraction fields covering both solid tumors and hematologic malignancies (diagnosis, biomarker, treatment, surgery, transplant, radiation, burden, social history)"
 is_free_text: false
 
 categories:
@@ -105,24 +105,41 @@ categories:
   - id: cancer_biomarker
     name: Cancer Biomarker
     description: >-
-      Cancer biomarker testing results. Note that EGFR should only refer to an
-      EGFR mutation, not estimated GFR (which is kidney function). PSA refers to
-      prostate-specific antigen testing for prostate cancer.
+      Cancer biomarker testing results. Includes IHC, molecular/NGS, FISH,
+      cytogenetics, flow cytometry immunophenotyping, serum tumor markers, and
+      disease-specific labs. Note that EGFR should only refer to an EGFR
+      mutation, not estimated GFR (which is kidney function). PSA refers to
+      prostate-specific antigen testing for prostate cancer. For hematologic
+      malignancies, extract flow cytometry markers (CD antigens), cytogenetic
+      findings (karyotype, translocations like t(9;22)), FISH results,
+      MRD status, serum markers (M-protein, free light chains, beta-2
+      microglobulin, LDH), and blast percentage.
     per_diagnosis: true
     items:
       - id: biomarker_type
         name: Biomarker Type
-        description: "Type of biomarker assay (e.g., mutation, rearrangement, expression, amplification, serum_marker)"
+        description: >-
+          Type of biomarker assay. Use: mutation, rearrangement, expression,
+          amplification, deletion, serum_marker, flow_cytometry,
+          cytogenetics, fish, mrd, composite (for TMB, MSI, etc.)
         data_type: string
         length: null
       - id: biomarker_tested
         name: Biomarker Tested
-        description: "Name of the biomarker tested"
+        description: >-
+          Name of the biomarker tested. For flow cytometry use CD marker names
+          (e.g., CD19, CD34, TdT). For cytogenetics use the translocation or
+          karyotype (e.g., t(9;22), del(17p)). For serum markers use the
+          marker name (e.g., M-protein, free_light_chains, beta2_microglobulin,
+          CA-125, CEA, PSA, LDH). For MRD use "MRD".
         data_type: string
         length: null
       - id: biomarker_result
         name: Biomarker Result
-        description: "Result of the biomarker test (e.g., positive, negative, 60%, L858R mutant, MSI-high)"
+        description: >-
+          Result of the biomarker test. Examples: positive, negative, 60%,
+          L858R mutant, MSI-high, 2.6 g/dL, 85% blasts, MRD-negative,
+          t(9;22) detected, kappa restricted, 10^-6 sensitivity.
         data_type: string
         length: null
 
@@ -156,23 +173,72 @@ categories:
 
   - id: cancer_surgery
     name: Cancer Surgery
-    description: "Cancer surgical procedures performed on the patient."
+    description: >-
+      Cancer surgical procedures performed on the patient. For hematologic
+      malignancies, include hematopoietic stem cell transplant (HSCT) here
+      as well as in the dedicated transplant category.
     per_diagnosis: true
     items:
       - id: surgery_type
         name: Surgery Type
-        description: "Type of surgical procedure performed"
+        description: >-
+          Type of surgical procedure performed. For HSCT use:
+          autologous_hsct, allogeneic_hsct, or cord_blood_transplant.
         data_type: string
         length: null
       - id: surgery_site
         name: Surgery Site
-        description: "Anatomical site of surgery"
+        description: "Anatomical site of surgery. For HSCT, use 'bone marrow' or 'peripheral blood stem cells'."
         data_type: string
         length: null
       - id: surgery_date
         name: Surgery Date
         description: "Date of surgery, as specific as is known. Format YYYY-MM-DD when possible."
         data_type: date
+        length: null
+
+  - id: hematopoietic_transplant
+    name: Hematopoietic Stem Cell Transplant
+    description: >-
+      Details of hematopoietic stem cell transplant (HSCT). Only extract for
+      patients who received HSCT (autologous or allogeneic). Leave this
+      category empty for patients who did not receive transplant.
+    per_diagnosis: true
+    items:
+      - id: transplant_type
+        name: Transplant Type
+        description: "autologous, allogeneic_matched_related, allogeneic_matched_unrelated, allogeneic_haploidentical, cord_blood"
+        data_type: string
+        length: null
+      - id: conditioning_regimen
+        name: Conditioning Regimen
+        description: "Conditioning regimen drugs and intensity (e.g., high-dose melphalan 200 mg/m2, myeloablative Bu/Cy, reduced intensity Flu/Mel)"
+        data_type: string
+        length: null
+      - id: transplant_date
+        name: Transplant Date
+        description: "Date of transplant (Day 0). Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: stem_cell_source
+        name: Stem Cell Source
+        description: "Source of stem cells: peripheral_blood, bone_marrow, cord_blood"
+        data_type: string
+        length: null
+      - id: gvhd_acute
+        name: Acute GVHD
+        description: "Acute graft-versus-host disease occurrence and grade (e.g., Grade II skin/liver, none)"
+        data_type: string
+        length: null
+      - id: gvhd_chronic
+        name: Chronic GVHD
+        description: "Chronic GVHD occurrence and severity (e.g., mild limited, moderate extensive, none)"
+        data_type: string
+        length: null
+      - id: transplant_response
+        name: Transplant Response
+        description: "Best response after transplant (e.g., CR, sCR, VGPR, PR, MRD-negative)"
+        data_type: string
         length: null
 
   - id: cancer_radiation_therapy
@@ -206,12 +272,16 @@ categories:
     description: >-
       Cancer burden and disease status assessments. Progression/worsening should
       only be called if the tumor is growing. If burden_type is cancer_site, add
-      another cancer_site subfield to specify the location.
+      another cancer_site subfield to specify the location. For hematologic
+      malignancies, use standardized response criteria: CR (complete remission),
+      CRi (CR with incomplete count recovery), VGPR (very good partial
+      response), PR (partial response), sCR (stringent complete response),
+      MRD-negative, stable disease, progressive disease, relapse.
     per_diagnosis: true
     items:
       - id: burden_assessor_type
         name: Burden Assessor Type
-        description: "Type of clinician making the assessment (e.g., radiologist, oncologist)"
+        description: "Type of clinician making the assessment (e.g., radiologist, oncologist, hematologist, pathologist)"
         data_type: string
         length: null
       - id: burden_assessment_date
@@ -226,11 +296,23 @@ categories:
         length: null
         valid_values:
           - code: "response/improvement"
-            description: "Response or improvement"
+            description: "Response or improvement (includes CR, sCR, VGPR, PR, MRD-negative for heme)"
           - code: "progression/worsening"
-            description: "Progression or worsening"
+            description: "Progression or worsening (includes relapse, refractory, rising M-protein for heme)"
+          - code: "stable"
+            description: "Stable disease / no change"
           - code: "cancer_site"
             description: "Cancer site indication"
+      - id: burden_detail
+        name: Burden Detail
+        description: >-
+          Specific response category or quantitative measure. For solid tumors:
+          RECIST response (CR, PR, SD, PD), tumor size change. For heme:
+          CR, CRi, sCR, VGPR, PR, MRD-negative (with sensitivity level),
+          morphologic remission, molecular remission, blast percentage,
+          M-protein level, free light chain ratio.
+        data_type: string
+        length: null
       - id: cancer_site
         name: Cancer Site
         description: "Location of cancer burden when burden_type is cancer_site"

@@ -141,3 +141,23 @@ Write the result as a JSON file to the output path specified in your task prompt
 - **Handle missing data**: If no evidence exists, don't force an extraction -- skip the field
 - **Date formats**: Extract dates in the format specified by the field definition
 - **Multiple values**: If a field can have only one value but multiple are found, choose the most recent or most specific one and note the conflict in evidence
+
+## HEMATOLOGIC MALIGNANCY GUIDANCE
+
+When the patient has a hematologic malignancy (leukemia, lymphoma, myeloma, MDS, MPN):
+
+1. **Set cancer_category** to the appropriate value (leukemia, lymphoma, myeloma, other_hematologic)
+2. **Leave TNM fields blank** (t_stage, n_stage, m_stage) -- TNM does not apply. Exception: lymphoma may use Ann Arbor staging.
+3. **Use heme_staging_system and heme_stage** instead. Extract the disease-specific system:
+   - Myeloma: ISS (I/II/III), R-ISS (I/II/III), Durie-Salmon (IA/IIA/IIIA/IIIB)
+   - ALL/AML: ELN risk (favorable/intermediate/adverse), or risk stratification (standard/high/very high)
+   - CLL: Rai (0-IV), Binet (A/B/C)
+   - Lymphoma: Ann Arbor (I-IV with A/B/E/S modifiers), IPI/FLIPI/MIPI
+   - MDS: IPSS/IPSS-R
+4. **Extract ALL flow cytometry markers** as biomarkers with biomarker_type="flow_cytometry"
+5. **Extract cytogenetic findings** (karyotype, translocations) with biomarker_type="cytogenetics"
+6. **Extract FISH results** individually with biomarker_type="fish"
+7. **Extract MRD status** with biomarker_type="mrd" -- include sensitivity level if stated
+8. **Extract disease-specific serum markers** (M-protein, FLC, beta-2 microglobulin, LDH, blast %) with biomarker_type="serum_marker"
+9. **For transplant patients**, populate the hematopoietic_transplant category with type, conditioning, source, GVHD, and response
+10. **For burden assessments**, use heme-specific response criteria (CR, sCR, VGPR, PR, MRD-negative, morphologic remission, molecular remission) in the burden_detail field
