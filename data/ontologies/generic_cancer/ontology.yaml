@@ -15,32 +15,82 @@ categories:
     items:
       - id: primary_site
         name: Primary Site
-        description: "Primary anatomical site of the cancer"
+        description: >-
+          Primary anatomical site of the cancer. For hematologic malignancies
+          use: bone marrow (leukemia, myeloma), lymph nodes (lymphoma),
+          blood (leukemia).
         data_type: string
         length: null
+      - id: cancer_category
+        name: Cancer Category
+        description: "High-level classification: solid_tumor, leukemia, lymphoma, myeloma, or other_hematologic"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "solid_tumor"
+            description: "Solid tumor (carcinoma, sarcoma, melanoma, etc.)"
+          - code: "leukemia"
+            description: "Leukemia (ALL, AML, CLL, CML, etc.)"
+          - code: "lymphoma"
+            description: "Lymphoma (Hodgkin, non-Hodgkin, etc.)"
+          - code: "myeloma"
+            description: "Multiple myeloma / plasma cell neoplasm"
+          - code: "other_hematologic"
+            description: "Other hematologic malignancy (MDS, MPN, etc.)"
       - id: overall_stage_at_diagnosis
         name: Overall Stage at Diagnosis
-        description: "Overall cancer stage at time of diagnosis (e.g., I, IIA, IIIB, IV)"
+        description: >-
+          Overall cancer stage at time of diagnosis. For solid tumors use AJCC
+          stage (e.g., I, IIA, IIIB, IV). For hematologic malignancies use
+          the disease-specific staging system (see heme_staging_system and
+          heme_stage fields).
         data_type: string
         length: null
       - id: t_stage_at_diagnosis
         name: T Stage at Diagnosis
-        description: "Tumor stage component at diagnosis (e.g., T2a, T3b)"
+        description: >-
+          Tumor stage component at diagnosis (e.g., T2a, T3b). Leave blank
+          for hematologic malignancies where TNM does not apply.
         data_type: string
         length: null
       - id: n_stage_at_diagnosis
         name: N Stage at Diagnosis
-        description: "Nodal stage component at diagnosis (e.g., N0, N1, N2, N3)"
+        description: >-
+          Nodal stage component at diagnosis (e.g., N0, N1, N2, N3). Leave
+          blank for hematologic malignancies where TNM does not apply (except
+          lymphoma which may use Ann Arbor).
         data_type: string
         length: null
       - id: m_stage_at_diagnosis
         name: M Stage at Diagnosis
-        description: "Metastasis stage component at diagnosis (e.g., M0, M1a, M1b)"
+        description: >-
+          Metastasis stage component at diagnosis (e.g., M0, M1a, M1b). Leave
+          blank for hematologic malignancies where TNM does not apply.
+        data_type: string
+        length: null
+      - id: heme_staging_system
+        name: Hematologic Staging System
+        description: >-
+          Name of the staging/risk system used for hematologic malignancies.
+          Only extract for leukemia, lymphoma, or myeloma. Examples: ISS,
+          R-ISS, Durie-Salmon, Ann Arbor, Rai, Binet, ELN risk, IPSS,
+          CNS-IPI, FLIPI, MIPI. Leave blank for solid tumors.
+        data_type: string
+        length: null
+      - id: heme_stage
+        name: Hematologic Stage/Risk
+        description: >-
+          Stage or risk group under the heme_staging_system. Examples:
+          ISS III, R-ISS II, Durie-Salmon IIIA, Ann Arbor IVB, Rai 0,
+          Binet A, ELN favorable, IPSS Low. Leave blank for solid tumors.
         data_type: string
         length: null
       - id: histology
         name: Histology
-        description: "Histological type of the cancer"
+        description: >-
+          Histological type of the cancer. For hematologic malignancies,
+          include WHO classification and lineage (e.g., precursor B-cell ALL,
+          IgG kappa multiple myeloma, diffuse large B-cell lymphoma).
         data_type: string
         length: null
       - id: diagnosis_date
