@@ -1,0 +1,32 @@
+table_name: encounters
+description: One row per clinical encounter (office visit, procedure, imaging study, etc.)
+columns:
+  - name: patient_id
+    type: string
+    description: Unique patient identifier
+  - name: date
+    type: date
+    description: Date of encounter (YYYY-MM-DD)
+  - name: diagnosis_code
+    type: string
+    description: Primary ICD-10 diagnosis code for the encounter
+  - name: department
+    type: string
+    description: Clinical department (Medical Oncology, Radiation Oncology, Surgery, Radiology, Pathology, Emergency, Primary Care)
+  - name: visit_type
+    type: string
+    description: Type of visit (New Patient, Follow-up, Infusion, Procedure, Imaging, Inpatient, ED)
+generation_instructions: |
+  Generate one encounter row for each event that represents a clinical interaction.
+  Map event types to departments logically:
+    clinical_note -> relevant specialty (Medical Oncology, Radiation Oncology, Surgery, etc.)
+    imaging_report -> Radiology
+    pathology_report -> Pathology
+    surgery -> Surgery
+    systemic -> Medical Oncology (visit_type: Infusion)
+    radiation -> Radiation Oncology
+    ngs_report -> Pathology (visit_type: Procedure)
+    adverse_event -> Emergency or Medical Oncology depending on severity
+  Use realistic ICD-10 codes for the cancer type and any comorbidities.
+  Dates should form a coherent chronological timeline spanning the disease trajectory.
+  Demographics and diagnosis events do NOT generate encounter rows.

@@ -1,13 +1,32 @@
 {
   "permissions": {
     "allow": [
-      "Bash(uv:*)",
-      "Bash(python3:*)",
-      "Bash(python:*)",
-      "Bash(pip:*)",
-      "Bash(ls:*)",
-      "Bash(wc:*)",
-      "Bash(head:*)",
+      "Read",
+      "Edit",
+      "Glob",
+      "Grep",
+
+      "Bash(uv run *)",
+      "Bash(uv pip *)",
+      "Bash(uv sync*)",
+      "Bash(python3 *)",
+      "Bash(python3 -c *)",
+      "Bash(python3 <<*)",
+      "Bash(python *)",
+      "Bash(pip *)",
+
+      "Bash(ls *)",
+      "Bash(ls)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(mkdir *)",
+      "Bash(sort *)",
+      "Bash(find *)",
+      "Bash(diff *)",
+      "Bash(file *)",
+
       "Write(*.json)",
       "Write(*.yaml)",
       "Write(*.yml)",
@@ -15,6 +34,8 @@
       "Write(*.xlsx)",
       "Write(*.md)",
       "Write(*.txt)",
+      "Write(*.jsonl)",
+
       "mcp__onc_query__*"
     ]
   }

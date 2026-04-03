@@ -59,6 +59,7 @@ class CohortStageConfig:
     death_date_column: Optional[str] = None
     death_indicator_column: Optional[str] = None
     followup_date: str = "2025-07-01"
+    id_prefix: str = "patient"
 
 
 @dataclass
