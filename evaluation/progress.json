@@ -1,0 +1,9 @@
+{
+  "phase_a": {"status": "in_progress"},
+  "phase_b": {"status": "pending"},
+  "phase_c": {"status": "pending"},
+  "phase_d": {"status": "pending"},
+  "phase_e": {"status": "pending"},
+  "phase_f": {"status": "pending"},
+  "phase_g": {"status": "pending"}
+}

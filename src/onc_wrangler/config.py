@@ -318,9 +318,15 @@ def save_config(config: ProjectConfig, path: str):
     """Save a ProjectConfig to a YAML file."""
     import dataclasses
 
+    # Keys that should never be serialized to disk
+    _secret_keys = {"api_key"}
+
     def _to_dict(obj):
         if dataclasses.is_dataclass(obj) and not isinstance(obj, type):
-            return {k: _to_dict(v) for k, v in dataclasses.asdict(obj).items()}
+            return {
+                k: _to_dict(v) for k, v in dataclasses.asdict(obj).items()
+                if k not in _secret_keys
+            }
         return obj
 
     data = {

@@ -17,13 +17,17 @@ from ..config import ProjectConfig
 logger = logging.getLogger(__name__)
 
 # Substrings matched case-insensitively to detect PII columns
-_PII_COLUMN_SUBSTRINGS = {"mrn", "ssn"}
+_PII_COLUMN_SUBSTRINGS = {"mrn", "ssn", "phone", "email", "address", "zip_code", "postal"}
 
 # Exact column names (compared case-insensitively) that are PII
 _PII_COLUMN_NAMES_LOWER = {
     "last_nm", "first_nm", "middle_nm",
     "last_name", "first_name", "middle_name",
     "patient_name", "full_name",
+    "dob", "date_of_birth",
+    "street", "city", "state", "zip", "county",
+    "phone_number", "email_address", "fax",
+    "insurance_id", "policy_number",
 }
 
 

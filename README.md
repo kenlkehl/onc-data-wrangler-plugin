@@ -14,6 +14,7 @@ A Claude Code plugin for oncology data wrangling: extracting structured data fro
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
 | Red-Team | `/onc-data-wrangler:red-team` | Test agent resistance to prompt injection PHI exfiltration |
 | Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description |
+| Answer Questions | `/onc-data-wrangler:answer-questions` | Answer clinical questions about patients from their notes with confidence scores |
 
 ## Extraction LLM Backends
 
@@ -73,9 +74,43 @@ The query system supports three privacy modes (set in project config):
 - **matchminer_ai**: MatchMiner AI clinical fields
 - **clinical_summary**: Free-text clinical summaries
 
-## Setup
+## Quick Start
 
 ```bash
+# 1. Install uv (Python package manager) if you don't have it
+curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
+
+# 2. Install dependencies (requires Python 3.13+)
+cd /path/to/onc-data-wrangler-plugin
+uv sync
+
+# 3. Launch Claude Code with the plugin
+claude --plugin-dir .
+
+# 4. Set up a project (interactive wizard)
+#    In Claude Code, type: /onc-data-wrangler:setup-project
+
+# 5. Generate synthetic test data
+#    /onc-data-wrangler:generate-synthetic-data
+
+# 6. Run the full pipeline
+#    /onc-data-wrangler:run-pipeline
+
+# 7. Query your database
+#    /onc-data-wrangler:query-database
+```
+
+## Setup
+
+**Requirements:**
+- Python 3.13 or higher
+- [uv](https://docs.astral.sh/uv/) package manager
+
+```bash
+# Install uv if needed
+curl -LsSf https://astral.sh/uv/install.sh | sh
+# Or: pip install uv
+
 # Install dependencies
 cd /path/to/onc-data-wrangler-plugin
 uv sync
@@ -83,6 +118,55 @@ uv sync
 # Test with Claude Code
 claude --plugin-dir .
 ```
+
+## Security Considerations
+
+### API Key Management
+
+API keys are resolved from environment variables — **never store keys in config files**:
+- `ANTHROPIC_API_KEY` for Claude API (`provider: anthropic`)
+- `OPENAI_API_KEY` for OpenAI-compatible servers (`provider: openai`)
+- `AZURE_OPENAI_API_KEY` for Azure deployments (`provider: azure`)
+- `ANTHROPIC_VERTEX_PROJECT_ID` for Vertex AI (`provider: vertex`)
+
+### Protected Health Information (PHI)
+
+**For data that cannot leave your network**, use a local model:
+```yaml
+extraction:
+  llm:
+    provider: openai   # or vllm
+    base_url: "http://localhost:8000/v1"
+    model: "your-local-model"
+```
+This keeps all clinical text on-premises. The `openai` and `vllm` providers work with any OpenAI-compatible API server (vLLM, Ollama, TGI, etc.).
+
+### De-identification
+
+The database builder applies multiple layers of de-identification:
+- **PII column stripping**: Columns containing MRN, SSN, patient names, addresses, phone numbers, and email are automatically removed
+- **ID anonymization**: Original patient IDs are replaced with sequential de-identified IDs (e.g., `patient_000001`)
+- **Date de-identification** (optional): When `database.deidentify_dates: true`, dates are converted to years-since-birth and calendar year only
+
+### Query Privacy
+
+The query system enforces privacy at multiple levels (see [Privacy Modes](#privacy-modes) table):
+- **SQL validation**: Blocks DDL/DML statements, `SELECT *`, and forbidden columns (e.g., `record_id`) in output
+- **Aggregation required**: In `aggregate-only` mode, queries must contain `GROUP BY` or aggregate functions
+- **Cell suppression**: Counts below `min_cell_size` (default: 10) are replaced with `<N`; associated rates are marked `suppressed`
+- **Output size guard**: Queries returning more than 50% of the cohort are rejected to prevent row-level data exfiltration
+- **Audit logging**: In `individual-with-audit` mode, all queries are logged with timestamps and result hashes to `query_audit.jsonl`
+
+### Agent Isolation
+
+Subagent workers (extraction, analysis, validation) are sandboxed:
+- No internet access (`WebSearch` and `WebFetch` are disallowed)
+- Each worker processes exactly one patient or question
+- Workers cannot communicate with each other or access other patients' data
+
+### Red-Team Testing
+
+Test your deployment's resistance to prompt injection attacks using `/onc-data-wrangler:red-team`. This runs scenarios that attempt to trick the agent into exfiltrating synthetic PHI data, and reports pass/fail rates.
 
 ## Configuration
 
@@ -110,85 +194,32 @@ Plugin (skills, agents, MCP server)
       └── synthetic/          - Synthetic data generation pipeline
 ```
 
-## Reference: Plugin Marketplace / Installation Notes
+## Distribution
 
-*Captured from research session (2026-04-02)*
+### Local testing
 
-### Does this plugin need a `marketplace.json`?
-
-**No — not for basic installation.** The existing `.claude-plugin/plugin.json` (name, description, version, author) is sufficient for:
-
-- **Local testing**: `claude --plugin-dir ./onc-data-wrangler-plugin`
-- **Direct install from GitHub**: `/plugin install` pointing at the repo
-
-### When you DO need `marketplace.json`
-
-You need `.claude-plugin/marketplace.json` to create a **marketplace** — a catalog that lets others discover and install plugins via `/plugin marketplace add`. This is how teams/communities distribute collections of plugins.
-
-#### Directory structure for a marketplace
-
-```
-your-repo/
-  .claude-plugin/
-    plugin.json          # already exists
-    marketplace.json     # add this for marketplace distribution
-  plugins/
-    onc-data-wrangler/
-      .claude-plugin/
-        plugin.json
-      ...
+```bash
+claude --plugin-dir ./onc-data-wrangler-plugin
 ```
 
-#### Minimal `marketplace.json` example
+### Install from GitHub
+
+```bash
+/plugin install owner/repo
+```
+
+### Marketplace distribution
+
+To create a discoverable plugin marketplace, add `.claude-plugin/marketplace.json`:
 
 ```json
 {
   "name": "your-marketplace-name",
-  "owner": {
-    "name": "Kenneth Kehl"
-  },
+  "owner": { "name": "Your Name" },
   "plugins": [
-    {
-      "name": "onc-data-wrangler",
-      "source": "./",
-      "description": "Oncology data wrangling plugin"
-    }
+    { "name": "onc-data-wrangler", "source": "./", "description": "Oncology data wrangling plugin" }
   ]
 }
 ```
 
-#### Required `marketplace.json` fields
-
-| Field     | Type   | Description                                      |
-|-----------|--------|--------------------------------------------------|
-| `name`    | string | Marketplace identifier (kebab-case, no spaces)   |
-| `owner`   | object | Maintainer info (`name` required, `email` optional) |
-| `plugins` | array  | List of plugins, each with `name` and `source`   |
-
-#### Plugin source types in marketplace
-
-- **Relative path**: `"source": "./plugins/my-plugin"` (within same repo)
-- **GitHub**: `{"source": "github", "repo": "owner/repo", "ref": "v1.0"}`
-- **Git URL**: `{"source": "url", "url": "https://gitlab.com/team/plugin.git"}`
-- **Git subdirectory**: `{"source": "git-subdir", "url": "...", "path": "tools/plugin"}`
-- **npm**: `{"source": "npm", "package": "@org/plugin", "version": "^2.0"}`
-
-#### User-facing commands
-
-```bash
-# Add a marketplace
-/plugin marketplace add owner/repo
-/plugin marketplace add ./local-path
-
-# Install a plugin from a marketplace
-/plugin install plugin-name@marketplace-name
-
-# Validate marketplace structure
-claude plugin validate .
-```
-
-#### Sources
-
-- [Create and distribute a plugin marketplace - Claude Code Docs](https://code.claude.com/docs/en/plugin-marketplaces)
-- [Official Claude Plugins Directory](https://github.com/anthropics/claude-plugins-official)
-- [Claude Code Plugin Template](https://github.com/ivan-magda/claude-code-plugin-template)
+Users can then discover and install via `/plugin marketplace add owner/repo`.
