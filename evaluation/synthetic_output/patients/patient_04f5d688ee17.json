@@ -1,5 +1,8 @@
 {
   "patient_id": "patient_04f5d688ee17",
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr",
   "events": [
     {
       "type": "demographics",
@@ -90,201 +93,201 @@
     {
       "event_index": 2,
       "event_type": "pathology_report",
-      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nCT-guided percutaneous biopsy of the right lower lobe mass reveals moderately to poorly differentiated adenocarcinoma, solid predominant pattern with focal mucinous features. TTF-1 positive, Napsin A weakly positive, CK7 positive, p40 negative. Tumor invades visceral pleura. Adequate tissue submitted for molecular testing."
+      "text": "SURGICAL PATHOLOGY REPORT\n\nSPECIMEN ID: SP-24-08217\n\nTYPE OF SPECIMEN: CT-guided percutaneous core needle biopsy, right lower lobe lung mass\n\nCLINICAL HISTORY: 68-year-old male with large right lower lobe mass and mediastinal lymphadenopathy identified on chest CT. Biopsy for tissue diagnosis.\n\nGROSS PATHOLOGY:\nReceived in formalin labeled \"right lower lobe lung mass\" are four tan-white core tissue fragments measuring 1.0 to 1.5 cm in length and 0.1 cm in diameter. The tissue is tan-white and firm. Entirely submitted in one cassette.\n\nMICROSCOPIC FINDINGS:\nSections show cores of pulmonary parenchyma extensively infiltrated by a malignant epithelial neoplasm arranged in solid sheets and nests with focal glandular differentiation. The tumor cells are large with high nuclear-to-cytoplasmic ratios, vesicular chromatin, prominent nucleoli, and moderate amounts of eosinophilic cytoplasm. Focally, intracytoplasmic mucin is identified. The tumor invades the visceral pleura as evidenced by elastic stain. Mitotic figures are frequent (>10 per 10 HPF). Areas of tumor necrosis are present.\n\nHistologic subtype: Adenocarcinoma, solid predominant pattern with focal mucinous features\nGrade: Moderately to poorly differentiated\n\nANCILLARY STUDIES / IMMUNOHISTOCHEMISTRY:\n  TTF-1: Positive (diffuse nuclear staining)\n  Napsin A: Weakly positive (focal cytoplasmic staining)\n  CK7: Positive (diffuse membranous staining)\n  p40: Negative\n  CK20: Negative\n  CDX2: Negative\n  Synaptophysin: Negative\n  Chromogranin: Negative\n  Ki-67 proliferation index: Approximately 40%\n\nPD-L1 (22C3 pharmDx): Tumor Proportion Score (TPS) 15%\n\nMolecular testing: Tissue block submitted for comprehensive genomic profiling (FoundationOne CDx)\n\nDIAGNOSIS:\nRight lower lobe, CT-guided core biopsy:\n- Moderately to poorly differentiated adenocarcinoma, solid predominant with focal mucinous features\n- Visceral pleural invasion present\n- TTF-1 positive, consistent with pulmonary primary\n- PD-L1 TPS 15%"
     },
     {
       "event_index": 3,
       "event_type": "ngs_report",
-      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nComprehensive genomic profiling (FoundationOne CDx) on right lower lobe biopsy. EGFR exon 21 L858R mutation detected (VAF 32%). TP53 G245S mutation (VAF 30%). RB1 splice site mutation (VAF 15%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 15%. TMB 5 mutations/Mb. Microsatellite stable."
+      "text": "COMPREHENSIVE GENOMIC PROFILING REPORT\n\nTest Performed: FoundationOne CDx (Foundation Medicine, Inc.)\nPlatform: Hybrid-capture based next-generation sequencing of 324 genes\n\nSPECIMEN INFORMATION:\nSpecimen Type: Formalin-fixed, paraffin-embedded (FFPE) tissue\nSpecimen Site: Right lower lobe, CT-guided core biopsy\nTumor Content: 40%\nSpecimen Received: Adequate for testing\n\nPATIENT DIAGNOSIS: Non-small cell lung cancer, adenocarcinoma\n\nGENOMIC FINDINGS:\n\nKnown and Likely Pathogenic Alterations:\n\n1. EGFR L858R (exon 21)\n   Variant Allele Frequency (VAF): 32%\n   Tier: FDA-approved targeted therapy available\n   Clinical Significance: Activating mutation. Associated with sensitivity to EGFR tyrosine kinase inhibitors including erlotinib, gefitinib, afatinib, and osimertinib.\n\n2. TP53 G245S (exon 7)\n   Variant Allele Frequency (VAF): 30%\n   Tier: Pathogenic - no directly targeted therapy\n   Clinical Significance: Loss-of-function missense mutation in the DNA binding domain. Co-occurring TP53 mutations in EGFR-mutant NSCLC have been associated with shorter duration of response to EGFR TKIs in some series.\n\n3. RB1 splice site mutation (intron 17)\n   Variant Allele Frequency (VAF): 15%\n   Tier: Pathogenic - no directly targeted therapy\n   Clinical Significance: Predicted to disrupt normal splicing resulting in loss of function. RB1 alterations in EGFR-mutant NSCLC may be associated with small cell transformation upon resistance.\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n- ARID1A P946L (VAF 8%)\n- SMARCA4 R885H (VAF 6%)\n\nPERTINENT NEGATIVES:\nNo alterations detected in: ALK, ROS1, BRAF, KRAS, NRAS, MET (amplification or exon 14 skipping), RET, HER2/ERBB2, NTRK1/2/3, FGFR1/2/3/4, PIK3CA, STK11, KEAP1\n\nBIOMARKER RESULTS:\n- Tumor Mutational Burden (TMB): 5 mutations/Mb (Low)\n- Microsatellite Status: Microsatellite Stable (MSS)\n- PD-L1 status: Not assessed on this platform (refer to IHC)\n- No evidence of EGFR T790M resistance mutation\n\nGENOME-WIDE METRICS:\n- Loss of Heterozygosity (LOH): 14% of genome\n- No significant copy number amplifications detected\n- No gene rearrangements or fusions detected"
     },
     {
       "event_index": 4,
       "event_type": "clinical_note",
-      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stage IIIB EGFR L858R-mutant adenocarcinoma with chest wall invasion. Unresectable. Concurrent chemoradiation is standard for stage III, but presence of EGFR driver mutation favors TKI-based approach. Plan: Per LAURA trial data, initiate concurrent chemoradiation followed by consolidation osimertinib. Discuss with radiation oncology.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+      "text": "CHIEF COMPLAINT:\nNewly diagnosed right lower lobe lung mass, referred for medical oncology evaluation.\n\nHISTORY OF PRESENT ILLNESS:\nThis is a 68-year-old African American gentleman who presents to Medical Oncology for evaluation of a newly diagnosed right lower lobe lung mass. The patient initially presented to his primary care physician approximately 6 weeks ago with complaints of persistent cough, mild hemoptysis, and right-sided chest discomfort. He reports a 15-pound unintentional weight loss over the preceding 3 months. He also endorses progressive dyspnea on exertion, which he had attributed to his known COPD. A chest X-ray showed a large right lower lobe opacity prompting a CT chest which revealed a 5.8 cm right lower lobe mass with chest wall invasion and enlarged subcarinal and right paratracheal lymph nodes measuring up to 2.3 cm. PET/CT demonstrated intensely FDG-avid right lower lobe mass (SUV max 14.2) with FDG-avid mediastinal lymphadenopathy (SUV max 8.7). No distant metastatic disease was identified. MRI brain was negative for intracranial disease.\n\nA CT-guided core biopsy was performed and pathology confirmed moderately to poorly differentiated adenocarcinoma, solid predominant pattern with mucinous features. IHC: TTF-1 positive, Napsin A weakly positive, CK7 positive, p40 negative, consistent with pulmonary primary. PD-L1 TPS 15%.\n\nComprehensive genomic profiling via FoundationOne CDx was completed and reveals EGFR exon 21 L858R mutation (VAF 32%), TP53 G245S, and RB1 splice site mutation. No ALK, ROS1, BRAF, KRAS, MET, or RET alterations. TMB low at 5 mut/Mb. MSS.\n\nStaging is T4N2M0, Stage IIIB.\n\nREVIEW OF SYSTEMS:\nPositive: cough (productive, occasionally blood-tinged), dyspnea on exertion, right chest wall pain (4/10), fatigue, decreased appetite, weight loss as above.\nNegative: no fevers, chills, night sweats, headaches, vision changes, bone pain, abdominal pain, bowel or bladder changes.\n\nPAST MEDICAL HISTORY:\n1. COPD - on tiotropium and albuterol PRN\n2. Hypertension - well controlled\n3. Type 2 diabetes mellitus - on metformin, last HbA1c 7.2%\n4. Hyperlipidemia - on atorvastatin\n5. Osteoarthritis of bilateral knees\n\nPAST SURGICAL HISTORY:\n1. Right inguinal hernia repair (2011)\n2. Cholecystectomy (2015)\n\nSOCIAL HISTORY:\nCurrent smoker, 40-pack-year history (1 pack per day x 40 years). Drinks alcohol socially, 2-3 beers per week. Denies illicit drug use. Retired truck driver. Lives with wife. Two adult children who are supportive.\n\nFAMILY HISTORY:\nFather: died of myocardial infarction at age 72\nMother: colon cancer diagnosed at age 70, survived\nBrother: hypertension\nNo known family history of lung cancer.\n\nALLERGIES:\nPenicillin - rash\n\nMEDICATIONS:\n1. Tiotropium 18 mcg inhaled daily\n2. Albuterol 90 mcg inhaler PRN\n3. Lisinopril 20 mg daily\n4. Metformin 1000 mg twice daily\n5. Atorvastatin 40 mg daily\n6. Aspirin 81 mg daily\n7. Acetaminophen 500 mg PRN for knee pain\n\nPHYSICAL EXAMINATION:\nVitals: BP 138/82, HR 78, RR 18, Temp 98.4F, SpO2 94% on room air, Weight 182 lbs (previously 197 lbs 3 months ago), Height 5'10\", BMI 26.1\nGeneral: Alert and oriented, appears chronically ill, mild temporal wasting\nHEENT: Normocephalic, atraumatic. Oropharynx clear. No oral lesions.\nNeck: Supple, no cervical or supraclavicular lymphadenopathy\nChest: Decreased breath sounds at the right base. Scattered expiratory wheezes bilaterally. Dullness to percussion right lower posterior lung field.\nCardiovascular: Regular rate and rhythm, no murmurs, rubs, or gallops\nAbdomen: Soft, non-tender, non-distended. No hepatomegaly. Well-healed cholecystectomy scars.\nExtremities: No edema, no cyanosis, no clubbing\nNeurologic: Cranial nerves II-XII intact. Strength 5/5 all extremities. Sensation intact.\nECOG Performance Status: 1\n\nLAB RESULTS:\nWBC 8.4, Hgb 12.8, Plt 278\nBMP: Na 140, K 4.3, Cl 102, CO2 25, BUN 18, Cr 1.02, Glucose 142\nLFTs: ALT 28, AST 31, Alk Phos 88, Total Bili 0.6, Albumin 3.6\nCEA 12.4 ng/mL (elevated)\nHbA1c 7.2%\n\nIMAGING RESULTS:\nCT chest (reviewed): 5.8 cm right lower lobe mass with chest wall invasion, subcarinal and right paratracheal lymphadenopathy up to 2.3 cm.\nPET/CT: FDG-avid RLL mass SUV max 14.2, FDG-avid mediastinal LN SUV max 8.7. No distant metastases.\nMRI brain: No intracranial metastatic disease.\n\nASSESSMENT:\n68-year-old male with newly diagnosed Stage IIIB (T4N2M0) EGFR L858R-mutant lung adenocarcinoma with chest wall invasion, unresectable disease. PD-L1 TPS 15%. TMB low. Concurrent TP53 and RB1 co-mutations noted.\n\nThis is an unresectable Stage III NSCLC. Standard-of-care historically has been concurrent chemoradiation followed by consolidation durvalumab per the PACIFIC trial. However, the identification of an EGFR L858R driver mutation changes the treatment calculus. EGFR-mutant patients derived limited benefit from durvalumab in PACIFIC subgroup analyses. Recent data from the LAURA trial demonstrated significant PFS benefit with consolidation osimertinib after chemoradiation in EGFR-mutant Stage III NSCLC.\n\nPLAN:\n1. Initiate concurrent chemoradiation: carboplatin AUC 2 weekly x 6 weeks with thoracic RT (60 Gy in 30 fractions) to the RLL primary and involved mediastinal lymph nodes.\n2. Following completion of chemoradiation, plan for consolidation osimertinib 80 mg daily per LAURA trial paradigm, rather than durvalumab.\n3. Discussed treatment plan, goals of therapy, potential toxicities including esophagitis, pneumonitis, myelosuppression, and skin toxicity.\n4. Smoking cessation counseling provided. Referred to smoking cessation program.\n5. Referral to radiation oncology for treatment planning.\n6. CBC and CMP prior to each weekly carboplatin.\n7. Follow-up in 2 weeks for toxicity assessment.\n8. Goals of care discussed at length. Patient understands Stage IIIB disease is not curable but that treatment intent is to maximize disease control and quality of life."
     },
     {
       "event_index": 9,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis after completion of chemoradiation shows decrease in right lower lobe mass from 5.8 cm to 3.2 cm. Mediastinal lymphadenopathy decreased. No distant metastases. Partial response.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: CT Chest/Abdomen/Pelvis with IV Contrast\n\nCLINICAL INDICATION: Non-small cell lung cancer, Stage IIIB. Restaging after completion of concurrent chemoradiation.\n\nCOMPARISON: CT chest/abdomen/pelvis from 8 weeks prior.\n\nTECHNIQUE: Helical CT of the chest, abdomen, and pelvis was performed following administration of 100 mL iohexol IV contrast. Images reconstructed at 1.25 mm axial and coronal reformats.\n\nFINDINGS:\n\nChest:\nLungs: The previously identified right lower lobe mass has decreased in size, now measuring 3.2 x 2.8 cm (previously 5.8 x 4.9 cm). The mass demonstrates decreased density and areas of central cavitation consistent with treatment response. Associated post-radiation changes including ground-glass opacities and linear densities are noted in the right lower lobe radiation field. Mild radiation fibrosis in the right paratracheal region. No new pulmonary nodules. Mild centrilobular emphysema bilateral upper lobes, unchanged.\n\nMediastinum: Previously enlarged subcarinal lymph node now measures 1.2 cm in short axis (previously 2.3 cm). Right paratracheal lymph nodes decreased to 0.9 cm (previously 1.8 cm). No new mediastinal or hilar lymphadenopathy. Heart size normal. No pericardial effusion.\n\nPleura: Small right pleural effusion, trace. No left pleural effusion. No pneumothorax.\n\nChest Wall: Post-radiation soft tissue changes along the right posterior chest wall. Previously noted chest wall invasion less conspicuous. No new chest wall masses.\n\nAbdomen:\nLiver: Normal size and attenuation. No focal hepatic lesions.\nGallbladder: Surgically absent.\nSpleen: Normal size. No focal lesions.\nPancreas: Normal. No ductal dilatation.\nAdrenal glands: Bilateral adrenal glands are normal. No adrenal masses.\nKidneys: Normal size bilaterally. No hydronephrosis or renal masses. Simple 1.2 cm cyst left kidney, unchanged.\nAorta: Mild atherosclerotic calcification. No aneurysm.\n\nPelvis:\nBladder: Normal.\nProstate: Mildly enlarged, consistent with age.\nNo pelvic lymphadenopathy. No free fluid.\n\nBones: Degenerative changes thoracolumbar spine. No suspicious osseous lesions.\n\nIMPRESSION:\n1. Significant decrease in size of right lower lobe primary mass from 5.8 cm to 3.2 cm with post-treatment changes including central cavitation, consistent with partial response per RECIST 1.1 criteria.\n2. Decreased mediastinal lymphadenopathy.\n3. Post-radiation changes in the right lower lobe and right chest wall.\n4. Trace right pleural effusion, likely reactive.\n5. No evidence of distant metastatic disease."
     },
     {
       "event_index": 10,
       "event_type": "clinical_note",
-      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Good response to concurrent chemoradiation. Recovered well from treatment. ECOG 1. Plan: Start consolidation osimertinib 80 mg daily per LAURA trial paradigm for EGFR-mutant Stage III NSCLC after chemoradiation.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+      "text": "CHIEF COMPLAINT:\nFollow-up after completion of concurrent chemoradiation, restaging results.\n\nHISTORY OF PRESENT ILLNESS:\nMr. [PATIENT] is a 68-year-old gentleman with Stage IIIB EGFR L858R-mutant lung adenocarcinoma (T4N2M0) who has completed 6 weeks of concurrent chemoradiation (carboplatin AUC 2 weekly x 6 cycles + 60 Gy in 30 fractions to the RLL and mediastinum). He completed treatment approximately 3 weeks ago.\n\nHe tolerated the treatment reasonably well overall. He developed Grade 2 esophagitis during weeks 4-6, managed with viscous lidocaine and a bland diet, which has since improved to Grade 1. He also experienced Grade 2 radiation dermatitis over the right posterior chest wall treated with silver sulfadiazine, now resolving. He lost approximately 4 kg during treatment but has stabilized his weight over the past week. His appetite is improving. He has mild residual fatigue but is able to perform his activities of daily living independently.\n\nRestaging CT chest/abdomen/pelvis shows partial response with the RLL mass decreasing from 5.8 cm to 3.2 cm. Mediastinal lymphadenopathy also decreased. No distant metastases.\n\nREVIEW OF SYSTEMS:\nPositive: mild residual dysphagia (improving), mild fatigue, persistent cough (improved from baseline), right chest wall tenderness (improving).\nNegative: no fevers, new shortness of breath, hemoptysis, headaches, bone pain, nausea, or diarrhea.\n\nPHYSICAL EXAMINATION:\nVitals: BP 132/78, HR 74, RR 16, Temp 98.2F, SpO2 95% on room air, Weight 178 lbs\nGeneral: Alert, oriented, appears well. Improved from last visit.\nChest: Decreased breath sounds right base, improved. Mild scattered wheezes bilaterally.\nSkin: Resolving erythema and dry desquamation over right posterior chest wall. No moist desquamation.\nAbdomen: Soft, non-tender.\nExtremities: No edema.\nECOG Performance Status: 1\n\nLAB RESULTS:\nWBC 5.8, Hgb 11.6, Plt 198\nCMP: Na 139, K 4.1, Cr 0.98, ALT 24, AST 27, Albumin 3.4\nCEA 6.8 ng/mL (decreased from 12.4 at diagnosis)\n\nASSESSMENT:\n68-year-old male with Stage IIIB EGFR L858R-mutant lung adenocarcinoma, now status post concurrent chemoradiation with partial response. Recovered well from treatment toxicities. CEA trending down.\n\nPLAN:\n1. Start consolidation osimertinib (Tagrisso) 80 mg PO daily, to begin tomorrow.\n2. Reviewed potential side effects of osimertinib with patient: skin rash, diarrhea, paronychia, stomatitis, and rare risk of ILD/pneumonitis (especially important to distinguish from radiation pneumonitis in this setting). Patient to report any new or worsening dyspnea immediately.\n3. Restaging CT in 3 months.\n4. Brain MRI in 3 months (baseline surveillance on osimertinib).\n5. Continue supportive care: tiotropium for COPD, nutritional support to regain weight.\n6. Labs: CBC, CMP, CEA in 4 weeks.\n7. Follow-up in 4 weeks for toxicity assessment."
     },
     {
       "event_index": 13,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT at 3 months on consolidation osimertinib shows stable residual right lower lobe lesion measuring 2.8 cm. Post-radiation fibrotic changes noted. No new disease.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: CT Chest/Abdomen/Pelvis with IV Contrast\n\nCLINICAL INDICATION: NSCLC Stage IIIB, EGFR L858R mutation. On consolidation osimertinib. Restaging at 3 months.\n\nCOMPARISON: CT chest/abdomen/pelvis from 3 months prior (post-chemoradiation restaging).\n\nTECHNIQUE: Helical CT chest/abdomen/pelvis following 100 mL iohexol IV contrast. 1.25 mm reconstructions.\n\nFINDINGS:\n\nChest:\nLungs: The right lower lobe residual lesion measures 2.8 x 2.4 cm (previously 3.2 x 2.8 cm), demonstrating a mild further decrease in size. Surrounding post-radiation fibrotic changes are evolving and maturing, with increasing linear and reticular densities in the right lower lobe. Volume loss in the right lower lobe is slightly increased. No new pulmonary nodules. Stable centrilobular emphysema bilateral upper lobes.\n\nMediastinum: Subcarinal lymph node 0.9 cm, stable. Right paratracheal lymph nodes subcentimeter, stable. No new lymphadenopathy. Heart size normal. No pericardial effusion.\n\nPleura: No pleural effusion. Previously noted trace right effusion has resolved.\n\nChest Wall: Continued evolution of post-radiation changes in the right posterior chest wall soft tissues. No new findings.\n\nAbdomen:\nLiver: No focal lesions. Normal hepatic attenuation.\nAdrenal glands: Normal bilaterally.\nKidneys: Stable 1.2 cm left renal cyst. No new findings.\nNo abdominal lymphadenopathy. Remainder of abdomen unremarkable.\n\nPelvis: Unremarkable. No pelvic lymphadenopathy.\n\nBones: Degenerative changes. No new suspicious osseous lesions.\n\nIMPRESSION:\n1. Mild further decrease in right lower lobe residual lesion, now 2.8 cm (previously 3.2 cm). Evolving post-radiation fibrotic changes.\n2. Stable mediastinal lymph nodes, all subcentimeter.\n3. No evidence of new disease or distant metastases.\n4. Overall stable to improved findings consistent with continued treatment response."
     },
     {
       "event_index": 14,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 6 months shows continued stability. Right lower lobe residual 2.6 cm with surrounding fibrosis. No evidence of progression or distant metastases.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: CT Chest/Abdomen/Pelvis with IV Contrast\n\nCLINICAL INDICATION: NSCLC Stage IIIB, EGFR-mutant. Consolidation osimertinib. 6-month restaging.\n\nCOMPARISON: CT chest/abdomen/pelvis from 3 months prior.\n\nTECHNIQUE: Helical CT chest/abdomen/pelvis with IV contrast. Standard protocol.\n\nFINDINGS:\n\nChest:\nLungs: Right lower lobe residual measures 2.6 x 2.2 cm (previously 2.8 x 2.4 cm). Further maturation of surrounding post-radiation fibrosis with traction bronchiectasis and volume loss in the right lower lobe. The residual density is predominantly fibrotic in character. No new pulmonary nodules or masses. Stable emphysematous changes.\n\nMediastinum: No significant lymphadenopathy. Subcarinal region stable. Heart normal in size.\n\nPleura: No effusion.\n\nAbdomen:\nLiver: Homogeneous, no metastatic disease. No biliary dilatation.\nAdrenal glands: Normal.\nKidneys: Stable left renal cyst. No new findings.\nRemainder unremarkable.\n\nPelvis: Unchanged. No abnormality.\n\nBones: Degenerative changes only. No metastatic osseous disease.\n\nIMPRESSION:\n1. Continued slow decrease in right lower lobe residual, now 2.6 cm (previously 2.8 cm), with maturing post-radiation fibrosis. The residual is increasingly fibrotic in character.\n2. No new intrathoracic or extrathoracic disease.\n3. Continued stable disease with possible ongoing treatment response."
     },
     {
       "event_index": 15,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain at 6 months shows no intracranial metastatic disease.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: MRI Brain with and without Gadolinium Contrast\n\nCLINICAL INDICATION: Non-small cell lung cancer, EGFR-mutant, on osimertinib. Surveillance for brain metastases.\n\nCOMPARISON: MRI brain from 7 months prior (at initial staging).\n\nTECHNIQUE: Multiplanar multisequence MRI of the brain performed before and after administration of 15 mL gadopentetate dimeglumine IV. Sequences include axial T1, T2, FLAIR, DWI, and post-contrast T1 in three planes.\n\nFINDINGS:\nBrain Parenchyma: No intra-axial enhancing lesions identified. No new areas of abnormal signal intensity on FLAIR or T2-weighted sequences. No evidence of intracranial metastatic disease. Mild periventricular and subcortical white matter FLAIR hyperintensities consistent with chronic microvascular ischemic changes, stable compared to prior examination.\n\nExtra-axial Spaces: No extra-axial fluid collections. No leptomeningeal enhancement.\n\nVentricles: Normal in size and configuration. No hydrocephalus.\n\nMidline Structures: No midline shift. Pituitary gland normal in size.\n\nCalvarium: No suspicious calvarial lesions.\n\nIMPRESSION:\n1. No intracranial metastatic disease.\n2. Stable chronic microvascular ischemic white matter changes."
     },
     {
       "event_index": 16,
       "event_type": "clinical_note",
-      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stable disease on consolidation osimertinib at 6 months post-chemoradiation. Tolerating well. COPD stable. Plan: Continue osimertinib. Repeat CT every 3 months, brain MRI every 6 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+      "text": "CHIEF COMPLAINT:\nSix-month follow-up on consolidation osimertinib.\n\nHISTORY OF PRESENT ILLNESS:\nMr. [PATIENT] is a 68-year-old gentleman with Stage IIIB EGFR L858R-mutant lung adenocarcinoma (T4N2M0) who completed concurrent chemoradiation approximately 7 months ago and has been on consolidation osimertinib 80 mg daily for the past 6 months.\n\nHe reports feeling well overall. He developed a mild Grade 1 acneiform rash on his face shortly after starting Tagrisso, which is well controlled with topical hydrocortisone 1% cream. He has occasional loose stools but no frank diarrhea. No paronychia. No stomatitis. No shortness of breath or cough worsening. His chronic COPD cough is at baseline. He has regained 3 of the 4 kg he lost during chemoradiation.\n\nRestaging CT chest/abdomen/pelvis at 6 months shows continued stability with the RLL residual now 2.6 cm, down from 3.2 cm post-chemoRT. Increasing fibrotic character of the residual. No new disease.\n\nMRI brain at 6 months shows no intracranial metastatic disease.\n\nREVIEW OF SYSTEMS:\nPositive: mild acneiform rash (stable), occasional loose stools, mild bilateral knee pain (chronic OA).\nNegative: no dyspnea, hemoptysis, chest pain, headaches, vision changes, seizures, bone pain, nausea, fevers.\n\nPHYSICAL EXAMINATION:\nVitals: BP 130/76, HR 72, RR 16, Temp 98.3F, SpO2 95% on room air, Weight 181 lbs\nGeneral: Well-appearing, good nutritional status.\nSkin: Mild papulopustular rash bilateral cheeks and forehead, Grade 1. No periungual changes.\nChest: Decreased breath sounds right base (chronic post-treatment). Mild expiratory wheezes bilaterally.\nCardiovascular: RRR, no murmurs.\nAbdomen: Soft, non-tender, non-distended.\nExtremities: No edema. No clubbing.\nECOG Performance Status: 1\n\nLAB RESULTS:\nWBC 6.4, Hgb 13.1, Plt 234\nCMP: Na 141, K 4.2, Cr 1.05, ALT 30, AST 28, Albumin 3.8\nCEA 4.2 ng/mL (continued decline; 12.4 at diagnosis, 6.8 post-chemoRT)\n\nASSESSMENT:\n68-year-old male with Stage IIIB EGFR L858R-mutant lung adenocarcinoma, now 6 months on consolidation osimertinib with continued disease control. Imaging shows stable to mildly decreased residual with maturing post-radiation fibrosis. No brain metastases. CEA normalizing. Tolerating osimertinib well with only Grade 1 rash.\n\nPLAN:\n1. Continue osimertinib 80 mg daily.\n2. Continue topical hydrocortisone for rash management.\n3. Repeat CT chest/abdomen/pelvis in 3 months.\n4. Repeat brain MRI in 6 months.\n5. Labs: CBC, CMP, CEA in 6 weeks.\n6. Continue COPD management with tiotropium, albuterol PRN.\n7. Diabetes: HbA1c due at next visit. Continue metformin.\n8. Follow-up in 3 months or sooner if new symptoms."
     },
     {
       "event_index": 17,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 9 months shows stable right lower lobe post-treatment changes. No new nodules or lymphadenopathy. No distant metastases.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: CT Chest/Abdomen/Pelvis with IV Contrast\n\nCLINICAL INDICATION: Lung adenocarcinoma Stage IIIB, EGFR L858R. Consolidation osimertinib. 9-month restaging.\n\nCOMPARISON: CT chest/abdomen/pelvis from 3 months prior.\n\nTECHNIQUE: Helical CT with IV contrast, standard protocol.\n\nFINDINGS:\n\nChest:\nLungs: Right lower lobe post-treatment residual measures approximately 2.5 x 2.1 cm, essentially stable (previously 2.6 x 2.2 cm). Mature post-radiation fibrosis with traction bronchiectasis and volume loss in the right lower lobe, stable to mildly increased. No new pulmonary nodules. Stable emphysema.\n\nMediastinum: No new lymphadenopathy. All previously noted nodes remain subcentimeter and stable.\n\nPleura: No pleural effusion or thickening.\n\nAbdomen:\nAll solid organs unremarkable. No hepatic metastases. Adrenals normal. Stable left renal cyst.\n\nPelvis: Unremarkable.\n\nBones: No new osseous lesions. Degenerative changes stable.\n\nIMPRESSION:\n1. Stable right lower lobe post-treatment changes with mature fibrosis. Residual approximately 2.5 cm, essentially unchanged.\n2. No new intrathoracic or extrathoracic disease.\n3. Stable disease on consolidation osimertinib."
     },
     {
       "event_index": 18,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 12 months shows right lower lobe residual stable at 2.5 cm. Post-radiation fibrosis. No new disease. Ongoing stable disease.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: CT Chest/Abdomen/Pelvis with IV Contrast\n\nCLINICAL INDICATION: NSCLC Stage IIIB, EGFR L858R mutation. On consolidation osimertinib. 12-month restaging.\n\nCOMPARISON: CT chest/abdomen/pelvis from 3 months prior.\n\nTECHNIQUE: Helical CT chest/abdomen/pelvis with IV contrast.\n\nFINDINGS:\n\nChest:\nLungs: Right lower lobe post-treatment residual measures 2.5 x 2.0 cm, stable compared to prior examination. Mature radiation fibrosis with volume loss and traction bronchiectasis in the right lower lobe, stable. No new pulmonary nodules or ground-glass opacities to suggest pneumonitis. Stable bilateral upper lobe centrilobular emphysema.\n\nMediastinum: No lymphadenopathy. Stable post-treatment mediastinal appearance.\n\nPleura: No effusion.\n\nChest Wall: Stable post-radiation changes.\n\nAbdomen:\nLiver: Normal. No metastatic disease.\nAdrenals: Normal bilaterally.\nKidneys: Stable 1.2 cm left renal cyst.\nPancreas, spleen: Normal.\nNo retroperitoneal or mesenteric lymphadenopathy.\n\nPelvis: No significant abnormality.\n\nBones: No suspicious osseous lesions.\n\nIMPRESSION:\n1. Stable right lower lobe post-treatment residual at 2.5 cm with mature radiation fibrosis, unchanged from 3 months prior.\n2. No evidence of disease progression or new metastatic disease.\n3. Continued stable disease on consolidation osimertinib at 12 months."
     },
     {
       "event_index": 19,
       "event_type": "clinical_note",
-      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: One year post-chemoradiation, 12 months on consolidation osimertinib. Excellent disease control. ECOG 1, stable. Plan: Continue osimertinib indefinitely. Surveillance imaging per protocol.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+      "text": "CHIEF COMPLAINT:\nTwelve-month follow-up on consolidation osimertinib.\n\nHISTORY OF PRESENT ILLNESS:\nMr. [PATIENT] is a 68-year-old gentleman with Stage IIIB EGFR L858R-mutant lung adenocarcinoma who completed concurrent chemoradiation approximately 13 months ago and has been on consolidation osimertinib (Tagrisso) 80 mg daily for 12 months.\n\nHe continues to do well clinically. His acneiform rash remains Grade 1, limited to the face, and is well controlled. He denies significant GI side effects. He has had no episodes suggestive of ILD or pneumonitis. His COPD remains stable on his usual inhalers. He is active and able to perform all of his usual activities.\n\nRestaging CT chest/abdomen/pelvis at 12 months shows stable RLL post-treatment residual at 2.5 cm with mature fibrosis, unchanged. No new disease.\n\nREVIEW OF SYSTEMS:\nPositive: mild acneiform rash (stable, Grade 1), chronic mild productive cough (COPD baseline), bilateral knee stiffness (chronic OA).\nNegative: no dyspnea worsening, hemoptysis, weight loss, headaches, bone pain, fevers, night sweats.\n\nPHYSICAL EXAMINATION:\nVitals: BP 128/74, HR 70, RR 16, Temp 98.5F, SpO2 96% on room air, Weight 183 lbs\nGeneral: Well-appearing, good functional status.\nSkin: Mild Grade 1 acneiform rash bilateral cheeks, stable. Nails without paronychia.\nChest: Decreased breath sounds right base (chronic). Mild wheezes on forced expiration.\nCardiovascular: RRR, no murmurs.\nAbdomen: Benign.\nExtremities: No edema.\nECOG Performance Status: 1\n\nLAB RESULTS:\nWBC 6.8, Hgb 13.4, Plt 242\nCMP: Na 140, K 4.0, Cr 1.04, ALT 26, AST 25, Albumin 3.9\nCEA 3.6 ng/mL (within normal range; trend: 12.4 -> 6.8 -> 4.2 -> 3.6)\nHbA1c 7.0%\n\nASSESSMENT:\n68-year-old male with Stage IIIB EGFR L858R-mutant lung adenocarcinoma, now 12 months on consolidation osimertinib with excellent and durable disease control. Stable residual on imaging with maturing fibrosis. CEA normalized. Tolerating treatment well. ECOG 1.\n\nThe LAURA trial demonstrated significant PFS benefit with consolidation osimertinib in this setting. Given his excellent response and tolerance, plan is to continue osimertinib indefinitely or until disease progression or unacceptable toxicity.\n\nPLAN:\n1. Continue osimertinib 80 mg daily indefinitely.\n2. CT chest/abdomen/pelvis in 3 months.\n3. Brain MRI due in approximately 1 month (12-month surveillance from prior).\n4. Labs: CBC, CMP, CEA in 6 weeks.\n5. Diabetes: HbA1c 7.0%, well controlled. Continue metformin.\n6. Continue COPD management.\n7. Annual low-dose screening considerations deferred given active cancer surveillance.\n8. Follow-up in 3 months."
     },
     {
       "event_index": 20,
       "event_type": "imaging_report",
-      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nPET/CT at 15 months shows low-grade FDG uptake in the right lower lobe residual (SUV max 2.8), likely post-treatment changes. No FDG-avid disease elsewhere. No evidence of recurrence.\n\nPlease correlate clinically."
+      "text": "RADIOLOGY REPORT\n\nSTUDY TYPE: PET/CT (18F-FDG)\n\nCLINICAL INDICATION: Non-small cell lung cancer, Stage IIIB, EGFR L858R-mutant. On consolidation osimertinib 15 months. Surveillance.\n\nCOMPARISON: CT chest/abdomen/pelvis from 3 months prior. PET/CT from initial staging (18 months prior).\n\nTECHNIQUE: 12.4 mCi 18F-FDG administered intravenously. Blood glucose at injection: 128 mg/dL. Uptake time: 62 minutes. Whole body PET acquisition from skull vertex to mid-thighs with concurrent low-dose CT for attenuation correction and anatomic correlation.\n\nFINDINGS:\n\nHead/Neck: No abnormal FDG uptake. No cervical lymphadenopathy.\n\nChest:\nThe right lower lobe post-treatment residual demonstrates low-grade FDG uptake with SUV max 2.8 (compared to SUV max 14.2 at initial staging). This is a significant decrease and the residual uptake is at the level expected for post-radiation inflammatory changes and fibrosis. No new FDG-avid pulmonary nodules. Background emphysematous changes noted.\n\nMediastinum: No FDG-avid mediastinal or hilar lymphadenopathy. Previously FDG-avid subcarinal and right paratracheal nodes (SUV max 8.7 at staging) are no longer metabolically active above background.\n\nHeart: Normal myocardial uptake. No pericardial disease.\n\nAbdomen/Pelvis:\nLiver: Homogeneous hepatic uptake. No FDG-avid hepatic lesions.\nAdrenal glands: No abnormal uptake.\nKidneys: Normal. Physiologic urinary tract activity.\nBowel: Physiologic bowel activity. No focal abnormal uptake.\nNo FDG-avid pelvic lymphadenopathy.\n\nMusculoskeletal: No FDG-avid osseous lesions. Degenerative changes without abnormal uptake.\n\nIMPRESSION:\n1. Low-grade FDG uptake in the right lower lobe post-treatment residual (SUV max 2.8), markedly decreased from staging (SUV max 14.2), consistent with post-treatment fibrosis and inflammation rather than active malignancy.\n2. Resolution of previously FDG-avid mediastinal lymphadenopathy.\n3. No FDG-avid disease elsewhere in the body.\n4. No evidence of disease recurrence or progression. Excellent metabolic response to treatment."
     }
   ],
   "tables": {
     "encounters": [
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-05-09",
-        "diagnosis_code": "C34.1",
+        "date": "2024-09-12",
+        "diagnosis_code": "C34.31",
         "department": "Pathology",
         "visit_type": "Procedure"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-06-08",
-        "diagnosis_code": "C34.1",
+        "date": "2024-09-19",
+        "diagnosis_code": "C34.31",
         "department": "Pathology",
         "visit_type": "Procedure"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-07-24",
-        "diagnosis_code": "C34.1",
+        "date": "2024-09-26",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
-        "visit_type": "Follow-up"
+        "visit_type": "New Patient"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-08-07",
-        "diagnosis_code": "C34.1",
+        "date": "2024-10-07",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
         "visit_type": "Infusion"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-09-08",
-        "diagnosis_code": "C34.1",
+        "date": "2024-10-07",
+        "diagnosis_code": "C34.31",
         "department": "Radiation Oncology",
-        "visit_type": "Follow-up"
+        "visit_type": "Procedure"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-11-19",
-        "diagnosis_code": "C34.1",
+        "date": "2024-10-28",
+        "diagnosis_code": "K20.9",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-01-26",
-        "diagnosis_code": "C34.1",
+        "date": "2024-11-04",
+        "diagnosis_code": "L58.1",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-02-25",
-        "diagnosis_code": "C34.1",
+        "date": "2024-11-25",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-03-23",
-        "diagnosis_code": "C34.1",
+        "date": "2024-12-02",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-05-04",
-        "diagnosis_code": "C34.1",
+        "date": "2024-12-03",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
         "visit_type": "Infusion"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-07-20",
-        "diagnosis_code": "C34.1",
+        "date": "2024-12-18",
+        "diagnosis_code": "L70.8",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-09-26",
-        "diagnosis_code": "C34.1",
+        "date": "2025-03-03",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-10-24",
-        "diagnosis_code": "C34.1",
+        "date": "2025-06-02",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-12-18",
-        "diagnosis_code": "C34.1",
+        "date": "2025-06-04",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-01-13",
-        "diagnosis_code": "C34.1",
+        "date": "2025-06-09",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-02-23",
-        "diagnosis_code": "C34.1",
+        "date": "2025-09-01",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-03-02",
-        "diagnosis_code": "C34.1",
+        "date": "2025-12-01",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-06-08",
-        "diagnosis_code": "C34.1",
+        "date": "2025-12-08",
+        "diagnosis_code": "C34.31",
         "department": "Medical Oncology",
         "visit_type": "Follow-up"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-08-28",
-        "diagnosis_code": "C34.1",
+        "date": "2026-03-02",
+        "diagnosis_code": "C34.31",
         "department": "Radiology",
         "visit_type": "Imaging"
       }
@@ -292,151 +295,526 @@
     "labs": [
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-07-24",
+        "date": "2024-09-26",
         "test_name": "WBC",
-        "value": "10.2",
+        "value": "8.4",
         "unit": "10^9/L",
         "reference_range": "4.0-11.0",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-07-24",
+        "date": "2024-09-26",
         "test_name": "Hemoglobin",
-        "value": "10.5",
+        "value": "12.8",
         "unit": "g/dL",
-        "reference_range": "12.0-16.0",
+        "reference_range": "13.5-17.5",
         "abnormal_flag": "L"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-07-24",
+        "date": "2024-09-26",
         "test_name": "Platelets",
-        "value": "217",
+        "value": "278",
         "unit": "10^9/L",
         "reference_range": "150-400",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-07-24",
-        "test_name": "Creatinine",
-        "value": "0.62",
-        "unit": "mg/dL",
-        "reference_range": "0.6-1.2",
+        "date": "2024-09-26",
+        "test_name": "Sodium",
+        "value": "140",
+        "unit": "mmol/L",
+        "reference_range": "136-145",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-08-07",
+        "date": "2024-09-26",
+        "test_name": "Potassium",
+        "value": "4.3",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.1",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Chloride",
+        "value": "102",
+        "unit": "mmol/L",
+        "reference_range": "98-106",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "CO2",
+        "value": "25",
+        "unit": "mmol/L",
+        "reference_range": "22-29",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "BUN",
+        "value": "18",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Creatinine",
+        "value": "1.02",
+        "unit": "mg/dL",
+        "reference_range": "0.7-1.3",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Glucose",
+        "value": "142",
+        "unit": "mg/dL",
+        "reference_range": "70-100",
+        "abnormal_flag": "H"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "ALT",
+        "value": "28",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "AST",
+        "value": "31",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Alkaline Phosphatase",
+        "value": "88",
+        "unit": "U/L",
+        "reference_range": "44-147",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Total Bilirubin",
+        "value": "0.6",
+        "unit": "mg/dL",
+        "reference_range": "0.1-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "CEA",
+        "value": "12.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-5.0",
+        "abnormal_flag": "H"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-09-26",
+        "test_name": "HbA1c",
+        "value": "7.2",
+        "unit": "%",
+        "reference_range": "4.0-5.6",
+        "abnormal_flag": "H"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-10-07",
         "test_name": "WBC",
-        "value": "3.7",
+        "value": "7.9",
         "unit": "10^9/L",
         "reference_range": "4.0-11.0",
-        "abnormal_flag": "L"
+        "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-08-07",
+        "date": "2024-10-07",
         "test_name": "Hemoglobin",
-        "value": "11.1",
+        "value": "12.6",
         "unit": "g/dL",
-        "reference_range": "12.0-16.0",
+        "reference_range": "13.5-17.5",
         "abnormal_flag": "L"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-08-07",
+        "date": "2024-10-07",
         "test_name": "Platelets",
-        "value": "269",
+        "value": "265",
         "unit": "10^9/L",
         "reference_range": "150-400",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2022-08-07",
+        "date": "2024-10-07",
         "test_name": "Creatinine",
-        "value": "0.93",
+        "value": "1.00",
         "unit": "mg/dL",
-        "reference_range": "0.6-1.2",
+        "reference_range": "0.7-1.3",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-03-23",
+        "date": "2024-10-07",
+        "test_name": "ALT",
+        "value": "26",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-10-07",
+        "test_name": "AST",
+        "value": "29",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-10-28",
         "test_name": "WBC",
-        "value": "4.7",
+        "value": "4.2",
         "unit": "10^9/L",
         "reference_range": "4.0-11.0",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-03-23",
+        "date": "2024-10-28",
         "test_name": "Hemoglobin",
-        "value": "15.3",
+        "value": "11.4",
         "unit": "g/dL",
-        "reference_range": "12.0-16.0",
-        "abnormal_flag": "N"
+        "reference_range": "13.5-17.5",
+        "abnormal_flag": "L"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-03-23",
+        "date": "2024-10-28",
         "test_name": "Platelets",
-        "value": "197",
+        "value": "182",
         "unit": "10^9/L",
         "reference_range": "150-400",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2023-03-23",
+        "date": "2024-10-28",
         "test_name": "Creatinine",
-        "value": "0.66",
+        "value": "1.04",
         "unit": "mg/dL",
-        "reference_range": "0.6-1.2",
+        "reference_range": "0.7-1.3",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-01-13",
+        "date": "2024-12-02",
         "test_name": "WBC",
-        "value": "9.7",
+        "value": "5.8",
         "unit": "10^9/L",
         "reference_range": "4.0-11.0",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-01-13",
+        "date": "2024-12-02",
+        "test_name": "Hemoglobin",
+        "value": "11.6",
+        "unit": "g/dL",
+        "reference_range": "13.5-17.5",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "Platelets",
+        "value": "198",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "Sodium",
+        "value": "139",
+        "unit": "mmol/L",
+        "reference_range": "136-145",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "Potassium",
+        "value": "4.1",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.1",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "Creatinine",
+        "value": "0.98",
+        "unit": "mg/dL",
+        "reference_range": "0.7-1.3",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "ALT",
+        "value": "24",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "AST",
+        "value": "27",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "Albumin",
+        "value": "3.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2024-12-02",
+        "test_name": "CEA",
+        "value": "6.8",
+        "unit": "ng/mL",
+        "reference_range": "0.0-5.0",
+        "abnormal_flag": "H"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "WBC",
+        "value": "6.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Hemoglobin",
+        "value": "13.1",
+        "unit": "g/dL",
+        "reference_range": "13.5-17.5",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Platelets",
+        "value": "234",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Sodium",
+        "value": "141",
+        "unit": "mmol/L",
+        "reference_range": "136-145",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Potassium",
+        "value": "4.2",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.1",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Creatinine",
+        "value": "1.05",
+        "unit": "mg/dL",
+        "reference_range": "0.7-1.3",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "ALT",
+        "value": "30",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "AST",
+        "value": "28",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-06-09",
+        "test_name": "CEA",
+        "value": "4.2",
+        "unit": "ng/mL",
+        "reference_range": "0.0-5.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "WBC",
+        "value": "6.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
         "test_name": "Hemoglobin",
         "value": "13.4",
         "unit": "g/dL",
-        "reference_range": "12.0-16.0",
-        "abnormal_flag": "N"
+        "reference_range": "13.5-17.5",
+        "abnormal_flag": "L"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-01-13",
+        "date": "2025-12-08",
         "test_name": "Platelets",
-        "value": "318",
+        "value": "242",
         "unit": "10^9/L",
         "reference_range": "150-400",
         "abnormal_flag": "N"
       },
       {
         "patient_id": "patient_04f5d688ee17",
-        "date": "2024-01-13",
-        "test_name": "Creatinine",
-        "value": "0.95",
-        "unit": "mg/dL",
-        "reference_range": "0.6-1.2",
+        "date": "2025-12-08",
+        "test_name": "Sodium",
+        "value": "140",
+        "unit": "mmol/L",
+        "reference_range": "136-145",
         "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "Potassium",
+        "value": "4.0",
+        "unit": "mmol/L",
+        "reference_range": "3.5-5.1",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.7-1.3",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "ALT",
+        "value": "26",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "AST",
+        "value": "25",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "CEA",
+        "value": "3.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-5.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_04f5d688ee17",
+        "date": "2025-12-08",
+        "test_name": "HbA1c",
+        "value": "7.0",
+        "unit": "%",
+        "reference_range": "4.0-5.6",
+        "abnormal_flag": "H"
       }
     ]
-  },
-  "scenario_index": 0,
-  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
-  "scenario_label": "nsclc_egfr"
+  }
 }
