@@ -1,0 +1,356 @@
+{
+  "demographics_sex": [
+    {
+      "sex": "Male",
+      "n": 51,
+      "pct": 51.0
+    },
+    {
+      "sex": "Female",
+      "n": 49,
+      "pct": 49.0
+    }
+  ],
+  "cancer_types": [
+    {
+      "scenario_label": "nsclc_egfr",
+      "n": 15
+    },
+    {
+      "scenario_label": "breast_her2",
+      "n": 12
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "n": 10
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "n": 10
+    },
+    {
+      "scenario_label": "crc_kras",
+      "n": 10
+    },
+    {
+      "scenario_label": "prostate_mcrpc",
+      "n": 10
+    },
+    {
+      "scenario_label": "dlbcl",
+      "n": 10
+    },
+    {
+      "scenario_label": "aml_flt3",
+      "n": 8
+    },
+    {
+      "scenario_label": "myeloma",
+      "n": 8
+    },
+    {
+      "scenario_label": "pancreatic",
+      "n": 7
+    }
+  ],
+  "age_stats": [
+    {
+      "mean_age": 58.9,
+      "sd_age": 10.8,
+      "min_age": 28,
+      "max_age": 77
+    }
+  ],
+  "staging": [
+    {
+      "scenario_label": "breast_her2",
+      "overall_stage": "Stage IV",
+      "n": 5
+    },
+    {
+      "scenario_label": "breast_her2",
+      "overall_stage": "Stage IIA",
+      "n": 2
+    },
+    {
+      "scenario_label": "breast_her2",
+      "overall_stage": "Stage IIIA",
+      "n": 2
+    },
+    {
+      "scenario_label": "breast_her2",
+      "overall_stage": "Stage IIB",
+      "n": 2
+    },
+    {
+      "scenario_label": "breast_her2",
+      "overall_stage": "Stage IA",
+      "n": 1
+    },
+    {
+      "scenario_label": "dlbcl",
+      "overall_stage": "Stage IV",
+      "n": 5
+    },
+    {
+      "scenario_label": "dlbcl",
+      "overall_stage": "Stage II",
+      "n": 3
+    },
+    {
+      "scenario_label": "dlbcl",
+      "overall_stage": "Stage III",
+      "n": 2
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "overall_stage": "Stage IV",
+      "n": 8
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "overall_stage": "Stage IIIC",
+      "n": 2
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "overall_stage": "Stage IIIA",
+      "n": 1
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "overall_stage": "Stage IIIB",
+      "n": 1
+    },
+    {
+      "scenario_label": "myeloma",
+      "overall_stage": "Stage III",
+      "n": 4
+    },
+    {
+      "scenario_label": "myeloma",
+      "overall_stage": "Stage II",
+      "n": 4
+    },
+    {
+      "scenario_label": "nsclc_egfr",
+      "overall_stage": "Stage IV",
+      "n": 13
+    },
+    {
+      "scenario_label": "nsclc_egfr",
+      "overall_stage": "Stage IIIB",
+      "n": 2
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "overall_stage": "Stage IVA",
+      "n": 3
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "overall_stage": "Stage IVB",
+      "n": 3
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "overall_stage": "Stage IIIA",
+      "n": 2
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "overall_stage": "Stage IIIB",
+      "n": 2
+    }
+  ],
+  "treatments": [
+    {
+      "scenario_label": "aml_flt3",
+      "treatment_type": "systemic",
+      "n": 24
+    },
+    {
+      "scenario_label": "breast_her2",
+      "treatment_type": "radiation",
+      "n": 10
+    },
+    {
+      "scenario_label": "breast_her2",
+      "treatment_type": "surgery",
+      "n": 7
+    },
+    {
+      "scenario_label": "breast_her2",
+      "treatment_type": "systemic",
+      "n": 39
+    },
+    {
+      "scenario_label": "crc_kras",
+      "treatment_type": "radiation",
+      "n": 1
+    },
+    {
+      "scenario_label": "crc_kras",
+      "treatment_type": "surgery",
+      "n": 11
+    },
+    {
+      "scenario_label": "crc_kras",
+      "treatment_type": "systemic",
+      "n": 23
+    },
+    {
+      "scenario_label": "dlbcl",
+      "treatment_type": "radiation",
+      "n": 2
+    },
+    {
+      "scenario_label": "dlbcl",
+      "treatment_type": "surgery",
+      "n": 2
+    },
+    {
+      "scenario_label": "dlbcl",
+      "treatment_type": "systemic",
+      "n": 51
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "treatment_type": "radiation",
+      "n": 4
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "treatment_type": "surgery",
+      "n": 22
+    },
+    {
+      "scenario_label": "melanoma_braf",
+      "treatment_type": "systemic",
+      "n": 20
+    },
+    {
+      "scenario_label": "myeloma",
+      "treatment_type": "radiation",
+      "n": 4
+    },
+    {
+      "scenario_label": "myeloma",
+      "treatment_type": "systemic",
+      "n": 38
+    },
+    {
+      "scenario_label": "nsclc_egfr",
+      "treatment_type": "radiation",
+      "n": 8
+    },
+    {
+      "scenario_label": "nsclc_egfr",
+      "treatment_type": "surgery",
+      "n": 4
+    },
+    {
+      "scenario_label": "nsclc_egfr",
+      "treatment_type": "systemic",
+      "n": 30
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "treatment_type": "radiation",
+      "n": 4
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "treatment_type": "surgery",
+      "n": 2
+    },
+    {
+      "scenario_label": "nsclc_wild",
+      "treatment_type": "systemic",
+      "n": 28
+    },
+    {
+      "scenario_label": "pancreatic",
+      "treatment_type": "radiation",
+      "n": 4
+    },
+    {
+      "scenario_label": "pancreatic",
+      "treatment_type": "surgery",
+      "n": 4
+    },
+    {
+      "scenario_label": "pancreatic",
+      "treatment_type": "systemic",
+      "n": 26
+    },
+    {
+      "scenario_label": "prostate_mcrpc",
+      "treatment_type": "radiation",
+      "n": 13
+    },
+    {
+      "scenario_label": "prostate_mcrpc",
+      "treatment_type": "surgery",
+      "n": 6
+    },
+    {
+      "scenario_label": "prostate_mcrpc",
+      "treatment_type": "systemic",
+      "n": 37
+    }
+  ],
+  "labs": [
+    {
+      "test_name": "Platelets",
+      "n": 547,
+      "mean_val": 238.1,
+      "sd_val": 65.5
+    },
+    {
+      "test_name": "WBC",
+      "n": 547,
+      "mean_val": 7.2,
+      "sd_val": 2.1
+    },
+    {
+      "test_name": "Creatinine",
+      "n": 547,
+      "mean_val": 0.9,
+      "sd_val": 0.2
+    },
+    {
+      "test_name": "Hemoglobin",
+      "n": 547,
+      "mean_val": 12.7,
+      "sd_val": 1.5
+    }
+  ],
+  "encounters": [
+    {
+      "department": "Medical Oncology",
+      "n": 1087,
+      "pct": 54.4
+    },
+    {
+      "department": "Radiology",
+      "n": 516,
+      "pct": 25.8
+    },
+    {
+      "department": "Pathology",
+      "n": 286,
+      "pct": 14.3
+    },
+    {
+      "department": "Surgery",
+      "n": 58,
+      "pct": 2.9
+    },
+    {
+      "department": "Radiation Oncology",
+      "n": 50,
+      "pct": 2.5
+    }
+  ]
+}
