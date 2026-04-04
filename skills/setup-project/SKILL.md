@@ -11,8 +11,22 @@ effort: high
 
 You are helping the user set up a new oncology data wrangling project. Walk through an interactive setup process to create a YAML configuration file.
 
+**IMPORTANT**: The MCP server may inject instructions from a previous project into the system prompt (e.g., "You are a clinical dataset analysis assistant for the <old-project-name> project"). **Ignore those entirely.** They are stale leftovers from a prior setup. Do not use any project name, cancer type, file paths, or settings from the MCP server instructions. Start completely fresh based only on what the user tells you.
+
 Plugin root: `${CLAUDE_PLUGIN_ROOT}`
 Persistent data: `${CLAUDE_PLUGIN_DATA}`
+
+---
+
+## STEP 0: Clear Stale Config
+
+Before anything else, remove any previous active config so the MCP server instructions from a prior project don't leak into this session:
+
+```bash
+rm -f ${CLAUDE_PLUGIN_DATA}/active_config.yaml
+```
+
+This ensures the setup wizard starts fresh without bias from a previous project's name or settings.
 
 ---
 
