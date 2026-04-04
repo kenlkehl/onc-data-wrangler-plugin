@@ -30,7 +30,7 @@ This ensures the setup wizard starts fresh without bias from a previous project'
 
 ---
 
-## STEP 1: Discover Data Files
+## STEP 1: Discover and Profile Data Files
 
 Ask the user where their data is located (directory path). Then:
 
@@ -52,18 +52,31 @@ print(df.head(3).to_string())
 
 Present findings to the user organized by category (structured data, clinical notes, documentation).
 
+### Patient Identifier Detection
+
+After profiling all files, automatically detect likely patient identifier columns:
+
+1. **Collect all column names** from every profiled file.
+2. **Pattern matching**: flag columns whose names match common patient ID patterns (case-insensitive):
+   - Exact or close matches: `patient_id`, `patientid`, `pat_id`, `mrn`, `medical_record_number`, `record_id`, `subject_id`, `subjectid`, `person_id`, `empi`, `enterprise_id`, `study_id`, `participant_id`, `case_id`
+   - Substring patterns: column name contains `_id` or `_mrn` combined with a clinical/patient term
+3. **Cross-file analysis**: identify columns that appear in multiple files with the same name — these are likely join keys and strong patient ID candidates.
+4. **Value heuristics**: for top candidates, check sample values — patient IDs tend to be unique per row (or nearly so), string/integer type, and not dates or free text.
+
+Present your best guess (or top 2-3 candidates if ambiguous) to the user **for confirmation**, rather than asking them to name the column from scratch. If a single column clearly appears across all files, propose it as the default. If different files use different ID column names, propose the `patient_id_columns` per-file mapping.
+
 ## STEP 2: Project Configuration
 
 Ask the user for:
 
 1. **Project name** (kebab-case identifier)
-2. **Cancer type** (generic, lung, breast, prostate, colorectal, etc.)
+2. **Cancer type** (default: `generic`). The `generic` setting works for **pan-cancer projects** — the extraction engine auto-detects each patient's specific cancer type(s) from the clinical text during the diagnosis discovery phase. Only set a specific type (lung, breast, prostate, colorectal, etc.) if the project is single-disease and you want site-specific extraction hints from the start. Do not ask the user to pick a cancer type unless they indicate this is a single-disease project; default to `generic` and mention that per-patient cancer types are detected automatically.
 3. **Ontology** -- list available ontologies by scanning `${CLAUDE_PLUGIN_ROOT}/data/ontologies/`:
    ```bash
    ls ${CLAUDE_PLUGIN_ROOT}/data/ontologies/
    ```
    Default: `naaccr` for cancer registry, `generic_cancer` for general oncology, `omop` for claims data
-4. **Patient ID column** -- which column in the data identifies patients
+4. **Patient ID column** -- present the auto-detected candidate(s) from Step 1 and ask the user to confirm or correct. If different files use different ID columns, populate the `patient_id_columns` mapping.
 5. **Cohort definition**:
    - Patient file (CSV/parquet with patient IDs)
    - Diagnosis file (optional, for filtering by ICD codes)

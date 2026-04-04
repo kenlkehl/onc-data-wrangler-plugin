@@ -226,6 +226,61 @@ Plugin (skills, agents, MCP server)
       └── synthetic/          - Synthetic data generation pipeline
 ```
 
+## Running with a Local Model (vLLM)
+
+You can run Claude Code itself against a local model served by [vLLM](https://docs.vllm.ai/), keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session.
+
+### 1. Start the vLLM server
+
+```bash
+vllm serve nvidia/Gemma-4-31b-IT-NVFP4 \
+  --quantization modelopt \
+  --enable-auto-tool-choice \
+  --reasoning-parser gemma4 \
+  --tool-call-parser gemma4 \
+  --served-model-name gemma4-31b
+```
+
+This exposes an Anthropic-compatible API on port 8000 by default.
+
+### 2. Launch Claude Code
+
+```bash
+CLAUDE_CODE_USE_VERTEX=0 \
+ANTHROPIC_BASE_URL=http://localhost:8000 \
+ANTHROPIC_API_KEY=dummy \
+ANTHROPIC_AUTH_TOKEN=dummy \
+ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
+claude --model opus --plugin-dir .
+```
+
+Replace `localhost:8000` with the hostname of your vLLM server if it runs on a different machine (e.g., `http://gpu-server.example.com:8000`).
+
+The environment variables redirect all Claude Code API calls to the local vLLM endpoint. Setting `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN` to `dummy` satisfies the client without requiring a real API key.
+
+### Wrapper script
+
+For convenience, save the above as a shell script (e.g., `localclaude`):
+
+```bash
+#!/usr/bin/env bash
+CLAUDE_CODE_USE_VERTEX=0 \
+ANTHROPIC_BASE_URL=http://localhost:8000 \
+ANTHROPIC_API_KEY=dummy \
+ANTHROPIC_AUTH_TOKEN=dummy \
+ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
+claude --model opus "$@"
+```
+
+```bash
+chmod +x localclaude
+./localclaude --plugin-dir .
+```
+
 ## Distribution
 
 ### Local testing
