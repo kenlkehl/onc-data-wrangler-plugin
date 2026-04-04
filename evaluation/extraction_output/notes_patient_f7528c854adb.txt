@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 38, shave biopsy followed by excisional biopsy of the right forearm lesion revealed superficial spreading melanoma with Breslow thickness of 1.8 mm, Clark level IV, ulceration present, mitotic rate 3/mm2, no regression, no microsatellites, and negative deep margin on excision.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 38, sentinel lymph node pathology showed isolated tumor cells to micrometastasis (0.4 mm) in 1 of 2 nodes, S100 and Melan-A positive, no extracapsular extension.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 38, next-generation sequencing of the primary melanoma identified BRAF V600E mutation (allele frequency 35%), NRAS wild-type, no TERT promoter mutation, wild-type TP53, and tumor mutational burden of 8 mutations per megabase.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 38, baseline PET/CT showed no evidence of distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 38, MRI brain with gadolinium contrast was negative for intracranial metastases.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 38, LDH was normal at 145 U/L, and multidisciplinary tumor board recommended adjuvant systemic therapy given sentinel node positivity.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 39, surveillance CT chest/abdomen/pelvis at 6 months showed no evidence of disease recurrence.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 39, LDH remained normal at 152 U/L with no clinical evidence of disease recurrence and patient continued adjuvant dabrafenib/trametinib at reduced dose.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 39, 12-month surveillance PET/CT was negative for recurrent or metastatic melanoma.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 39, patient completed 12 months of adjuvant dabrafenib/trametinib with manageable toxicity and no evidence of recurrence.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 40, surveillance CT at 6 months post-treatment completion showed no evidence of recurrence.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 40, MRI brain surveillance remained negative for intracranial disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 40, patient remained disease-free at 24 months from initial diagnosis, with LDH stable at 139 U/L, continuing routine surveillance with clinical examinations every 3 months and imaging every 6 months.
+
+The patient was seen in clinic today for ongoing oncologic management.

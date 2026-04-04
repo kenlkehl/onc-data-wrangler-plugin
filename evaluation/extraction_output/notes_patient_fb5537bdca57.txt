@@ -1,0 +1,101 @@
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 61, patient was incidentally found to have a left upper lobe nodule on CT angiography performed for evaluation of chest pain in the emergency department. She was otherwise asymptomatic from an oncologic standpoint.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, CT chest/abdomen/pelvis with contrast showed a 4.1 x 3.6 cm part-solid mass in the left upper lobe with a solid component measuring 3.2 cm. Left aortopulmonary window lymph node enlarged to 1.9 cm and left prevascular lymph node 1.4 cm. No distant metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, PET/CT showed FDG-avid left upper lobe mass (SUVmax 11.4), left aortopulmonary window lymph node (SUVmax 7.6), and left prevascular lymph node (SUVmax 5.1). No distant metastatic uptake.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, MRI brain with and without contrast was negative for intracranial metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 61, EBUS-guided transbronchial needle aspiration of station 5 (aortopulmonary) and station 6 (prevascular) lymph nodes. Both stations positive for metastatic adenocarcinoma. Concurrent bronchoscopic biopsy of left upper lobe mass confirmed moderately differentiated adenocarcinoma with solid and acinar patterns. Immunohistochemistry: TTF-1 positive, Napsin-A positive, p40 negative. PD-L1 TPS 20% (22C3 assay).
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 61, next-generation sequencing (FoundationOne CDx) of tumor specimen: EGFR wild-type, ALK rearrangement not detected, ROS1 rearrangement not detected, BRAF V600E not detected, KRAS G12C detected, STK11 wild-type, TP53 G245S detected. No actionable driver mutations per current guidelines (KRAS G12C inhibitors not approved in first-line setting). Tumor mutational burden 8.4 mut/Mb. Microsatellite stable.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 61, multidisciplinary tumor board: unresectable stage IIIA (N2 multistation) adenocarcinoma. Recommended definitive concurrent chemoradiation with carboplatin/pemetrexed followed by durvalumab consolidation. Good performance status and pulmonary function support this approach.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, restaging CT 4 weeks after completion of chemoradiation showed partial response. Left upper lobe mass decreased to 2.6 x 2.2 cm. Lymphadenopathy decreased. Radiation-related ground-glass changes in left upper lobe. No new lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, durvalumab held for suspected pneumonitis. PFTs showed mild decrease in DLCO. Started prednisone 0.5 mg/kg daily. Symptoms and imaging improved at 2-week follow-up. Prednisone tapered over 4 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, surveillance CT after completing durvalumab showed continued response. Left upper lobe mass now 1.8 x 1.5 cm, likely mostly fibrosis. No evidence of recurrence or new disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, surveillance CT 6 months post-durvalumab showed stable fibrotic changes in left upper lobe. No evidence of recurrence.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, no evidence of disease recurrence after completing definitive chemoradiation and durvalumab consolidation. Will continue surveillance with CT every 3 months for 2 years, then every 6 months.
+
+The patient was seen in clinic today for ongoing oncologic management.

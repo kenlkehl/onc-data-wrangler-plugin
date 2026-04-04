@@ -1,0 +1,72 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 51, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 60%, PR negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 51, mammogram showed a 2.4 cm irregular mass in the right breast subareolar region extending to the upper outer quadrant. BIRADS 5.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 51, CT staging showed right axillary lymphadenopathy (largest 2.1 cm). No distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 51, post-neoadjuvant right mastectomy and axillary dissection: residual 0.8 cm invasive ductal carcinoma with treatment effect. 1 of 14 axillary nodes with residual tumor (2 mm focus). RCB class II.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, completed adjuvant T-DM1 and radiation. Tolerating tamoxifen. ECOG 0. Genetic counseling completed for BRCA2. Screening colonoscopy and prostate exam recommended.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 52, surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease. Post-mastectomy changes noted.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 51, tumor genomic profiling: BRCA2 germline pathogenic variant (c.5946delT), ERBB2 amplification, TP53 V157F somatic mutation. TMB 4 mutations/Mb. MSS. Homologous recombination deficiency score elevated.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, patient counseled on surveillance plan: clinical exam every 3-4 months, annual mammogram of contralateral chest wall, annual MRI given BRCA2 status. Currently no evidence of disease.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 52, PET/CT obtained for baseline after completing adjuvant therapy. No FDG-avid disease. Physiologic uptake only.
+
+Please correlate clinically.

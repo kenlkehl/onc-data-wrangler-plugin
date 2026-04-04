@@ -1,0 +1,99 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Biopsy of the cecal mass demonstrated poorly differentiated adenocarcinoma (histology 8140/3) with mucinous features and extensive necrosis.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Molecular profiling revealed KRAS G12D mutation, BRAF V600E wild-type, PIK3CA E545K co-mutation, HER2 non-amplified; microsatellite instability testing showed MSI-high with loss of MLH1 and PMS2 expression by IHC.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Staging CT chest/abdomen/pelvis at age 57 showed a cecal mass with pericolonic lymphadenopathy, three hepatic metastases in the right lobe (largest 3.8 cm), and a 1.2 cm right lower lobe pulmonary nodule consistent with metastasis; staged T4aN2aM1b.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, baseline CEA was 78 ng/mL and CA 19-9 was 134 U/mL; tumor board discussed MSI-high status and potential for immunotherapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, given MSI-high status with KRAS G12D mutation, tumor board recommended first-line pembrolizumab (200 mg IV every 3 weeks) based on KEYNOTE-177 data.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 4 cycles of pembrolizumab showed partial response with decrease in hepatic metastases (largest now 2.0 cm) and near-complete resolution of pulmonary nodule; CEA decreased to 12 ng/mL.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at age 58 after 8 cycles of pembrolizumab demonstrated continued response with further shrinkage of hepatic lesions (largest 1.1 cm) and no measurable pulmonary disease; CEA 5.4 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, CA 19-9 decreased to 28 U/mL; patient tolerating pembrolizumab well aside from managed hypothyroidism and resolved rash.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Right hemicolectomy specimen showed residual poorly differentiated adenocarcinoma with mucinous features, ypT3N0 (0 of 18 lymph nodes positive), prominent tumor-infiltrating lymphocytes, and near-complete pathologic response (5% viable tumor).
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, post-surgical CEA was 3.1 ng/mL; plan to continue pembrolizumab for a total of 2 years or until progression.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+PET/CT at age 58 (3 months post-hemicolectomy) showed no FDG-avid disease; residual hepatic lesions appeared non-viable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, surveillance CEA was 2.4 ng/mL and CA 19-9 was 18 U/mL; patient continues on pembrolizumab with ECOG performance status 0.
+
+The patient was seen in clinic today for ongoing oncologic management.

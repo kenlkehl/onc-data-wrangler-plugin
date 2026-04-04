@@ -1,0 +1,97 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 71, pathology report showed sheets of large lymphoid cells with immunoblastic morphology, Ki-67 of 85 percent, immunohistochemistry positive for CD20, CD19, MUM1, BCL2, negative for CD10 and BCL6, consistent with non-GCB (ABC) subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, flow cytometry on core biopsy demonstrated monoclonal B-cell population positive for CD20, CD19, MUM1, negative for CD10, BCL6, CD5
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 71, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement by translocation (BCL2 protein overexpression by IHC attributed to non-translocation mechanism), BCL6 rearrangement positive
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, laboratory studies demonstrated LDH elevated at 538 U/L, CBC with WBC 6.8, hemoglobin 9.6 g/dL, platelets 142, CMP notable for creatinine 1.4 mg/dL and calcium 10.8 mg/dL
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, staging PET/CT showed extensive FDG-avid mesenteric and retroperitoneal lymphadenopathy with bulky conglomerate mass measuring 12.4 cm, SUVmax 26.1, FDG-avid gastric wall thickening suggesting extranodal GI involvement, and scattered skeletal FDG uptake suggesting osseous involvement
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 71, upper endoscopy with gastric biopsy confirmed extranodal involvement by DLBCL in the gastric antrum
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 71, bone marrow biopsy showed 15 percent involvement by large B-cell lymphoma with interstitial pattern
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, interim PET/CT after 3 cycles showed partial response with decrease in bulky mesenteric mass to 7.8 cm, SUVmax reduced to 12.4, Deauville score 4, gastric wall thickening resolved
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, cardiology consultation recommended discontinuation of doxorubicin, R-CHOP regimen modified to R-CVP (rituximab, cyclophosphamide, vincristine, prednisone) for remaining cycles
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, end-of-treatment PET/CT showed further reduction but residual FDG-avid mesenteric mass measuring 3.6 cm with SUVmax 7.1, Deauville score 4, partial response but not complete remission
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, given patient age, cardiac toxicity, and residual disease, decision was made for observation with close surveillance rather than aggressive salvage therapy
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 72, surveillance CT at 3 months post-treatment showed stable residual mesenteric mass with no new disease
+
+Please correlate clinically.

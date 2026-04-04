@@ -1,0 +1,101 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, CT abdomen/pelvis with pancreas protocol showed a 5.1 cm heterogeneous mass spanning the pancreatic body and tail with celiac artery and splenic artery encasement and abutment of the SMA greater than 180 degrees; peripancreatic lymph nodes measuring up to 1.8 cm; no definite hepatic metastases; no ascites; mild splenomegaly likely secondary to splenic vein compression.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, EUS with FNA performed; mass measured 5.3 x 4.1 cm involving pancreatic body and tail; celiac trunk encasement confirmed; three passes obtained with 22-gauge needle with rapid on-site evaluation confirming malignant cells.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 67, EUS-guided FNA of pancreatic body/tail mass: poorly differentiated adenocarcinoma (histology code 8140/3) with high nuclear grade, frequent mitotic figures, and areas of necrosis; immunohistochemistry positive for CK7, negative for CK20; SMAD4 lost by immunohistochemistry; final diagnosis: poorly differentiated pancreatic ductal adenocarcinoma.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 67, next-generation sequencing on FNA specimen: KRAS G12V mutation (variant allele frequency 52%), TP53 R248W mutation, SMAD4 deletion, CDKN2A p16 loss, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, MSI-stable (MSS), tumor mutational burden 5 mutations/Mb, HER2/ERBB2 not amplified.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, CA 19-9 at diagnosis was 2,340 U/mL; CEA 14.2 ng/mL; clinical staging cT4N1M0, Stage III; ECOG performance status 1; multidisciplinary tumor board recommended systemic chemotherapy with FOLFIRINOX given adequate performance status; palliative intent discussed with patient and family.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, pain management plan initiated with long-acting oxycodone and gabapentin for neuropathic component of pain; referral to palliative care team for symptom management; nutritional counseling and pancreatic enzyme supplementation started.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, CA 19-9 after 4 cycles of FOLFIRINOX decreased to 987 U/mL from 2,340 U/mL; partial biochemical response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, restaging CT after 6 cycles of FOLFIRINOX showed decrease in pancreatic body/tail mass from 5.1 cm to 3.8 cm; persistent celiac artery encasement; SMA abutment stable; no new distant metastases; peripancreatic lymph nodes decreased in size.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 68, restaging CT 8 weeks post-SBRT showed further decrease in pancreatic mass to 2.9 cm with increased central necrosis; CA 19-9 further decreased to 312 U/mL; stable celiac encasement; no distant disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 68, surveillance CT at 4 months post-SBRT demonstrated three new hypodense hepatic lesions in the right lobe measuring 1.2 cm, 0.8 cm, and 0.6 cm, suspicious for metastatic disease; CA 19-9 rose to 1,890 U/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 68, confirmed disease progression with new hepatic metastases; restaged as cT4N1M1, Stage IV; discussed prognosis and goals of care with patient; decision to proceed with second-line chemotherapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 68, palliative care team managing increasing pain with rotation to hydromorphone and fentanyl patch; appetite stimulant (megestrol acetate) added; patient maintaining ECOG performance status 2; weight 158 lbs, down from 172 lbs at diagnosis.
+
+The patient was seen in clinic today for ongoing oncologic management.

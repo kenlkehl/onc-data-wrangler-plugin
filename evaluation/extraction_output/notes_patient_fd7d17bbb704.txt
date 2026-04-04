@@ -1,0 +1,117 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, CT abdomen/pelvis with pancreas protocol demonstrated a 3.5 cm hypodense mass in the pancreatic head with encasement of the SMA greater than 180 degrees and short-segment abutment of the common hepatic artery; main pancreatic duct dilated to 6 mm; mild intrahepatic biliary dilation; two indeterminate hepatic lesions measuring 5 mm and 7 mm, too small to characterize.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, ERCP performed for symptomatic biliary obstruction; total bilirubin 6.8 mg/dL; a 10 mm x 60 mm plastic biliary stent placed with subsequent exchange to metal stent two weeks later due to plastic stent dysfunction.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, EUS examination showed a 3.7 x 3.0 cm mass in the pancreatic head with SMA encasement; FNA performed with five passes; rapid on-site evaluation confirmed adenocarcinoma.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 54, EUS-guided FNA of pancreatic head mass: moderately differentiated adenocarcinoma (histology code 8140/3) with glandular architecture and desmoplastic stroma; immunohistochemistry positive for CK7, CK19, MUC1; SMAD4 intact by IHC; diagnosis: pancreatic ductal adenocarcinoma, moderately differentiated.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 54, next-generation sequencing panel: KRAS G12D mutation (variant allele frequency 38%), TP53 G245S mutation, SMAD4 wild-type, CDKN2A methylation-associated silencing, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, ATM wild-type, microsatellite stable (MSS), tumor mutational burden 2 mutations/Mb, NTRK fusions negative.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, CA 19-9 at diagnosis was 1,456 U/mL; CEA 11.3 ng/mL; clinical staging cT4N0M0, Stage III, locally advanced unresectable; ECOG performance status 0; tumor board recommended neoadjuvant FOLFIRINOX with goal of conversion to resectability.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, CA 19-9 after 4 cycles of FOLFIRINOX decreased from 1,456 to 412 U/mL; significant biochemical response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, restaging CT after 6 cycles of FOLFIRINOX showed pancreatic head mass decreased from 3.5 cm to 2.1 cm; SMA encasement now less than 180 degrees with improved peri-arterial fat plane; hepatic artery abutment resolved; indeterminate hepatic lesions stable; CA 19-9 at 187 U/mL.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, restaging CT after 12 cycles of FOLFIRINOX demonstrated further decrease in mass to 1.4 cm; SMA contact now less than 90 degrees; hepatic lesions stable and likely cysts; CA 19-9 decreased to 64 U/mL; tumor board re-evaluation recommended surgical exploration for potential conversion surgery.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 55, intraoperative biopsy of peripancreatic tissue: residual moderately differentiated adenocarcinoma with extensive desmoplastic reaction and treatment-related changes; viable tumor cells identified at the SMA margin; consistent with residual unresectable disease.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, post-operative recovery uneventful; patient and family counseled regarding unresectable status; goals of care discussion held; plan for continued systemic therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, restaging CT after 3 cycles of gemcitabine/nab-paclitaxel showed stable pancreatic head mass; however, two new hepatic lesions measuring 1.5 cm and 1.0 cm in the right hepatic lobe suggestive of metastatic disease; CA 19-9 increased to 534 U/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, confirmed disease progression with hepatic metastases; restaged as T4N0M1, Stage IV; discussed options including liposomal irinotecan-based therapy or clinical trial enrollment; pain managed with hydromorphone and celiac plexus block.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, palliative care team actively involved; pain management optimized with long-acting opioids and adjuvant medications; nutritional support ongoing with pancreatic enzyme replacement and oral nutritional supplements; ECOG performance status 2.
+
+The patient was seen in clinic today for ongoing oncologic management.

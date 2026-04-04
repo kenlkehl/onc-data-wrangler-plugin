@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Rectosigmoid biopsy showed moderately differentiated adenocarcinoma (histology 8140/3) with prominent Crohn-like lymphoid reaction and no mucinous component.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Next-generation sequencing revealed KRAS G12D mutation, BRAF wild-type, no PIK3CA mutation, APC loss-of-function mutation; MSI-high by PCR-based testing with MLH1 promoter hypermethylation and loss of MLH1/PMS2 by IHC; tumor mutational burden 38 mutations/Mb.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT chest/abdomen/pelvis at age 45 demonstrated rectosigmoid mass with bilateral pelvic sidewall lymphadenopathy and three hepatic metastases in the right lobe (largest 3.1 cm in segment V); no pulmonary metastases; staged T3N2bM1a.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 45, baseline CEA was 64 ng/mL and CA 19-9 was 47 U/mL; despite KRAS G12D mutation, MSI-high status makes patient a candidate for first-line immunotherapy per KEYNOTE-177.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 4 cycles of pembrolizumab showed mixed response with initial increase in hepatic lesion size (pseudoprogression suspected) but decrease in pelvic lymphadenopathy; CEA decreased to 38 ng/mL despite imaging findings.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, tumor board reviewed imaging and declining CEA; consensus was probable pseudoprogression; recommended continued pembrolizumab with repeat imaging in 8 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at age 46 after 8 cycles of pembrolizumab confirmed partial response with all hepatic lesions decreased (largest now 1.6 cm) and resolved pelvic lymphadenopathy; CEA 9.2 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, CA 19-9 normalized to 14 U/mL; colitis symptoms improving on budesonide taper; patient continues pembrolizumab with excellent ECOG 0 performance status.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+PET/CT at age 46 after 12 cycles showed near-complete metabolic response with minimal residual FDG uptake in segment V hepatic lesion (SUVmax 2.1, previously 9.8); no FDG-avid disease at primary site.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, multidisciplinary discussion about pursuing local therapy to residual hepatic lesion versus continued pembrolizumab alone; patient preferred non-surgical approach; plan to continue pembrolizumab.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Rectosigmoid resection specimen showed marked pathologic response with only microscopic foci of residual adenocarcinoma (less than 5% viable tumor), ypT1N0 (0 of 14 lymph nodes positive), prominent immune infiltrate consistent with immunotherapy effect.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, post-surgical CEA was 2.8 ng/mL; hepatic lesion remains stable and likely represents treated disease; surveillance imaging every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Surveillance CT at age 46 (3 months post-surgery) showed no new disease; residual hepatic segment V lesion unchanged at 1.4 cm and likely represents post-treatment scar; CEA 2.3 ng/mL.
+
+Please correlate clinically.

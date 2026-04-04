@@ -1,0 +1,133 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 47, MRI-fusion targeted prostate biopsy showed Gleason 4+5=9 (Grade Group 5) adenocarcinoma in 9 of 14 cores with perineural invasion; PI-RADS 5 lesion in the right peripheral zone with extraprostatic extension on MRI.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 47, staging bone scan and CT were negative for distant metastatic disease; staged as cT3aN0M0 very high-risk localized prostate cancer.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 47, prostatectomy specimen showed Gleason 4+5=9 adenocarcinoma with bilateral seminal vesicle invasion, negative surgical margins, and 2 positive right obturator lymph nodes (largest metastatic focus 4 mm).
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, PSA was undetectable at less than 0.01 ng/mL on ADT; treatment was well tolerated.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, leuprolide was discontinued after completing 24 months of adjuvant ADT; PSA remained undetectable.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 51, PSA rose to 0.52 ng/mL with testosterone recovery to 340 ng/dL; biochemical recurrence after prostatectomy, adjuvant radiation, and adjuvant ADT.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 51, PSA declined to 0.08 ng/mL on restarted ADT; testosterone suppressed to 22 ng/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 53, bone scan was negative but PSMA PET/CT revealed PSMA-avid lesions in the T9 and L2 vertebral bodies and left posterior 6th rib; PSA was 3.2 ng/mL with testosterone 16 ng/dL.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 53, next-generation sequencing (FoundationOne CDx) on prostatectomy tissue and separate liquid biopsy (FoundationOne Liquid CDx) both identified a pathogenic BRCA2 deletion (exons 12-13 deletion), TP53 R273H hotspot mutation, PTEN homozygous deletion, and MYC amplification; tumor mutational burden 5 mutations/Mb; microsatellite stable; HRD score was 56 (positive).
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 53, after 3 months on enzalutamide, PSA declined to 0.8 ng/mL; no significant adverse effects.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, restaging PSMA PET/CT showed stable bone disease and no new lesions; PSA was 0.6 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, PSA rose to 6.4 ng/mL on enzalutamide with new bone lesions on restaging imaging; enzalutamide discontinued.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, after 4 months on olaparib, PSMA PET/CT showed significant decrease in PSMA uptake at all known bone metastases; PSA declined to 1.4 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 56, PSA rose to 8.8 ng/mL on olaparib after 12 months of therapy; imaging showed new bone lesions in bilateral femora and a new 1.5 cm lung nodule in the right lower lobe suspicious for visceral metastasis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 56, CT chest confirmed a 1.5 cm right lower lobe pulmonary nodule and a new 0.9 cm left lower lobe nodule; CT-guided biopsy of the right lung nodule was recommended.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 56, CT-guided biopsy of the right lower lobe pulmonary nodule showed metastatic high-grade adenocarcinoma consistent with prostatic origin, positive for PSA and NKX3.1 immunostains, negative for TTF-1; Gleason pattern could not be applied to metastatic site.

@@ -1,0 +1,99 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 52, bone marrow biopsy from site C42.1 showed 32% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD56, CD81, and cytoplasmic IgG kappa; flow cytometry showed 28% aberrant plasma cells with CD38 bright, CD138 positive, CD56 positive, CD19 negative, CD45 dim negative pattern.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 52, FISH analysis on bone marrow aspirate showed standard-risk profile with t(11;14) in 72% of plasma cells; no del(17p), t(4;14), t(14;16), or gain(1q21) detected; t(11;14) associated with standard risk; R-ISS Stage II based on ISS II, LDH normal at 168 U/L, and standard-risk cytogenetics.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, serum protein electrophoresis showed M-spike of 3.5 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 125 mg/L, lambda 12 mg/L, kappa/lambda ratio 10.4; urinalysis showed trace proteinuria but no significant Bence Jones protein.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 52, PET/CT showed FDG-avid lytic lesion in the L3 vertebral body with SUV 5.8 and a small lytic lesion in the right scapula; no other skeletal lesions; no extramedullary disease; mild diffuse marrow uptake in the axial skeleton suggesting infiltration.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 52, MRI of the spine confirmed a 1.8 cm focal lesion in L3 with vertebral body height maintained; diffuse patchy marrow signal abnormality throughout the thoracolumbar spine; no compression fractures or epidural extension.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, initiated VRd induction with bortezomib 1.3 mg/m2 subcutaneously weekly, lenalidomide 25 mg days 1 through 21, dexamethasone 40 mg weekly on 28-day cycles; started zoledronic acid 4 mg IV monthly, acyclovir 400 mg twice daily, and aspirin 81 mg daily for prophylaxis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, after cycle 4 of VRd, SPEP showed M-spike 0.6 g/dL; serum free kappa light chain decreased to 30 mg/L with ratio of 2.5; response classified as very good partial response; all other labs normalized; plan to complete 6 cycles.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 53, day plus 100 bone marrow biopsy showed less than 1% plasma cells with no aberrant phenotype on flow cytometry; SPEP no M-spike; immunofixation completely negative; serum free light chain kappa 18 mg/L, lambda 14 mg/L, ratio 1.3 within normal limits; MRD by next-generation flow cytometry at 10^-6 sensitivity was negative; classified as stringent complete response with deep MRD negativity.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, annual PET/CT showed complete metabolic response with no FDG-avid lesions; sclerotic healing at previously noted L3 and right scapula sites; no new disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, one year post-transplant; maintained in stringent complete response with sustained MRD negativity at 10^-6; all labs normal including CBC, CMP, LDH, SPEP, and serum free light chains; ECOG 0; lenalidomide continued.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, two years post-transplant; continued in stringent complete response; no adverse effects from lenalidomide maintenance; resumed full work and exercise activities; plans for continued indefinite maintenance.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 56, four years from diagnosis; sustained MRD-negative stringent complete response; repeat bone marrow biopsy confirmed MRD negative at 10^-6 sensitivity; annual PET/CT without evidence of disease; excellent prognosis given standard-risk cytogenetics and deep sustained response; lenalidomide maintenance ongoing.
+
+The patient was seen in clinic today for ongoing oncologic management.

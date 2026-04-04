@@ -1,0 +1,83 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Colonoscopic biopsy of the descending colon mass showed moderately differentiated adenocarcinoma (histology 8140/3) with focal signet ring cell features.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Comprehensive genomic profiling identified KRAS G12D mutation, BRAF wild-type, no PIK3CA mutation, TP53 R175H mutation, APC truncating mutation; tumor was microsatellite stable (MSS) with intact mismatch repair proteins.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT chest/abdomen/pelvis at age 70 showed descending colon mass causing partial obstruction, four hepatic metastases involving both lobes (largest 5.6 cm in segment VIII), and scattered subcentimeter pulmonary nodules too small to characterize; staged T4bN1aM1a (liver).
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 70, baseline CEA was 224 ng/mL and CA 19-9 was 196 U/mL; given bulky bilobar liver disease and left-sided primary with KRAS mutation, palliative systemic therapy recommended.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 6 cycles of FOLFIRI-bevacizumab showed mixed response: two hepatic lesions decreased in size but two new subcentimeter lesions appeared in segment IV; pulmonary nodules stable; CEA decreased to 98 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, tumor board assessed overall stable to mixed response; decision to continue FOLFIRI-bevacizumab with close monitoring given lack of better alternatives for KRAS-mutant disease.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at age 71 after 12 cycles showed progressive disease with enlarging hepatic metastases (largest now 6.8 cm) and new peritoneal implants; CEA rose to 312 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, CA 19-9 increased to 287 U/mL; ECOG performance status declined to 2 due to fatigue and abdominal discomfort.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT after 2 cycles of regorafenib showed continued progression of hepatic and peritoneal disease; CEA 445 ng/mL; discussed transition to best supportive care or TAS-102.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, patient referred to palliative care for symptom management alongside TAS-102 therapy; goals of care discussion documented preference for continued treatment.
+
+The patient was seen in clinic today for ongoing oncologic management.

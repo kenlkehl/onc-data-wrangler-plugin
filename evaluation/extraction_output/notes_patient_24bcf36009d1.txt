@@ -1,0 +1,99 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, CT abdomen/pelvis with pancreas protocol demonstrated a 2.8 cm mass in the pancreatic head at the SMV-portal vein confluence with focal venous narrowing without occlusion; mild upstream pancreatic duct dilation; moderate intrahepatic biliary dilation; no hepatic lesions; no ascites.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, ERCP with placement of a 10 mm x 80 mm fully covered self-expandable metal stent for malignant biliary obstruction; pre-procedure total bilirubin 11.2 mg/dL; post-procedure bilirubin improved to 3.8 mg/dL within one week.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, EUS examination confirmed a 2.9 x 2.4 cm hypoechoic mass in the pancreatic head with SMV-portal vein involvement; FNA performed with four passes; additional core biopsy obtained for molecular testing.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, EUS-guided FNA and core biopsy of pancreatic head mass: moderately to poorly differentiated adenocarcinoma (histology code 8140/3) with desmoplastic stroma; tumor cells show nuclear pleomorphism, loss of polarity, and irregular glandular architecture; immunohistochemistry positive for CK7, MUC1, MUC5AC; SMAD4 intact by immunohistochemistry.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 58, next-generation sequencing on core biopsy specimen: KRAS G12D mutation (variant allele frequency 28%), TP53 splice site mutation, CDKN2A homozygous deletion, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, ATM wild-type, microsatellite stable (MSS), tumor mutational burden 3 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, CA 19-9 at diagnosis was 624 U/mL; clinical staging cT3N0M0, Stage IIA, borderline resectable; ECOG performance status 0; multidisciplinary tumor board recommended neoadjuvant FOLFIRINOX followed by restaging and surgical evaluation.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, mid-treatment CA 19-9 after 4 cycles decreased to 198 U/mL from 624 U/mL; patient tolerating treatment with dose modifications; weight loss of 8 lbs since treatment initiation; nutritional support intensified.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, restaging CT pancreas protocol after neoadjuvant FOLFIRINOX showed decrease in pancreatic head mass from 2.8 cm to 1.6 cm; improved fat plane around SMV-portal vein confluence with resolution of focal venous narrowing; no distant metastatic disease; CA 19-9 decreased to 52 U/mL; surgical evaluation recommended.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, PET/CT showed mildly FDG-avid pancreatic head mass with SUVmax 3.1 (previously 7.4); no distant FDG-avid disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, Whipple surgical specimen: residual moderately to poorly differentiated pancreatic ductal adenocarcinoma, 1.1 cm in greatest dimension with extensive treatment effect including 70% tumor necrosis and fibrosis (treatment response grade 2); all surgical margins negative (R0); closest margin at retroperitoneal/uncinate at 4 mm; 0 of 22 lymph nodes with metastatic carcinoma; ypT1cN0M0; lymphovascular invasion absent; perineural invasion present.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, post-operative course uncomplicated; patient discharged on post-operative day 8; started pancreatic enzyme replacement therapy; pain managed with acetaminophen and short-course tramadol.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, surveillance imaging and CA 19-9 at 6 months post-adjuvant therapy remain normal; patient counseled on smoking cessation and alcohol abstinence; ECOG performance status 0; weight recovering to near pre-diagnosis baseline.
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 53, MRI-targeted prostate biopsy showed Gleason 3+4=7 (Grade Group 2) adenocarcinoma in 4 of 12 cores from the left peripheral zone; PI-RADS 4 lesion; no perineural invasion.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 53, staging with CT and bone scan was negative for metastatic disease; staged as cT2aN0M0 favorable intermediate-risk prostate cancer.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 53, prostatectomy specimen confirmed Gleason 3+4=7 adenocarcinoma confined to the prostate bilaterally with negative margins and no extraprostatic extension.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 53, postoperative PSA was undetectable at less than 0.01 ng/mL; patient was placed on surveillance.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 56, PSA rose to 0.6 ng/mL confirming biochemical recurrence; restaging imaging was negative.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, post-salvage radiation PSA nadir was 0.08 ng/mL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, PSA rose to 2.8 ng/mL representing second biochemical recurrence after salvage radiation.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, PSMA PET/CT performed for staging showed PSMA-avid lesions in L2 and L4 vertebral bodies, right sacroiliac joint, and left 7th rib; no visceral disease; SUVmax ranged from 6.4 to 11.8.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, after 3 months on enzalutamide, PSA declined to 0.9 ng/mL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 59, next-generation sequencing (FoundationOne CDx) on archival prostatectomy tissue revealed CDK12 biallelic loss (frameshift and missense), SPOP F133L mutation, and FOXA1 R219Q mutation; BRCA1/2 wild type; ATM wild type; no homologous recombination deficiency; tumor mutational burden 7 mutations/Mb; microsatellite stable.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 60, restaging PSMA PET/CT showed stable bone disease with no new lesions; PSA was 0.7 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 61, PSA rose to 4.2 ng/mL on enzalutamide; imaging showed new PSMA-avid lesion in the right 4th rib; enzalutamide was discontinued.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, after 4 cycles of docetaxel, restaging CT and bone scan showed mixed response with improvement in some lesions but a new focus in the left ilium; PSA was 3.8 ng/mL.
+
+Please correlate clinically.

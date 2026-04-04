@@ -1,0 +1,81 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 71, bone marrow biopsy from site C42.1 showed 75% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138 with cytoplasmic kappa light chain restriction only; no intact immunoglobulin heavy chain detected; diagnosis of light chain only (kappa) multiple myeloma.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 71, FISH analysis on bone marrow aspirate revealed del(17p) in 22% of plasma cells, gain(1q21) in 58% of cells, and t(14;16) in 35% of cells; classified as double-hit high-risk myeloma; R-ISS Stage III based on ISS III, LDH elevated at 310 U/L, and high-risk FISH with del(17p).
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, serum protein electrophoresis showed no discrete M-spike but diffuse hypogammaglobulinemia; serum free light chain kappa markedly elevated at 680 mg/L, lambda 8 mg/L, kappa/lambda ratio 85; 24-hour urine protein 5.2 g/day with predominant Bence Jones kappa light chain; serum immunoglobulin levels all suppressed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, whole-body low-dose CT showed extensive lytic disease involving the calvarium, bilateral ribs, thoracic and lumbar spine with pathologic compression fractures at T7, T12, and L1, bilateral iliac bones, and bilateral proximal femora; soft tissue mass arising from L1 extending into the left paraspinal region measuring 4.5 cm.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, given renal impairment, VRd induction was initiated with bortezomib 1.3 mg/m2 subcutaneously weekly, lenalidomide at reduced dose of 10 mg due to creatinine clearance of 28 mL/min, and dexamethasone 40 mg weekly; aggressive IV hydration initiated and rasburicase given for tumor lysis prophylaxis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 72, after 6 cycles of VRd, restaging showed serum free kappa light chain 32 mg/L with ratio of 4.0; response classified as very good partial response; given age 72 and renal compromise, patient not considered candidate for autologous stem cell transplant; decision to transition to maintenance.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 72, repeat bone marrow biopsy showed 12% residual plasma cells with kappa light chain restriction; flow cytometry confirmed aberrant plasma cell population; MRD positive by multiparameter flow cytometry at 10^-5 sensitivity.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 72, follow-up PET/CT showed reduced but persistent FDG uptake in L1 paraspinal mass now measuring 2.1 cm and decreased SUV to 3.8; other lytic lesions stable with partial sclerosis; no new lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 73, rising serum free kappa light chain to 145 mg/L with ratio of 18; progressive disease confirmed per IMWG criteria after 12 months on lenalidomide maintenance; decision to start daratumumab-carfilzomib-dexamethasone (DKd) as second-line therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 73, after 4 cycles of DKd, serum free kappa light chain decreased to 38 mg/L with ratio of 4.7; classified as partial response; treatment continued with plan for ongoing therapy until progression or toxicity.
+
+The patient was seen in clinic today for ongoing oncologic management.

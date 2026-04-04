@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 38, pathology report demonstrated centroblastic morphology with Ki-67 of 75 percent, immunohistochemistry positive for CD20, CD19, CD10, BCL6, negative for MUM1, BCL2 weakly positive, consistent with germinal center B-cell (GCB) subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 38, flow cytometry on lymph node specimen revealed monoclonal B-cell population positive for CD20, CD19, CD10, BCL6, negative for CD5, CD23, MUM1
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 38, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, no BCL6 rearrangement; non-double-hit DLBCL
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 38, laboratory workup showed LDH at upper limit of normal at 245 U/L, CBC with WBC 7.1, hemoglobin 13.8 g/dL, platelets 278, CMP entirely within normal limits
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 38, staging PET/CT revealed FDG-avid right cervical and right supraclavicular lymphadenopathy with largest node measuring 5.8 cm (bulky), SUVmax 18.3, no other sites of disease above or below the diaphragm
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 38, bone marrow biopsy was negative for lymphoma involvement with normal trilineage hematopoiesis
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 38, interim PET/CT after 3 cycles showed complete resolution of cervical and supraclavicular lymphadenopathy, Deauville score 2, indicating complete metabolic response
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 38, end-of-treatment PET/CT confirmed sustained complete metabolic response, Deauville score 1, no residual FDG-avid disease
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 38, patient completed consolidative radiation without significant acute toxicity and was transitioned to surveillance
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 39, surveillance CT at 6 months post-treatment showed no evidence of recurrent disease
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 40, patient remains in complete remission at 2-year follow-up with normal LDH and unremarkable physical examination
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3 (tubule 3, nuclear 3, mitotic 3). ER negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, diagnostic mammogram showed a 4.2 cm mass with irregular margins in the right upper outer quadrant with ipsilateral axillary adenopathy, BIRADS 5.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, staging PET/CT showed right breast mass (SUVmax 14.2), right axillary nodes (SUVmax 10.1), and no distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, right mastectomy and axillary dissection post-neoadjuvant: residual 2.1 cm invasive ductal carcinoma with partial treatment response. 3 of 16 axillary nodes positive (largest deposit 5 mm). ypT2 ypN1a. RCB class II.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, surveillance CT after completing T-DM1 showed no evidence of recurrent disease. Post-mastectomy changes only.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, completed adjuvant T-DM1 and radiation. No endocrine therapy indicated (ER/PR-negative). Surveillance: exam every 3-4 months, annual imaging.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 60, patient developed severe headaches and visual disturbance. MRI brain showed 5 enhancing brain metastases (bilateral cerebral hemispheres and cerebellum, largest 2.5 cm right parietal).
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 60, CT chest/abdomen/pelvis showed no extracranial disease recurrence. Brain-only recurrence.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 60, MRI brain 3 months after WBRT and T-DXd showed significant reduction in brain metastases. 3 of 5 lesions resolved. Partial intracranial response.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, good response to T-DXd with brain metastasis improvement. ECOG 1. Tolerating therapy. No signs of ILD on CT. Continue T-DXd. Pulmonary monitoring ongoing.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 58, tumor genomic profiling on surgical specimen: ERBB2 amplification (copy number 14), TP53 G245D, RB1 loss, CDK12 rearrangement. TMB 7 mutations/Mb. MSS.

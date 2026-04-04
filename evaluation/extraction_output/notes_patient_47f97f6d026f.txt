@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 55, MRI-targeted and systematic prostate biopsy showed Gleason 4+3=7 (Grade Group 3) adenocarcinoma in 8 of 14 cores, predominantly from the right posterior lobe; PI-RADS 5 lesion confirmed.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, staging CT and bone scan were negative for metastatic disease; MRI showed extraprostatic extension at the right posterolateral aspect; staged as cT3aN0M0.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 55, prostatectomy specimen showed Gleason 4+3=7 adenocarcinoma with bilateral seminal vesicle invasion, negative margins, and 0 of 22 lymph nodes positive for carcinoma.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, postoperative PSA was undetectable at less than 0.01 ng/mL at 6 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, PSA became detectable at 0.24 ng/mL; biochemical recurrence was confirmed with repeat PSA of 0.38 ng/mL three months later.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, PSA nadir was less than 0.05 ng/mL after salvage radiation and ADT; leuprolide was discontinued per plan.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, PSA rose to 2.4 ng/mL with testosterone recovery to 310 ng/dL; second biochemical recurrence.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, PSMA PET/CT performed for rising PSA (4.6 ng/mL) on ADT with testosterone 19 ng/dL revealed PSMA-avid lesions in L3, L5, right sacral ala, and left 9th rib; no visceral metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 61, after 4 months on enzalutamide, PSA declined from 4.6 to 0.8 ng/mL; no significant side effects reported.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 61, next-generation sequencing (FoundationOne CDx) on prostatectomy specimen revealed BRCA1 pathogenic mutation (c.5266dupC, 5382insC), ATM T7271G missense variant of uncertain significance, TMPRSS2-ERG fusion, and PTEN loss; HRD score elevated at 42; tumor mutational burden 5 mutations/Mb; microsatellite stable.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, restaging bone scan showed stable disease at known sites with no new lesions; PSA was 0.6 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, PSA rose to 5.8 ng/mL on enzalutamide after approximately 2 years of therapy; progression was confirmed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, PSMA PET/CT after 3 months of olaparib showed decreased PSMA uptake at known bone metastases; PSA was 2.1 ng/mL representing partial response.
+
+Please correlate clinically.

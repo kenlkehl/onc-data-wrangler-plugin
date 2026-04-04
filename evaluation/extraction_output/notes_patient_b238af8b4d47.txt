@@ -1,0 +1,126 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, CT abdomen/pelvis with pancreas protocol showed a 3.2 cm hypodense mass in the pancreatic head with abutment of the SMV over approximately 180 degrees without vessel occlusion or deformity; no distant metastatic disease; mild intrahepatic and extrahepatic biliary ductal dilation noted.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, ERCP performed for biliary obstruction secondary to pancreatic head mass; a 10 mm x 60 mm fully covered metal biliary stent was placed across the distal common bile duct stricture with good bile drainage achieved.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, EUS with FNA of the pancreatic head mass was performed; the mass measured 3.4 x 2.8 cm by endoscopic ultrasound with portal vein abutment; multiple passes obtained for cytology and cell block.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 62, EUS-guided FNA of pancreatic head mass: cytology demonstrates clusters of atypical glandular cells with nuclear enlargement, irregular nuclear membranes, and prominent nucleoli, consistent with moderately differentiated adenocarcinoma (histology code 8140/3); immunostains positive for CK7, CK19, and MUC1; final diagnosis: pancreatic ductal adenocarcinoma, moderately differentiated.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 62, next-generation sequencing panel on the FNA specimen revealed KRAS G12D mutation (variant allele frequency 34%), TP53 R175H mutation, CDKN2A loss, BRCA1/2 wild-type, PALB2 wild-type, microsatellite stable (MSS), tumor mutational burden 4 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, CA 19-9 tumor marker at diagnosis was 842 U/mL (reference range less than 37 U/mL); CEA was 6.2 ng/mL; staging determined as cT3N0M0, Stage IIA, borderline resectable due to SMV abutment; multidisciplinary tumor board recommended neoadjuvant FOLFIRINOX.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, patient started on pancreatic enzyme replacement therapy (CREON 36,000 units with meals) for pancreatic exocrine insufficiency with steatorrhea; nutritional counseling initiated with high-calorie, high-protein diet plan.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, mid-treatment CA 19-9 decreased from 842 to 214 U/mL after 4 cycles of FOLFIRINOX, indicating biochemical response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, restaging CT pancreas protocol after 8 cycles of neoadjuvant FOLFIRINOX showed interval decrease in the pancreatic head mass from 3.2 cm to 1.8 cm; SMV abutment decreased with improved fat plane; no new hepatic lesions or peritoneal implants; CA 19-9 decreased to 87 U/mL; findings consistent with partial response and now resectable disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, PET/CT showed FDG-avid mass in pancreatic head with SUVmax of 4.2 (decreased from 8.7 at diagnosis); no FDG-avid distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 62, surgical pathology from Whipple specimen: residual moderately differentiated pancreatic ductal adenocarcinoma, 1.4 cm in greatest dimension; extensive treatment effect with 60% tumor necrosis and fibrosis (treatment response grade 2); margins: R0 resection, all margins negative with closest margin 3 mm at the uncinate; 2 of 18 lymph nodes positive for metastatic carcinoma; pathologic staging ypT2N1M0; lymphovascular invasion present, perineural invasion present.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, post-operative recovery complicated by grade 2 delayed gastric emptying requiring prolonged nasogastric decompression; resolved by post-operative day 14; pancreatic fistula grade A managed conservatively.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, surveillance CA 19-9 after completion of adjuvant therapy was 22 U/mL within normal range; CT abdomen/pelvis showed no evidence of recurrence.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, surveillance CT at 3 months post-adjuvant therapy showed no evidence of local recurrence or distant metastatic disease; post-surgical changes stable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, patient managing well on pancreatic enzyme replacement; weight stable at 168 lbs; pain well-controlled without narcotics; continued diabetes management with metformin and insulin.
+
+The patient was seen in clinic today for ongoing oncologic management.

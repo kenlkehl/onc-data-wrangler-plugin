@@ -1,0 +1,110 @@
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, patient presented with right-sided rib pain and was found to have a pathologic fracture of the right 7th rib on imaging. Further workup revealed a lung mass with widespread metastatic disease. Notable for never-smoker status.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, CT chest/abdomen/pelvis with contrast showed a 2.8 x 2.5 cm mass in the right middle lobe with right hilar and bilateral mediastinal lymphadenopathy. Multiple hepatic lesions in segments IV, VI, and VIII ranging from 0.8 to 2.4 cm. Lytic lesions in right 7th rib (with pathologic fracture), L2 vertebral body, and left iliac bone.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, PET/CT demonstrated FDG-avid right middle lobe mass (SUVmax 8.4), bilateral mediastinal lymphadenopathy, multiple hepatic lesions (SUVmax 6.9), and osseous lesions in right 7th rib, L2 vertebra, and left iliac bone (SUVmax 11.2).
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, MRI brain with and without contrast showed two small enhancing lesions in the left occipital lobe measuring 4 mm and 6 mm, consistent with brain metastases.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 54, CT-guided percutaneous biopsy of right middle lobe mass revealed well-differentiated adenocarcinoma with micropapillary features. Immunohistochemistry: TTF-1 positive, Napsin-A positive, CK7 positive, CK20 negative. PD-L1 TPS 0% (22C3 assay).
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 54, next-generation sequencing (FoundationOne CDx) of tumor specimen: EGFR wild-type (no mutations in exons 18-21), ALK rearrangement not detected (confirmed by FISH), ROS1 rearrangement not detected, BRAF V600E not detected, KRAS wild-type, MET exon 14 skipping not detected, RET fusion not detected, NTRK fusion not detected, HER2 mutation not detected. TP53 R273H detected. No actionable driver mutations. Tumor mutational burden 3.1 mut/Mb. Microsatellite stable.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, multidisciplinary tumor board: stage IVB adenocarcinoma in a never-smoker with surprisingly no actionable driver mutations. PD-L1 negative. Low TMB. Recommended carboplatin/pemetrexed/pembrolizumab as standard first-line, though prognosis for immunotherapy response may be guarded given low PD-L1 and low TMB.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, restaging CT after 4 cycles showed stable disease. Right middle lobe mass 2.6 x 2.3 cm (minor decrease). Hepatic lesions stable. No new osseous lesions.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, MRI brain showed stable treated occipital lesions with decreased enhancement. No new intracranial disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, restaging CT after 4 cycles of maintenance showed progressive disease. Right middle lobe mass increased to 3.4 x 3.0 cm. New hepatic lesions identified. Segment VII 1.5 cm, segment III 1.1 cm.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, progressive disease on first-line pemetrexed/pembrolizumab maintenance. Given PD-L1 negative status and low TMB, immunotherapy resistance expected. Recommended second-line docetaxel plus ramucirumab.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, restaging CT after 4 cycles of docetaxel/ramucirumab showed partial response with right middle lobe mass decreased to 2.5 x 2.2 cm and hepatic lesions stable to slightly decreased.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, responding to second-line docetaxel/ramucirumab. Plan to continue therapy with close monitoring. Patient coping well psychologically with disease and treatment.
+
+The patient was seen in clinic today for ongoing oncologic management.

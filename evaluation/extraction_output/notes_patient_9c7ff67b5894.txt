@@ -1,0 +1,74 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 65, left breast punch biopsy of fungating mass: invasive ductal carcinoma, Nottingham grade 3. ER negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 65, CT chest/abdomen/pelvis showed a large left breast mass (8.5 cm) with extensive axillary, supraclavicular, and mediastinal lymphadenopathy. Multiple bilateral pulmonary nodules and hepatic metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 65, bone scan showed multifocal osseous metastases involving the spine, pelvis, and bilateral femora.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 65, MRI brain was negative for intracranial metastases.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 65, FoundationOne CDx: TP53 R273H, ERBB2 amplification (copy number 22), PIK3CA wild-type, PTEN loss. TMB 8 mutations/Mb. MSS.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 66, restaging CT after 4 cycles showed mixed response: liver lesions decreased but new pulmonary nodules identified. Overall stable disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, PET/CT showed progressive disease with new liver lesions and increasing osseous disease burden.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, restaging CT after 4 cycles of T-DM1 showed stable disease. No new lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, patient reports moderate fatigue limiting some daily activities. ECOG 2. Weight stable. Plan to continue T-DM1 with dose reduction. Discussed goals of care and palliative care referral.
+
+The patient was seen in clinic today for ongoing oncologic management.

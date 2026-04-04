@@ -1,0 +1,126 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, MRI abdomen with MRCP showed a 2.4 cm T1-hypointense, T2-hyperintense mass in the pancreatic tail with restricted diffusion; abutment of the splenic artery less than 180 degrees without encasement; splenic vein contact without narrowing; no pancreatic duct dilation; no hepatic metastases; no suspicious lymphadenopathy.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, CT abdomen/pelvis with pancreas protocol confirmed a 2.3 cm mass in the pancreatic tail with splenic artery abutment; no distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, EUS examination demonstrated a 2.5 x 2.0 cm hypoechoic mass in the pancreatic tail; FNA performed with four passes for cytology and molecular testing.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 50, EUS-guided FNA of pancreatic tail mass: moderately differentiated adenocarcinoma (histology code 8140/3) with glandular and cribriform architecture; moderate nuclear atypia with occasional mitoses; immunohistochemistry CK7 positive, CK19 positive, MUC1 positive, CDX2 negative; SMAD4 intact by IHC.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 50, next-generation sequencing on FNA specimen: KRAS G12V mutation (variant allele frequency 22%), TP53 C176Y mutation, BRCA2 germline pathogenic variant c.5946delT (previously known, confirmed somatic loss of heterozygosity), CDKN2A wild-type, PALB2 wild-type, microsatellite stable (MSS), tumor mutational burden 5 mutations/Mb; homologous recombination deficiency score elevated.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, CA 19-9 at diagnosis was 312 U/mL; CEA 3.8 ng/mL; clinical staging cT2N0M0, Stage IB, borderline resectable due to splenic artery abutment; ECOG performance status 0; multidisciplinary tumor board recommended neoadjuvant FOLFIRINOX (platinum-based given BRCA2 status) followed by restaging and distal pancreatectomy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, no biliary obstruction given tail location; pain mild and managed with acetaminophen and NSAIDs; nutritional status adequate with albumin 3.8 g/dL; pancreatic enzyme supplementation started prophylactically.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, CA 19-9 after 4 cycles decreased from 312 to 68 U/mL; excellent biochemical response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, restaging CT pancreas protocol after 6 cycles of neoadjuvant FOLFIRINOX showed decrease in pancreatic tail mass from 2.4 cm to 1.1 cm; resolved splenic artery abutment; no evidence of metastatic disease; CA 19-9 at 34 U/mL; excellent response; surgical resection recommended.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, PET/CT showed minimal residual FDG uptake in the pancreatic tail with SUVmax 2.4 (decreased from 6.8); no distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 50, surgical pathology from distal pancreatectomy: residual moderately differentiated pancreatic ductal adenocarcinoma, 0.6 cm in greatest dimension, with marked treatment response including 85% tumor necrosis and fibrosis (treatment response grade 1, near-complete response); all surgical margins negative (R0 resection) with closest margin at the pancreatic transection margin at 1.2 cm; 0 of 14 lymph nodes with metastatic disease; ypT1aN0M0; no lymphovascular or perineural invasion.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, post-operative recovery uneventful; discharged on post-operative day 4; started on pneumococcal, meningococcal, and Haemophilus influenzae vaccinations post-splenectomy; penicillin prophylaxis initiated.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 51, following completion of adjuvant therapy, discussed maintenance olaparib given BRCA2 mutation and platinum-sensitive disease; initiated olaparib 300 mg twice daily as per POLO trial data.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 51, surveillance CT at 6 months post-adjuvant therapy showed no evidence of local recurrence or distant metastatic disease; post-surgical changes in the pancreatic bed stable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 51, patient doing well on olaparib maintenance; ECOG performance status 0; weight stable at 149 lbs; no significant pain; continued pancreatic enzyme replacement; CA 19-9 normal at 11 U/mL; genetic counseling for family members recommended and ongoing.
+
+The patient was seen in clinic today for ongoing oncologic management.

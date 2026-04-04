@@ -1,0 +1,101 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 47, left breast core biopsy: invasive ductal carcinoma, Nottingham grade 3, tumor size 3.2 cm. ER positive 85%, PR positive 60%, HER2 IHC 3+, Ki-67 45%. Lymphovascular invasion present.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 47, diagnostic mammogram showed a 3.1 cm irregular spiculated mass in the left upper outer quadrant with associated microcalcifications, BIRADS 5.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 47, CT chest/abdomen/pelvis revealed multiple liver lesions (largest 2.8 cm in segment VI) and scattered pulmonary nodules bilateral, consistent with metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 47, bone scan showed increased uptake in the thoracic spine T7 and right iliac crest, suspicious for osseous metastases.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 47, next-generation sequencing (FoundationOne CDx) identified PIK3CA H1047R mutation, TP53 missense mutation, and MYC amplification. Tumor mutational burden 4 mutations/Mb. Microsatellite stable.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 48, restaging CT after 4 cycles of THP showed partial response with decrease in liver lesions (largest now 1.4 cm) and near-complete resolution of pulmonary nodules.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 48, PET/CT after 6 cycles showed near-complete metabolic response in liver and lung. Bone lesions with decreased FDG uptake consistent with treatment response.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, patient tolerating maintenance trastuzumab/pertuzumab well. ECOG performance status 0. Neuropathy improving after docetaxel discontinuation. Plan to continue maintenance with surveillance imaging every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, CT surveillance at 12 months showed continued partial response, stable minimal residual disease in liver segment VI.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, multidisciplinary tumor board discussion: patient maintaining good response on HP maintenance plus endocrine therapy. Continue current regimen with close surveillance.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, CT showed new enlarging liver lesion concerning for progressive disease after 2.5 years on first-line therapy.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, patient reports fatigue and mild nausea on T-DM1 but maintaining daily activities. ECOG 1. Liver function tests mildly elevated, AST 52, ALT 48.
+
+The patient was seen in clinic today for ongoing oncologic management.

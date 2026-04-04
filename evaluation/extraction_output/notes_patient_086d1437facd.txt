@@ -1,0 +1,128 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 52, transrectal ultrasound-guided prostate biopsy showed adenocarcinoma, Gleason score 5+4=9 (Grade Group 5), involving 11 of 12 cores, with extensive perineural invasion and comedonecrosis.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 52, whole-body bone scan showed no definite metastatic disease; CT abdomen/pelvis showed a large prostatic mass with possible seminal vesicle invasion and a 1.4 cm right external iliac lymph node.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 52, patient was staged as cT3bN1M0 and was treated with combined modality therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 53, PSA nadir was 0.1 ng/mL on ADT; serum testosterone was 8 ng/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, after completing planned 2 years of ADT, leuprolide was continued due to high-risk features; PSA remained at 0.3 ng/mL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 56, routine bone scan showed new uptake in the right posterior 8th rib and left sacral ala suspicious for metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 56, PSMA PET/CT confirmed PSMA-avid lesions in the right 8th rib, left sacral ala, and a previously undetected focus in the right femoral neck; SUVmax ranged from 8.2 to 14.6.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 56, PSA had risen to 4.8 ng/mL with testosterone of 15 ng/dL on continuous leuprolide, confirming metastatic castration-resistant prostate cancer.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, PSA declined to 1.2 ng/mL on enzalutamide; bone pain was well controlled.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 57, next-generation sequencing (FoundationOne CDx) on archival prostate biopsy tissue revealed BRCA2 splice site mutation (c.8488-1G>A), homozygous PTEN deletion, and SPOP F133V mutation; HRD score was elevated; tumor mutational burden 3 mutations/Mb; microsatellite stable.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, restaging PSMA PET/CT showed mixed response with decreased uptake at sacral lesion but new PSMA-avid focus in the L1 vertebral body and a 1.2 cm PSMA-avid left hepatic lobe lesion suspicious for visceral metastasis.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, PSA rose to 9.4 ng/mL on enzalutamide with new bone and hepatic metastases; enzalutamide discontinued.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, after 4 months on dose-reduced olaparib, PSA declined to 3.6 ng/mL; hepatic lesion was stable on imaging.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, CT abdomen/pelvis showed enlargement of the left hepatic lesion to 2.4 cm and a new 0.8 cm right hepatic lesion; bone disease was stable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, PSA rose to 16.8 ng/mL with progressive hepatic metastases on olaparib; transition to docetaxel was planned.
+
+The patient was seen in clinic today for ongoing oncologic management.

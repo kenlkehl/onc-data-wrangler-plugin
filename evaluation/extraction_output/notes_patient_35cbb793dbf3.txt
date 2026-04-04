@@ -1,0 +1,135 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, excisional biopsy of the mid-back lesion revealed superficial spreading melanoma with Breslow thickness of 2.2 mm, Clark level IV, without ulceration, mitotic rate 5/mm2, no microsatellites, no lymphovascular invasion, and negative margins.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, sentinel node pathology confirmed metastatic melanoma in 2 of 5 nodes from bilateral axillae, no extracapsular extension, S100 and SOX10 immunohistochemistry positive.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, staging CT of chest/abdomen/pelvis revealed two hepatic lesions measuring 2.5 cm and 1.8 cm in the right hepatic lobe, suspicious for metastatic disease, with no pulmonary or osseous metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, MRI of the abdomen confirmed two hepatic metastases in segments VI and VII of the right liver lobe, with peripheral enhancement and washout pattern.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, PET/CT showed FDG-avid hepatic lesions (SUVmax 8.5 and 6.2) and mild bilateral axillary FDG uptake consistent with known nodal metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, MRI brain with gadolinium showed a small 0.7 cm enhancing focus in the left temporal lobe, indeterminate but suspicious for early brain metastasis.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 58, comprehensive genomic profiling of the primary tumor identified BRAF V600E mutation (allele frequency 44%), NRAS wild-type, TERT promoter mutation (C228T), PTEN deletion, MAP2K1 amplification, and tumor mutational burden of 15 mutations per megabase with PD-L1 combined positive score of 22.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, serum LDH was elevated at 356 U/L, and the case was discussed at multidisciplinary tumor board where consensus was to proceed with combined immunotherapy given brain metastasis (M1d staging) and high PD-L1 expression.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, restaging CT at 12 weeks showed partial response with 30% reduction in hepatic metastases per RECIST 1.1.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, MRI brain at 3 months post-SRS showed decreased enhancement of the left temporal lesion to 0.3 cm with no new intracranial lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, LDH trended down to 268 U/L reflecting partial response to immunotherapy and patient maintained ECOG performance status of 1.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, 6-month restaging PET/CT showed continued decrease in hepatic FDG uptake with partial metabolic response.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, 9-month restaging CT showed stable hepatic lesions without further reduction and no new metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, after 12 months of nivolumab maintenance with stable disease (best response partial response), LDH was 232 U/L and the patient was continued on nivolumab with plan to reassess at 18 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, 12-month MRI brain showed complete resolution of the left temporal lesion with no new intracranial disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, at 18 months of nivolumab maintenance, restaging showed continued stable hepatic disease with LDH 225 U/L, and the decision was made to continue nivolumab given sustained disease control and maintained quality of life with BRAF/MEK inhibitor therapy held in reserve for future progression.
+
+The patient was seen in clinic today for ongoing oncologic management.

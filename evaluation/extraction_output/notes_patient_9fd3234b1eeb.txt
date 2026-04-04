@@ -1,0 +1,81 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 74, pathology report showed diffuse effacement by large atypical lymphoid cells, Ki-67 of 65 percent, immunohistochemistry positive for CD20, CD19, BCL6, MUM1, negative for CD10, BCL2 positive by IHC, consistent with non-GCB (ABC) subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, flow cytometry demonstrated monoclonal B-cell population positive for CD20, CD19, BCL6, MUM1, negative for CD10, CD5, CD23
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 74, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, BCL6 rearrangement positive; single-hit BCL6, not classified as double-hit lymphoma
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, laboratory studies showed LDH elevated at 412 U/L, CBC with WBC 5.4, hemoglobin 9.8 g/dL, platelets 134, CMP with albumin 3.0 g/dL, total protein 8.4 g/dL
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, staging PET/CT showed FDG-avid bilateral cervical, bilateral axillary, and retroperitoneal lymphadenopathy, largest cervical node 4.3 cm with SUVmax 16.7, FDG-avid splenic lesions suggesting splenic involvement
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 74, bone marrow biopsy showed 10 percent involvement by large B-cell lymphoma with paratrabecular pattern
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, interim PET/CT after 3 cycles showed partial response with cervical lymphadenopathy decreased to 2.1 cm, SUVmax 6.2, Deauville score 4, splenic lesions resolved, persistent mild retroperitoneal uptake
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, end-of-treatment PET/CT showed near-complete metabolic response with small residual cervical node 1.2 cm, SUVmax 3.4, Deauville score 3, interpreted as likely complete response
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, patient was deemed to have achieved complete remission and was placed on surveillance, with acyclovir prophylaxis continued
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 75, at 12-month follow-up, patient reports persistent grade 2 neuropathy limiting ambulation, using a cane, otherwise no evidence of recurrence on clinical exam and labs
+
+The patient was seen in clinic today for ongoing oncologic management.

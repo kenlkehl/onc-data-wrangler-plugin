@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 48, pathology report demonstrated centroblastic morphology with starry-sky pattern, Ki-67 of 92 percent, immunohistochemistry positive for CD20, CD19, CD10, BCL6, BCL2 negative, MUM1 negative, MYC protein positive in 65 percent of cells, consistent with GCB subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, flow cytometry showed monoclonal B-cell population strongly positive for CD20, CD19, CD10, BCL6, negative for CD5, CD23, MUM1
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 48, FISH analysis showed MYC rearrangement positive with IGH-MYC fusion, BCL2 rearrangement negative, BCL6 rearrangement positive; classified as double-hit lymphoma (MYC and BCL6), reclassified as high-grade B-cell lymphoma with MYC and BCL6 rearrangements
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, laboratory workup showed LDH elevated at 445 U/L, CBC with WBC 6.9, hemoglobin 13.4 g/dL, platelets 256, CMP unremarkable, uric acid 7.2 mg/dL
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 48, staging PET/CT showed FDG-avid right axillary lymphadenopathy with largest node 7.4 cm (bulky), SUVmax 25.1, and FDG-avid right supraclavicular node 2.3 cm, no disease elsewhere
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 48, bone marrow biopsy was negative for lymphoma involvement with normal trilineage hematopoiesis
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 48, interim PET/CT after 3 cycles showed dramatic response with right axillary mass reduced to 1.8 cm, SUVmax 3.2, Deauville score 3, supraclavicular node resolved
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 48, end-of-treatment PET/CT demonstrated complete metabolic response, Deauville score 1, no residual FDG-avid disease anywhere
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, patient achieved complete remission after 6 cycles of R-CHOP and was transitioned to surveillance with close monitoring given double-hit biology
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, surveillance PET/CT at 6 months showed no evidence of recurrence
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, surveillance CT at 12 months remained without evidence of disease
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, patient reports resolution of all treatment-related side effects, LDH normalized at 172 U/L, remains in complete remission
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, surveillance CT at 24 months showed no evidence of recurrence, patient transitioned to annual surveillance
+
+Please correlate clinically.

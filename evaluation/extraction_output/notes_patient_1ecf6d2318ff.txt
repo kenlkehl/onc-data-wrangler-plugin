@@ -1,0 +1,135 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+CT-guided core needle biopsy of right lower lobe mass reveals well to moderately differentiated adenocarcinoma with papillary predominant pattern. TTF-1 positive, Napsin A positive. No signet ring or mucinous features. Tissue submitted for molecular analysis.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+NGS (FoundationOne CDx) on right lower lobe biopsy. EGFR exon 21 L858R mutation (VAF 48%). EGFR T790M mutation detected at low allele frequency (VAF 2%), raising concern for pretreatment compound EGFR mutation. TP53 R282W mutation (VAF 44%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 12%. TMB 4 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Stage IV EGFR L858R-mutant adenocarcinoma. Notably, low-level pretreatment T790M detected, which has been reported in approximately 1-2% of treatment-naive EGFR-mutant NSCLC. This strongly favors first-line osimertinib over erlotinib. Plan: Start osimertinib 80 mg daily. Pericardiocentesis if hemodynamically significant.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT chest/abdomen/pelvis shows 3.5 cm right lower lobe mass, right hilar lymphadenopathy, multiple bilateral pulmonary nodules (largest 1.0 cm left upper lobe), and moderate pericardial effusion. No hepatic, adrenal, or bone metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain negative for intracranial disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT at 6 weeks shows right lower lobe mass decreased from 3.5 cm to 2.2 cm. Bilateral pulmonary nodules decreased. Pericardial effusion resolved. Partial response.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Good response to osimertinib at 6 weeks. Pericardial effusion resolved. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 4 months shows continued response. Right lower lobe mass 1.8 cm. Pulmonary nodules barely visible. No pericardial effusion.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 8 months shows right lower lobe mass stable at 1.7 cm. No new disease. Stable partial response.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 9 months negative.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 12 months shows stable disease. Right lower lobe 1.8 cm. No pericardial effusion. No new lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Durable response to osimertinib at 12 months. Pretreatment T790M clone appears controlled. Plan: Continue osimertinib. Consider cfDNA monitoring for emerging resistance clones.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Serial liquid biopsy (Guardant360) at 12 months shows EGFR L858R detectable at very low VAF (0.3%). T790M not detected. No new mutations. Consistent with deep molecular response.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 16 months shows stable right lower lobe mass at 1.7 cm. No progression.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 20 months shows right lower lobe mass stable at 1.8 cm. No new systemic disease. Continued stable disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Ongoing response at 20 months on osimertinib. Monitoring liquid biopsy intermittently. Well tolerated. ECOG 0. Plan: Continue osimertinib.
+
+The patient was seen in clinic today for ongoing oncologic management.

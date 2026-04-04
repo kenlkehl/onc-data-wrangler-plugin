@@ -1,0 +1,92 @@
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 70, patient presented with progressive dyspnea over 6 weeks and left-sided pleuritic chest discomfort. Large left pleural effusion seen on chest X-ray. Thoracentesis yielded 1.5 liters of serosanguinous fluid.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 70, CT chest/abdomen/pelvis with contrast after thoracentesis demonstrated a 3.8 x 3.3 cm mass in the left lower lobe with associated atelectasis, left mediastinal and subcarinal lymphadenopathy, and residual left pleural effusion with pleural nodularity suggesting malignant pleural disease. No hepatic, adrenal, or osseous metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 70, PET/CT showed FDG-avid left lower lobe mass (SUVmax 9.6), mediastinal lymphadenopathy (SUVmax 7.8), and diffuse left pleural FDG uptake (SUVmax 5.2) consistent with malignant pleural involvement. No extrathoracic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 70, pleural fluid cytology positive for adenocarcinoma. Cell block immunohistochemistry: TTF-1 positive, Napsin-A positive, CK7 positive. Concurrent bronchoscopic biopsy of left lower lobe mass confirmed moderately differentiated adenocarcinoma. PD-L1 TPS 55% (22C3 assay).
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 70, next-generation sequencing (FoundationOne CDx) of tumor specimen from bronchoscopic biopsy: EGFR wild-type, ALK rearrangement not detected, ROS1 rearrangement not detected, BRAF V600E not detected, KRAS G12V detected, TP53 Y220C detected, KEAP1 mutation detected. No actionable driver mutations. Tumor mutational burden 9.8 mut/Mb. Microsatellite stable.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 70, multidisciplinary tumor board: stage IVA adenocarcinoma with malignant pleural effusion. PD-L1 TPS 55%. Options discussed include pembrolizumab monotherapy versus combination chemoimmunotherapy. Given KEAP1 mutation (associated with poor immunotherapy response), recommended carboplatin/pemetrexed/pembrolizumab.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 70, restaging CT after 4 cycles showed partial response with left lower lobe mass decreased to 2.4 x 2.0 cm. Pleural effusion decreased. Lymphadenopathy improved. Pleural catheter in place with minimal residual fluid.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, restaging CT after 4 cycles of maintenance showed continued partial response. Mass now 2.0 x 1.7 cm. Left pleural catheter removed after spontaneous pleurodesis achieved.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, restaging CT after 8 cycles of maintenance showed stable disease. No new lesions. Continued response in primary mass.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, patient tolerating maintenance pemetrexed/pembrolizumab well. Fatigue has improved to grade 1. Creatinine stable at 1.1 mg/dL. Pleural effusion has not recurred since catheter removal. Plan to continue maintenance therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, continued on pemetrexed/pembrolizumab maintenance with ongoing disease control. Managing immune-related hypothyroidism with replacement therapy. Surveillance imaging every 9 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,83 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 53, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 40%, PR negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 53, mammogram showed a 3.5 cm irregular mass in the right upper inner quadrant with suspicious microcalcifications, BIRADS 5. Ultrasound confirmed matted axillary nodes.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 53, PET/CT staging revealed right breast mass (SUVmax 9.7), right axillary nodes (SUVmax 7.3), a single 1.2 cm right hepatic lobe lesion (SUVmax 4.8), and suspicious sternal lesion.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 53, FoundationOne CDx: ERBB2 amplification, PIK3CA C420R, TP53 G245S, FGFR1 amplification. TMB 5 mutations/Mb. MSS.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, restaging CT after 6 cycles showed complete resolution of liver lesion and stable sclerotic sternal lesion (likely healing). Breast mass decreased to 1.8 cm. Near-complete response.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 54, PET/CT at 9 months showed no FDG-avid disease. Complete metabolic response maintained.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 54, patient with complete response on HP maintenance and letrozole. ECOG 0. Weight stable. Tolerating regimen well. Continue surveillance every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, CT showed new 2.5 cm mediastinal lymph node and enlarging right axillary node. Progressive disease after 18 months on first-line therapy.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, restaging CT after 3 cycles of T-DM1 showed decreased mediastinal lymph node (1.5 cm) and stable axillary node. Partial response.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, partial response on T-DM1. Plan to continue. If progression, will consider trastuzumab deruxtecan (T-DXd) as third-line therapy. Monitoring LFTs and platelets closely.
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,101 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 58, transrectal ultrasound-guided prostate biopsy showed Gleason 4+5=9 (Grade Group 5) adenocarcinoma involving all 12 cores with extensive perineural invasion and lymphovascular invasion bilaterally.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 58, staging bone scan showed increased uptake in the L1 and L4 vertebral bodies and left acetabulum consistent with bone metastases; CT showed a 2.8 cm left obturator lymph node.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, after 3 months on combined therapy, PSA declined from 28.4 to 3.6 ng/mL; testosterone was 9 ng/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 59, restaging bone scan showed stable uptake at known sites; CT showed decrease in obturator lymph node to 1.2 cm; PSA was 1.8 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, PSA nadir was 0.8 ng/mL on abiraterone plus ADT; disease remained radiographically stable.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 60, next-generation sequencing (Tempus xT) on circulating tumor DNA detected BRCA2 pathogenic mutation (c.6174delT), TP53 splice site mutation, MYC amplification, and AR amplification; tumor fraction was estimated at 8%; microsatellite stable.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, PSA rose to 6.4 ng/mL on abiraterone with testosterone of 14 ng/dL; castration-resistant progression confirmed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, PSMA PET/CT showed progressive PSMA-avid bone disease with new lesions in bilateral ribs and T6 vertebral body in addition to known lesions; left obturator node had increased to 2.4 cm; no visceral metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, PSA declined to 2.2 ng/mL on dose-reduced olaparib; anemia stabilized with hemoglobin 10.1 g/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, restaging PSMA PET/CT showed decreased uptake at most bone lesions and decrease in obturator lymph node to 1.6 cm; partial response on olaparib.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 65, PSA rose to 10.8 ng/mL on olaparib with new bone lesions on imaging; olaparib was discontinued after approximately 3 years of therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 66, after 6 cycles of dose-reduced docetaxel, PSA was 8.2 ng/mL with stable disease on imaging; treatment break initiated for recovery.
+
+The patient was seen in clinic today for ongoing oncologic management.

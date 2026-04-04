@@ -1,0 +1,81 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 68, bone marrow biopsy from site C42.1 showed 55% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD38, and cytoplasmic IgG kappa; CD56 negative which is atypical; flow cytometry confirmed aberrant plasma cells comprising 48% of total cellularity.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 68, FISH analysis on bone marrow aspirate showed t(4;14) in 55% of plasma cells; no del(17p) or t(14;16); gain(1q21) detected in 30% of cells; R-ISS Stage III based on ISS III, LDH elevated at 265 U/L, and high-risk t(4;14).
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 68, serum protein electrophoresis showed M-spike of 5.1 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 310 mg/L, lambda 15 mg/L, kappa/lambda ratio 20.7; marked rouleaux formation on peripheral blood smear; serum viscosity mildly elevated at 2.8 centipoise.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 68, PET/CT showed widespread FDG-avid skeletal disease involving the axial and appendicular skeleton with at least 15 focal lesions; largest in the right 8th rib measuring 3.8 cm with cortical destruction; FDG-avid lesion in the sacrum with SUV 9.2; no extramedullary plasmacytomas.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 68, MRI of the pelvis and femora showed diffuse marrow replacement with multiple focal lesions in the sacrum and bilateral iliac bones; a 2.5 cm lesion in the left femoral neck raised concern for pathologic fracture risk and orthopedic consultation was recommended.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 68, initiated VRd induction therapy with standard dosing on 28-day cycles; plan for 4 to 6 cycles followed by consideration of autologous stem cell transplant; started acyclovir prophylaxis and low-molecular-weight heparin for DVT prevention given higher thrombotic risk.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 69, pre-transplant evaluation confirmed fitness for autologous stem cell transplant despite age 69; cardiac evaluation showed EF 58% with no significant valvular disease; pulmonary function adequate.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 69, day plus 100 bone marrow biopsy showed 4% plasma cells; SPEP no M-spike; immunofixation showed faint IgG kappa band; MRD by multiparameter flow cytometry at 10^-5 sensitivity was positive with 0.05% residual clonal plasma cells; response classified as complete response, MRD positive.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 70, one year post-transplant; maintained in complete response; immunofixation became negative indicating deepening to stringent complete response; repeat MRD at 10^-5 now negative; lenalidomide maintenance continued at 10 mg.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, two years post-transplant; sustained stringent complete response with MRD negativity; peripheral neuropathy improved to grade 1; continued on lenalidomide 5 mg maintenance.
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,110 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, CT abdomen/pelvis with pancreas protocol revealed a 4.8 cm hypodense mass centered in the pancreatic body with encasement of the celiac artery and greater than 180-degree contact with the SMA; upstream pancreatic duct dilation to 7 mm; no hepatic metastases; several borderline enlarged peripancreatic lymph nodes measuring up to 1.4 cm in short axis.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, EUS performed showing a 4.6 x 3.9 cm hypoechoic mass in the pancreatic body with celiac artery encasement confirmed; FNA performed with multiple passes using 22-gauge needle; rapid on-site evaluation confirmed adequate cellularity.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 71, EUS-guided FNA of pancreatic body mass: cytology demonstrates markedly atypical glandular cells arranged in disorganized sheets and single cells with high nuclear-to-cytoplasmic ratio, coarse chromatin, and frequent mitoses; consistent with poorly differentiated adenocarcinoma (histology code 8140/3); immunohistochemistry positive for CK7 and CA19-9, negative for CK20 and CDX2.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 71, next-generation sequencing performed on FNA specimen: KRAS G12V mutation detected (variant allele frequency 41%), TP53 Y220C mutation, SMAD4 loss, BRCA2 pathogenic variant c.6174delT (germline confirmed on subsequent testing), PALB2 wild-type, microsatellite stable (MSS), tumor mutational burden 6 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, CA 19-9 at diagnosis was 1,247 U/mL; CEA 9.8 ng/mL; clinical staging cT4N1M0, Stage III; ECOG performance status 1; multidisciplinary tumor board recommended neoadjuvant FOLFIRINOX with consideration for platinum sensitivity given BRCA2 mutation; genetic counseling referral placed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, pain management initiated with celiac plexus neurolysis performed under EUS guidance for severe epigastric and back pain; patient reported significant pain improvement from 8/10 to 3/10 on visual analog scale.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, nutritional assessment showed albumin 3.1 g/dL and prealbumin 14 mg/dL; started on oral nutritional supplements and pancreatic enzyme replacement therapy; referred to registered dietitian.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, mid-treatment CA 19-9 decreased from 1,247 to 389 U/mL after 6 cycles; treatment continued without oxaliplatin (modified FOLFIRI).
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 71, restaging CT after 8 cycles showed decrease in pancreatic body mass from 4.8 cm to 3.1 cm; persistent celiac artery encasement though with improved fat plane around SMA; no new metastatic disease; stable borderline peripancreatic lymphadenopathy.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 72, restaging CT 6 weeks post-chemoradiation demonstrated further decrease in the pancreatic body mass to 2.4 cm with radiation-related inflammatory changes; persistent celiac artery contact but no definite encasement; tumor board deemed still unresectable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 72, CA 19-9 post-chemoradiation was 94 U/mL; discussion of maintenance therapy with BRCA2-directed olaparib considered; patient enrolled in clinical trial evaluating olaparib maintenance in BRCA-mutated pancreatic cancer.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 72, surveillance CT at 4 months on olaparib maintenance showed stable pancreatic body mass at 2.3 cm; no new lesions; CA 19-9 stable at 78 U/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 72, patient maintaining ECOG performance status 1; weight stable at 142 lbs; pain controlled with long-acting morphine and gabapentin for neuropathy; continues pancreatic enzyme supplementation.
+
+The patient was seen in clinic today for ongoing oncologic management.

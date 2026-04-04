@@ -1,0 +1,79 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Biopsy of rectosigmoid mass showed moderately differentiated adenocarcinoma (histology 8140/3) with no mucinous or signet ring features; tumor invading through muscularis propria into pericolorectal tissue.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Next-generation sequencing identified KRAS G12D mutation, BRAF wild-type, PIK3CA H1047R co-mutation, HER2 non-amplified, APC frameshift mutation; microsatellite stable (MSS) with proficient mismatch repair by immunohistochemistry.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT chest/abdomen/pelvis at age 48 showed a rectosigmoid junction mass with perirectal lymphadenopathy and a solitary 2.8 cm metastasis in hepatic segment VI; no pulmonary metastases; staged T3N1bM1a.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 48, baseline CEA was 56 ng/mL and CA 19-9 was 42 U/mL; tumor board discussion noted young age, good performance status, left-sided primary with solitary liver metastasis potentially amenable to conversion therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 6 cycles of FOLFOX-bevacizumab showed excellent partial response with rectosigmoid mass decreased in size and hepatic metastasis reduced from 2.8 cm to 1.2 cm; CEA decreased to 8.3 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, tumor board recommended proceeding with hepatic metastasectomy followed by resection of primary given excellent response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Hepatic wedge resection showed residual moderately differentiated adenocarcinoma with 60% treatment effect, negative margins (closest margin 0.8 cm).
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Low anterior resection specimen demonstrated residual moderately differentiated adenocarcinoma, ypT2N1a (1 of 16 lymph nodes positive), negative circumferential resection margin, and moderate treatment response.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Surveillance CT at age 49 (3 months post-completion of therapy) showed no evidence of recurrent disease; CEA was 3.1 ng/mL; CA 19-9 was 15 U/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, patient entered surveillance with CT scans every 3 months, CEA every 3 months, and colonoscopy planned at 1 year; ECOG 0, residual grade 1 neuropathy.
+
+The patient was seen in clinic today for ongoing oncologic management.

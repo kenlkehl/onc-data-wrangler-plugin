@@ -1,0 +1,106 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 49, excisional biopsy of the left upper arm revealed malignant melanoma with Breslow thickness of 3.5 mm, Clark level IV, ulceration present, mitotic rate 7/mm2, satellite lesions identified within 2 cm of the primary tumor, lymphovascular invasion present.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 49, separately excised in-transit satellite lesion from the left upper arm confirmed metastatic melanoma consistent with the primary tumor morphology.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 49, sentinel lymph node pathology showed melanoma metastases in 2 of 3 nodes with no extracapsular extension, confirmed positive for S100, HMB-45, and SOX10.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, staging PET/CT showed FDG-avid left axillary lymphadenopathy, multiple subcutaneous nodules in the left arm and chest wall (SUVmax up to 5.2), and no visceral metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, MRI brain with gadolinium was negative for intracranial metastases.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 49, next-generation sequencing identified BRAF V600E mutation (allele frequency 40%), NRAS wild-type, TERT promoter mutation (C250T), APC mutation, and tumor mutational burden of 11 mutations per megabase with microsatellite stable status.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, serum LDH was mildly elevated at 245 U/L, consistent with Stage IV M1a disease (subcutaneous distant metastases) with normal organ function.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 49, hepatitis improved to grade 1 after 2 weeks of high-dose corticosteroids followed by prolonged oral prednisone taper over 8 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 49, restaging CT at 12 weeks showed partial response with resolution of subcutaneous nodules and decreased axillary lymphadenopathy.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, 6-month restaging PET/CT showed near complete metabolic response with minimal residual FDG activity in the left axilla.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, LDH normalized to 188 U/L and patient continued nivolumab maintenance with excellent response and ECOG performance status of 0.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 50, 12-month restaging CT showed complete radiographic response with no measurable disease per RECIST 1.1.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 50, after achieving complete response on nivolumab for 12 months, treatment was electively discontinued with plan for close surveillance imaging every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.

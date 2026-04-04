@@ -1,0 +1,128 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Video-assisted thoracoscopic surgery (VATS) pleural biopsy reveals metastatic adenocarcinoma with lepidic and papillary patterns. TTF-1 positive, Napsin A positive. Pleural fluid cytology also positive for adenocarcinoma. Ample tissue for molecular testing.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+NGS (Tempus xT) on pleural biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 60%. TP53 V157F mutation (VAF 55%). PIK3CA E545K mutation (VAF 8%). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Stage IV (M1a) EGFR exon 19 deletion-positive adenocarcinoma with malignant pleural effusion. Low disease burden. PIK3CA co-mutation noted, which may affect duration of TKI response. Plan: Start osimertinib 80 mg daily. Consider pleurodesis if effusion symptomatic.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT chest/abdomen/pelvis shows 2.8 cm right lower lobe mass, moderate right pleural effusion, and no distant metastases. No lymphadenopathy by imaging criteria.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT at 6 weeks shows right lower lobe mass decreased to 1.6 cm. Right pleural effusion significantly decreased. PleurX catheter output diminished to less than 50 mL daily.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Excellent response to osimertinib with near-resolution of pleural effusion. PleurX output minimal. Plan: Continue osimertinib. Trial PleurX clamping. If no reaccumulation, remove catheter.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 4 months shows right lower lobe mass 1.2 cm. Trace residual pleural effusion. Excellent response maintained.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 8 months shows stable right lower lobe lesion at 1.1 cm. No pleural effusion. No new disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 8 months is negative for intracranial metastases.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Durable response to osimertinib at 8 months. Excellent quality of life. ECOG 0. Plan: Continue osimertinib. Surveillance imaging.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 12 months stable disease. Right lower lobe 1.0 cm. No new lesions.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 16 months shows stable disease. Right lower lobe residual 1.1 cm. No new lesions or effusion.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 20 months shows right lower lobe stable at 1.0 cm. New 1.8 cm left adrenal mass concerning for metastasis. PET/CT recommended.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+PET/CT shows low FDG uptake in right lower lobe residual (SUV max 1.8) and moderate FDG uptake in left adrenal mass (SUV max 6.2), suspicious for metastatic disease. No other FDG-avid lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Possible oligoprogression at 20 months with new adrenal lesion. Extrathoracic disease minimal. Plan: Adrenal biopsy to confirm metastasis. If confirmed, consider local therapy (SBRT) and continue osimertinib given otherwise excellent systemic control.
+
+The patient was seen in clinic today for ongoing oncologic management.

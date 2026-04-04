@@ -1,0 +1,115 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Supraclavicular lymph node excisional biopsy reveals metastatic adenocarcinoma with solid and micropapillary predominant patterns, indicating high-grade histology. TTF-1 positive, Napsin A weakly positive. Lymphovascular invasion present. Tissue sent for molecular testing.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+NGS (FoundationOne CDx) on supraclavicular lymph node. EGFR L858R mutation (VAF 55%). TP53 R249S mutation (VAF 50%). RB1 loss (homozygous deletion). CDKN2A/B homozygous deletion. No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 30%. TMB 6 mutations/Mb.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with aggressive pathologic features (solid/micropapillary pattern, RB1 loss). RB1 loss and TP53 co-mutation raise concern for potential transformation to small cell lung cancer at progression. Plan: Start erlotinib 150 mg daily. Close monitoring given high-risk molecular profile.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Baseline CT shows 6.2 cm right upper lobe mass invading the SVC with moderate SVC narrowing, bulky mediastinal and supraclavicular lymphadenopathy, and lytic lesions in L3 and right iliac bone. No hepatic or adrenal metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain negative for brain metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT at 6 weeks shows right upper lobe mass decreased from 6.2 cm to 4.5 cm. SVC narrowing improved. Lymphadenopathy decreased. Partial response. Bone lesions show early sclerotic change.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Partial response to erlotinib at 6 weeks despite dose reduction. Skin and GI toxicity improved at 100 mg dose. Plan: Continue erlotinib 100 mg. Repeat imaging in 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 4 months shows continued response. Right upper lobe mass 3.8 cm. Lymphadenopathy further decreased.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 7 months shows new small bilateral pleural effusions and slight increase in right upper lobe mass to 4.2 cm. Concerning for early progression.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Concerning for progression at 7 months on erlotinib. Relatively short PFS consistent with aggressive molecular profile. Plan: Liquid biopsy for T790M and resistance analysis. If T790M positive, switch to osimertinib. If negative, consider rebiopsy to evaluate for small cell transformation given RB1 loss.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Liquid biopsy (Guardant360) detects EGFR L858R (VAF 22%) but no T790M mutation. No new targetable alterations. Rising ctDNA fraction concerning for progression.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+CT-guided rebiopsy of progressing right upper lobe mass reveals transformation to high-grade neuroendocrine carcinoma (small cell lung cancer). Positive for synaptophysin, chromogranin A, and CD56. Ki-67 proliferative index greater than 80%. TTF-1 remains positive. EGFR L858R still detectable by PCR, confirming clonal origin from original adenocarcinoma.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Small cell transformation of EGFR-mutant adenocarcinoma at 7 months, consistent with the high-risk molecular profile (RB1 loss, TP53 mutation). Plan: Discontinue erlotinib. Start cisplatin/etoposide chemotherapy for transformed small cell histology. Prophylactic cranial irradiation if responsive.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 3 cycles of cisplatin/etoposide shows significant decrease in right upper lobe mass from 4.2 cm to 2.0 cm. Pleural effusions resolved. Partial response to platinum-etoposide chemotherapy.
+
+Please correlate clinically.

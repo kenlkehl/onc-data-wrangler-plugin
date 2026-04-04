@@ -1,0 +1,99 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 44, left breast core biopsy: invasive ductal carcinoma with micropapillary features, Nottingham grade 3. ER negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 44, mammogram showed a 2.8 cm mass in the left upper inner quadrant with extensive associated microcalcifications spanning 5 cm, BIRADS 5.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 44, MRI breast showed a 3.0 cm enhancing mass with extensive non-mass enhancement over 6 cm, suggesting extensive DCIS. Suspicious left axillary lymph node.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 44, PET/CT staging showed left breast mass (SUVmax 8.9), left axillary node (SUVmax 5.4), and no distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 45, left mastectomy: pathologic complete response (pCR). Fibrosis and chronic inflammation at tumor bed. No residual invasive carcinoma or DCIS. All 4 sentinel nodes negative. Treatment effect consistent with complete response.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 45, completing adjuvant HP therapy. Tolerating well. ECOG 0. Discussed reconstruction options. Surveillance plan established.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 45, surveillance CT at 6 months post-mastectomy showed no evidence of disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 46, patient developed new right-sided weakness. MRI brain showed a solitary 2.2 cm left parietal lobe enhancing lesion consistent with brain metastasis.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 46, CT chest/abdomen/pelvis at time of brain recurrence showed small bilateral pulmonary nodules (largest 8 mm) suspicious for metastatic disease.
+
+Please correlate clinically.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 44, tumor profiling (FoundationOne CDx): ERBB2 amplification (copy number 20), TP53 R248Q, CHEK2 germline pathogenic variant (c.1100delC), ARID1A truncating mutation. TMB 8 mutations/Mb. MSS.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, on T-DXd with good tolerance. Right-sided weakness improving after SRS. ECOG 1. Close MRI brain surveillance every 3 months. Monitoring for ILD symptoms and imaging. Discussed next-line options including tucatinib-based combinations if needed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 46, MRI brain 2 months post-SRS showed decreasing left parietal lesion with surrounding edema resolving. CT chest showed stable pulmonary nodules.
+
+Please correlate clinically.

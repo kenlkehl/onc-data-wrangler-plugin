@@ -1,0 +1,92 @@
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, CT abdomen/pelvis with pancreas protocol demonstrated a 3.9 cm hypodense mass in the pancreatic head with circumferential encasement of the SMA; SMV encased with intraluminal thrombus and near-complete occlusion; extensive collateral venous circulation; intrahepatic and extrahepatic biliary dilation; pancreatic duct dilation to 8 mm; no definite hepatic metastases; small volume ascites in the pelvis.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, ERCP with placement of a 10 mm x 80 mm fully covered self-expandable metal biliary stent for malignant biliary obstruction; pre-procedure total bilirubin 14.6 mg/dL; bilirubin improved to 4.2 mg/dL at one-week follow-up.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, EUS performed confirming a 4.1 x 3.6 cm hypoechoic mass in the pancreatic head with SMA encasement and SMV thrombus; FNA performed with three passes using 25-gauge needle.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 74, EUS-guided FNA of pancreatic head mass: moderately differentiated adenocarcinoma (histology code 8140/3) with invasion into peripancreatic fat; glandular architecture with moderate cytologic atypia; immunohistochemistry CK7 positive, CK20 negative, CDX2 negative, p53 overexpression (consistent with missense mutation); final diagnosis: moderately differentiated pancreatic ductal adenocarcinoma.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 74, next-generation sequencing panel: KRAS G12R mutation (variant allele frequency 31%), TP53 R273H missense mutation, SMAD4 wild-type, CDKN2A loss, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, microsatellite stable (MSS), tumor mutational burden 4 mutations/Mb; no actionable therapeutic targets identified.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, CA 19-9 at diagnosis was 3,120 U/mL; CEA 18.4 ng/mL; clinical staging cT4N1M0, Stage III; ECOG performance status 1; given age, cardiac comorbidities, and SMV thrombus, tumor board recommended gemcitabine/nab-paclitaxel rather than FOLFIRINOX; anticoagulation transitioned to enoxaparin for cancer-associated thrombosis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, pain management initiated with hydromorphone and pregabalin for neuropathic component; nutritional consultation with initiation of pancreatic enzyme replacement and high-calorie oral supplements; weight at treatment start 118 lbs.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 74, CA 19-9 after 3 cycles decreased from 3,120 to 1,245 U/mL; partial biochemical response.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, restaging CT after 4 cycles of gemcitabine/nab-paclitaxel showed decrease in pancreatic head mass from 3.9 cm to 2.8 cm; SMV thrombus partially recanalized; persistent SMA encasement; no new distant metastatic disease; small pelvic ascites resolved.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 75, restaging CT 6 weeks post-SBRT showed further decrease in pancreatic head mass to 2.1 cm; stable SMV appearance; CA 19-9 at 298 U/mL; no evidence of distant metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 75, continued on maintenance gemcitabine; ECOG performance status 2; ongoing pain management with palliative care team; continued anticoagulation for SMV thrombus; CA 19-9 slowly trending up to 412 U/mL; close surveillance planned.
+
+The patient was seen in clinic today for ongoing oncologic management.

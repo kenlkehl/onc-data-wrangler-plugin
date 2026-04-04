@@ -1,0 +1,81 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 42, left breast core needle biopsy: invasive ductal carcinoma, Nottingham grade 2. ER positive 80%, PR positive 50%, HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 2.4, average HER2 copy number 6.8). Ki-67 28%. No lymphovascular invasion.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 42, mammogram showed a 1.2 cm oval mass with indistinct margins in the left upper outer quadrant, BIRADS 4B. Ultrasound showed a solid hypoechoic mass measuring 1.3 cm.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 43, routine surveillance. Patient well on tamoxifen. Hot flashes grade 1. Exam unremarkable. Annual mammography planned.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 43, surveillance mammogram of bilateral breasts showed no suspicious findings. Post-lumpectomy changes left breast, stable.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 44, patient presents with new persistent dry cough and mild dyspnea on exertion for 3 weeks.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 44, CT chest showed multiple bilateral pulmonary nodules (largest 1.8 cm right lower lobe) and a 2.0 cm left adrenal mass. Suspicious for metastatic disease.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 44, CT-guided lung biopsy of right lower lobe nodule: metastatic carcinoma consistent with breast primary. ER positive 70%, PR weakly positive 10%, HER2 IHC 3+ (increased from original 2+), Ki-67 40%.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 44, Guardant360 liquid biopsy: ERBB2 amplification, ESR1 D538G (acquired on tamoxifen), PIK3CA E542K, TP53 C176Y. TMB 6 mutations/Mb.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 44, restaging CT after 4 cycles showed partial response with decreasing pulmonary nodules and stable adrenal lesion.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 44, responding to treatment. Switched endocrine backbone to fulvestrant based on ESR1 mutation. ECOG 0. Will continue HP plus fulvestrant with surveillance every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.

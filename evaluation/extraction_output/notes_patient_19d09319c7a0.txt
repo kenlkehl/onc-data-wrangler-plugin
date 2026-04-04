@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 70, transrectal ultrasound-guided prostate biopsy showed adenocarcinoma, Gleason score 5+5=10 (Grade Group 5), involving all 12 cores with extensive perineural invasion, lymphovascular invasion, and areas of comedonecrosis.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 70, bone scan revealed diffuse skeletal metastases involving the axial and appendicular skeleton including calvarium, multiple vertebrae, bilateral ribs, pelvis, and bilateral proximal femora; described as a superscan pattern.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 70, CT chest/abdomen/pelvis showed extensive sclerotic bone metastases, bilateral retroperitoneal lymphadenopathy (largest 3.2 cm), and two subcentimeter pulmonary nodules in the right lower lobe indeterminate for metastases.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 70, after 3 months of combined therapy, PSA declined from 84 to 12.4 ng/mL; back pain improved significantly with ADT and radiation.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 71, PSA nadir was 4.2 ng/mL on goserelin plus abiraterone; testosterone was 11 ng/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 72, restaging bone scan and CT showed stable diffuse bone disease and stable pulmonary nodules; retroperitoneal lymphadenopathy decreased to 1.8 cm.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 73, PSA rose to 18.6 ng/mL on abiraterone with testosterone of 16 ng/dL; castration-resistant progression confirmed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 73, next-generation sequencing (Tempus xT) on fresh biopsy of right iliac bone metastasis revealed TP53 R175H and R248W biallelic mutations, RB1 loss, PTEN homozygous deletion, AR amplification and AR-V7 splice variant detected; no BRCA1/2 or HRD mutations; tumor mutational burden 8 mutations/Mb; microsatellite stable.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 73, CT-guided biopsy of right iliac bone metastasis showed high-grade adenocarcinoma with focal neuroendocrine differentiation; positive for PSA, PSAP, and focal synaptophysin staining by immunohistochemistry; Ki-67 proliferation index was 45%.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 74, CT showed enlargement of pulmonary nodules to 1.8 cm and 1.2 cm confirmed as metastatic disease, progressive bone metastases, and new 2.1 cm hepatic lesion; PSA was 42 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 77, PSA is 88 ng/mL on cabazitaxel with diffuse progressive disease; best supportive care and hospice referral were discussed given declining performance status (ECOG 3).
+
+The patient was seen in clinic today for ongoing oncologic management.

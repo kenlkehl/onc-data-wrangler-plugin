@@ -1,0 +1,99 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 55, bone marrow biopsy from site C42.1 showed 38% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD56, and cytoplasmic IgG kappa; flow cytometry confirmed aberrant plasma cell phenotype with CD38 bright, CD138 positive, CD56 positive, CD19 negative.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 55, FISH analysis on bone marrow aspirate showed standard-risk cytogenetics with no del(17p), no t(4;14), no t(14;16); hyperdiploidy detected with trisomies of chromosomes 5, 9, and 15; no gain(1q21); R-ISS Stage II based on ISS II, LDH normal at 175 U/L, and standard-risk FISH.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, serum protein electrophoresis showed M-spike of 3.8 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 95 mg/L, lambda 14 mg/L, kappa/lambda ratio 6.8; quantitative IgG 5200 mg/dL with IgA 45 mg/dL and IgM 22 mg/dL.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 55, PET/CT showed focal FDG-avid lesion in the left iliac bone with SUV 5.2 and a small lytic lesion in the right proximal humerus; no other skeletal or extramedullary disease identified; mild diffuse marrow uptake pattern in the axial skeleton.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, patient started VRd induction therapy with bortezomib 1.3 mg/m2 subcutaneously weekly on days 1, 8, and 15, lenalidomide 25 mg days 1 through 21, and dexamethasone 40 mg weekly on 28-day cycles; acyclovir 400 mg twice daily and aspirin 81 mg daily started for prophylaxis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 55, after 4 cycles of VRd, SPEP showed M-spike decreased to 0.4 g/dL; serum free kappa light chain 22 mg/L with ratio of 1.6; hemoglobin 14.0 g/dL; response classified as very good partial response per IMWG criteria.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 56, day plus 100 bone marrow biopsy showed less than 1% plasma cells with no aberrant phenotype; SPEP no M-spike; immunofixation negative; serum free light chain ratio 1.1; MRD assessment by next-generation flow cytometry at 10^-6 sensitivity was negative; classified as stringent complete response with MRD negativity.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 57, annual PET/CT showed complete resolution of previously noted FDG-avid lesions; sclerotic changes at left iliac bone indicating healing; no active disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 57, one year post-transplant maintained in stringent complete response with sustained MRD negativity; all labs within normal limits; ECOG performance status 0; lenalidomide maintenance continued.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 58, two years post-transplant in sustained MRD-negative stringent complete response; lenalidomide maintenance continued at 10 mg; no peripheral neuropathy; excellent quality of life.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, three years post-transplant; continued in stringent complete response; repeat bone marrow biopsy confirmed MRD negative at 10^-6 sensitivity; after multidisciplinary discussion, plan to continue lenalidomide maintenance indefinitely given excellent tolerance.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, five years from diagnosis, maintained in sustained MRD-negative stringent complete response on lenalidomide maintenance; no evidence of second primary malignancy on routine screening; continued surveillance.
+
+The patient was seen in clinic today for ongoing oncologic management.

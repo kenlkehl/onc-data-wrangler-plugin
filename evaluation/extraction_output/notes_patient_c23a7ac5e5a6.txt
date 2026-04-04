@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Biopsy of the ascending colon mass revealed moderately differentiated adenocarcinoma (histology 8140/3) arising in a background of tubulovillous adenoma, with invasion into submucosa and muscularis propria.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+Comprehensive genomic profiling identified KRAS G12D mutation, BRAF wild-type, PIK3CA Q546R co-mutation, TP53 G245S mutation, SMAD4 R361H mutation; microsatellite stable (MSS) with intact mismatch repair proteins; PD-L1 CPS 2; tumor mutational burden 5 mutations/Mb.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Staging CT chest/abdomen/pelvis at age 59 showed ascending colon mass with ileocolic lymphadenopathy, five hepatic metastases (right lobe predominant, largest 3.9 cm in segment VII), and two left lower lobe pulmonary nodules (1.4 cm and 0.9 cm) consistent with metastases; staged T3N2aM1b.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+PET/CT at age 59 confirmed FDG-avid ascending colon mass (SUVmax 12.8), hepatic lesions (SUVmax 6.3 to 9.1), and pulmonary nodules (SUVmax 4.2 and 3.1); no other sites of metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 59, baseline CEA was 112 ng/mL and CA 19-9 was 88 U/mL; right-sided primary with liver and lung metastases; not a surgical candidate at this time; palliative systemic therapy recommended.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT after 6 cycles showed partial response with decrease in hepatic metastases (largest now 2.6 cm) and decrease in pulmonary nodules (now 0.8 cm and 0.5 cm); CEA decreased to 38 ng/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, CA 19-9 decreased to 41 U/mL; good partial response to FOLFIRI-bevacizumab; continued on same regimen with dose adjustments.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at age 60 after 12 cycles showed continued partial response; hepatic metastases further decreased (largest 1.8 cm); pulmonary nodules near-resolved (3 mm and not visualized); CEA 14 ng/mL.
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+Right hemicolectomy specimen showed residual moderately differentiated adenocarcinoma with treatment effect, ypT3N1a (2 of 26 lymph nodes positive), negative margins, grade 2 tumor regression.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Surveillance CT at age 60 showed stable residual hepatic lesions (largest 1.7 cm) and no recurrence at colectomy site; CEA stable at 11 ng/mL; CA 19-9 was 29 U/mL.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 60, patient maintained ECOG 1 performance status on FOLFIRI-bevacizumab maintenance; plan to continue until progression or intolerance with imaging every 3 months and CEA monitoring.
+
+The patient was seen in clinic today for ongoing oncologic management.

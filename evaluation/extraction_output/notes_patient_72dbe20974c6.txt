@@ -1,0 +1,137 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+CT-guided biopsy of left upper lobe mass reveals moderately differentiated adenocarcinoma with acinar pattern. TTF-1 positive, Napsin A positive, CK7 positive. Estrogen receptor negative, excluding breast primary. Tissue submitted for molecular testing.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+NGS (FoundationOne CDx) on lung biopsy. EGFR exon 21 L858R mutation (VAF 38%). TP53 C176Y mutation (VAF 35%). EGFR amplification (copy number 12). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 10%. TMB 3 mutations/Mb.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain with contrast shows three enhancing lesions: right frontal (15 mm), left temporal (10 mm), and right cerebellar (8 mm), consistent with metastatic disease. Surrounding vasogenic edema around the frontal lesion.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with brain metastases, bone metastases, and high disease burden. Three brain metastases amenable to SRS. Plan: Start osimertinib 80 mg daily given CNS penetration. SRS to brain metastases. Zoledronic acid for bone metastases. Dexamethasone for cerebral edema.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.2 cm to 3.4 cm. Bilateral pulmonary nodules decreased. Partial response.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 6 weeks post-SRS shows decrease in all three treated lesions. Frontal lesion now 10 mm, temporal 6 mm, cerebellar 5 mm. Edema resolving. No new intracranial lesions.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Excellent systemic and intracranial response to osimertinib plus SRS. Plan: Continue osimertinib. Repeat brain MRI in 3 months. Continue bone-directed therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 4 months shows left upper lobe mass 2.6 cm. Pulmonary nodules stable to decreased. Continued partial response.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 4 months shows continued regression of treated lesions. No new brain metastases.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 8 months shows stable left upper lobe mass at 2.5 cm. No new systemic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 8 months shows stable post-treatment changes. No new intracranial disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Durable intracranial and extracranial response at 8 months on osimertinib. Well tolerated. ECOG 0. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 12 months stable. Left upper lobe 2.4 cm.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+MRI brain at 12 months shows no new brain metastases. Treated lesions showing post-treatment changes only.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+CT at 16 months shows new right pleural effusion and slight increase in left upper lobe mass to 3.0 cm. Concern for early progression.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+Assessment: Possible progression at 16 months with new pleural effusion and slight increase in primary tumor. Plan: Thoracentesis for cytology. If confirmed malignant, will discuss next-line therapy options including platinum-pemetrexed chemotherapy.
+
+The patient was seen in clinic today for ongoing oncologic management.

@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 40, right breast core needle biopsy: invasive ductal carcinoma, Nottingham grade 3, triple-negative phenotype except HER2 positive. ER negative (
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 40, bilateral diagnostic mammogram showed a 4.8 cm irregular mass in the right breast with associated pleomorphic calcifications, BIRADS 5. Left breast unremarkable.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 40, MRI breast confirmed a 5.1 cm enhancing mass with ipsilateral axillary lymphadenopathy. Multiple suspicious axillary nodes right.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 40, PET/CT staging showed hypermetabolic right breast mass (SUVmax 12.4), right axillary lymph nodes (SUVmax 8.2), and a solitary 1.5 cm left hepatic lobe lesion (SUVmax 6.1).
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 40, ultrasound-guided liver biopsy confirmed metastatic breast carcinoma, HER2 IHC 3+. Consistent with primary breast tumor.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 40, tumor genomic profiling (FoundationOne CDx) revealed TP53 splice site mutation, ERBB2 amplification (copy number 18), and CDK12 loss. TMB 6 mutations/Mb. MSS.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 41, restaging CT after 4 cycles of TCHP showed complete resolution of the liver lesion and decrease in primary breast mass to 2.1 cm. Axillary nodes decreased in size.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 41, excellent response to TCHP. Discussed surgical options for the breast given oligometastatic presentation with complete response in liver. Multidisciplinary tumor board recommended continuing systemic therapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 41, PET/CT showed complete metabolic response. No FDG-avid disease identified. Clinical complete response achieved.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 41, patient doing well on maintenance HP. ECOG 0. No significant toxicities. Counseled regarding fertility preservation options given young age and good prognosis.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 41, MRI brain screening negative for intracranial metastases.
+
+Please correlate clinically.

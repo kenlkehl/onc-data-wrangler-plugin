@@ -1,0 +1,526 @@
+{
+  "patient_id": "patient_04f5d688ee17",
+  "ontology_id": "generic_cancer",
+  "n_fields_extracted": 42,
+  "mean_confidence": 0.79,
+  "results": {
+    "primary_site": {
+      "value": "lung, right lower lobe",
+      "confidence": 1.0,
+      "evidence": "CT-guided percutaneous biopsy of the right lower lobe mass reveals moderately to poorly differentiated adenocarcinoma",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "cancer_category": {
+      "value": "solid_tumor",
+      "resolved_code": "solid_tumor",
+      "confidence": 1.0,
+      "evidence": "adenocarcinoma, solid predominant pattern with focal mucinous features",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "overall_stage_at_diagnosis": {
+      "value": "IIIB",
+      "confidence": 1.0,
+      "evidence": "Stage IIIB EGFR L858R-mutant adenocarcinoma with chest wall invasion. Unresectable.",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "t_stage_at_diagnosis": {
+      "value": "T4",
+      "confidence": 0.7,
+      "evidence": "right lower lobe mass...5.8 cm...chest wall invasion. Unresectable. Tumor invades visceral pleura. A 5.8 cm tumor with chest wall invasion is consistent with T4.",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "n_stage_at_diagnosis": {
+      "value": "N2",
+      "confidence": 0.6,
+      "evidence": "Mediastinal lymphadenopathy decreased (post-treatment). Stage IIIB with T4 is consistent with N2 or N3. Mediastinal lymphadenopathy suggests at least N2.",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "m_stage_at_diagnosis": {
+      "value": "M0",
+      "confidence": 0.9,
+      "evidence": "No distant metastases. Stage IIIB excludes M1 disease.",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "histology": {
+      "value": "adenocarcinoma, moderately to poorly differentiated, solid predominant pattern with focal mucinous features",
+      "confidence": 1.0,
+      "evidence": "moderately to poorly differentiated adenocarcinoma, solid predominant pattern with focal mucinous features",
+      "evidence_date": null,
+      "domain_group": "cancer_diagnosis",
+      "tumor_index": 0
+    },
+    "biomarker_egfr_l858r": {
+      "value": "positive",
+      "confidence": 1.0,
+      "evidence": "EGFR exon 21 L858R mutation detected (VAF 32%)",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "EGFR L858R",
+      "biomarker_result": "L858R mutation detected, VAF 32%"
+    },
+    "biomarker_tp53": {
+      "value": "positive",
+      "confidence": 1.0,
+      "evidence": "TP53 G245S mutation (VAF 30%)",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "TP53",
+      "biomarker_result": "G245S mutation detected, VAF 30%"
+    },
+    "biomarker_rb1": {
+      "value": "positive",
+      "confidence": 1.0,
+      "evidence": "RB1 splice site mutation (VAF 15%)",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "RB1",
+      "biomarker_result": "splice site mutation detected, VAF 15%"
+    },
+    "biomarker_alk": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "rearrangement",
+      "biomarker_tested": "ALK",
+      "biomarker_result": "negative"
+    },
+    "biomarker_ros1": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "rearrangement",
+      "biomarker_tested": "ROS1",
+      "biomarker_result": "negative"
+    },
+    "biomarker_braf": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "BRAF",
+      "biomarker_result": "negative"
+    },
+    "biomarker_met": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "MET",
+      "biomarker_result": "negative"
+    },
+    "biomarker_ret": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "rearrangement",
+      "biomarker_tested": "RET",
+      "biomarker_result": "negative"
+    },
+    "biomarker_kras": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "No ALK, ROS1, BRAF, MET, RET, or KRAS alterations",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "mutation",
+      "biomarker_tested": "KRAS",
+      "biomarker_result": "negative"
+    },
+    "biomarker_pdl1": {
+      "value": "15%",
+      "confidence": 1.0,
+      "evidence": "PD-L1 TPS 15%",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "expression",
+      "biomarker_tested": "PD-L1",
+      "biomarker_result": "TPS 15%"
+    },
+    "biomarker_tmb": {
+      "value": "5 mutations/Mb",
+      "confidence": 1.0,
+      "evidence": "TMB 5 mutations/Mb",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "composite",
+      "biomarker_tested": "TMB",
+      "biomarker_result": "5 mutations/Mb"
+    },
+    "biomarker_msi": {
+      "value": "microsatellite stable",
+      "confidence": 1.0,
+      "evidence": "Microsatellite stable",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "composite",
+      "biomarker_tested": "MSI",
+      "biomarker_result": "microsatellite stable (MSS)"
+    },
+    "biomarker_ttf1": {
+      "value": "positive",
+      "confidence": 1.0,
+      "evidence": "TTF-1 positive",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "expression",
+      "biomarker_tested": "TTF-1",
+      "biomarker_result": "positive"
+    },
+    "biomarker_napsin_a": {
+      "value": "weakly positive",
+      "confidence": 1.0,
+      "evidence": "Napsin A weakly positive",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "expression",
+      "biomarker_tested": "Napsin A",
+      "biomarker_result": "weakly positive"
+    },
+    "biomarker_ck7": {
+      "value": "positive",
+      "confidence": 1.0,
+      "evidence": "CK7 positive",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "expression",
+      "biomarker_tested": "CK7",
+      "biomarker_result": "positive"
+    },
+    "biomarker_p40": {
+      "value": "negative",
+      "confidence": 1.0,
+      "evidence": "p40 negative",
+      "evidence_date": null,
+      "domain_group": "cancer_biomarker",
+      "tumor_index": 0,
+      "biomarker_type": "expression",
+      "biomarker_tested": "p40",
+      "biomarker_result": "negative"
+    },
+    "regimen_1_drug_list": {
+      "value": "concurrent chemoradiation (chemotherapy agents not specified)",
+      "confidence": 0.7,
+      "evidence": "initiate concurrent chemoradiation followed by consolidation osimertinib",
+      "evidence_date": null,
+      "domain_group": "cancer_systemic_therapy_regimen",
+      "tumor_index": 0
+    },
+    "regimen_1_start_date": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": "No specific date provided for chemoradiation start",
+      "evidence_date": null,
+      "domain_group": "cancer_systemic_therapy_regimen",
+      "tumor_index": 0
+    },
+    "regimen_2_drug_list": {
+      "value": "osimertinib 80 mg daily",
+      "confidence": 1.0,
+      "evidence": "Start consolidation osimertinib 80 mg daily per LAURA trial paradigm for EGFR-mutant Stage III NSCLC after chemoradiation",
+      "evidence_date": null,
+      "domain_group": "cancer_systemic_therapy_regimen",
+      "tumor_index": 0
+    },
+    "regimen_2_start_date": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": "No specific calendar date provided for osimertinib start. Notes say 'Start consolidation osimertinib' after chemoradiation completion.",
+      "evidence_date": null,
+      "domain_group": "cancer_systemic_therapy_regimen",
+      "tumor_index": 0
+    },
+    "regimen_2_end_date": {
+      "value": "ongoing",
+      "confidence": 0.9,
+      "evidence": "Continue osimertinib indefinitely. Surveillance imaging per protocol.",
+      "evidence_date": null,
+      "domain_group": "cancer_systemic_therapy_regimen",
+      "tumor_index": 0
+    },
+    "radiation_1_type": {
+      "value": "external_beam",
+      "confidence": 0.8,
+      "evidence": "concurrent chemoradiation...Discuss with radiation oncology. Post-radiation fibrotic changes noted. Standard concurrent chemoradiation for stage III NSCLC uses external beam radiation.",
+      "evidence_date": null,
+      "domain_group": "cancer_radiation_therapy",
+      "tumor_index": 0
+    },
+    "radiation_1_site": {
+      "value": "right lower lobe / thorax",
+      "confidence": 0.95,
+      "evidence": "Post-radiation fibrotic changes noted in right lower lobe. Concurrent chemoradiation for right lower lobe mass with mediastinal lymphadenopathy.",
+      "evidence_date": null,
+      "domain_group": "cancer_radiation_therapy",
+      "tumor_index": 0
+    },
+    "radiation_1_start_date": {
+      "value": null,
+      "confidence": 0.0,
+      "evidence": "No specific date provided for radiation start",
+      "evidence_date": null,
+      "domain_group": "cancer_radiation_therapy",
+      "tumor_index": 0
+    },
+    "burden_1_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "CT chest/abdomen/pelvis after completion of chemoradiation shows decrease in right lower lobe mass from 5.8 cm to 3.2 cm",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_1_type": {
+      "value": "response/improvement",
+      "resolved_code": "response/improvement",
+      "confidence": 1.0,
+      "evidence": "decrease in right lower lobe mass from 5.8 cm to 3.2 cm. Mediastinal lymphadenopathy decreased. No distant metastases. Partial response.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_1_detail": {
+      "value": "partial response; mass decreased from 5.8 cm to 3.2 cm",
+      "confidence": 1.0,
+      "evidence": "decrease in right lower lobe mass from 5.8 cm to 3.2 cm...Partial response.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_2_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "Restaging CT at 3 months on consolidation osimertinib shows stable residual right lower lobe lesion measuring 2.8 cm",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_2_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 1.0,
+      "evidence": "stable residual right lower lobe lesion measuring 2.8 cm. Post-radiation fibrotic changes noted. No new disease.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_2_detail": {
+      "value": "stable disease; residual 2.8 cm at 3 months on osimertinib",
+      "confidence": 1.0,
+      "evidence": "Restaging CT at 3 months on consolidation osimertinib shows stable residual right lower lobe lesion measuring 2.8 cm",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_3_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "CT at 6 months shows continued stability. Right lower lobe residual 2.6 cm",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_3_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 1.0,
+      "evidence": "CT at 6 months shows continued stability. Right lower lobe residual 2.6 cm with surrounding fibrosis. No evidence of progression or distant metastases.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_3_detail": {
+      "value": "stable disease; residual 2.6 cm at 6 months",
+      "confidence": 1.0,
+      "evidence": "Right lower lobe residual 2.6 cm with surrounding fibrosis. No evidence of progression or distant metastases.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_4_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "MRI brain at 6 months shows no intracranial metastatic disease",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_4_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 1.0,
+      "evidence": "MRI brain at 6 months shows no intracranial metastatic disease",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_4_detail": {
+      "value": "no intracranial metastatic disease on brain MRI",
+      "confidence": 1.0,
+      "evidence": "MRI brain at 6 months shows no intracranial metastatic disease",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_5_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "CT at 9 months shows stable right lower lobe post-treatment changes",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_5_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 1.0,
+      "evidence": "CT at 9 months shows stable right lower lobe post-treatment changes. No new nodules or lymphadenopathy. No distant metastases.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_5_detail": {
+      "value": "stable disease at 9 months; no new nodules or lymphadenopathy",
+      "confidence": 1.0,
+      "evidence": "stable right lower lobe post-treatment changes. No new nodules or lymphadenopathy. No distant metastases.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_6_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "CT at 12 months shows right lower lobe residual stable at 2.5 cm",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_6_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 1.0,
+      "evidence": "CT at 12 months shows right lower lobe residual stable at 2.5 cm. Post-radiation fibrosis. No new disease. Ongoing stable disease.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_6_detail": {
+      "value": "stable disease; residual 2.5 cm at 12 months",
+      "confidence": 1.0,
+      "evidence": "right lower lobe residual stable at 2.5 cm. Post-radiation fibrosis. No new disease. Ongoing stable disease.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_7_assessor_type": {
+      "value": "radiologist",
+      "confidence": 0.95,
+      "evidence": "PET/CT at 15 months shows low-grade FDG uptake in the right lower lobe residual (SUV max 2.8)",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_7_type": {
+      "value": "stable",
+      "resolved_code": "stable",
+      "confidence": 0.9,
+      "evidence": "low-grade FDG uptake in the right lower lobe residual (SUV max 2.8), likely post-treatment changes. No FDG-avid disease elsewhere. No evidence of recurrence.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "burden_7_detail": {
+      "value": "no evidence of recurrence; low-grade FDG uptake SUV max 2.8 likely post-treatment",
+      "confidence": 0.9,
+      "evidence": "low-grade FDG uptake in the right lower lobe residual (SUV max 2.8), likely post-treatment changes. No FDG-avid disease elsewhere. No evidence of recurrence.",
+      "evidence_date": null,
+      "domain_group": "cancer_burden",
+      "tumor_index": 0
+    },
+    "categorical_smoking_history": {
+      "value": "former",
+      "resolved_code": "former",
+      "confidence": 0.6,
+      "evidence": "COPD stable (mentioned in clinical progress note at 6 months). COPD is strongly associated with smoking history. No explicit smoking statement found.",
+      "evidence_date": null,
+      "domain_group": "social_history",
+      "tumor_index": 0
+    }
+  },
+  "review_items": [
+    {
+      "field_id": "t_stage_at_diagnosis",
+      "reason": "T stage inferred as T4 from 5.8 cm mass with chest wall invasion and visceral pleural invasion, but not explicitly stated in notes",
+      "priority": "MEDIUM"
+    },
+    {
+      "field_id": "n_stage_at_diagnosis",
+      "reason": "N stage inferred as N2 from mediastinal lymphadenopathy and Stage IIIB designation, but not explicitly stated",
+      "priority": "MEDIUM"
+    },
+    {
+      "field_id": "diagnosis_date",
+      "reason": "No specific calendar date for diagnosis found in notes",
+      "priority": "HIGH"
+    },
+    {
+      "field_id": "regimen_1_drug_list",
+      "reason": "Specific chemotherapy agents in the concurrent chemoradiation regimen are not named in the notes",
+      "priority": "HIGH"
+    },
+    {
+      "field_id": "categorical_smoking_history",
+      "reason": "Smoking history inferred from COPD mention but not explicitly documented. Confidence 0.6.",
+      "priority": "MEDIUM"
+    },
+    {
+      "field_id": "regimen_1_start_date",
+      "reason": "No calendar dates provided for any treatment in the notes",
+      "priority": "HIGH"
+    },
+    {
+      "field_id": "radiation_1_start_date",
+      "reason": "No calendar date for radiation therapy start",
+      "priority": "HIGH"
+    }
+  ]
+}

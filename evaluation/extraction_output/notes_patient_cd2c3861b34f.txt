@@ -1,0 +1,90 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 67, pathology showed immunoblastic variant with plasmacytic differentiation, Ki-67 of 95 percent, immunohistochemistry positive for CD20, CD19, MUM1, BCL2 strong, negative for CD10 and BCL6, consistent with non-GCB (ABC) subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, flow cytometry demonstrated monoclonal B-cell population positive for CD20, CD19, MUM1, negative for CD10, BCL6, CD5, CD23
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 67, FISH analysis showed MYC rearrangement positive, BCL2 rearrangement positive via t(14;18), BCL6 rearrangement negative; classified as double-hit high-grade B-cell lymphoma
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, labs showed LDH markedly elevated at 724 U/L, CBC with WBC 12.6, hemoglobin 9.1 g/dL, platelets 108, CMP with elevated creatinine 1.6 mg/dL, albumin 2.8 g/dL, uric acid 10.4 mg/dL
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, staging PET/CT revealed extensive FDG-avid bilateral inguinal, pelvic, retroperitoneal, mesenteric, and mediastinal lymphadenopathy with bulky pelvic mass measuring 11.2 cm, SUVmax 31.4, bilateral pleural effusions, and FDG-avid bone marrow uptake diffusely
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 67, bone marrow biopsy showed 45 percent involvement by high-grade B-cell lymphoma with extensive paratrabecular infiltration
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, interim PET/CT after 3 cycles showed persistent FDG-avid bulky pelvic mass reduced to 8.4 cm but SUVmax still 18.7, Deauville score 5, persistent bone marrow uptake, indicating refractory disease
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 67, multidisciplinary tumor board recommended completing R-CHOP through cycle 6 and then proceeding to salvage R-ICE given double-hit biology and refractory disease
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 67, end-of-treatment PET/CT confirmed refractory disease with residual bulky pelvic mass measuring 6.1 cm, SUVmax 14.2, Deauville score 5
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 68, PET/CT after 3 cycles of R-ICE showed partial response with pelvic mass decreased to 3.2 cm, SUVmax 8.4, Deauville score 4
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 68, patient was evaluated for autologous stem cell transplant but deemed ineligible due to cardiac dysfunction with ejection fraction 42 percent and poor performance status ECOG 3, referred for consideration of CAR-T cell therapy
+
+The patient was seen in clinic today for ongoing oncologic management.

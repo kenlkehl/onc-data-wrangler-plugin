@@ -1,0 +1,99 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 45, pathology report showed large centroblastic and immunoblastic cells with high mitotic activity, Ki-67 of 90 percent, immunohistochemistry positive for CD20, CD19, BCL6, MUM1, negative for CD10, consistent with activated B-cell (ABC/non-GCB) subtype by Hans algorithm
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 45, flow cytometry showed monoclonal B-cell population positive for CD20, CD19, BCL6, and MUM1, negative for CD10, CD5, consistent with non-GCB phenotype
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 45, FISH analysis revealed MYC rearrangement positive, BCL2 rearrangement positive, BCL6 rearrangement negative; classified as double-hit lymphoma, reclassified as high-grade B-cell lymphoma with MYC and BCL2 rearrangements
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 45, laboratory workup showed LDH markedly elevated at 612 U/L, CBC with WBC 11.4, hemoglobin 10.2 g/dL, platelets 165, CMP revealed elevated uric acid at 9.1 mg/dL
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 45, staging PET/CT revealed bulky FDG-avid bilateral inguinal, retroperitoneal, and mesenteric lymphadenopathy with largest retroperitoneal mass measuring 9.8 cm, SUVmax 28.6, diffuse FDG uptake in bone marrow suggesting involvement
+
+Please correlate clinically.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 45, bone marrow biopsy showed 30 percent involvement by large B-cell lymphoma, confirmed by immunohistochemistry positive for CD20 and BCL2
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 45, interim PET/CT after 3 cycles showed persistent FDG-avid retroperitoneal mass now measuring 7.1 cm with SUVmax 15.2, Deauville score 5, indicating refractory disease with suboptimal response
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 45, given refractory disease on interim PET/CT with double-hit biology, decision was made to complete planned 6 cycles of R-CHOP followed by early salvage therapy
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 45, end-of-treatment PET/CT showed residual FDG-avid retroperitoneal mass measuring 4.3 cm, SUVmax 9.8, Deauville score 5, confirming primary refractory DLBCL
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 45, PET/CT after R-ICE salvage showed partial response with residual FDG-avid retroperitoneal node measuring 2.1 cm, Deauville score 4
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 46, patient engrafted on day 12 post-transplant with ANC recovery above 500, discharged on day 18
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 46, PET/CT at day 100 post-transplant showed complete metabolic response, Deauville score 2, consistent with complete remission
+
+Please correlate clinically.

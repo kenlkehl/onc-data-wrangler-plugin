@@ -1,0 +1,108 @@
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 61, excisional biopsy of the left shoulder revealed superficial spreading melanoma with Breslow thickness of 2.4 mm, Clark level IV, without ulceration, mitotic rate 4/mm2, no microsatellites, regression absent, with positive deep margin.
+
+---
+
+PATHOLOGY REPORT
+
+DIAGNOSIS AND FINDINGS:
+At age 61, completion axillary dissection pathology showed metastatic melanoma in 3 of 25 total nodes (2 sentinel, 1 non-sentinel), with extracapsular extension in one node, largest deposit 5.1 mm, S100 and HMB-45 positive.
+
+---
+
+GENOMIC PROFILING REPORT
+
+RESULTS:
+At age 61, comprehensive genomic profiling identified BRAF V600E mutation (allele frequency 48%), NRAS wild-type, TERT promoter mutation (C228T), PTEN loss, and tumor mutational burden of 18 mutations per megabase.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, baseline PET/CT after surgical resection showed no evidence of distant metastatic disease and expected post-surgical changes.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 61, baseline MRI brain was negative for intracranial metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 61, LDH was normal at 192 U/L and the patient was initiated on adjuvant immunotherapy.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, 6-month surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 62, 12-month surveillance PET/CT showed no recurrent or metastatic disease.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 62, patient completed 12 months of adjuvant nivolumab with ongoing endocrine replacement for hypophysitis, LDH remained normal at 178 U/L, and disease-free status was confirmed.
+
+The patient was seen in clinic today for ongoing oncologic management.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, 6-month post-treatment surveillance CT showed new 2.1 cm left adrenal lesion suspicious for metastatic disease.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, PET/CT confirmed FDG-avid left adrenal mass (SUVmax 9.2) and two new subcutaneous nodules in the chest wall, consistent with metastatic recurrence.
+
+Please correlate clinically.
+
+---
+
+RADIOLOGY REPORT
+
+FINDINGS:
+At age 63, restaging CT at 8 weeks on dabrafenib/trametinib showed partial response with 55% reduction in adrenal lesion and resolution of subcutaneous nodules.
+
+Please correlate clinically.
+
+---
+
+CLINICAL PROGRESS NOTE
+
+ASSESSMENT AND PLAN:
+At age 63, LDH decreased to 205 U/L on dabrafenib/trametinib therapy consistent with biochemical response to treatment.
+
+The patient was seen in clinic today for ongoing oncologic management.
