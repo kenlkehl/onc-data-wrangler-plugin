@@ -1,7 +1,7 @@
 {
-  "phase_a": {"status": "in_progress"},
-  "phase_b": {"status": "pending"},
-  "phase_c": {"status": "pending"},
+  "phase_a": {"status": "complete", "commit": "15847ec"},
+  "phase_b": {"status": "complete"},
+  "phase_c": {"status": "in_progress"},
   "phase_d": {"status": "pending"},
   "phase_e": {"status": "pending"},
   "phase_f": {"status": "pending"},
