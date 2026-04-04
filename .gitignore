@@ -2,3 +2,5 @@
 .claude
 __pycache__/
 uv.lock
+REVIEW_REPORT.md
+evaluation/

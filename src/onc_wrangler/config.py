@@ -20,6 +20,8 @@ class LLMConfig:
     vertex_project: Optional[str] = None
     vertex_region: str = "us-east5"
     azure_api_version: str = "2024-12-01-preview"
+    reasoning_marker: Optional[str] = None
+    timeout: int = 300
 
     def resolve_api_key(self) -> str:
         """Resolve API key from config or environment variables."""

@@ -256,7 +256,7 @@ def _generate_structured_data(
     system_prompt, user_prompt = build_stage3_prompt(
         patient_id, events, documents, schemas,
     )
-    response = client.generate(
+    response = client.generate_structured(
         user_prompt,
         system=system_prompt,
         max_tokens=16384,

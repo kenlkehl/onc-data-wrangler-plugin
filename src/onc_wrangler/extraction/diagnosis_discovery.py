@@ -149,7 +149,7 @@ def discover_diagnoses(
 
     for attempt in range(max_retries):
         try:
-            response = llm_client.generate(prompt, max_tokens=max_tokens)
+            response = llm_client.generate_structured(prompt, max_tokens=max_tokens)
             parsed = _parse_json_list(response.text)
             if parsed is not None and len(parsed) > 0:
                 diagnoses = _parse_diagnosis_list(parsed)

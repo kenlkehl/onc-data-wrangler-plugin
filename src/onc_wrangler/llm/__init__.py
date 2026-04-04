@@ -18,6 +18,8 @@ def create_llm_client(config: LLMConfig) -> LLMClient:
             base_url=config.base_url or "http://localhost:8000/v1",
             api_key=config.resolve_api_key(),
             model=config.model,
+            reasoning_marker=config.reasoning_marker,
+            timeout=config.timeout,
         )
     elif config.provider == "azure":
         from .azure_client import AzureClient

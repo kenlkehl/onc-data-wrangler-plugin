@@ -36,5 +36,10 @@ class LLMClient(ABC):
 
         Same as generate() but may use provider-specific features
         (e.g., JSON mode) to encourage valid JSON output.
+
+        Default implementation appends a JSON enforcement instruction
+        to the system prompt and delegates to generate().  Subclasses
+        may override to use provider-native JSON mode.
         """
-        ...
+        json_system = (system + "\n\n" if system else "") + "You must respond with valid JSON only. No commentary."
+        return self.generate(prompt, json_system, max_tokens, temperature)

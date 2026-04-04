@@ -260,7 +260,7 @@ class QAExtractor:
 
         for attempt in range(max_retries):
             try:
-                response = self.llm_client.generate(
+                response = self.llm_client.generate_structured(
                     user_prompt,
                     system=QA_SYSTEM_PROMPT,
                     max_tokens=max_tokens,

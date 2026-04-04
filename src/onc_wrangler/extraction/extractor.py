@@ -147,8 +147,10 @@ class Extractor:
         self._patient_groups: dict[str, list[DomainGroup]] = {}
         self._diagnosis_groups: dict[str, list[DomainGroup]] = {}
 
+        registry = OntologyRegistry()
+        registry.discover()
         for oid in self.ontology_ids:
-            ont = OntologyRegistry.get(oid)
+            ont = registry.get(oid)
             self._ontologies[oid] = ont
             self._init_ontology(oid, ont)
 
@@ -488,7 +490,7 @@ class Extractor:
         full_prompt = system_prompt + "\n\n" + user_prompt
         for attempt in range(max_retries):
             try:
-                response = self.llm_client.generate(full_prompt, max_tokens=max_tokens or 8000)
+                response = self.llm_client.generate_structured(full_prompt, max_tokens=max_tokens or 8000)
                 parsed = parse_json_object(response.text)
                 if parsed is not None:
                     break
@@ -1031,7 +1033,9 @@ class SummaryExtractor:
     def __init__(self, llm_client: LLMClient, cancer_type: Optional[str] = "generic"):
         self.llm_client = llm_client
         self.cancer_type = cancer_type
-        self._ontology = OntologyRegistry.get("clinical_summary")
+        _registry = OntologyRegistry()
+        _registry.discover()
+        self._ontology = _registry.get("clinical_summary")
         self._first_chunk_template = (
             "{system_prompt}\n\n"
             "Here is the clinical document for this patient:\n\n"
@@ -1131,9 +1135,11 @@ def is_summary_only(ontology_ids: list[str]) -> bool:
     """Check if the ontology list consists solely of free-text ontologies."""
     if not ontology_ids:
         return False
+    registry = OntologyRegistry()
+    registry.discover()
     for oid in ontology_ids:
-        ont = OntologyRegistry.get(oid)
-        if not ont.is_free_text:
+        ont = registry.get(oid)
+        if ont is None or not ont.is_free_text:
             return False
     return True
 
