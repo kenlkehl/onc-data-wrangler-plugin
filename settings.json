@@ -35,6 +35,7 @@
       "Write(*.md)",
       "Write(*.txt)",
       "Write(*.jsonl)",
+      "Write(*.py)",
 
       "mcp__onc_query__*"
     ]
