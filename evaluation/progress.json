@@ -1,9 +1,9 @@
 {
   "phase_a": {"status": "complete", "commit": "15847ec"},
-  "phase_b": {"status": "complete"},
-  "phase_c": {"status": "in_progress"},
-  "phase_d": {"status": "pending"},
-  "phase_e": {"status": "pending"},
-  "phase_f": {"status": "pending"},
-  "phase_g": {"status": "pending"}
+  "phase_b": {"status": "complete", "commit": "6f9381f"},
+  "phase_c": {"status": "complete", "commit": "5d0b0a2", "patients": 100, "events": 2249, "documents": 1260},
+  "phase_d": {"status": "complete", "commit": "f42502a", "extractions_complete": 4, "cancer_category_accuracy": "100%", "stage_accuracy": "100% when present"},
+  "phase_e": {"status": "complete", "commit": "b7e3400", "tables": ["cohort", "diagnosis", "encounters", "labs", "treatment"]},
+  "phase_f": {"status": "complete", "commit": "943f85f", "concordance_rate": "86.4%", "concordant": 19, "discrepant": 3},
+  "phase_g": {"status": "complete", "ontology_created": true, "ontology_loads": true, "queries_tested": true}
 }

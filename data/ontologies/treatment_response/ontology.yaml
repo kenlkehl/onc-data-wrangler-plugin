@@ -1,0 +1,142 @@
+id: treatment_response
+name: Treatment Response Assessment
+version: "1.0.0"
+description: >-
+  Treatment response assessment ontology covering best response per treatment
+  line, response criteria, duration of response, treatment discontinuation
+  reasons, and performance status. Designed for both solid tumors (RECIST)
+  and hematologic malignancies (IMWG, ELN, Lugano criteria).
+is_free_text: false
+
+categories:
+  - id: treatment_response_assessment
+    name: Treatment Response Assessment
+    description: >-
+      Best response assessment for each treatment line. Extract one entry
+      per treatment line or response evaluation timepoint. For solid tumors
+      use RECIST 1.1 criteria; for hematologic malignancies use disease-specific
+      criteria (IMWG for myeloma, Lugano for lymphoma, ELN for AML).
+    per_diagnosis: true
+    items:
+      - id: best_overall_response
+        name: Best Overall Response
+        description: >-
+          Best response achieved on the treatment line. For solid tumors:
+          CR (complete response), PR (partial response), SD (stable disease),
+          PD (progressive disease), NE (not evaluable). For hematologic
+          malignancies: CR, CRi, sCR, VGPR, PR, MR, SD, PD, or
+          disease-specific criteria.
+        data_type: string
+        valid_values:
+          - code: "CR"
+            description: "Complete response / complete remission"
+          - code: "CRi"
+            description: "Complete remission with incomplete count recovery (AML)"
+          - code: "sCR"
+            description: "Stringent complete response (myeloma)"
+          - code: "VGPR"
+            description: "Very good partial response (myeloma)"
+          - code: "PR"
+            description: "Partial response / partial remission"
+          - code: "MR"
+            description: "Minimal response (myeloma)"
+          - code: "SD"
+            description: "Stable disease"
+          - code: "PD"
+            description: "Progressive disease"
+          - code: "NE"
+            description: "Not evaluable"
+      - id: response_criteria_used
+        name: Response Criteria Used
+        description: >-
+          Which response criteria system was used for assessment.
+        data_type: string
+        valid_values:
+          - code: "RECIST_1.1"
+            description: "Response Evaluation Criteria in Solid Tumors v1.1"
+          - code: "iRECIST"
+            description: "Immune-related RECIST"
+          - code: "Lugano"
+            description: "Lugano classification for lymphoma (PET-based)"
+          - code: "IMWG"
+            description: "International Myeloma Working Group criteria"
+          - code: "ELN"
+            description: "European LeukemiaNet criteria for AML"
+          - code: "Deauville"
+            description: "Deauville 5-point scale for PET response"
+          - code: "other"
+            description: "Other or unspecified criteria"
+      - id: response_assessment_date
+        name: Response Assessment Date
+        description: "Date of the response assessment. Format YYYY-MM-DD when possible."
+        data_type: date
+      - id: time_to_response_months
+        name: Time to Response (months)
+        description: "Time from treatment start to first response, in months."
+        data_type: string
+      - id: duration_of_response_months
+        name: Duration of Response (months)
+        description: "Duration of response from first documented response to progression or last follow-up, in months."
+        data_type: string
+
+  - id: treatment_discontinuation
+    name: Treatment Discontinuation
+    description: >-
+      Reason and timing of treatment discontinuation for each treatment line.
+    per_diagnosis: true
+    items:
+      - id: discontinuation_reason
+        name: Discontinuation Reason
+        description: "Primary reason for stopping treatment."
+        data_type: string
+        valid_values:
+          - code: "progression"
+            description: "Disease progression"
+          - code: "toxicity"
+            description: "Unacceptable toxicity or adverse events"
+          - code: "completed"
+            description: "Completed planned treatment course"
+          - code: "patient_preference"
+            description: "Patient preference or refusal"
+          - code: "death"
+            description: "Death"
+          - code: "other"
+            description: "Other reason"
+      - id: discontinuation_date
+        name: Discontinuation Date
+        description: "Date treatment was discontinued. Format YYYY-MM-DD."
+        data_type: date
+      - id: last_treatment_date
+        name: Last Treatment Date
+        description: "Date of last administered treatment dose. Format YYYY-MM-DD."
+        data_type: date
+
+  - id: performance_status
+    name: Performance Status
+    description: >-
+      ECOG performance status at key timepoints during treatment.
+    per_diagnosis: false
+    items:
+      - id: ecog_ps_at_treatment_start
+        name: ECOG PS at Treatment Start
+        description: "ECOG performance status at the start of treatment (0-4)."
+        data_type: string
+        valid_values:
+          - code: "0"
+            description: "Fully active, no restrictions"
+          - code: "1"
+            description: "Restricted in strenuous activity, ambulatory"
+          - code: "2"
+            description: "Ambulatory, capable of self-care, unable to work"
+          - code: "3"
+            description: "Limited self-care, confined to bed/chair >50% of time"
+          - code: "4"
+            description: "Completely disabled, no self-care"
+      - id: ecog_ps_at_best_response
+        name: ECOG PS at Best Response
+        description: "ECOG performance status at the time of best response assessment."
+        data_type: string
+      - id: ecog_ps_at_progression
+        name: ECOG PS at Progression
+        description: "ECOG performance status at disease progression (if applicable)."
+        data_type: string
