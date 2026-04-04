@@ -74,6 +74,12 @@ def create_server_from_config(config: ProjectConfig) -> FastMCP:
         aggregate functions like COUNT, SUM, AVG). No SELECT *, no record_id in
         output columns. record_id may be used in JOINs, WHERE, and CTEs.
 
+        IMPORTANT: Some tables have multiple rows per patient (e.g., diagnosis,
+        treatment, biomarker). When computing patient-level statistics like
+        prevalence or percentages, use COUNT(DISTINCT record_id) for the
+        denominator, not COUNT(*). Check the schema resource for which tables
+        have multiple rows per patient.
+
         Args:
             sql: A SQL SELECT query with aggregation.
             count_columns: Optional explicit list of output column names that

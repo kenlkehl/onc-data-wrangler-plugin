@@ -16,9 +16,13 @@ categories:
       - id: primary_site
         name: Primary Site
         description: >-
-          Primary anatomical site of the cancer. For hematologic malignancies
-          use: bone marrow (leukemia, myeloma), lymph nodes (lymphoma),
-          blood (leukemia).
+          Primary anatomical site of the cancer as an ICD-O-3 topography code
+          (e.g., C34.1 for upper lobe of lung, C50.4 for upper outer quadrant
+          of breast, C18.0 for cecum) when available in the notes. If only the
+          anatomical description is present without a code, use the description
+          (e.g., "left lower lobe of lung"). For hematologic malignancies
+          use: C42.1 (bone marrow) for leukemia/myeloma, C77.9 (lymph nodes)
+          for lymphoma.
         data_type: string
         length: null
       - id: cancer_category

@@ -52,6 +52,26 @@ def suppress_count(count: int, min_cell_size: int) -> str:
     return str(count)
 
 
+def _count_distinct_patients(con, table: str) -> int | None:
+    """Count distinct patients in a table, if a patient ID column exists.
+
+    Returns None if no patient ID column is found.
+    """
+    col_df = con.execute(
+        "SELECT column_name FROM information_schema.columns "
+        "WHERE table_name = ? AND table_schema = 'main'",
+        [table],
+    ).fetchdf()
+    col_names = set(col_df["column_name"].tolist())
+    for id_col in ("record_id", "patient_id"):
+        if id_col in col_names:
+            result = con.execute(
+                f'SELECT COUNT(DISTINCT "{id_col}") FROM "{table}"'
+            ).fetchone()
+            return result[0]
+    return None
+
+
 def generate_schema(
     con,
     project_name: str = "Dataset",
@@ -66,10 +86,17 @@ def generate_schema(
     for table in tables:
         row_count = get_row_count(con, table)
         columns = get_columns(con, table, forbidden_columns)
+        n_patients = _count_distinct_patients(con, table)
 
         lines.append(f"## Table: `{table}`")
         lines.append("")
         lines.append(f"- **Rows**: {row_count}")
+        if n_patients is not None and n_patients != row_count:
+            lines.append(
+                f"- **Unique patients**: {n_patients} "
+                f"(multiple rows per patient; use COUNT(DISTINCT record_id) "
+                f"for patient-level denominators)"
+            )
         lines.append(f"- **Columns**: {len(columns)}")
         lines.append("")
         lines.append("| Column | Type | Nullable |")
@@ -160,12 +187,21 @@ def generate_summary_stats(
     for table in tables:
         row_count = get_row_count(con, table)
         columns = get_columns(con, table, forbidden_columns)
-        table_list.append({
+        n_patients = _count_distinct_patients(con, table)
+        entry = {
             "name": table,
             "row_count": row_count,
             "column_count": len(columns),
             "column_names": columns["column_name"].tolist(),
-        })
+        }
+        if n_patients is not None:
+            entry["unique_patients"] = n_patients
+            if n_patients != row_count:
+                entry["note"] = (
+                    "Multiple rows per patient. Use COUNT(DISTINCT record_id) "
+                    "for patient-level denominators, not COUNT(*)."
+                )
+        table_list.append(entry)
 
     # Total patients from cohort table (if it exists)
     total_patients = None
