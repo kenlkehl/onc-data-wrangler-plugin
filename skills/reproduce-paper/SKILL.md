@@ -60,6 +60,7 @@ Ask the user to confirm or correct:
 Ask the user which model to use for per-question analysis (Phases 2 and 3):
 - **opus** (default): Most capable, best for complex survival analyses. Higher cost.
 - **sonnet**: Faster and cheaper, suitable for simpler questions.
+- **inherit**: Use the default model specified in the agent definitions .
 
 Store this choice -- it will be passed as the `model` parameter when spawning subagents.
 
