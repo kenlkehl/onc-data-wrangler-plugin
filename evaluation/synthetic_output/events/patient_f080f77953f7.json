@@ -1,0 +1,96 @@
+{
+  "patient_id": "patient_f080f77953f7",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 34-year-old African American male presenting with fatigue, easy bruising, and gingival bleeding over the past three weeks."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 34, the patient was diagnosed with acute myeloid leukemia NOS, ICD-O morphology code 9861/3, primary site bone marrow C42.1, after presenting with leukocytosis and circulating blasts."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, initial complete blood count revealed a white blood cell count of 112,000/uL with 68% blasts, hemoglobin 7.2 g/dL, and platelet count of 22,000/uL. Coagulation studies showed fibrinogen 98 mg/dL, D-dimer elevated at 14.2 ug/mL, and PT 16.8 seconds, concerning for disseminated intravascular coagulation."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 34, bone marrow biopsy with aspirate demonstrated a markedly hypercellular marrow (95% cellularity) with 82% myeloblasts by morphology. Blasts were medium to large with high nuclear-to-cytoplasmic ratio, fine chromatin, and prominent nucleoli. Auer rods were identified in scattered blasts. Flow cytometry showed blasts positive for CD34, CD117, CD33, CD13, HLA-DR, and MPO, consistent with acute myeloid leukemia."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 34, next-generation sequencing panel on bone marrow aspirate identified FLT3-ITD mutation with an allelic ratio of 0.72, NPM1 mutation (type A insertion), and DNMT3A R882H mutation. No TP53, RUNX1, or ASXL1 mutations were detected."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, conventional cytogenetic analysis revealed a normal male karyotype, 46,XY, in all 20 metaphases analyzed. FISH studies were negative for PML-RARA, CBFB rearrangement, and KMT2A rearrangement."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, ELN 2022 risk stratification classified this patient as intermediate risk based on the co-occurrence of FLT3-ITD and NPM1 mutations with a normal karyotype. The presence of DNMT3A mutation was noted as an additional adverse prognostic factor."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 34, the patient was started on induction chemotherapy with the 7+3 regimen consisting of continuous infusion cytarabine 200 mg/m2 daily for seven days plus daunorubicin 60 mg/m2 on days one through three, combined with midostaurin 50 mg orally twice daily on days eight through twenty-one."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, during induction the patient developed tumor lysis syndrome with uric acid rising to 12.4 mg/dL, potassium 6.1 mEq/L, phosphorus 7.8 mg/dL, and calcium 6.9 mg/dL, requiring aggressive intravenous hydration and rasburicase administration."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, the patient developed neutropenic fever on day nine of induction with an absolute neutrophil count of 0 and temperature of 39.4 degrees Celsius. Blood cultures grew Pseudomonas aeruginosa and empiric broad-spectrum antibiotics were initiated with cefepime and later escalated to meropenem."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, the patient experienced grade 3 oral mucositis requiring IV morphine patient-controlled analgesia and total parenteral nutrition for ten days during the aplastic phase of induction."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 34, day 14 bone marrow biopsy showed a markedly hypocellular marrow (approximately 10% cellularity) with 3% residual blasts, consistent with a good early response to induction chemotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, recovery blood counts demonstrated an absolute neutrophil count above 1,000/uL and platelet count above 100,000/uL by day 32 of induction."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 34, day 28 bone marrow biopsy confirmed complete remission with 1.8% blasts by morphology and recovering trilineage hematopoiesis. Flow cytometry-based measurable residual disease assessment detected 0.04% residual leukemic cells with the original aberrant immunophenotype."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 34, consolidation cycle one was initiated with high-dose cytarabine 3 g/m2 every twelve hours on days one, three, and five, combined with midostaurin 50 mg orally twice daily on days eight through twenty-one."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, during consolidation the patient developed invasive pulmonary aspergillosis confirmed by positive serum galactomannan antigen (index 3.2) and CT chest showing a cavitary nodule with halo sign. Voriconazole was initiated with dose adjustment for midostaurin interaction."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 34, the patient proceeded to allogeneic hematopoietic stem cell transplant in first complete remission using a ten-of-ten HLA-matched unrelated donor with myeloablative conditioning consisting of busulfan and cyclophosphamide."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, GVHD prophylaxis consisted of tacrolimus and short-course methotrexate. Neutrophil engraftment occurred on day plus 14 and platelet engraftment on day plus 19."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, the patient developed grade 2 acute graft-versus-host disease involving the skin (stage 2 maculopapular rash over 40% body surface area) and upper gastrointestinal tract (persistent nausea and anorexia), treated with systemic corticosteroids."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, day plus 100 bone marrow biopsy showed complete donor chimerism at 99.2% by short tandem repeat analysis with no evidence of measurable residual disease by multiparameter flow cytometry (sensitivity 0.01%)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 34, PET-CT performed at day plus 100 post-transplant showed no FDG-avid disease and resolution of the previously noted pulmonary aspergillosis lesion with residual scarring."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 34, the patient was tapered off immunosuppression by day plus 180 and remained in complete molecular remission with negative FLT3-ITD by PCR at last follow-up."
+    }
+  ],
+  "scenario_index": 7,
+  "scenario_blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation. ELN intermediate/adverse risk. Induction with 7+3 plus midostaurin. Some achieving CR, some refractory. Include cytogenetics (normal karyotype or complex), blast percentage monitoring, allogeneic stem cell transplant in first remission for eligible patients.",
+  "scenario_label": "aml_flt3"
+}

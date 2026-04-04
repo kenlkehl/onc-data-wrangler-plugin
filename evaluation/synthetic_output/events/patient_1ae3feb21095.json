@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_1ae3feb21095",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 73-year-old Asian female, height 5 feet 1 inch, weight 120 pounds, ECOG performance status 2."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 73, patient presented with progressive fatigue, confusion, and nausea over 2 weeks; emergency evaluation revealed hemoglobin 7.8 g/dL, creatinine 3.2 mg/dL, calcium 13.8 mg/dL, beta-2 microglobulin 9.2 mg/L, albumin 2.6 g/dL consistent with ISS Stage III multiple myeloma presenting as a myeloma emergency with severe hypercalcemia and renal failure."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 73, bone marrow biopsy from site C42.1 showed 80% plasma cells with sheets replacing normal hematopoietic elements; histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138 with cytoplasmic IgA lambda restriction; CD56 negative, CD117 positive; Ki-67 proliferation index 35% suggesting aggressive biology."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 73, FISH analysis on bone marrow aspirate showed del(17p) in 40% of plasma cells; no t(4;14) or t(14;16); gain(1q21) in 65% of cells; R-ISS Stage III based on ISS III with elevated LDH at 345 U/L and high-risk del(17p); double-hit high-risk myeloma."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 73, serum protein electrophoresis showed M-spike of 4.6 g/dL in the beta-gamma bridging region; immunofixation confirmed IgA lambda monoclonal protein; serum free light chain lambda 520 mg/L, kappa 10 mg/L, kappa/lambda ratio 0.02; marked immune paresis with IgG 280 mg/dL and IgM 15 mg/dL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 73, whole-body low-dose CT showed extensive lytic disease throughout the axial and appendicular skeleton including innumerable lesions in the skull, spine, pelvis, ribs, and long bones; pathologic fractures at T6, L1, and left 5th rib; large soft tissue mass arising from the right sacrum measuring 5.8 cm."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 73, initial management included aggressive IV hydration with normal saline at 200 mL/hour, calcitonin 4 IU/kg every 12 hours, denosumab 120 mg subcutaneously, and packed red blood cell transfusion of 2 units; calcium decreased from 13.8 to 11.2 mg/dL after 48 hours of treatment; nephrology consultation obtained for acute kidney injury."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 73, received palliative radiation therapy to the sacral mass and T6 compression fracture site, 8 Gy in a single fraction to each site for pain palliation."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 73, initiated VRd induction with dose adjustments for renal impairment; bortezomib 1.3 mg/m2 subcutaneously weekly, lenalidomide 5 mg due to creatinine clearance of 22 mL/min, dexamethasone 40 mg weekly; dexamethasone also serving as treatment for hypercalcemia."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 73, cycle 1 of VRd completed with renal dose-adjusted lenalidomide; creatinine improved from 3.2 to 2.4 mg/dL; calcium normalized to 9.9 mg/dL; serum free lambda light chain decreased to 310 mg/L."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 73, during cycle 2, patient developed grade 3 thrombocytopenia with platelets 38,000 and grade 2 neutropenia with ANC 0.8; lenalidomide held for 10 days; platelet transfusion given; treatment resumed at lenalidomide 2.5 mg."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 73, cycles 3 and 4 of VRd completed with dose modifications; M-spike decreased to 1.8 g/dL; serum free lambda light chain 95 mg/L; creatinine improved to 1.8 mg/dL; classified as partial response per IMWG criteria."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 73, after cycle 4, developed grade 2 peripheral neuropathy with bilateral foot pain and numbness; also grade 2 fatigue limiting daily activities; bortezomib reduced to 1.0 mg/m2 biweekly schedule."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, after 6 cycles of VRd, SPEP showed M-spike 0.8 g/dL; serum free lambda light chain 52 mg/L; classified as partial response; not a transplant candidate due to age, renal impairment, and ECOG 2; transitioned to maintenance with lenalidomide and dexamethasone."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, started lenalidomide 5 mg days 1 through 21 with dexamethasone 20 mg weekly on 28-day cycles as maintenance; ongoing renal monitoring with creatinine stable at 1.7 mg/dL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, developed Pneumocystis jirovecii pneumonia requiring hospitalization; treated with IV trimethoprim-sulfamethoxazole for 21 days; subsequently started on prophylactic trimethoprim-sulfamethoxazole after recovery."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, follow-up PET/CT showed decreased but persistent FDG activity in the sacral mass now measuring 3.5 cm with SUV 4.2; stable appearance of other skeletal lesions; no new disease sites; overall partial metabolic response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, after 12 months of maintenance, SPEP showed rising M-spike to 2.1 g/dL; serum free lambda light chain increasing to 180 mg/L; confirmed progressive disease per IMWG criteria; discussed second-line options."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, started daratumumab-pomalidomide-dexamethasone (DPd) as second-line therapy; daratumumab 16 mg/kg weekly for 2 cycles then biweekly, pomalidomide 2 mg days 1 through 21 with renal dose adjustment, dexamethasone 20 mg weekly."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 75, after 4 cycles of DPd, M-spike decreased to 1.0 g/dL; serum free lambda light chain 68 mg/L; classified as partial response; treatment continued with plan to continue until progression; patient reports improved energy and pain control with ECOG improved to 1."
+    }
+  ],
+  "scenario_index": 8,
+  "scenario_blurb": "Multiple myeloma, ISS stage II-III. IgG kappa or IgA lambda subtypes. Treated with VRd (bortezomib, lenalidomide, dexamethasone) induction followed by autologous stem cell transplant and lenalidomide maintenance. Include serum protein electrophoresis, free light chains, beta-2 microglobulin, FISH for del(17p) and t(4;14).",
+  "scenario_label": "myeloma"
+}

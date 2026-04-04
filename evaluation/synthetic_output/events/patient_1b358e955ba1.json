@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_1b358e955ba1",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 35-year-old Black female with a BMI of 23.5. Diagnosed during pregnancy workup. No family history of cancer. BRCA1/2 negative."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 34, patient discovered a left breast lump during first trimester of pregnancy. Biopsy confirmed invasive ductal carcinoma (8500/3), left breast upper outer quadrant (C50.4), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 75%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 34, left breast core biopsy: invasive ductal carcinoma, Nottingham grade 3 (tubule score 3, nuclear grade 3, mitotic score 3). ER negative ("
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 34, breast ultrasound (mammogram deferred due to pregnancy) showed a 3.8 cm hypoechoic irregular mass in the left upper outer quadrant with suspicious ipsilateral axillary lymph nodes."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 34, MRI breast (non-contrast protocol during pregnancy) confirmed 4.0 cm mass with axillary adenopathy."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 34, stage IIIA (cT2N2M0) left breast invasive ductal carcinoma, HER2-positive, ER/PR-negative, diagnosed during pregnancy. Staging limited due to pregnancy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 34, initiated neoadjuvant chemotherapy during second trimester: doxorubicin 60 mg/m2 and cyclophosphamide (AC) every 21 days for 4 cycles. HER2-directed therapy deferred until after delivery."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 35, patient delivered a healthy infant at 37 weeks via planned cesarean section. Infant with normal birth weight, no complications."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 35, post-delivery, initiated taxane phase: paclitaxel 80 mg/m2 weekly for 12 weeks with trastuzumab and pertuzumab added."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 35, post-delivery staging CT and PET/CT showed no distant metastatic disease. Breast mass decreased to 1.5 cm after AC. No new sites of disease."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 35, underwent left modified radical mastectomy with axillary dissection. Pathologic complete response (pCR) achieved: ypT0 ypN0. No residual invasive or in situ disease."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 35, left mastectomy specimen: pathologic complete response. No residual invasive carcinoma. No residual DCIS. 0 of 18 axillary lymph nodes positive. Treatment bed with fibrosis and histiocytic reaction."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 35, received adjuvant chest wall and regional nodal radiation, 50 Gy in 25 fractions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 35, given pCR, continued adjuvant trastuzumab and pertuzumab to complete 1 year of HER2-directed therapy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 35, LVEF 62% baseline, remained stable at 60% throughout treatment. Tolerated well."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 34, during AC chemotherapy: grade 2 nausea, grade 2 alopecia, grade 1 fatigue. No febrile neutropenia episodes."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 35, during taxane/HP phase: grade 1 peripheral neuropathy, grade 1 diarrhea from pertuzumab. Mild infusion-related reaction with trastuzumab first dose (grade 1 chills, resolved with slowing infusion)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 35, completed all adjuvant therapy. Pathologic complete response achieved. Excellent prognosis. Surveillance plan: exam every 3 months, annual imaging. Not a candidate for endocrine therapy given ER-negative status. Contraception counseling provided."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 34, tumor profiling: ERBB2 amplification (copy number 16), TP53 Y220C, no additional actionable mutations. TMB 5 mutations/Mb. MSS."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 35, surveillance CT 6 months post-mastectomy showed no evidence of disease."
+    }
+  ],
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

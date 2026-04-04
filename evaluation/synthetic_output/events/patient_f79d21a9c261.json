@@ -1,0 +1,104 @@
+{
+  "patient_id": "patient_f79d21a9c261",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 61-year-old Caucasian male with a history of significant intermittent sun exposure and prior blistering sunburns in childhood, presenting with a changing mole on his left shoulder."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 61, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the trunk (ICD-O topography C44.5), staged as Stage IIIC (T3aN2bM0) with clinically detected regional lymph node involvement."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 61, excisional biopsy of the left shoulder revealed superficial spreading melanoma with Breslow thickness of 2.4 mm, Clark level IV, without ulceration, mitotic rate 4/mm2, no microsatellites, regression absent, with positive deep margin."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 61, wide local excision with 2 cm margins of the left shoulder melanoma site was performed with primary closure and all margins were negative."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 61, sentinel lymph node biopsy of the left axilla revealed 2 of 3 sentinel nodes positive for metastatic melanoma, largest deposit 5.1 mm with extracapsular extension present."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 61, completion left axillary lymph node dissection was performed yielding 22 lymph nodes, of which 1 additional node was positive for metastatic melanoma (total 3 positive nodes)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 61, completion axillary dissection pathology showed metastatic melanoma in 3 of 25 total nodes (2 sentinel, 1 non-sentinel), with extracapsular extension in one node, largest deposit 5.1 mm, S100 and HMB-45 positive."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 61, comprehensive genomic profiling identified BRAF V600E mutation (allele frequency 48%), NRAS wild-type, TERT promoter mutation (C228T), PTEN loss, and tumor mutational burden of 18 mutations per megabase."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 61, baseline PET/CT after surgical resection showed no evidence of distant metastatic disease and expected post-surgical changes."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 61, baseline MRI brain was negative for intracranial metastatic disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, LDH was normal at 192 U/L and the patient was initiated on adjuvant immunotherapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, adjuvant nivolumab 480 mg IV every 4 weeks was started for resected Stage IIIC melanoma."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, patient developed grade 2 immune-related rash (maculopapular, covering 20% body surface area) managed with topical high-potency corticosteroids and oral antihistamines without nivolumab interruption."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, 6-month surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 62, patient developed grade 2 immune-related hypophysitis with fatigue, headache, and low morning cortisol (2.1 mcg/dL), managed with hydrocortisone replacement and levothyroxine; nivolumab continued."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, 12-month surveillance PET/CT showed no recurrent or metastatic disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, patient completed 12 months of adjuvant nivolumab with ongoing endocrine replacement for hypophysitis, LDH remained normal at 178 U/L, and disease-free status was confirmed."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, 6-month post-treatment surveillance CT showed new 2.1 cm left adrenal lesion suspicious for metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, PET/CT confirmed FDG-avid left adrenal mass (SUVmax 9.2) and two new subcutaneous nodules in the chest wall, consistent with metastatic recurrence."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 63, patient was restaged as Stage IV melanoma (M1c) with adrenal and subcutaneous metastases, LDH elevated at 278 U/L."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 63, combination dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for BRAF V600E-mutant metastatic melanoma given prior progression on adjuvant nivolumab."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, restaging CT at 8 weeks on dabrafenib/trametinib showed partial response with 55% reduction in adrenal lesion and resolution of subcutaneous nodules."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63, patient developed grade 2 pyrexia (temperature 39.3 C) on dabrafenib/trametinib requiring brief dose interruption, successfully rechallenged at full dose with prophylactic acetaminophen."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63, LDH decreased to 205 U/L on dabrafenib/trametinib therapy consistent with biochemical response to treatment."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

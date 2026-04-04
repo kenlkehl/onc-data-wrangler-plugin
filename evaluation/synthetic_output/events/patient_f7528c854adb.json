@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_f7528c854adb",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 38-year-old African American female presenting with a pigmented lesion on her right forearm that has been growing over the past 6 months."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 38, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the upper limb (ICD-O topography C44.6), staged as Stage IIIA (T2bN1aM0)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 38, shave biopsy followed by excisional biopsy of the right forearm lesion revealed superficial spreading melanoma with Breslow thickness of 1.8 mm, Clark level IV, ulceration present, mitotic rate 3/mm2, no regression, no microsatellites, and negative deep margin on excision."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 38, wide local excision with 1-2 cm margins of the right forearm melanoma was performed with primary closure."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 38, sentinel lymph node biopsy of the right axilla identified 1 of 2 sentinel nodes positive for micrometastatic melanoma deposit measuring 0.4 mm detected by immunohistochemistry only."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 38, sentinel lymph node pathology showed isolated tumor cells to micrometastasis (0.4 mm) in 1 of 2 nodes, S100 and Melan-A positive, no extracapsular extension."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 38, next-generation sequencing of the primary melanoma identified BRAF V600E mutation (allele frequency 35%), NRAS wild-type, no TERT promoter mutation, wild-type TP53, and tumor mutational burden of 8 mutations per megabase."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 38, baseline PET/CT showed no evidence of distant metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 38, MRI brain with gadolinium contrast was negative for intracranial metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 38, LDH was normal at 145 U/L, and multidisciplinary tumor board recommended adjuvant systemic therapy given sentinel node positivity."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 38, adjuvant dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for resected Stage IIIA BRAF V600E melanoma per COMBI-AD trial data."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 38, patient developed grade 2 pyrexia (temperature 38.9 C) and grade 1 chills within the first 2 weeks of dabrafenib/trametinib, managed with dabrafenib dose reduction to 100 mg twice daily and scheduled acetaminophen."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 38, patient developed grade 1 nausea and grade 1 rash attributed to trametinib, managed with ondansetron and topical corticosteroids."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 39, surveillance CT chest/abdomen/pelvis at 6 months showed no evidence of disease recurrence."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 39, LDH remained normal at 152 U/L with no clinical evidence of disease recurrence and patient continued adjuvant dabrafenib/trametinib at reduced dose."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 39, 12-month surveillance PET/CT was negative for recurrent or metastatic melanoma."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 39, patient completed 12 months of adjuvant dabrafenib/trametinib with manageable toxicity and no evidence of recurrence."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 40, surveillance CT at 6 months post-treatment completion showed no evidence of recurrence."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 40, MRI brain surveillance remained negative for intracranial disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 40, patient remained disease-free at 24 months from initial diagnosis, with LDH stable at 139 U/L, continuing routine surveillance with clinical examinations every 3 months and imaging every 6 months."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

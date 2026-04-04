@@ -1,0 +1,108 @@
+{
+  "patient_id": "patient_45109071bc5a",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 62-year-old Black female with a BMI of 31.5. Family history significant for a sister diagnosed with breast cancer at age 55."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 55, patient diagnosed with left breast invasive ductal carcinoma (8500/3), upper inner quadrant (C50.2), grade 2, stage IIA (T2N0M0). ER positive (Allred 8/8), PR positive (Allred 5/8), HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 4.1), Ki-67 30%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 55, left breast excisional biopsy: 2.5 cm invasive ductal carcinoma, Nottingham grade 2. ER positive 90%, PR positive 40%, HER2 IHC 2+, FISH amplified with HER2/CEP17 ratio 4.1. Ki-67 30%. Margins negative. 0 of 2 sentinel lymph nodes positive."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 55, underwent left breast lumpectomy with sentinel lymph node biopsy. Pathology confirmed clear margins and 0/2 nodes positive."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 55, received adjuvant whole breast radiation therapy, 50 Gy in 25 fractions with a 10 Gy boost to the tumor bed."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 55, received adjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) for 6 cycles followed by maintenance trastuzumab to complete 1 year."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 56, completed adjuvant trastuzumab. Started adjuvant letrozole 2.5 mg daily planned for 10 years."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 55, during adjuvant TCHP developed grade 2 nausea, grade 2 alopecia, and grade 1 fatigue. Managed supportively."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, routine surveillance visit. Patient doing well on letrozole. No complaints. Physical exam unremarkable. ECOG 0."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59, routine mammogram of the right breast normal. Surgical site on left with expected post-treatment changes."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 60, patient presented with new onset back pain and a 10-pound unintentional weight loss over 2 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 60, CT chest/abdomen/pelvis showed multiple new liver metastases (largest 3.5 cm), mediastinal lymphadenopathy, and lytic lesions in lumbar spine L2-L4."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 60, MRI brain obtained given metastatic recurrence showed no intracranial metastases."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 60, liver biopsy confirmed metastatic breast carcinoma, ER positive 80%, PR negative, HER2 IHC 3+, Ki-67 50%. Consistent with recurrence of known primary."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 60, recurrent metastatic HER2-positive breast cancer with liver, lymph node, and bone involvement. Recurrence-free interval 5 years from initial diagnosis."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 60, circulating tumor DNA (Guardant360) detected PIK3CA E545K mutation, TP53 R175H, ERBB2 amplification, and CCND1 amplification. TMB low."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 60, initiated first-line for metastatic disease: THP regimen (docetaxel, trastuzumab, pertuzumab) every 21 days given recurrence more than 12 months after adjuvant trastuzumab."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 60, baseline LVEF 60% on echocardiogram."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 61, restaging PET/CT after 6 cycles showed partial response with significant reduction in liver lesions and decreased metabolic activity in bone lesions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, discontinued docetaxel after 6 cycles and continued maintenance trastuzumab/pertuzumab. Resumed letrozole."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, echocardiogram showed LVEF 54%. Asymptomatic. Continued therapy with close monitoring."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, developed grade 2 peripheral neuropathy from cumulative docetaxel. Persisted after discontinuation. Started duloxetine 60 mg daily."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, CT showed progressive disease with new liver lesions and enlarging bone metastases."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, transitioned to second-line T-DM1 3.6 mg/kg every 21 days."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, patient reports increased fatigue and intermittent right upper quadrant discomfort. ECOG 1. LFTs mildly elevated. Plan: continue T-DM1 with close monitoring."
+    }
+  ],
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

@@ -1,0 +1,238 @@
+<demographics>Patient is a 52-year-old Caucasian male with no significant past medical history presenting for evaluation of a changing mole on his upper back.
+<diagnosis>At age 52, patient was diagnosed with malignant melanoma (ICD-O morphology 8720/3) of the skin of the trunk (ICD-O topography C44.5), clinically staged as Stage IIIC (T3bN2aM0).
+<pathology_report>At age 52, excisional biopsy of the upper back lesion revealed malignant melanoma with Breslow thickness of 2.8 mm, Clark level IV, with ulceration present, mitotic rate 5/mm2, microsatellites absent, and peripheral and deep margins positive necessitating re-excision.
+<surgery>At age 52, wide local excision with 2 cm margins of the primary melanoma site on the upper back was performed with primary closure.
+<surgery>At age 52, sentinel lymph node biopsy of the right axilla was performed, with 2 of 4 sentinel nodes positive for metastatic melanoma deposits measuring up to 3.2 mm.
+<pathology_report>At age 52, sentinel lymph node pathology showed metastatic melanoma in 2 of 4 nodes with extracapsular extension absent, largest deposit 3.2 mm, confirmed by S100, HMB-45, and Melan-A immunohistochemistry.
+<surgery>At age 52, completion right axillary lymph node dissection was performed, yielding 18 lymph nodes with no additional nodes positive for metastatic disease (0/14 additional nodes).
+<ngs_report>At age 52, next-generation sequencing of the primary tumor revealed BRAF V600E mutation (allele frequency 42%), NRAS wild-type, TERT promoter mutation (C228T), CDKN2A loss, and tumor mutational burden of 14 mutations per megabase.
+<imaging_report>At age 52, baseline PET/CT showed no evidence of distant metastatic disease, with post-surgical changes in the right axilla and upper back.
+<imaging_report>At age 52, MRI of the brain with and without gadolinium contrast showed no intracranial metastatic disease.
+<clinical_note>At age 52, LDH level was within normal limits at 185 U/L and the patient was deemed a candidate for adjuvant systemic therapy.
+<systemic>At age 52, adjuvant nivolumab 480 mg IV every 4 weeks was initiated for resected Stage IIIC melanoma per CheckMate 238 protocol.
+<adverse_event>At age 53, patient developed grade 2 immune-related diarrhea with 5-6 loose stools daily, managed with loperamide and close monitoring without treatment interruption.
+<imaging_report>At age 53, surveillance CT of chest, abdomen, and pelvis at 6 months showed no evidence of recurrent or metastatic disease.
+<imaging_report>At age 53, surveillance MRI brain at 6 months showed no intracranial metastatic disease.
+<clinical_note>At age 53, patient completed 12 months of adjuvant nivolumab therapy with no evidence of disease recurrence and LDH remained normal at 172 U/L.
+<imaging_report>At age 53, end-of-treatment PET/CT demonstrated complete metabolic response with no FDG-avid lesions suspicious for recurrent or metastatic melanoma.
+<imaging_report>At age 54, routine surveillance CT chest/abdomen/pelvis at 18 months post-surgery showed new suspicious 1.2 cm pulmonary nodule in the right lower lobe.
+<imaging_report>At age 54, PET/CT confirmed FDG-avid right lower lobe pulmonary nodule (SUVmax 6.8) and a new 1.5 cm FDG-avid subcutaneous nodule in the left flank, concerning for metastatic melanoma recurrence.
+<pathology_report>At age 54, CT-guided core biopsy of the right lower lobe pulmonary nodule confirmed metastatic melanoma, positive for S100 and SOX10, with BRAF V600E mutation confirmed on repeat molecular testing.
+<diagnosis>At age 54, patient was restaged as Stage IV melanoma (M1b) with pulmonary and subcutaneous metastases.
+<clinical_note>At age 54, serum LDH was elevated at 312 U/L consistent with progressive metastatic disease.
+<systemic>At age 54, combination dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for BRAF V600E-mutant Stage IV melanoma given rapid disease progression.
+<adverse_event>At age 54, patient developed grade 2 pyrexia (temperature 39.1 C) attributed to dabrafenib, managed with dose interruption and acetaminophen, with rechallenge at reduced dabrafenib dose of 100 mg twice daily.
+<imaging_report>At age 54, restaging CT at 8 weeks showed partial response with 40% reduction in pulmonary nodule and resolution of subcutaneous nodule per RECIST 1.1 criteria.
+<clinical_note>At age 55, after 10 months on dabrafenib/trametinib the patient demonstrated durable partial response with LDH normalized to 198 U/L and remained on continued BRAF/MEK inhibitor therapy.
+<new_patient>
+<demographics>Patient is a 45-year-old Caucasian female with a family history of melanoma in her father, presenting with a rapidly growing pigmented lesion on her left calf.
+<diagnosis>At age 45, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the lower limb (ICD-O topography C44.7), clinically staged as Stage IIIB (T4aN1aM0).
+<pathology_report>At age 45, excisional biopsy of the left calf lesion revealed nodular melanoma with Breslow thickness of 4.5 mm, Clark level V (invasion into subcutaneous fat), without ulceration, mitotic rate 8/mm2, no microsatellites, lymphovascular invasion present, margins involved.
+<surgery>At age 45, wide local excision with 2 cm margins was performed on the left calf with split-thickness skin graft closure.
+<surgery>At age 45, sentinel lymph node biopsy of the left inguinal region was performed, with 1 of 3 sentinel nodes positive for a micrometastatic melanoma deposit measuring 0.8 mm.
+<pathology_report>At age 45, sentinel lymph node biopsy pathology confirmed micrometastatic melanoma in 1 of 3 nodes, no extracapsular extension, confirmed by S100 and Melan-A staining.
+<ngs_report>At age 45, targeted next-generation sequencing panel of the primary melanoma identified BRAF V600E mutation (allele frequency 38%), NRAS wild-type, TP53 wild-type, TERT promoter mutation (C250T), and microsatellite stable status.
+<imaging_report>At age 45, staging PET/CT showed no evidence of distant metastatic disease and post-surgical changes in the left lower extremity and left groin.
+<imaging_report>At age 45, MRI brain with contrast was negative for intracranial metastases.
+<clinical_note>At age 45, baseline LDH was normal at 168 U/L, and after multidisciplinary tumor board discussion the patient was started on adjuvant pembrolizumab.
+<systemic>At age 45, adjuvant pembrolizumab 200 mg IV every 3 weeks was initiated for resected Stage IIIB melanoma per KEYNOTE-054 data.
+<adverse_event>At age 46, patient developed grade 1 hypothyroidism (TSH 12.4 mIU/L) likely immune-related, managed with levothyroxine supplementation without interruption of pembrolizumab.
+<imaging_report>At age 46, surveillance CT chest/abdomen/pelvis at 6 months was unremarkable with no evidence of disease recurrence.
+<adverse_event>At age 46, patient developed grade 2 immune-related hepatitis with ALT 185 U/L and AST 156 U/L, pembrolizumab was held, and oral prednisone 1 mg/kg was initiated with transaminase normalization over 4 weeks.
+<systemic>At age 46, pembrolizumab was resumed after hepatitis resolved to grade 0 and corticosteroids were tapered completely.
+<imaging_report>At age 46, surveillance PET/CT at 12 months showed no evidence of recurrent or metastatic disease with complete metabolic response.
+<clinical_note>At age 46, patient completed 12 months of adjuvant pembrolizumab, tolerating therapy well after hepatitis resolution, with LDH remaining normal at 155 U/L.
+<imaging_report>At age 47, surveillance CT at 18 months post-completion showed no evidence of disease recurrence and the patient remained in clinical remission.
+<imaging_report>At age 47, MRI brain surveillance was negative for intracranial metastases.
+<clinical_note>At age 47, patient continued routine surveillance every 3 months with physical examination and blood work showing LDH stable at 162 U/L with no evidence of recurrence at 24 months from diagnosis.
+<new_patient>
+<demographics>Patient is a 67-year-old Caucasian male with a history of multiple prior non-melanoma skin cancers and significant cumulative sun exposure, presenting with a bleeding nodular lesion on his right scalp.
+<diagnosis>At age 67, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the head (ICD-O topography C44.3), staged as Stage IV (T4bN3M1c) with synchronous lung and liver metastases.
+<pathology_report>At age 67, punch biopsy followed by wide excisional biopsy of the right scalp lesion revealed nodular melanoma with Breslow thickness of 6.2 mm, Clark level V, ulceration present, mitotic rate 12/mm2, extensive lymphovascular invasion, perineural invasion identified, and microsatellites present.
+<surgery>At age 67, wide local excision with 2 cm margins was performed on the right scalp with rotation flap closure for local disease control despite known metastatic disease.
+<pathology_report>At age 67, palpable right cervical lymph node fine needle aspiration confirmed metastatic melanoma, positive for HMB-45 and SOX10.
+<imaging_report>At age 67, staging CT of chest, abdomen, and pelvis revealed multiple bilateral pulmonary nodules (largest 2.3 cm), three hepatic lesions (largest 3.8 cm in the right lobe), and bulky right cervical lymphadenopathy measuring 4.1 cm.
+<imaging_report>At age 67, MRI of the brain with gadolinium showed two enhancing lesions in the right frontal lobe (1.8 cm) and left parietal lobe (1.2 cm) consistent with brain metastases.
+<ngs_report>At age 67, comprehensive genomic profiling of the primary tumor identified BRAF V600E mutation (allele frequency 55%), NRAS wild-type, TERT promoter mutation (C228T), CDKN2A homozygous deletion, TP53 R248W mutation, high tumor mutational burden of 28 mutations per megabase, and PD-L1 combined positive score of 15.
+<clinical_note>At age 67, serum LDH was significantly elevated at 485 U/L, and the patient was classified as Stage IV M1d due to brain metastases with an ECOG performance status of 1.
+<radiation>At age 67, stereotactic radiosurgery (SRS) was delivered to the two brain metastases: 20 Gy in 1 fraction to the right frontal lesion and 22 Gy in 1 fraction to the left parietal lesion.
+<systemic>At age 67, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for treatment of metastatic melanoma with brain metastases given high PD-L1 and high TMB.
+<adverse_event>At age 67, after cycle 2 of ipilimumab/nivolumab, patient developed grade 3 immune-related colitis with bloody diarrhea (8-10 stools/day), requiring hospitalization, IV methylprednisolone 2 mg/kg, and discontinuation of ipilimumab.
+<clinical_note>At age 67, colitis resolved to grade 1 over 3 weeks with steroid taper, and the decision was made to continue nivolumab monotherapy.
+<systemic>At age 67, nivolumab 480 mg IV every 4 weeks was continued as maintenance immunotherapy after ipilimumab discontinuation.
+<imaging_report>At age 67, restaging CT at 12 weeks showed mixed response with reduction in pulmonary nodules but stable hepatic lesions, assessed as stable disease per RECIST 1.1.
+<imaging_report>At age 68, MRI brain at 12 weeks post-SRS showed treatment effect with decreased enhancement of both lesions and no new intracranial lesions.
+<clinical_note>At age 68, LDH trended down to 342 U/L suggesting partial biochemical response to therapy.
+<imaging_report>At age 68, restaging PET/CT at 6 months showed continued partial response in pulmonary metastases and stable hepatic disease with decreased FDG uptake.
+<adverse_event>At age 68, patient developed grade 2 fatigue and grade 1 arthralgias attributed to nivolumab, managed symptomatically without dose modification.
+<imaging_report>At age 68, restaging CT at 9 months showed progression of hepatic metastases with new lesion in left hepatic lobe despite stable pulmonary disease.
+<clinical_note>At age 68, given hepatic progression on nivolumab monotherapy with confirmed BRAF V600E mutation, decision was made to switch to BRAF/MEK inhibitor combination therapy, and LDH rose to 410 U/L.
+<systemic>At age 68, dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated as second-line therapy for progressive BRAF V600E melanoma.
+<imaging_report>At age 68, restaging CT at 8 weeks on dabrafenib/trametinib showed significant response with greater than 50% reduction in hepatic metastases and continued stability of pulmonary disease.
+<new_patient>
+<demographics>Patient is a 38-year-old African American female presenting with a pigmented lesion on her right forearm that has been growing over the past 6 months.
+<diagnosis>At age 38, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the upper limb (ICD-O topography C44.6), staged as Stage IIIA (T2bN1aM0).
+<pathology_report>At age 38, shave biopsy followed by excisional biopsy of the right forearm lesion revealed superficial spreading melanoma with Breslow thickness of 1.8 mm, Clark level IV, ulceration present, mitotic rate 3/mm2, no regression, no microsatellites, and negative deep margin on excision.
+<surgery>At age 38, wide local excision with 1-2 cm margins of the right forearm melanoma was performed with primary closure.
+<surgery>At age 38, sentinel lymph node biopsy of the right axilla identified 1 of 2 sentinel nodes positive for micrometastatic melanoma deposit measuring 0.4 mm detected by immunohistochemistry only.
+<pathology_report>At age 38, sentinel lymph node pathology showed isolated tumor cells to micrometastasis (0.4 mm) in 1 of 2 nodes, S100 and Melan-A positive, no extracapsular extension.
+<ngs_report>At age 38, next-generation sequencing of the primary melanoma identified BRAF V600E mutation (allele frequency 35%), NRAS wild-type, no TERT promoter mutation, wild-type TP53, and tumor mutational burden of 8 mutations per megabase.
+<imaging_report>At age 38, baseline PET/CT showed no evidence of distant metastatic disease.
+<imaging_report>At age 38, MRI brain with gadolinium contrast was negative for intracranial metastases.
+<clinical_note>At age 38, LDH was normal at 145 U/L, and multidisciplinary tumor board recommended adjuvant systemic therapy given sentinel node positivity.
+<systemic>At age 38, adjuvant dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for resected Stage IIIA BRAF V600E melanoma per COMBI-AD trial data.
+<adverse_event>At age 38, patient developed grade 2 pyrexia (temperature 38.9 C) and grade 1 chills within the first 2 weeks of dabrafenib/trametinib, managed with dabrafenib dose reduction to 100 mg twice daily and scheduled acetaminophen.
+<adverse_event>At age 38, patient developed grade 1 nausea and grade 1 rash attributed to trametinib, managed with ondansetron and topical corticosteroids.
+<imaging_report>At age 39, surveillance CT chest/abdomen/pelvis at 6 months showed no evidence of disease recurrence.
+<clinical_note>At age 39, LDH remained normal at 152 U/L with no clinical evidence of disease recurrence and patient continued adjuvant dabrafenib/trametinib at reduced dose.
+<imaging_report>At age 39, 12-month surveillance PET/CT was negative for recurrent or metastatic melanoma.
+<clinical_note>At age 39, patient completed 12 months of adjuvant dabrafenib/trametinib with manageable toxicity and no evidence of recurrence.
+<imaging_report>At age 40, surveillance CT at 6 months post-treatment completion showed no evidence of recurrence.
+<imaging_report>At age 40, MRI brain surveillance remained negative for intracranial disease.
+<clinical_note>At age 40, patient remained disease-free at 24 months from initial diagnosis, with LDH stable at 139 U/L, continuing routine surveillance with clinical examinations every 3 months and imaging every 6 months.
+<new_patient>
+<demographics>Patient is a 61-year-old Caucasian male with a history of significant intermittent sun exposure and prior blistering sunburns in childhood, presenting with a changing mole on his left shoulder.
+<diagnosis>At age 61, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the trunk (ICD-O topography C44.5), staged as Stage IIIC (T3aN2bM0) with clinically detected regional lymph node involvement.
+<pathology_report>At age 61, excisional biopsy of the left shoulder revealed superficial spreading melanoma with Breslow thickness of 2.4 mm, Clark level IV, without ulceration, mitotic rate 4/mm2, no microsatellites, regression absent, with positive deep margin.
+<surgery>At age 61, wide local excision with 2 cm margins of the left shoulder melanoma site was performed with primary closure and all margins were negative.
+<surgery>At age 61, sentinel lymph node biopsy of the left axilla revealed 2 of 3 sentinel nodes positive for metastatic melanoma, largest deposit 5.1 mm with extracapsular extension present.
+<surgery>At age 61, completion left axillary lymph node dissection was performed yielding 22 lymph nodes, of which 1 additional node was positive for metastatic melanoma (total 3 positive nodes).
+<pathology_report>At age 61, completion axillary dissection pathology showed metastatic melanoma in 3 of 25 total nodes (2 sentinel, 1 non-sentinel), with extracapsular extension in one node, largest deposit 5.1 mm, S100 and HMB-45 positive.
+<ngs_report>At age 61, comprehensive genomic profiling identified BRAF V600E mutation (allele frequency 48%), NRAS wild-type, TERT promoter mutation (C228T), PTEN loss, and tumor mutational burden of 18 mutations per megabase.
+<imaging_report>At age 61, baseline PET/CT after surgical resection showed no evidence of distant metastatic disease and expected post-surgical changes.
+<imaging_report>At age 61, baseline MRI brain was negative for intracranial metastatic disease.
+<clinical_note>At age 61, LDH was normal at 192 U/L and the patient was initiated on adjuvant immunotherapy.
+<systemic>At age 61, adjuvant nivolumab 480 mg IV every 4 weeks was started for resected Stage IIIC melanoma.
+<adverse_event>At age 61, patient developed grade 2 immune-related rash (maculopapular, covering 20% body surface area) managed with topical high-potency corticosteroids and oral antihistamines without nivolumab interruption.
+<imaging_report>At age 62, 6-month surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease.
+<adverse_event>At age 62, patient developed grade 2 immune-related hypophysitis with fatigue, headache, and low morning cortisol (2.1 mcg/dL), managed with hydrocortisone replacement and levothyroxine; nivolumab continued.
+<imaging_report>At age 62, 12-month surveillance PET/CT showed no recurrent or metastatic disease.
+<clinical_note>At age 62, patient completed 12 months of adjuvant nivolumab with ongoing endocrine replacement for hypophysitis, LDH remained normal at 178 U/L, and disease-free status was confirmed.
+<imaging_report>At age 63, 6-month post-treatment surveillance CT showed new 2.1 cm left adrenal lesion suspicious for metastatic disease.
+<imaging_report>At age 63, PET/CT confirmed FDG-avid left adrenal mass (SUVmax 9.2) and two new subcutaneous nodules in the chest wall, consistent with metastatic recurrence.
+<diagnosis>At age 63, patient was restaged as Stage IV melanoma (M1c) with adrenal and subcutaneous metastases, LDH elevated at 278 U/L.
+<systemic>At age 63, combination dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for BRAF V600E-mutant metastatic melanoma given prior progression on adjuvant nivolumab.
+<imaging_report>At age 63, restaging CT at 8 weeks on dabrafenib/trametinib showed partial response with 55% reduction in adrenal lesion and resolution of subcutaneous nodules.
+<adverse_event>At age 63, patient developed grade 2 pyrexia (temperature 39.3 C) on dabrafenib/trametinib requiring brief dose interruption, successfully rechallenged at full dose with prophylactic acetaminophen.
+<clinical_note>At age 63, LDH decreased to 205 U/L on dabrafenib/trametinib therapy consistent with biochemical response to treatment.
+<new_patient>
+<demographics>Patient is a 72-year-old Caucasian male with a history of chronic lymphocytic leukemia in remission, presenting with a thick pigmented nodule on his anterior chest.
+<diagnosis>At age 72, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the trunk (ICD-O topography C44.5), staged as Stage IV (T4bN1aM1b) with synchronous pulmonary metastases at presentation.
+<pathology_report>At age 72, excisional biopsy of the anterior chest wall lesion revealed nodular melanoma with Breslow thickness of 7.8 mm, Clark level V, ulceration present, mitotic rate 15/mm2, extensive lymphovascular invasion, microsatellites present, and perineural invasion present.
+<surgery>At age 72, wide local excision with 2 cm margins of the anterior chest melanoma was performed for local disease control with advancement flap closure.
+<surgery>At age 72, sentinel lymph node biopsy of the left axilla showed 1 of 2 sentinel nodes positive for macrometastatic melanoma deposit measuring 8.2 mm.
+<pathology_report>At age 72, sentinel node pathology confirmed macrometastatic melanoma in 1 of 2 nodes (8.2 mm deposit) with extracapsular extension, S100 and SOX10 positive, HMB-45 positive.
+<imaging_report>At age 72, staging CT of chest/abdomen/pelvis revealed multiple bilateral pulmonary metastases (largest 3.1 cm right upper lobe), mediastinal lymphadenopathy, and no hepatic or osseous metastases.
+<imaging_report>At age 72, MRI brain with gadolinium showed a single 2.2 cm enhancing lesion in the right cerebellar hemisphere consistent with brain metastasis.
+<ngs_report>At age 72, next-generation sequencing of the primary melanoma identified BRAF V600E mutation (allele frequency 60%), NRAS wild-type, TERT promoter mutation (C228T), TP53 Y220C mutation, CDKN2A homozygous deletion, PIK3CA E545K mutation, and tumor mutational burden of 22 mutations per megabase.
+<clinical_note>At age 72, serum LDH was markedly elevated at 520 U/L, ECOG performance status was 1, and disease was classified as Stage IV M1d given brain metastasis.
+<radiation>At age 72, stereotactic radiosurgery was delivered to the right cerebellar metastasis at a dose of 21 Gy in 1 fraction.
+<systemic>At age 72, combination dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for BRAF V600E-mutant Stage IV melanoma with brain metastasis given need for rapid disease control.
+<adverse_event>At age 72, patient developed grade 2 pyrexia (temperature 39.5 C) and grade 2 fatigue within the first week of dabrafenib/trametinib, managed with dose interruption of dabrafenib for 3 days and restart at 100 mg twice daily.
+<adverse_event>At age 72, patient developed grade 2 diarrhea (4-6 stools/day above baseline) attributed to trametinib, managed with loperamide.
+<imaging_report>At age 72, restaging CT at 8 weeks showed partial response with 45% reduction in pulmonary metastases and decreased mediastinal lymphadenopathy.
+<imaging_report>At age 72, MRI brain at 8 weeks post-SRS showed decreased enhancement of the cerebellar lesion with surrounding radiation effect and no new intracranial disease.
+<clinical_note>At age 72, LDH decreased to 345 U/L reflecting partial biochemical response to dabrafenib/trametinib therapy.
+<imaging_report>At age 73, restaging CT at 6 months showed continued partial response in pulmonary metastases but emergence of a new 1.8 cm hepatic lesion concerning for progressive disease.
+<clinical_note>At age 73, LDH rose to 412 U/L suggesting progressive disease, and the decision was made to transition to immunotherapy.
+<systemic>At age 73, dabrafenib/trametinib was discontinued and nivolumab 480 mg IV every 4 weeks was initiated as second-line therapy.
+<imaging_report>At age 73, restaging CT at 12 weeks on nivolumab showed stable pulmonary disease and slight increase in hepatic lesion suggesting pseudo-progression versus true progression.
+<clinical_note>At age 73, clinical decision was made to continue nivolumab given overall stable disease burden and patient maintained ECOG performance status of 1 with LDH stable at 398 U/L.
+<new_patient>
+<demographics>Patient is a 49-year-old Hispanic male with no prior skin cancer history, presenting with a rapidly enlarging dark lesion on his left upper arm.
+<diagnosis>At age 49, patient was diagnosed with malignant melanoma (ICD-O morphology 8720/3) of the skin of the upper limb (ICD-O topography C44.6), staged as Stage IV (T3bN2cM1a) with in-transit metastases and distant subcutaneous metastases.
+<pathology_report>At age 49, excisional biopsy of the left upper arm revealed malignant melanoma with Breslow thickness of 3.5 mm, Clark level IV, ulceration present, mitotic rate 7/mm2, satellite lesions identified within 2 cm of the primary tumor, lymphovascular invasion present.
+<surgery>At age 49, wide local excision with 2 cm margins of the left upper arm melanoma was performed with primary closure.
+<pathology_report>At age 49, separately excised in-transit satellite lesion from the left upper arm confirmed metastatic melanoma consistent with the primary tumor morphology.
+<surgery>At age 49, sentinel lymph node biopsy of the left axilla revealed 2 of 3 sentinel nodes positive for metastatic melanoma with largest deposit measuring 4.8 mm.
+<pathology_report>At age 49, sentinel lymph node pathology showed melanoma metastases in 2 of 3 nodes with no extracapsular extension, confirmed positive for S100, HMB-45, and SOX10.
+<imaging_report>At age 49, staging PET/CT showed FDG-avid left axillary lymphadenopathy, multiple subcutaneous nodules in the left arm and chest wall (SUVmax up to 5.2), and no visceral metastatic disease.
+<imaging_report>At age 49, MRI brain with gadolinium was negative for intracranial metastases.
+<ngs_report>At age 49, next-generation sequencing identified BRAF V600E mutation (allele frequency 40%), NRAS wild-type, TERT promoter mutation (C250T), APC mutation, and tumor mutational burden of 11 mutations per megabase with microsatellite stable status.
+<clinical_note>At age 49, serum LDH was mildly elevated at 245 U/L, consistent with Stage IV M1a disease (subcutaneous distant metastases) with normal organ function.
+<systemic>At age 49, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for 4 induction cycles for metastatic BRAF V600E melanoma, with immunotherapy chosen first given high TMB.
+<adverse_event>At age 49, after cycle 3 of ipilimumab/nivolumab, patient developed grade 3 immune-related hepatitis with ALT 425 U/L and AST 380 U/L, requiring ipilimumab discontinuation and high-dose IV methylprednisolone 2 mg/kg.
+<clinical_note>At age 49, hepatitis improved to grade 1 after 2 weeks of high-dose corticosteroids followed by prolonged oral prednisone taper over 8 weeks.
+<systemic>At age 49, nivolumab 480 mg IV every 4 weeks was continued as maintenance after ipilimumab was permanently discontinued due to hepatotoxicity.
+<imaging_report>At age 49, restaging CT at 12 weeks showed partial response with resolution of subcutaneous nodules and decreased axillary lymphadenopathy.
+<imaging_report>At age 50, 6-month restaging PET/CT showed near complete metabolic response with minimal residual FDG activity in the left axilla.
+<clinical_note>At age 50, LDH normalized to 188 U/L and patient continued nivolumab maintenance with excellent response and ECOG performance status of 0.
+<adverse_event>At age 50, patient developed grade 1 vitiligo affecting bilateral hands and periocular regions, considered a favorable prognostic sign and requiring no treatment intervention.
+<imaging_report>At age 50, 12-month restaging CT showed complete radiographic response with no measurable disease per RECIST 1.1.
+<clinical_note>At age 50, after achieving complete response on nivolumab for 12 months, treatment was electively discontinued with plan for close surveillance imaging every 3 months.
+<new_patient>
+<demographics>Patient is a 55-year-old Caucasian female with a personal history of dysplastic nevi and family history of melanoma in two first-degree relatives, presenting with a new pigmented lesion on her right thigh.
+<diagnosis>At age 55, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the lower limb (ICD-O topography C44.7), staged as Stage IIID (T4bN3bM0) with extensive regional lymph node involvement.
+<pathology_report>At age 55, excisional biopsy of the right thigh lesion revealed superficial spreading melanoma with Breslow thickness of 5.6 mm, Clark level V, ulceration present, mitotic rate 10/mm2, microsatellites present, regression absent, lymphovascular invasion identified.
+<surgery>At age 55, wide local excision with 2 cm margins of the right thigh melanoma was performed with primary closure and all margins were confirmed negative.
+<surgery>At age 55, sentinel lymph node biopsy of the right inguinal region showed 3 of 4 sentinel nodes positive for metastatic melanoma, largest deposit measuring 12 mm with extracapsular extension.
+<surgery>At age 55, completion right inguinal and iliac lymph node dissection was performed yielding 16 nodes, of which 4 additional nodes were positive (total 7 of 20 nodes positive).
+<pathology_report>At age 55, completion lymph node dissection pathology showed metastatic melanoma in 7 of 20 total nodes with extracapsular extension in 3 nodes, largest deposit 12 mm, matted nodes present in right inguinal basin.
+<ngs_report>At age 55, comprehensive genomic profiling revealed BRAF V600E mutation (allele frequency 52%), NRAS wild-type, TERT promoter mutation (C228T), CDKN2A homozygous deletion, BAP1 loss-of-function mutation, and tumor mutational burden of 16 mutations per megabase.
+<imaging_report>At age 55, staging PET/CT post-operatively showed no distant metastatic disease but FDG-avid right inguinal region consistent with residual post-surgical inflammation.
+<imaging_report>At age 55, MRI brain with contrast was negative for intracranial metastatic disease.
+<clinical_note>At age 55, LDH was 198 U/L within normal limits, and multidisciplinary tumor board recommended adjuvant combination BRAF/MEK inhibitor therapy given the extensive nodal disease burden and BRAF V600E status.
+<systemic>At age 55, adjuvant dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for resected Stage IIID melanoma.
+<adverse_event>At age 55, patient developed grade 3 pyrexia (temperature 40.1 C) with rigors and hypotension within 10 days of starting dabrafenib/trametinib, requiring emergency department visit, IV fluids, and dabrafenib dose reduction to 75 mg twice daily.
+<adverse_event>At age 55, despite dose reduction, patient experienced recurrent grade 2 pyrexia episodes, and dabrafenib was further managed with prophylactic corticosteroid protocol with improved tolerability.
+<imaging_report>At age 56, 6-month surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease and resolved post-surgical changes.
+<imaging_report>At age 56, 12-month surveillance PET/CT was negative for recurrent or metastatic disease.
+<clinical_note>At age 56, patient completed 12 months of adjuvant dabrafenib/trametinib at reduced dabrafenib dose, tolerating with manageable pyrexia on prophylactic corticosteroid protocol, LDH normal at 175 U/L.
+<imaging_report>At age 56, post-treatment MRI brain surveillance was negative for intracranial metastatic disease.
+<imaging_report>At age 57, 6-month post-treatment surveillance CT showed new 1.5 cm right lower lobe pulmonary nodule and 1.0 cm left hepatic lobe lesion suspicious for metastatic disease.
+<diagnosis>At age 57, following CT-guided biopsy of the pulmonary nodule confirming metastatic melanoma, patient was restaged as Stage IV (M1c) with pulmonary and hepatic metastases, LDH elevated at 265 U/L.
+<pathology_report>At age 57, CT-guided core biopsy of the right lower lobe nodule showed metastatic melanoma positive for S100, SOX10, and BRAF V600E on reflex molecular testing.
+<systemic>At age 57, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for metastatic melanoma given prior exposure to BRAF/MEK inhibitor therapy in the adjuvant setting.
+<adverse_event>At age 57, after cycle 2 of ipilimumab/nivolumab, patient developed grade 2 immune-related diarrhea (5-6 stools/day) managed with oral budesonide and loperamide without treatment interruption.
+<imaging_report>At age 57, restaging CT at 12 weeks showed partial response with 35% reduction in pulmonary nodule and stable hepatic lesion.
+<clinical_note>At age 57, LDH decreased to 218 U/L on ipilimumab/nivolumab and patient continued with nivolumab maintenance after completing 4 cycles of combination therapy.
+<new_patient>
+<demographics>Patient is a 34-year-old Caucasian female with no significant medical history and no family history of melanoma, presenting with a pigmented lesion on her right lateral neck.
+<diagnosis>At age 34, patient was diagnosed with malignant melanoma (ICD-O morphology 8720/3) of the skin of the head and neck (ICD-O topography C44.3), staged as Stage IV (T2aN1aM1d) with a synchronous solitary brain metastasis.
+<pathology_report>At age 34, excisional biopsy of the right lateral neck lesion revealed malignant melanoma with Breslow thickness of 1.5 mm, Clark level III, without ulceration, mitotic rate 2/mm2, no microsatellites, no lymphovascular invasion, and negative margins on excisional biopsy.
+<surgery>At age 34, wide local excision with 1-2 cm margins of the right neck melanoma was performed with primary closure.
+<surgery>At age 34, sentinel lymph node biopsy of the right cervical chain showed 1 of 2 sentinel nodes positive for a 1.2 mm metastatic melanoma deposit.
+<pathology_report>At age 34, sentinel lymph node pathology confirmed metastatic melanoma in 1 of 2 nodes (1.2 mm deposit), no extracapsular extension, S100 and Melan-A positive.
+<imaging_report>At age 34, staging MRI brain with gadolinium revealed a solitary 2.5 cm enhancing mass in the left occipital lobe with surrounding vasogenic edema consistent with brain metastasis.
+<imaging_report>At age 34, staging PET/CT showed FDG-avid right cervical node (post-biopsy) and no other extracranial metastatic disease.
+<ngs_report>At age 34, next-generation sequencing of the primary melanoma revealed BRAF V600E mutation (allele frequency 45%), NRAS wild-type, wild-type TP53, TERT promoter wild-type, and tumor mutational burden of 6 mutations per megabase with PD-L1 combined positive score of 8.
+<clinical_note>At age 34, serum LDH was normal at 170 U/L despite brain metastasis, and the patient had ECOG performance status of 0 with no neurological deficits aside from mild left-sided visual field changes.
+<radiation>At age 34, stereotactic radiosurgery was delivered to the left occipital brain metastasis at 22 Gy in 1 fraction with frameless technique.
+<systemic>At age 34, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for 4 cycles for BRAF V600E melanoma with brain metastasis, with immunotherapy chosen first per CheckMate 204 data.
+<adverse_event>At age 34, patient developed grade 2 immune-related colitis with watery diarrhea (6 stools/day) after cycle 3, managed with oral prednisone 1 mg/kg and 1 cycle delay of therapy.
+<adverse_event>At age 34, patient developed grade 1 immune-related thyroiditis with transient thyrotoxicosis (TSH <0.01 mIU/L, free T4 2.8 ng/dL) evolving to hypothyroidism requiring levothyroxine supplementation.
+<systemic>At age 34, after completing 4 induction cycles of ipilimumab/nivolumab, nivolumab 480 mg IV every 4 weeks was continued as maintenance.
+<imaging_report>At age 34, restaging MRI brain at 12 weeks showed significant decrease in the left occipital lesion to 0.8 cm with decreased surrounding edema, consistent with treatment response.
+<imaging_report>At age 34, restaging CT chest/abdomen/pelvis at 12 weeks showed no extracranial metastatic disease.
+<clinical_note>At age 35, LDH remained normal at 158 U/L and patient had complete resolution of visual field deficits.
+<imaging_report>At age 35, 6-month MRI brain showed continued response with the left occipital lesion now measuring 0.4 cm with peripheral enhancement likely representing treatment effect.
+<imaging_report>At age 35, 6-month PET/CT showed no extracranial metastatic disease.
+<clinical_note>At age 35, patient continued nivolumab maintenance with excellent intracranial and extracranial disease control and ECOG performance status of 0, with plan to continue for up to 2 years.
+<imaging_report>At age 35, 12-month MRI brain showed near complete resolution of the left occipital lesion with only minimal residual enhancement, and no new intracranial lesions.
+<clinical_note>At age 36, after 2 years of total immunotherapy (induction plus maintenance), nivolumab was electively discontinued given sustained complete intracranial and extracranial response with LDH normal at 149 U/L.
+<new_patient>
+<demographics>Patient is a 58-year-old Asian male with a history of well-controlled type 2 diabetes and hypertension, presenting with a new irregular pigmented macule on his mid-back.
+<diagnosis>At age 58, patient was diagnosed with superficial spreading melanoma (ICD-O morphology 8743/3) of the skin of the trunk (ICD-O topography C44.5), staged as Stage IV (T3aN2aM1c) with synchronous liver metastases discovered on staging workup.
+<pathology_report>At age 58, excisional biopsy of the mid-back lesion revealed superficial spreading melanoma with Breslow thickness of 2.2 mm, Clark level IV, without ulceration, mitotic rate 5/mm2, no microsatellites, no lymphovascular invasion, and negative margins.
+<surgery>At age 58, wide local excision with 2 cm margins of the mid-back melanoma was performed with primary closure.
+<surgery>At age 58, sentinel lymph node biopsy of the bilateral axillae showed 2 of 5 total sentinel nodes positive for metastatic melanoma (1 right axillary, 1 left axillary), largest deposit 2.8 mm.
+<pathology_report>At age 58, sentinel node pathology confirmed metastatic melanoma in 2 of 5 nodes from bilateral axillae, no extracapsular extension, S100 and SOX10 immunohistochemistry positive.
+<imaging_report>At age 58, staging CT of chest/abdomen/pelvis revealed two hepatic lesions measuring 2.5 cm and 1.8 cm in the right hepatic lobe, suspicious for metastatic disease, with no pulmonary or osseous metastases.
+<imaging_report>At age 58, MRI of the abdomen confirmed two hepatic metastases in segments VI and VII of the right liver lobe, with peripheral enhancement and washout pattern.
+<imaging_report>At age 58, PET/CT showed FDG-avid hepatic lesions (SUVmax 8.5 and 6.2) and mild bilateral axillary FDG uptake consistent with known nodal metastases.
+<imaging_report>At age 58, MRI brain with gadolinium showed a small 0.7 cm enhancing focus in the left temporal lobe, indeterminate but suspicious for early brain metastasis.
+<ngs_report>At age 58, comprehensive genomic profiling of the primary tumor identified BRAF V600E mutation (allele frequency 44%), NRAS wild-type, TERT promoter mutation (C228T), PTEN deletion, MAP2K1 amplification, and tumor mutational burden of 15 mutations per megabase with PD-L1 combined positive score of 22.
+<clinical_note>At age 58, serum LDH was elevated at 356 U/L, and the case was discussed at multidisciplinary tumor board where consensus was to proceed with combined immunotherapy given brain metastasis (M1d staging) and high PD-L1 expression.
+<radiation>At age 58, stereotactic radiosurgery was delivered to the left temporal brain lesion at 24 Gy in 1 fraction.
+<systemic>At age 58, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for 4 cycles for metastatic BRAF V600E melanoma with brain and hepatic involvement.
+<adverse_event>At age 58, patient developed grade 2 immune-related diarrhea after cycle 2 and grade 1 transaminase elevation (ALT 95 U/L), managed with loperamide and close monitoring without treatment delay.
+<adverse_event>At age 58, blood glucose became more difficult to control with hemoglobin A1c rising from 6.8% to 8.2%, attributed to potential immune-mediated effect on pancreatic function and corticosteroid use; insulin was added to his diabetic regimen.
+<systemic>At age 58, after completing 4 cycles of ipilimumab/nivolumab induction, maintenance nivolumab 480 mg IV every 4 weeks was started.
+<imaging_report>At age 58, restaging CT at 12 weeks showed partial response with 30% reduction in hepatic metastases per RECIST 1.1.
+<imaging_report>At age 59, MRI brain at 3 months post-SRS showed decreased enhancement of the left temporal lesion to 0.3 cm with no new intracranial lesions.
+<clinical_note>At age 59, LDH trended down to 268 U/L reflecting partial response to immunotherapy and patient maintained ECOG performance status of 1.
+<imaging_report>At age 59, 6-month restaging PET/CT showed continued decrease in hepatic FDG uptake with partial metabolic response.
+<imaging_report>At age 59, 9-month restaging CT showed stable hepatic lesions without further reduction and no new metastatic disease.
+<clinical_note>At age 59, after 12 months of nivolumab maintenance with stable disease (best response partial response), LDH was 232 U/L and the patient was continued on nivolumab with plan to reassess at 18 months.
+<imaging_report>At age 59, 12-month MRI brain showed complete resolution of the left temporal lesion with no new intracranial disease.
+<clinical_note>At age 60, at 18 months of nivolumab maintenance, restaging showed continued stable hepatic disease with LDH 225 U/L, and the decision was made to continue nivolumab given sustained disease control and maintained quality of life with BRAF/MEK inhibitor therapy held in reserve for future progression.

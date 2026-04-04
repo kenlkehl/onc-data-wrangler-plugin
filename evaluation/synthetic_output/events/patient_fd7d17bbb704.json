@@ -1,0 +1,108 @@
+{
+  "patient_id": "patient_fd7d17bbb704",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 54-year-old male of White/Caucasian race, non-Hispanic ethnicity, with a BMI of 25.7 and no significant past medical history; he is a never-smoker and reports moderate social alcohol use."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 54, patient presented with acute onset of epigastric pain, nausea, and new-onset diabetes mellitus; workup including CT pancreas protocol revealed a 3.5 cm mass in the head of the pancreas (C25.0) with encasement of the superior mesenteric artery greater than 180 degrees and abutment of the hepatic artery; classified as locally advanced unresectable."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 54, CT abdomen/pelvis with pancreas protocol demonstrated a 3.5 cm hypodense mass in the pancreatic head with encasement of the SMA greater than 180 degrees and short-segment abutment of the common hepatic artery; main pancreatic duct dilated to 6 mm; mild intrahepatic biliary dilation; two indeterminate hepatic lesions measuring 5 mm and 7 mm, too small to characterize."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 54, ERCP performed for symptomatic biliary obstruction; total bilirubin 6.8 mg/dL; a 10 mm x 60 mm plastic biliary stent placed with subsequent exchange to metal stent two weeks later due to plastic stent dysfunction."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 54, grade 2 biliary obstruction with jaundice and pruritus; resolved after metal biliary stent placement; total bilirubin normalized to 1.4 mg/dL within two weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 54, EUS examination showed a 3.7 x 3.0 cm mass in the pancreatic head with SMA encasement; FNA performed with five passes; rapid on-site evaluation confirmed adenocarcinoma."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 54, EUS-guided FNA of pancreatic head mass: moderately differentiated adenocarcinoma (histology code 8140/3) with glandular architecture and desmoplastic stroma; immunohistochemistry positive for CK7, CK19, MUC1; SMAD4 intact by IHC; diagnosis: pancreatic ductal adenocarcinoma, moderately differentiated."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 54, next-generation sequencing panel: KRAS G12D mutation (variant allele frequency 38%), TP53 G245S mutation, SMAD4 wild-type, CDKN2A methylation-associated silencing, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, ATM wild-type, microsatellite stable (MSS), tumor mutational burden 2 mutations/Mb, NTRK fusions negative."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 54, CA 19-9 at diagnosis was 1,456 U/mL; CEA 11.3 ng/mL; clinical staging cT4N0M0, Stage III, locally advanced unresectable; ECOG performance status 0; tumor board recommended neoadjuvant FOLFIRINOX with goal of conversion to resectability."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 54, began FOLFIRINOX (5-fluorouracil 2400 mg/m2, leucovorin 400 mg/m2, irinotecan 180 mg/m2, oxaliplatin 85 mg/m2) every 14 days; cycle 1 of planned 12 cycles; full-dose regimen given young age and excellent performance status."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 54, after cycle 3 of FOLFIRINOX, patient developed grade 2 nausea and grade 1 mucositis; antiemetic regimen optimized with addition of olanzapine."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 54, CA 19-9 after 4 cycles of FOLFIRINOX decreased from 1,456 to 412 U/mL; significant biochemical response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 54, restaging CT after 6 cycles of FOLFIRINOX showed pancreatic head mass decreased from 3.5 cm to 2.1 cm; SMA encasement now less than 180 degrees with improved peri-arterial fat plane; hepatic artery abutment resolved; indeterminate hepatic lesions stable; CA 19-9 at 187 U/mL."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 54, continued FOLFIRINOX for total of 12 cycles; tolerated well with grade 1 neuropathy and intermittent grade 1 diarrhea."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55, restaging CT after 12 cycles of FOLFIRINOX demonstrated further decrease in mass to 1.4 cm; SMA contact now less than 90 degrees; hepatic lesions stable and likely cysts; CA 19-9 decreased to 64 U/mL; tumor board re-evaluation recommended surgical exploration for potential conversion surgery."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 55, prior to surgical exploration, patient received neoadjuvant SBRT 25 Gy in 5 fractions to the pancreatic head mass with fiducial marker-guided image guidance."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 55, patient underwent exploratory laparotomy with intention for pancreaticoduodenectomy; intraoperative findings revealed persistent encasement of the SMA with tumor adherent to the artery that could not be safely separated; Whipple procedure aborted; intraoperative radiation therapy (IORT) with 15 Gy delivered to the tumor bed; biopsy of peripancreatic tissue obtained."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 55, intraoperative biopsy of peripancreatic tissue: residual moderately differentiated adenocarcinoma with extensive desmoplastic reaction and treatment-related changes; viable tumor cells identified at the SMA margin; consistent with residual unresectable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, post-operative recovery uneventful; patient and family counseled regarding unresectable status; goals of care discussion held; plan for continued systemic therapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 55, transitioned to second-line gemcitabine 1000 mg/m2 with nab-paclitaxel 125 mg/m2 on days 1, 8, 15 of 28-day cycles after progression on FOLFIRINOX-based approach."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 55, after cycle 2 of gemcitabine/nab-paclitaxel, developed grade 2 fatigue and grade 1 peripheral neuropathy; tolerated with supportive care."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55, restaging CT after 3 cycles of gemcitabine/nab-paclitaxel showed stable pancreatic head mass; however, two new hepatic lesions measuring 1.5 cm and 1.0 cm in the right hepatic lobe suggestive of metastatic disease; CA 19-9 increased to 534 U/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, confirmed disease progression with hepatic metastases; restaged as T4N0M1, Stage IV; discussed options including liposomal irinotecan-based therapy or clinical trial enrollment; pain managed with hydromorphone and celiac plexus block."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 55, initiated third-line therapy with liposomal irinotecan 70 mg/m2 plus 5-fluorouracil 2400 mg/m2 and leucovorin 400 mg/m2 every 14 days."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, palliative care team actively involved; pain management optimized with long-acting opioids and adjuvant medications; nutritional support ongoing with pancreatic enzyme replacement and oral nutritional supplements; ECOG performance status 2."
+    }
+  ],
+  "scenario_index": 9,
+  "scenario_blurb": "Locally advanced or borderline resectable pancreatic adenocarcinoma. Treated with neoadjuvant FOLFIRINOX, some achieving resectability and undergoing Whipple procedure, some with disease progression. Include CA 19-9 monitoring, CT imaging response assessment.",
+  "scenario_label": "pancreatic"
+}

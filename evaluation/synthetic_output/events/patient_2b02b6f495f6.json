@@ -1,0 +1,92 @@
+{
+  "patient_id": "patient_2b02b6f495f6",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 58-year-old White female with a 30 pack-year smoking history (former smoker, quit 8 years ago), ECOG performance status 0, BMI 28.1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 58, patient was diagnosed with non-small cell lung cancer, adenocarcinoma (histology 8140), primary site right lower lobe (C34.3), clinical stage IVB, T2bN3M1c, with brain, bone, and adrenal metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, patient presented with new-onset seizure. Emergency department evaluation led to brain MRI revealing three enhancing brain lesions. Subsequent workup revealed lung primary."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, MRI brain with and without contrast demonstrated three enhancing parenchymal lesions: right frontal lobe 2.1 cm, left parietal lobe 1.4 cm, and right cerebellar 0.8 cm, consistent with metastatic disease. Surrounding vasogenic edema noted."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, CT chest/abdomen/pelvis with contrast showed a 3.5 x 2.9 cm mass in the right lower lobe with right hilar and bilateral mediastinal lymphadenopathy. Lytic lesion in T10 vertebral body measuring 1.8 cm. Right adrenal mass measuring 2.3 cm consistent with metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, PET/CT demonstrated FDG-avid right lower lobe mass (SUVmax 10.8), bilateral mediastinal and supraclavicular lymphadenopathy, T10 vertebral body lesion (SUVmax 7.2), and right adrenal mass (SUVmax 9.1)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58, CT-guided percutaneous biopsy of right lower lobe mass revealed well-to-moderately differentiated adenocarcinoma with acinar and lepidic growth patterns. Immunohistochemistry: TTF-1 positive, Napsin-A positive, CK7 positive, CK20 negative. PD-L1 TPS 5% (22C3 assay)."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 58, next-generation sequencing (FoundationOne CDx) of tumor specimen: EGFR wild-type, ALK rearrangement not detected, ROS1 rearrangement not detected, BRAF V600E not detected, KRAS G12D detected, STK11 loss detected, TP53 splice site mutation detected. No actionable driver mutations. Tumor mutational burden 6.4 mut/Mb. Microsatellite stable."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 58, received stereotactic radiosurgery (SRS) to three brain metastases: right frontal 20 Gy in 1 fraction, left parietal 20 Gy in 1 fraction, right cerebellar 18 Gy in 1 fraction."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, multidisciplinary tumor board recommended first-line carboplatin/pemetrexed/pembrolizumab for stage IVB adenocarcinoma with low PD-L1 expression and no targetable mutations. Brain metastases treated with SRS. Started dexamethasone taper and levetiracetam for seizure prophylaxis."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, initiated carboplatin AUC 5, pemetrexed 500 mg/m2, and pembrolizumab 200 mg IV every 3 weeks for metastatic NSCLC."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, after cycle 2, patient developed grade 2 fatigue and grade 1 nausea. Appetite decreased but maintaining oral intake."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, after cycle 3, patient developed grade 2 anemia (hemoglobin 8.9 g/dL). Received one unit packed red blood cells with improvement."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, restaging CT after 4 cycles showed mixed response: right lower lobe mass decreased to 2.4 x 2.0 cm, mediastinal lymphadenopathy improved. However, right adrenal mass increased to 3.1 cm and new hepatic lesion 1.2 cm in segment VI."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, MRI brain after 4 cycles showed treated brain metastases with decreased enhancement in right frontal and left parietal lesions. Cerebellar lesion stable. No new intracranial lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, progressive disease per RECIST 1.1 due to new hepatic metastasis and enlarging adrenal metastasis despite intracranial response. Plan to switch to second-line therapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, discontinued carboplatin/pemetrexed/pembrolizumab due to extracranial progression. Initiated docetaxel 75 mg/m2 IV every 3 weeks as second-line therapy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59, after cycle 2 of docetaxel, patient developed grade 2 fatigue and grade 1 mucositis. Required dose reduction to 60 mg/m2."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59, restaging CT after 4 cycles of docetaxel showed stable disease. Hepatic lesion unchanged at 1.3 cm, adrenal mass 3.0 cm. No new lesions. Plan to continue docetaxel."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59, after cycle 6 of docetaxel, patient developed grade 2 peripheral neuropathy and persistent grade 2 fatigue impacting daily activities."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59, after 8 cycles of docetaxel, stable disease maintained. Patient experiencing cumulative toxicity with neuropathy and fatigue. Discussion of continuing treatment versus observation. Patient elected treatment break with close surveillance."
+    }
+  ],
+  "scenario_index": 1,
+  "scenario_blurb": "Stage IIIA-IV non-small cell lung cancer without actionable driver mutations (EGFR wild-type, ALK negative, ROS1 negative). Treated with carboplatin/pemetrexed plus pembrolizumab immunotherapy. Mix of adenocarcinoma and squamous cell carcinoma. Some with high PD-L1 expression receiving pembrolizumab monotherapy.",
+  "scenario_label": "nsclc_wild"
+}

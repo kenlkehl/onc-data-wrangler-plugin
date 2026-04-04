@@ -1,0 +1,96 @@
+{
+  "patient_id": "patient_549da8db49fe",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 67-year-old Caucasian male, former smoker with 25-pack-year history, quit 8 years ago. ECOG performance status 1. History of benign prostatic hyperplasia and gout."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T4N3M1b with invasion of the superior vena cava, supraclavicular lymphadenopathy, and bone metastases to lumbar spine and pelvis."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Supraclavicular lymph node excisional biopsy reveals metastatic adenocarcinoma with solid and micropapillary predominant patterns, indicating high-grade histology. TTF-1 positive, Napsin A weakly positive. Lymphovascular invasion present. Tissue sent for molecular testing."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS (FoundationOne CDx) on supraclavicular lymph node. EGFR L858R mutation (VAF 55%). TP53 R249S mutation (VAF 50%). RB1 loss (homozygous deletion). CDKN2A/B homozygous deletion. No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 30%. TMB 6 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with aggressive pathologic features (solid/micropapillary pattern, RB1 loss). RB1 loss and TP53 co-mutation raise concern for potential transformation to small cell lung cancer at progression. Plan: Start erlotinib 150 mg daily. Close monitoring given high-risk molecular profile."
+    },
+    {
+      "type": "systemic",
+      "text": "Started erlotinib 150 mg daily for EGFR L858R-mutant Stage IV NSCLC."
+    },
+    {
+      "type": "systemic",
+      "text": "Started zoledronic acid 4 mg IV every 4 weeks for bone metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Baseline CT shows 6.2 cm right upper lobe mass invading the SVC with moderate SVC narrowing, bulky mediastinal and supraclavicular lymphadenopathy, and lytic lesions in L3 and right iliac bone. No hepatic or adrenal metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain negative for brain metastases."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 2 acneiform rash on face, scalp, and upper trunk. Grade 2 diarrhea with 5-6 stools daily, requiring loperamide and dose reduction consideration."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Erlotinib dose reduced from 150 mg to 100 mg daily due to persistent grade 2 diarrhea not adequately controlled with loperamide."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows right upper lobe mass decreased from 6.2 cm to 4.5 cm. SVC narrowing improved. Lymphadenopathy decreased. Partial response. Bone lesions show early sclerotic change."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Partial response to erlotinib at 6 weeks despite dose reduction. Skin and GI toxicity improved at 100 mg dose. Plan: Continue erlotinib 100 mg. Repeat imaging in 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 4 months shows continued response. Right upper lobe mass 3.8 cm. Lymphadenopathy further decreased."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 7 months shows new small bilateral pleural effusions and slight increase in right upper lobe mass to 4.2 cm. Concerning for early progression."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Concerning for progression at 7 months on erlotinib. Relatively short PFS consistent with aggressive molecular profile. Plan: Liquid biopsy for T790M and resistance analysis. If T790M positive, switch to osimertinib. If negative, consider rebiopsy to evaluate for small cell transformation given RB1 loss."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Liquid biopsy (Guardant360) detects EGFR L858R (VAF 22%) but no T790M mutation. No new targetable alterations. Rising ctDNA fraction concerning for progression."
+    },
+    {
+      "type": "pathology_report",
+      "text": "CT-guided rebiopsy of progressing right upper lobe mass reveals transformation to high-grade neuroendocrine carcinoma (small cell lung cancer). Positive for synaptophysin, chromogranin A, and CD56. Ki-67 proliferative index greater than 80%. TTF-1 remains positive. EGFR L858R still detectable by PCR, confirming clonal origin from original adenocarcinoma."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Small cell transformation of EGFR-mutant adenocarcinoma at 7 months, consistent with the high-risk molecular profile (RB1 loss, TP53 mutation). Plan: Discontinue erlotinib. Start cisplatin/etoposide chemotherapy for transformed small cell histology. Prophylactic cranial irradiation if responsive."
+    },
+    {
+      "type": "systemic",
+      "text": "Discontinued erlotinib. Started cisplatin 80 mg/m2 day 1 and etoposide 100 mg/m2 days 1-3, every 3 weeks for small cell transformation."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 3 neutropenia after first cycle of cisplatin/etoposide. Managed with pegfilgrastim. Grade 2 nausea and vomiting."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 3 cycles of cisplatin/etoposide shows significant decrease in right upper lobe mass from 4.2 cm to 2.0 cm. Pleural effusions resolved. Partial response to platinum-etoposide chemotherapy."
+    }
+  ],
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

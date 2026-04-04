@@ -1,0 +1,92 @@
+{
+  "patient_id": "patient_b92970444d54",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 74-year-old female of White/Caucasian race, non-Hispanic ethnicity, with a BMI of 21.4 and a past medical history of atrial fibrillation on apixaban, osteoporosis, and a remote history of breast cancer treated with mastectomy 20 years ago."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 74, patient presented with painless jaundice, clay-colored stools, and a 9-pound weight loss; CT pancreas protocol revealed a 3.9 cm mass in the head of the pancreas (C25.0) with encasement of the SMA and SMV with thrombus within the SMV; classified as locally advanced unresectable pancreatic adenocarcinoma."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, CT abdomen/pelvis with pancreas protocol demonstrated a 3.9 cm hypodense mass in the pancreatic head with circumferential encasement of the SMA; SMV encased with intraluminal thrombus and near-complete occlusion; extensive collateral venous circulation; intrahepatic and extrahepatic biliary dilation; pancreatic duct dilation to 8 mm; no definite hepatic metastases; small volume ascites in the pelvis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, ERCP with placement of a 10 mm x 80 mm fully covered self-expandable metal biliary stent for malignant biliary obstruction; pre-procedure total bilirubin 14.6 mg/dL; bilirubin improved to 4.2 mg/dL at one-week follow-up."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, grade 3 biliary obstruction with total bilirubin 14.6 mg/dL, associated coagulopathy with INR 1.8, and malaise; apixaban held prior to ERCP; resolved following stent placement and vitamin K supplementation."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, EUS performed confirming a 4.1 x 3.6 cm hypoechoic mass in the pancreatic head with SMA encasement and SMV thrombus; FNA performed with three passes using 25-gauge needle."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 74, EUS-guided FNA of pancreatic head mass: moderately differentiated adenocarcinoma (histology code 8140/3) with invasion into peripancreatic fat; glandular architecture with moderate cytologic atypia; immunohistochemistry CK7 positive, CK20 negative, CDX2 negative, p53 overexpression (consistent with missense mutation); final diagnosis: moderately differentiated pancreatic ductal adenocarcinoma."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 74, next-generation sequencing panel: KRAS G12R mutation (variant allele frequency 31%), TP53 R273H missense mutation, SMAD4 wild-type, CDKN2A loss, BRCA1 wild-type, BRCA2 wild-type, PALB2 wild-type, microsatellite stable (MSS), tumor mutational burden 4 mutations/Mb; no actionable therapeutic targets identified."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, CA 19-9 at diagnosis was 3,120 U/mL; CEA 18.4 ng/mL; clinical staging cT4N1M0, Stage III; ECOG performance status 1; given age, cardiac comorbidities, and SMV thrombus, tumor board recommended gemcitabine/nab-paclitaxel rather than FOLFIRINOX; anticoagulation transitioned to enoxaparin for cancer-associated thrombosis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, pain management initiated with hydromorphone and pregabalin for neuropathic component; nutritional consultation with initiation of pancreatic enzyme replacement and high-calorie oral supplements; weight at treatment start 118 lbs."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, initiated gemcitabine 1000 mg/m2 with nab-paclitaxel 125 mg/m2 on days 1, 8, 15 of 28-day cycles; cycle 1 of planned indefinite treatment pending response and tolerability."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 1 of gemcitabine/nab-paclitaxel, developed grade 2 thrombocytopenia with platelet count 58 x 10^9/L and grade 2 fatigue; day 15 nab-paclitaxel held."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 3, developed grade 2 peripheral neuropathy and grade 2 neutropenia; nab-paclitaxel dose reduced to 100 mg/m2 for subsequent cycles."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, CA 19-9 after 3 cycles decreased from 3,120 to 1,245 U/mL; partial biochemical response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, restaging CT after 4 cycles of gemcitabine/nab-paclitaxel showed decrease in pancreatic head mass from 3.9 cm to 2.8 cm; SMV thrombus partially recanalized; persistent SMA encasement; no new distant metastatic disease; small pelvic ascites resolved."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 75, continued gemcitabine/nab-paclitaxel with dose modifications through cycle 8; CA 19-9 further decreased to 487 U/mL."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 75, following 8 cycles of gemcitabine/nab-paclitaxel, patient received consolidative SBRT to pancreatic head mass, 33 Gy in 5 fractions; treatment well tolerated with grade 1 nausea only."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 75, restaging CT 6 weeks post-SBRT showed further decrease in pancreatic head mass to 2.1 cm; stable SMV appearance; CA 19-9 at 298 U/mL; no evidence of distant metastatic disease."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 75, resumed maintenance gemcitabine monotherapy 1000 mg/m2 days 1, 8, 15 of 28-day cycles; nab-paclitaxel discontinued due to cumulative neuropathy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 75, patient developed grade 3 weight loss with current weight 104 lbs (down from 118 lbs at diagnosis); increased pancreatic enzyme dosing and oral nutritional supplementation; megestrol acetate added for appetite stimulation."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 75, continued on maintenance gemcitabine; ECOG performance status 2; ongoing pain management with palliative care team; continued anticoagulation for SMV thrombus; CA 19-9 slowly trending up to 412 U/mL; close surveillance planned."
+    }
+  ],
+  "scenario_index": 9,
+  "scenario_blurb": "Locally advanced or borderline resectable pancreatic adenocarcinoma. Treated with neoadjuvant FOLFIRINOX, some achieving resectability and undergoing Whipple procedure, some with disease progression. Include CA 19-9 monitoring, CT imaging response assessment.",
+  "scenario_label": "pancreatic"
+}

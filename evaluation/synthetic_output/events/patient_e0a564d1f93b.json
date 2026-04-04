@@ -1,0 +1,100 @@
+{
+  "patient_id": "patient_e0a564d1f93b",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 52-year-old male of White/Caucasian race with an ECOG performance status of 1"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 52, patient presented with a large anterior mediastinal mass causing chest discomfort and dry cough, discovered on chest X-ray performed for persistent cough"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 52, CT-guided core needle biopsy of the mediastinal mass demonstrated diffuse large B-cell lymphoma, ICD-O site C77.9, histology code 9680/3"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 52, pathology report showed large lymphoid cells with clear cytoplasm and prominent nucleoli, Ki-67 of 80 percent, immunohistochemistry positive for CD20, CD19, CD10, BCL6, BCL2, negative for MUM1, CD30 weakly positive, consistent with GCB subtype by Hans algorithm, features suggestive of primary mediastinal large B-cell lymphoma variant"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, flow cytometry on biopsy material showed monoclonal B-cell population positive for CD20, CD19, CD10, BCL6, negative for CD5, CD23, MUM1"
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 52, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, no BCL6 rearrangement; gains of 9p24.1 (PD-L1/PD-L2 locus) detected, consistent with primary mediastinal B-cell lymphoma"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, laboratory studies showed LDH elevated at 367 U/L, CBC with WBC 9.8, hemoglobin 14.2 g/dL, platelets 245, CMP within normal limits"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, staging PET/CT demonstrated a large FDG-avid anterior mediastinal mass measuring 10.6 cm, SUVmax 24.8, with compression of the superior vena cava, bilateral supraclavicular lymphadenopathy, no disease below the diaphragm"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 52, bone marrow biopsy was negative for lymphoma involvement"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 52, patient was staged as Ann Arbor Stage II bulky with mediastinal and supraclavicular involvement, no B symptoms, IPI score 2 (low-intermediate risk)"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, patient initiated cycle 1 of R-CHOP at full standard doses with pegfilgrastim support"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52, after cycle 1, patient developed grade 1 nausea and grade 1 fatigue, managed conservatively"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, patient received cycle 2 of R-CHOP without complications"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, patient received cycle 3 of R-CHOP on schedule"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, interim PET/CT after 3 cycles showed significant reduction in mediastinal mass to 5.2 cm, SUVmax decreased to 6.8, Deauville score 4, supraclavicular nodes resolved"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, given residual mediastinal FDG uptake at interim assessment with Deauville 4, plan continued to complete 6 cycles of R-CHOP followed by consolidative radiation"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, patient received cycles 4, 5, and 6 of R-CHOP, tolerating well with cumulative grade 1 neuropathy"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, end-of-treatment PET/CT showed further reduction of mediastinal mass to residual soft tissue 2.8 cm with SUVmax 4.1, Deauville score 3, likely representing residual fibrosis versus minimal residual disease"
+    },
+    {
+      "type": "radiation",
+      "text": "At age 52, patient received consolidative involved-site radiation therapy to the mediastinum, 36 Gy in 18 fractions, completed without significant toxicity"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53, PET/CT at 3 months post-radiation showed complete metabolic response with no FDG-avid disease, residual mediastinal soft tissue with SUVmax 2.1, Deauville score 2"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 53, patient achieved complete remission after combined modality therapy and was transitioned to surveillance"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53, surveillance CT at 6 months showed stable residual mediastinal soft tissue consistent with post-treatment fibrosis, no new disease"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 53, patient reported persistent grade 1 peripheral neuropathy at 12-month follow-up, managed with gabapentin"
+    }
+  ],
+  "scenario_index": 6,
+  "scenario_blurb": "Diffuse large B-cell lymphoma (DLBCL), germinal center and activated B-cell subtypes. Ann Arbor stage II-IV. Treated with R-CHOP. Include IPI scoring, PET-CT response assessment, some with relapse requiring R-ICE salvage and autologous stem cell transplant.",
+  "scenario_label": "dlbcl"
+}

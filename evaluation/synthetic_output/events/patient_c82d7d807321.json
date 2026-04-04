@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_c82d7d807321",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 64-year-old male of South Asian (Indian) ethnicity, non-Hispanic, BMI 23.6, non-smoker, with a history of well-controlled type 2 diabetes on metformin and a family history of colorectal cancer in his father."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 63, patient was found to have elevated CEA (42 ng/mL) on routine bloodwork; subsequent colonoscopy revealed a 5 cm mass in the sigmoid colon (C18.7)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Sigmoid colon biopsy demonstrated moderately differentiated adenocarcinoma (histology 8140/3) with focal cribriform architecture and tumor budding (high grade)."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Molecular profiling identified KRAS G12D mutation (allele frequency 34%), BRAF wild-type, PIK3CA wild-type, TP53 R248W mutation, APC Q1367* truncation; microsatellite stable (MSS) by next-generation sequencing; no NTRK or RET fusions; HER2 non-amplified."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at age 63 showed sigmoid colon mass with adjacent lymphadenopathy and two hepatic metastases in segment VI (2.4 cm) and segment III (1.7 cm); scattered subcentimeter pulmonary nodules likely benign; staged T3N1aM1a."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63, CA 19-9 was 68 U/mL; left-sided primary with potentially resectable oligometastatic liver disease; tumor board recommended neoadjuvant systemic therapy with planned surgical consolidation."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 63, patient initiated FOLFOX plus bevacizumab every 2 weeks as first-line therapy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "After cycle 4 of FOLFOX, patient developed grade 2 cold-triggered peripheral neuropathy in hands with moderate interference with daily activities; also noted grade 1 thrombocytopenia."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 8 cycles of FOLFOX-bevacizumab showed excellent partial response; sigmoid mass notably reduced, hepatic metastases decreased (segment VI now 1.1 cm, segment III now 0.7 cm); CEA dropped to 7.6 ng/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64, CA 19-9 normalized to 22 U/mL; liver surgeon reviewed imaging and deemed lesions resectable; planned simultaneous approach."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 64, patient underwent laparoscopic sigmoid colectomy, segment VI wedge resection, and segment III wedge resection in a single operative session."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Sigmoid colectomy specimen showed residual moderately differentiated adenocarcinoma, ypT2N0 (0 of 21 lymph nodes positive), extensive treatment effect with 25% viable tumor, negative margins."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Liver resection specimens showed treated metastatic adenocarcinoma with 15% viable tumor in segment VI lesion and near-complete response in segment III lesion (less than 5% viable); all margins negative (R0)."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 64, resumed postoperative FOLFOX for 4 additional cycles (12 total perioperative); bevacizumab held for 8 weeks postoperatively per surgical protocol."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64, cumulative oxaliplatin neuropathy progressed to grade 2 with persistent numbness in hands and feet and difficulty with fine motor tasks; completed planned 12 cycles but with last 2 at 75% oxaliplatin dose."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64, patient developed grade 1 hepatic steatosis noted on surveillance imaging, attributed to combination of chemotherapy and diabetes-related fatty liver."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Surveillance CT at age 64 (3 months after completing chemotherapy) showed postoperative changes without evidence of recurrent disease; CEA 3.4 ng/mL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at age 64 (6 months post-surgery) remained without evidence of disease; CEA 2.9 ng/mL; CA 19-9 was 16 U/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64, patient entered active surveillance with CEA every 3 months, CT every 3-6 months, and colonoscopy scheduled at 1 year; neuropathy slowly improving; glycemic control maintained on metformin; ECOG 0."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Surveillance colonoscopy at age 64 showed clean anastomosis without recurrence; two diminutive tubular adenomas removed from the transverse colon."
+    }
+  ],
+  "scenario_index": 3,
+  "scenario_blurb": "Stage IV colorectal cancer with KRAS G12D mutation. Left-sided and right-sided primary tumors. Treated with FOLFOX or FOLFIRI plus bevacizumab. Some with liver-limited metastases considered for hepatic resection. MSI/MMR testing performed.",
+  "scenario_label": "crc_kras"
+}

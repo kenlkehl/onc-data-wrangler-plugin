@@ -1,0 +1,108 @@
+{
+  "patient_id": "patient_391e781af869",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 62-year-old Caucasian male, former smoker with a 15-pack-year history, who quit smoking 10 years ago. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T3N2M1a with bilateral pulmonary nodules and malignant right pleural effusion."
+    },
+    {
+      "type": "pathology_report",
+      "text": "CT-guided core needle biopsy of the right upper lobe mass reveals moderately differentiated adenocarcinoma with acinar and lepidic growth patterns. TTF-1 positive, Napsin A positive, CK7 positive, CK20 negative, p40 negative, consistent with primary lung adenocarcinoma. No neuroendocrine features identified."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Next-generation sequencing (FoundationOne CDx) performed on the right upper lobe biopsy specimen. EGFR exon 21 L858R point mutation detected (variant allele frequency 42%). TP53 R248W missense mutation detected (VAF 38%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations identified. PD-L1 TPS 5%. Tumor mutational burden low (3 mutations/Mb). Microsatellite stable."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR-mutant lung adenocarcinoma with L858R mutation. Plan: Initiate osimertinib 80 mg daily as first-line therapy given superior PFS data from FLAURA trial. Baseline brain MRI and restaging CT in 6 weeks. Discussed expected side effects including rash, diarrhea, and rare risk of interstitial lung disease."
+    },
+    {
+      "type": "systemic",
+      "text": "Started osimertinib 80 mg orally once daily as first-line treatment for EGFR L858R-mutant Stage IV NSCLC."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain with and without contrast shows no evidence of intracranial metastatic disease. No abnormal enhancement or restricted diffusion identified."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast shows a 4.2 cm right upper lobe mass with mediastinal lymphadenopathy (station 4R and 7), bilateral pulmonary nodules (largest 1.2 cm left lower lobe), and moderate right pleural effusion. No hepatic or adrenal metastases. No osseous metastatic disease identified."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 acneiform rash on the face and upper trunk, managed with topical clindamycin. No dose modification required."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT chest/abdomen/pelvis at 6 weeks shows interval decrease in size of the right upper lobe mass from 4.2 cm to 2.8 cm. Bilateral pulmonary nodules decreased. Right pleural effusion improved. Partial response per RECIST 1.1 criteria."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 diarrhea, 3-4 loose stools daily, managed with loperamide as needed. Tolerable and not requiring dose adjustment."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Excellent partial response to osimertinib after 6 weeks. Tolerating treatment well with only grade 1 rash and diarrhea. Plan: Continue osimertinib 80 mg daily. Repeat CT in 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 4 months shows continued response with right upper lobe mass now measuring 1.9 cm. Pleural effusion resolved. Bilateral pulmonary nodules barely perceptible. Near complete response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 6 months remains negative for intracranial metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Durable response to first-line osimertinib, now 8 months on therapy. No significant toxicity. ECOG 0. Plan: Continue current regimen. Restaging imaging every 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at 11 months shows stable disease with right upper lobe lesion measuring 1.8 cm. No new lesions. Continued partial response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at 14 months shows stable right upper lobe lesion at 1.9 cm. No new metastatic disease. Stable disease per RECIST."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Ongoing benefit from osimertinib at 14 months. Patient reports good quality of life with minimal side effects. Plan: Continue osimertinib. Surveillance imaging every 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at 18 months shows interval increase in size of the right upper lobe mass to 2.8 cm and two new hepatic lesions measuring 1.5 cm and 0.8 cm. Progressive disease per RECIST 1.1."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Disease progression on first-line osimertinib after 18 months of therapy. New hepatic metastases. Plan: Liver biopsy for repeat molecular profiling. Discuss transition to platinum-based chemotherapy with or without bevacizumab. Consider clinical trial options."
+    },
+    {
+      "type": "pathology_report",
+      "text": "CT-guided liver biopsy confirms metastatic adenocarcinoma consistent with lung primary. TTF-1 positive. Viable tumor present for molecular testing."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Repeat NGS on liver biopsy specimen shows retained EGFR L858R mutation (VAF 35%). New EGFR C797S mutation detected in cis with L858R (VAF 18%), conferring resistance to osimertinib. TP53 R248W retained. MET amplification detected (copy number 8). No KRAS mutations. TMB low."
+    },
+    {
+      "type": "systemic",
+      "text": "Discontinued osimertinib due to progressive disease with acquired C797S resistance. Initiated carboplatin AUC 5 plus pemetrexed 500 mg/m2 every 3 weeks."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 2 nausea and fatigue following first cycle of carboplatin/pemetrexed. Managed with ondansetron and dexamethasone."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 3 cycles of carboplatin/pemetrexed shows partial response with decrease in right upper lobe mass to 2.2 cm and decrease in hepatic lesions. Continued chemotherapy."
+    }
+  ],
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

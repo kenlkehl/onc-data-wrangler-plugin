@@ -1,0 +1,96 @@
+{
+  "patient_id": "patient_9fd3234b1eeb",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 74-year-old female of Asian race with an ECOG performance status of 2"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 74, patient presented with progressive cervical lymphadenopathy, fatigue, and unintentional weight loss of 12 pounds, with incidental finding of anemia on routine labs"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 74, excisional biopsy of a left cervical lymph node revealed diffuse large B-cell lymphoma, ICD-O site C77.9, histology code 9680/3"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 74, pathology report showed diffuse effacement by large atypical lymphoid cells, Ki-67 of 65 percent, immunohistochemistry positive for CD20, CD19, BCL6, MUM1, negative for CD10, BCL2 positive by IHC, consistent with non-GCB (ABC) subtype by Hans algorithm"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, flow cytometry demonstrated monoclonal B-cell population positive for CD20, CD19, BCL6, MUM1, negative for CD10, CD5, CD23"
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 74, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, BCL6 rearrangement positive; single-hit BCL6, not classified as double-hit lymphoma"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, laboratory studies showed LDH elevated at 412 U/L, CBC with WBC 5.4, hemoglobin 9.8 g/dL, platelets 134, CMP with albumin 3.0 g/dL, total protein 8.4 g/dL"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, staging PET/CT showed FDG-avid bilateral cervical, bilateral axillary, and retroperitoneal lymphadenopathy, largest cervical node 4.3 cm with SUVmax 16.7, FDG-avid splenic lesions suggesting splenic involvement"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 74, bone marrow biopsy showed 10 percent involvement by large B-cell lymphoma with paratrabecular pattern"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 74, patient was staged as Ann Arbor Stage IV with B symptoms (weight loss), IPI score 4 (high risk) based on age over 60, elevated LDH, Stage IV, and ECOG 2"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, after geriatric oncology assessment, patient initiated cycle 1 of R-miniCHOP (dose-attenuated R-CHOP per LYSA protocol for elderly): rituximab 375 mg/m2, cyclophosphamide 400 mg/m2, doxorubicin 25 mg/m2, vincristine 1 mg flat dose, prednisone 40 mg/m2"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 1, patient developed grade 2 fatigue and grade 1 nausea, with grade 2 neutropenia managed with pegfilgrastim"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, patient received cycle 2 of R-miniCHOP, tolerated reasonably well"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 2, patient was hospitalized for grade 3 neutropenic fever with ANC 320 and temperature 102.8F, treated with ceftriaxone and discharged after 4 days"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, patient received cycle 3 of R-miniCHOP with prophylactic levofloxacin added"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, interim PET/CT after 3 cycles showed partial response with cervical lymphadenopathy decreased to 2.1 cm, SUVmax 6.2, Deauville score 4, splenic lesions resolved, persistent mild retroperitoneal uptake"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 74, patient received cycles 4, 5, and 6 of R-miniCHOP, completing planned treatment"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 4, patient developed grade 2 peripheral neuropathy with difficulty walking, vincristine discontinued for cycles 5 and 6"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 74, after cycle 5, patient developed herpes zoster on right T4 dermatome, treated with valacyclovir and continued on prophylaxis"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 74, end-of-treatment PET/CT showed near-complete metabolic response with small residual cervical node 1.2 cm, SUVmax 3.4, Deauville score 3, interpreted as likely complete response"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 74, patient was deemed to have achieved complete remission and was placed on surveillance, with acyclovir prophylaxis continued"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 75, at 12-month follow-up, patient reports persistent grade 2 neuropathy limiting ambulation, using a cane, otherwise no evidence of recurrence on clinical exam and labs"
+    }
+  ],
+  "scenario_index": 6,
+  "scenario_blurb": "Diffuse large B-cell lymphoma (DLBCL), germinal center and activated B-cell subtypes. Ann Arbor stage II-IV. Treated with R-CHOP. Include IPI scoring, PET-CT response assessment, some with relapse requiring R-ICE salvage and autologous stem cell transplant.",
+  "scenario_label": "dlbcl"
+}

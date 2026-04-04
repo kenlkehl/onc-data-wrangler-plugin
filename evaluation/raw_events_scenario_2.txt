@@ -1,0 +1,276 @@
+<demographics>Patient is a 48-year-old White female with a BMI of 27.3 and no significant family history of breast cancer.
+<diagnosis>At age 47, patient presented with a palpable left breast mass in the upper outer quadrant (C50.4). Biopsy confirmed invasive ductal carcinoma (8500/3), grade 3, ER positive (Allred 7/8), PR positive (Allred 6/8), HER2 IHC 3+, Ki-67 45%.
+<pathology_report>At age 47, left breast core biopsy: invasive ductal carcinoma, Nottingham grade 3, tumor size 3.2 cm. ER positive 85%, PR positive 60%, HER2 IHC 3+, Ki-67 45%. Lymphovascular invasion present.
+<imaging_report>At age 47, diagnostic mammogram showed a 3.1 cm irregular spiculated mass in the left upper outer quadrant with associated microcalcifications, BIRADS 5.
+<imaging_report>At age 47, CT chest/abdomen/pelvis revealed multiple liver lesions (largest 2.8 cm in segment VI) and scattered pulmonary nodules bilateral, consistent with metastatic disease.
+<imaging_report>At age 47, bone scan showed increased uptake in the thoracic spine T7 and right iliac crest, suspicious for osseous metastases.
+<diagnosis>At age 47, staging established as cT2N1M1, stage IV de novo metastatic HER2-positive breast cancer with liver, lung, and bone metastases.
+<ngs_report>At age 47, next-generation sequencing (FoundationOne CDx) identified PIK3CA H1047R mutation, TP53 missense mutation, and MYC amplification. Tumor mutational burden 4 mutations/Mb. Microsatellite stable.
+<systemic>At age 47, initiated first-line THP regimen: docetaxel 75 mg/m2, trastuzumab 8 mg/kg loading then 6 mg/kg, and pertuzumab 840 mg loading then 420 mg, every 21 days.
+<adverse_event>At age 47, baseline echocardiogram showed LVEF 62%, within normal limits prior to initiation of HER2-directed therapy.
+<adverse_event>At age 48, after cycle 3 of THP, patient developed grade 2 nausea managed with ondansetron. Grade 2 alopecia noted. Mild peripheral neuropathy grade 1 in fingertips.
+<imaging_report>At age 48, restaging CT after 4 cycles of THP showed partial response with decrease in liver lesions (largest now 1.4 cm) and near-complete resolution of pulmonary nodules.
+<adverse_event>At age 48, repeat echocardiogram after 4 cycles showed LVEF 58%, slight decline from baseline but within acceptable range. Continued HER2-directed therapy.
+<systemic>At age 48, after 6 cycles of THP, docetaxel discontinued due to cumulative neuropathy grade 2. Continued maintenance trastuzumab and pertuzumab every 21 days.
+<imaging_report>At age 48, PET/CT after 6 cycles showed near-complete metabolic response in liver and lung. Bone lesions with decreased FDG uptake consistent with treatment response.
+<clinical_note>At age 48, patient tolerating maintenance trastuzumab/pertuzumab well. ECOG performance status 0. Neuropathy improving after docetaxel discontinuation. Plan to continue maintenance with surveillance imaging every 3 months.
+<adverse_event>At age 48, developed grade 1 diarrhea attributed to pertuzumab, managed with loperamide as needed.
+<imaging_report>At age 49, CT surveillance at 12 months showed continued partial response, stable minimal residual disease in liver segment VI.
+<systemic>At age 49, continued maintenance trastuzumab and pertuzumab. Added letrozole 2.5 mg daily for ER-positive disease given postmenopausal status.
+<adverse_event>At age 49, echocardiogram showed LVEF 55%, monitored closely. No symptoms of heart failure.
+<clinical_note>At age 49, multidisciplinary tumor board discussion: patient maintaining good response on HP maintenance plus endocrine therapy. Continue current regimen with close surveillance.
+<imaging_report>At age 50, CT showed new enlarging liver lesion concerning for progressive disease after 2.5 years on first-line therapy.
+<systemic>At age 50, transitioned to second-line T-DM1 (ado-trastuzumab emtansine) 3.6 mg/kg every 21 days due to disease progression.
+<adverse_event>At age 50, after 2 cycles of T-DM1, developed grade 2 thrombocytopenia (platelets 68,000). Dose reduced to 3.0 mg/kg.
+<clinical_note>At age 50, patient reports fatigue and mild nausea on T-DM1 but maintaining daily activities. ECOG 1. Liver function tests mildly elevated, AST 52, ALT 48.
+<new_patient>
+<demographics>Patient is a 62-year-old Black female with a BMI of 31.5. Family history significant for a sister diagnosed with breast cancer at age 55.
+<diagnosis>At age 55, patient diagnosed with left breast invasive ductal carcinoma (8500/3), upper inner quadrant (C50.2), grade 2, stage IIA (T2N0M0). ER positive (Allred 8/8), PR positive (Allred 5/8), HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 4.1), Ki-67 30%.
+<pathology_report>At age 55, left breast excisional biopsy: 2.5 cm invasive ductal carcinoma, Nottingham grade 2. ER positive 90%, PR positive 40%, HER2 IHC 2+, FISH amplified with HER2/CEP17 ratio 4.1. Ki-67 30%. Margins negative. 0 of 2 sentinel lymph nodes positive.
+<surgery>At age 55, underwent left breast lumpectomy with sentinel lymph node biopsy. Pathology confirmed clear margins and 0/2 nodes positive.
+<radiation>At age 55, received adjuvant whole breast radiation therapy, 50 Gy in 25 fractions with a 10 Gy boost to the tumor bed.
+<systemic>At age 55, received adjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) for 6 cycles followed by maintenance trastuzumab to complete 1 year.
+<systemic>At age 56, completed adjuvant trastuzumab. Started adjuvant letrozole 2.5 mg daily planned for 10 years.
+<adverse_event>At age 55, during adjuvant TCHP developed grade 2 nausea, grade 2 alopecia, and grade 1 fatigue. Managed supportively.
+<clinical_note>At age 57, routine surveillance visit. Patient doing well on letrozole. No complaints. Physical exam unremarkable. ECOG 0.
+<imaging_report>At age 59, routine mammogram of the right breast normal. Surgical site on left with expected post-treatment changes.
+<clinical_note>At age 60, patient presented with new onset back pain and a 10-pound unintentional weight loss over 2 months.
+<imaging_report>At age 60, CT chest/abdomen/pelvis showed multiple new liver metastases (largest 3.5 cm), mediastinal lymphadenopathy, and lytic lesions in lumbar spine L2-L4.
+<imaging_report>At age 60, MRI brain obtained given metastatic recurrence showed no intracranial metastases.
+<pathology_report>At age 60, liver biopsy confirmed metastatic breast carcinoma, ER positive 80%, PR negative, HER2 IHC 3+, Ki-67 50%. Consistent with recurrence of known primary.
+<diagnosis>At age 60, recurrent metastatic HER2-positive breast cancer with liver, lymph node, and bone involvement. Recurrence-free interval 5 years from initial diagnosis.
+<ngs_report>At age 60, circulating tumor DNA (Guardant360) detected PIK3CA E545K mutation, TP53 R175H, ERBB2 amplification, and CCND1 amplification. TMB low.
+<systemic>At age 60, initiated first-line for metastatic disease: THP regimen (docetaxel, trastuzumab, pertuzumab) every 21 days given recurrence more than 12 months after adjuvant trastuzumab.
+<adverse_event>At age 60, baseline LVEF 60% on echocardiogram.
+<imaging_report>At age 61, restaging PET/CT after 6 cycles showed partial response with significant reduction in liver lesions and decreased metabolic activity in bone lesions.
+<systemic>At age 61, discontinued docetaxel after 6 cycles and continued maintenance trastuzumab/pertuzumab. Resumed letrozole.
+<adverse_event>At age 61, echocardiogram showed LVEF 54%. Asymptomatic. Continued therapy with close monitoring.
+<adverse_event>At age 61, developed grade 2 peripheral neuropathy from cumulative docetaxel. Persisted after discontinuation. Started duloxetine 60 mg daily.
+<imaging_report>At age 62, CT showed progressive disease with new liver lesions and enlarging bone metastases.
+<systemic>At age 62, transitioned to second-line T-DM1 3.6 mg/kg every 21 days.
+<clinical_note>At age 62, patient reports increased fatigue and intermittent right upper quadrant discomfort. ECOG 1. LFTs mildly elevated. Plan: continue T-DM1 with close monitoring.
+<new_patient>
+<demographics>Patient is a 41-year-old Hispanic female with a BMI of 24.1. No family history of breast cancer. BRCA1/2 negative.
+<diagnosis>At age 40, patient discovered a right breast mass during self-examination. Biopsy confirmed invasive ductal carcinoma (8500/3) of the right breast NOS (C50.9), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 70%.
+<pathology_report>At age 40, right breast core needle biopsy: invasive ductal carcinoma, Nottingham grade 3, triple-negative phenotype except HER2 positive. ER negative (<1%), PR negative (<1%), HER2 IHC 3+, Ki-67 70%. High-grade DCIS component present.
+<imaging_report>At age 40, bilateral diagnostic mammogram showed a 4.8 cm irregular mass in the right breast with associated pleomorphic calcifications, BIRADS 5. Left breast unremarkable.
+<imaging_report>At age 40, MRI breast confirmed a 5.1 cm enhancing mass with ipsilateral axillary lymphadenopathy. Multiple suspicious axillary nodes right.
+<imaging_report>At age 40, PET/CT staging showed hypermetabolic right breast mass (SUVmax 12.4), right axillary lymph nodes (SUVmax 8.2), and a solitary 1.5 cm left hepatic lobe lesion (SUVmax 6.1).
+<pathology_report>At age 40, ultrasound-guided liver biopsy confirmed metastatic breast carcinoma, HER2 IHC 3+. Consistent with primary breast tumor.
+<diagnosis>At age 40, de novo stage IV (cT3N2M1) HER2-positive, ER-negative, PR-negative breast cancer with liver metastasis.
+<ngs_report>At age 40, tumor genomic profiling (FoundationOne CDx) revealed TP53 splice site mutation, ERBB2 amplification (copy number 18), and CDK12 loss. TMB 6 mutations/Mb. MSS.
+<systemic>At age 40, started first-line TCHP (docetaxel 75 mg/m2, carboplatin AUC 6, trastuzumab, pertuzumab) every 21 days.
+<adverse_event>At age 40, baseline echocardiogram LVEF 65%.
+<adverse_event>At age 41, after cycle 2 of TCHP, developed grade 3 neutropenia requiring dose delay of 1 week. Received pegfilgrastim prophylaxis for subsequent cycles.
+<adverse_event>At age 41, grade 2 nausea and grade 2 diarrhea on TCHP. Managed with ondansetron and loperamide.
+<imaging_report>At age 41, restaging CT after 4 cycles of TCHP showed complete resolution of the liver lesion and decrease in primary breast mass to 2.1 cm. Axillary nodes decreased in size.
+<clinical_note>At age 41, excellent response to TCHP. Discussed surgical options for the breast given oligometastatic presentation with complete response in liver. Multidisciplinary tumor board recommended continuing systemic therapy.
+<systemic>At age 41, completed 6 cycles TCHP then transitioned to maintenance trastuzumab and pertuzumab every 21 days.
+<imaging_report>At age 41, PET/CT showed complete metabolic response. No FDG-avid disease identified. Clinical complete response achieved.
+<adverse_event>At age 41, LVEF 60% on surveillance echocardiogram. Mild asymptomatic decline. Continued therapy.
+<clinical_note>At age 41, patient doing well on maintenance HP. ECOG 0. No significant toxicities. Counseled regarding fertility preservation options given young age and good prognosis.
+<imaging_report>At age 41, MRI brain screening negative for intracranial metastases.
+<adverse_event>At age 41, grade 1 fatigue and intermittent grade 1 diarrhea on pertuzumab maintenance. Tolerable.
+<new_patient>
+<demographics>Patient is a 58-year-old Asian female with a BMI of 22.8. Mother had ovarian cancer at age 65. BRCA2 variant of uncertain significance.
+<diagnosis>At age 56, patient had abnormal screening mammogram leading to biopsy of a left breast mass in the upper outer quadrant (C50.4). Invasive ductal carcinoma (8500/3), grade 2, ER positive (Allred 7/8), PR weakly positive (Allred 4/8), HER2 IHC 2+ with FISH amplified (ratio 2.8), Ki-67 35%.
+<pathology_report>At age 56, left breast stereotactic biopsy: invasive ductal carcinoma, Nottingham grade 2, 1.8 cm. ER positive 75%, PR weakly positive 15%, HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 2.8, average HER2 copy number 8.2). Ki-67 35%.
+<imaging_report>At age 56, screening mammogram showed an irregular 1.7 cm mass in the left upper outer quadrant with associated architectural distortion, BIRADS 4C.
+<imaging_report>At age 56, staging CT showed no evidence of distant metastatic disease. MRI breast showed a single 1.9 cm enhancing mass with no additional suspicious lesions.
+<diagnosis>At age 56, stage IIA (T1cN1miM0) left breast invasive ductal carcinoma, HER2-positive, ER-positive.
+<surgery>At age 56, underwent left partial mastectomy with sentinel lymph node biopsy. Final pathology: 1.8 cm IDC, 1 of 3 sentinel nodes with micrometastasis (0.8 mm), margins negative.
+<systemic>At age 56, received neoadjuvant was not given; proceeded with adjuvant TCHP for 6 cycles followed by trastuzumab to complete 1 year.
+<radiation>At age 56, adjuvant radiation therapy to the left breast and regional nodes, 42.56 Gy in 16 fractions (hypofractionated) with a sequential boost of 10 Gy in 4 fractions.
+<systemic>At age 57, completed adjuvant trastuzumab. Initiated adjuvant anastrozole 1 mg daily.
+<adverse_event>At age 56, during adjuvant TCHP experienced grade 2 alopecia, grade 1 nausea, and grade 2 fatigue. LVEF remained stable at 58%.
+<clinical_note>At age 57, routine follow-up. Patient on anastrozole, tolerating well with mild arthralgias. Physical exam unremarkable.
+<imaging_report>At age 58, patient developed persistent headaches. MRI brain showed 3 enhancing lesions in the cerebellum and right frontal lobe (largest 1.8 cm), consistent with brain metastases.
+<imaging_report>At age 58, CT chest/abdomen/pelvis showed new bilateral pulmonary nodules and a single 2.2 cm liver lesion, confirming systemic recurrence.
+<diagnosis>At age 58, recurrent metastatic HER2-positive breast cancer with brain, lung, and liver metastases. Recurrence 2 years after completing adjuvant therapy.
+<radiation>At age 58, underwent stereotactic radiosurgery (SRS) to the 3 brain lesions: 20 Gy single fraction to 2 smaller lesions, 18 Gy single fraction to the 1.8 cm cerebellar lesion.
+<systemic>At age 58, initiated tucatinib 300 mg twice daily plus trastuzumab and capecitabine (tucatinib combination) given brain metastases and HER2CLIMB trial data.
+<adverse_event>At age 58, developed grade 2 diarrhea on tucatinib/capecitabine, managed with dose reduction of capecitabine and loperamide.
+<adverse_event>At age 58, grade 2 hand-foot syndrome from capecitabine requiring topical emollients and brief treatment hold.
+<imaging_report>At age 58, restaging MRI brain after 3 months showed reduction in all 3 brain lesions. Partial intracranial response.
+<imaging_report>At age 58, CT showed stable pulmonary nodules and decreased liver lesion size. Partial systemic response.
+<clinical_note>At age 58, patient tolerating tucatinib combination with dose-modified capecitabine. ECOG 1. Headaches resolved after SRS. Continue current regimen.
+<ngs_report>At age 58, liquid biopsy (Guardant360) at recurrence detected ERBB2 amplification, PIK3CA N345S, ESR1 Y537S (likely acquired on aromatase inhibitor), and TP53 R248W.
+<new_patient>
+<demographics>Patient is a 67-year-old White female with a BMI of 29.4. Former smoker (15 pack-years, quit 20 years ago). No family history of breast or ovarian cancer.
+<diagnosis>At age 65, patient presented with a fungating left breast mass. Biopsy confirmed invasive ductal carcinoma (8500/3), breast NOS (C50.9), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 80%.
+<pathology_report>At age 65, left breast punch biopsy of fungating mass: invasive ductal carcinoma, Nottingham grade 3. ER negative (<1%), PR negative (<1%), HER2 IHC 3+ with strong circumferential membrane staining. Ki-67 80%. Extensive lymphovascular invasion and dermal lymphatic involvement.
+<imaging_report>At age 65, CT chest/abdomen/pelvis showed a large left breast mass (8.5 cm) with extensive axillary, supraclavicular, and mediastinal lymphadenopathy. Multiple bilateral pulmonary nodules and hepatic metastases.
+<imaging_report>At age 65, bone scan showed multifocal osseous metastases involving the spine, pelvis, and bilateral femora.
+<imaging_report>At age 65, MRI brain was negative for intracranial metastases.
+<diagnosis>At age 65, de novo stage IV (cT4bN3cM1) HER2-positive, ER/PR-negative inflammatory-type breast cancer with lung, liver, and bone metastases. Extensive disease burden.
+<ngs_report>At age 65, FoundationOne CDx: TP53 R273H, ERBB2 amplification (copy number 22), PIK3CA wild-type, PTEN loss. TMB 8 mutations/Mb. MSS.
+<systemic>At age 65, started first-line THP (docetaxel, trastuzumab, pertuzumab) with denosumab 120 mg monthly for bone metastases.
+<adverse_event>At age 65, baseline LVEF 55% on echocardiogram. Noted mild diastolic dysfunction attributed to hypertension.
+<adverse_event>At age 66, after cycle 2 of THP developed grade 2 nausea, grade 2 alopecia, and grade 1 peripheral neuropathy. Grade 1 elevated AST.
+<imaging_report>At age 66, restaging CT after 4 cycles showed mixed response: liver lesions decreased but new pulmonary nodules identified. Overall stable disease.
+<systemic>At age 66, continued THP through 6 cycles. Docetaxel discontinued; maintenance trastuzumab/pertuzumab continued.
+<adverse_event>At age 66, LVEF declined to 48% on surveillance echocardiogram. Trastuzumab held for 1 cycle. Started lisinopril and carvedilol. Repeat echo showed recovery to 52%. Resumed HER2-directed therapy.
+<imaging_report>At age 67, PET/CT showed progressive disease with new liver lesions and increasing osseous disease burden.
+<systemic>At age 67, transitioned to second-line T-DM1 3.6 mg/kg every 21 days.
+<adverse_event>At age 67, after 3 cycles of T-DM1, developed grade 2 thrombocytopenia (platelets 72,000) and grade 1 elevated transaminases. Dose reduced to 3.0 mg/kg.
+<imaging_report>At age 67, restaging CT after 4 cycles of T-DM1 showed stable disease. No new lesions.
+<clinical_note>At age 67, patient reports moderate fatigue limiting some daily activities. ECOG 2. Weight stable. Plan to continue T-DM1 with dose reduction. Discussed goals of care and palliative care referral.
+<adverse_event>At age 67, grade 2 fatigue and grade 1 nausea on T-DM1. Peripheral neuropathy stable at grade 1.
+<new_patient>
+<demographics>Patient is a 52-year-old White male with a BMI of 28.6. No family history of breast cancer. BRCA2 positive (pathogenic variant).
+<diagnosis>At age 51, patient noticed a painless right breast lump. Biopsy confirmed invasive ductal carcinoma (8500/3), right breast upper outer quadrant (C50.4), grade 3, ER positive (Allred 6/8), PR negative, HER2 IHC 3+, Ki-67 55%.
+<pathology_report>At age 51, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 60%, PR negative (<1%), HER2 IHC 3+ with strong complete membrane staining. Ki-67 55%. No lobular features.
+<imaging_report>At age 51, mammogram showed a 2.4 cm irregular mass in the right breast subareolar region extending to the upper outer quadrant. BIRADS 5.
+<imaging_report>At age 51, CT staging showed right axillary lymphadenopathy (largest 2.1 cm). No distant metastatic disease.
+<diagnosis>At age 51, stage IIB (T2N1M0) right breast invasive ductal carcinoma, HER2-positive, ER-positive, in a male patient. BRCA2 carrier.
+<systemic>At age 51, received neoadjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) for 6 cycles.
+<pathology_report>At age 51, post-neoadjuvant right mastectomy and axillary dissection: residual 0.8 cm invasive ductal carcinoma with treatment effect. 1 of 14 axillary nodes with residual tumor (2 mm focus). RCB class II.
+<surgery>At age 51, underwent right modified radical mastectomy with level I/II axillary lymph node dissection. Residual disease present.
+<systemic>At age 51, given residual disease after neoadjuvant therapy, received adjuvant T-DM1 for 14 cycles per KATHERINE trial protocol.
+<radiation>At age 52, received adjuvant chest wall and regional nodal radiation, 50 Gy in 25 fractions.
+<systemic>At age 52, initiated tamoxifen 20 mg daily given ER-positive disease and male sex.
+<adverse_event>At age 51, during neoadjuvant TCHP: grade 2 alopecia, grade 2 nausea, grade 1 thrombocytopenia. LVEF stable at 60%.
+<adverse_event>At age 52, on adjuvant T-DM1 experienced grade 1 fatigue and grade 1 peripheral neuropathy. Platelets remained above 100,000.
+<clinical_note>At age 52, completed adjuvant T-DM1 and radiation. Tolerating tamoxifen. ECOG 0. Genetic counseling completed for BRCA2. Screening colonoscopy and prostate exam recommended.
+<imaging_report>At age 52, surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease. Post-mastectomy changes noted.
+<ngs_report>At age 51, tumor genomic profiling: BRCA2 germline pathogenic variant (c.5946delT), ERBB2 amplification, TP53 V157F somatic mutation. TMB 4 mutations/Mb. MSS. Homologous recombination deficiency score elevated.
+<adverse_event>At age 52, LVEF 58% on completion echocardiogram. Within normal limits. Annual cardiac surveillance recommended.
+<clinical_note>At age 52, patient counseled on surveillance plan: clinical exam every 3-4 months, annual mammogram of contralateral chest wall, annual MRI given BRCA2 status. Currently no evidence of disease.
+<imaging_report>At age 52, PET/CT obtained for baseline after completing adjuvant therapy. No FDG-avid disease. Physiologic uptake only.
+<new_patient>
+<demographics>Patient is a 72-year-old White female with a BMI of 26.0. Medical history includes hypertension, type 2 diabetes, and atrial fibrillation. No known family history of cancer.
+<diagnosis>At age 70, patient presented with right breast skin thickening and nipple retraction. Biopsy revealed invasive lobular carcinoma (8520/3), right breast NOS (C50.9), grade 2, ER positive (Allred 8/8), PR positive (Allred 7/8), HER2 IHC 2+ with FISH amplified (ratio 3.2), Ki-67 25%.
+<pathology_report>At age 70, right breast skin punch biopsy and core biopsy: invasive lobular carcinoma, classic type, Nottingham grade 2. E-cadherin negative confirming lobular histology. ER positive 95%, PR positive 70%, HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 3.2). Ki-67 25%.
+<imaging_report>At age 70, mammogram showed diffuse skin thickening and architectural distortion throughout the right breast, BIRADS 5. MRI confirmed an 8.2 cm area of non-mass enhancement.
+<imaging_report>At age 70, PET/CT showed right breast diffuse FDG uptake (SUVmax 6.8), right axillary and internal mammary lymph nodes, and peritoneal carcinomatosis with ascites.
+<diagnosis>At age 70, de novo stage IV (cT4bN2M1) HER2-positive invasive lobular carcinoma with peritoneal metastases. Unusual HER2 amplification in lobular histology.
+<systemic>At age 70, initiated first-line THP (docetaxel, trastuzumab, pertuzumab) with close cardiac monitoring given cardiac comorbidities. Cardiology clearance obtained.
+<adverse_event>At age 70, baseline LVEF 50% on echocardiogram. Borderline low. Cardio-oncology consultation obtained. Continued HER2-directed therapy with close surveillance.
+<adverse_event>At age 70, after cycle 1 of THP, developed grade 3 diarrhea requiring IV hydration. Pertuzumab dose reduced for subsequent cycles.
+<adverse_event>At age 71, grade 2 nausea and grade 2 fatigue on THP. Grade 1 peripheral edema. LVEF monitored every 3 cycles.
+<imaging_report>At age 71, restaging CT after 4 cycles showed partial response with decreased peritoneal disease burden and resolution of ascites. Breast mass decreased.
+<systemic>At age 71, docetaxel held after 4 cycles due to grade 2 peripheral neuropathy and cumulative fatigue. Continued maintenance trastuzumab/pertuzumab plus letrozole.
+<adverse_event>At age 71, LVEF 45% on echocardiogram. Trastuzumab held. Optimized heart failure medications (lisinopril uptitrated, carvedilol added). Repeat echo in 4 weeks showed LVEF 50%. Resumed trastuzumab.
+<imaging_report>At age 72, PET/CT showed progressive peritoneal disease despite maintenance therapy. New peritoneal nodules identified.
+<systemic>At age 72, transitioned to second-line T-DM1 3.6 mg/kg every 21 days.
+<clinical_note>At age 72, patient with progressive metastatic lobular carcinoma. Discussed T-DM1 and future options including T-DXd. ECOG 1. Palliative care co-management initiated for symptom control. Goals of care discussion documented.
+<adverse_event>At age 72, grade 1 thrombocytopenia on T-DM1. LFTs stable. Cardiac function monitored closely given prior LVEF decline.
+<ngs_report>At age 70, genomic profiling (FoundationOne CDx): CDH1 frameshift mutation (consistent with lobular histology), ERBB2 amplification, PIK3CA H1047L, ESR1 wild-type. TMB 3 mutations/Mb. MSS.
+<imaging_report>At age 72, CT abdomen after 3 cycles of T-DM1 showed stable peritoneal disease. No new sites of metastasis. Ascites has not recurred.
+<adverse_event>At age 72, echocardiogram on T-DM1 showed LVEF 48%. Cardio-oncology recommends continuing with close monitoring. BNP mildly elevated at 180 pg/mL. No overt heart failure symptoms.
+<new_patient>
+<demographics>Patient is a 35-year-old Black female with a BMI of 23.5. Diagnosed during pregnancy workup. No family history of cancer. BRCA1/2 negative.
+<diagnosis>At age 34, patient discovered a left breast lump during first trimester of pregnancy. Biopsy confirmed invasive ductal carcinoma (8500/3), left breast upper outer quadrant (C50.4), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 75%.
+<pathology_report>At age 34, left breast core biopsy: invasive ductal carcinoma, Nottingham grade 3 (tubule score 3, nuclear grade 3, mitotic score 3). ER negative (<1%), PR negative (<1%), HER2 IHC 3+, Ki-67 75%. Extensive DCIS component.
+<imaging_report>At age 34, breast ultrasound (mammogram deferred due to pregnancy) showed a 3.8 cm hypoechoic irregular mass in the left upper outer quadrant with suspicious ipsilateral axillary lymph nodes.
+<imaging_report>At age 34, MRI breast (non-contrast protocol during pregnancy) confirmed 4.0 cm mass with axillary adenopathy.
+<diagnosis>At age 34, stage IIIA (cT2N2M0) left breast invasive ductal carcinoma, HER2-positive, ER/PR-negative, diagnosed during pregnancy. Staging limited due to pregnancy.
+<systemic>At age 34, initiated neoadjuvant chemotherapy during second trimester: doxorubicin 60 mg/m2 and cyclophosphamide (AC) every 21 days for 4 cycles. HER2-directed therapy deferred until after delivery.
+<clinical_note>At age 35, patient delivered a healthy infant at 37 weeks via planned cesarean section. Infant with normal birth weight, no complications.
+<systemic>At age 35, post-delivery, initiated taxane phase: paclitaxel 80 mg/m2 weekly for 12 weeks with trastuzumab and pertuzumab added.
+<imaging_report>At age 35, post-delivery staging CT and PET/CT showed no distant metastatic disease. Breast mass decreased to 1.5 cm after AC. No new sites of disease.
+<surgery>At age 35, underwent left modified radical mastectomy with axillary dissection. Pathologic complete response (pCR) achieved: ypT0 ypN0. No residual invasive or in situ disease.
+<pathology_report>At age 35, left mastectomy specimen: pathologic complete response. No residual invasive carcinoma. No residual DCIS. 0 of 18 axillary lymph nodes positive. Treatment bed with fibrosis and histiocytic reaction.
+<radiation>At age 35, received adjuvant chest wall and regional nodal radiation, 50 Gy in 25 fractions.
+<systemic>At age 35, given pCR, continued adjuvant trastuzumab and pertuzumab to complete 1 year of HER2-directed therapy.
+<adverse_event>At age 35, LVEF 62% baseline, remained stable at 60% throughout treatment. Tolerated well.
+<adverse_event>At age 34, during AC chemotherapy: grade 2 nausea, grade 2 alopecia, grade 1 fatigue. No febrile neutropenia episodes.
+<adverse_event>At age 35, during taxane/HP phase: grade 1 peripheral neuropathy, grade 1 diarrhea from pertuzumab. Mild infusion-related reaction with trastuzumab first dose (grade 1 chills, resolved with slowing infusion).
+<clinical_note>At age 35, completed all adjuvant therapy. Pathologic complete response achieved. Excellent prognosis. Surveillance plan: exam every 3 months, annual imaging. Not a candidate for endocrine therapy given ER-negative status. Contraception counseling provided.
+<ngs_report>At age 34, tumor profiling: ERBB2 amplification (copy number 16), TP53 Y220C, no additional actionable mutations. TMB 5 mutations/Mb. MSS.
+<imaging_report>At age 35, surveillance CT 6 months post-mastectomy showed no evidence of disease.
+<new_patient>
+<demographics>Patient is a 55-year-old Hispanic female with a BMI of 33.2. Medical history includes obesity and hypothyroidism. Sister had breast cancer at age 50 (HER2-negative).
+<diagnosis>At age 53, patient presented with a palpable right breast mass and right axillary lymphadenopathy. Biopsy confirmed invasive ductal carcinoma (8500/3), right upper inner quadrant (C50.2), grade 3, ER positive (Allred 5/8), PR negative, HER2 IHC 3+, Ki-67 60%.
+<pathology_report>At age 53, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 40%, PR negative (<1%), HER2 IHC 3+ with strong complete membrane staining in >90% of tumor cells. Ki-67 60%. Tumor-infiltrating lymphocytes 30%.
+<imaging_report>At age 53, mammogram showed a 3.5 cm irregular mass in the right upper inner quadrant with suspicious microcalcifications, BIRADS 5. Ultrasound confirmed matted axillary nodes.
+<imaging_report>At age 53, PET/CT staging revealed right breast mass (SUVmax 9.7), right axillary nodes (SUVmax 7.3), a single 1.2 cm right hepatic lobe lesion (SUVmax 4.8), and suspicious sternal lesion.
+<diagnosis>At age 53, de novo stage IV (cT2N2M1) HER2-positive, ER-positive breast cancer with liver and bone (sternal) metastases.
+<ngs_report>At age 53, FoundationOne CDx: ERBB2 amplification, PIK3CA C420R, TP53 G245S, FGFR1 amplification. TMB 5 mutations/Mb. MSS.
+<systemic>At age 53, initiated first-line THP (docetaxel, trastuzumab, pertuzumab) every 21 days plus zoledronic acid for bone metastasis.
+<adverse_event>At age 53, baseline LVEF 62% on MUGA scan.
+<adverse_event>At age 53, after cycle 3 of THP: grade 2 nausea, grade 2 alopecia, grade 1 myalgia, and grade 2 diarrhea from pertuzumab.
+<imaging_report>At age 54, restaging CT after 6 cycles showed complete resolution of liver lesion and stable sclerotic sternal lesion (likely healing). Breast mass decreased to 1.8 cm. Near-complete response.
+<systemic>At age 54, docetaxel discontinued after 6 cycles. Continued maintenance trastuzumab/pertuzumab plus letrozole 2.5 mg daily (postmenopausal).
+<adverse_event>At age 54, LVEF 57% on surveillance echocardiogram. Asymptomatic. Continued treatment.
+<imaging_report>At age 54, PET/CT at 9 months showed no FDG-avid disease. Complete metabolic response maintained.
+<clinical_note>At age 54, patient with complete response on HP maintenance and letrozole. ECOG 0. Weight stable. Tolerating regimen well. Continue surveillance every 3 months.
+<imaging_report>At age 55, CT showed new 2.5 cm mediastinal lymph node and enlarging right axillary node. Progressive disease after 18 months on first-line therapy.
+<systemic>At age 55, transitioned to second-line T-DM1 3.6 mg/kg every 21 days.
+<imaging_report>At age 55, restaging CT after 3 cycles of T-DM1 showed decreased mediastinal lymph node (1.5 cm) and stable axillary node. Partial response.
+<adverse_event>At age 55, on T-DM1: grade 1 fatigue, grade 1 elevated AST (42), platelets stable at 140,000. Tolerable side effect profile.
+<clinical_note>At age 55, partial response on T-DM1. Plan to continue. If progression, will consider trastuzumab deruxtecan (T-DXd) as third-line therapy. Monitoring LFTs and platelets closely.
+<new_patient>
+<demographics>Patient is a 44-year-old Asian female with a BMI of 21.4. Non-smoker. No significant family history. Prior history of fibrocystic breast changes.
+<diagnosis>At age 42, patient had routine screening mammogram that detected a 1.2 cm mass in the left breast upper outer quadrant (C50.4). Biopsy confirmed invasive ductal carcinoma (8500/3), grade 2, ER positive (Allred 7/8), PR positive (Allred 6/8), HER2 IHC 2+ with FISH amplified (ratio 2.4), Ki-67 28%.
+<pathology_report>At age 42, left breast core needle biopsy: invasive ductal carcinoma, Nottingham grade 2. ER positive 80%, PR positive 50%, HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 2.4, average HER2 copy number 6.8). Ki-67 28%. No lymphovascular invasion.
+<imaging_report>At age 42, mammogram showed a 1.2 cm oval mass with indistinct margins in the left upper outer quadrant, BIRADS 4B. Ultrasound showed a solid hypoechoic mass measuring 1.3 cm.
+<diagnosis>At age 42, stage IA (T1cN0M0) left breast invasive ductal carcinoma, HER2-positive, ER/PR-positive.
+<surgery>At age 42, underwent left breast lumpectomy with sentinel lymph node biopsy. Final pathology: 1.3 cm IDC, margins negative (closest margin 4 mm), 0 of 3 sentinel lymph nodes positive.
+<systemic>At age 42, received adjuvant paclitaxel weekly for 12 weeks with trastuzumab (TH regimen per APT trial) followed by trastuzumab to complete 1 year.
+<radiation>At age 42, adjuvant whole breast radiation, 40 Gy in 15 fractions (hypofractionated).
+<systemic>At age 43, completed adjuvant trastuzumab. Initiated adjuvant tamoxifen 20 mg daily (premenopausal).
+<adverse_event>At age 42, during weekly paclitaxel/trastuzumab: grade 1 alopecia, grade 1 fatigue, no significant neuropathy. LVEF stable at 63%.
+<clinical_note>At age 43, routine surveillance. Patient well on tamoxifen. Hot flashes grade 1. Exam unremarkable. Annual mammography planned.
+<imaging_report>At age 43, surveillance mammogram of bilateral breasts showed no suspicious findings. Post-lumpectomy changes left breast, stable.
+<clinical_note>At age 44, patient presents with new persistent dry cough and mild dyspnea on exertion for 3 weeks.
+<imaging_report>At age 44, CT chest showed multiple bilateral pulmonary nodules (largest 1.8 cm right lower lobe) and a 2.0 cm left adrenal mass. Suspicious for metastatic disease.
+<pathology_report>At age 44, CT-guided lung biopsy of right lower lobe nodule: metastatic carcinoma consistent with breast primary. ER positive 70%, PR weakly positive 10%, HER2 IHC 3+ (increased from original 2+), Ki-67 40%.
+<diagnosis>At age 44, recurrent metastatic HER2-positive breast cancer with pulmonary and adrenal metastases. Disease-free interval 2 years.
+<ngs_report>At age 44, Guardant360 liquid biopsy: ERBB2 amplification, ESR1 D538G (acquired on tamoxifen), PIK3CA E542K, TP53 C176Y. TMB 6 mutations/Mb.
+<systemic>At age 44, initiated first-line for metastatic disease: THP (docetaxel, trastuzumab, pertuzumab) every 21 days, given recurrence more than 12 months after adjuvant trastuzumab.
+<adverse_event>At age 44, baseline LVEF 60%. After cycle 4 of THP, LVEF 56%. Grade 2 nausea and grade 2 peripheral neuropathy developed.
+<imaging_report>At age 44, restaging CT after 4 cycles showed partial response with decreasing pulmonary nodules and stable adrenal lesion.
+<systemic>At age 44, after 6 cycles of THP, switched to maintenance HP with fulvestrant 500 mg (given ESR1 mutation rendering tamoxifen and aromatase inhibitors less effective).
+<clinical_note>At age 44, responding to treatment. Switched endocrine backbone to fulvestrant based on ESR1 mutation. ECOG 0. Will continue HP plus fulvestrant with surveillance every 3 months.
+<new_patient>
+<demographics>Patient is a 60-year-old White female with a BMI of 25.8. Medical history includes well-controlled hypertension. Maternal aunt had breast cancer.
+<diagnosis>At age 58, patient detected a right breast mass during self-examination. Biopsy confirmed invasive ductal carcinoma (8500/3), right breast upper outer quadrant (C50.4), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 65%.
+<pathology_report>At age 58, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3 (tubule 3, nuclear 3, mitotic 3). ER negative (<1%), PR negative (<1%), HER2 IHC 3+ with intense complete membrane staining. Ki-67 65%. Extensive lymphovascular invasion.
+<imaging_report>At age 58, diagnostic mammogram showed a 4.2 cm mass with irregular margins in the right upper outer quadrant with ipsilateral axillary adenopathy, BIRADS 5.
+<imaging_report>At age 58, staging PET/CT showed right breast mass (SUVmax 14.2), right axillary nodes (SUVmax 10.1), and no distant metastatic disease.
+<diagnosis>At age 58, stage IIIA (cT2N2M0) right breast invasive ductal carcinoma, HER2-positive, ER/PR-negative. Locally advanced, non-metastatic.
+<systemic>At age 58, received neoadjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) for 6 cycles.
+<pathology_report>At age 58, right mastectomy and axillary dissection post-neoadjuvant: residual 2.1 cm invasive ductal carcinoma with partial treatment response. 3 of 16 axillary nodes positive (largest deposit 5 mm). ypT2 ypN1a. RCB class II.
+<surgery>At age 58, underwent right modified radical mastectomy with axillary lymph node dissection. Residual disease present after neoadjuvant therapy.
+<systemic>At age 59, given residual disease, received adjuvant T-DM1 for 14 cycles per KATHERINE protocol.
+<radiation>At age 59, adjuvant radiation to the right chest wall and regional nodes, 50 Gy in 25 fractions with 10 Gy boost to mastectomy scar.
+<adverse_event>At age 58, during neoadjuvant TCHP: grade 3 neutropenia (received pegfilgrastim), grade 2 nausea, grade 2 alopecia, grade 2 diarrhea. LVEF 58% stable.
+<adverse_event>At age 59, during adjuvant T-DM1: grade 2 thrombocytopenia (nadir 65,000, dose reduced to 3.0 mg/kg), grade 1 fatigue, grade 1 elevated AST. LVEF 55%.
+<imaging_report>At age 59, surveillance CT after completing T-DM1 showed no evidence of recurrent disease. Post-mastectomy changes only.
+<clinical_note>At age 59, completed adjuvant T-DM1 and radiation. No endocrine therapy indicated (ER/PR-negative). Surveillance: exam every 3-4 months, annual imaging.
+<imaging_report>At age 60, patient developed severe headaches and visual disturbance. MRI brain showed 5 enhancing brain metastases (bilateral cerebral hemispheres and cerebellum, largest 2.5 cm right parietal).
+<imaging_report>At age 60, CT chest/abdomen/pelvis showed no extracranial disease recurrence. Brain-only recurrence.
+<diagnosis>At age 60, recurrent HER2-positive breast cancer with isolated brain metastases. CNS-only disease recurrence 18 months after completing adjuvant therapy.
+<radiation>At age 60, underwent whole brain radiation therapy (WBRT) 30 Gy in 10 fractions with hippocampal avoidance technique, plus SRS boost to the 2 largest lesions (18 Gy single fraction each).
+<systemic>At age 60, initiated trastuzumab deruxtecan (T-DXd, Enhertu) 5.4 mg/kg every 21 days given CNS activity data and brain metastases.
+<adverse_event>At age 60, on T-DXd: grade 2 nausea (managed with ondansetron and dexamethasone), grade 1 fatigue, grade 1 alopecia. Monitored for interstitial lung disease with regular CT assessment.
+<imaging_report>At age 60, MRI brain 3 months after WBRT and T-DXd showed significant reduction in brain metastases. 3 of 5 lesions resolved. Partial intracranial response.
+<clinical_note>At age 60, good response to T-DXd with brain metastasis improvement. ECOG 1. Tolerating therapy. No signs of ILD on CT. Continue T-DXd. Pulmonary monitoring ongoing.
+<ngs_report>At age 58, tumor genomic profiling on surgical specimen: ERBB2 amplification (copy number 14), TP53 G245D, RB1 loss, CDK12 rearrangement. TMB 7 mutations/Mb. MSS.
+<new_patient>
+<demographics>Patient is a 46-year-old Black female with a BMI of 30.1. No prior medical history. Paternal grandmother had breast cancer. BRCA1/2 negative. CHEK2 variant detected.
+<diagnosis>At age 44, patient presented with bloody nipple discharge from the left breast. Workup revealed invasive ductal carcinoma (8500/3), left breast upper inner quadrant (C50.2), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 72%.
+<pathology_report>At age 44, left breast core biopsy: invasive ductal carcinoma with micropapillary features, Nottingham grade 3. ER negative (<1%), PR negative (<1%), HER2 IHC 3+ strong. Ki-67 72%. Associated high-grade DCIS with comedo necrosis.
+<imaging_report>At age 44, mammogram showed a 2.8 cm mass in the left upper inner quadrant with extensive associated microcalcifications spanning 5 cm, BIRADS 5.
+<imaging_report>At age 44, MRI breast showed a 3.0 cm enhancing mass with extensive non-mass enhancement over 6 cm, suggesting extensive DCIS. Suspicious left axillary lymph node.
+<imaging_report>At age 44, PET/CT staging showed left breast mass (SUVmax 8.9), left axillary node (SUVmax 5.4), and no distant metastatic disease.
+<diagnosis>At age 44, stage IIB (cT2N1M0) left breast invasive ductal carcinoma, HER2-positive, ER/PR-negative with extensive DCIS.
+<systemic>At age 44, received neoadjuvant TCHP for 6 cycles.
+<adverse_event>At age 44, baseline LVEF 64%. During TCHP: grade 2 alopecia, grade 2 nausea, grade 1 fatigue, grade 2 neutropenia managed with pegfilgrastim.
+<surgery>At age 45, underwent left total mastectomy with sentinel lymph node biopsy. Pathologic complete response (pCR): ypT0 ypN0. No residual invasive or in situ carcinoma. 0 of 4 sentinel nodes positive.
+<pathology_report>At age 45, left mastectomy: pathologic complete response (pCR). Fibrosis and chronic inflammation at tumor bed. No residual invasive carcinoma or DCIS. All 4 sentinel nodes negative. Treatment effect consistent with complete response.
+<systemic>At age 45, given pCR, continued adjuvant trastuzumab and pertuzumab to complete 1 year of HER2-directed therapy (per APHINITY approach).
+<radiation>At age 45, adjuvant chest wall radiation 50 Gy in 25 fractions given initial node-positive disease (cN1).
+<adverse_event>At age 45, LVEF 60% at mid-adjuvant therapy. Stable. No cardiac symptoms.
+<clinical_note>At age 45, completing adjuvant HP therapy. Tolerating well. ECOG 0. Discussed reconstruction options. Surveillance plan established.
+<imaging_report>At age 45, surveillance CT at 6 months post-mastectomy showed no evidence of disease.
+<imaging_report>At age 46, patient developed new right-sided weakness. MRI brain showed a solitary 2.2 cm left parietal lobe enhancing lesion consistent with brain metastasis.
+<imaging_report>At age 46, CT chest/abdomen/pelvis at time of brain recurrence showed small bilateral pulmonary nodules (largest 8 mm) suspicious for metastatic disease.
+<diagnosis>At age 46, recurrent metastatic HER2-positive breast cancer with brain and lung metastases. Recurrence within 1 year of completing adjuvant therapy.
+<radiation>At age 46, underwent stereotactic radiosurgery to the left parietal brain metastasis, 21 Gy single fraction.
+<systemic>At age 46, initiated trastuzumab deruxtecan (T-DXd) 5.4 mg/kg every 21 days given brain metastasis and recent prior trastuzumab exposure.
+<adverse_event>At age 46, on T-DXd: grade 2 nausea managed with antiemetics, grade 1 fatigue, grade 1 decreased appetite. Baseline CT chest clear for ILD monitoring.
+<ngs_report>At age 44, tumor profiling (FoundationOne CDx): ERBB2 amplification (copy number 20), TP53 R248Q, CHEK2 germline pathogenic variant (c.1100delC), ARID1A truncating mutation. TMB 8 mutations/Mb. MSS.
+<clinical_note>At age 46, on T-DXd with good tolerance. Right-sided weakness improving after SRS. ECOG 1. Close MRI brain surveillance every 3 months. Monitoring for ILD symptoms and imaging. Discussed next-line options including tucatinib-based combinations if needed.
+<imaging_report>At age 46, MRI brain 2 months post-SRS showed decreasing left parietal lesion with surrounding edema resolving. CT chest showed stable pulmonary nodules.

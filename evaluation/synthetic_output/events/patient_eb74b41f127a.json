@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_eb74b41f127a",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 45-year-old Caucasian female with a family history of melanoma in her father, presenting with a rapidly growing pigmented lesion on her left calf."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 45, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the lower limb (ICD-O topography C44.7), clinically staged as Stage IIIB (T4aN1aM0)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 45, excisional biopsy of the left calf lesion revealed nodular melanoma with Breslow thickness of 4.5 mm, Clark level V (invasion into subcutaneous fat), without ulceration, mitotic rate 8/mm2, no microsatellites, lymphovascular invasion present, margins involved."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 45, wide local excision with 2 cm margins was performed on the left calf with split-thickness skin graft closure."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 45, sentinel lymph node biopsy of the left inguinal region was performed, with 1 of 3 sentinel nodes positive for a micrometastatic melanoma deposit measuring 0.8 mm."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 45, sentinel lymph node biopsy pathology confirmed micrometastatic melanoma in 1 of 3 nodes, no extracapsular extension, confirmed by S100 and Melan-A staining."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 45, targeted next-generation sequencing panel of the primary melanoma identified BRAF V600E mutation (allele frequency 38%), NRAS wild-type, TP53 wild-type, TERT promoter mutation (C250T), and microsatellite stable status."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 45, staging PET/CT showed no evidence of distant metastatic disease and post-surgical changes in the left lower extremity and left groin."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 45, MRI brain with contrast was negative for intracranial metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 45, baseline LDH was normal at 168 U/L, and after multidisciplinary tumor board discussion the patient was started on adjuvant pembrolizumab."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 45, adjuvant pembrolizumab 200 mg IV every 3 weeks was initiated for resected Stage IIIB melanoma per KEYNOTE-054 data."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 46, patient developed grade 1 hypothyroidism (TSH 12.4 mIU/L) likely immune-related, managed with levothyroxine supplementation without interruption of pembrolizumab."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 46, surveillance CT chest/abdomen/pelvis at 6 months was unremarkable with no evidence of disease recurrence."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 46, patient developed grade 2 immune-related hepatitis with ALT 185 U/L and AST 156 U/L, pembrolizumab was held, and oral prednisone 1 mg/kg was initiated with transaminase normalization over 4 weeks."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 46, pembrolizumab was resumed after hepatitis resolved to grade 0 and corticosteroids were tapered completely."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 46, surveillance PET/CT at 12 months showed no evidence of recurrent or metastatic disease with complete metabolic response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 46, patient completed 12 months of adjuvant pembrolizumab, tolerating therapy well after hepatitis resolution, with LDH remaining normal at 155 U/L."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 47, surveillance CT at 18 months post-completion showed no evidence of disease recurrence and the patient remained in clinical remission."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 47, MRI brain surveillance was negative for intracranial metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 47, patient continued routine surveillance every 3 months with physical examination and blood work showing LDH stable at 162 U/L with no evidence of recurrence at 24 months from diagnosis."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

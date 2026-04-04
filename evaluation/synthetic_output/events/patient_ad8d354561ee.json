@@ -1,0 +1,96 @@
+{
+  "patient_id": "patient_ad8d354561ee",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 72-year-old Caucasian male with a history of chronic lymphocytic leukemia in remission, presenting with a thick pigmented nodule on his anterior chest."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 72, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the trunk (ICD-O topography C44.5), staged as Stage IV (T4bN1aM1b) with synchronous pulmonary metastases at presentation."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 72, excisional biopsy of the anterior chest wall lesion revealed nodular melanoma with Breslow thickness of 7.8 mm, Clark level V, ulceration present, mitotic rate 15/mm2, extensive lymphovascular invasion, microsatellites present, and perineural invasion present."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 72, wide local excision with 2 cm margins of the anterior chest melanoma was performed for local disease control with advancement flap closure."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 72, sentinel lymph node biopsy of the left axilla showed 1 of 2 sentinel nodes positive for macrometastatic melanoma deposit measuring 8.2 mm."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 72, sentinel node pathology confirmed macrometastatic melanoma in 1 of 2 nodes (8.2 mm deposit) with extracapsular extension, S100 and SOX10 positive, HMB-45 positive."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 72, staging CT of chest/abdomen/pelvis revealed multiple bilateral pulmonary metastases (largest 3.1 cm right upper lobe), mediastinal lymphadenopathy, and no hepatic or osseous metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 72, MRI brain with gadolinium showed a single 2.2 cm enhancing lesion in the right cerebellar hemisphere consistent with brain metastasis."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 72, next-generation sequencing of the primary melanoma identified BRAF V600E mutation (allele frequency 60%), NRAS wild-type, TERT promoter mutation (C228T), TP53 Y220C mutation, CDKN2A homozygous deletion, PIK3CA E545K mutation, and tumor mutational burden of 22 mutations per megabase."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 72, serum LDH was markedly elevated at 520 U/L, ECOG performance status was 1, and disease was classified as Stage IV M1d given brain metastasis."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 72, stereotactic radiosurgery was delivered to the right cerebellar metastasis at a dose of 21 Gy in 1 fraction."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 72, combination dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated for BRAF V600E-mutant Stage IV melanoma with brain metastasis given need for rapid disease control."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 72, patient developed grade 2 pyrexia (temperature 39.5 C) and grade 2 fatigue within the first week of dabrafenib/trametinib, managed with dose interruption of dabrafenib for 3 days and restart at 100 mg twice daily."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 72, patient developed grade 2 diarrhea (4-6 stools/day above baseline) attributed to trametinib, managed with loperamide."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 72, restaging CT at 8 weeks showed partial response with 45% reduction in pulmonary metastases and decreased mediastinal lymphadenopathy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 72, MRI brain at 8 weeks post-SRS showed decreased enhancement of the cerebellar lesion with surrounding radiation effect and no new intracranial disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 72, LDH decreased to 345 U/L reflecting partial biochemical response to dabrafenib/trametinib therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 73, restaging CT at 6 months showed continued partial response in pulmonary metastases but emergence of a new 1.8 cm hepatic lesion concerning for progressive disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 73, LDH rose to 412 U/L suggesting progressive disease, and the decision was made to transition to immunotherapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 73, dabrafenib/trametinib was discontinued and nivolumab 480 mg IV every 4 weeks was initiated as second-line therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 73, restaging CT at 12 weeks on nivolumab showed stable pulmonary disease and slight increase in hepatic lesion suggesting pseudo-progression versus true progression."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 73, clinical decision was made to continue nivolumab given overall stable disease burden and patient maintained ECOG performance status of 1 with LDH stable at 398 U/L."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

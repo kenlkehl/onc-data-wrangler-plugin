@@ -1,0 +1,108 @@
+{
+  "patient_id": "patient_cd2c3861b34f",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 67-year-old female of Black/African American race with an ECOG performance status of 2"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 67, patient presented with progressive bilateral inguinal lymphadenopathy, abdominal bloating, lower extremity edema, and fevers up to 101.5F for two weeks"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 67, excisional biopsy of a right inguinal lymph node revealed diffuse large B-cell lymphoma, ICD-O site C77.9, histology code 9680/3"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 67, pathology showed immunoblastic variant with plasmacytic differentiation, Ki-67 of 95 percent, immunohistochemistry positive for CD20, CD19, MUM1, BCL2 strong, negative for CD10 and BCL6, consistent with non-GCB (ABC) subtype by Hans algorithm"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, flow cytometry demonstrated monoclonal B-cell population positive for CD20, CD19, MUM1, negative for CD10, BCL6, CD5, CD23"
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 67, FISH analysis showed MYC rearrangement positive, BCL2 rearrangement positive via t(14;18), BCL6 rearrangement negative; classified as double-hit high-grade B-cell lymphoma"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, labs showed LDH markedly elevated at 724 U/L, CBC with WBC 12.6, hemoglobin 9.1 g/dL, platelets 108, CMP with elevated creatinine 1.6 mg/dL, albumin 2.8 g/dL, uric acid 10.4 mg/dL"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, staging PET/CT revealed extensive FDG-avid bilateral inguinal, pelvic, retroperitoneal, mesenteric, and mediastinal lymphadenopathy with bulky pelvic mass measuring 11.2 cm, SUVmax 31.4, bilateral pleural effusions, and FDG-avid bone marrow uptake diffusely"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 67, bone marrow biopsy showed 45 percent involvement by high-grade B-cell lymphoma with extensive paratrabecular infiltration"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 67, patient was staged as Ann Arbor Stage IV with B symptoms (fevers, weight loss), IPI score 5 (high risk) based on age over 60, elevated LDH, Stage IV, ECOG 2, and extranodal sites greater than one"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, patient initiated cycle 1 of R-CHOP with rasburicase for tumor lysis prophylaxis, aggressive IV hydration, and close monitoring in the inpatient setting"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, during cycle 1, patient developed tumor lysis syndrome with potassium 6.2 mEq/L, uric acid 14.1, phosphorus 7.8, and creatinine rising to 2.4, managed with rasburicase, IV fluids, and kayexalate in the ICU for 48 hours"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, on day 10 of cycle 1, patient developed grade 4 febrile neutropenia with ANC of 80 and temperature 103.2F, treated with vancomycin and cefepime, blood cultures negative"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, patient received cycle 2 of R-CHOP with 25 percent dose reduction of cyclophosphamide and doxorubicin and mandatory pegfilgrastim"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, patient received cycle 3 of R-CHOP at reduced doses"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, interim PET/CT after 3 cycles showed persistent FDG-avid bulky pelvic mass reduced to 8.4 cm but SUVmax still 18.7, Deauville score 5, persistent bone marrow uptake, indicating refractory disease"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, multidisciplinary tumor board recommended completing R-CHOP through cycle 6 and then proceeding to salvage R-ICE given double-hit biology and refractory disease"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, patient completed cycles 4, 5, and 6 of R-CHOP with continued dose reductions and growth factor support"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, after cycle 4, echocardiogram showed ejection fraction 48 percent decreased from baseline 55 percent, doxorubicin held for cycles 5 and 6 which were administered as R-CVP"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, end-of-treatment PET/CT confirmed refractory disease with residual bulky pelvic mass measuring 6.1 cm, SUVmax 14.2, Deauville score 5"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, patient initiated salvage R-ICE chemotherapy: rituximab 375 mg/m2, ifosfamide 5000 mg/m2, carboplatin AUC 5, etoposide 100 mg/m2 days 1 through 3"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, after cycle 1 of R-ICE, patient developed grade 3 thrombocytopenia with platelet nadir of 18,000 and grade 4 neutropenia requiring prolonged hospitalization"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, patient received 2 additional cycles of R-ICE salvage with dose adjustments"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, PET/CT after 3 cycles of R-ICE showed partial response with pelvic mass decreased to 3.2 cm, SUVmax 8.4, Deauville score 4"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, patient was evaluated for autologous stem cell transplant but deemed ineligible due to cardiac dysfunction with ejection fraction 42 percent and poor performance status ECOG 3, referred for consideration of CAR-T cell therapy"
+    }
+  ],
+  "scenario_index": 6,
+  "scenario_blurb": "Diffuse large B-cell lymphoma (DLBCL), germinal center and activated B-cell subtypes. Ann Arbor stage II-IV. Treated with R-CHOP. Include IPI scoring, PET-CT response assessment, some with relapse requiring R-ICE salvage and autologous stem cell transplant.",
+  "scenario_label": "dlbcl"
+}

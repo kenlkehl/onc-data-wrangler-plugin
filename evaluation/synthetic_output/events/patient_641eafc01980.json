@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_641eafc01980",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 58-year-old female of Black/African American ethnicity, non-Hispanic, BMI 31.7, with a history of obesity and hyperlipidemia."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 57, patient presented with iron deficiency anemia and right lower quadrant discomfort; colonoscopy identified a large fungating mass in the cecum (C18.0)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Biopsy of the cecal mass demonstrated poorly differentiated adenocarcinoma (histology 8140/3) with mucinous features and extensive necrosis."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Molecular profiling revealed KRAS G12D mutation, BRAF V600E wild-type, PIK3CA E545K co-mutation, HER2 non-amplified; microsatellite instability testing showed MSI-high with loss of MLH1 and PMS2 expression by IHC."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Staging CT chest/abdomen/pelvis at age 57 showed a cecal mass with pericolonic lymphadenopathy, three hepatic metastases in the right lobe (largest 3.8 cm), and a 1.2 cm right lower lobe pulmonary nodule consistent with metastasis; staged T4aN2aM1b."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, baseline CEA was 78 ng/mL and CA 19-9 was 134 U/mL; tumor board discussed MSI-high status and potential for immunotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, given MSI-high status with KRAS G12D mutation, tumor board recommended first-line pembrolizumab (200 mg IV every 3 weeks) based on KEYNOTE-177 data."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 57, patient initiated pembrolizumab 200 mg IV every 3 weeks as first-line therapy for MSI-high metastatic colorectal cancer."
+    },
+    {
+      "type": "adverse_event",
+      "text": "After 3 cycles of pembrolizumab, patient developed grade 1 pruritic maculopapular rash on trunk, managed with topical corticosteroids."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 4 cycles of pembrolizumab showed partial response with decrease in hepatic metastases (largest now 2.0 cm) and near-complete resolution of pulmonary nodule; CEA decreased to 12 ng/mL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, patient developed grade 2 immune-related hypothyroidism with TSH of 32 mIU/L, started on levothyroxine 75 mcg daily."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at age 58 after 8 cycles of pembrolizumab demonstrated continued response with further shrinkage of hepatic lesions (largest 1.1 cm) and no measurable pulmonary disease; CEA 5.4 ng/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, CA 19-9 decreased to 28 U/mL; patient tolerating pembrolizumab well aside from managed hypothyroidism and resolved rash."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 58, patient underwent laparoscopic right hemicolectomy for the primary cecal tumor given excellent response to immunotherapy."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Right hemicolectomy specimen showed residual poorly differentiated adenocarcinoma with mucinous features, ypT3N0 (0 of 18 lymph nodes positive), prominent tumor-infiltrating lymphocytes, and near-complete pathologic response (5% viable tumor)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, post-surgical CEA was 3.1 ng/mL; plan to continue pembrolizumab for a total of 2 years or until progression."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT at age 58 (3 months post-hemicolectomy) showed no FDG-avid disease; residual hepatic lesions appeared non-viable."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, patient continued pembrolizumab maintenance with excellent tolerance and no evidence of active disease on imaging."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, patient experienced grade 1 fatigue attributed to pembrolizumab and managed hypothyroidism, not requiring treatment modification."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, surveillance CEA was 2.4 ng/mL and CA 19-9 was 18 U/mL; patient continues on pembrolizumab with ECOG performance status 0."
+    }
+  ],
+  "scenario_index": 3,
+  "scenario_blurb": "Stage IV colorectal cancer with KRAS G12D mutation. Left-sided and right-sided primary tumors. Treated with FOLFOX or FOLFIRI plus bevacizumab. Some with liver-limited metastases considered for hepatic resection. MSI/MMR testing performed.",
+  "scenario_label": "crc_kras"
+}

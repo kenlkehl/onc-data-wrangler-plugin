@@ -1,0 +1,100 @@
+{
+  "patient_id": "patient_2b1225907ced",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 58-year-old Asian female with a BMI of 22.8. Mother had ovarian cancer at age 65. BRCA2 variant of uncertain significance."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 56, patient had abnormal screening mammogram leading to biopsy of a left breast mass in the upper outer quadrant (C50.4). Invasive ductal carcinoma (8500/3), grade 2, ER positive (Allred 7/8), PR weakly positive (Allred 4/8), HER2 IHC 2+ with FISH amplified (ratio 2.8), Ki-67 35%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 56, left breast stereotactic biopsy: invasive ductal carcinoma, Nottingham grade 2, 1.8 cm. ER positive 75%, PR weakly positive 15%, HER2 IHC 2+ with FISH amplified (HER2/CEP17 ratio 2.8, average HER2 copy number 8.2). Ki-67 35%."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56, screening mammogram showed an irregular 1.7 cm mass in the left upper outer quadrant with associated architectural distortion, BIRADS 4C."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56, staging CT showed no evidence of distant metastatic disease. MRI breast showed a single 1.9 cm enhancing mass with no additional suspicious lesions."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 56, stage IIA (T1cN1miM0) left breast invasive ductal carcinoma, HER2-positive, ER-positive."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 56, underwent left partial mastectomy with sentinel lymph node biopsy. Final pathology: 1.8 cm IDC, 1 of 3 sentinel nodes with micrometastasis (0.8 mm), margins negative."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 56, received neoadjuvant was not given; proceeded with adjuvant TCHP for 6 cycles followed by trastuzumab to complete 1 year."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 56, adjuvant radiation therapy to the left breast and regional nodes, 42.56 Gy in 16 fractions (hypofractionated) with a sequential boost of 10 Gy in 4 fractions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 57, completed adjuvant trastuzumab. Initiated adjuvant anastrozole 1 mg daily."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 56, during adjuvant TCHP experienced grade 2 alopecia, grade 1 nausea, and grade 2 fatigue. LVEF remained stable at 58%."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, routine follow-up. Patient on anastrozole, tolerating well with mild arthralgias. Physical exam unremarkable."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, patient developed persistent headaches. MRI brain showed 3 enhancing lesions in the cerebellum and right frontal lobe (largest 1.8 cm), consistent with brain metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, CT chest/abdomen/pelvis showed new bilateral pulmonary nodules and a single 2.2 cm liver lesion, confirming systemic recurrence."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 58, recurrent metastatic HER2-positive breast cancer with brain, lung, and liver metastases. Recurrence 2 years after completing adjuvant therapy."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 58, underwent stereotactic radiosurgery (SRS) to the 3 brain lesions: 20 Gy single fraction to 2 smaller lesions, 18 Gy single fraction to the 1.8 cm cerebellar lesion."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, initiated tucatinib 300 mg twice daily plus trastuzumab and capecitabine (tucatinib combination) given brain metastases and HER2CLIMB trial data."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, developed grade 2 diarrhea on tucatinib/capecitabine, managed with dose reduction of capecitabine and loperamide."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, grade 2 hand-foot syndrome from capecitabine requiring topical emollients and brief treatment hold."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, restaging MRI brain after 3 months showed reduction in all 3 brain lesions. Partial intracranial response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, CT showed stable pulmonary nodules and decreased liver lesion size. Partial systemic response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, patient tolerating tucatinib combination with dose-modified capecitabine. ECOG 1. Headaches resolved after SRS. Continue current regimen."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 58, liquid biopsy (Guardant360) at recurrence detected ERBB2 amplification, PIK3CA N345S, ESR1 Y537S (likely acquired on aromatase inhibitor), and TP53 R248W."
+    }
+  ],
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

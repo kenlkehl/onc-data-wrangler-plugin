@@ -1,0 +1,100 @@
+{
+  "patient_id": "patient_10f944617b1f",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 67-year-old Caucasian male with a history of multiple prior non-melanoma skin cancers and significant cumulative sun exposure, presenting with a bleeding nodular lesion on his right scalp."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 67, patient was diagnosed with nodular melanoma (ICD-O morphology 8721/3) of the skin of the head (ICD-O topography C44.3), staged as Stage IV (T4bN3M1c) with synchronous lung and liver metastases."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 67, punch biopsy followed by wide excisional biopsy of the right scalp lesion revealed nodular melanoma with Breslow thickness of 6.2 mm, Clark level V, ulceration present, mitotic rate 12/mm2, extensive lymphovascular invasion, perineural invasion identified, and microsatellites present."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 67, wide local excision with 2 cm margins was performed on the right scalp with rotation flap closure for local disease control despite known metastatic disease."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 67, palpable right cervical lymph node fine needle aspiration confirmed metastatic melanoma, positive for HMB-45 and SOX10."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, staging CT of chest, abdomen, and pelvis revealed multiple bilateral pulmonary nodules (largest 2.3 cm), three hepatic lesions (largest 3.8 cm in the right lobe), and bulky right cervical lymphadenopathy measuring 4.1 cm."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, MRI of the brain with gadolinium showed two enhancing lesions in the right frontal lobe (1.8 cm) and left parietal lobe (1.2 cm) consistent with brain metastases."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 67, comprehensive genomic profiling of the primary tumor identified BRAF V600E mutation (allele frequency 55%), NRAS wild-type, TERT promoter mutation (C228T), CDKN2A homozygous deletion, TP53 R248W mutation, high tumor mutational burden of 28 mutations per megabase, and PD-L1 combined positive score of 15."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, serum LDH was significantly elevated at 485 U/L, and the patient was classified as Stage IV M1d due to brain metastases with an ECOG performance status of 1."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 67, stereotactic radiosurgery (SRS) was delivered to the two brain metastases: 20 Gy in 1 fraction to the right frontal lesion and 22 Gy in 1 fraction to the left parietal lesion."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for treatment of metastatic melanoma with brain metastases given high PD-L1 and high TMB."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, after cycle 2 of ipilimumab/nivolumab, patient developed grade 3 immune-related colitis with bloody diarrhea (8-10 stools/day), requiring hospitalization, IV methylprednisolone 2 mg/kg, and discontinuation of ipilimumab."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, colitis resolved to grade 1 over 3 weeks with steroid taper, and the decision was made to continue nivolumab monotherapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, nivolumab 480 mg IV every 4 weeks was continued as maintenance immunotherapy after ipilimumab discontinuation."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, restaging CT at 12 weeks showed mixed response with reduction in pulmonary nodules but stable hepatic lesions, assessed as stable disease per RECIST 1.1."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, MRI brain at 12 weeks post-SRS showed treatment effect with decreased enhancement of both lesions and no new intracranial lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, LDH trended down to 342 U/L suggesting partial biochemical response to therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, restaging PET/CT at 6 months showed continued partial response in pulmonary metastases and stable hepatic disease with decreased FDG uptake."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, patient developed grade 2 fatigue and grade 1 arthralgias attributed to nivolumab, managed symptomatically without dose modification."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, restaging CT at 9 months showed progression of hepatic metastases with new lesion in left hepatic lobe despite stable pulmonary disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, given hepatic progression on nivolumab monotherapy with confirmed BRAF V600E mutation, decision was made to switch to BRAF/MEK inhibitor combination therapy, and LDH rose to 410 U/L."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, dabrafenib 150 mg twice daily plus trametinib 2 mg daily was initiated as second-line therapy for progressive BRAF V600E melanoma."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, restaging CT at 8 weeks on dabrafenib/trametinib showed significant response with greater than 50% reduction in hepatic metastases and continued stability of pulmonary disease."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

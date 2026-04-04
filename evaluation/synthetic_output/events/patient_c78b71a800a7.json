@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_c78b71a800a7",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 52-year-old White male with a BMI of 28.6. No family history of breast cancer. BRCA2 positive (pathogenic variant)."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 51, patient noticed a painless right breast lump. Biopsy confirmed invasive ductal carcinoma (8500/3), right breast upper outer quadrant (C50.4), grade 3, ER positive (Allred 6/8), PR negative, HER2 IHC 3+, Ki-67 55%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 51, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 60%, PR negative ("
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 51, mammogram showed a 2.4 cm irregular mass in the right breast subareolar region extending to the upper outer quadrant. BIRADS 5."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 51, CT staging showed right axillary lymphadenopathy (largest 2.1 cm). No distant metastatic disease."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 51, stage IIB (T2N1M0) right breast invasive ductal carcinoma, HER2-positive, ER-positive, in a male patient. BRCA2 carrier."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 51, received neoadjuvant TCHP (docetaxel, carboplatin, trastuzumab, pertuzumab) for 6 cycles."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 51, post-neoadjuvant right mastectomy and axillary dissection: residual 0.8 cm invasive ductal carcinoma with treatment effect. 1 of 14 axillary nodes with residual tumor (2 mm focus). RCB class II."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 51, underwent right modified radical mastectomy with level I/II axillary lymph node dissection. Residual disease present."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 51, given residual disease after neoadjuvant therapy, received adjuvant T-DM1 for 14 cycles per KATHERINE trial protocol."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 52, received adjuvant chest wall and regional nodal radiation, 50 Gy in 25 fractions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, initiated tamoxifen 20 mg daily given ER-positive disease and male sex."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 51, during neoadjuvant TCHP: grade 2 alopecia, grade 2 nausea, grade 1 thrombocytopenia. LVEF stable at 60%."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52, on adjuvant T-DM1 experienced grade 1 fatigue and grade 1 peripheral neuropathy. Platelets remained above 100,000."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, completed adjuvant T-DM1 and radiation. Tolerating tamoxifen. ECOG 0. Genetic counseling completed for BRCA2. Screening colonoscopy and prostate exam recommended."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, surveillance CT chest/abdomen/pelvis showed no evidence of recurrent disease. Post-mastectomy changes noted."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 51, tumor genomic profiling: BRCA2 germline pathogenic variant (c.5946delT), ERBB2 amplification, TP53 V157F somatic mutation. TMB 4 mutations/Mb. MSS. Homologous recombination deficiency score elevated."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52, LVEF 58% on completion echocardiogram. Within normal limits. Annual cardiac surveillance recommended."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, patient counseled on surveillance plan: clinical exam every 3-4 months, annual mammogram of contralateral chest wall, annual MRI given BRCA2 status. Currently no evidence of disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, PET/CT obtained for baseline after completing adjuvant therapy. No FDG-avid disease. Physiologic uptake only."
+    }
+  ],
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

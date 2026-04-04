@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_9085dcf28ca7",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 75-year-old Caucasian male, former smoker with 35-pack-year history, quit 20 years ago. ECOG performance status 2. Comorbidities include COPD (on home oxygen 2L), congestive heart failure with reduced ejection fraction (35%), and peripheral vascular disease."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T4N2M1a with mediastinal invasion, ipsilateral mediastinal lymphadenopathy, and malignant pleural effusion. No distant organ metastases identified."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pleural fluid cytology and cell block reveal adenocarcinoma. TTF-1 positive, Napsin A positive. Cell block used for molecular testing given patient frailty limiting tissue biopsy."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS (Tempus xT) on pleural fluid cell block. EGFR L858R mutation detected (VAF 28%). TP53 E285K mutation (VAF 24%). No other driver alterations. No ALK, ROS1, BRAF, MET, RET, or KRAS mutations. PD-L1 TPS 10%. TMB 5 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR L858R-mutant adenocarcinoma in an elderly patient with significant cardiopulmonary comorbidities. ECOG 2 with limited functional reserve. Platinum chemotherapy contraindicated given heart failure and COPD. Plan: Erlotinib 150 mg daily as targeted therapy. Careful monitoring given cardiac history. Goals of care discussion ongoing."
+    },
+    {
+      "type": "systemic",
+      "text": "Started erlotinib 150 mg daily for EGFR L858R-mutant Stage IV NSCLC. Chemotherapy avoided due to significant cardiopulmonary comorbidities."
+    },
+    {
+      "type": "surgery",
+      "text": "Tunneled pleural catheter (PleurX) placed for management of symptomatic left malignant pleural effusion."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis shows 5.0 cm left upper lobe mass invading mediastinal fat, enlarged ipsilateral mediastinal lymph nodes, and large left pleural effusion. Heart is enlarged with cardiomegaly. Emphysematous changes bilateral upper lobes."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 rash on face. Grade 1 diarrhea. Erlotinib tolerated without cardiac exacerbation at 2-week follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.0 cm to 3.8 cm. Left pleural effusion improved with catheter drainage and treatment effect. Partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Encouraging response to erlotinib. Functional status slightly improved. ECOG 2. Cardiac status stable. Pleural drainage decreasing. Plan: Continue erlotinib. Cardiology follow-up. Trial PleurX clamping."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 3 months shows left upper lobe mass 3.2 cm. Pleural effusion minimal. Continued response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 2 anorexia and weight loss of 3 kg. Nutritional counseling initiated. Likely multifactorial (disease, erlotinib, and comorbidities)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 6 months shows stable left upper lobe mass at 3.0 cm. Minimal pleural effusion. Stable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stable disease at 6 months on erlotinib. Functional status remains limited by comorbidities. ECOG 2. Weight stable with nutritional support. Plan: Continue erlotinib. Supportive care. Palliative care co-management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 9 months shows left upper lobe mass increased to 4.0 cm. New contralateral pleural effusion. New right hilar lymphadenopathy. Progressive disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Progressive disease at 9 months on erlotinib. Given significant comorbidities, limited functional status, and poor candidacy for chemotherapy, options are constrained. Plan: Liquid biopsy for T790M. If positive, osimertinib may be considered with cardiac monitoring. Goals of care re-discussion. Palliative care involvement."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Liquid biopsy detects EGFR L858R (VAF 15.8%) but no T790M mutation. No other actionable targets. T790M-negative resistance."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: T790M-negative progression on erlotinib. Patient is not a candidate for platinum chemotherapy given heart failure and COPD. Options limited. Plan: Best supportive care. Hospice referral discussed. Patient wishes to continue low-toxicity therapy. Consider continuing erlotinib for potential residual benefit versus transitioning to comfort care. Family meeting scheduled."
+    },
+    {
+      "type": "systemic",
+      "text": "After goals of care discussion, continued erlotinib with best supportive care. Patient not a candidate for further systemic therapy given comorbidities. Enrolled in home hospice with continued erlotinib for symptom management."
+    }
+  ],
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

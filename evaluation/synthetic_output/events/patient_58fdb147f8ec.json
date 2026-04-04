@@ -1,0 +1,88 @@
+{
+  "patient_id": "patient_58fdb147f8ec",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 61-year-old Asian female of Korean descent who presented with progressive fatigue, unexplained weight loss of fifteen pounds, and recurrent infections over two months."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 61, the patient was diagnosed with acute myeloid leukemia NOS, ICD-O morphology code 9861/3, primary site bone marrow C42.1, after evaluation for persistent leukocytosis with monocytosis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, initial laboratory studies showed white blood cell count of 45,000/uL with 52% blasts and 12% promonocytes, hemoglobin 7.9 g/dL, and platelet count of 41,000/uL. LDH was 1,120 U/L. Coagulation studies showed fibrinogen of 178 mg/dL and D-dimer of 4.6 ug/mL."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 61, bone marrow biopsy with aspirate demonstrated a hypercellular marrow (95% cellularity) with 72% myeloblasts. Blasts showed monocytoid features with folded nuclei. Flow cytometry showed blasts positive for CD34, CD117, CD33, CD13, CD14 (partial), CD64, HLA-DR, and MPO. The immunophenotype was consistent with AML with monocytic differentiation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 61, comprehensive genomic profiling identified FLT3-ITD mutation with allelic ratio 0.58, DNMT3A R882H mutation, TET2 frameshift mutation, and SRSF2 P95H mutation. NPM1 was wild-type. TP53 was wild-type."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, cytogenetic analysis revealed a complex karyotype: 45,XX,del(5)(q13q33),del(7)(q22),-17,add(12)(p13),+21[14]/46,XX[6]. FISH confirmed deletion of 5q, monosomy 7, and loss of TP53 locus on chromosome 17. ELN 2022 risk was adverse based on FLT3-ITD without NPM1, complex karyotype, and monosomy 7."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, induction therapy was initiated with 7+3 cytarabine and daunorubicin plus midostaurin per the RATIFY protocol dosing schedule."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, during induction the patient developed disseminated intravascular coagulation with fibrinogen dropping to 62 mg/dL, D-dimer rising to 28 ug/mL, and prolonged PT to 22.4 seconds. She required cryoprecipitate and platelet transfusions with gradual improvement."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, neutropenic fever occurred on day eight with blood cultures growing Enterococcus faecium resistant to vancomycin, treated with daptomycin."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 61, day 14 bone marrow biopsy showed a moderately hypocellular marrow with 22% persistent blasts, indicating refractory disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, given primary refractory AML with adverse cytogenetics, the treatment plan was changed to FLAG-IDA salvage consisting of fludarabine, high-dose cytarabine, G-CSF, and idarubicin."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, FLAG-IDA salvage chemotherapy was administered with fludarabine 30 mg/m2 on days one through five, cytarabine 2 g/m2 on days one through five, G-CSF starting day zero, and idarubicin 8 mg/m2 on days three through five."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, the patient developed invasive pulmonary mucormycosis during aplasia following FLAG-IDA, with CT showing a reverse halo sign in the right lower lobe. Isavuconazonium was initiated and she required a prolonged hospitalization of 42 days."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 61, bone marrow biopsy following FLAG-IDA showed 8% residual blasts, failing to achieve complete remission. The patient was classified as having multiply refractory AML."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, given persistent disease and FLT3-ITD positivity, gilteritinib 120 mg orally daily was initiated as targeted salvage therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, after four weeks of gilteritinib the patient achieved a composite complete remission with incomplete hematologic recovery (CRi) with 3.2% blasts and persistent thrombocytopenia."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 61, gilteritinib caused differentiation syndrome with fever, dyspnea, bilateral pleural effusions, and weight gain of eight pounds, managed with dexamethasone and temporary drug hold."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, the patient proceeded to allogeneic stem cell transplant from a haploidentical donor (daughter) with reduced-intensity conditioning given her comorbidities. Day plus 30 marrow showed 96% donor chimerism with 1.8% blasts."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, day plus 60 bone marrow demonstrated declining donor chimerism at 82% with rising blasts at 6%, consistent with early post-transplant relapse. The patient was transitioned to comfort-focused care given her wishes and multiply refractory disease course."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, CT chest abdomen and pelvis showed increasing splenomegaly to 19 cm and new small bilateral pleural effusions but no discrete extramedullary chloroma lesions."
+    }
+  ],
+  "scenario_index": 7,
+  "scenario_blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation. ELN intermediate/adverse risk. Induction with 7+3 plus midostaurin. Some achieving CR, some refractory. Include cytogenetics (normal karyotype or complex), blast percentage monitoring, allogeneic stem cell transplant in first remission for eligible patients.",
+  "scenario_label": "aml_flt3"
+}

@@ -1,0 +1,92 @@
+{
+  "patient_id": "patient_c6c207bd6529",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 58-year-old South Asian female, never smoker. ECOG performance status 0. No significant past medical history. Incidentally found on screening CT."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right lower lobe (C34.3). TNM staging T2aN0M1a with malignant pleural effusion. No distant organ metastases."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Video-assisted thoracoscopic surgery (VATS) pleural biopsy reveals metastatic adenocarcinoma with lepidic and papillary patterns. TTF-1 positive, Napsin A positive. Pleural fluid cytology also positive for adenocarcinoma. Ample tissue for molecular testing."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS (Tempus xT) on pleural biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 60%. TP53 V157F mutation (VAF 55%). PIK3CA E545K mutation (VAF 8%). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV (M1a) EGFR exon 19 deletion-positive adenocarcinoma with malignant pleural effusion. Low disease burden. PIK3CA co-mutation noted, which may affect duration of TKI response. Plan: Start osimertinib 80 mg daily. Consider pleurodesis if effusion symptomatic."
+    },
+    {
+      "type": "systemic",
+      "text": "Started osimertinib 80 mg daily for EGFR exon 19 deletion-positive Stage IV NSCLC."
+    },
+    {
+      "type": "surgery",
+      "text": "PleurX catheter placed for management of symptomatic right malignant pleural effusion. Draining approximately 500 mL every other day."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis shows 2.8 cm right lower lobe mass, moderate right pleural effusion, and no distant metastases. No lymphadenopathy by imaging criteria."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 mucositis and dry mouth on osimertinib. Managed with oral care and hydration."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows right lower lobe mass decreased to 1.6 cm. Right pleural effusion significantly decreased. PleurX catheter output diminished to less than 50 mL daily."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Excellent response to osimertinib with near-resolution of pleural effusion. PleurX output minimal. Plan: Continue osimertinib. Trial PleurX clamping. If no reaccumulation, remove catheter."
+    },
+    {
+      "type": "surgery",
+      "text": "PleurX catheter removed after successful trial of clamping with no significant fluid reaccumulation. Pleurodesis achieved spontaneously."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 4 months shows right lower lobe mass 1.2 cm. Trace residual pleural effusion. Excellent response maintained."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 8 months shows stable right lower lobe lesion at 1.1 cm. No pleural effusion. No new disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 8 months is negative for intracranial metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Durable response to osimertinib at 8 months. Excellent quality of life. ECOG 0. Plan: Continue osimertinib. Surveillance imaging."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 12 months stable disease. Right lower lobe 1.0 cm. No new lesions."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 16 months shows stable disease. Right lower lobe residual 1.1 cm. No new lesions or effusion."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 20 months shows right lower lobe stable at 1.0 cm. New 1.8 cm left adrenal mass concerning for metastasis. PET/CT recommended."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT shows low FDG uptake in right lower lobe residual (SUV max 1.8) and moderate FDG uptake in left adrenal mass (SUV max 6.2), suspicious for metastatic disease. No other FDG-avid lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Possible oligoprogression at 20 months with new adrenal lesion. Extrathoracic disease minimal. Plan: Adrenal biopsy to confirm metastasis. If confirmed, consider local therapy (SBRT) and continue osimertinib given otherwise excellent systemic control."
+    }
+  ],
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

@@ -1,0 +1,104 @@
+{
+  "patient_id": "patient_47f97f6d026f",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 63-year-old African American male, height 5'10\", weight 198 lbs, BMI 28.4, never smoker, family history of prostate cancer in father (diagnosed age 58, deceased age 65) and brother (diagnosed age 54)."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 55, patient underwent prostate cancer screening given strong family history; PSA was 7.8 ng/mL and digital rectal exam revealed a firm nodule in the right lobe."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 55, MRI-targeted and systematic prostate biopsy showed Gleason 4+3=7 (Grade Group 3) adenocarcinoma in 8 of 14 cores, predominantly from the right posterior lobe; PI-RADS 5 lesion confirmed."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55, staging CT and bone scan were negative for metastatic disease; MRI showed extraprostatic extension at the right posterolateral aspect; staged as cT3aN0M0."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 55, patient underwent robot-assisted radical prostatectomy with extended pelvic lymph node dissection; pathologic stage pT3bN0M0 with seminal vesicle invasion and negative surgical margins."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 55, prostatectomy specimen showed Gleason 4+3=7 adenocarcinoma with bilateral seminal vesicle invasion, negative margins, and 0 of 22 lymph nodes positive for carcinoma."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, postoperative PSA was undetectable at less than 0.01 ng/mL at 6 weeks."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, PSA became detectable at 0.24 ng/mL; biochemical recurrence was confirmed with repeat PSA of 0.38 ng/mL three months later."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 57, salvage radiation therapy was delivered to the prostate bed and pelvic lymph nodes, total dose 70 Gy and 50.4 Gy respectively, with concurrent short-term ADT."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 57, leuprolide 22.5 mg intramuscular every 3 months was initiated concurrent with salvage radiation, planned for 6 months."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, PSA nadir was less than 0.05 ng/mL after salvage radiation and ADT; leuprolide was discontinued per plan."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 60, PSA rose to 2.4 ng/mL with testosterone recovery to 310 ng/dL; second biochemical recurrence."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 60, leuprolide 45 mg intramuscular every 6 months was restarted for second biochemical recurrence; intermittent ADT was not offered given high-risk features."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 61, PSMA PET/CT performed for rising PSA (4.6 ng/mL) on ADT with testosterone 19 ng/dL revealed PSMA-avid lesions in L3, L5, right sacral ala, and left 9th rib; no visceral metastatic disease."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 61, disease reclassified as metastatic castration-resistant prostate cancer, stage rT3bN0M1b, with multiple bone metastases while on continuous ADT with castrate testosterone."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 61, enzalutamide 160 mg orally daily was initiated for mCRPC; leuprolide continued."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 61, after 4 months on enzalutamide, PSA declined from 4.6 to 0.8 ng/mL; no significant side effects reported."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 61, next-generation sequencing (FoundationOne CDx) on prostatectomy specimen revealed BRCA1 pathogenic mutation (c.5266dupC, 5382insC), ATM T7271G missense variant of uncertain significance, TMPRSS2-ERG fusion, and PTEN loss; HRD score elevated at 42; tumor mutational burden 5 mutations/Mb; microsatellite stable."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, restaging bone scan showed stable disease at known sites with no new lesions; PSA was 0.6 ng/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63, PSA rose to 5.8 ng/mL on enzalutamide after approximately 2 years of therapy; progression was confirmed."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 63, enzalutamide was discontinued and olaparib 300 mg orally twice daily was initiated given BRCA1 pathogenic mutation; leuprolide continued."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63, patient developed grade 1 nausea and grade 2 fatigue on olaparib; managed with ondansetron and dose maintained."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, PSMA PET/CT after 3 months of olaparib showed decreased PSMA uptake at known bone metastases; PSA was 2.1 ng/mL representing partial response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63, patient reported grade 2 bone pain in the lumbar spine requiring scheduled oxycodone 10 mg every 8 hours."
+    }
+  ],
+  "scenario_index": 4,
+  "scenario_blurb": "Metastatic castration-resistant prostate cancer (mCRPC). Rising PSA on ADT. Treated with enzalutamide, abiraterone, docetaxel, or cabazitaxel. Include BRCA1/2 and homologous recombination deficiency testing. Some with bone-predominant and some with visceral metastases.",
+  "scenario_label": "prostate_mcrpc"
+}

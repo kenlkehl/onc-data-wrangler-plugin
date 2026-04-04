@@ -1,0 +1,348 @@
+<demographics>Patient is a 62-year-old Caucasian male, former smoker with a 15-pack-year history, who quit smoking 10 years ago. ECOG performance status 1.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T3N2M1a with bilateral pulmonary nodules and malignant right pleural effusion.
+<pathology_report>CT-guided core needle biopsy of the right upper lobe mass reveals moderately differentiated adenocarcinoma with acinar and lepidic growth patterns. TTF-1 positive, Napsin A positive, CK7 positive, CK20 negative, p40 negative, consistent with primary lung adenocarcinoma. No neuroendocrine features identified.
+<ngs_report>Next-generation sequencing (FoundationOne CDx) performed on the right upper lobe biopsy specimen. EGFR exon 21 L858R point mutation detected (variant allele frequency 42%). TP53 R248W missense mutation detected (VAF 38%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations identified. PD-L1 TPS 5%. Tumor mutational burden low (3 mutations/Mb). Microsatellite stable.
+<clinical_note>Assessment: Stage IV EGFR-mutant lung adenocarcinoma with L858R mutation. Plan: Initiate osimertinib 80 mg daily as first-line therapy given superior PFS data from FLAURA trial. Baseline brain MRI and restaging CT in 6 weeks. Discussed expected side effects including rash, diarrhea, and rare risk of interstitial lung disease.
+<systemic>Started osimertinib 80 mg orally once daily as first-line treatment for EGFR L858R-mutant Stage IV NSCLC.
+<imaging_report>MRI brain with and without contrast shows no evidence of intracranial metastatic disease. No abnormal enhancement or restricted diffusion identified.
+<imaging_report>CT chest/abdomen/pelvis with contrast shows a 4.2 cm right upper lobe mass with mediastinal lymphadenopathy (station 4R and 7), bilateral pulmonary nodules (largest 1.2 cm left lower lobe), and moderate right pleural effusion. No hepatic or adrenal metastases. No osseous metastatic disease identified.
+<adverse_event>Grade 1 acneiform rash on the face and upper trunk, managed with topical clindamycin. No dose modification required.
+<imaging_report>Restaging CT chest/abdomen/pelvis at 6 weeks shows interval decrease in size of the right upper lobe mass from 4.2 cm to 2.8 cm. Bilateral pulmonary nodules decreased. Right pleural effusion improved. Partial response per RECIST 1.1 criteria.
+<adverse_event>Grade 1 diarrhea, 3-4 loose stools daily, managed with loperamide as needed. Tolerable and not requiring dose adjustment.
+<clinical_note>Assessment: Excellent partial response to osimertinib after 6 weeks. Tolerating treatment well with only grade 1 rash and diarrhea. Plan: Continue osimertinib 80 mg daily. Repeat CT in 3 months.
+<imaging_report>Restaging CT at 4 months shows continued response with right upper lobe mass now measuring 1.9 cm. Pleural effusion resolved. Bilateral pulmonary nodules barely perceptible. Near complete response.
+<imaging_report>MRI brain at 6 months remains negative for intracranial metastases.
+<clinical_note>Assessment: Durable response to first-line osimertinib, now 8 months on therapy. No significant toxicity. ECOG 0. Plan: Continue current regimen. Restaging imaging every 3 months.
+<imaging_report>CT chest/abdomen/pelvis at 11 months shows stable disease with right upper lobe lesion measuring 1.8 cm. No new lesions. Continued partial response.
+<imaging_report>CT chest/abdomen/pelvis at 14 months shows stable right upper lobe lesion at 1.9 cm. No new metastatic disease. Stable disease per RECIST.
+<clinical_note>Assessment: Ongoing benefit from osimertinib at 14 months. Patient reports good quality of life with minimal side effects. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+<imaging_report>CT chest/abdomen/pelvis at 18 months shows interval increase in size of the right upper lobe mass to 2.8 cm and two new hepatic lesions measuring 1.5 cm and 0.8 cm. Progressive disease per RECIST 1.1.
+<clinical_note>Assessment: Disease progression on first-line osimertinib after 18 months of therapy. New hepatic metastases. Plan: Liver biopsy for repeat molecular profiling. Discuss transition to platinum-based chemotherapy with or without bevacizumab. Consider clinical trial options.
+<pathology_report>CT-guided liver biopsy confirms metastatic adenocarcinoma consistent with lung primary. TTF-1 positive. Viable tumor present for molecular testing.
+<ngs_report>Repeat NGS on liver biopsy specimen shows retained EGFR L858R mutation (VAF 35%). New EGFR C797S mutation detected in cis with L858R (VAF 18%), conferring resistance to osimertinib. TP53 R248W retained. MET amplification detected (copy number 8). No KRAS mutations. TMB low.
+<systemic>Discontinued osimertinib due to progressive disease with acquired C797S resistance. Initiated carboplatin AUC 5 plus pemetrexed 500 mg/m2 every 3 weeks.
+<adverse_event>Grade 2 nausea and fatigue following first cycle of carboplatin/pemetrexed. Managed with ondansetron and dexamethasone.
+<imaging_report>Restaging CT after 3 cycles of carboplatin/pemetrexed shows partial response with decrease in right upper lobe mass to 2.2 cm and decrease in hepatic lesions. Continued chemotherapy.
+<new_patient>
+<demographics>Patient is a 54-year-old Asian female, never smoker. ECOG performance status 0. No significant past medical history.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T2aN1M1b with left adrenal metastasis and osseous metastases to thoracic spine.
+<pathology_report>Bronchoscopic biopsy of the left upper lobe mass reveals well-differentiated adenocarcinoma with predominantly lepidic pattern. TTF-1 strongly positive, Napsin A positive, CK7 positive, CK20 negative, ALK IHC negative (D5F3). Tumor specimen adequate for molecular testing.
+<ngs_report>NGS panel (Tempus xT) performed on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 55%. TP53 Y220C missense mutation detected (VAF 48%). CDKN2A homozygous deletion detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb.
+<clinical_note>Assessment: Stage IV EGFR exon 19 deletion-positive lung adenocarcinoma in a never-smoking Asian female, classic demographic for EGFR-driven lung cancer. Plan: Start osimertinib 80 mg daily. Zoledronic acid for osseous metastases. Baseline brain MRI. Palliative radiation to thoracic spine if symptomatic.
+<systemic>Initiated osimertinib 80 mg orally daily for EGFR exon 19 deletion-positive Stage IV NSCLC.
+<systemic>Started zoledronic acid 4 mg IV every 4 weeks for bone metastases.
+<imaging_report>MRI brain with and without gadolinium shows no intracranial metastatic disease.
+<imaging_report>PET/CT shows FDG-avid 3.5 cm left upper lobe mass (SUV max 12.4), FDG-avid left hilar lymph node (SUV max 8.2), FDG-avid left adrenal mass 2.1 cm (SUV max 9.8), and FDG-avid T8 and T10 vertebral body lesions (SUV max 7.5 and 6.3).
+<adverse_event>Grade 1 dry skin and paronychia of bilateral great toes, managed with moisturizers and warm soaks. No dose modification.
+<imaging_report>Restaging CT at 6 weeks shows left upper lobe mass decreased from 3.5 cm to 1.8 cm. Left adrenal metastasis decreased to 1.2 cm. Partial response per RECIST 1.1.
+<clinical_note>Assessment: Rapid and deep response to osimertinib. Bone pain improved. ECOG 0. Plan: Continue osimertinib. Repeat imaging in 3 months. Continue bone-directed therapy.
+<imaging_report>CT chest/abdomen/pelvis at 4 months shows continued response. Left upper lobe mass 1.4 cm. Left adrenal lesion 0.8 cm. Near-complete metabolic response on correlative PET.
+<imaging_report>MRI brain at 6 months remains clear of intracranial disease.
+<imaging_report>CT at 9 months shows stable disease with left upper lobe lesion 1.3 cm. Left adrenal lesion stable at 0.7 cm. No new sites of disease.
+<clinical_note>Assessment: Durable response to osimertinib at 9 months. Excellent tolerance. Plan: Continue osimertinib. Surveillance imaging every 3 months. Discuss that median PFS for exon 19 deletion with osimertinib is approximately 19 months.
+<imaging_report>CT at 12 months shows stable disease. No new lesions. Left upper lobe residual 1.2 cm.
+<imaging_report>CT at 16 months shows stable disease. Left upper lobe 1.3 cm. Left adrenal 0.7 cm. No progression.
+<imaging_report>MRI brain at 18 months shows two new enhancing lesions in the right frontal lobe (8 mm) and left cerebellar hemisphere (6 mm), consistent with brain metastases.
+<clinical_note>Assessment: CNS-only progression on osimertinib at 18 months. Extracranial disease remains controlled. Plan: Stereotactic radiosurgery (SRS) to the two brain lesions. Continue osimertinib given systemic disease control. Repeat brain MRI in 6 weeks post-SRS.
+<radiation>Stereotactic radiosurgery (SRS) to right frontal lobe metastasis (8 mm) delivering 21 Gy in single fraction, and left cerebellar metastasis (6 mm) delivering 21 Gy in single fraction. Treatment tolerated well with dexamethasone taper.
+<imaging_report>MRI brain 6 weeks post-SRS shows decrease in both treated lesions with surrounding edema resolving. No new intracranial lesions.
+<imaging_report>CT chest/abdomen/pelvis at 21 months shows continued extracranial stability. Left upper lobe 1.2 cm. No new systemic disease.
+<clinical_note>Assessment: Post-SRS brain MRI favorable. Extracranial disease stable. Continuing osimertinib beyond CNS-only progression with good overall disease control at 21 months. Plan: Continue osimertinib. Brain MRI every 3 months.
+<new_patient>
+<demographics>Patient is a 68-year-old African American male, current smoker with a 40-pack-year history. ECOG performance status 1. History of COPD, hypertension, and type 2 diabetes.
+<diagnosis>Diagnosed with Stage IIIB non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right lower lobe (C34.3). TNM staging T4N2M0 with chest wall invasion and ipsilateral mediastinal lymphadenopathy.
+<pathology_report>CT-guided percutaneous biopsy of the right lower lobe mass reveals moderately to poorly differentiated adenocarcinoma, solid predominant pattern with focal mucinous features. TTF-1 positive, Napsin A weakly positive, CK7 positive, p40 negative. Tumor invades visceral pleura. Adequate tissue submitted for molecular testing.
+<ngs_report>Comprehensive genomic profiling (FoundationOne CDx) on right lower lobe biopsy. EGFR exon 21 L858R mutation detected (VAF 32%). TP53 G245S mutation (VAF 30%). RB1 splice site mutation (VAF 15%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 15%. TMB 5 mutations/Mb. Microsatellite stable.
+<clinical_note>Assessment: Stage IIIB EGFR L858R-mutant adenocarcinoma with chest wall invasion. Unresectable. Concurrent chemoradiation is standard for stage III, but presence of EGFR driver mutation favors TKI-based approach. Plan: Per LAURA trial data, initiate concurrent chemoradiation followed by consolidation osimertinib. Discuss with radiation oncology.
+<systemic>Started concurrent carboplatin AUC 2 weekly with thoracic radiation for Stage IIIB unresectable NSCLC.
+<radiation>Initiated concurrent thoracic radiation therapy to the right lower lobe primary and involved mediastinal lymph nodes, total dose 60 Gy in 30 fractions over 6 weeks.
+<adverse_event>Grade 2 esophagitis during concurrent chemoradiation, managed with viscous lidocaine and bland diet. Weight loss of 4 kg.
+<adverse_event>Grade 2 radiation dermatitis over the right posterior chest wall. Managed with silver sulfadiazine cream.
+<imaging_report>CT chest/abdomen/pelvis after completion of chemoradiation shows decrease in right lower lobe mass from 5.8 cm to 3.2 cm. Mediastinal lymphadenopathy decreased. No distant metastases. Partial response.
+<clinical_note>Assessment: Good response to concurrent chemoradiation. Recovered well from treatment. ECOG 1. Plan: Start consolidation osimertinib 80 mg daily per LAURA trial paradigm for EGFR-mutant Stage III NSCLC after chemoradiation.
+<systemic>Initiated consolidation osimertinib 80 mg daily following completion of concurrent chemoradiation.
+<adverse_event>Grade 1 acneiform rash on the face, controlled with topical hydrocortisone.
+<imaging_report>Restaging CT at 3 months on consolidation osimertinib shows stable residual right lower lobe lesion measuring 2.8 cm. Post-radiation fibrotic changes noted. No new disease.
+<imaging_report>CT at 6 months shows continued stability. Right lower lobe residual 2.6 cm with surrounding fibrosis. No evidence of progression or distant metastases.
+<imaging_report>MRI brain at 6 months shows no intracranial metastatic disease.
+<clinical_note>Assessment: Stable disease on consolidation osimertinib at 6 months post-chemoradiation. Tolerating well. COPD stable. Plan: Continue osimertinib. Repeat CT every 3 months, brain MRI every 6 months.
+<imaging_report>CT at 9 months shows stable right lower lobe post-treatment changes. No new nodules or lymphadenopathy. No distant metastases.
+<imaging_report>CT at 12 months shows right lower lobe residual stable at 2.5 cm. Post-radiation fibrosis. No new disease. Ongoing stable disease.
+<clinical_note>Assessment: One year post-chemoradiation, 12 months on consolidation osimertinib. Excellent disease control. ECOG 1, stable. Plan: Continue osimertinib indefinitely. Surveillance imaging per protocol.
+<imaging_report>PET/CT at 15 months shows low-grade FDG uptake in the right lower lobe residual (SUV max 2.8), likely post-treatment changes. No FDG-avid disease elsewhere. No evidence of recurrence.
+<new_patient>
+<demographics>Patient is a 47-year-old Hispanic female, never smoker. ECOG performance status 0. No significant comorbidities. Family history notable for mother with breast cancer.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left lower lobe (C34.3). TNM staging T2bN0M1b with isolated contralateral lung metastasis and bone metastasis in the left femur.
+<pathology_report>CT-guided biopsy of left lower lobe mass reveals well-differentiated adenocarcinoma with lepidic predominant pattern. TTF-1 strongly positive, Napsin A positive. No lymphovascular invasion in the sampled tissue. Specimen submitted for comprehensive molecular profiling.
+<ngs_report>Next-generation sequencing (Guardant360 CDx liquid biopsy) detects EGFR exon 19 deletion (p.L747_P753delinsS) at VAF 8.2%. TP53 splice site mutation (c.672+1G>A) at VAF 6.1%. No other actionable alterations. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS mutations detected.
+<clinical_note>Assessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma in a young never-smoking Hispanic female. Oligometastatic with bone and contralateral lung involvement. Plan: Start erlotinib 150 mg daily (patient preference and insurance considerations). Denosumab for bone metastasis. Palliative radiation to left femur if symptomatic.
+<systemic>Started erlotinib 150 mg orally once daily for EGFR exon 19 deletion-positive Stage IV NSCLC.
+<systemic>Initiated denosumab 120 mg subcutaneously every 4 weeks for bone metastatic disease.
+<imaging_report>Baseline CT chest/abdomen/pelvis shows 3.1 cm left lower lobe mass, 1.4 cm right middle lobe nodule, and lytic lesion in the left proximal femur. No hepatic, adrenal, or brain metastases.
+<imaging_report>MRI brain negative for intracranial metastases.
+<adverse_event>Grade 2 acneiform rash on face, chest, and back within 2 weeks of starting erlotinib. Managed with doxycycline 100 mg BID and topical clindamycin. Grade 2 diarrhea requiring loperamide.
+<imaging_report>Restaging CT at 6 weeks shows left lower lobe mass decreased to 2.1 cm and right middle lobe nodule decreased to 0.7 cm. Left femoral lesion shows early sclerotic change. Partial response.
+<clinical_note>Assessment: Good partial response to erlotinib at 6 weeks. Rash and diarrhea are bothersome but manageable. Rash severity may correlate with response. Plan: Continue erlotinib. Supportive care for skin toxicity. Repeat imaging in 3 months.
+<imaging_report>CT at 4 months shows continued response. Left lower lobe 1.6 cm, right middle lobe nodule 0.5 cm. Sclerotic healing of femoral lesion.
+<imaging_report>CT at 8 months shows left lower lobe stable at 1.5 cm. Right middle lobe nodule barely visible. Stable to improved disease.
+<clinical_note>Assessment: Durable response to erlotinib at 8 months. ECOG 0. Side effects have improved over time with grade 1 rash and minimal diarrhea. Plan: Continue erlotinib. Surveillance imaging.
+<imaging_report>CT at 12 months shows new 2.3 cm right adrenal mass not present on prior imaging. Left lower lobe mass slightly increased to 2.0 cm. Right middle lobe nodule stable. Progressive disease.
+<clinical_note>Assessment: Disease progression on erlotinib at 12 months with new adrenal metastasis. Plan: Repeat biopsy or liquid biopsy to assess for T790M resistance mutation. If T790M positive, switch to osimertinib.
+<ngs_report>Liquid biopsy (Guardant360) detects EGFR exon 19 deletion (VAF 12.5%) and EGFR T790M mutation (VAF 5.8%). TP53 splice mutation retained. No other new alterations. T790M-mediated resistance to erlotinib confirmed.
+<systemic>Discontinued erlotinib. Initiated osimertinib 80 mg daily for T790M-positive EGFR-mutant NSCLC after progression on first-generation TKI.
+<adverse_event>Grade 1 dry skin and mild paronychia after switching to osimertinib. Rash significantly improved compared to erlotinib.
+<imaging_report>Restaging CT at 6 weeks on osimertinib shows left lower lobe mass decreased to 1.4 cm. Right adrenal mass decreased to 1.5 cm. Partial response to osimertinib.
+<clinical_note>Assessment: Confirmed partial response to second-line osimertinib. Tolerating well with minimal side effects. Plan: Continue osimertinib. Repeat imaging every 3 months.
+<imaging_report>CT at 4 months on osimertinib shows continued response. Left lower lobe 1.2 cm. Right adrenal 1.0 cm. Stable to improved.
+<new_patient>
+<demographics>Patient is a 71-year-old Caucasian male, former smoker with 30-pack-year history, quit 5 years ago. ECOG performance status 2. Comorbidities include atrial fibrillation on apixaban, coronary artery disease status post stent placement, and chronic kidney disease stage 3.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T3N3M1b with contralateral mediastinal lymphadenopathy, bilateral adrenal metastases, and hepatic metastases.
+<pathology_report>Endobronchial ultrasound-guided transbronchial needle aspiration (EBUS-TBNA) of station 7 lymph node reveals metastatic adenocarcinoma. TTF-1 positive, Napsin A positive, CK7 positive. Cell block adequate for molecular testing. Poorly differentiated with solid and micropapillary patterns.
+<ngs_report>NGS (FoundationOne CDx) on lymph node biopsy specimen. EGFR L858R mutation detected (VAF 40%). TP53 R175H hotspot mutation (VAF 42%). STK11 frameshift mutation (VAF 22%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 1%. TMB 4 mutations/Mb.
+<clinical_note>Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with high disease burden including hepatic metastases. Poor performance status. Multiple comorbidities. Plan: Start erlotinib 150 mg daily (renal dosing consideration given CKD). Monitor renal function closely. Supportive care.
+<systemic>Started erlotinib 150 mg orally once daily for EGFR L858R-mutant Stage IV NSCLC.
+<imaging_report>Baseline CT shows 4.8 cm right upper lobe mass, bulky mediastinal and bilateral hilar lymphadenopathy, bilateral adrenal masses (2.5 cm right, 1.8 cm left), and multiple hepatic metastases (largest 3.2 cm right hepatic lobe).
+<imaging_report>MRI brain shows single 12 mm enhancing lesion in the left parietal lobe, consistent with brain metastasis.
+<radiation>Stereotactic radiosurgery to left parietal brain metastasis, 20 Gy in single fraction. Short course of dexamethasone 4 mg BID with taper.
+<adverse_event>Grade 2 rash on face and trunk. Grade 1 diarrhea. Grade 1 elevated creatinine (from baseline 1.4 to 1.7 mg/dL). Monitored renal function closely.
+<imaging_report>Restaging CT at 6 weeks shows right upper lobe mass decreased from 4.8 cm to 3.6 cm. Hepatic lesions decreased (largest now 2.4 cm). Adrenal lesions slightly decreased. Partial response despite high disease burden.
+<clinical_note>Assessment: Partial response to erlotinib at 6 weeks. Brain metastasis treated with SRS. Renal function stable. ECOG improved to 1. Plan: Continue erlotinib. Monitor renal function. Repeat brain MRI in 3 months.
+<imaging_report>MRI brain at 3 months shows treated left parietal lesion decreased with central necrosis consistent with treatment effect. No new brain lesions.
+<imaging_report>CT at 4 months shows continued partial response. Right upper lobe mass 3.0 cm. Hepatic metastases stable to decreased.
+<imaging_report>CT at 7 months shows stable disease. Right upper lobe mass 3.1 cm. Hepatic lesions stable. Adrenal lesions stable.
+<imaging_report>CT at 10 months shows interval increase in hepatic metastases with new lesions. Right upper lobe mass increased to 4.0 cm. New small bilateral pleural effusions. Progressive disease.
+<clinical_note>Assessment: Disease progression on erlotinib at 10 months. Plan: Liquid biopsy to check for T790M. Given comorbidities and ECOG 2, discuss goals of care and whether patient is candidate for further systemic therapy.
+<ngs_report>Liquid biopsy (Guardant360) detects EGFR L858R (VAF 18.5%) and EGFR T790M (VAF 4.2%). TP53 R175H retained. T790M resistance confirmed.
+<systemic>Discontinued erlotinib. Started osimertinib 80 mg daily for T790M-positive progressive disease.
+<adverse_event>Grade 1 QTc prolongation on osimertinib (QTc 475 ms from baseline 440 ms). Cardiology consulted given history of atrial fibrillation. Continued with ECG monitoring.
+<imaging_report>Restaging CT at 6 weeks on osimertinib shows decrease in hepatic metastases and right upper lobe mass decreased to 3.2 cm. Pleural effusions stable. Partial response.
+<clinical_note>Assessment: Response to osimertinib in second line. QTc being monitored. Overall functional status improved. Plan: Continue osimertinib with cardiac monitoring every 3 months. Repeat imaging in 3 months.
+<new_patient>
+<demographics>Patient is a 58-year-old South Asian female, never smoker. ECOG performance status 0. No significant past medical history. Incidentally found on screening CT.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right lower lobe (C34.3). TNM staging T2aN0M1a with malignant pleural effusion. No distant organ metastases.
+<pathology_report>Video-assisted thoracoscopic surgery (VATS) pleural biopsy reveals metastatic adenocarcinoma with lepidic and papillary patterns. TTF-1 positive, Napsin A positive. Pleural fluid cytology also positive for adenocarcinoma. Ample tissue for molecular testing.
+<ngs_report>NGS (Tempus xT) on pleural biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 60%. TP53 V157F mutation (VAF 55%). PIK3CA E545K mutation (VAF 8%). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb.
+<clinical_note>Assessment: Stage IV (M1a) EGFR exon 19 deletion-positive adenocarcinoma with malignant pleural effusion. Low disease burden. PIK3CA co-mutation noted, which may affect duration of TKI response. Plan: Start osimertinib 80 mg daily. Consider pleurodesis if effusion symptomatic.
+<systemic>Started osimertinib 80 mg daily for EGFR exon 19 deletion-positive Stage IV NSCLC.
+<surgery>PleurX catheter placed for management of symptomatic right malignant pleural effusion. Draining approximately 500 mL every other day.
+<imaging_report>CT chest/abdomen/pelvis shows 2.8 cm right lower lobe mass, moderate right pleural effusion, and no distant metastases. No lymphadenopathy by imaging criteria.
+<adverse_event>Grade 1 mucositis and dry mouth on osimertinib. Managed with oral care and hydration.
+<imaging_report>Restaging CT at 6 weeks shows right lower lobe mass decreased to 1.6 cm. Right pleural effusion significantly decreased. PleurX catheter output diminished to less than 50 mL daily.
+<clinical_note>Assessment: Excellent response to osimertinib with near-resolution of pleural effusion. PleurX output minimal. Plan: Continue osimertinib. Trial PleurX clamping. If no reaccumulation, remove catheter.
+<surgery>PleurX catheter removed after successful trial of clamping with no significant fluid reaccumulation. Pleurodesis achieved spontaneously.
+<imaging_report>CT at 4 months shows right lower lobe mass 1.2 cm. Trace residual pleural effusion. Excellent response maintained.
+<imaging_report>CT at 8 months shows stable right lower lobe lesion at 1.1 cm. No pleural effusion. No new disease.
+<imaging_report>MRI brain at 8 months is negative for intracranial metastases.
+<clinical_note>Assessment: Durable response to osimertinib at 8 months. Excellent quality of life. ECOG 0. Plan: Continue osimertinib. Surveillance imaging.
+<imaging_report>CT at 12 months stable disease. Right lower lobe 1.0 cm. No new lesions.
+<imaging_report>CT at 16 months shows stable disease. Right lower lobe residual 1.1 cm. No new lesions or effusion.
+<imaging_report>CT at 20 months shows right lower lobe stable at 1.0 cm. New 1.8 cm left adrenal mass concerning for metastasis. PET/CT recommended.
+<imaging_report>PET/CT shows low FDG uptake in right lower lobe residual (SUV max 1.8) and moderate FDG uptake in left adrenal mass (SUV max 6.2), suspicious for metastatic disease. No other FDG-avid lesions.
+<clinical_note>Assessment: Possible oligoprogression at 20 months with new adrenal lesion. Extrathoracic disease minimal. Plan: Adrenal biopsy to confirm metastasis. If confirmed, consider local therapy (SBRT) and continue osimertinib given otherwise excellent systemic control.
+<new_patient>
+<demographics>Patient is a 65-year-old Caucasian female, light former smoker with 5-pack-year history. ECOG performance status 1. History of hypothyroidism and osteoporosis.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T4N2M1c with brain metastases (3 lesions), bilateral pulmonary nodules, and bone metastases in lumbar spine and pelvis.
+<pathology_report>CT-guided biopsy of left upper lobe mass reveals moderately differentiated adenocarcinoma with acinar pattern. TTF-1 positive, Napsin A positive, CK7 positive. Estrogen receptor negative, excluding breast primary. Tissue submitted for molecular testing.
+<ngs_report>NGS (FoundationOne CDx) on lung biopsy. EGFR exon 21 L858R mutation (VAF 38%). TP53 C176Y mutation (VAF 35%). EGFR amplification (copy number 12). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 10%. TMB 3 mutations/Mb.
+<imaging_report>MRI brain with contrast shows three enhancing lesions: right frontal (15 mm), left temporal (10 mm), and right cerebellar (8 mm), consistent with metastatic disease. Surrounding vasogenic edema around the frontal lesion.
+<clinical_note>Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with brain metastases, bone metastases, and high disease burden. Three brain metastases amenable to SRS. Plan: Start osimertinib 80 mg daily given CNS penetration. SRS to brain metastases. Zoledronic acid for bone metastases. Dexamethasone for cerebral edema.
+<systemic>Started osimertinib 80 mg daily for EGFR L858R-mutant Stage IV NSCLC with brain metastases.
+<radiation>Stereotactic radiosurgery to three brain metastases: right frontal 18 Gy, left temporal 20 Gy, and right cerebellar 20 Gy, all in single fractions.
+<systemic>Started zoledronic acid 4 mg IV every 4 weeks for bone metastases.
+<adverse_event>Grade 1 fatigue and headache in the week following SRS. Dexamethasone taper over 2 weeks.
+<imaging_report>Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.2 cm to 3.4 cm. Bilateral pulmonary nodules decreased. Partial response.
+<imaging_report>MRI brain at 6 weeks post-SRS shows decrease in all three treated lesions. Frontal lesion now 10 mm, temporal 6 mm, cerebellar 5 mm. Edema resolving. No new intracranial lesions.
+<adverse_event>Grade 1 skin rash on extremities. Grade 1 paronychia. Both manageable without intervention.
+<clinical_note>Assessment: Excellent systemic and intracranial response to osimertinib plus SRS. Plan: Continue osimertinib. Repeat brain MRI in 3 months. Continue bone-directed therapy.
+<imaging_report>CT at 4 months shows left upper lobe mass 2.6 cm. Pulmonary nodules stable to decreased. Continued partial response.
+<imaging_report>MRI brain at 4 months shows continued regression of treated lesions. No new brain metastases.
+<imaging_report>CT at 8 months shows stable left upper lobe mass at 2.5 cm. No new systemic disease.
+<imaging_report>MRI brain at 8 months shows stable post-treatment changes. No new intracranial disease.
+<clinical_note>Assessment: Durable intracranial and extracranial response at 8 months on osimertinib. Well tolerated. ECOG 0. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+<imaging_report>CT at 12 months stable. Left upper lobe 2.4 cm.
+<imaging_report>MRI brain at 12 months shows no new brain metastases. Treated lesions showing post-treatment changes only.
+<imaging_report>CT at 16 months shows new right pleural effusion and slight increase in left upper lobe mass to 3.0 cm. Concern for early progression.
+<clinical_note>Assessment: Possible progression at 16 months with new pleural effusion and slight increase in primary tumor. Plan: Thoracentesis for cytology. If confirmed malignant, will discuss next-line therapy options including platinum-pemetrexed chemotherapy.
+<new_patient>
+<demographics>Patient is a 52-year-old Korean American female, never smoker. ECOG performance status 0. No significant comorbidities. Presented with persistent cough.
+<diagnosis>Diagnosed with Stage IIIB non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T3N3M0 with contralateral mediastinal and supraclavicular lymphadenopathy. No distant metastases.
+<pathology_report>Mediastinoscopy biopsy of station 2L lymph node reveals metastatic adenocarcinoma. TTF-1 positive, Napsin A positive. Well-differentiated with papillary and micropapillary patterns. Tissue submitted for molecular profiling.
+<ngs_report>NGS panel (Caris Life Sciences) on mediastinoscopy specimen. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 48%. TP53 H179R mutation (VAF 40%). No ALK, ROS1, BRAF, MET, RET, HER2, NTRK, or KRAS alterations. PD-L1 TPS 2%. TMB 1 mutation/Mb. Microsatellite stable.
+<clinical_note>Assessment: Stage IIIB unresectable EGFR exon 19 deletion-positive adenocarcinoma. Bulky N3 disease with contralateral mediastinal involvement. Plan: Concurrent chemoradiation followed by consolidation osimertinib (LAURA trial approach). Brain MRI for staging.
+<imaging_report>CT chest shows 3.8 cm right upper lobe mass with extensive mediastinal lymphadenopathy involving stations 2R, 2L, 4R, 4L, and 7. Right supraclavicular lymph node 1.5 cm. No pleural effusion.
+<imaging_report>PET/CT shows FDG-avid right upper lobe mass (SUV max 14.2) and FDG-avid mediastinal and supraclavicular lymph nodes (SUV max ranging 8-12). No distant metastatic disease.
+<imaging_report>MRI brain is negative for intracranial disease.
+<systemic>Initiated concurrent carboplatin AUC 2 weekly with thoracic radiation.
+<radiation>Thoracic radiation therapy to right upper lobe primary and involved mediastinal and supraclavicular lymph node stations, 60 Gy in 30 fractions over 6 weeks.
+<adverse_event>Grade 1 esophagitis during chemoradiation. Grade 1 fatigue. Tolerated treatment well overall.
+<imaging_report>Post-chemoradiation CT shows right upper lobe mass decreased from 3.8 cm to 1.9 cm. Significant reduction in mediastinal lymphadenopathy. Supraclavicular node no longer visible. Partial response.
+<clinical_note>Assessment: Excellent response to concurrent chemoradiation. No distant disease. Plan: Start consolidation osimertinib 80 mg daily. Close surveillance for any progression.
+<systemic>Started consolidation osimertinib 80 mg daily following completion of chemoradiation for Stage IIIB EGFR-mutant NSCLC.
+<adverse_event>Grade 1 dry skin and nail changes on osimertinib. No dose modification needed.
+<imaging_report>CT at 3 months on consolidation osimertinib shows continued decrease in right upper lobe mass to 1.4 cm. Post-radiation fibrosis developing. No distant metastases.
+<imaging_report>CT at 6 months shows right upper lobe residual 1.2 cm with fibrotic changes. No mediastinal lymphadenopathy. No distant disease. Stable.
+<imaging_report>MRI brain at 6 months negative.
+<imaging_report>CT at 9 months stable. Right upper lobe 1.1 cm. No new lesions.
+<clinical_note>Assessment: Excellent disease control at 9 months on consolidation osimertinib post-chemoradiation. ECOG 0. Tolerating well. Plan: Continue osimertinib indefinitely per LAURA trial protocol. Surveillance imaging every 3 months.
+<imaging_report>CT at 12 months shows stable disease. No evidence of local recurrence or distant metastases.
+<imaging_report>PET/CT at 15 months shows no FDG-avid disease. Residual fibrosis in right upper lobe with SUV max 1.5, consistent with post-treatment changes. Complete metabolic response.
+<new_patient>
+<demographics>Patient is a 60-year-old Caucasian male, never smoker. ECOG performance status 1. History of gastroesophageal reflux disease. Presented with incidental finding on chest X-ray.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left lower lobe (C34.3). TNM staging T2bN2M1b with contralateral lung nodule, left adrenal metastasis, and two brain metastases.
+<pathology_report>CT-guided biopsy of left lower lobe mass reveals moderately differentiated adenocarcinoma with acinar predominant pattern. TTF-1 positive, Napsin A positive, CK7 positive, CK20 negative. No squamous differentiation. Adequate tissue for comprehensive genomic profiling.
+<ngs_report>NGS (FoundationOne CDx) on left lower lobe biopsy. EGFR exon 19 deletion (p.delE746_A750) detected at VAF 45%. TP53 R273H mutation (VAF 40%). CTNNB1 S37F mutation (VAF 12%). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 8%. TMB 3 mutations/Mb.
+<imaging_report>CT chest/abdomen/pelvis shows 4.0 cm left lower lobe mass, 1.5 cm right lower lobe nodule, left adrenal mass 2.0 cm, and mediastinal lymphadenopathy at stations 5 and 7.
+<imaging_report>MRI brain shows two enhancing lesions: left occipital lobe 14 mm and right parietal lobe 9 mm, consistent with brain metastases.
+<clinical_note>Assessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma with brain metastases. Plan: SRS to brain metastases followed by osimertinib 80 mg daily. Osimertinib preferred given CNS efficacy data.
+<radiation>SRS to left occipital brain metastasis (14 mm) at 21 Gy in single fraction and right parietal brain metastasis (9 mm) at 21 Gy in single fraction.
+<systemic>Started osimertinib 80 mg daily for EGFR exon 19 deletion-positive Stage IV NSCLC with brain metastases.
+<adverse_event>Grade 1 diarrhea with 2-3 loose stools per day on osimertinib. Self-limited and not requiring treatment.
+<imaging_report>Restaging CT at 6 weeks shows left lower lobe mass decreased from 4.0 cm to 2.5 cm. Right lower lobe nodule decreased to 0.8 cm. Left adrenal mass decreased to 1.3 cm. Partial response.
+<imaging_report>MRI brain at 8 weeks shows decrease in both treated lesions. Left occipital now 8 mm, right parietal 5 mm. No new intracranial lesions.
+<clinical_note>Assessment: Excellent systemic and intracranial response. ECOG improved to 0. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+<imaging_report>CT at 4 months shows continued response. Left lower lobe mass 2.0 cm. Left adrenal 0.9 cm. Right lower lobe nodule barely visible.
+<imaging_report>MRI brain at 4 months shows continued regression of treated brain lesions. No new lesions.
+<imaging_report>CT at 8 months shows stable disease. Left lower lobe 1.9 cm. Left adrenal stable.
+<imaging_report>CT at 12 months stable. Left lower lobe 1.8 cm. No new disease.
+<imaging_report>MRI brain at 12 months stable. Treated lesions show post-radiation changes. No new brain metastases.
+<clinical_note>Assessment: Durable response to osimertinib at 12 months. Extracranial and intracranial disease controlled. Minimal side effects. Plan: Continue osimertinib. Surveillance imaging.
+<imaging_report>CT at 16 months stable disease. Left lower lobe 1.9 cm. No progression.
+<imaging_report>CT at 20 months shows slight increase in left lower lobe mass to 2.4 cm. Left adrenal stable. No new lesions. Borderline stable disease, not meeting RECIST criteria for progression.
+<clinical_note>Assessment: Subtle increase in primary tumor at 20 months but not meeting progression criteria. Plan: Short-interval follow-up CT in 6 weeks to clarify trend. Continue osimertinib.
+<imaging_report>Follow-up CT at 21.5 months shows left lower lobe mass stable at 2.3 cm. No definite progression. Continue current management.
+<new_patient>
+<demographics>Patient is a 73-year-old African American female, former smoker with 20-pack-year history, quit 15 years ago. ECOG performance status 1. Comorbidities include hypertension, obesity, and type 2 diabetes.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right lower lobe (C34.3). TNM staging T3N1M1a with pleural metastases and malignant pleural effusion.
+<pathology_report>Thoracentesis with pleural fluid cytology positive for adenocarcinoma. Cell block TTF-1 positive, Napsin A positive. Concurrent CT-guided core biopsy of right lower lobe mass reveals moderately differentiated adenocarcinoma with acinar and solid patterns. Tissue submitted for molecular testing.
+<ngs_report>NGS (Tempus xT) on right lower lobe biopsy. EGFR L858R mutation detected (VAF 36%). TP53 M237I mutation (VAF 32%). No additional driver alterations. No ALK, ROS1, BRAF, MET, RET, or KRAS mutations. PD-L1 TPS 25%. TMB 4 mutations/Mb.
+<clinical_note>Assessment: Stage IV (M1a) EGFR L858R-mutant adenocarcinoma with malignant pleural effusion. Plan: Start osimertinib 80 mg daily. Indwelling pleural catheter for symptom management. Monitor for response.
+<systemic>Started osimertinib 80 mg daily for EGFR L858R-mutant Stage IV NSCLC.
+<surgery>Indwelling pleural catheter (PleurX) placed in the right pleural space for management of recurrent symptomatic malignant pleural effusion.
+<imaging_report>Baseline CT shows 4.5 cm right lower lobe mass, pleural thickening and nodularity along the right hemithorax, and large right pleural effusion. Right hilar lymphadenopathy. No distant organ metastases.
+<adverse_event>Grade 2 hyperglycemia exacerbated by disease-related stress, requiring adjustment of diabetes medications. Not directly attributable to osimertinib.
+<adverse_event>Grade 1 dry skin and mild rash on face managed with emollients.
+<imaging_report>Restaging CT at 6 weeks shows right lower lobe mass decreased to 3.2 cm. Pleural thickening decreased. Pleural effusion significantly reduced with catheter in place. Partial response.
+<clinical_note>Assessment: Good response to osimertinib at 6 weeks. Pleural effusion improving with catheter drainage diminishing. Plan: Continue osimertinib. Trial catheter clamping if output continues to decrease.
+<imaging_report>CT at 3 months shows right lower lobe mass 2.8 cm. Minimal residual pleural effusion. Pleural nodularity decreased.
+<surgery>PleurX catheter removed after successful pleurodesis with no significant fluid reaccumulation over 2 weeks of clamping.
+<imaging_report>CT at 6 months shows stable right lower lobe mass at 2.6 cm. No pleural effusion. No new disease. Stable partial response.
+<imaging_report>MRI brain at 6 months is negative for brain metastases.
+<imaging_report>CT at 9 months stable. Right lower lobe 2.5 cm. No progression.
+<clinical_note>Assessment: Continued response to osimertinib at 9 months. Well tolerated. Diabetes well controlled. ECOG 1. Plan: Continue osimertinib. Routine surveillance.
+<imaging_report>CT at 12 months shows stable disease. Right lower lobe 2.6 cm. No new lesions.
+<imaging_report>CT at 15 months shows new bilateral pulmonary nodules (largest 0.8 cm) and slight increase in right lower lobe mass to 3.1 cm. Progressive disease.
+<clinical_note>Assessment: Progressive disease on osimertinib at 15 months. Plan: Tissue biopsy for resistance mechanism. Discuss platinum-pemetrexed chemotherapy. Consider clinical trial options given comorbidities and functional status.
+<new_patient>
+<demographics>Patient is a 45-year-old Chinese American female, never smoker. ECOG performance status 0. No significant past medical history. Diagnosed after presenting with hemoptysis.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T2aN2M1b with mediastinal lymphadenopathy, bone metastases to ribs and thoracic spine, and liver metastasis.
+<pathology_report>Bronchoscopic biopsy of left upper lobe endobronchial mass reveals well-differentiated adenocarcinoma with lepidic and acinar patterns. TTF-1 strongly positive, Napsin A positive. No necrosis. Extensive tissue submitted for molecular profiling.
+<ngs_report>Comprehensive genomic profiling (FoundationOne CDx) on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 52%. TP53 wild type. No other pathogenic alterations detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS mutations. PD-L1 TPS 0%. TMB 1 mutation/Mb.
+<clinical_note>Assessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma in a young never-smoking Chinese American female. EGFR mutation without TP53 co-mutation is a favorable prognostic feature. Plan: Start osimertinib 80 mg daily. Denosumab for bone metastases. Baseline brain MRI.
+<systemic>Started osimertinib 80 mg daily for EGFR exon 19 deletion-positive Stage IV NSCLC.
+<systemic>Started denosumab 120 mg subcutaneously every 4 weeks for bone metastatic disease.
+<imaging_report>Baseline CT shows 2.8 cm left upper lobe mass, station 5 and 7 lymphadenopathy, sclerotic and lytic lesions in right 6th and 8th ribs and T7 vertebral body, and a 1.5 cm hepatic lesion in segment 6.
+<imaging_report>MRI brain negative for intracranial metastases.
+<imaging_report>Restaging CT at 6 weeks shows left upper lobe mass decreased from 2.8 cm to 1.4 cm. Lymphadenopathy resolved. Hepatic lesion decreased to 0.7 cm. Bone lesions show sclerotic healing. Excellent partial response.
+<adverse_event>Grade 1 skin dryness and periungual fissures. Managed with moisturizer and cotton gloves at night.
+<clinical_note>Assessment: Deep partial response to osimertinib at 6 weeks. Favorable biology with exon 19 deletion and wild-type TP53. Plan: Continue osimertinib. Anticipate durable response.
+<imaging_report>CT at 4 months shows left upper lobe residual 0.8 cm. Hepatic lesion no longer clearly visualized. Bone lesions sclerotic. Near-complete response.
+<imaging_report>CT at 8 months shows near-complete response. Left upper lobe residual 0.6 cm. No measurable disease elsewhere.
+<imaging_report>MRI brain at 9 months negative.
+<imaging_report>CT at 12 months shows continued near-complete response. Left upper lobe residual 0.5 cm, likely fibrosis.
+<clinical_note>Assessment: Durable near-complete response at 12 months on osimertinib. Exceptional responder. ECOG 0. No significant toxicity. Plan: Continue osimertinib indefinitely.
+<imaging_report>CT at 16 months shows stable. Left upper lobe 0.5 cm unchanged.
+<imaging_report>CT at 20 months shows stable. No measurable disease. Continued exceptional response.
+<imaging_report>PET/CT at 24 months shows no FDG-avid disease. Complete metabolic response. Residual left upper lobe opacity (SUV max 1.2) consistent with fibrosis.
+<clinical_note>Assessment: Complete metabolic response at 24 months on osimertinib. Continued exceptional response. Plan: Continue osimertinib. Discuss potential for long-term disease control. Surveillance imaging every 4 months.
+<new_patient>
+<demographics>Patient is a 67-year-old Caucasian male, former smoker with 25-pack-year history, quit 8 years ago. ECOG performance status 1. History of benign prostatic hyperplasia and gout.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right upper lobe (C34.1). TNM staging T4N3M1b with invasion of the superior vena cava, supraclavicular lymphadenopathy, and bone metastases to lumbar spine and pelvis.
+<pathology_report>Supraclavicular lymph node excisional biopsy reveals metastatic adenocarcinoma with solid and micropapillary predominant patterns, indicating high-grade histology. TTF-1 positive, Napsin A weakly positive. Lymphovascular invasion present. Tissue sent for molecular testing.
+<ngs_report>NGS (FoundationOne CDx) on supraclavicular lymph node. EGFR L858R mutation (VAF 55%). TP53 R249S mutation (VAF 50%). RB1 loss (homozygous deletion). CDKN2A/B homozygous deletion. No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 30%. TMB 6 mutations/Mb.
+<clinical_note>Assessment: Stage IV EGFR L858R-mutant adenocarcinoma with aggressive pathologic features (solid/micropapillary pattern, RB1 loss). RB1 loss and TP53 co-mutation raise concern for potential transformation to small cell lung cancer at progression. Plan: Start erlotinib 150 mg daily. Close monitoring given high-risk molecular profile.
+<systemic>Started erlotinib 150 mg daily for EGFR L858R-mutant Stage IV NSCLC.
+<systemic>Started zoledronic acid 4 mg IV every 4 weeks for bone metastases.
+<imaging_report>Baseline CT shows 6.2 cm right upper lobe mass invading the SVC with moderate SVC narrowing, bulky mediastinal and supraclavicular lymphadenopathy, and lytic lesions in L3 and right iliac bone. No hepatic or adrenal metastases.
+<imaging_report>MRI brain negative for brain metastases.
+<adverse_event>Grade 2 acneiform rash on face, scalp, and upper trunk. Grade 2 diarrhea with 5-6 stools daily, requiring loperamide and dose reduction consideration.
+<adverse_event>Erlotinib dose reduced from 150 mg to 100 mg daily due to persistent grade 2 diarrhea not adequately controlled with loperamide.
+<imaging_report>Restaging CT at 6 weeks shows right upper lobe mass decreased from 6.2 cm to 4.5 cm. SVC narrowing improved. Lymphadenopathy decreased. Partial response. Bone lesions show early sclerotic change.
+<clinical_note>Assessment: Partial response to erlotinib at 6 weeks despite dose reduction. Skin and GI toxicity improved at 100 mg dose. Plan: Continue erlotinib 100 mg. Repeat imaging in 3 months.
+<imaging_report>CT at 4 months shows continued response. Right upper lobe mass 3.8 cm. Lymphadenopathy further decreased.
+<imaging_report>CT at 7 months shows new small bilateral pleural effusions and slight increase in right upper lobe mass to 4.2 cm. Concerning for early progression.
+<clinical_note>Assessment: Concerning for progression at 7 months on erlotinib. Relatively short PFS consistent with aggressive molecular profile. Plan: Liquid biopsy for T790M and resistance analysis. If T790M positive, switch to osimertinib. If negative, consider rebiopsy to evaluate for small cell transformation given RB1 loss.
+<ngs_report>Liquid biopsy (Guardant360) detects EGFR L858R (VAF 22%) but no T790M mutation. No new targetable alterations. Rising ctDNA fraction concerning for progression.
+<pathology_report>CT-guided rebiopsy of progressing right upper lobe mass reveals transformation to high-grade neuroendocrine carcinoma (small cell lung cancer). Positive for synaptophysin, chromogranin A, and CD56. Ki-67 proliferative index greater than 80%. TTF-1 remains positive. EGFR L858R still detectable by PCR, confirming clonal origin from original adenocarcinoma.
+<clinical_note>Assessment: Small cell transformation of EGFR-mutant adenocarcinoma at 7 months, consistent with the high-risk molecular profile (RB1 loss, TP53 mutation). Plan: Discontinue erlotinib. Start cisplatin/etoposide chemotherapy for transformed small cell histology. Prophylactic cranial irradiation if responsive.
+<systemic>Discontinued erlotinib. Started cisplatin 80 mg/m2 day 1 and etoposide 100 mg/m2 days 1-3, every 3 weeks for small cell transformation.
+<adverse_event>Grade 3 neutropenia after first cycle of cisplatin/etoposide. Managed with pegfilgrastim. Grade 2 nausea and vomiting.
+<imaging_report>Restaging CT after 3 cycles of cisplatin/etoposide shows significant decrease in right upper lobe mass from 4.2 cm to 2.0 cm. Pleural effusions resolved. Partial response to platinum-etoposide chemotherapy.
+<new_patient>
+<demographics>Patient is a 56-year-old Middle Eastern male, never smoker. ECOG performance status 0. No significant past medical history. Incidental finding on pre-employment chest X-ray.
+<diagnosis>Diagnosed with Stage IIIB non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left lower lobe (C34.3). TNM staging T3N2M0 with ipsilateral mediastinal lymphadenopathy and chest wall invasion. No distant metastases.
+<pathology_report>CT-guided biopsy of left lower lobe mass reveals moderately differentiated adenocarcinoma with acinar predominant pattern and focal signet ring features. TTF-1 positive, Napsin A positive, CK7 positive. Specimen submitted for comprehensive genomic profiling.
+<ngs_report>NGS (Tempus xT) on left lower lobe biopsy. EGFR exon 19 deletion (p.L747_T751del) detected at VAF 44%. TP53 G266V mutation (VAF 38%). APC truncating mutation (VAF 15%). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 5%. TMB 3 mutations/Mb.
+<clinical_note>Assessment: Stage IIIB unresectable EGFR exon 19 deletion-positive adenocarcinoma with chest wall invasion and N2 disease. Plan: Concurrent chemoradiation per standard of care followed by consolidation osimertinib. Staging brain MRI.
+<imaging_report>CT shows 4.5 cm left lower lobe mass abutting and invading the posterolateral chest wall with rib erosion. Ipsilateral mediastinal lymphadenopathy at stations 5 and 7 (largest 2.3 cm). No pleural effusion.
+<imaging_report>PET/CT confirms FDG-avid left lower lobe mass (SUV max 11.8) and FDG-avid mediastinal nodes (SUV max 9.2). No distant FDG-avid disease.
+<imaging_report>MRI brain negative for intracranial metastases.
+<systemic>Started concurrent carboplatin AUC 2 weekly with thoracic radiation.
+<radiation>Thoracic radiation therapy to left lower lobe primary with chest wall involvement and involved mediastinal lymph node stations, 60 Gy in 30 fractions.
+<adverse_event>Grade 2 radiation pneumonitis developing 4 weeks post-completion of radiation. Treated with prednisone 40 mg with slow taper over 8 weeks.
+<imaging_report>Post-chemoradiation CT shows left lower lobe mass decreased from 4.5 cm to 2.2 cm. Mediastinal lymphadenopathy resolved. Patchy ground-glass opacities in left lower lobe consistent with radiation pneumonitis. No distant disease.
+<clinical_note>Assessment: Good response to chemoradiation. Radiation pneumonitis improving on steroid taper. Plan: Start consolidation osimertinib once steroid dose is below prednisone 10 mg daily to avoid confounding immune suppression. Monitor for pneumonitis flare.
+<systemic>Started consolidation osimertinib 80 mg daily after resolution of radiation pneumonitis and completion of steroid taper.
+<adverse_event>Mild recurrence of grade 1 pneumonitis-like symptoms 2 weeks after starting osimertinib. CT shows stable ground-glass opacities. Managed with short course of prednisone 20 mg taper. Osimertinib continued.
+<imaging_report>CT at 3 months on consolidation osimertinib shows left lower lobe residual 1.8 cm with fibrotic changes. Pneumonitis opacities resolved. No distant disease.
+<imaging_report>CT at 6 months shows left lower lobe 1.6 cm. Post-radiation fibrosis. No recurrence.
+<imaging_report>CT at 9 months stable. Left lower lobe residual 1.5 cm. No progression.
+<clinical_note>Assessment: Stable disease at 9 months on consolidation osimertinib. Pneumonitis resolved. Tolerating treatment well. Plan: Continue osimertinib. Surveillance imaging every 3 months.
+<imaging_report>CT at 12 months stable. Left lower lobe 1.5 cm with fibrosis. No new lesions.
+<new_patient>
+<demographics>Patient is a 49-year-old Filipino female, never smoker. ECOG performance status 0. No significant comorbidities. Presented with chest pain and shortness of breath.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T4N2M1c with mediastinal invasion, ipsilateral mediastinal lymphadenopathy, multiple brain metastases (more than 10 lesions), and bone metastases.
+<pathology_report>Transbronchial biopsy of left upper lobe mass reveals moderately differentiated adenocarcinoma with acinar pattern. TTF-1 positive, Napsin A positive, CK7 positive. Tissue submitted for molecular testing. Additional cell block prepared.
+<ngs_report>NGS (FoundationOne CDx) on transbronchial biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 58%. TP53 P278L mutation (VAF 52%). SMAD4 loss (homozygous deletion). No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 3%. TMB 2 mutations/Mb.
+<imaging_report>CT chest/abdomen/pelvis shows 5.5 cm left upper lobe mass invading the mediastinum, encasing the left pulmonary artery. Ipsilateral mediastinal lymphadenopathy at stations 5, 6, and 7. Lytic lesions in bilateral ribs, thoracic and lumbar spine. No hepatic or adrenal metastases.
+<imaging_report>MRI brain shows innumerable (more than 10) enhancing metastases scattered throughout both cerebral hemispheres and posterior fossa. Largest lesion in the right parietal lobe measuring 22 mm with surrounding edema. Findings not amenable to SRS.
+<clinical_note>Assessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma with high intracranial disease burden (more than 10 brain metastases, not amenable to SRS). Plan: Whole brain radiation therapy (WBRT) followed by osimertinib 80 mg daily. Dexamethasone for cerebral edema. Bone-directed therapy.
+<radiation>Whole brain radiation therapy (WBRT) delivering 30 Gy in 10 fractions with hippocampal avoidance technique plus memantine to reduce neurocognitive effects.
+<systemic>Started osimertinib 80 mg daily after completion of WBRT for EGFR exon 19 deletion-positive NSCLC with brain metastases.
+<systemic>Started denosumab 120 mg subcutaneously every 4 weeks for bone metastases.
+<adverse_event>Grade 2 fatigue during and following WBRT. Grade 1 alopecia. Short-term memory difficulties reported.
+<imaging_report>MRI brain at 6 weeks post-WBRT and 4 weeks on osimertinib shows decrease in size of multiple brain metastases. Largest right parietal lesion now 14 mm. Edema decreased. Encouraging intracranial response.
+<imaging_report>Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.5 cm to 3.8 cm. Lymphadenopathy decreased. Bone lesions show early sclerotic change. Partial response.
+<clinical_note>Assessment: Encouraging systemic and intracranial response to WBRT plus osimertinib. Fatigue improving. Plan: Continue osimertinib. Repeat brain MRI in 3 months. Monitor neurocognitive function.
+<adverse_event>Grade 1 rash and grade 1 diarrhea on osimertinib. Self-limited.
+<imaging_report>CT at 4 months shows left upper lobe mass 2.8 cm. Lymphadenopathy further decreased. Continued partial response.
+<imaging_report>MRI brain at 4 months shows continued decrease in brain metastases. Most lesions significantly smaller or resolved. Largest now 9 mm. Significant intracranial response.
+<imaging_report>CT at 8 months shows left upper lobe mass 2.4 cm. Stable to improved. Bone lesions sclerotic.
+<imaging_report>MRI brain at 8 months shows most brain metastases resolved. Few small residual enhancing lesions. Best intracranial response achieved.
+<clinical_note>Assessment: Excellent combined response to WBRT and osimertinib at 8 months. Most brain metastases resolved. Systemic disease controlled. Neurocognitive function stable. ECOG 0. Plan: Continue osimertinib. Surveillance imaging.
+<imaging_report>CT at 12 months stable. Left upper lobe mass 2.3 cm.
+<imaging_report>MRI brain at 12 months shows stable residual post-treatment changes. No new brain metastases.
+<imaging_report>CT at 16 months shows new leptomeningeal enhancement along the left sylvian fissure on brain MRI, concerning for leptomeningeal carcinomatosis. Extracranial disease remains stable.
+<clinical_note>Assessment: Suspected leptomeningeal disease progression at 16 months on osimertinib. Parenchymal brain metastases remain controlled but leptomeningeal carcinomatosis is a poor prognostic sign. Plan: Lumbar puncture for CSF cytology and EGFR testing. If confirmed, consider osimertinib dose escalation to 160 mg daily (compassionate use) or intrathecal therapy.
+<ngs_report>CSF liquid biopsy detects EGFR exon 19 deletion. CSF cytology positive for malignant cells consistent with adenocarcinoma. Confirms leptomeningeal carcinomatosis.
+<systemic>Osimertinib dose escalated from 80 mg to 160 mg daily for leptomeningeal carcinomatosis to increase CNS drug levels.
+<new_patient>
+<demographics>Patient is a 75-year-old Caucasian male, former smoker with 35-pack-year history, quit 20 years ago. ECOG performance status 2. Comorbidities include COPD (on home oxygen 2L), congestive heart failure with reduced ejection fraction (35%), and peripheral vascular disease.
+<diagnosis>Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T4N2M1a with mediastinal invasion, ipsilateral mediastinal lymphadenopathy, and malignant pleural effusion. No distant organ metastases identified.
+<pathology_report>Pleural fluid cytology and cell block reveal adenocarcinoma. TTF-1 positive, Napsin A positive. Cell block used for molecular testing given patient frailty limiting tissue biopsy.
+<ngs_report>NGS (Tempus xT) on pleural fluid cell block. EGFR L858R mutation detected (VAF 28%). TP53 E285K mutation (VAF 24%). No other driver alterations. No ALK, ROS1, BRAF, MET, RET, or KRAS mutations. PD-L1 TPS 10%. TMB 5 mutations/Mb.
+<clinical_note>Assessment: Stage IV EGFR L858R-mutant adenocarcinoma in an elderly patient with significant cardiopulmonary comorbidities. ECOG 2 with limited functional reserve. Platinum chemotherapy contraindicated given heart failure and COPD. Plan: Erlotinib 150 mg daily as targeted therapy. Careful monitoring given cardiac history. Goals of care discussion ongoing.
+<systemic>Started erlotinib 150 mg daily for EGFR L858R-mutant Stage IV NSCLC. Chemotherapy avoided due to significant cardiopulmonary comorbidities.
+<surgery>Tunneled pleural catheter (PleurX) placed for management of symptomatic left malignant pleural effusion.
+<imaging_report>CT chest/abdomen/pelvis shows 5.0 cm left upper lobe mass invading mediastinal fat, enlarged ipsilateral mediastinal lymph nodes, and large left pleural effusion. Heart is enlarged with cardiomegaly. Emphysematous changes bilateral upper lobes.
+<adverse_event>Grade 1 rash on face. Grade 1 diarrhea. Erlotinib tolerated without cardiac exacerbation at 2-week follow-up.
+<imaging_report>Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.0 cm to 3.8 cm. Left pleural effusion improved with catheter drainage and treatment effect. Partial response.
+<clinical_note>Assessment: Encouraging response to erlotinib. Functional status slightly improved. ECOG 2. Cardiac status stable. Pleural drainage decreasing. Plan: Continue erlotinib. Cardiology follow-up. Trial PleurX clamping.
+<imaging_report>CT at 3 months shows left upper lobe mass 3.2 cm. Pleural effusion minimal. Continued response.
+<adverse_event>Grade 2 anorexia and weight loss of 3 kg. Nutritional counseling initiated. Likely multifactorial (disease, erlotinib, and comorbidities).
+<imaging_report>CT at 6 months shows stable left upper lobe mass at 3.0 cm. Minimal pleural effusion. Stable disease.
+<clinical_note>Assessment: Stable disease at 6 months on erlotinib. Functional status remains limited by comorbidities. ECOG 2. Weight stable with nutritional support. Plan: Continue erlotinib. Supportive care. Palliative care co-management.
+<imaging_report>CT at 9 months shows left upper lobe mass increased to 4.0 cm. New contralateral pleural effusion. New right hilar lymphadenopathy. Progressive disease.
+<clinical_note>Assessment: Progressive disease at 9 months on erlotinib. Given significant comorbidities, limited functional status, and poor candidacy for chemotherapy, options are constrained. Plan: Liquid biopsy for T790M. If positive, osimertinib may be considered with cardiac monitoring. Goals of care re-discussion. Palliative care involvement.
+<ngs_report>Liquid biopsy detects EGFR L858R (VAF 15.8%) but no T790M mutation. No other actionable targets. T790M-negative resistance.
+<clinical_note>Assessment: T790M-negative progression on erlotinib. Patient is not a candidate for platinum chemotherapy given heart failure and COPD. Options limited. Plan: Best supportive care. Hospice referral discussed. Patient wishes to continue low-toxicity therapy. Consider continuing erlotinib for potential residual benefit versus transitioning to comfort care. Family meeting scheduled.
+<systemic>After goals of care discussion, continued erlotinib with best supportive care. Patient not a candidate for further systemic therapy given comorbidities. Enrolled in home hospice with continued erlotinib for symptom management.

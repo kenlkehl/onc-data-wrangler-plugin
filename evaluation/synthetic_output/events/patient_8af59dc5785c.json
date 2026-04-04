@@ -1,0 +1,92 @@
+{
+  "patient_id": "patient_8af59dc5785c",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 68-year-old Caucasian male, height 5 feet 11 inches, weight 210 pounds, ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 68, patient presented with 2-month history of rib pain and exertional dyspnea; workup revealed hemoglobin 9.0 g/dL, creatinine 1.3 mg/dL, calcium 10.6 mg/dL, beta-2 microglobulin 5.2 mg/L, albumin 3.1 g/dL consistent with ISS Stage III multiple myeloma."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 68, bone marrow biopsy from site C42.1 showed 55% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD38, and cytoplasmic IgG kappa; CD56 negative which is atypical; flow cytometry confirmed aberrant plasma cells comprising 48% of total cellularity."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 68, FISH analysis on bone marrow aspirate showed t(4;14) in 55% of plasma cells; no del(17p) or t(14;16); gain(1q21) detected in 30% of cells; R-ISS Stage III based on ISS III, LDH elevated at 265 U/L, and high-risk t(4;14)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, serum protein electrophoresis showed M-spike of 5.1 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 310 mg/L, lambda 15 mg/L, kappa/lambda ratio 20.7; marked rouleaux formation on peripheral blood smear; serum viscosity mildly elevated at 2.8 centipoise."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, PET/CT showed widespread FDG-avid skeletal disease involving the axial and appendicular skeleton with at least 15 focal lesions; largest in the right 8th rib measuring 3.8 cm with cortical destruction; FDG-avid lesion in the sacrum with SUV 9.2; no extramedullary plasmacytomas."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, MRI of the pelvis and femora showed diffuse marrow replacement with multiple focal lesions in the sacrum and bilateral iliac bones; a 2.5 cm lesion in the left femoral neck raised concern for pathologic fracture risk and orthopedic consultation was recommended."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 68, patient received prophylactic radiation therapy to the left femoral neck lesion, 20 Gy in 5 fractions, to reduce fracture risk; concurrent initiation of denosumab 120 mg subcutaneously monthly given creatinine clearance of 52 mL/min."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, initiated VRd induction therapy with standard dosing on 28-day cycles; plan for 4 to 6 cycles followed by consideration of autologous stem cell transplant; started acyclovir prophylaxis and low-molecular-weight heparin for DVT prevention given higher thrombotic risk."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycle 1 of VRd completed; SPEP at end of cycle 1 showed M-spike decreased to 3.8 g/dL indicating early response."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycle 2 of VRd completed; M-spike further decreased to 2.2 g/dL; serum free kappa light chain decreased to 125 mg/L; hemoglobin improved to 10.1 g/dL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, after cycle 3, patient developed grade 2 peripheral neuropathy in bilateral lower extremities and grade 2 constipation; bortezomib dose reduced to 1.0 mg/m2; aggressive bowel regimen instituted."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycles 4 through 6 of VRd completed with dose-reduced bortezomib; post-induction SPEP showed M-spike 0.5 g/dL; serum free kappa light chain 28 mg/L; response classified as very good partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, pre-transplant evaluation confirmed fitness for autologous stem cell transplant despite age 69; cardiac evaluation showed EF 58% with no significant valvular disease; pulmonary function adequate."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, received high-dose melphalan 200 mg/m2 followed by autologous stem cell transplant; cell dose 4.2 million CD34-positive cells per kilogram."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 69, post-transplant complicated by grade 3 mucositis, grade 2 diarrhea, and febrile neutropenia on day plus 8; blood cultures grew coagulase-negative staphylococcus treated with vancomycin; engraftment on day plus 15."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 69, day plus 100 bone marrow biopsy showed 4% plasma cells; SPEP no M-spike; immunofixation showed faint IgG kappa band; MRD by multiparameter flow cytometry at 10^-5 sensitivity was positive with 0.05% residual clonal plasma cells; response classified as complete response, MRD positive."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, started lenalidomide maintenance at 10 mg with plan for indefinite treatment given high-risk cytogenetics with t(4;14) and gain(1q21)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70, one year post-transplant; maintained in complete response; immunofixation became negative indicating deepening to stringent complete response; repeat MRD at 10^-5 now negative; lenalidomide maintenance continued at 10 mg."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 70, developed grade 2 fatigue and grade 1 anemia with hemoglobin 10.8 g/dL on lenalidomide maintenance; dose reduced to 5 mg; fatigue improved."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, two years post-transplant; sustained stringent complete response with MRD negativity; peripheral neuropathy improved to grade 1; continued on lenalidomide 5 mg maintenance."
+    }
+  ],
+  "scenario_index": 8,
+  "scenario_blurb": "Multiple myeloma, ISS stage II-III. IgG kappa or IgA lambda subtypes. Treated with VRd (bortezomib, lenalidomide, dexamethasone) induction followed by autologous stem cell transplant and lenalidomide maintenance. Include serum protein electrophoresis, free light chains, beta-2 microglobulin, FISH for del(17p) and t(4;14).",
+  "scenario_label": "myeloma"
+}
