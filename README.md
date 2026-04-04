@@ -15,6 +15,7 @@ A Claude Code plugin for oncology data wrangling: extracting structured data fro
 | Red-Team | `/onc-data-wrangler:red-team` | Test agent resistance to prompt injection PHI exfiltration |
 | Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description |
 | Answer Questions | `/onc-data-wrangler:answer-questions` | Answer clinical questions about patients from their notes with confidence scores |
+| Derive Dataset | `/onc-data-wrangler:derive-dataset` | Create a one-row-per-patient analysis dataset with biostatistics guidance and reproducible script |
 
 ## Extraction LLM Backends
 
@@ -52,6 +53,34 @@ The `generate-synthetic-data` skill creates realistic synthetic clinical data fr
 - `tables/encounters.csv` — One row per clinical encounter (includes `scenario_index`/`scenario_label` when multi-scenario)
 - `tables/labs.csv` — One row per lab result
 - `summary.json` — Generation metadata with per-scenario breakdown
+
+## Derive Dataset
+
+The `derive-dataset` skill creates a **one-row-per-patient analysis dataset** from a DuckDB database (built by `run-pipeline`) or raw tabular files. It combines interactive column definition with oncology and biostatistics domain expertise.
+
+**Typical workflow:**
+```
+/onc-data-wrangler:setup-project    # configure project
+/onc-data-wrangler:run-pipeline     # build DuckDB
+/onc-data-wrangler:derive-dataset   # create analysis dataset
+```
+
+**Key features:**
+
+- **Interactive column definition** — Describe columns in natural language (e.g., "overall survival time", "stage as binary IV vs I-III") or reference database columns directly. A running column tracker and 5-row preview update after each addition.
+- **Oncology domain guidance** — Disambiguates clinically important distinctions:
+  - *Stage IV vs advanced vs metastatic*: de novo stage IV only, or including recurrent metastatic disease?
+  - *Line of therapy*: relative to what index event (metastatic diagnosis, initial diagnosis, surgery)?
+  - *Survival endpoints*: time zero definition, event indicators, censoring rules
+- **Biostatistics guidance** — Proactively identifies methodological pitfalls:
+  - Left truncation / delayed entry for referral-based cohorts (immortal time bias)
+  - Risk set adjustment requiring both `entry_time` and `event_time` fields
+  - Multi-tumor patient handling and many-to-one aggregation strategies
+- **Reproducible script** — Generates a standalone Python script (`derive_dataset.py`) using only `duckdb` + `pandas` + `numpy`. The script recreates the exact dataset without any plugin dependencies.
+
+**Outputs:**
+- `analysis_dataset.csv` — The final one-row-per-patient dataset
+- `derive_dataset.py` — Standalone reproducible derivation script
 
 ## Privacy Modes
 
@@ -98,6 +127,9 @@ claude --plugin-dir .
 
 # 7. Query your database
 #    /onc-data-wrangler:query-database
+
+# 8. Build an analysis dataset
+#    /onc-data-wrangler:derive-dataset
 ```
 
 ## Setup
