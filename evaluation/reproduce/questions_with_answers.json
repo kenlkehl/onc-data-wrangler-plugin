@@ -1,0 +1,134 @@
+[
+  {
+    "id": 1,
+    "category": "demographics",
+    "question": "What percentage of patients were male?",
+    "reported_result": "51.0%"
+  },
+  {
+    "id": 2,
+    "category": "demographics",
+    "question": "What percentage of patients were female?",
+    "reported_result": "49.0%"
+  },
+  {
+    "id": 3,
+    "category": "demographics",
+    "question": "What was the mean age of the cohort?",
+    "reported_result": "58.9 years"
+  },
+  {
+    "id": 4,
+    "category": "demographics",
+    "question": "What was the standard deviation of age?",
+    "reported_result": "10.8 years"
+  },
+  {
+    "id": 5,
+    "category": "demographics",
+    "question": "What was the age range of the cohort?",
+    "reported_result": "28-77 years"
+  },
+  {
+    "id": 6,
+    "category": "demographics",
+    "question": "How many NSCLC EGFR-mutant patients were in the cohort?",
+    "reported_result": "15"
+  },
+  {
+    "id": 7,
+    "category": "demographics",
+    "question": "How many HER2+ breast cancer patients were in the cohort?",
+    "reported_result": "12"
+  },
+  {
+    "id": 8,
+    "category": "staging",
+    "question": "What percentage of NSCLC EGFR patients had Stage IV disease?",
+    "reported_result": "87%"
+  },
+  {
+    "id": 9,
+    "category": "staging",
+    "question": "What percentage of melanoma patients had Stage IV disease?",
+    "reported_result": "67%"
+  },
+  {
+    "id": 10,
+    "category": "staging",
+    "question": "What percentage of DLBCL patients had Stage IV disease?",
+    "reported_result": "50%"
+  },
+  {
+    "id": 11,
+    "category": "treatment",
+    "question": "How many total systemic therapy events were recorded?",
+    "reported_result": "316"
+  },
+  {
+    "id": 12,
+    "category": "treatment",
+    "question": "How many total surgery events were recorded?",
+    "reported_result": "58"
+  },
+  {
+    "id": 13,
+    "category": "treatment",
+    "question": "How many total radiation events were recorded?",
+    "reported_result": "50"
+  },
+  {
+    "id": 14,
+    "category": "treatment",
+    "question": "What was the DLBCL systemic therapy rate per patient?",
+    "reported_result": "5.1 per patient"
+  },
+  {
+    "id": 15,
+    "category": "treatment",
+    "question": "What was the melanoma surgery rate per patient?",
+    "reported_result": "2.2 per patient"
+  },
+  {
+    "id": 16,
+    "category": "encounters",
+    "question": "How many total clinical encounters were recorded?",
+    "reported_result": "1,997"
+  },
+  {
+    "id": 17,
+    "category": "encounters",
+    "question": "What was the mean encounters per patient?",
+    "reported_result": "20.0"
+  },
+  {
+    "id": 18,
+    "category": "encounters",
+    "question": "What percentage of encounters were in Medical Oncology?",
+    "reported_result": "54.4%"
+  },
+  {
+    "id": 19,
+    "category": "labs",
+    "question": "How many total laboratory results were recorded?",
+    "reported_result": "2,188"
+  },
+  {
+    "id": 20,
+    "category": "labs",
+    "question": "What was the mean WBC value?",
+    "reported_result": "7.2 10^9/L"
+  },
+  {
+    "id": 21,
+    "category": "labs",
+    "question": "What was the mean hemoglobin value?",
+    "reported_result": "12.7 g/dL"
+  },
+  {
+    "id": 22,
+    "category": "labs",
+    "question": "What was the mean platelet count?",
+    "reported_result": "238.1 10^9/L"
+  }
+]

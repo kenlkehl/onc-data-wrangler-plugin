@@ -1,0 +1,184 @@
+{
+  "total": 22,
+  "concordant": 19,
+  "discrepant": 3,
+  "concordance_rate": 86.4,
+  "results": [
+    {
+      "id": 1,
+      "category": "demographics",
+      "question": "What percentage of patients were male?",
+      "reported": "51.0%",
+      "reproduced": "51.0",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 2,
+      "category": "demographics",
+      "question": "What percentage of patients were female?",
+      "reported": "49.0%",
+      "reproduced": "49.0",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 3,
+      "category": "demographics",
+      "question": "What was the mean age of the cohort?",
+      "reported": "58.9 years",
+      "reproduced": "58.9",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 4,
+      "category": "demographics",
+      "question": "What was the standard deviation of age?",
+      "reported": "10.8 years",
+      "reproduced": "10.8",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 5,
+      "category": "demographics",
+      "question": "What was the age range of the cohort?",
+      "reported": "28-77 years",
+      "reproduced": "28-77",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 6,
+      "category": "demographics",
+      "question": "How many NSCLC EGFR-mutant patients were in the cohort?",
+      "reported": "15",
+      "reproduced": "15",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 7,
+      "category": "demographics",
+      "question": "How many HER2+ breast cancer patients were in the cohort?",
+      "reported": "12",
+      "reproduced": "12",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 8,
+      "category": "staging",
+      "question": "What percentage of NSCLC EGFR patients had Stage IV disease?",
+      "reported": "87%",
+      "reproduced": "87.0",
+      "concordance": "DISCREPANT"
+    },
+    {
+      "id": 9,
+      "category": "staging",
+      "question": "What percentage of melanoma patients had Stage IV disease?",
+      "reported": "67%",
+      "reproduced": "62.0",
+      "concordance": "DISCREPANT"
+    },
+    {
+      "id": 10,
+      "category": "staging",
+      "question": "What percentage of DLBCL patients had Stage IV disease?",
+      "reported": "50%",
+      "reproduced": "17.0",
+      "concordance": "DISCREPANT"
+    },
+    {
+      "id": 11,
+      "category": "treatment",
+      "question": "How many total systemic therapy events were recorded?",
+      "reported": "316",
+      "reproduced": "316",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 12,
+      "category": "treatment",
+      "question": "How many total surgery events were recorded?",
+      "reported": "58",
+      "reproduced": "58",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 13,
+      "category": "treatment",
+      "question": "How many total radiation events were recorded?",
+      "reported": "50",
+      "reproduced": "50",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 14,
+      "category": "treatment",
+      "question": "What was the DLBCL systemic therapy rate per patient?",
+      "reported": "5.1 per patient",
+      "reproduced": "5.1",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 15,
+      "category": "treatment",
+      "question": "What was the melanoma surgery rate per patient?",
+      "reported": "2.2 per patient",
+      "reproduced": "2.2",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 16,
+      "category": "encounters",
+      "question": "How many total clinical encounters were recorded?",
+      "reported": "1,997",
+      "reproduced": "1997",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 17,
+      "category": "encounters",
+      "question": "What was the mean encounters per patient?",
+      "reported": "20.0",
+      "reproduced": "20.0",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 18,
+      "category": "encounters",
+      "question": "What percentage of encounters were in Medical Oncology?",
+      "reported": "54.4%",
+      "reproduced": "54.4",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 19,
+      "category": "labs",
+      "question": "How many total laboratory results were recorded?",
+      "reported": "2,188",
+      "reproduced": "2188",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 20,
+      "category": "labs",
+      "question": "What was the mean WBC value?",
+      "reported": "7.2 10^9/L",
+      "reproduced": "7.2",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 21,
+      "category": "labs",
+      "question": "What was the mean hemoglobin value?",
+      "reported": "12.7 g/dL",
+      "reproduced": "12.7",
+      "concordance": "CONCORDANT"
+    },
+    {
+      "id": 22,
+      "category": "labs",
+      "question": "What was the mean platelet count?",
+      "reported": "238.1 10^9/L",
+      "reproduced": "238.1",
+      "concordance": "CONCORDANT"
+    }
+  ]
+}
