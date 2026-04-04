@@ -1,0 +1,493 @@
+{
+  "patient_id": "patient_1ecf6d2318ff",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 63-year-old Japanese American male, light former smoker with 8-pack-year history. ECOG performance status 1. History of well-controlled asthma."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site right lower lobe (C34.3). TNM staging T2bN1M1a with contralateral pulmonary metastases and malignant pericardial effusion."
+    },
+    {
+      "type": "pathology_report",
+      "text": "CT-guided core needle biopsy of right lower lobe mass reveals well to moderately differentiated adenocarcinoma with papillary predominant pattern. TTF-1 positive, Napsin A positive. No signet ring or mucinous features. Tissue submitted for molecular analysis."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS (FoundationOne CDx) on right lower lobe biopsy. EGFR exon 21 L858R mutation (VAF 48%). EGFR T790M mutation detected at low allele frequency (VAF 2%), raising concern for pretreatment compound EGFR mutation. TP53 R282W mutation (VAF 44%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 12%. TMB 4 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR L858R-mutant adenocarcinoma. Notably, low-level pretreatment T790M detected, which has been reported in approximately 1-2% of treatment-naive EGFR-mutant NSCLC. This strongly favors first-line osimertinib over erlotinib. Plan: Start osimertinib 80 mg daily. Pericardiocentesis if hemodynamically significant."
+    },
+    {
+      "type": "systemic",
+      "text": "Started osimertinib 80 mg daily for EGFR L858R-mutant Stage IV NSCLC with pretreatment T790M."
+    },
+    {
+      "type": "surgery",
+      "text": "Pericardiocentesis performed with drainage of 450 mL of serous pericardial fluid. Cytology sent and confirmed positive for adenocarcinoma. Pericardial drain placed and removed after 48 hours."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis shows 3.5 cm right lower lobe mass, right hilar lymphadenopathy, multiple bilateral pulmonary nodules (largest 1.0 cm left upper lobe), and moderate pericardial effusion. No hepatic, adrenal, or bone metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain negative for intracranial disease."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 stomatitis on osimertinib managed with gentle oral rinses. Grade 1 decreased appetite."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows right lower lobe mass decreased from 3.5 cm to 2.2 cm. Bilateral pulmonary nodules decreased. Pericardial effusion resolved. Partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Good response to osimertinib at 6 weeks. Pericardial effusion resolved. Plan: Continue osimertinib. Surveillance imaging every 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 4 months shows continued response. Right lower lobe mass 1.8 cm. Pulmonary nodules barely visible. No pericardial effusion."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 8 months shows right lower lobe mass stable at 1.7 cm. No new disease. Stable partial response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 9 months negative."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 12 months shows stable disease. Right lower lobe 1.8 cm. No pericardial effusion. No new lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Durable response to osimertinib at 12 months. Pretreatment T790M clone appears controlled. Plan: Continue osimertinib. Consider cfDNA monitoring for emerging resistance clones."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Serial liquid biopsy (Guardant360) at 12 months shows EGFR L858R detectable at very low VAF (0.3%). T790M not detected. No new mutations. Consistent with deep molecular response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 16 months shows stable right lower lobe mass at 1.7 cm. No progression."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 20 months shows right lower lobe mass stable at 1.8 cm. No new systemic disease. Continued stable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Ongoing response at 20 months on osimertinib. Monitoring liquid biopsy intermittently. Well tolerated. ECOG 0. Plan: Continue osimertinib."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nCT-guided core needle biopsy of right lower lobe mass reveals well to moderately differentiated adenocarcinoma with papillary predominant pattern. TTF-1 positive, Napsin A positive. No signet ring or mucinous features. Tissue submitted for molecular analysis."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nNGS (FoundationOne CDx) on right lower lobe biopsy. EGFR exon 21 L858R mutation (VAF 48%). EGFR T790M mutation detected at low allele frequency (VAF 2%), raising concern for pretreatment compound EGFR mutation. TP53 R282W mutation (VAF 44%). No ALK, ROS1, BRAF, MET, RET, or KRAS alterations. PD-L1 TPS 12%. TMB 4 mutations/Mb."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stage IV EGFR L858R-mutant adenocarcinoma. Notably, low-level pretreatment T790M detected, which has been reported in approximately 1-2% of treatment-naive EGFR-mutant NSCLC. This strongly favors first-line osimertinib over erlotinib. Plan: Start osimertinib 80 mg daily. Pericardiocentesis if hemodynamically significant.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis shows 3.5 cm right lower lobe mass, right hilar lymphadenopathy, multiple bilateral pulmonary nodules (largest 1.0 cm left upper lobe), and moderate pericardial effusion. No hepatic, adrenal, or bone metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain negative for intracranial disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 10,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT at 6 weeks shows right lower lobe mass decreased from 3.5 cm to 2.2 cm. Bilateral pulmonary nodules decreased. Pericardial effusion resolved. Partial response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Good response to osimertinib at 6 weeks. Pericardial effusion resolved. Plan: Continue osimertinib. Surveillance imaging every 3 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 12,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 4 months shows continued response. Right lower lobe mass 1.8 cm. Pulmonary nodules barely visible. No pericardial effusion.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 8 months shows right lower lobe mass stable at 1.7 cm. No new disease. Stable partial response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain at 9 months negative.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 12 months shows stable disease. Right lower lobe 1.8 cm. No pericardial effusion. No new lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Durable response to osimertinib at 12 months. Pretreatment T790M clone appears controlled. Plan: Continue osimertinib. Consider cfDNA monitoring for emerging resistance clones.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 17,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nSerial liquid biopsy (Guardant360) at 12 months shows EGFR L858R detectable at very low VAF (0.3%). T790M not detected. No new mutations. Consistent with deep molecular response."
+    },
+    {
+      "event_index": 18,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 16 months shows stable right lower lobe mass at 1.7 cm. No progression.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 20 months shows right lower lobe mass stable at 1.8 cm. No new systemic disease. Continued stable disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Ongoing response at 20 months on osimertinib. Monitoring liquid biopsy intermittently. Well tolerated. ECOG 0. Plan: Continue osimertinib.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-04-27",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-05-09",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-07-08",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-09-16",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-10-18",
+        "diagnosis_code": "C34.1",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-11-17",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-12-03",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-01-24",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-03-16",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-06-25",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-07-08",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-09-23",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-10-10",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-01-19",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-03-16",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-06-09",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-08-09",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-09-04",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-12-07",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-07-08",
+        "test_name": "WBC",
+        "value": "8.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-07-08",
+        "test_name": "Hemoglobin",
+        "value": "11.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-07-08",
+        "test_name": "Platelets",
+        "value": "234",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-07-08",
+        "test_name": "Creatinine",
+        "value": "0.80",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-09-16",
+        "test_name": "WBC",
+        "value": "5.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-09-16",
+        "test_name": "Hemoglobin",
+        "value": "11.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-09-16",
+        "test_name": "Platelets",
+        "value": "257",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2022-09-16",
+        "test_name": "Creatinine",
+        "value": "1.13",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-06-25",
+        "test_name": "WBC",
+        "value": "8.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-06-25",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-06-25",
+        "test_name": "Platelets",
+        "value": "302",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2023-06-25",
+        "test_name": "Creatinine",
+        "value": "0.66",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-03-16",
+        "test_name": "WBC",
+        "value": "6.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-03-16",
+        "test_name": "Hemoglobin",
+        "value": "14.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-03-16",
+        "test_name": "Platelets",
+        "value": "196",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-03-16",
+        "test_name": "Creatinine",
+        "value": "1.02",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-12-07",
+        "test_name": "WBC",
+        "value": "7.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-12-07",
+        "test_name": "Hemoglobin",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-12-07",
+        "test_name": "Platelets",
+        "value": "163",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1ecf6d2318ff",
+        "date": "2024-12-07",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

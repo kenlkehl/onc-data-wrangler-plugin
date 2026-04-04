@@ -1,0 +1,445 @@
+{
+  "patient_id": "patient_779a56a32af9",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 55-year-old Hispanic female with a BMI of 33.2. Medical history includes obesity and hypothyroidism. Sister had breast cancer at age 50 (HER2-negative)."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 53, patient presented with a palpable right breast mass and right axillary lymphadenopathy. Biopsy confirmed invasive ductal carcinoma (8500/3), right upper inner quadrant (C50.2), grade 3, ER positive (Allred 5/8), PR negative, HER2 IHC 3+, Ki-67 60%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 53, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 40%, PR negative ("
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53, mammogram showed a 3.5 cm irregular mass in the right upper inner quadrant with suspicious microcalcifications, BIRADS 5. Ultrasound confirmed matted axillary nodes."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53, PET/CT staging revealed right breast mass (SUVmax 9.7), right axillary nodes (SUVmax 7.3), a single 1.2 cm right hepatic lobe lesion (SUVmax 4.8), and suspicious sternal lesion."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 53, de novo stage IV (cT2N2M1) HER2-positive, ER-positive breast cancer with liver and bone (sternal) metastases."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 53, FoundationOne CDx: ERBB2 amplification, PIK3CA C420R, TP53 G245S, FGFR1 amplification. TMB 5 mutations/Mb. MSS."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 53, initiated first-line THP (docetaxel, trastuzumab, pertuzumab) every 21 days plus zoledronic acid for bone metastasis."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 53, baseline LVEF 62% on MUGA scan."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 53, after cycle 3 of THP: grade 2 nausea, grade 2 alopecia, grade 1 myalgia, and grade 2 diarrhea from pertuzumab."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 54, restaging CT after 6 cycles showed complete resolution of liver lesion and stable sclerotic sternal lesion (likely healing). Breast mass decreased to 1.8 cm. Near-complete response."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 54, docetaxel discontinued after 6 cycles. Continued maintenance trastuzumab/pertuzumab plus letrozole 2.5 mg daily (postmenopausal)."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 54, LVEF 57% on surveillance echocardiogram. Asymptomatic. Continued treatment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 54, PET/CT at 9 months showed no FDG-avid disease. Complete metabolic response maintained."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 54, patient with complete response on HP maintenance and letrozole. ECOG 0. Weight stable. Tolerating regimen well. Continue surveillance every 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55, CT showed new 2.5 cm mediastinal lymph node and enlarging right axillary node. Progressive disease after 18 months on first-line therapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 55, transitioned to second-line T-DM1 3.6 mg/kg every 21 days."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55, restaging CT after 3 cycles of T-DM1 showed decreased mediastinal lymph node (1.5 cm) and stable axillary node. Partial response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 55, on T-DM1: grade 1 fatigue, grade 1 elevated AST (42), platelets stable at 140,000. Tolerable side effect profile."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, partial response on T-DM1. Plan to continue. If progression, will consider trastuzumab deruxtecan (T-DXd) as third-line therapy. Monitoring LFTs and platelets closely."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 53, right breast core biopsy: invasive ductal carcinoma, Nottingham grade 3. ER positive 40%, PR negative ("
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 53, mammogram showed a 3.5 cm irregular mass in the right upper inner quadrant with suspicious microcalcifications, BIRADS 5. Ultrasound confirmed matted axillary nodes.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 53, PET/CT staging revealed right breast mass (SUVmax 9.7), right axillary nodes (SUVmax 7.3), a single 1.2 cm right hepatic lobe lesion (SUVmax 4.8), and suspicious sternal lesion.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 6,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 53, FoundationOne CDx: ERBB2 amplification, PIK3CA C420R, TP53 G245S, FGFR1 amplification. TMB 5 mutations/Mb. MSS."
+    },
+    {
+      "event_index": 10,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 54, restaging CT after 6 cycles showed complete resolution of liver lesion and stable sclerotic sternal lesion (likely healing). Breast mass decreased to 1.8 cm. Near-complete response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 54, PET/CT at 9 months showed no FDG-avid disease. Complete metabolic response maintained.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 54, patient with complete response on HP maintenance and letrozole. ECOG 0. Weight stable. Tolerating regimen well. Continue surveillance every 3 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 55, CT showed new 2.5 cm mediastinal lymph node and enlarging right axillary node. Progressive disease after 18 months on first-line therapy.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 55, restaging CT after 3 cycles of T-DM1 showed decreased mediastinal lymph node (1.5 cm) and stable axillary node. Partial response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 55, partial response on T-DM1. Plan to continue. If progression, will consider trastuzumab deruxtecan (T-DXd) as third-line therapy. Monitoring LFTs and platelets closely.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2022-04-08",
+        "diagnosis_code": "C50.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2022-06-21",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2022-07-08",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-01-24",
+        "diagnosis_code": "C50.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-04-10",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-07-07",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-10-13",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-12-21",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-01-26",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-02-01",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-04-11",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-05-13",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-08-03",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-09-19",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-10-10",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-01-23",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-04-25",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-04-10",
+        "test_name": "WBC",
+        "value": "9.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-04-10",
+        "test_name": "Hemoglobin",
+        "value": "14.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-04-10",
+        "test_name": "Platelets",
+        "value": "167",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2023-04-10",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-01-26",
+        "test_name": "WBC",
+        "value": "4.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-01-26",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-01-26",
+        "test_name": "Platelets",
+        "value": "257",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-01-26",
+        "test_name": "Creatinine",
+        "value": "0.92",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-05-13",
+        "test_name": "WBC",
+        "value": "7.6",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-05-13",
+        "test_name": "Hemoglobin",
+        "value": "11.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-05-13",
+        "test_name": "Platelets",
+        "value": "228",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-05-13",
+        "test_name": "Creatinine",
+        "value": "1.19",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-09-19",
+        "test_name": "WBC",
+        "value": "5.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-09-19",
+        "test_name": "Hemoglobin",
+        "value": "15.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-09-19",
+        "test_name": "Platelets",
+        "value": "338",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2024-09-19",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-04-25",
+        "test_name": "WBC",
+        "value": "6.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-04-25",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-04-25",
+        "test_name": "Platelets",
+        "value": "244",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_779a56a32af9",
+        "date": "2025-04-25",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

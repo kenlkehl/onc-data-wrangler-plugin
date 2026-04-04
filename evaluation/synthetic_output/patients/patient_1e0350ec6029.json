@@ -1,0 +1,442 @@
+{
+  "patient_id": "patient_1e0350ec6029",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 49-year-old Hispanic male with no prior skin cancer history, presenting with a rapidly enlarging dark lesion on his left upper arm."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 49, patient was diagnosed with malignant melanoma (ICD-O morphology 8720/3) of the skin of the upper limb (ICD-O topography C44.6), staged as Stage IV (T3bN2cM1a) with in-transit metastases and distant subcutaneous metastases."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49, excisional biopsy of the left upper arm revealed malignant melanoma with Breslow thickness of 3.5 mm, Clark level IV, ulceration present, mitotic rate 7/mm2, satellite lesions identified within 2 cm of the primary tumor, lymphovascular invasion present."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49, wide local excision with 2 cm margins of the left upper arm melanoma was performed with primary closure."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49, separately excised in-transit satellite lesion from the left upper arm confirmed metastatic melanoma consistent with the primary tumor morphology."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49, sentinel lymph node biopsy of the left axilla revealed 2 of 3 sentinel nodes positive for metastatic melanoma with largest deposit measuring 4.8 mm."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49, sentinel lymph node pathology showed melanoma metastases in 2 of 3 nodes with no extracapsular extension, confirmed positive for S100, HMB-45, and SOX10."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, staging PET/CT showed FDG-avid left axillary lymphadenopathy, multiple subcutaneous nodules in the left arm and chest wall (SUVmax up to 5.2), and no visceral metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, MRI brain with gadolinium was negative for intracranial metastases."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 49, next-generation sequencing identified BRAF V600E mutation (allele frequency 40%), NRAS wild-type, TERT promoter mutation (C250T), APC mutation, and tumor mutational burden of 11 mutations per megabase with microsatellite stable status."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, serum LDH was mildly elevated at 245 U/L, consistent with Stage IV M1a disease (subcutaneous distant metastases) with normal organ function."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49, combination ipilimumab 3 mg/kg plus nivolumab 1 mg/kg IV every 3 weeks was initiated for 4 induction cycles for metastatic BRAF V600E melanoma, with immunotherapy chosen first given high TMB."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, after cycle 3 of ipilimumab/nivolumab, patient developed grade 3 immune-related hepatitis with ALT 425 U/L and AST 380 U/L, requiring ipilimumab discontinuation and high-dose IV methylprednisolone 2 mg/kg."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, hepatitis improved to grade 1 after 2 weeks of high-dose corticosteroids followed by prolonged oral prednisone taper over 8 weeks."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49, nivolumab 480 mg IV every 4 weeks was continued as maintenance after ipilimumab was permanently discontinued due to hepatotoxicity."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, restaging CT at 12 weeks showed partial response with resolution of subcutaneous nodules and decreased axillary lymphadenopathy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 50, 6-month restaging PET/CT showed near complete metabolic response with minimal residual FDG activity in the left axilla."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 50, LDH normalized to 188 U/L and patient continued nivolumab maintenance with excellent response and ECOG performance status of 0."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 50, patient developed grade 1 vitiligo affecting bilateral hands and periocular regions, considered a favorable prognostic sign and requiring no treatment intervention."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 50, 12-month restaging CT showed complete radiographic response with no measurable disease per RECIST 1.1."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 50, after achieving complete response on nivolumab for 12 months, treatment was electively discontinued with plan for close surveillance imaging every 3 months."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 49, excisional biopsy of the left upper arm revealed malignant melanoma with Breslow thickness of 3.5 mm, Clark level IV, ulceration present, mitotic rate 7/mm2, satellite lesions identified within 2 cm of the primary tumor, lymphovascular invasion present."
+    },
+    {
+      "event_index": 4,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 49, separately excised in-transit satellite lesion from the left upper arm confirmed metastatic melanoma consistent with the primary tumor morphology."
+    },
+    {
+      "event_index": 6,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 49, sentinel lymph node pathology showed melanoma metastases in 2 of 3 nodes with no extracapsular extension, confirmed positive for S100, HMB-45, and SOX10."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 49, staging PET/CT showed FDG-avid left axillary lymphadenopathy, multiple subcutaneous nodules in the left arm and chest wall (SUVmax up to 5.2), and no visceral metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 49, MRI brain with gadolinium was negative for intracranial metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 9,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 49, next-generation sequencing identified BRAF V600E mutation (allele frequency 40%), NRAS wild-type, TERT promoter mutation (C250T), APC mutation, and tumor mutational burden of 11 mutations per megabase with microsatellite stable status."
+    },
+    {
+      "event_index": 10,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 49, serum LDH was mildly elevated at 245 U/L, consistent with Stage IV M1a disease (subcutaneous distant metastases) with normal organ function.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 13,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 49, hepatitis improved to grade 1 after 2 weeks of high-dose corticosteroids followed by prolonged oral prednisone taper over 8 weeks.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 49, restaging CT at 12 weeks showed partial response with resolution of subcutaneous nodules and decreased axillary lymphadenopathy.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 16,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 50, 6-month restaging PET/CT showed near complete metabolic response with minimal residual FDG activity in the left axilla.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 17,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 50, LDH normalized to 188 U/L and patient continued nivolumab maintenance with excellent response and ECOG performance status of 0.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 50, 12-month restaging CT showed complete radiographic response with no measurable disease per RECIST 1.1.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 50, after achieving complete response on nivolumab for 12 months, treatment was electively discontinued with plan for close surveillance imaging every 3 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2022-06-23",
+        "diagnosis_code": "C43.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2022-08-25",
+        "diagnosis_code": "C43.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2022-10-06",
+        "diagnosis_code": "C43.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-01-20",
+        "diagnosis_code": "C43.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-04-23",
+        "diagnosis_code": "C43.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-05-25",
+        "diagnosis_code": "C43.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-06-10",
+        "diagnosis_code": "C43.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-07-19",
+        "diagnosis_code": "C43.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-08-10",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-11-23",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-02-26",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-05-26",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-06-28",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-08-04",
+        "diagnosis_code": "C43.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2025-10-12",
+        "diagnosis_code": "C43.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-01-27",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-03-14",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-04-24",
+        "diagnosis_code": "C43.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-07-21",
+        "diagnosis_code": "C43.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-08-10",
+        "test_name": "WBC",
+        "value": "10.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-08-10",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-08-10",
+        "test_name": "Platelets",
+        "value": "284",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-08-10",
+        "test_name": "Creatinine",
+        "value": "0.65",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-11-23",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-11-23",
+        "test_name": "Hemoglobin",
+        "value": "11.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-11-23",
+        "test_name": "Platelets",
+        "value": "277",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2023-11-23",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-05-26",
+        "test_name": "WBC",
+        "value": "6.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-05-26",
+        "test_name": "Hemoglobin",
+        "value": "12.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-05-26",
+        "test_name": "Platelets",
+        "value": "236",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2024-05-26",
+        "test_name": "Creatinine",
+        "value": "0.80",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-07-21",
+        "test_name": "WBC",
+        "value": "10.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-07-21",
+        "test_name": "Hemoglobin",
+        "value": "14.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-07-21",
+        "test_name": "Platelets",
+        "value": "227",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_1e0350ec6029",
+        "date": "2026-07-21",
+        "test_name": "Creatinine",
+        "value": "1.10",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 5,
+  "scenario_blurb": "Stage III/IV melanoma with BRAF V600E mutation. Treated with combination BRAF/MEK inhibitors (dabrafenib/trametinib) and/or checkpoint immunotherapy (nivolumab plus ipilimumab, pembrolizumab). Some with brain metastases. Include LDH levels.",
+  "scenario_label": "melanoma_braf"
+}

@@ -1,0 +1,431 @@
+{
+  "patient_id": "patient_9085dcf28ca7",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 75-year-old Caucasian male, former smoker with 35-pack-year history, quit 20 years ago. ECOG performance status 2. Comorbidities include COPD (on home oxygen 2L), congestive heart failure with reduced ejection fraction (35%), and peripheral vascular disease."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T4N2M1a with mediastinal invasion, ipsilateral mediastinal lymphadenopathy, and malignant pleural effusion. No distant organ metastases identified."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pleural fluid cytology and cell block reveal adenocarcinoma. TTF-1 positive, Napsin A positive. Cell block used for molecular testing given patient frailty limiting tissue biopsy."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS (Tempus xT) on pleural fluid cell block. EGFR L858R mutation detected (VAF 28%). TP53 E285K mutation (VAF 24%). No other driver alterations. No ALK, ROS1, BRAF, MET, RET, or KRAS mutations. PD-L1 TPS 10%. TMB 5 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR L858R-mutant adenocarcinoma in an elderly patient with significant cardiopulmonary comorbidities. ECOG 2 with limited functional reserve. Platinum chemotherapy contraindicated given heart failure and COPD. Plan: Erlotinib 150 mg daily as targeted therapy. Careful monitoring given cardiac history. Goals of care discussion ongoing."
+    },
+    {
+      "type": "systemic",
+      "text": "Started erlotinib 150 mg daily for EGFR L858R-mutant Stage IV NSCLC. Chemotherapy avoided due to significant cardiopulmonary comorbidities."
+    },
+    {
+      "type": "surgery",
+      "text": "Tunneled pleural catheter (PleurX) placed for management of symptomatic left malignant pleural effusion."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis shows 5.0 cm left upper lobe mass invading mediastinal fat, enlarged ipsilateral mediastinal lymph nodes, and large left pleural effusion. Heart is enlarged with cardiomegaly. Emphysematous changes bilateral upper lobes."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 rash on face. Grade 1 diarrhea. Erlotinib tolerated without cardiac exacerbation at 2-week follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows left upper lobe mass decreased from 5.0 cm to 3.8 cm. Left pleural effusion improved with catheter drainage and treatment effect. Partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Encouraging response to erlotinib. Functional status slightly improved. ECOG 2. Cardiac status stable. Pleural drainage decreasing. Plan: Continue erlotinib. Cardiology follow-up. Trial PleurX clamping."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 3 months shows left upper lobe mass 3.2 cm. Pleural effusion minimal. Continued response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 2 anorexia and weight loss of 3 kg. Nutritional counseling initiated. Likely multifactorial (disease, erlotinib, and comorbidities)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 6 months shows stable left upper lobe mass at 3.0 cm. Minimal pleural effusion. Stable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stable disease at 6 months on erlotinib. Functional status remains limited by comorbidities. ECOG 2. Weight stable with nutritional support. Plan: Continue erlotinib. Supportive care. Palliative care co-management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 9 months shows left upper lobe mass increased to 4.0 cm. New contralateral pleural effusion. New right hilar lymphadenopathy. Progressive disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Progressive disease at 9 months on erlotinib. Given significant comorbidities, limited functional status, and poor candidacy for chemotherapy, options are constrained. Plan: Liquid biopsy for T790M. If positive, osimertinib may be considered with cardiac monitoring. Goals of care re-discussion. Palliative care involvement."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Liquid biopsy detects EGFR L858R (VAF 15.8%) but no T790M mutation. No other actionable targets. T790M-negative resistance."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: T790M-negative progression on erlotinib. Patient is not a candidate for platinum chemotherapy given heart failure and COPD. Options limited. Plan: Best supportive care. Hospice referral discussed. Patient wishes to continue low-toxicity therapy. Consider continuing erlotinib for potential residual benefit versus transitioning to comfort care. Family meeting scheduled."
+    },
+    {
+      "type": "systemic",
+      "text": "After goals of care discussion, continued erlotinib with best supportive care. Patient not a candidate for further systemic therapy given comorbidities. Enrolled in home hospice with continued erlotinib for symptom management."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nPleural fluid cytology and cell block reveal adenocarcinoma. TTF-1 positive, Napsin A positive. Cell block used for molecular testing given patient frailty limiting tissue biopsy."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nNGS (Tempus xT) on pleural fluid cell block. EGFR L858R mutation detected (VAF 28%). TP53 E285K mutation (VAF 24%). No other driver alterations. No ALK, ROS1, BRAF, MET, RET, or KRAS mutations. PD-L1 TPS 10%. TMB 5 mutations/Mb."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stage IV EGFR L858R-mutant adenocarcinoma in an elderly patient with significant cardiopulmonary comorbidities. ECOG 2 with limited functional reserve. Platinum chemotherapy contraindicated given heart failure and COPD. Plan: Erlotinib 150 mg daily as targeted therapy. Careful monitoring given cardiac history. Goals of care discussion ongoing.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis shows 5.0 cm left upper lobe mass invading mediastinal fat, enlarged ipsilateral mediastinal lymph nodes, and large left pleural effusion. Heart is enlarged with cardiomegaly. Emphysematous changes bilateral upper lobes.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 9,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT at 6 weeks shows left upper lobe mass decreased from 5.0 cm to 3.8 cm. Left pleural effusion improved with catheter drainage and treatment effect. Partial response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 10,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Encouraging response to erlotinib. Functional status slightly improved. ECOG 2. Cardiac status stable. Pleural drainage decreasing. Plan: Continue erlotinib. Cardiology follow-up. Trial PleurX clamping.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 11,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 3 months shows left upper lobe mass 3.2 cm. Pleural effusion minimal. Continued response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 6 months shows stable left upper lobe mass at 3.0 cm. Minimal pleural effusion. Stable disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stable disease at 6 months on erlotinib. Functional status remains limited by comorbidities. ECOG 2. Weight stable with nutritional support. Plan: Continue erlotinib. Supportive care. Palliative care co-management.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 9 months shows left upper lobe mass increased to 4.0 cm. New contralateral pleural effusion. New right hilar lymphadenopathy. Progressive disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Progressive disease at 9 months on erlotinib. Given significant comorbidities, limited functional status, and poor candidacy for chemotherapy, options are constrained. Plan: Liquid biopsy for T790M. If positive, osimertinib may be considered with cardiac monitoring. Goals of care re-discussion. Palliative care involvement.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 17,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nLiquid biopsy detects EGFR L858R (VAF 15.8%) but no T790M mutation. No other actionable targets. T790M-negative resistance."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: T790M-negative progression on erlotinib. Patient is not a candidate for platinum chemotherapy given heart failure and COPD. Options limited. Plan: Best supportive care. Hospice referral discussed. Patient wishes to continue low-toxicity therapy. Consider continuing erlotinib for potential residual benefit versus transitioning to comfort care. Family meeting scheduled.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-06-12",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-08-09",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-10-21",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-12-22",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-03-16",
+        "diagnosis_code": "C34.1",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-05-12",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-06-11",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-08-10",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-10-27",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2023-12-22",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-01-28",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-02-05",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-04-24",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-06-11",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-08-24",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-10-16",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-01-28",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-03-17",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-10-21",
+        "test_name": "WBC",
+        "value": "7.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-10-21",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-10-21",
+        "test_name": "Platelets",
+        "value": "213",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-10-21",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-12-22",
+        "test_name": "WBC",
+        "value": "6.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-12-22",
+        "test_name": "Hemoglobin",
+        "value": "14.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-12-22",
+        "test_name": "Platelets",
+        "value": "279",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2022-12-22",
+        "test_name": "Creatinine",
+        "value": "0.63",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-08-24",
+        "test_name": "WBC",
+        "value": "4.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-08-24",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-08-24",
+        "test_name": "Platelets",
+        "value": "330",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2024-08-24",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-03-17",
+        "test_name": "WBC",
+        "value": "8.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-03-17",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-03-17",
+        "test_name": "Platelets",
+        "value": "300",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9085dcf28ca7",
+        "date": "2025-03-17",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

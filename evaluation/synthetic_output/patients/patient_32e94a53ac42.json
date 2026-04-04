@@ -1,0 +1,672 @@
+{
+  "patient_id": "patient_32e94a53ac42",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 62-year-old male of White/Caucasian race with an ECOG performance status of 1"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 62, patient presented with rapidly enlarging cervical and mediastinal lymphadenopathy, night sweats, and unintentional weight loss of 15 pounds over two months"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 62, excisional biopsy of a right cervical lymph node demonstrated diffuse large B-cell lymphoma, ICD-O site C77.9, histology code 9680/3"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 62, pathology report from excisional lymph node biopsy showed diffuse proliferation of large atypical lymphoid cells with high mitotic rate, Ki-67 of 80 percent, immunohistochemistry positive for CD20, CD19, CD10, BCL6, negative for MUM1, consistent with germinal center B-cell (GCB) subtype by Hans algorithm"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, flow cytometry on lymph node specimen showed a monoclonal B-cell population positive for CD20, CD19, CD10, and BCL6, negative for CD5, CD23, and MUM1"
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 62, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, no BCL6 rearrangement; classified as non-double-hit DLBCL"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, laboratory workup revealed markedly elevated LDH at 485 U/L, CBC showed WBC 9.2, hemoglobin 11.8 g/dL, platelets 198, CMP within normal limits except albumin 3.2 g/dL"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, staging PET/CT demonstrated intensely FDG-avid bilateral cervical, mediastinal, and para-aortic lymphadenopathy with the largest cervical node measuring 6.2 cm, SUVmax 22.4, no extranodal involvement identified"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 62, bilateral bone marrow biopsy was negative for lymphoma involvement, showing trilineage hematopoiesis with no morphologic or immunophenotypic evidence of disease"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 62, patient was staged as Ann Arbor Stage III with B symptoms, IPI score 3 (high-intermediate risk) based on age over 60, elevated LDH, and Stage III disease"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient initiated cycle 1 of R-CHOP: rituximab 375 mg/m2, cyclophosphamide 750 mg/m2, doxorubicin 50 mg/m2, vincristine 1.4 mg/m2 capped at 2 mg, and prednisone 100 mg daily for 5 days"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 62, following cycle 1 of R-CHOP, patient developed grade 2 nausea and grade 1 fatigue managed with ondansetron and supportive care"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient received cycle 2 of R-CHOP with prophylactic pegfilgrastim, tolerated without significant complications"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient received cycle 3 of R-CHOP on schedule with no dose modifications"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, interim PET/CT after 3 cycles of R-CHOP showed significant reduction in FDG uptake across all previously noted sites, largest cervical node decreased to 2.1 cm, Deauville score 3, consistent with partial metabolic response"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient received cycle 4 of R-CHOP without dose modifications"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 62, after cycle 4, patient reported grade 1 peripheral neuropathy with tingling in fingertips attributed to vincristine"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient received cycle 5 of R-CHOP, vincristine dose maintained as neuropathy remained grade 1"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62, patient completed cycle 6 of R-CHOP without significant adverse events"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62, end-of-treatment PET/CT demonstrated complete metabolic response with no residual FDG-avid lymphadenopathy, Deauville score 2, consistent with complete remission"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62, patient achieved complete remission after 6 cycles of R-CHOP and was transitioned to surveillance with clinical visits and CT imaging every 3 months"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, surveillance CT of chest, abdomen, and pelvis showed no evidence of recurrent lymphadenopathy or new lesions, consistent with continued complete remission"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, follow-up CT scan at 6 months post-treatment remained negative for recurrence"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64, patient remains in complete remission at 18-month follow-up with normal LDH, surveillance imaging transitioned to every 6 months"
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 62, pathology report from excisional lymph node biopsy showed diffuse proliferation of large atypical lymphoid cells with high mitotic rate, Ki-67 of 80 percent, immunohistochemistry positive for CD20, CD19, CD10, BCL6, negative for MUM1, consistent with germinal center B-cell (GCB) subtype by Hans algorithm"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 62, flow cytometry on lymph node specimen showed a monoclonal B-cell population positive for CD20, CD19, CD10, and BCL6, negative for CD5, CD23, and MUM1\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 62, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement, no BCL6 rearrangement; classified as non-double-hit DLBCL"
+    },
+    {
+      "event_index": 6,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 62, laboratory workup revealed markedly elevated LDH at 485 U/L, CBC showed WBC 9.2, hemoglobin 11.8 g/dL, platelets 198, CMP within normal limits except albumin 3.2 g/dL\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 62, staging PET/CT demonstrated intensely FDG-avid bilateral cervical, mediastinal, and para-aortic lymphadenopathy with the largest cervical node measuring 6.2 cm, SUVmax 22.4, no extranodal involvement identified\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 62, bilateral bone marrow biopsy was negative for lymphoma involvement, showing trilineage hematopoiesis with no morphologic or immunophenotypic evidence of disease"
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 62, interim PET/CT after 3 cycles of R-CHOP showed significant reduction in FDG uptake across all previously noted sites, largest cervical node decreased to 2.1 cm, Deauville score 3, consistent with partial metabolic response\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 62, end-of-treatment PET/CT demonstrated complete metabolic response with no residual FDG-avid lymphadenopathy, Deauville score 2, consistent with complete remission\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 62, patient achieved complete remission after 6 cycles of R-CHOP and was transitioned to surveillance with clinical visits and CT imaging every 3 months\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 21,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 63, surveillance CT of chest, abdomen, and pelvis showed no evidence of recurrent lymphadenopathy or new lesions, consistent with continued complete remission\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 63, follow-up CT scan at 6 months post-treatment remained negative for recurrence\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 64, patient remains in complete remission at 18-month follow-up with normal LDH, surveillance imaging transitioned to every 6 months\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-07-01",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-08-28",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-09-24",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-12-07",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-02-19",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-05-03",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-07-25",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-10-14",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-12-07",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-03-22",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-05-07",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-06-25",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-08-18",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-11-08",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-02-14",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-03-21",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-05-10",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2026-06-23",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2026-08-03",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2027-10-28",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-08-28",
+        "test_name": "WBC",
+        "value": "6.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-08-28",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-08-28",
+        "test_name": "Platelets",
+        "value": "266",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-08-28",
+        "test_name": "Creatinine",
+        "value": "0.62",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-12-07",
+        "test_name": "WBC",
+        "value": "6.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-12-07",
+        "test_name": "Hemoglobin",
+        "value": "12.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-12-07",
+        "test_name": "Platelets",
+        "value": "286",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2022-12-07",
+        "test_name": "Creatinine",
+        "value": "1.07",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-07-25",
+        "test_name": "WBC",
+        "value": "4.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-07-25",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-07-25",
+        "test_name": "Platelets",
+        "value": "218",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-07-25",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-12-07",
+        "test_name": "WBC",
+        "value": "6.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-12-07",
+        "test_name": "Hemoglobin",
+        "value": "11.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-12-07",
+        "test_name": "Platelets",
+        "value": "276",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2023-12-07",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-03-22",
+        "test_name": "WBC",
+        "value": "6.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-03-22",
+        "test_name": "Hemoglobin",
+        "value": "13.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-03-22",
+        "test_name": "Platelets",
+        "value": "122",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-03-22",
+        "test_name": "Creatinine",
+        "value": "0.78",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-06-25",
+        "test_name": "WBC",
+        "value": "4.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-06-25",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-06-25",
+        "test_name": "Platelets",
+        "value": "219",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-06-25",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-11-08",
+        "test_name": "WBC",
+        "value": "8.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-11-08",
+        "test_name": "Hemoglobin",
+        "value": "11.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-11-08",
+        "test_name": "Platelets",
+        "value": "211",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2024-11-08",
+        "test_name": "Creatinine",
+        "value": "1.05",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-02-14",
+        "test_name": "WBC",
+        "value": "4.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-02-14",
+        "test_name": "Hemoglobin",
+        "value": "11.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-02-14",
+        "test_name": "Platelets",
+        "value": "219",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-02-14",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-05-10",
+        "test_name": "WBC",
+        "value": "10.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-05-10",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-05-10",
+        "test_name": "Platelets",
+        "value": "338",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2025-05-10",
+        "test_name": "Creatinine",
+        "value": "0.88",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2027-10-28",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2027-10-28",
+        "test_name": "Hemoglobin",
+        "value": "12.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2027-10-28",
+        "test_name": "Platelets",
+        "value": "211",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_32e94a53ac42",
+        "date": "2027-10-28",
+        "test_name": "Creatinine",
+        "value": "0.79",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 6,
+  "scenario_blurb": "Diffuse large B-cell lymphoma (DLBCL), germinal center and activated B-cell subtypes. Ann Arbor stage II-IV. Treated with R-CHOP. Include IPI scoring, PET-CT response assessment, some with relapse requiring R-ICE salvage and autologous stem cell transplant.",
+  "scenario_label": "dlbcl"
+}

@@ -1,0 +1,593 @@
+{
+  "patient_id": "patient_89a98495dc77",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 67-year-old White male with a 45 pack-year smoking history (former smoker, quit 3 years ago), ECOG performance status 1, BMI 26.4."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 67, patient was diagnosed with non-small cell lung cancer, adenocarcinoma (histology 8140), primary site right upper lobe (C34.1), clinical stage IVA, T3N2M1a, with contralateral pulmonary nodules."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, patient presented with persistent cough, unintentional weight loss of 15 pounds over 2 months, and mild hemoptysis. Chest X-ray showed a 4.2 cm right upper lobe mass with mediastinal lymphadenopathy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, CT chest/abdomen/pelvis with contrast demonstrated a 4.2 x 3.8 cm spiculated mass in the right upper lobe with ipsilateral mediastinal and subcarinal lymphadenopathy. Multiple subcentimeter pulmonary nodules in the left lower lobe concerning for metastatic disease. No hepatic or adrenal lesions identified."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, PET/CT showed intense FDG uptake in the right upper lobe mass (SUVmax 12.3), right paratracheal and subcarinal lymph nodes (SUVmax 8.1), and left lower lobe nodules (SUVmax 4.5). No extrathoracic metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, MRI brain with and without contrast showed no evidence of intracranial metastatic disease."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 67, CT-guided percutaneous biopsy of right upper lobe mass revealed moderately differentiated adenocarcinoma. Immunohistochemistry: TTF-1 positive, Napsin-A positive, p40 negative, consistent with primary lung adenocarcinoma. PD-L1 TPS 75% (22C3 assay)."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 67, next-generation sequencing (FoundationOne CDx) of tumor specimen: EGFR wild-type, ALK rearrangement not detected, ROS1 rearrangement not detected, BRAF V600E not detected, KRAS G12C detected, MET amplification not detected, RET fusion not detected, NTRK fusion not detected. Tumor mutational burden 11.2 mut/Mb. Microsatellite stable."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, multidisciplinary tumor board recommended first-line pembrolizumab monotherapy given PD-L1 TPS 75% and absence of targetable driver mutations. Patient counseled on immunotherapy risks including immune-related adverse events."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, initiated pembrolizumab 200 mg IV every 3 weeks as first-line monotherapy for metastatic NSCLC with high PD-L1 expression."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, after cycle 2 of pembrolizumab, patient reported grade 1 fatigue and mild arthralgias managed with acetaminophen."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, restaging CT chest/abdomen/pelvis after 4 cycles of pembrolizumab showed partial response with the right upper lobe mass decreased to 2.8 x 2.4 cm and resolution of left lower lobe nodules. Lymphadenopathy improved."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, confirmed partial response per RECIST 1.1 criteria. Plan to continue pembrolizumab maintenance."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, continued pembrolizumab 200 mg IV every 3 weeks, cycles 5 through 12."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, after cycle 8 of pembrolizumab, patient developed grade 2 hypothyroidism with TSH 14.2 mIU/L. Started levothyroxine 75 mcg daily."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, restaging CT chest/abdomen/pelvis after 12 cycles of pembrolizumab showed continued partial response with stable reduction in primary mass, now 2.5 x 2.1 cm. No new lesions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, continued pembrolizumab maintenance, cycles 13 through 24."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, restaging CT after 18 cycles showed stable disease. Primary mass 2.4 x 2.0 cm, no new lesions."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, patient reported persistent grade 1 fatigue and grade 1 pruritus. Managed symptomatically."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 69, restaging CT after 24 cycles showed stable disease. Discussion of continuing pembrolizumab versus treatment holiday."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, after 24 cycles (approximately 18 months) of pembrolizumab, decision made to continue treatment given ongoing disease control. Patient tolerating therapy well aside from managed hypothyroidism."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, continued pembrolizumab 200 mg IV every 3 weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 69, restaging CT showed continued stable disease after 30 cycles. No evidence of progression."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, patient continues on pembrolizumab with excellent disease control. Completed 35 cycles total. Ongoing surveillance planned."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 67, patient presented with persistent cough, unintentional weight loss of 15 pounds over 2 months, and mild hemoptysis. Chest X-ray showed a 4.2 cm right upper lobe mass with mediastinal lymphadenopathy.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, CT chest/abdomen/pelvis with contrast demonstrated a 4.2 x 3.8 cm spiculated mass in the right upper lobe with ipsilateral mediastinal and subcarinal lymphadenopathy. Multiple subcentimeter pulmonary nodules in the left lower lobe concerning for metastatic disease. No hepatic or adrenal lesions identified.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, PET/CT showed intense FDG uptake in the right upper lobe mass (SUVmax 12.3), right paratracheal and subcarinal lymph nodes (SUVmax 8.1), and left lower lobe nodules (SUVmax 4.5). No extrathoracic metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 5,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, MRI brain with and without contrast showed no evidence of intracranial metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 6,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 67, CT-guided percutaneous biopsy of right upper lobe mass revealed moderately differentiated adenocarcinoma. Immunohistochemistry: TTF-1 positive, Napsin-A positive, p40 negative, consistent with primary lung adenocarcinoma. PD-L1 TPS 75% (22C3 assay)."
+    },
+    {
+      "event_index": 7,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 67, next-generation sequencing (FoundationOne CDx) of tumor specimen: EGFR wild-type, ALK rearrangement not detected, ROS1 rearrangement not detected, BRAF V600E not detected, KRAS G12C detected, MET amplification not detected, RET fusion not detected, NTRK fusion not detected. Tumor mutational burden 11.2 mut/Mb. Microsatellite stable."
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 67, multidisciplinary tumor board recommended first-line pembrolizumab monotherapy given PD-L1 TPS 75% and absence of targetable driver mutations. Patient counseled on immunotherapy risks including immune-related adverse events.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 11,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, restaging CT chest/abdomen/pelvis after 4 cycles of pembrolizumab showed partial response with the right upper lobe mass decreased to 2.8 x 2.4 cm and resolution of left lower lobe nodules. Lymphadenopathy improved.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 67, confirmed partial response per RECIST 1.1 criteria. Plan to continue pembrolizumab maintenance.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 68, restaging CT chest/abdomen/pelvis after 12 cycles of pembrolizumab showed continued partial response with stable reduction in primary mass, now 2.5 x 2.1 cm. No new lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 68, restaging CT after 18 cycles showed stable disease. Primary mass 2.4 x 2.0 cm, no new lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 69, restaging CT after 24 cycles showed stable disease. Discussion of continuing pembrolizumab versus treatment holiday.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, after 24 cycles (approximately 18 months) of pembrolizumab, decision made to continue treatment given ongoing disease control. Patient tolerating therapy well aside from managed hypothyroidism.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 69, restaging CT showed continued stable disease after 30 cycles. No evidence of progression.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, patient continues on pembrolizumab with excellent disease control. Completed 35 cycles total. Ongoing surveillance planned.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2022-03-19",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2022-05-23",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2022-07-19",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2022-08-23",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2022-11-12",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-02-19",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-03-19",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-04-26",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-06-01",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-09-16",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-10-11",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2024-01-11",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-02-28",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-04-03",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-06-23",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-09-14",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-12-16",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-03-11",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-04-23",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-07-06",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-09-19",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-11-28",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-04-26",
+        "test_name": "WBC",
+        "value": "4.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-04-26",
+        "test_name": "Hemoglobin",
+        "value": "10.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-04-26",
+        "test_name": "Platelets",
+        "value": "133",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-04-26",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-10-11",
+        "test_name": "WBC",
+        "value": "4.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-10-11",
+        "test_name": "Hemoglobin",
+        "value": "13.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-10-11",
+        "test_name": "Platelets",
+        "value": "331",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2023-10-11",
+        "test_name": "Creatinine",
+        "value": "1.11",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2024-01-11",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2024-01-11",
+        "test_name": "Hemoglobin",
+        "value": "15.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2024-01-11",
+        "test_name": "Platelets",
+        "value": "298",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2024-01-11",
+        "test_name": "Creatinine",
+        "value": "1.11",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-06-23",
+        "test_name": "WBC",
+        "value": "4.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-06-23",
+        "test_name": "Hemoglobin",
+        "value": "11.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-06-23",
+        "test_name": "Platelets",
+        "value": "151",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2025-06-23",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-04-23",
+        "test_name": "WBC",
+        "value": "10.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-04-23",
+        "test_name": "Hemoglobin",
+        "value": "14.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-04-23",
+        "test_name": "Platelets",
+        "value": "171",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-04-23",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-07-06",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-07-06",
+        "test_name": "Hemoglobin",
+        "value": "10.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-07-06",
+        "test_name": "Platelets",
+        "value": "288",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-07-06",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-11-28",
+        "test_name": "WBC",
+        "value": "8.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-11-28",
+        "test_name": "Hemoglobin",
+        "value": "15.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-11-28",
+        "test_name": "Platelets",
+        "value": "343",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_89a98495dc77",
+        "date": "2027-11-28",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 1,
+  "scenario_blurb": "Stage IIIA-IV non-small cell lung cancer without actionable driver mutations (EGFR wild-type, ALK negative, ROS1 negative). Treated with carboplatin/pemetrexed plus pembrolizumab immunotherapy. Mix of adenocarcinoma and squamous cell carcinoma. Some with high PD-L1 expression receiving pembrolizumab monotherapy.",
+  "scenario_label": "nsclc_wild"
+}

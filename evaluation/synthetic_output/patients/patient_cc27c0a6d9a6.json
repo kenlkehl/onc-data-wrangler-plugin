@@ -1,0 +1,528 @@
+{
+  "patient_id": "patient_cc27c0a6d9a6",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 71-year-old male of Hispanic/Latino race with an ECOG performance status of 2"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 71, patient presented with progressive abdominal pain, early satiety, and unintentional 20-pound weight loss over three months with palpable abdominal mass"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 71, CT-guided core biopsy of a mesenteric mass revealed diffuse large B-cell lymphoma, ICD-O site C77.9, histology code 9680/3"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 71, pathology report showed sheets of large lymphoid cells with immunoblastic morphology, Ki-67 of 85 percent, immunohistochemistry positive for CD20, CD19, MUM1, BCL2, negative for CD10 and BCL6, consistent with non-GCB (ABC) subtype by Hans algorithm"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, flow cytometry on core biopsy demonstrated monoclonal B-cell population positive for CD20, CD19, MUM1, negative for CD10, BCL6, CD5"
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 71, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement by translocation (BCL2 protein overexpression by IHC attributed to non-translocation mechanism), BCL6 rearrangement positive"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, laboratory studies demonstrated LDH elevated at 538 U/L, CBC with WBC 6.8, hemoglobin 9.6 g/dL, platelets 142, CMP notable for creatinine 1.4 mg/dL and calcium 10.8 mg/dL"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71, staging PET/CT showed extensive FDG-avid mesenteric and retroperitoneal lymphadenopathy with bulky conglomerate mass measuring 12.4 cm, SUVmax 26.1, FDG-avid gastric wall thickening suggesting extranodal GI involvement, and scattered skeletal FDG uptake suggesting osseous involvement"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 71, upper endoscopy with gastric biopsy confirmed extranodal involvement by DLBCL in the gastric antrum"
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 71, bone marrow biopsy showed 15 percent involvement by large B-cell lymphoma with interstitial pattern"
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 71, patient was staged as Ann Arbor Stage IV with B symptoms given extranodal gastric and bone marrow involvement, IPI score 5 (high risk) based on age over 60, elevated LDH, Stage IV, ECOG 2, and extranodal involvement at more than one site"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71, patient initiated cycle 1 of R-CHOP with reduced doxorubicin dose at 40 mg/m2 due to age and mild renal impairment, with aggressive antiemetic regimen and tumor lysis prophylaxis"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, during cycle 1 of R-CHOP patient experienced grade 2 infusion-related reaction to rituximab with rigors and hypotension requiring slowing of infusion rate and premedication adjustment"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71, patient received cycle 2 of R-CHOP with rituximab administered at reduced rate, tolerated without infusion reaction"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, after cycle 2, patient developed grade 3 neutropenic fever with blood cultures positive for Escherichia coli bacteremia requiring hospitalization and IV meropenem for 14 days"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71, patient received cycle 3 of R-CHOP with further dose reduction of cyclophosphamide by 25 percent and mandatory pegfilgrastim support"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71, interim PET/CT after 3 cycles showed partial response with decrease in bulky mesenteric mass to 7.8 cm, SUVmax reduced to 12.4, Deauville score 4, gastric wall thickening resolved"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, after cycle 3, echocardiogram showed ejection fraction decreased to 45 percent from baseline of 58 percent, concerning for doxorubicin-related cardiotoxicity"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, cardiology consultation recommended discontinuation of doxorubicin, R-CHOP regimen modified to R-CVP (rituximab, cyclophosphamide, vincristine, prednisone) for remaining cycles"
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71, patient received cycles 4, 5, and 6 of modified R-CVP without doxorubicin"
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, during cycle 5, patient developed grade 2 peripheral neuropathy with difficulty buttoning clothes, vincristine dose reduced by 50 percent"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71, end-of-treatment PET/CT showed further reduction but residual FDG-avid mesenteric mass measuring 3.6 cm with SUVmax 7.1, Deauville score 4, partial response but not complete remission"
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, given patient age, cardiac toxicity, and residual disease, decision was made for observation with close surveillance rather than aggressive salvage therapy"
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 72, surveillance CT at 3 months post-treatment showed stable residual mesenteric mass with no new disease"
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 71, pathology report showed sheets of large lymphoid cells with immunoblastic morphology, Ki-67 of 85 percent, immunohistochemistry positive for CD20, CD19, MUM1, BCL2, negative for CD10 and BCL6, consistent with non-GCB (ABC) subtype by Hans algorithm"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 71, flow cytometry on core biopsy demonstrated monoclonal B-cell population positive for CD20, CD19, MUM1, negative for CD10, BCL6, CD5\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 71, FISH analysis showed no MYC rearrangement, no BCL2 rearrangement by translocation (BCL2 protein overexpression by IHC attributed to non-translocation mechanism), BCL6 rearrangement positive"
+    },
+    {
+      "event_index": 6,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 71, laboratory studies demonstrated LDH elevated at 538 U/L, CBC with WBC 6.8, hemoglobin 9.6 g/dL, platelets 142, CMP notable for creatinine 1.4 mg/dL and calcium 10.8 mg/dL\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 71, staging PET/CT showed extensive FDG-avid mesenteric and retroperitoneal lymphadenopathy with bulky conglomerate mass measuring 12.4 cm, SUVmax 26.1, FDG-avid gastric wall thickening suggesting extranodal GI involvement, and scattered skeletal FDG uptake suggesting osseous involvement\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 71, upper endoscopy with gastric biopsy confirmed extranodal involvement by DLBCL in the gastric antrum"
+    },
+    {
+      "event_index": 9,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 71, bone marrow biopsy showed 15 percent involvement by large B-cell lymphoma with interstitial pattern"
+    },
+    {
+      "event_index": 16,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 71, interim PET/CT after 3 cycles showed partial response with decrease in bulky mesenteric mass to 7.8 cm, SUVmax reduced to 12.4, Deauville score 4, gastric wall thickening resolved\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 71, cardiology consultation recommended discontinuation of doxorubicin, R-CHOP regimen modified to R-CVP (rituximab, cyclophosphamide, vincristine, prednisone) for remaining cycles\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 21,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 71, end-of-treatment PET/CT showed further reduction but residual FDG-avid mesenteric mass measuring 3.6 cm with SUVmax 7.1, Deauville score 4, partial response but not complete remission\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 22,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 71, given patient age, cardiac toxicity, and residual disease, decision was made for observation with close surveillance rather than aggressive salvage therapy\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 23,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 72, surveillance CT at 3 months post-treatment showed stable residual mesenteric mass with no new disease\n\nPlease correlate clinically."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2022-08-24",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2022-09-22",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2022-12-07",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2023-03-22",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2023-05-05",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2023-08-10",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2023-10-14",
+        "diagnosis_code": "C83.3",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-02-04",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-05-04",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-07-07",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-08-19",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-10-02",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-12-27",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-01-15",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-04-02",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-06-27",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-09-17",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-10-04",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2026-01-08",
+        "diagnosis_code": "C83.3",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2027-04-18",
+        "diagnosis_code": "C83.3",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-02-04",
+        "test_name": "WBC",
+        "value": "3.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-02-04",
+        "test_name": "Hemoglobin",
+        "value": "15.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-02-04",
+        "test_name": "Platelets",
+        "value": "161",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-02-04",
+        "test_name": "Creatinine",
+        "value": "0.62",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-07-07",
+        "test_name": "WBC",
+        "value": "8.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-07-07",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-07-07",
+        "test_name": "Platelets",
+        "value": "233",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-07-07",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-10-02",
+        "test_name": "WBC",
+        "value": "8.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-10-02",
+        "test_name": "Hemoglobin",
+        "value": "10.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-10-02",
+        "test_name": "Platelets",
+        "value": "332",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2024-10-02",
+        "test_name": "Creatinine",
+        "value": "0.99",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-04-02",
+        "test_name": "WBC",
+        "value": "10.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-04-02",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-04-02",
+        "test_name": "Platelets",
+        "value": "205",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-04-02",
+        "test_name": "Creatinine",
+        "value": "1.03",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-06-27",
+        "test_name": "WBC",
+        "value": "3.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-06-27",
+        "test_name": "Hemoglobin",
+        "value": "10.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-06-27",
+        "test_name": "Platelets",
+        "value": "190",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2025-06-27",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2026-01-08",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2026-01-08",
+        "test_name": "Hemoglobin",
+        "value": "13.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2026-01-08",
+        "test_name": "Platelets",
+        "value": "251",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_cc27c0a6d9a6",
+        "date": "2026-01-08",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 6,
+  "scenario_blurb": "Diffuse large B-cell lymphoma (DLBCL), germinal center and activated B-cell subtypes. Ann Arbor stage II-IV. Treated with R-CHOP. Include IPI scoring, PET-CT response assessment, some with relapse requiring R-ICE salvage and autologous stem cell transplant.",
+  "scenario_label": "dlbcl"
+}

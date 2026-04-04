@@ -1,0 +1,416 @@
+{
+  "patient_id": "patient_a7856742fa45",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 49-year-old female of Asian (Chinese) ethnicity, non-Hispanic, BMI 22.4, with no significant past medical history."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 48, patient presented with bright red blood per rectum and tenesmus; flexible sigmoidoscopy revealed a rectosigmoid mass (C19.9)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Biopsy of rectosigmoid mass showed moderately differentiated adenocarcinoma (histology 8140/3) with no mucinous or signet ring features; tumor invading through muscularis propria into pericolorectal tissue."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Next-generation sequencing identified KRAS G12D mutation, BRAF wild-type, PIK3CA H1047R co-mutation, HER2 non-amplified, APC frameshift mutation; microsatellite stable (MSS) with proficient mismatch repair by immunohistochemistry."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at age 48 showed a rectosigmoid junction mass with perirectal lymphadenopathy and a solitary 2.8 cm metastasis in hepatic segment VI; no pulmonary metastases; staged T3N1bM1a."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48, baseline CEA was 56 ng/mL and CA 19-9 was 42 U/mL; tumor board discussion noted young age, good performance status, left-sided primary with solitary liver metastasis potentially amenable to conversion therapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 48, patient initiated first-line FOLFOX (oxaliplatin 85 mg/m2, 5-FU, leucovorin) plus bevacizumab 5 mg/kg every 2 weeks with goal of liver metastasis downsizing for resection."
+    },
+    {
+      "type": "adverse_event",
+      "text": "After cycle 3 of FOLFOX, patient developed grade 1 peripheral neuropathy with tingling in fingertips, monitored without dose change."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 6 cycles of FOLFOX-bevacizumab showed excellent partial response with rectosigmoid mass decreased in size and hepatic metastasis reduced from 2.8 cm to 1.2 cm; CEA decreased to 8.3 ng/mL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, tumor board recommended proceeding with hepatic metastasectomy followed by resection of primary given excellent response."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49, patient underwent laparoscopic wedge resection of segment VI hepatic metastasis with intraoperative ultrasound confirmation of no additional lesions."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Hepatic wedge resection showed residual moderately differentiated adenocarcinoma with 60% treatment effect, negative margins (closest margin 0.8 cm)."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49, patient underwent low anterior resection of rectosigmoid tumor with total mesorectal excision and diverting loop ileostomy."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Low anterior resection specimen demonstrated residual moderately differentiated adenocarcinoma, ypT2N1a (1 of 16 lymph nodes positive), negative circumferential resection margin, and moderate treatment response."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 49, postoperative short-course radiation therapy (25 Gy in 5 fractions) was delivered to the pelvis given close circumferential margin concerns, though final margin was negative."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49, postoperative FOLFOX (without bevacizumab) resumed for 4 additional cycles to complete perioperative chemotherapy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, patient developed grade 2 peripheral neuropathy after cumulative 10 cycles of oxaliplatin, with numbness in hands and feet affecting fine motor tasks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Surveillance CT at age 49 (3 months post-completion of therapy) showed no evidence of recurrent disease; CEA was 3.1 ng/mL; CA 19-9 was 15 U/mL."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49, loop ileostomy was reversed after confirmation of anastomotic integrity by contrast enema."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, patient entered surveillance with CT scans every 3 months, CEA every 3 months, and colonoscopy planned at 1 year; ECOG 0, residual grade 1 neuropathy."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nBiopsy of rectosigmoid mass showed moderately differentiated adenocarcinoma (histology 8140/3) with no mucinous or signet ring features; tumor invading through muscularis propria into pericolorectal tissue."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nNext-generation sequencing identified KRAS G12D mutation, BRAF wild-type, PIK3CA H1047R co-mutation, HER2 non-amplified, APC frameshift mutation; microsatellite stable (MSS) with proficient mismatch repair by immunohistochemistry."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis at age 48 showed a rectosigmoid junction mass with perirectal lymphadenopathy and a solitary 2.8 cm metastasis in hepatic segment VI; no pulmonary metastases; staged T3N1bM1a.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 5,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 48, baseline CEA was 56 ng/mL and CA 19-9 was 42 U/mL; tumor board discussion noted young age, good performance status, left-sided primary with solitary liver metastasis potentially amenable to conversion therapy.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 8,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT after 6 cycles of FOLFOX-bevacizumab showed excellent partial response with rectosigmoid mass decreased in size and hepatic metastasis reduced from 2.8 cm to 1.2 cm; CEA decreased to 8.3 ng/mL.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 9,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 49, tumor board recommended proceeding with hepatic metastasectomy followed by resection of primary given excellent response.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 11,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nHepatic wedge resection showed residual moderately differentiated adenocarcinoma with 60% treatment effect, negative margins (closest margin 0.8 cm)."
+    },
+    {
+      "event_index": 13,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nLow anterior resection specimen demonstrated residual moderately differentiated adenocarcinoma, ypT2N1a (1 of 16 lymph nodes positive), negative circumferential resection margin, and moderate treatment response."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nSurveillance CT at age 49 (3 months post-completion of therapy) showed no evidence of recurrent disease; CEA was 3.1 ng/mL; CA 19-9 was 15 U/mL.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 49, patient entered surveillance with CT scans every 3 months, CEA every 3 months, and colonoscopy planned at 1 year; ECOG 0, residual grade 1 neuropathy.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-03-12",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-06-04",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-08-26",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-11-10",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-02-16",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-03-21",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-04-10",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-07-26",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-10-02",
+        "diagnosis_code": "C18.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-11-19",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-02-13",
+        "diagnosis_code": "C18.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-05-18",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-06-10",
+        "diagnosis_code": "C18.9",
+        "department": "Radiation Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-07-24",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-10-12",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2024-11-14",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-02-28",
+        "diagnosis_code": "C18.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-05-05",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-11-10",
+        "test_name": "WBC",
+        "value": "9.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-11-10",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-11-10",
+        "test_name": "Platelets",
+        "value": "211",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2022-11-10",
+        "test_name": "Creatinine",
+        "value": "1.00",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-02-16",
+        "test_name": "WBC",
+        "value": "4.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-02-16",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-02-16",
+        "test_name": "Platelets",
+        "value": "303",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-02-16",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-07-26",
+        "test_name": "WBC",
+        "value": "10.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-07-26",
+        "test_name": "Hemoglobin",
+        "value": "10.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-07-26",
+        "test_name": "Platelets",
+        "value": "321",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2023-07-26",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-05-05",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-05-05",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-05-05",
+        "test_name": "Platelets",
+        "value": "146",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a7856742fa45",
+        "date": "2025-05-05",
+        "test_name": "Creatinine",
+        "value": "1.00",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 3,
+  "scenario_blurb": "Stage IV colorectal cancer with KRAS G12D mutation. Left-sided and right-sided primary tumors. Treated with FOLFOX or FOLFIRI plus bevacizumab. Some with liver-limited metastases considered for hepatic resection. MSI/MMR testing performed.",
+  "scenario_label": "crc_kras"
+}

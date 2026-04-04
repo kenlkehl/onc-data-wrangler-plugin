@@ -1,0 +1,600 @@
+{
+  "patient_id": "patient_a092868a2a63",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 72-year-old White male, height 5'9\", weight 185 lbs, BMI 27.3, never smoker, no significant family history of malignancy, retired accountant."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 66, patient presented with urinary obstructive symptoms and was found to have a PSA of 18.2 ng/mL; prostate biopsy confirmed adenocarcinoma (ICD-O site C61.9, histology 8140/3)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Transrectal ultrasound-guided prostate biopsy at age 66 showed adenocarcinoma, Gleason score 4+5=9 (Grade Group 5), involving 10 of 12 cores bilaterally, with extensive perineural and lymphovascular invasion."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 66, staging bone scan showed multiple areas of increased uptake in the thoracic and lumbar spine (T8, T12, L2, L4), bilateral ribs, and left sacrum consistent with widespread osseous metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 66, CT chest/abdomen/pelvis confirmed sclerotic bone metastases and revealed bilateral pelvic lymphadenopathy (largest node 2.1 cm); no visceral metastases."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 66, patient was staged as cT3bN1M1b adenocarcinoma of the prostate with de novo metastatic disease to bone and pelvic lymph nodes."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 66, patient was initiated on androgen deprivation therapy with goserelin 10.8 mg subcutaneous implant every 3 months plus docetaxel 75 mg/m2 every 3 weeks for 6 cycles for metastatic hormone-sensitive prostate cancer."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 66, during cycle 4 of docetaxel, patient developed grade 2 neutropenia (ANC 1200/uL) and grade 2 fatigue; growth factor support with pegfilgrastim was initiated."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, after completing 6 cycles of docetaxel with continued goserelin, PSA decreased from 18.2 to 1.4 ng/mL; testosterone was suppressed to 14 ng/dL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, restaging bone scan showed partial response with decreased intensity of uptake at known sites; no new lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, PSA rose to 6.8 ng/mL while on goserelin monotherapy with testosterone confirmed at 22 ng/dL, consistent with castration-resistant disease."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 69, disease reclassified as metastatic castration-resistant prostate cancer with progressive bone metastases on continuous ADT."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, abiraterone acetate 1000 mg orally once daily with prednisone 5 mg twice daily was added to continued goserelin for mCRPC."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, after 3 months on abiraterone, PSA declined to 2.3 ng/mL; patient reported reduced bone pain."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 69, patient developed grade 2 hypertension (BP 162/96 mmHg) and grade 1 hypokalemia (K 3.2 mEq/L) attributed to abiraterone; lisinopril 10 mg and potassium supplementation were started."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 69, next-generation sequencing (Tempus xT) on metastatic bone biopsy from L2 vertebral body revealed ATM loss-of-function mutation (c.7271T>G, p.V2424G), PTEN homozygous deletion, TP53 R248W missense mutation; no BRCA1/2 alterations; tumor mutational burden 6 mutations/Mb; microsatellite stable."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 69, CT-guided bone biopsy of L2 vertebral body showed metastatic high-grade adenocarcinoma consistent with prostatic origin, positive for PSA and NKX3.1 by immunohistochemistry, negative for neuroendocrine markers (synaptophysin, chromogranin)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 70, PSMA PET/CT demonstrated progressive PSMA-avid osseous disease with new lesions in bilateral ribs and right scapula; no visceral metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70, PSA rose to 14.2 ng/mL on abiraterone indicating disease progression; abiraterone was discontinued."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 70, cabazitaxel 25 mg/m2 intravenously every 3 weeks with prednisone 5 mg daily was initiated as next-line chemotherapy given prior docetaxel exposure."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, patient developed grade 3 neutropenic fever (ANC 400/uL, temperature 38.9C) after cycle 2 of cabazitaxel requiring hospitalization and IV antibiotics; cabazitaxel dose reduced to 20 mg/m2."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 71, palliative radiation therapy 20 Gy in 5 fractions was delivered to the T8 vertebral body for intractable pain and concern for epidural extension."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71, patient reported grade 3 bone pain in the thoracic spine requiring conversion from oral oxycodone to fentanyl patch 50 mcg/hour."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 72, after 8 cycles of dose-reduced cabazitaxel, PSA was 22.6 ng/mL with continued radiographic progression; treatment options including radium-223 and clinical trials were discussed."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nTransrectal ultrasound-guided prostate biopsy at age 66 showed adenocarcinoma, Gleason score 4+5=9 (Grade Group 5), involving 10 of 12 cores bilaterally, with extensive perineural and lymphovascular invasion."
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 66, staging bone scan showed multiple areas of increased uptake in the thoracic and lumbar spine (T8, T12, L2, L4), bilateral ribs, and left sacrum consistent with widespread osseous metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 66, CT chest/abdomen/pelvis confirmed sclerotic bone metastases and revealed bilateral pelvic lymphadenopathy (largest node 2.1 cm); no visceral metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 67, after completing 6 cycles of docetaxel with continued goserelin, PSA decreased from 18.2 to 1.4 ng/mL; testosterone was suppressed to 14 ng/dL.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 9,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, restaging bone scan showed partial response with decreased intensity of uptake at known sites; no new lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 10,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, PSA rose to 6.8 ng/mL while on goserelin monotherapy with testosterone confirmed at 22 ng/dL, consistent with castration-resistant disease.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 13,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, after 3 months on abiraterone, PSA declined to 2.3 ng/mL; patient reported reduced bone pain.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 69, next-generation sequencing (Tempus xT) on metastatic bone biopsy from L2 vertebral body revealed ATM loss-of-function mutation (c.7271T>G, p.V2424G), PTEN homozygous deletion, TP53 R248W missense mutation; no BRCA1/2 alterations; tumor mutational burden 6 mutations/Mb; microsatellite stable."
+    },
+    {
+      "event_index": 16,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 69, CT-guided bone biopsy of L2 vertebral body showed metastatic high-grade adenocarcinoma consistent with prostatic origin, positive for PSA and NKX3.1 by immunohistochemistry, negative for neuroendocrine markers (synaptophysin, chromogranin)."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 70, PSMA PET/CT demonstrated progressive PSMA-avid osseous disease with new lesions in bilateral ribs and right scapula; no visceral metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 70, PSA rose to 14.2 ng/mL on abiraterone indicating disease progression; abiraterone was discontinued.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 72, after 8 cycles of dose-reduced cabazitaxel, PSA was 22.6 ng/mL with continued radiographic progression; treatment options including radium-223 and clinical trials were discussed.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-04-11",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-06-15",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-07-05",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-12-24",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-03-21",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-04-07",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-05-21",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-06-17",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-12-23",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-02-01",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-05-26",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-06-10",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-09-09",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-10-27",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-11-23",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-01-22",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-04-26",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-07-10",
+        "diagnosis_code": "C61",
+        "department": "Radiation Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-10-22",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-11-13",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-12-24",
+        "test_name": "WBC",
+        "value": "8.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-12-24",
+        "test_name": "Hemoglobin",
+        "value": "14.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-12-24",
+        "test_name": "Platelets",
+        "value": "284",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2022-12-24",
+        "test_name": "Creatinine",
+        "value": "1.16",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-04-07",
+        "test_name": "WBC",
+        "value": "5.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-04-07",
+        "test_name": "Hemoglobin",
+        "value": "11.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-04-07",
+        "test_name": "Platelets",
+        "value": "275",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-04-07",
+        "test_name": "Creatinine",
+        "value": "1.19",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-06-17",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-06-17",
+        "test_name": "Hemoglobin",
+        "value": "10.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-06-17",
+        "test_name": "Platelets",
+        "value": "201",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-06-17",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-12-23",
+        "test_name": "WBC",
+        "value": "10.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-12-23",
+        "test_name": "Hemoglobin",
+        "value": "12.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-12-23",
+        "test_name": "Platelets",
+        "value": "322",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2023-12-23",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-02-01",
+        "test_name": "WBC",
+        "value": "6.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-02-01",
+        "test_name": "Hemoglobin",
+        "value": "10.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-02-01",
+        "test_name": "Platelets",
+        "value": "133",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-02-01",
+        "test_name": "Creatinine",
+        "value": "0.76",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-11-23",
+        "test_name": "WBC",
+        "value": "7.6",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-11-23",
+        "test_name": "Hemoglobin",
+        "value": "12.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-11-23",
+        "test_name": "Platelets",
+        "value": "224",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2024-11-23",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-01-22",
+        "test_name": "WBC",
+        "value": "5.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-01-22",
+        "test_name": "Hemoglobin",
+        "value": "13.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-01-22",
+        "test_name": "Platelets",
+        "value": "209",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-01-22",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-11-13",
+        "test_name": "WBC",
+        "value": "9.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-11-13",
+        "test_name": "Hemoglobin",
+        "value": "13.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-11-13",
+        "test_name": "Platelets",
+        "value": "342",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_a092868a2a63",
+        "date": "2025-11-13",
+        "test_name": "Creatinine",
+        "value": "0.63",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 4,
+  "scenario_blurb": "Metastatic castration-resistant prostate cancer (mCRPC). Rising PSA on ADT. Treated with enzalutamide, abiraterone, docetaxel, or cabazitaxel. Include BRCA1/2 and homologous recombination deficiency testing. Some with bone-predominant and some with visceral metastases.",
+  "scenario_label": "prostate_mcrpc"
+}

@@ -1,0 +1,607 @@
+{
+  "patient_id": "patient_8af59dc5785c",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 68-year-old Caucasian male, height 5 feet 11 inches, weight 210 pounds, ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 68, patient presented with 2-month history of rib pain and exertional dyspnea; workup revealed hemoglobin 9.0 g/dL, creatinine 1.3 mg/dL, calcium 10.6 mg/dL, beta-2 microglobulin 5.2 mg/L, albumin 3.1 g/dL consistent with ISS Stage III multiple myeloma."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 68, bone marrow biopsy from site C42.1 showed 55% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD38, and cytoplasmic IgG kappa; CD56 negative which is atypical; flow cytometry confirmed aberrant plasma cells comprising 48% of total cellularity."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 68, FISH analysis on bone marrow aspirate showed t(4;14) in 55% of plasma cells; no del(17p) or t(14;16); gain(1q21) detected in 30% of cells; R-ISS Stage III based on ISS III, LDH elevated at 265 U/L, and high-risk t(4;14)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, serum protein electrophoresis showed M-spike of 5.1 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 310 mg/L, lambda 15 mg/L, kappa/lambda ratio 20.7; marked rouleaux formation on peripheral blood smear; serum viscosity mildly elevated at 2.8 centipoise."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, PET/CT showed widespread FDG-avid skeletal disease involving the axial and appendicular skeleton with at least 15 focal lesions; largest in the right 8th rib measuring 3.8 cm with cortical destruction; FDG-avid lesion in the sacrum with SUV 9.2; no extramedullary plasmacytomas."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68, MRI of the pelvis and femora showed diffuse marrow replacement with multiple focal lesions in the sacrum and bilateral iliac bones; a 2.5 cm lesion in the left femoral neck raised concern for pathologic fracture risk and orthopedic consultation was recommended."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 68, patient received prophylactic radiation therapy to the left femoral neck lesion, 20 Gy in 5 fractions, to reduce fracture risk; concurrent initiation of denosumab 120 mg subcutaneously monthly given creatinine clearance of 52 mL/min."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, initiated VRd induction therapy with standard dosing on 28-day cycles; plan for 4 to 6 cycles followed by consideration of autologous stem cell transplant; started acyclovir prophylaxis and low-molecular-weight heparin for DVT prevention given higher thrombotic risk."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycle 1 of VRd completed; SPEP at end of cycle 1 showed M-spike decreased to 3.8 g/dL indicating early response."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycle 2 of VRd completed; M-spike further decreased to 2.2 g/dL; serum free kappa light chain decreased to 125 mg/L; hemoglobin improved to 10.1 g/dL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, after cycle 3, patient developed grade 2 peripheral neuropathy in bilateral lower extremities and grade 2 constipation; bortezomib dose reduced to 1.0 mg/m2; aggressive bowel regimen instituted."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, cycles 4 through 6 of VRd completed with dose-reduced bortezomib; post-induction SPEP showed M-spike 0.5 g/dL; serum free kappa light chain 28 mg/L; response classified as very good partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, pre-transplant evaluation confirmed fitness for autologous stem cell transplant despite age 69; cardiac evaluation showed EF 58% with no significant valvular disease; pulmonary function adequate."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, received high-dose melphalan 200 mg/m2 followed by autologous stem cell transplant; cell dose 4.2 million CD34-positive cells per kilogram."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 69, post-transplant complicated by grade 3 mucositis, grade 2 diarrhea, and febrile neutropenia on day plus 8; blood cultures grew coagulase-negative staphylococcus treated with vancomycin; engraftment on day plus 15."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 69, day plus 100 bone marrow biopsy showed 4% plasma cells; SPEP no M-spike; immunofixation showed faint IgG kappa band; MRD by multiparameter flow cytometry at 10^-5 sensitivity was positive with 0.05% residual clonal plasma cells; response classified as complete response, MRD positive."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 69, started lenalidomide maintenance at 10 mg with plan for indefinite treatment given high-risk cytogenetics with t(4;14) and gain(1q21)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70, one year post-transplant; maintained in complete response; immunofixation became negative indicating deepening to stringent complete response; repeat MRD at 10^-5 now negative; lenalidomide maintenance continued at 10 mg."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 70, developed grade 2 fatigue and grade 1 anemia with hemoglobin 10.8 g/dL on lenalidomide maintenance; dose reduced to 5 mg; fatigue improved."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71, two years post-transplant; sustained stringent complete response with MRD negativity; peripheral neuropathy improved to grade 1; continued on lenalidomide 5 mg maintenance."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 68, bone marrow biopsy from site C42.1 showed 55% plasma cells with histology consistent with multiple myeloma (ICD-O morphology 9732/3); immunohistochemistry positive for CD138, CD38, and cytoplasmic IgG kappa; CD56 negative which is atypical; flow cytometry confirmed aberrant plasma cells comprising 48% of total cellularity."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 68, FISH analysis on bone marrow aspirate showed t(4;14) in 55% of plasma cells; no del(17p) or t(14;16); gain(1q21) detected in 30% of cells; R-ISS Stage III based on ISS III, LDH elevated at 265 U/L, and high-risk t(4;14)."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, serum protein electrophoresis showed M-spike of 5.1 g/dL in the gamma region; immunofixation confirmed IgG kappa monoclonal protein; serum free light chain kappa 310 mg/L, lambda 15 mg/L, kappa/lambda ratio 20.7; marked rouleaux formation on peripheral blood smear; serum viscosity mildly elevated at 2.8 centipoise.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 5,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 68, PET/CT showed widespread FDG-avid skeletal disease involving the axial and appendicular skeleton with at least 15 focal lesions; largest in the right 8th rib measuring 3.8 cm with cortical destruction; FDG-avid lesion in the sacrum with SUV 9.2; no extramedullary plasmacytomas.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 6,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 68, MRI of the pelvis and femora showed diffuse marrow replacement with multiple focal lesions in the sacrum and bilateral iliac bones; a 2.5 cm lesion in the left femoral neck raised concern for pathologic fracture risk and orthopedic consultation was recommended.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, initiated VRd induction therapy with standard dosing on 28-day cycles; plan for 4 to 6 cycles followed by consideration of autologous stem cell transplant; started acyclovir prophylaxis and low-molecular-weight heparin for DVT prevention given higher thrombotic risk.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 13,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, pre-transplant evaluation confirmed fitness for autologous stem cell transplant despite age 69; cardiac evaluation showed EF 58% with no significant valvular disease; pulmonary function adequate.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 16,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 69, day plus 100 bone marrow biopsy showed 4% plasma cells; SPEP no M-spike; immunofixation showed faint IgG kappa band; MRD by multiparameter flow cytometry at 10^-5 sensitivity was positive with 0.05% residual clonal plasma cells; response classified as complete response, MRD positive."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 70, one year post-transplant; maintained in complete response; immunofixation became negative indicating deepening to stringent complete response; repeat MRD at 10^-5 now negative; lenalidomide maintenance continued at 10 mg.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 71, two years post-transplant; sustained stringent complete response with MRD negativity; peripheral neuropathy improved to grade 1; continued on lenalidomide 5 mg maintenance.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-03-11",
+        "diagnosis_code": "C90.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-06-03",
+        "diagnosis_code": "C90.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-07-12",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-09-11",
+        "diagnosis_code": "C90.0",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-11-01",
+        "diagnosis_code": "C90.0",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-01-07",
+        "diagnosis_code": "C90.0",
+        "department": "Radiation Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-02-23",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-03-14",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-04-16",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-06-25",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-09-08",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-10-04",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-11-03",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-01-06",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-04-14",
+        "diagnosis_code": "C90.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-05-02",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-06-18",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-08-16",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2027-09-02",
+        "diagnosis_code": "C90.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-07-12",
+        "test_name": "WBC",
+        "value": "10.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-07-12",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-07-12",
+        "test_name": "Platelets",
+        "value": "283",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2022-07-12",
+        "test_name": "Creatinine",
+        "value": "0.98",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-02-23",
+        "test_name": "WBC",
+        "value": "9.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-02-23",
+        "test_name": "Hemoglobin",
+        "value": "14.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-02-23",
+        "test_name": "Platelets",
+        "value": "131",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-02-23",
+        "test_name": "Creatinine",
+        "value": "0.86",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-04-16",
+        "test_name": "WBC",
+        "value": "6.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-04-16",
+        "test_name": "Hemoglobin",
+        "value": "14.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-04-16",
+        "test_name": "Platelets",
+        "value": "301",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-04-16",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-09-08",
+        "test_name": "WBC",
+        "value": "9.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-09-08",
+        "test_name": "Hemoglobin",
+        "value": "10.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-09-08",
+        "test_name": "Platelets",
+        "value": "125",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2023-09-08",
+        "test_name": "Creatinine",
+        "value": "0.76",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-10-04",
+        "test_name": "WBC",
+        "value": "10.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-10-04",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-10-04",
+        "test_name": "Platelets",
+        "value": "137",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-10-04",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-11-03",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-11-03",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-11-03",
+        "test_name": "Platelets",
+        "value": "127",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2024-11-03",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-05-02",
+        "test_name": "WBC",
+        "value": "10.8",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-05-02",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-05-02",
+        "test_name": "Platelets",
+        "value": "247",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2025-05-02",
+        "test_name": "Creatinine",
+        "value": "1.16",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-06-18",
+        "test_name": "WBC",
+        "value": "5.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-06-18",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-06-18",
+        "test_name": "Platelets",
+        "value": "210",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2026-06-18",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2027-09-02",
+        "test_name": "WBC",
+        "value": "4.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2027-09-02",
+        "test_name": "Hemoglobin",
+        "value": "14.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2027-09-02",
+        "test_name": "Platelets",
+        "value": "264",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_8af59dc5785c",
+        "date": "2027-09-02",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 8,
+  "scenario_blurb": "Multiple myeloma, ISS stage II-III. IgG kappa or IgA lambda subtypes. Treated with VRd (bortezomib, lenalidomide, dexamethasone) induction followed by autologous stem cell transplant and lenalidomide maintenance. Include serum protein electrophoresis, free light chains, beta-2 microglobulin, FISH for del(17p) and t(4;14).",
+  "scenario_label": "myeloma"
+}

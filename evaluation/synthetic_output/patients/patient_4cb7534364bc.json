@@ -1,0 +1,428 @@
+{
+  "patient_id": "patient_4cb7534364bc",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 54-year-old Asian female, never smoker. ECOG performance status 0. No significant past medical history."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T2aN1M1b with left adrenal metastasis and osseous metastases to thoracic spine."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Bronchoscopic biopsy of the left upper lobe mass reveals well-differentiated adenocarcinoma with predominantly lepidic pattern. TTF-1 strongly positive, Napsin A positive, CK7 positive, CK20 negative, ALK IHC negative (D5F3). Tumor specimen adequate for molecular testing."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS panel (Tempus xT) performed on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 55%. TP53 Y220C missense mutation detected (VAF 48%). CDKN2A homozygous deletion detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR exon 19 deletion-positive lung adenocarcinoma in a never-smoking Asian female, classic demographic for EGFR-driven lung cancer. Plan: Start osimertinib 80 mg daily. Zoledronic acid for osseous metastases. Baseline brain MRI. Palliative radiation to thoracic spine if symptomatic."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated osimertinib 80 mg orally daily for EGFR exon 19 deletion-positive Stage IV NSCLC."
+    },
+    {
+      "type": "systemic",
+      "text": "Started zoledronic acid 4 mg IV every 4 weeks for bone metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain with and without gadolinium shows no intracranial metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT shows FDG-avid 3.5 cm left upper lobe mass (SUV max 12.4), FDG-avid left hilar lymph node (SUV max 8.2), FDG-avid left adrenal mass 2.1 cm (SUV max 9.8), and FDG-avid T8 and T10 vertebral body lesions (SUV max 7.5 and 6.3)."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 dry skin and paronychia of bilateral great toes, managed with moisturizers and warm soaks. No dose modification."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows left upper lobe mass decreased from 3.5 cm to 1.8 cm. Left adrenal metastasis decreased to 1.2 cm. Partial response per RECIST 1.1."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Rapid and deep response to osimertinib. Bone pain improved. ECOG 0. Plan: Continue osimertinib. Repeat imaging in 3 months. Continue bone-directed therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at 4 months shows continued response. Left upper lobe mass 1.4 cm. Left adrenal lesion 0.8 cm. Near-complete metabolic response on correlative PET."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 6 months remains clear of intracranial disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 9 months shows stable disease with left upper lobe lesion 1.3 cm. Left adrenal lesion stable at 0.7 cm. No new sites of disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Durable response to osimertinib at 9 months. Excellent tolerance. Plan: Continue osimertinib. Surveillance imaging every 3 months. Discuss that median PFS for exon 19 deletion with osimertinib is approximately 19 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 12 months shows stable disease. No new lesions. Left upper lobe residual 1.2 cm."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 16 months shows stable disease. Left upper lobe 1.3 cm. Left adrenal 0.7 cm. No progression."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 18 months shows two new enhancing lesions in the right frontal lobe (8 mm) and left cerebellar hemisphere (6 mm), consistent with brain metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: CNS-only progression on osimertinib at 18 months. Extracranial disease remains controlled. Plan: Stereotactic radiosurgery (SRS) to the two brain lesions. Continue osimertinib given systemic disease control. Repeat brain MRI in 6 weeks post-SRS."
+    },
+    {
+      "type": "radiation",
+      "text": "Stereotactic radiosurgery (SRS) to right frontal lobe metastasis (8 mm) delivering 21 Gy in single fraction, and left cerebellar metastasis (6 mm) delivering 21 Gy in single fraction. Treatment tolerated well with dexamethasone taper."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain 6 weeks post-SRS shows decrease in both treated lesions with surrounding edema resolving. No new intracranial lesions."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at 21 months shows continued extracranial stability. Left upper lobe 1.2 cm. No new systemic disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Post-SRS brain MRI favorable. Extracranial disease stable. Continuing osimertinib beyond CNS-only progression with good overall disease control at 21 months. Plan: Continue osimertinib. Brain MRI every 3 months."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nBronchoscopic biopsy of the left upper lobe mass reveals well-differentiated adenocarcinoma with predominantly lepidic pattern. TTF-1 strongly positive, Napsin A positive, CK7 positive, CK20 negative, ALK IHC negative (D5F3). Tumor specimen adequate for molecular testing."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nNGS panel (Tempus xT) performed on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 55%. TP53 Y220C missense mutation detected (VAF 48%). CDKN2A homozygous deletion detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS alterations. PD-L1 TPS 0%. TMB 2 mutations/Mb."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stage IV EGFR exon 19 deletion-positive lung adenocarcinoma in a never-smoking Asian female, classic demographic for EGFR-driven lung cancer. Plan: Start osimertinib 80 mg daily. Zoledronic acid for osseous metastases. Baseline brain MRI. Palliative radiation to thoracic spine if symptomatic.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain with and without gadolinium shows no intracranial metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nPET/CT shows FDG-avid 3.5 cm left upper lobe mass (SUV max 12.4), FDG-avid left hilar lymph node (SUV max 8.2), FDG-avid left adrenal mass 2.1 cm (SUV max 9.8), and FDG-avid T8 and T10 vertebral body lesions (SUV max 7.5 and 6.3).\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 10,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT at 6 weeks shows left upper lobe mass decreased from 3.5 cm to 1.8 cm. Left adrenal metastasis decreased to 1.2 cm. Partial response per RECIST 1.1.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Rapid and deep response to osimertinib. Bone pain improved. ECOG 0. Plan: Continue osimertinib. Repeat imaging in 3 months. Continue bone-directed therapy.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 12,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis at 4 months shows continued response. Left upper lobe mass 1.4 cm. Left adrenal lesion 0.8 cm. Near-complete metabolic response on correlative PET.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain at 6 months remains clear of intracranial disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 9 months shows stable disease with left upper lobe lesion 1.3 cm. Left adrenal lesion stable at 0.7 cm. No new sites of disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Durable response to osimertinib at 9 months. Excellent tolerance. Plan: Continue osimertinib. Surveillance imaging every 3 months. Discuss that median PFS for exon 19 deletion with osimertinib is approximately 19 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 16,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 12 months shows stable disease. No new lesions. Left upper lobe residual 1.2 cm.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 16 months shows stable disease. Left upper lobe 1.3 cm. Left adrenal 0.7 cm. No progression.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain at 18 months shows two new enhancing lesions in the right frontal lobe (8 mm) and left cerebellar hemisphere (6 mm), consistent with brain metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: CNS-only progression on osimertinib at 18 months. Extracranial disease remains controlled. Plan: Stereotactic radiosurgery (SRS) to the two brain lesions. Continue osimertinib given systemic disease control. Repeat brain MRI in 6 weeks post-SRS.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 21,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain 6 weeks post-SRS shows decrease in both treated lesions with surrounding edema resolving. No new intracranial lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis at 21 months shows continued extracranial stability. Left upper lobe 1.2 cm. No new systemic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Post-SRS brain MRI favorable. Extracranial disease stable. Continuing osimertinib beyond CNS-only progression with good overall disease control at 21 months. Plan: Continue osimertinib. Brain MRI every 3 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-05-07",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-07-18",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-09-03",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-11-04",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-12-13",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-02-11",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-05-12",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-06-07",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-09-17",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-11-17",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-12-20",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2024-03-05",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2024-05-20",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2024-07-06",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2024-09-24",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2024-11-19",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-01-17",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-04-18",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-06-10",
+        "diagnosis_code": "C34.1",
+        "department": "Radiation Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-08-27",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-09-12",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2025-11-22",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-09-03",
+        "test_name": "WBC",
+        "value": "9.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-09-03",
+        "test_name": "Hemoglobin",
+        "value": "11.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-09-03",
+        "test_name": "Platelets",
+        "value": "347",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2022-09-03",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-11-17",
+        "test_name": "WBC",
+        "value": "4.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-11-17",
+        "test_name": "Hemoglobin",
+        "value": "11.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-11-17",
+        "test_name": "Platelets",
+        "value": "229",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_4cb7534364bc",
+        "date": "2023-11-17",
+        "test_name": "Creatinine",
+        "value": "0.87",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}

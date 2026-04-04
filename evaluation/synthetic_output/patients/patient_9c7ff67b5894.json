@@ -1,0 +1,296 @@
+{
+  "patient_id": "patient_9c7ff67b5894",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 67-year-old White female with a BMI of 29.4. Former smoker (15 pack-years, quit 20 years ago). No family history of breast or ovarian cancer."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 65, patient presented with a fungating left breast mass. Biopsy confirmed invasive ductal carcinoma (8500/3), breast NOS (C50.9), grade 3, ER negative, PR negative, HER2 IHC 3+, Ki-67 80%."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 65, left breast punch biopsy of fungating mass: invasive ductal carcinoma, Nottingham grade 3. ER negative ("
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 65, CT chest/abdomen/pelvis showed a large left breast mass (8.5 cm) with extensive axillary, supraclavicular, and mediastinal lymphadenopathy. Multiple bilateral pulmonary nodules and hepatic metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 65, bone scan showed multifocal osseous metastases involving the spine, pelvis, and bilateral femora."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 65, MRI brain was negative for intracranial metastases."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 65, de novo stage IV (cT4bN3cM1) HER2-positive, ER/PR-negative inflammatory-type breast cancer with lung, liver, and bone metastases. Extensive disease burden."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 65, FoundationOne CDx: TP53 R273H, ERBB2 amplification (copy number 22), PIK3CA wild-type, PTEN loss. TMB 8 mutations/Mb. MSS."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 65, started first-line THP (docetaxel, trastuzumab, pertuzumab) with denosumab 120 mg monthly for bone metastases."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 65, baseline LVEF 55% on echocardiogram. Noted mild diastolic dysfunction attributed to hypertension."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 66, after cycle 2 of THP developed grade 2 nausea, grade 2 alopecia, and grade 1 peripheral neuropathy. Grade 1 elevated AST."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 66, restaging CT after 4 cycles showed mixed response: liver lesions decreased but new pulmonary nodules identified. Overall stable disease."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 66, continued THP through 6 cycles. Docetaxel discontinued; maintenance trastuzumab/pertuzumab continued."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 66, LVEF declined to 48% on surveillance echocardiogram. Trastuzumab held for 1 cycle. Started lisinopril and carvedilol. Repeat echo showed recovery to 52%. Resumed HER2-directed therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, PET/CT showed progressive disease with new liver lesions and increasing osseous disease burden."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 67, transitioned to second-line T-DM1 3.6 mg/kg every 21 days."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, after 3 cycles of T-DM1, developed grade 2 thrombocytopenia (platelets 72,000) and grade 1 elevated transaminases. Dose reduced to 3.0 mg/kg."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 67, restaging CT after 4 cycles of T-DM1 showed stable disease. No new lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 67, patient reports moderate fatigue limiting some daily activities. ECOG 2. Weight stable. Plan to continue T-DM1 with dose reduction. Discussed goals of care and palliative care referral."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 67, grade 2 fatigue and grade 1 nausea on T-DM1. Peripheral neuropathy stable at grade 1."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 65, left breast punch biopsy of fungating mass: invasive ductal carcinoma, Nottingham grade 3. ER negative ("
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 65, CT chest/abdomen/pelvis showed a large left breast mass (8.5 cm) with extensive axillary, supraclavicular, and mediastinal lymphadenopathy. Multiple bilateral pulmonary nodules and hepatic metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 65, bone scan showed multifocal osseous metastases involving the spine, pelvis, and bilateral femora.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 5,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 65, MRI brain was negative for intracranial metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 7,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 65, FoundationOne CDx: TP53 R273H, ERBB2 amplification (copy number 22), PIK3CA wild-type, PTEN loss. TMB 8 mutations/Mb. MSS."
+    },
+    {
+      "event_index": 11,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 66, restaging CT after 4 cycles showed mixed response: liver lesions decreased but new pulmonary nodules identified. Overall stable disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, PET/CT showed progressive disease with new liver lesions and increasing osseous disease burden.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 67, restaging CT after 4 cycles of T-DM1 showed stable disease. No new lesions.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 67, patient reports moderate fatigue limiting some daily activities. ECOG 2. Weight stable. Plan to continue T-DM1 with dose reduction. Discussed goals of care and palliative care referral.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2022-05-26",
+        "diagnosis_code": "C50.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2022-07-21",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2022-08-04",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2022-09-23",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-01-04",
+        "diagnosis_code": "C50.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-03-19",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-05-22",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-07-06",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-10-13",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2023-12-20",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-01-27",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-04-05",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-06-16",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-07-15",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-08-03",
+        "diagnosis_code": "C50.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-10-21",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-12-08",
+        "diagnosis_code": "C50.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-10-21",
+        "test_name": "WBC",
+        "value": "10.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-10-21",
+        "test_name": "Hemoglobin",
+        "value": "12.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-10-21",
+        "test_name": "Platelets",
+        "value": "291",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_9c7ff67b5894",
+        "date": "2024-10-21",
+        "test_name": "Creatinine",
+        "value": "1.03",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 2,
+  "scenario_blurb": "Metastatic HER2-positive breast cancer. IHC 3+ or FISH amplified. Treated with trastuzumab-based regimens (THP, T-DM1, trastuzumab deruxtecan). Include hormone receptor status variation (ER+/HER2+ and ER-/HER2+). Some with brain metastases.",
+  "scenario_label": "breast_her2"
+}

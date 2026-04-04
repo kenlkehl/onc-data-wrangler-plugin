@@ -1,0 +1,430 @@
+{
+  "patient_id": "patient_62e149abaf0b",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 68-year-old Caucasian female with a past medical history of atrial fibrillation on apixaban and chronic kidney disease stage 3a who presented with progressive fatigue and pancytopenia found on routine laboratory testing."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 68, the patient was diagnosed with acute myeloid leukemia with maturation, ICD-O morphology code 9874/3, primary site bone marrow C42.1, following evaluation for new pancytopenia in the setting of prior myelodysplastic syndrome."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, initial laboratories showed white blood cell count of 2,100/uL with 18% circulating blasts, hemoglobin 7.4 g/dL, and platelet count of 32,000/uL. LDH was 540 U/L. Creatinine was 1.4 mg/dL with eGFR 42 mL/min. Coagulation studies were notable for therapeutic INR of 1.1 (apixaban was held prior to biopsy)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 68, bone marrow biopsy with aspirate showed a hypercellular marrow (80% cellularity) with 42% myeloblasts with granulocytic maturation and 14% dysplastic erythroid precursors. Flow cytometry showed blasts positive for CD34, CD117, CD33, CD13, CD15 (subset), HLA-DR, and MPO, with loss of CD38 as an aberrant feature."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 68, next-generation sequencing identified FLT3-ITD mutation with allelic ratio 0.38, ASXL1 G646Wfs*12 truncating mutation, SRSF2 P95L mutation, and STAG2 loss-of-function mutation. NPM1 was wild-type. TP53 was wild-type. The mutational profile was consistent with secondary AML arising from antecedent myelodysplastic syndrome."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, cytogenetic analysis showed a normal female karyotype, 46,XX, in 17 metaphases, with del(20q) in 3 of 20 metaphases. ELN 2022 risk was adverse based on FLT3-ITD without NPM1, ASXL1 mutation, and myelodysplasia-related gene mutations consistent with AML with myelodysplasia-related changes."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, given the patient's age of 68 years, chronic kidney disease, and comorbidity burden assessed by the hematopoietic cell transplantation comorbidity index score of 5, the patient was deemed not a candidate for intensive 7+3 induction or allogeneic stem cell transplant."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, the patient was started on venetoclax 400 mg daily (with a ramp-up over four days) in combination with azacitidine 75 mg/m2 subcutaneously for seven days on a 28-day cycle, with midostaurin 50 mg twice daily added on days eight through twenty-one given FLT3-ITD positivity."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, during cycle one the patient developed tumor lysis syndrome with potassium 5.8 mEq/L and uric acid 10.1 mg/dL during venetoclax ramp-up, managed with intravenous hydration and rasburicase."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, prolonged cytopenias following cycle one resulted in neutropenic fever with temperature 38.6 degrees Celsius on day 16. Blood cultures grew coagulase-negative Staphylococcus from the central line and the patient was treated with vancomycin and the line was removed."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 68, bone marrow biopsy after cycle two of venetoclax-azacitidine showed a hypocellular marrow (25% cellularity) with 4.2% blasts by morphology, meeting criteria for complete remission with incomplete count recovery (CRi) given persistent neutropenia with ANC of 600/uL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, flow cytometry MRD assessment after cycle two showed 0.22% residual abnormal blasts, indicating MRD-positive CRi."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68, venetoclax-azacitidine was continued with dose reduction of venetoclax to 14 days per cycle due to prolonged cytopenias. Midostaurin was continued on schedule."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, during cycle four the patient was hospitalized for Candida glabrata fungemia attributed to prolonged neutropenia and central venous catheter, treated with micafungin and catheter removal."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68, bone marrow biopsy after cycle four showed ongoing CRi with 2.1% blasts and flow cytometry MRD became negative at a sensitivity of 0.01%."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 68, the patient developed progressive renal insufficiency with creatinine rising to 2.1 mg/dL attributed to repeated contrast exposure and tumor lysis, requiring venetoclax dose adjustment."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, after eight cycles of venetoclax-azacitidine-midostaurin the patient maintained CRi with negative MRD. Treatment was continued with ongoing monitoring given the lack of curative intent in this regimen for adverse-risk AML."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69, the patient experienced rising blast count to 8% on cycle ten bone marrow biopsy, with FLT3-ITD re-emerging by PCR, suggesting early molecular relapse. Gilteritinib was added to the venetoclax-azacitidine backbone as a clinical trial option."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, initial laboratories showed white blood cell count of 2,100/uL with 18% circulating blasts, hemoglobin 7.4 g/dL, and platelet count of 32,000/uL. LDH was 540 U/L. Creatinine was 1.4 mg/dL with eGFR 42 mL/min. Coagulation studies were notable for therapeutic INR of 1.1 (apixaban was held prior to biopsy).\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 68, bone marrow biopsy with aspirate showed a hypercellular marrow (80% cellularity) with 42% myeloblasts with granulocytic maturation and 14% dysplastic erythroid precursors. Flow cytometry showed blasts positive for CD34, CD117, CD33, CD13, CD15 (subset), HLA-DR, and MPO, with loss of CD38 as an aberrant feature."
+    },
+    {
+      "event_index": 4,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 68, next-generation sequencing identified FLT3-ITD mutation with allelic ratio 0.38, ASXL1 G646Wfs*12 truncating mutation, SRSF2 P95L mutation, and STAG2 loss-of-function mutation. NPM1 was wild-type. TP53 was wild-type. The mutational profile was consistent with secondary AML arising from antecedent myelodysplastic syndrome."
+    },
+    {
+      "event_index": 5,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, cytogenetic analysis showed a normal female karyotype, 46,XX, in 17 metaphases, with del(20q) in 3 of 20 metaphases. ELN 2022 risk was adverse based on FLT3-ITD without NPM1, ASXL1 mutation, and myelodysplasia-related gene mutations consistent with AML with myelodysplasia-related changes.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 6,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, given the patient's age of 68 years, chronic kidney disease, and comorbidity burden assessed by the hematopoietic cell transplantation comorbidity index score of 5, the patient was deemed not a candidate for intensive 7+3 induction or allogeneic stem cell transplant.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 10,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 68, bone marrow biopsy after cycle two of venetoclax-azacitidine showed a hypocellular marrow (25% cellularity) with 4.2% blasts by morphology, meeting criteria for complete remission with incomplete count recovery (CRi) given persistent neutropenia with ANC of 600/uL."
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, flow cytometry MRD assessment after cycle two showed 0.22% residual abnormal blasts, indicating MRD-positive CRi.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 68, bone marrow biopsy after cycle four showed ongoing CRi with 2.1% blasts and flow cytometry MRD became negative at a sensitivity of 0.01%.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, after eight cycles of venetoclax-azacitidine-midostaurin the patient maintained CRi with negative MRD. Treatment was continued with ongoing monitoring given the lack of curative intent in this regimen for adverse-risk AML.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 17,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 69, the patient experienced rising blast count to 8% on cycle ten bone marrow biopsy, with FLT3-ITD re-emerging by PCR, suggesting early molecular relapse. Gilteritinib was added to the venetoclax-azacitidine backbone as a clinical trial option.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-06-20",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-09-02",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-10-24",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-11-13",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-01-10",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-02-24",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-05-05",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-08-17",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-09-14",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-11-09",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-12-18",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-02-23",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-04-14",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-05-28",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2025-08-05",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2025-10-18",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-11-13",
+        "test_name": "WBC",
+        "value": "5.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-11-13",
+        "test_name": "Hemoglobin",
+        "value": "14.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-11-13",
+        "test_name": "Platelets",
+        "value": "133",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2022-11-13",
+        "test_name": "Creatinine",
+        "value": "0.90",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-02-24",
+        "test_name": "WBC",
+        "value": "8.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-02-24",
+        "test_name": "Hemoglobin",
+        "value": "13.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-02-24",
+        "test_name": "Platelets",
+        "value": "194",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-02-24",
+        "test_name": "Creatinine",
+        "value": "0.78",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-11-09",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-11-09",
+        "test_name": "Hemoglobin",
+        "value": "14.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-11-09",
+        "test_name": "Platelets",
+        "value": "160",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-11-09",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-12-18",
+        "test_name": "WBC",
+        "value": "6.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-12-18",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-12-18",
+        "test_name": "Platelets",
+        "value": "208",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2023-12-18",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-04-14",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-04-14",
+        "test_name": "Hemoglobin",
+        "value": "13.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-04-14",
+        "test_name": "Platelets",
+        "value": "175",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_62e149abaf0b",
+        "date": "2024-04-14",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 7,
+  "scenario_blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation. ELN intermediate/adverse risk. Induction with 7+3 plus midostaurin. Some achieving CR, some refractory. Include cytogenetics (normal karyotype or complex), blast percentage monitoring, allogeneic stem cell transplant in first remission for eligible patients.",
+  "scenario_label": "aml_flt3"
+}

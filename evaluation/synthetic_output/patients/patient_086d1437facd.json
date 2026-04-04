@@ -1,0 +1,680 @@
+{
+  "patient_id": "patient_086d1437facd",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 59-year-old African American male, height 6'1\", weight 235 lbs, BMI 31.0, current smoker with 20 pack-year history, family history of prostate cancer in two paternal uncles."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 52, patient was diagnosed with prostate adenocarcinoma (ICD-O site C61.9, histology 8140/3) after presenting with hematuria and a PSA of 22.6 ng/mL."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 52, transrectal ultrasound-guided prostate biopsy showed adenocarcinoma, Gleason score 5+4=9 (Grade Group 5), involving 11 of 12 cores, with extensive perineural invasion and comedonecrosis."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52, whole-body bone scan showed no definite metastatic disease; CT abdomen/pelvis showed a large prostatic mass with possible seminal vesicle invasion and a 1.4 cm right external iliac lymph node."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52, patient was staged as cT3bN1M0 and was treated with combined modality therapy."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 52, patient received definitive external beam radiation therapy (IMRT) to the prostate and pelvic lymph nodes, total dose 79.2 Gy to the prostate and 45 Gy to the pelvis, in 44 fractions."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52, concurrent with radiation, patient was started on androgen deprivation therapy with leuprolide 45 mg intramuscular every 6 months, planned for 2 years."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 53, PSA nadir was 0.1 ng/mL on ADT; serum testosterone was 8 ng/dL."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55, after completing planned 2 years of ADT, leuprolide was continued due to high-risk features; PSA remained at 0.3 ng/mL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56, routine bone scan showed new uptake in the right posterior 8th rib and left sacral ala suspicious for metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56, PSMA PET/CT confirmed PSMA-avid lesions in the right 8th rib, left sacral ala, and a previously undetected focus in the right femoral neck; SUVmax ranged from 8.2 to 14.6."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 56, PSA had risen to 4.8 ng/mL with testosterone of 15 ng/dL on continuous leuprolide, confirming metastatic castration-resistant prostate cancer."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 56, disease reclassified as metastatic castration-resistant prostate cancer, stage rT3bN1M1b, with new bone metastases to ribs, sacrum, and femur while on continuous ADT."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 56, enzalutamide 160 mg orally daily was initiated for mCRPC; continued on leuprolide."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 56, patient developed grade 2 fatigue and grade 1 dizziness attributed to enzalutamide; dose was maintained with supportive care."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57, PSA declined to 1.2 ng/mL on enzalutamide; bone pain was well controlled."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 57, next-generation sequencing (FoundationOne CDx) on archival prostate biopsy tissue revealed BRCA2 splice site mutation (c.8488-1G>A), homozygous PTEN deletion, and SPOP F133V mutation; HRD score was elevated; tumor mutational burden 3 mutations/Mb; microsatellite stable."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58, restaging PSMA PET/CT showed mixed response with decreased uptake at sacral lesion but new PSMA-avid focus in the L1 vertebral body and a 1.2 cm PSMA-avid left hepatic lobe lesion suspicious for visceral metastasis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, PSA rose to 9.4 ng/mL on enzalutamide with new bone and hepatic metastases; enzalutamide discontinued."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, olaparib 300 mg orally twice daily was initiated given pathogenic BRCA2 mutation; continued leuprolide."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, patient developed grade 2 anemia (hemoglobin 9.2 g/dL) and grade 2 thrombocytopenia (platelets 68,000/uL) on olaparib; olaparib dose reduced to 250 mg twice daily."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, after 4 months on dose-reduced olaparib, PSA declined to 3.6 ng/mL; hepatic lesion was stable on imaging."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59, CT abdomen/pelvis showed enlargement of the left hepatic lesion to 2.4 cm and a new 0.8 cm right hepatic lesion; bone disease was stable."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59, PSA rose to 16.8 ng/mL with progressive hepatic metastases on olaparib; transition to docetaxel was planned."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 59, docetaxel 75 mg/m2 intravenously every 3 weeks with prednisone 5 mg twice daily was initiated for progressive mCRPC with visceral metastases."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59, after cycle 2 of docetaxel, patient developed grade 3 neutropenia (ANC 600/uL) requiring dose delay and pegfilgrastim support."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 52, transrectal ultrasound-guided prostate biopsy showed adenocarcinoma, Gleason score 5+4=9 (Grade Group 5), involving 11 of 12 cores, with extensive perineural invasion and comedonecrosis."
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 52, whole-body bone scan showed no definite metastatic disease; CT abdomen/pelvis showed a large prostatic mass with possible seminal vesicle invasion and a 1.4 cm right external iliac lymph node.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 52, patient was staged as cT3bN1M0 and was treated with combined modality therapy.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 53, PSA nadir was 0.1 ng/mL on ADT; serum testosterone was 8 ng/dL.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 55, after completing planned 2 years of ADT, leuprolide was continued due to high-risk features; PSA remained at 0.3 ng/mL.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 9,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 56, routine bone scan showed new uptake in the right posterior 8th rib and left sacral ala suspicious for metastatic disease.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 10,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 56, PSMA PET/CT confirmed PSMA-avid lesions in the right 8th rib, left sacral ala, and a previously undetected focus in the right femoral neck; SUVmax ranged from 8.2 to 14.6.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 56, PSA had risen to 4.8 ng/mL with testosterone of 15 ng/dL on continuous leuprolide, confirming metastatic castration-resistant prostate cancer.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 57, PSA declined to 1.2 ng/mL on enzalutamide; bone pain was well controlled.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 16,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 57, next-generation sequencing (FoundationOne CDx) on archival prostate biopsy tissue revealed BRCA2 splice site mutation (c.8488-1G>A), homozygous PTEN deletion, and SPOP F133V mutation; HRD score was elevated; tumor mutational burden 3 mutations/Mb; microsatellite stable."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 58, restaging PSMA PET/CT showed mixed response with decreased uptake at sacral lesion but new PSMA-avid focus in the L1 vertebral body and a 1.2 cm PSMA-avid left hepatic lobe lesion suspicious for visceral metastasis.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, PSA rose to 9.4 ng/mL on enzalutamide with new bone and hepatic metastases; enzalutamide discontinued.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, after 4 months on dose-reduced olaparib, PSA declined to 3.6 ng/mL; hepatic lesion was stable on imaging.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nAt age 59, CT abdomen/pelvis showed enlargement of the left hepatic lesion to 2.4 cm and a new 0.8 cm right hepatic lesion; bone disease was stable.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 59, PSA rose to 16.8 ng/mL with progressive hepatic metastases on olaparib; transition to docetaxel was planned.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-04-15",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-07-27",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-09-06",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-11-21",
+        "diagnosis_code": "C61",
+        "department": "Radiation Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-12-18",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-03-08",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-06-13",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-08-16",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-10-21",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-12-05",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2024-04-12",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2024-05-05",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2024-08-16",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2024-09-28",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2024-10-05",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-01-06",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-04-18",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-05-11",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-06-10",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-08-25",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-09-17",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-10-10",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2026-01-17",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-09-06",
+        "test_name": "WBC",
+        "value": "8.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-09-06",
+        "test_name": "Hemoglobin",
+        "value": "13.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-09-06",
+        "test_name": "Platelets",
+        "value": "277",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-09-06",
+        "test_name": "Creatinine",
+        "value": "0.64",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-12-18",
+        "test_name": "WBC",
+        "value": "7.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-12-18",
+        "test_name": "Hemoglobin",
+        "value": "11.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-12-18",
+        "test_name": "Platelets",
+        "value": "333",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2022-12-18",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-03-08",
+        "test_name": "WBC",
+        "value": "9.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-03-08",
+        "test_name": "Hemoglobin",
+        "value": "10.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-03-08",
+        "test_name": "Platelets",
+        "value": "309",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-03-08",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-06-13",
+        "test_name": "WBC",
+        "value": "10.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-06-13",
+        "test_name": "Hemoglobin",
+        "value": "13.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-06-13",
+        "test_name": "Platelets",
+        "value": "285",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-06-13",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-12-05",
+        "test_name": "WBC",
+        "value": "9.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-12-05",
+        "test_name": "Hemoglobin",
+        "value": "13.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-12-05",
+        "test_name": "Platelets",
+        "value": "292",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2023-12-05",
+        "test_name": "Creatinine",
+        "value": "0.86",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-01-06",
+        "test_name": "WBC",
+        "value": "4.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-01-06",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-01-06",
+        "test_name": "Platelets",
+        "value": "349",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-01-06",
+        "test_name": "Creatinine",
+        "value": "0.92",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-04-18",
+        "test_name": "WBC",
+        "value": "4.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-04-18",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-04-18",
+        "test_name": "Platelets",
+        "value": "293",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-04-18",
+        "test_name": "Creatinine",
+        "value": "1.06",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-06-10",
+        "test_name": "WBC",
+        "value": "3.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-06-10",
+        "test_name": "Hemoglobin",
+        "value": "14.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-06-10",
+        "test_name": "Platelets",
+        "value": "286",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-06-10",
+        "test_name": "Creatinine",
+        "value": "1.18",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-10-10",
+        "test_name": "WBC",
+        "value": "5.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-10-10",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-10-10",
+        "test_name": "Platelets",
+        "value": "157",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_086d1437facd",
+        "date": "2025-10-10",
+        "test_name": "Creatinine",
+        "value": "1.17",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 4,
+  "scenario_blurb": "Metastatic castration-resistant prostate cancer (mCRPC). Rising PSA on ADT. Treated with enzalutamide, abiraterone, docetaxel, or cabazitaxel. Include BRCA1/2 and homologous recombination deficiency testing. Some with bone-predominant and some with visceral metastases.",
+  "scenario_label": "prostate_mcrpc"
+}

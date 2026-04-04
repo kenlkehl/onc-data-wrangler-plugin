@@ -1,0 +1,467 @@
+{
+  "patient_id": "patient_c6e7ff6cefd4",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 46-year-old female of Hispanic/Latina ethnicity (mestizo), non-smoker, BMI 27.3, with no significant past medical history and a family history of gastric cancer in a paternal uncle."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 45, patient presented with rectal bleeding, mucus in stool, and a 10-pound weight loss over 2 months; colonoscopy identified a circumferential mass in the rectosigmoid junction (C19.9)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Rectosigmoid biopsy showed moderately differentiated adenocarcinoma (histology 8140/3) with prominent Crohn-like lymphoid reaction and no mucinous component."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Next-generation sequencing revealed KRAS G12D mutation, BRAF wild-type, no PIK3CA mutation, APC loss-of-function mutation; MSI-high by PCR-based testing with MLH1 promoter hypermethylation and loss of MLH1/PMS2 by IHC; tumor mutational burden 38 mutations/Mb."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis at age 45 demonstrated rectosigmoid mass with bilateral pelvic sidewall lymphadenopathy and three hepatic metastases in the right lobe (largest 3.1 cm in segment V); no pulmonary metastases; staged T3N2bM1a."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 45, baseline CEA was 64 ng/mL and CA 19-9 was 47 U/mL; despite KRAS G12D mutation, MSI-high status makes patient a candidate for first-line immunotherapy per KEYNOTE-177."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 45, patient started first-line pembrolizumab 200 mg IV every 3 weeks for MSI-high metastatic colorectal cancer."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT after 4 cycles of pembrolizumab showed mixed response with initial increase in hepatic lesion size (pseudoprogression suspected) but decrease in pelvic lymphadenopathy; CEA decreased to 38 ng/mL despite imaging findings."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 46, tumor board reviewed imaging and declining CEA; consensus was probable pseudoprogression; recommended continued pembrolizumab with repeat imaging in 8 weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at age 46 after 8 cycles of pembrolizumab confirmed partial response with all hepatic lesions decreased (largest now 1.6 cm) and resolved pelvic lymphadenopathy; CEA 9.2 ng/mL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 46, patient developed grade 2 immune-related colitis with 4-6 watery stools daily and cramping; managed with oral budesonide 9 mg daily without need for pembrolizumab interruption."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 46, patient experienced grade 1 arthralgia in bilateral knees and wrists attributed to immune-related adverse effect; managed with naproxen."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 46, CA 19-9 normalized to 14 U/mL; colitis symptoms improving on budesonide taper; patient continues pembrolizumab with excellent ECOG 0 performance status."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT at age 46 after 12 cycles showed near-complete metabolic response with minimal residual FDG uptake in segment V hepatic lesion (SUVmax 2.1, previously 9.8); no FDG-avid disease at primary site."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 46, multidisciplinary discussion about pursuing local therapy to residual hepatic lesion versus continued pembrolizumab alone; patient preferred non-surgical approach; plan to continue pembrolizumab."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 46, patient underwent elective laparoscopic low anterior resection of rectosigmoid primary to address ongoing intermittent bleeding and tenesmus from residual primary tumor."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Rectosigmoid resection specimen showed marked pathologic response with only microscopic foci of residual adenocarcinoma (less than 5% viable tumor), ypT1N0 (0 of 14 lymph nodes positive), prominent immune infiltrate consistent with immunotherapy effect."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 46, resumed pembrolizumab 4 weeks postoperatively; plan to complete 2 years total duration."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 46, post-surgical CEA was 2.8 ng/mL; hepatic lesion remains stable and likely represents treated disease; surveillance imaging every 3 months."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Surveillance CT at age 46 (3 months post-surgery) showed no new disease; residual hepatic segment V lesion unchanged at 1.4 cm and likely represents post-treatment scar; CEA 2.3 ng/mL."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nRectosigmoid biopsy showed moderately differentiated adenocarcinoma (histology 8140/3) with prominent Crohn-like lymphoid reaction and no mucinous component."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nNext-generation sequencing revealed KRAS G12D mutation, BRAF wild-type, no PIK3CA mutation, APC loss-of-function mutation; MSI-high by PCR-based testing with MLH1 promoter hypermethylation and loss of MLH1/PMS2 by IHC; tumor mutational burden 38 mutations/Mb."
+    },
+    {
+      "event_index": 4,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT chest/abdomen/pelvis at age 45 demonstrated rectosigmoid mass with bilateral pelvic sidewall lymphadenopathy and three hepatic metastases in the right lobe (largest 3.1 cm in segment V); no pulmonary metastases; staged T3N2bM1a.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 5,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 45, baseline CEA was 64 ng/mL and CA 19-9 was 47 U/mL; despite KRAS G12D mutation, MSI-high status makes patient a candidate for first-line immunotherapy per KEYNOTE-177.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT after 4 cycles of pembrolizumab showed mixed response with initial increase in hepatic lesion size (pseudoprogression suspected) but decrease in pelvic lymphadenopathy; CEA decreased to 38 ng/mL despite imaging findings.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 46, tumor board reviewed imaging and declining CEA; consensus was probable pseudoprogression; recommended continued pembrolizumab with repeat imaging in 8 weeks.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 9,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at age 46 after 8 cycles of pembrolizumab confirmed partial response with all hepatic lesions decreased (largest now 1.6 cm) and resolved pelvic lymphadenopathy; CEA 9.2 ng/mL.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 46, CA 19-9 normalized to 14 U/mL; colitis symptoms improving on budesonide taper; patient continues pembrolizumab with excellent ECOG 0 performance status.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nPET/CT at age 46 after 12 cycles showed near-complete metabolic response with minimal residual FDG uptake in segment V hepatic lesion (SUVmax 2.1, previously 9.8); no FDG-avid disease at primary site.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 46, multidisciplinary discussion about pursuing local therapy to residual hepatic lesion versus continued pembrolizumab alone; patient preferred non-surgical approach; plan to continue pembrolizumab.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 16,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nRectosigmoid resection specimen showed marked pathologic response with only microscopic foci of residual adenocarcinoma (less than 5% viable tumor), ypT1N0 (0 of 14 lymph nodes positive), prominent immune infiltrate consistent with immunotherapy effect."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 46, post-surgical CEA was 2.8 ng/mL; hepatic lesion remains stable and likely represents treated disease; surveillance imaging every 3 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nSurveillance CT at age 46 (3 months post-surgery) showed no new disease; residual hepatic segment V lesion unchanged at 1.4 cm and likely represents post-treatment scar; CEA 2.3 ng/mL.\n\nPlease correlate clinically."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-05-18",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-07-13",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-08-06",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-11-24",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2023-02-25",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2023-05-22",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2023-07-10",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2023-10-26",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2023-12-14",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-01-28",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-02-06",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-03-07",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-05-01",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-06-23",
+        "diagnosis_code": "C18.9",
+        "department": "Surgery",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-08-24",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-09-08",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-10-12",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-12-09",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-11-24",
+        "test_name": "WBC",
+        "value": "6.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-11-24",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-11-24",
+        "test_name": "Platelets",
+        "value": "217",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2022-11-24",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-02-06",
+        "test_name": "WBC",
+        "value": "8.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-02-06",
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-02-06",
+        "test_name": "Platelets",
+        "value": "183",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-02-06",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-05-01",
+        "test_name": "WBC",
+        "value": "7.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-05-01",
+        "test_name": "Hemoglobin",
+        "value": "11.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-05-01",
+        "test_name": "Platelets",
+        "value": "144",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-05-01",
+        "test_name": "Creatinine",
+        "value": "0.76",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-09-08",
+        "test_name": "WBC",
+        "value": "7.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-09-08",
+        "test_name": "Hemoglobin",
+        "value": "11.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-09-08",
+        "test_name": "Platelets",
+        "value": "192",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-09-08",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-10-12",
+        "test_name": "WBC",
+        "value": "3.7",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-10-12",
+        "test_name": "Hemoglobin",
+        "value": "10.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-10-12",
+        "test_name": "Platelets",
+        "value": "293",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_c6e7ff6cefd4",
+        "date": "2024-10-12",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 3,
+  "scenario_blurb": "Stage IV colorectal cancer with KRAS G12D mutation. Left-sided and right-sided primary tumors. Treated with FOLFOX or FOLFIRI plus bevacizumab. Some with liver-limited metastases considered for hepatic resection. MSI/MMR testing performed.",
+  "scenario_label": "crc_kras"
+}

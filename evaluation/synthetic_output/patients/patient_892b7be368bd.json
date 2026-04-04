@@ -1,0 +1,623 @@
+{
+  "patient_id": "patient_892b7be368bd",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 58-year-old Caucasian female who presented with progressive fatigue, exertional dyspnea, and recurrent epistaxis over the past six weeks."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 58, the patient was diagnosed with acute myeloid leukemia with maturation, ICD-O morphology code 9874/3, primary site bone marrow C42.1, following evaluation for pancytopenia."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, initial laboratory evaluation showed white blood cell count of 3,200/uL with 22% circulating blasts, hemoglobin 6.8 g/dL, and platelet count of 34,000/uL. LDH was elevated at 890 U/L. Coagulation studies were within normal limits."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58, bone marrow biopsy with aspirate revealed a hypercellular marrow (90% cellularity) with 64% myeloblasts showing partial maturation to promyelocytes. Blasts were positive for CD34, CD117, CD33, CD13, CD15 (partial), HLA-DR, and MPO by flow cytometry."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 58, molecular profiling by next-generation sequencing identified FLT3-ITD mutation with a high allelic ratio of 1.35, DNMT3A R882C mutation, and IDH2 R140Q mutation. NPM1 was wild-type. No TP53 or ASXL1 mutations were detected."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, cytogenetic analysis demonstrated a normal female karyotype, 46,XX, in all 20 metaphases. ELN 2022 risk classification was adverse based on FLT3-ITD positivity in the absence of NPM1 mutation."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, induction chemotherapy was initiated with the 7+3 regimen of cytarabine 200 mg/m2 continuous infusion for seven days and daunorubicin 60 mg/m2 on days one through three, plus midostaurin 50 mg orally twice daily on days eight through twenty-one."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, the patient developed neutropenic fever on day seven with temperature of 38.9 degrees Celsius and absolute neutrophil count of 80/uL. Blood cultures were negative but CT sinuses showed acute invasive fungal sinusitis, and liposomal amphotericin B was started empirically."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, grade 2 nausea and vomiting occurred during induction requiring ondansetron and olanzapine for antiemetic control."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58, day 14 bone marrow biopsy showed a hypocellular marrow (15% cellularity) with 18% residual blasts, indicating a suboptimal early response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, given persistent blasts on day 14, the decision was made to proceed with re-induction using the 5+2 regimen with cytarabine for five days and daunorubicin for two days, again combined with midostaurin."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58, day 28 bone marrow biopsy following re-induction showed 2.4% blasts by morphology, meeting criteria for complete remission. However, flow cytometry MRD was positive at 0.32%, indicating measurable residual disease."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, the patient received one cycle of consolidation with high-dose cytarabine 1.5 g/m2 (age-adjusted dosing) every twelve hours on days one, three, and five, plus midostaurin on days eight through twenty-one."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, during consolidation the patient experienced grade 3 cerebellar toxicity manifesting as ataxia and dysmetria, attributed to high-dose cytarabine, which resolved over seven days after cytarabine was held."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58, given adverse ELN risk and MRD positivity, the patient was referred for allogeneic stem cell transplant and underwent haploidentical transplant from her son with post-transplant cyclophosphamide-based GVHD prophylaxis and reduced-intensity conditioning with fludarabine and melphalan."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, neutrophil engraftment occurred on day plus 18. Day plus 30 bone marrow showed complete donor chimerism and no detectable disease."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58, the patient developed grade 3 acute GVHD of the lower gastrointestinal tract with profuse watery diarrhea exceeding 1,500 mL per day, requiring high-dose methylprednisolone and ruxolitinib as second-line therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58, GVHD improved with combination therapy and the patient was discharged on a steroid taper and ruxolitinib maintenance. Day plus 100 marrow remained in complete remission with undetectable MRD by flow cytometry."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59, approximately eight months post-transplant, routine CBC showed recurrence of circulating blasts at 4%. Bone marrow biopsy confirmed morphologic relapse with 38% blasts harboring the original FLT3-ITD mutation."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 59, the patient was started on gilteritinib 120 mg orally daily as FLT3-directed salvage therapy for relapsed AML post-transplant."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59, gilteritinib was complicated by QTc prolongation to 508 ms requiring dose reduction to 80 mg daily and close cardiac monitoring."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59, after two cycles of gilteritinib the patient achieved a second complete remission with 1.2% blasts and is being considered for donor lymphocyte infusion to augment graft-versus-leukemia effect."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, initial laboratory evaluation showed white blood cell count of 3,200/uL with 22% circulating blasts, hemoglobin 6.8 g/dL, and platelet count of 34,000/uL. LDH was elevated at 890 U/L. Coagulation studies were within normal limits.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 58, bone marrow biopsy with aspirate revealed a hypercellular marrow (90% cellularity) with 64% myeloblasts showing partial maturation to promyelocytes. Blasts were positive for CD34, CD117, CD33, CD13, CD15 (partial), HLA-DR, and MPO by flow cytometry."
+    },
+    {
+      "event_index": 4,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nAt age 58, molecular profiling by next-generation sequencing identified FLT3-ITD mutation with a high allelic ratio of 1.35, DNMT3A R882C mutation, and IDH2 R140Q mutation. NPM1 was wild-type. No TP53 or ASXL1 mutations were detected."
+    },
+    {
+      "event_index": 5,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, cytogenetic analysis demonstrated a normal female karyotype, 46,XX, in all 20 metaphases. ELN 2022 risk classification was adverse based on FLT3-ITD positivity in the absence of NPM1 mutation.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 9,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 58, day 14 bone marrow biopsy showed a hypocellular marrow (15% cellularity) with 18% residual blasts, indicating a suboptimal early response."
+    },
+    {
+      "event_index": 10,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, given persistent blasts on day 14, the decision was made to proceed with re-induction using the 5+2 regimen with cytarabine for five days and daunorubicin for two days, again combined with midostaurin.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 11,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nAt age 58, day 28 bone marrow biopsy following re-induction showed 2.4% blasts by morphology, meeting criteria for complete remission. However, flow cytometry MRD was positive at 0.32%, indicating measurable residual disease."
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, neutrophil engraftment occurred on day plus 18. Day plus 30 bone marrow showed complete donor chimerism and no detectable disease.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 17,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 58, GVHD improved with combination therapy and the patient was discharged on a steroid taper and ruxolitinib maintenance. Day plus 100 marrow remained in complete remission with undetectable MRD by flow cytometry.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 59, approximately eight months post-transplant, routine CBC showed recurrence of circulating blasts at 4%. Bone marrow biopsy confirmed morphologic relapse with 38% blasts harboring the original FLT3-ITD mutation.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAt age 59, after two cycles of gilteritinib the patient achieved a second complete remission with 1.2% blasts and is being considered for donor lymphocyte infusion to augment graft-versus-leukemia effect.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-03-27",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-05-27",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-06-01",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-07-07",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-10-02",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-12-13",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-03-14",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-04-12",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-05-06",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-07-10",
+        "diagnosis_code": "C92.0",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-09-14",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-12-26",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-03-08",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-06-18",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-07-26",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-10-12",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2025-12-06",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-01-16",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-04-08",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-06-18",
+        "diagnosis_code": "C92.0",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-03-27",
+        "test_name": "WBC",
+        "value": "8.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-03-27",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-03-27",
+        "test_name": "Platelets",
+        "value": "254",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-03-27",
+        "test_name": "Creatinine",
+        "value": "0.76",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-07-07",
+        "test_name": "WBC",
+        "value": "4.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-07-07",
+        "test_name": "Hemoglobin",
+        "value": "15.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-07-07",
+        "test_name": "Platelets",
+        "value": "311",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-07-07",
+        "test_name": "Creatinine",
+        "value": "0.80",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-10-02",
+        "test_name": "WBC",
+        "value": "10.4",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-10-02",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-10-02",
+        "test_name": "Platelets",
+        "value": "287",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2022-10-02",
+        "test_name": "Creatinine",
+        "value": "0.90",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-05-06",
+        "test_name": "WBC",
+        "value": "10.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-05-06",
+        "test_name": "Hemoglobin",
+        "value": "10.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-05-06",
+        "test_name": "Platelets",
+        "value": "262",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-05-06",
+        "test_name": "Creatinine",
+        "value": "0.75",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-09-14",
+        "test_name": "WBC",
+        "value": "4.2",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-09-14",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-09-14",
+        "test_name": "Platelets",
+        "value": "216",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2023-09-14",
+        "test_name": "Creatinine",
+        "value": "0.99",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-10-12",
+        "test_name": "WBC",
+        "value": "7.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-10-12",
+        "test_name": "Hemoglobin",
+        "value": "15.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-10-12",
+        "test_name": "Platelets",
+        "value": "236",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2024-10-12",
+        "test_name": "Creatinine",
+        "value": "0.83",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2025-12-06",
+        "test_name": "WBC",
+        "value": "5.1",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2025-12-06",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2025-12-06",
+        "test_name": "Platelets",
+        "value": "299",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2025-12-06",
+        "test_name": "Creatinine",
+        "value": "0.64",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-01-16",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-01-16",
+        "test_name": "Hemoglobin",
+        "value": "11.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-01-16",
+        "test_name": "Platelets",
+        "value": "157",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-01-16",
+        "test_name": "Creatinine",
+        "value": "0.75",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-06-18",
+        "test_name": "WBC",
+        "value": "11.0",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-06-18",
+        "test_name": "Hemoglobin",
+        "value": "11.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-06-18",
+        "test_name": "Platelets",
+        "value": "315",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_892b7be368bd",
+        "date": "2026-06-18",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 7,
+  "scenario_blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation. ELN intermediate/adverse risk. Induction with 7+3 plus midostaurin. Some achieving CR, some refractory. Include cytogenetics (normal karyotype or complex), blast percentage monitoring, allogeneic stem cell transplant in first remission for eligible patients.",
+  "scenario_label": "aml_flt3"
+}

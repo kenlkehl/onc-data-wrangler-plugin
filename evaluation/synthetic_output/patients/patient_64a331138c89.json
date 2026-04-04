@@ -1,0 +1,457 @@
+{
+  "patient_id": "patient_64a331138c89",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Patient is a 45-year-old Chinese American female, never smoker. ECOG performance status 0. No significant past medical history. Diagnosed after presenting with hemoptysis."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Stage IV non-small cell lung cancer (NSCLC), adenocarcinoma histology (ICD-O code 8140/3), primary site left upper lobe (C34.1). TNM staging T2aN2M1b with mediastinal lymphadenopathy, bone metastases to ribs and thoracic spine, and liver metastasis."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Bronchoscopic biopsy of left upper lobe endobronchial mass reveals well-differentiated adenocarcinoma with lepidic and acinar patterns. TTF-1 strongly positive, Napsin A positive. No necrosis. Extensive tissue submitted for molecular profiling."
+    },
+    {
+      "type": "ngs_report",
+      "text": "Comprehensive genomic profiling (FoundationOne CDx) on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 52%. TP53 wild type. No other pathogenic alterations detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS mutations. PD-L1 TPS 0%. TMB 1 mutation/Mb."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma in a young never-smoking Chinese American female. EGFR mutation without TP53 co-mutation is a favorable prognostic feature. Plan: Start osimertinib 80 mg daily. Denosumab for bone metastases. Baseline brain MRI."
+    },
+    {
+      "type": "systemic",
+      "text": "Started osimertinib 80 mg daily for EGFR exon 19 deletion-positive Stage IV NSCLC."
+    },
+    {
+      "type": "systemic",
+      "text": "Started denosumab 120 mg subcutaneously every 4 weeks for bone metastatic disease."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Baseline CT shows 2.8 cm left upper lobe mass, station 5 and 7 lymphadenopathy, sclerotic and lytic lesions in right 6th and 8th ribs and T7 vertebral body, and a 1.5 cm hepatic lesion in segment 6."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain negative for intracranial metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Restaging CT at 6 weeks shows left upper lobe mass decreased from 2.8 cm to 1.4 cm. Lymphadenopathy resolved. Hepatic lesion decreased to 0.7 cm. Bone lesions show sclerotic healing. Excellent partial response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Grade 1 skin dryness and periungual fissures. Managed with moisturizer and cotton gloves at night."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Deep partial response to osimertinib at 6 weeks. Favorable biology with exon 19 deletion and wild-type TP53. Plan: Continue osimertinib. Anticipate durable response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 4 months shows left upper lobe residual 0.8 cm. Hepatic lesion no longer clearly visualized. Bone lesions sclerotic. Near-complete response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 8 months shows near-complete response. Left upper lobe residual 0.6 cm. No measurable disease elsewhere."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI brain at 9 months negative."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 12 months shows continued near-complete response. Left upper lobe residual 0.5 cm, likely fibrosis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Durable near-complete response at 12 months on osimertinib. Exceptional responder. ECOG 0. No significant toxicity. Plan: Continue osimertinib indefinitely."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 16 months shows stable. Left upper lobe 0.5 cm unchanged."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT at 20 months shows stable. No measurable disease. Continued exceptional response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT at 24 months shows no FDG-avid disease. Complete metabolic response. Residual left upper lobe opacity (SUV max 1.2) consistent with fibrosis."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Assessment: Complete metabolic response at 24 months on osimertinib. Continued exceptional response. Plan: Continue osimertinib. Discuss potential for long-term disease control. Surveillance imaging every 4 months."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nDIAGNOSIS AND FINDINGS:\nBronchoscopic biopsy of left upper lobe endobronchial mass reveals well-differentiated adenocarcinoma with lepidic and acinar patterns. TTF-1 strongly positive, Napsin A positive. No necrosis. Extensive tissue submitted for molecular profiling."
+    },
+    {
+      "event_index": 3,
+      "event_type": "ngs_report",
+      "text": "GENOMIC PROFILING REPORT\n\nRESULTS:\nComprehensive genomic profiling (FoundationOne CDx) on bronchoscopic biopsy. EGFR exon 19 deletion (p.E746_A750del) detected at VAF 52%. TP53 wild type. No other pathogenic alterations detected. No ALK, ROS1, BRAF, MET, RET, HER2, or KRAS mutations. PD-L1 TPS 0%. TMB 1 mutation/Mb."
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Stage IV EGFR exon 19 deletion-positive adenocarcinoma in a young never-smoking Chinese American female. EGFR mutation without TP53 co-mutation is a favorable prognostic feature. Plan: Start osimertinib 80 mg daily. Denosumab for bone metastases. Baseline brain MRI.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 7,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nBaseline CT shows 2.8 cm left upper lobe mass, station 5 and 7 lymphadenopathy, sclerotic and lytic lesions in right 6th and 8th ribs and T7 vertebral body, and a 1.5 cm hepatic lesion in segment 6.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 8,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain negative for intracranial metastases.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 9,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nRestaging CT at 6 weeks shows left upper lobe mass decreased from 2.8 cm to 1.4 cm. Lymphadenopathy resolved. Hepatic lesion decreased to 0.7 cm. Bone lesions show sclerotic healing. Excellent partial response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Deep partial response to osimertinib at 6 weeks. Favorable biology with exon 19 deletion and wild-type TP53. Plan: Continue osimertinib. Anticipate durable response.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 12,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 4 months shows left upper lobe residual 0.8 cm. Hepatic lesion no longer clearly visualized. Bone lesions sclerotic. Near-complete response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 8 months shows near-complete response. Left upper lobe residual 0.6 cm. No measurable disease elsewhere.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nMRI brain at 9 months negative.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 15,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 12 months shows continued near-complete response. Left upper lobe residual 0.5 cm, likely fibrosis.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Durable near-complete response at 12 months on osimertinib. Exceptional responder. ECOG 0. No significant toxicity. Plan: Continue osimertinib indefinitely.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 16 months shows stable. Left upper lobe 0.5 cm unchanged.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 18,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nCT at 20 months shows stable. No measurable disease. Continued exceptional response.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 19,
+      "event_type": "imaging_report",
+      "text": "RADIOLOGY REPORT\n\nFINDINGS:\nPET/CT at 24 months shows no FDG-avid disease. Complete metabolic response. Residual left upper lobe opacity (SUV max 1.2) consistent with fibrosis.\n\nPlease correlate clinically."
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "CLINICAL PROGRESS NOTE\n\nASSESSMENT AND PLAN:\nAssessment: Complete metabolic response at 24 months on osimertinib. Continued exceptional response. Plan: Continue osimertinib. Discuss potential for long-term disease control. Surveillance imaging every 4 months.\n\nThe patient was seen in clinic today for ongoing oncologic management."
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-04-19",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-05-24",
+        "diagnosis_code": "C34.1",
+        "department": "Pathology",
+        "visit_type": "Procedure"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-06-01",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-08-08",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-10-25",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-12-21",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-03-16",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-05-06",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-08-26",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-10-06",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-11-16",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2023-12-18",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-03-02",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-06-02",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-07-27",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-10-05",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-11-07",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-02-15",
+        "diagnosis_code": "C34.1",
+        "department": "Radiology",
+        "visit_type": "Imaging"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-04-02",
+        "diagnosis_code": "C34.1",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-06-01",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-06-01",
+        "test_name": "Hemoglobin",
+        "value": "14.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-06-01",
+        "test_name": "Platelets",
+        "value": "188",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-06-01",
+        "test_name": "Creatinine",
+        "value": "0.72",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-08-08",
+        "test_name": "WBC",
+        "value": "5.3",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-08-08",
+        "test_name": "Hemoglobin",
+        "value": "13.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-08-08",
+        "test_name": "Platelets",
+        "value": "337",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2022-08-08",
+        "test_name": "Creatinine",
+        "value": "0.80",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-07-27",
+        "test_name": "WBC",
+        "value": "3.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-07-27",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "L"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-07-27",
+        "test_name": "Platelets",
+        "value": "265",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2024-07-27",
+        "test_name": "Creatinine",
+        "value": "0.64",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-04-02",
+        "test_name": "WBC",
+        "value": "10.5",
+        "unit": "10^9/L",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-04-02",
+        "test_name": "Hemoglobin",
+        "value": "15.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-16.0",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-04-02",
+        "test_name": "Platelets",
+        "value": "272",
+        "unit": "10^9/L",
+        "reference_range": "150-400",
+        "abnormal_flag": "N"
+      },
+      {
+        "patient_id": "patient_64a331138c89",
+        "date": "2025-04-02",
+        "test_name": "Creatinine",
+        "value": "0.61",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N"
+      }
+    ]
+  },
+  "scenario_index": 0,
+  "scenario_blurb": "Stage IIIB-IV non-small cell lung cancer (NSCLC) with EGFR activating mutations (L858R or exon 19 deletion). Patients treated with EGFR TKIs (erlotinib, osimertinib) with eventual T790M resistance. Include NGS testing, brain metastases in some patients.",
+  "scenario_label": "nsclc_egfr"
+}
