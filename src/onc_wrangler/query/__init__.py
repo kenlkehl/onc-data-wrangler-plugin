@@ -1,1 +1,1 @@
-"""Query MCP server, SQL validation, and privacy enforcement."""
+"""SQL validation and privacy enforcement for database queries."""

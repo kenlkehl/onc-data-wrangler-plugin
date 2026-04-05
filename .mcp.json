@@ -1,8 +1,0 @@
-{
-  "mcpServers": {
-    "onc-query": {
-      "command": "uv",
-      "args": ["run", "--directory", "${CLAUDE_PLUGIN_ROOT}", "python", "${CLAUDE_PLUGIN_ROOT}/scripts/mcp_query_server.py"]
-    }
-  }
-}

@@ -95,12 +95,10 @@ class DatabaseConfig:
 
 @dataclass
 class QueryConfig:
-    """Configuration for the query/MCP server stage."""
+    """Configuration for the query privacy enforcement layer."""
     min_cell_size: int = 10
     max_query_rows: int = 500
     max_output_fraction: float = 0.5
-    mcp_host: str = "127.0.0.1"
-    mcp_port: int = 8000
     privacy_mode: str = "aggregate-only"
 
 

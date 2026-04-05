@@ -37,7 +37,7 @@
       "Write(*.jsonl)",
       "Write(*.py)",
 
-      "mcp__onc_query__*"
+      "Bash(uv run --directory * python */scripts/query.py *)"
     ]
   }
 }

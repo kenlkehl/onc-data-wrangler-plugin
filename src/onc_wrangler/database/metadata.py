@@ -1,7 +1,7 @@
 """Generate schema and summary statistics metadata from a DuckDB database.
 
 Produces markdown files describing table structures and aggregate statistics
-for use as MCP resources and LLM context.
+for use as LLM context.
 """
 
 import logging

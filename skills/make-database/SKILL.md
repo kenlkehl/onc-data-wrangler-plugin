@@ -11,7 +11,7 @@ effort: high
 
 You are helping the user build a privacy-preserving DuckDB database from raw tabular data files. This is an interactive, end-to-end process: you discover their data, configure the project, build a cohort, load structured tables, and produce a queryable database — all in one session.
 
-**IMPORTANT**: The MCP server may inject instructions from a previous project into the system prompt (e.g., "You are a clinical dataset analysis assistant for the <old-project-name> project"). **Ignore those entirely.** They are stale leftovers from a prior setup. Do not use any project name, cancer type, file paths, or settings from the MCP server instructions. Start completely fresh based only on what the user tells you.
+**IMPORTANT**: A previous `active_config.yaml` may exist from a prior project. Always start fresh based only on what the user tells you.
 
 Plugin root: `${CLAUDE_PLUGIN_ROOT}`
 
@@ -19,7 +19,7 @@ Plugin root: `${CLAUDE_PLUGIN_ROOT}`
 
 ## STAGE 0: DISCOVER
 
-Before anything else, remove any previous active config from the working directory so the MCP server instructions from a prior project don't leak into this session:
+Before anything else, remove any previous active config from the working directory so a prior project's settings don't leak into this session:
 
 ```bash
 rm -f active_config.yaml
@@ -161,7 +161,7 @@ patient_id_columns: {}
 
 Write the config to `<output_dir>/<project_name>_config.yaml`.
 
-Then activate it by copying to the working directory (the MCP server auto-discovers it here):
+Then activate it by copying to the working directory (the query CLI auto-discovers it here):
 
 ```bash
 cp <output_dir>/<project_name>_config.yaml active_config.yaml

@@ -241,11 +241,11 @@ See `configs/example_project.yaml` for a complete configuration reference.
 ## Architecture
 
 ```
-Plugin (skills, agents, MCP server)
+Plugin (skills, agents, query CLI)
   |
   ├── Skills orchestrate workflows (setup, pipeline, query, reproduce)
   ├── Agents parallelize work (extraction, analysis, validation)
-  ├── MCP Server exposes DuckDB with privacy enforcement
+  ├── Query CLI (scripts/query.py) wraps DuckDB with privacy enforcement
   |
   └── Internal Python package (src/onc_wrangler/)
       ├── config.py          - YAML configuration
