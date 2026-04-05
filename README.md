@@ -2,6 +2,89 @@
 
 A Claude Code plugin for oncology data wrangling: extracting structured data from clinical notes, building privacy-preserving DuckDB databases, querying cohorts, and reproducing published paper results.
 
+## Installation & Quick Start
+
+### 1. Install Claude Code
+
+Follow the [Claude Code setup instructions](https://docs.anthropic.com/en/docs/claude-code/setup) to install Claude Code:
+
+```bash
+# macOS / Linux
+curl -fsSL https://claude.ai/install.sh | sh
+
+# Windows (PowerShell)
+irm https://claude.ai/install.ps1 | iex
+```
+
+### 2. Install the plugin dependencies
+
+```bash
+# Install uv (Python package manager) if you don't have it
+curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
+
+# Install plugin dependencies (requires Python 3.13+)
+cd /path/to/onc-data-wrangler-plugin
+uv sync
+```
+
+### 3. (Optional) Set up a local model
+
+If your data cannot leave your network, you can run Claude Code entirely against a local model using **vLLM** or **Ollama**.
+
+#### Option A: vLLM
+
+Install and start vLLM following the [Gemma 4 usage guide](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html). See also the [vLLM Claude Code integration docs](https://docs.vllm.ai/en/stable/serving/integrations/claude_code/).
+
+```bash
+# Start the vLLM server (example with Gemma 4 31B)
+vllm serve nvidia/Gemma-4-31b-IT-NVFP4 \
+  --quantization modelopt \
+  --enable-auto-tool-choice \
+  --reasoning-parser gemma4 \
+  --tool-call-parser gemma4 \
+  --served-model-name gemma4-31b
+```
+
+Then launch Claude Code pointed at the local server:
+
+```bash
+CLAUDE_CODE_USE_VERTEX=0 \
+ANTHROPIC_BASE_URL=http://localhost:8000 \
+ANTHROPIC_API_KEY=dummy \
+ANTHROPIC_AUTH_TOKEN=dummy \
+ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
+ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
+claude --model opus --plugin-dir .
+```
+
+#### Option B: Ollama
+
+Install [Ollama](https://ollama.com/download) and pull a model. See the [Ollama Claude Code integration docs](https://docs.ollama.com/integrations/claude-code) for full details.
+
+```bash
+# Install Ollama
+curl -fsSL https://ollama.com/install.sh | sh
+
+# Pull a model and launch Claude Code
+ollama pull gemma4
+ollama launch claude-code
+```
+
+### 4. Launch Claude Code with the plugin
+
+```bash
+# With the Anthropic API (default)
+claude --plugin-dir .
+
+# Then use the plugin skills inside Claude Code:
+#   /onc-data-wrangler:make-database
+#   /onc-data-wrangler:query-database
+#   /onc-data-wrangler:derive-dataset
+#   /onc-data-wrangler:extract-notes
+#   /onc-data-wrangler:generate-synthetic-data
+```
+
 ## Skills
 
 | Skill | Command | Description |
@@ -101,53 +184,6 @@ The query system supports three privacy modes (set in project config):
 - **matchminer_ai**: MatchMiner AI clinical fields
 - **clinical_summary**: Free-text clinical summaries
 
-## Quick Start
-
-```bash
-# 1. Install uv (Python package manager) if you don't have it
-curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
-
-# 2. Install dependencies (requires Python 3.13+)
-cd /path/to/onc-data-wrangler-plugin
-uv sync
-
-# 3. Launch Claude Code with the plugin
-claude --plugin-dir .
-
-# 4. Build a database from your data files (interactive)
-#    In Claude Code, type: /onc-data-wrangler:make-database
-
-# 5. Query your database
-#    /onc-data-wrangler:query-database
-
-# 6. Build an analysis dataset
-#    /onc-data-wrangler:derive-dataset
-
-# 7. (Optional) Generate synthetic test data
-#    /onc-data-wrangler:generate-synthetic-data
-
-# 8. (Optional) Extract from clinical notes
-#    /onc-data-wrangler:extract-notes
-```
-
-## Setup
-
-**Requirements:**
-- Python 3.13 or higher
-- [uv](https://docs.astral.sh/uv/) package manager
-
-```bash
-# Install uv if needed
-curl -LsSf https://astral.sh/uv/install.sh | sh
-# Or: pip install uv
-
-# Install dependencies
-cd /path/to/onc-data-wrangler-plugin
-uv sync
-
-# Test with Claude Code
-claude --plugin-dir .
-```
 
 ## Security Considerations
 
@@ -224,43 +260,13 @@ Plugin (skills, agents, MCP server)
       └── synthetic/          - Synthetic data generation pipeline
 ```
 
-## Running with a Local Model (vLLM)
+## Running with a Local Model
 
-You can run Claude Code itself against a local model served by [vLLM](https://docs.vllm.ai/), keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session.
+You can run Claude Code itself against a local model, keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session. See the [Installation & Quick Start](#installation--quick-start) section above for setup instructions.
 
-### 1. Start the vLLM server
+### Wrapper script (vLLM)
 
-```bash
-vllm serve nvidia/Gemma-4-31b-IT-NVFP4 \
-  --quantization modelopt \
-  --enable-auto-tool-choice \
-  --reasoning-parser gemma4 \
-  --tool-call-parser gemma4 \
-  --served-model-name gemma4-31b
-```
-
-This exposes an Anthropic-compatible API on port 8000 by default.
-
-### 2. Launch Claude Code
-
-```bash
-CLAUDE_CODE_USE_VERTEX=0 \
-ANTHROPIC_BASE_URL=http://localhost:8000 \
-ANTHROPIC_API_KEY=dummy \
-ANTHROPIC_AUTH_TOKEN=dummy \
-ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
-ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
-ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
-claude --model opus --plugin-dir .
-```
-
-Replace `localhost:8000` with the hostname of your vLLM server if it runs on a different machine (e.g., `http://gpu-server.example.com:8000`).
-
-The environment variables redirect all Claude Code API calls to the local vLLM endpoint. Setting `ANTHROPIC_API_KEY` and `ANTHROPIC_AUTH_TOKEN` to `dummy` satisfies the client without requiring a real API key.
-
-### Wrapper script
-
-For convenience, save the above as a shell script (e.g., `localclaude`):
+For convenience, save the vLLM launch command as a shell script (e.g., `localclaude`):
 
 ```bash
 #!/usr/bin/env bash
@@ -278,6 +284,8 @@ claude --model opus "$@"
 chmod +x localclaude
 ./localclaude --plugin-dir .
 ```
+
+Replace `localhost:8000` with the hostname of your vLLM server if it runs on a different machine.
 
 ## Distribution
 
