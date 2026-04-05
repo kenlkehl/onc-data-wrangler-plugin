@@ -1,67 +1,113 @@
-"""FastMCP server for executing validated SQL queries against the project database."""
+"""FastMCP server for executing validated SQL queries against the project database.
+
+The server loads config dynamically on each tool call so it automatically
+picks up changes after make-database writes a new active_config.yaml.
+"""
 import logging
 from pathlib import Path
 
 import duckdb
 from mcp.server.fastmcp import FastMCP
 
-from ..config import ProjectConfig
+from ..config import ProjectConfig, load_config
 from .sql_validator import validate_sql, validate_individual_sql, identify_count_columns
 from .privacy import sanitize_query_output, log_query_audit
 
 logger = logging.getLogger(__name__)
 
+_NOT_CONFIGURED = (
+    "No project configured. Run /onc-data-wrangler:make-database first."
+)
 
-def create_server_from_config(config: ProjectConfig) -> FastMCP:
-    """Create a FastMCP server from project configuration.
+
+def create_server(config_path: str) -> FastMCP:
+    """Create a FastMCP server that loads config dynamically from disk.
+
+    Unlike loading config once at startup, every tool and resource call
+    re-reads the config file.  This means the server automatically picks
+    up a new database after make-database runs -- no restart required.
 
     Args:
-        config: ProjectConfig with query settings.
+        config_path: Path to the active YAML config file.
 
     Returns:
         Configured FastMCP instance.
     """
-    query_config = config.query
-    db_path = config.db_path
-    schema_path = config.schema_path
-    summary_path = config.summary_path
 
-    min_cell_size = query_config.min_cell_size
-    max_query_rows = query_config.max_query_rows
-
-    # Read privacy mode from config (default: "aggregate-only")
-    privacy_mode = getattr(query_config, "privacy_mode", "aggregate-only")
-
-    server_instructions = (
-        f"You are a clinical dataset analysis assistant for the {config.name} project. "
-        "Use the execute_query tool to run validated SQL queries against the database. "
-        "Use the schema and summary resources to understand the database structure."
-    )
+    def _load_config() -> ProjectConfig | None:
+        """Load current config from disk, or None if unavailable."""
+        if not config_path or not Path(config_path).exists():
+            return None
+        try:
+            return load_config(config_path)
+        except Exception as e:
+            logger.warning("Failed to load config from %s: %s", config_path, e)
+            return None
 
     mcp = FastMCP(
-        name=f"{config.name} Analysis Server",
-        instructions=server_instructions,
-        host=query_config.mcp_host,
-        port=query_config.mcp_port,
+        name="ONC Data Wrangler Query Server",
+        instructions=(
+            "Use the execute_query tool to run validated SQL queries against "
+            "the project database. Use the schema and summary resources to "
+            "understand the database structure. If no project is configured "
+            "yet, run /onc-data-wrangler:make-database first."
+        ),
     )
 
     # --- MCP Resources ---
 
-    @mcp.resource(f"{config.name}://schema")
+    @mcp.resource("onc://schema")
     def get_schema() -> str:
         """Database schema: table names, columns, and types."""
-        if schema_path.exists():
-            return schema_path.read_text()
+        config = _load_config()
+        if config is None:
+            return _NOT_CONFIGURED
+        if config.schema_path.exists():
+            return config.schema_path.read_text()
         return "Schema file not yet generated. Run the metadata pipeline stage first."
 
-    @mcp.resource(f"{config.name}://summary")
+    @mcp.resource("onc://summary")
     def get_summary() -> str:
         """Pre-computed summary statistics for the dataset."""
-        if summary_path.exists():
-            return summary_path.read_text()
+        config = _load_config()
+        if config is None:
+            return _NOT_CONFIGURED
+        if config.summary_path.exists():
+            return config.summary_path.read_text()
         return "Summary file not yet generated. Run the metadata pipeline stage first."
 
     # --- MCP Tools ---
+
+    @mcp.tool()
+    def get_status() -> dict:
+        """Check server status and current project configuration."""
+        config = _load_config()
+        if config is None:
+            return {
+                "status": "not_configured",
+                "message": _NOT_CONFIGURED,
+                "config_path_checked": config_path,
+            }
+        return {
+            "status": "configured",
+            "project_name": config.name,
+            "db_path": str(config.db_path),
+            "db_exists": config.db_path.exists(),
+            "privacy_mode": getattr(config.query, "privacy_mode", "aggregate-only"),
+        }
+
+    @mcp.tool()
+    def get_privacy_mode() -> dict:
+        """Return the current privacy mode for the query server.
+
+        Returns:
+            Dict with key 'privacy_mode' set to one of:
+            "aggregate-only", "individual", or "individual-with-audit".
+        """
+        config = _load_config()
+        if config is None:
+            return {"error": _NOT_CONFIGURED}
+        return {"privacy_mode": getattr(config.query, "privacy_mode", "aggregate-only")}
 
     @mcp.tool()
     def execute_query(
@@ -89,6 +135,14 @@ def create_server_from_config(config: ProjectConfig) -> FastMCP:
             Dict with keys: columns, rows, n_rows, warnings, suppression_applied.
             Or dict with key: error.
         """
+        config = _load_config()
+        if config is None:
+            return {"error": _NOT_CONFIGURED}
+
+        db_path = config.db_path
+        min_cell_size = config.query.min_cell_size
+        max_query_rows = config.query.max_query_rows
+
         # 1. Validate SQL
         forbidden = set(config.database.forbidden_output_columns) if config.database.forbidden_output_columns else {"record_id"}
         validation = validate_sql(sql, forbidden)
@@ -150,100 +204,100 @@ def create_server_from_config(config: ProjectConfig) -> FastMCP:
             "suppression_applied": suppression_applied,
         }
 
-    # --- Privacy mode tool ---
-
     @mcp.tool()
-    def get_privacy_mode() -> dict:
-        """Return the current privacy mode for the query server.
+    def execute_individual_query(
+        sql: str,
+    ) -> dict:
+        """Execute a validated individual-level SQL query against the database.
+
+        Unlike execute_query, this tool does NOT require aggregation.
+        It still enforces: single SELECT statement, no SELECT *, no
+        forbidden columns in output, and max_query_rows.
+        Cell suppression is NOT applied.
+
+        Only available when privacy_mode is not "aggregate-only".
+
+        Args:
+            sql: A SQL SELECT query (aggregation not required).
 
         Returns:
-            Dict with key 'privacy_mode' set to one of:
-            "aggregate-only", "individual", or "individual-with-audit".
+            Dict with keys: columns, rows, n_rows, warnings, suppression_applied.
+            Or dict with key: error.
         """
-        return {"privacy_mode": privacy_mode}
+        config = _load_config()
+        if config is None:
+            return {"error": _NOT_CONFIGURED}
 
-    # --- Individual query tool (registered when privacy_mode allows it) ---
+        privacy_mode = getattr(config.query, "privacy_mode", "aggregate-only")
+        if privacy_mode == "aggregate-only":
+            return {
+                "error": (
+                    "Individual-level queries are not allowed in aggregate-only "
+                    "privacy mode. Use execute_query for aggregate queries instead."
+                )
+            }
 
-    if privacy_mode != "aggregate-only":
+        db_path = config.db_path
+        max_query_rows = config.query.max_query_rows
 
-        @mcp.tool()
-        def execute_individual_query(
-            sql: str,
-        ) -> dict:
-            """Execute a validated individual-level SQL query against the database.
+        # 1. Validate SQL (individual-level: no aggregation requirement)
+        forbidden = set(config.database.forbidden_output_columns) if config.database.forbidden_output_columns else {"record_id"}
+        validation = validate_individual_sql(sql, forbidden)
+        if not validation.valid:
+            return {"error": "; ".join(validation.errors)}
 
-            Unlike execute_query, this tool does NOT require aggregation.
-            It still enforces: single SELECT statement, no SELECT *, no
-            forbidden columns in output, and max_query_rows.
-            Cell suppression is NOT applied.
+        warnings = list(validation.warnings)
 
-            Only available when privacy_mode is not "aggregate-only".
+        # 2. Execute query
+        con = duckdb.connect(str(db_path), read_only=True)
+        try:
+            df = con.execute(sql).fetchdf()
+        except Exception as e:
+            return {"error": f"Query execution error: {e}"}
+        finally:
+            con.close()
 
-            Args:
-                sql: A SQL SELECT query (aggregation not required).
+        # 3. Row limit check
+        if len(df) > max_query_rows:
+            return {
+                "error": (
+                    f"Query returned {len(df)} rows, exceeding the maximum "
+                    f"of {max_query_rows}. Add a LIMIT clause or use more "
+                    "specific filters."
+                )
+            }
 
-            Returns:
-                Dict with keys: columns, rows, n_rows, warnings, suppression_applied.
-                Or dict with key: error.
-            """
-            # 1. Validate SQL (individual-level: no aggregation requirement)
-            forbidden = set(config.database.forbidden_output_columns) if config.database.forbidden_output_columns else {"record_id"}
-            validation = validate_individual_sql(sql, forbidden)
-            if not validation.valid:
-                return {"error": "; ".join(validation.errors)}
-
-            warnings = list(validation.warnings)
-
-            # 2. Execute query
-            con = duckdb.connect(str(db_path), read_only=True)
-            try:
-                df = con.execute(sql).fetchdf()
-            except Exception as e:
-                return {"error": f"Query execution error: {e}"}
-            finally:
-                con.close()
-
-            # 3. Row limit check
-            if len(df) > max_query_rows:
-                return {
-                    "error": (
-                        f"Query returned {len(df)} rows, exceeding the maximum "
-                        f"of {max_query_rows}. Add a LIMIT clause or use more "
-                        "specific filters."
-                    )
-                }
-
-            if df.empty:
-                return {
-                    "columns": list(df.columns),
-                    "rows": [],
-                    "n_rows": 0,
-                    "warnings": warnings,
-                    "suppression_applied": False,
-                }
-
-            # 4. Audit logging when in "individual-with-audit" mode
-            if privacy_mode == "individual-with-audit":
-                try:
-                    log_query_audit(
-                        str(config.output_dir),
-                        sql,
-                        len(df),
-                        df,
-                    )
-                except Exception as e:
-                    logger.warning("Failed to write audit log: %s", e)
-                    warnings.append(f"Audit logging failed: {e}")
-
-            # 5. Convert to serializable format (no cell suppression)
-            df = df.where(df.notna(), None)
-
+        if df.empty:
             return {
                 "columns": list(df.columns),
-                "rows": df.values.tolist(),
-                "n_rows": len(df),
+                "rows": [],
+                "n_rows": 0,
                 "warnings": warnings,
                 "suppression_applied": False,
             }
+
+        # 4. Audit logging when in "individual-with-audit" mode
+        if privacy_mode == "individual-with-audit":
+            try:
+                log_query_audit(
+                    str(config.output_dir),
+                    sql,
+                    len(df),
+                    df,
+                )
+            except Exception as e:
+                logger.warning("Failed to write audit log: %s", e)
+                warnings.append(f"Audit logging failed: {e}")
+
+        # 5. Convert to serializable format (no cell suppression)
+        df = df.where(df.notna(), None)
+
+        return {
+            "columns": list(df.columns),
+            "rows": df.values.tolist(),
+            "n_rows": len(df),
+            "warnings": warnings,
+            "suppression_applied": False,
+        }
 
     return mcp

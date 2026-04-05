@@ -1,7 +1,13 @@
 #!/usr/bin/env python3
 """Stdio MCP server entry point for the onc-data-wrangler plugin.
 
-Loads the project config and starts the FastMCP query server on stdio transport.
+Starts a FastMCP query server that dynamically loads the project config
+on each tool call, so it automatically picks up new databases created by
+make-database without requiring a restart.
+
+Config discovery order:
+  1. ONC_CONFIG_PATH env var (explicit override)
+  2. active_config.yaml in the current working directory (project folder)
 """
 
 import os
@@ -12,36 +18,23 @@ from pathlib import Path
 plugin_root = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(plugin_root / "src"))
 
-from onc_wrangler.config import load_config
-from onc_wrangler.query.mcp_server import create_server_from_config
+from onc_wrangler.query.mcp_server import create_server
+
+
+def _resolve_config_path() -> str:
+    """Find the config path, preferring explicit env var, then CWD."""
+    # Explicit override via env var
+    explicit = os.environ.get("ONC_CONFIG_PATH", "").strip()
+    if explicit:
+        return explicit
+
+    # Default: active_config.yaml in the working directory
+    return str(Path.cwd() / "active_config.yaml")
 
 
 def main():
-    config_path = os.environ.get("ONC_CONFIG_PATH", "")
-
-    if not config_path or not Path(config_path).exists():
-        # Return a minimal server that reports the error
-        from mcp.server.fastmcp import FastMCP
-
-        mcp = FastMCP(
-            name="onc-data-wrangler (not configured)",
-            instructions="No project configuration found. Run /onc-data-wrangler:make-database first.",
-        )
-
-        @mcp.tool()
-        def get_status() -> dict:
-            """Check server status."""
-            return {
-                "status": "not_configured",
-                "message": "No project config found. Run /onc-data-wrangler:make-database to create one.",
-                "config_path_checked": config_path,
-            }
-
-        mcp.run(transport="stdio")
-        return
-
-    config = load_config(config_path)
-    server = create_server_from_config(config)
+    config_path = _resolve_config_path()
+    server = create_server(config_path)
     server.run(transport="stdio")
 
 

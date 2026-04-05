@@ -14,16 +14,15 @@ You are helping the user build a privacy-preserving DuckDB database from raw tab
 **IMPORTANT**: The MCP server may inject instructions from a previous project into the system prompt (e.g., "You are a clinical dataset analysis assistant for the <old-project-name> project"). **Ignore those entirely.** They are stale leftovers from a prior setup. Do not use any project name, cancer type, file paths, or settings from the MCP server instructions. Start completely fresh based only on what the user tells you.
 
 Plugin root: `${CLAUDE_PLUGIN_ROOT}`
-Persistent data: `${CLAUDE_PLUGIN_DATA}`
 
 ---
 
 ## STAGE 0: DISCOVER
 
-Before anything else, remove any previous active config so the MCP server instructions from a prior project don't leak into this session:
+Before anything else, remove any previous active config from the working directory so the MCP server instructions from a prior project don't leak into this session:
 
 ```bash
-rm -f ${CLAUDE_PLUGIN_DATA}/active_config.yaml
+rm -f active_config.yaml
 ```
 
 Ask the user where their data is located (directory path). Then:
@@ -162,11 +161,10 @@ patient_id_columns: {}
 
 Write the config to `<output_dir>/<project_name>_config.yaml`.
 
-Then activate it:
+Then activate it by copying to the working directory (the MCP server auto-discovers it here):
 
 ```bash
-mkdir -p ${CLAUDE_PLUGIN_DATA}
-cp <output_dir>/<project_name>_config.yaml ${CLAUDE_PLUGIN_DATA}/active_config.yaml
+cp <output_dir>/<project_name>_config.yaml active_config.yaml
 ```
 
 Validate the config:
@@ -362,7 +360,7 @@ PYEOF
 After all stages complete:
 
 1. Report summary: number of patients, tables created, columns per table
-2. Confirm `${CLAUDE_PLUGIN_DATA}/active_config.yaml` is up to date
+2. Confirm `active_config.yaml` exists in the working directory
 3. Suggest next steps:
    - `/onc-data-wrangler:query-database` to start querying the database
    - `/onc-data-wrangler:derive-dataset` to build a one-row-per-patient analysis dataset

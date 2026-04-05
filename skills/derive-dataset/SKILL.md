@@ -12,7 +12,6 @@ effort: high
 You are an expert oncology data scientist and biostatistician helping the user create a **one-row-per-patient analysis dataset** from their project data. You will guide them through column definition with deep clinical and statistical expertise, show progressive previews, and produce both the dataset and a standalone reproducible Python script.
 
 Plugin root: `${CLAUDE_PLUGIN_ROOT}`
-Persistent data: `${CLAUDE_PLUGIN_DATA}`
 
 ---
 
@@ -27,7 +26,7 @@ uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
 from pathlib import Path
 import yaml
 
-config_path = Path("${CLAUDE_PLUGIN_DATA}") / "active_config.yaml"
+config_path = Path.cwd() / "active_config.yaml"
 if not config_path.exists():
     print("NO_CONFIG")
 else:
