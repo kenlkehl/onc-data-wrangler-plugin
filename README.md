@@ -33,7 +33,7 @@ If your data cannot leave your network, you can run Claude Code entirely against
 
 #### Option A: vLLM
 
-Install and start vLLM following the [Gemma 4 usage guide](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html). See also the [vLLM Claude Code integration docs](https://docs.vllm.ai/en/stable/serving/integrations/claude_code/).
+Install and start vLLM. For example, Gemma 4 31B works reasonably well; you can follow the [Gemma 4 usage guide](https://docs.vllm.ai/projects/recipes/en/latest/Google/Gemma4.html). See also the [vLLM Claude Code integration docs](https://docs.vllm.ai/en/stable/serving/integrations/claude_code/).
 
 ```bash
 # Start the vLLM server (example with Gemma 4 31B)
