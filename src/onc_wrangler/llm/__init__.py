@@ -12,7 +12,7 @@ __all__ = ["LLMClient", "LLMResponse", "LLMConfig", "VLLMClient", "ClaudeClient"
 
 def create_llm_client(config: LLMConfig) -> LLMClient:
     """Factory: build the right LLMClient subclass from an LLMConfig."""
-    if config.provider in ("openai", "vllm"):
+    if config.provider == "openai":
         from .vllm_client import VLLMClient
         return VLLMClient(
             base_url=config.base_url or "http://localhost:8000/v1",

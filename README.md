@@ -103,7 +103,7 @@ claude --plugin-dir .
 
 The extraction engine supports multiple LLM backends:
 
-- **Local models** (`provider: openai` or `vllm`): vLLM or any OpenAI-compatible server. For PHI data that can't leave the network.
+- **Local models** (`provider: openai`): Any OpenAI-compatible server (vLLM, Ollama, TGI, etc.). For PHI data that can't leave the network.
 - **Azure OpenAI** (`provider: azure`): Institutional Azure deployments.
 - **Claude API** (`provider: anthropic` or `vertex`): Direct Anthropic API or Google Vertex AI.
 - **Claude Code** (`provider: claude-code`): Claude Code itself acts as the extractor. Specify which model with `claude_code_model: opus|sonnet|haiku`.
@@ -201,11 +201,11 @@ API keys are resolved from environment variables — **never store keys in confi
 ```yaml
 extraction:
   llm:
-    provider: openai   # or vllm
+    provider: openai
     base_url: "http://localhost:8000/v1"
     model: "your-local-model"
 ```
-This keeps all clinical text on-premises. The `openai` and `vllm` providers work with any OpenAI-compatible API server (vLLM, Ollama, TGI, etc.).
+This keeps all clinical text on-premises. The `openai` provider works with any OpenAI-compatible API server (vLLM, Ollama, TGI, etc.).
 
 ### De-identification
 

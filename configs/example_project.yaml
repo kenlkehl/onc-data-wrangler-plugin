@@ -26,7 +26,7 @@ cohort:
 
 extraction:
   llm:
-    # Provider options: openai, vllm, azure, anthropic, vertex, claude-code
+    # Provider options: openai, azure, anthropic, vertex, claude-code
     provider: openai
     model: gpt-oss-120b
     base_url: http://localhost:8000/v1
