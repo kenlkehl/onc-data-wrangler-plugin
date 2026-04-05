@@ -1,0 +1,2427 @@
+{
+  "patient_id": "patient_299b455b46c9",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "James Anderson, 59-year-old Hispanic male, Never smoker. Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with High-grade urothelial carcinoma of the Urinary bladder. Clinical staging: T3bN0M0, AJCC Stage IIIA. ICD-10: C67.9. Stage III muscle-invasive urothelial carcinoma of the bladder."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for baseline staging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated neoadjuvant chemotherapy: Cisplatin 70 mg/m2 day 1 + Gemcitabine 1000 mg/m2 days 1, 8 q3w x 4 cycles. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated neoadjuvant chemotherapy: Cisplatin 70 mg/m2 day 1 + Gemcitabine 1000 mg/m2 days 1, 8 q3w x 4 cycles. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nephrotoxicity. Aggressive IV hydration. Creatinine monitored. Dose adjustment per CrCl."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated neoadjuvant chemotherapy: Cisplatin 70 mg/m2 day 1 + Gemcitabine 1000 mg/m2 days 1, 8 q3w x 4 cycles. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated neoadjuvant chemotherapy: Cisplatin 70 mg/m2 day 1 + Gemcitabine 1000 mg/m2 days 1, 8 q3w x 4 cycles. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nephrotoxicity. Aggressive IV hydration. Creatinine monitored. Dose adjustment per CrCl."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI pelvis with contrast performed for restaging after neoadjuvant chemotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after neoadjuvant chemotherapy."
+    },
+    {
+      "type": "surgery",
+      "text": "Underwent surgical resection: Radical cystectomy with bilateral pelvic lymph node dissection and ileal conduit urinary diversion. Estimated blood loss 150 mL. Length of stay 6 days. Uncomplicated postoperative course."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for surgical pathology."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for postoperative follow-up."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated alternative immunotherapy: Pembrolizumab 200 mg q3w. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 nausea. Managed with ondansetron 8 mg q8h PRN and dexamethasone 4 mg daily."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated alternative immunotherapy: Pembrolizumab 200 mg q3w. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated alternative immunotherapy: Pembrolizumab 200 mg q3w. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nephrotoxicity. Aggressive IV hydration. Creatinine monitored. Dose adjustment per CrCl."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated alternative immunotherapy: Pembrolizumab 200 mg q3w. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for restaging after alternative immunotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after alternative immunotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nSpecimen ID: S2022-63426\nDate of Procedure: 2022-04-23\nDate of Report: 2022-04-28\n\nSPECIMEN: Urinary bladder, excision/biopsy\n\nFINAL DIAGNOSIS:\nHigh-grade urothelial carcinoma, poorly differentiated.\nGreatest tumor dimension: 6.7 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nCK7: Positive\nCK20: Positive (focal)\nGATA3: Positive\np63: Positive\nCK5/6: Positive (focal)\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"James Anderson - Urinary bladder\" is a tan-pink tissue fragment measuring 6.7 x 4.7 x 3.4 cm. The cut surface reveals a friable yellow-tan mass. Specimen entirely submitted in cassettes A1-A5.\n\nMICROSCOPIC DESCRIPTION:\nSections show a poorly differentiated neoplasm composed of glands of atypical cells with moderate cytoplasm and irregular nuclear contours. Mitotic figures are identified (6 per 10 HPF). Focal necrosis is present. The surrounding stroma shows chronic inflammation.\n\nElectronically signed by: James Park, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Study: 2022-04-23\n\nCLINICAL INDICATION: High-grade urothelial carcinoma of the urinary bladder. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Irregular enhancing mass along the dome wall of the bladder measuring 5.2 cm with possible extravesical extension.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Bladder mass with suspected extravesical extension. Muscle-invasive disease suspected.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Urology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-04-26\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male who presents for initial evaluation of newly diagnosed high-grade urothelial carcinoma of the urinary bladder, IIIA. Patient presented with symptoms prompting workup. Stage III muscle-invasive urothelial carcinoma of the bladder. Pathology confirmed high-grade urothelial carcinoma. Molecular testing is pending. Patient reports incidental finding on routine screening.\n\nPAST MEDICAL HISTORY:\n- coronary artery disease\n\nSURGICAL HISTORY:\n- Cholecystectomy (age 50)\n\nSOCIAL HISTORY:\n- Never smoker\n- Alcohol: Rare alcohol use\n- Occupation: Accountant\n- Lives with spouse and adult children\n\nFAMILY HISTORY:\n- Sister with ovarian cancer at age 55.\n\nALLERGIES: Sulfa drugs (hives)\n\nMEDICATIONS:\n- None\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent headaches, insomnia, mild dyspnea on exertion, night sweats. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 145/82, HR 94, RR 17, Temp 97.5F, SpO2 97% on RA, Wt 67.8 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 7.8, Hgb 13.8, Plt 287, Cr 0.85\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. initial oncology consultation.\n\n1. High-grade urothelial carcinoma of the urinary bladder, Stage IIIA\n   - Reviewed pathology and imaging with patient and family\n   - Recommend neoadjuvant chemotherapy\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - PICC line to be placed prior to treatment\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Richard Okafor, MD\nUrology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Report: 2022-05-12\nSpecimen: Urinary bladder (Resection)\nDiagnosis: High-grade urothelial carcinoma\nPanel: FoundationOne CDx (468 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 9.9 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  FGFR3 p.S249C (c.746C>G) - Missense (Exon 7) [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  TP53 p.R282W - Missense (Exon 8)\n  RB1 p.R445* - Nonsense (Exon 14)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  ERBB2 p.S310F - VUS\n  PIK3CA p.E545A - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - FGFR3 S249C: FDA-approved erdafitinib for FGFR-altered advanced urothelial carcinoma.\n  - Elevated TMB may support immunotherapy benefit.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 621x coverage.\nTumor content: 46%.\n\nElectronically signed by: Andrew Patel, MD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 9,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-06-10\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for cycle 2 assessment. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, unintentional weight loss, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 119/66, HR 70, RR 16, Temp 97.8F, SpO2 98% on RA, Wt 82.5 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.0, Hgb 10.2, Plt 100, Cr 0.81\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. cycle 2 assessment.\n\n1. High-grade urothelial carcinoma - cycle 2 assessment\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-07-22\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for cycle 4 assessment. Patient reports mild fatigue but otherwise doing well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, mild dyspnea on exertion, constipation, intermittent nausea. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 138/79, HR 65, RR 15, Temp 98.1F, SpO2 98% on RA, Wt 85.4 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 4.9, Hgb 10.6, Plt 146, Cr 0.84\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. cycle 4 assessment.\n\n1. High-grade urothelial carcinoma - cycle 4 assessment\n   - Restaging imaging to be scheduled\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 14,
+      "event_type": "imaging_report",
+      "text": "MRI PELVIS WITH CONTRAST REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Study: 2022-08-21\n\nCLINICAL INDICATION: High-grade urothelial carcinoma of the urinary bladder. restaging after neoadjuvant chemotherapy.\n\nCOMPARISON: None available.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nUnremarkable examination.\n\nIMPRESSION:\n1. Bladder mass with suspected extravesical extension. Muscle-invasive disease suspected.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-08-22\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: results review after neoadjuvant chemotherapy\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for results review after neoadjuvant chemotherapy. Patient has some concerns about side effects. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, dry mouth, insomnia, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 147/66, HR 87, RR 18, Temp 97.8F, SpO2 97% on RA, Wt 90.3 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.6, Hgb 10.0, Plt 173, Cr 0.92\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. results review after neoadjuvant chemotherapy.\n\n1. High-grade urothelial carcinoma - results review after neoadjuvant chemotherapy\n   - Treatment well tolerated, continue\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Helen Park, MD\nUrology"
+    },
+    {
+      "event_index": 17,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nSpecimen ID: S2022-39364\nDate of Procedure: 2022-09-14\nDate of Report: 2022-09-17\n\nSPECIMEN: Urinary bladder, excision/biopsy\n\nFINAL DIAGNOSIS:\nHigh-grade urothelial carcinoma, poorly differentiated.\nGreatest tumor dimension: 6.8 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Present\nPerineural invasion: Present\n\nIMMUNOHISTOCHEMISTRY:\nCK7: Positive\nCK20: Positive (focal)\nGATA3: Positive\np63: Positive\nCK5/6: Positive (focal)\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"James Anderson - Urinary bladder\" is a gray-white tissue fragment measuring 6.8 x 4.8 x 3.4 cm. The cut surface reveals a firm yellow-tan mass. Specimen entirely submitted in cassettes A1-A7.\n\nMICROSCOPIC DESCRIPTION:\nSections show a poorly differentiated neoplasm composed of sheets of atypical cells with scant cytoplasm and irregular nuclear contours. Mitotic figures are identified (6 per 10 HPF). Focal necrosis is present. The surrounding stroma shows desmoplastic reaction.\n\nElectronically signed by: Sarah Chen, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-09-20\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: postoperative follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for postoperative follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent nausea, unintentional weight loss. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 144/78, HR 83, RR 15, Temp 97.9F, SpO2 95% on RA, Wt 83.3 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.3, Hgb 9.2, Plt 164, Cr 1.08\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. postoperative follow-up.\n\n1. High-grade urothelial carcinoma - postoperative follow-up\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nUrology"
+    },
+    {
+      "event_index": 22,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-11-09\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for cycle 2 assessment. Patient is tolerating treatment reasonably well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, intermittent headaches, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 149/66, HR 94, RR 14, Temp 98.1F, SpO2 96% on RA, Wt 95.1 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.9, Hgb 10.8, Plt 344, Cr 0.86\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. cycle 2 assessment.\n\n1. High-grade urothelial carcinoma - cycle 2 assessment\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2022-12-19\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for cycle 4 assessment. Patient is tolerating treatment reasonably well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, mild peripheral edema, intermittent nausea, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 145/69, HR 80, RR 14, Temp 98.7F, SpO2 97% on RA, Wt 88.7 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.0, Hgb 9.6, Plt 124, Cr 1.15\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. cycle 4 assessment.\n\n1. High-grade urothelial carcinoma - cycle 4 assessment\n   - Restaging imaging to be scheduled\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 2 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 27,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Study: 2023-01-15\n\nCLINICAL INDICATION: High-grade urothelial carcinoma of the urinary bladder. restaging after alternative immunotherapy.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Irregular enhancing mass along the posterior wall of the bladder measuring 3.0 cm with possible extravesical extension.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Bladder mass with suspected extravesical extension. Muscle-invasive disease suspected.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 28,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2023-01-17\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: results review after alternative immunotherapy\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for results review after alternative immunotherapy. Patient reports feeling well overall. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, insomnia, decreased appetite, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 114/74, HR 85, RR 18, Temp 97.3F, SpO2 96% on RA, Wt 65.1 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.4, Hgb 14.8, Plt 116, Cr 0.77\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. results review after alternative immunotherapy.\n\n1. High-grade urothelial carcinoma - results review after alternative immunotherapy\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 2 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 29,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2023-04-29\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for surveillance follow-up. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: decreased appetite, mild peripheral edema, mild cough, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 149/84, HR 75, RR 19, Temp 97.5F, SpO2 99% on RA, Wt 74.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 4.0, Hgb 10.9, Plt 261, Cr 0.72\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. surveillance follow-up.\n\n1. High-grade urothelial carcinoma - surveillance follow-up\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 30,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Study: 2023-05-03\n\nCLINICAL INDICATION: High-grade urothelial carcinoma of the urinary bladder. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 2 months ago.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Irregular enhancing mass along the dome wall of the bladder measuring 3.3 cm with possible extravesical extension.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Bladder mass with suspected extravesical extension. Muscle-invasive disease suspected.\n2. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 31,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2023-06-10\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for surveillance follow-up. Patient is tolerating treatment reasonably well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, mild dyspnea on exertion, night sweats, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 125/87, HR 75, RR 19, Temp 97.8F, SpO2 96% on RA, Wt 58.5 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.5, Hgb 12.4, Plt 310, Cr 0.77\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. surveillance follow-up.\n\n1. High-grade urothelial carcinoma - surveillance follow-up\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nUrology"
+    },
+    {
+      "event_index": 32,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate of Study: 2023-09-11\n\nCLINICAL INDICATION: High-grade urothelial carcinoma of the urinary bladder. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 8 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Irregular enhancing mass along the posterior wall of the bladder measuring 3.1 cm with possible extravesical extension.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Bladder mass with suspected extravesical extension. Muscle-invasive disease suspected.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 33,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: James Anderson\nMRN: patient_299b455b46c9\nDate: 2023-09-14\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Anderson is a 59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder who presents for surveillance follow-up. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, night sweats, intermittent nausea. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 130/87, HR 78, RR 14, Temp 97.8F, SpO2 96% on RA, Wt 92.5 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 6.7, Hgb 12.2, Plt 194, Cr 0.86\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n59-year-old male with IIIA high-grade urothelial carcinoma of the urinary bladder. surveillance follow-up.\n\n1. High-grade urothelial carcinoma - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Tumor markers trending favorably\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nUrology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-23",
+        "diagnosis_code": "C67.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-23",
+        "diagnosis_code": "C67.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-12",
+        "diagnosis_code": "C67.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-27",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-21",
+        "diagnosis_code": "C67.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "diagnosis_code": "C67.9",
+        "department": "Surgery",
+        "visit_type": "Procedure",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-14",
+        "diagnosis_code": "C67.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-27",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-02",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-15",
+        "diagnosis_code": "C67.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-05-03",
+        "diagnosis_code": "C67.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "diagnosis_code": "C67.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "diagnosis_code": "C67.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "WBC",
+        "value": "9.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "Hemoglobin",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "Platelets",
+        "value": "244.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "Creatinine",
+        "value": "1.05",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "BUN",
+        "value": "10.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "ALT",
+        "value": "18.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "AST",
+        "value": "33.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-04-26",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "Hemoglobin",
+        "value": "11.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "Platelets",
+        "value": "135.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "ALT",
+        "value": "17.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "AST",
+        "value": "24.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-05-17",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "Hemoglobin",
+        "value": "11.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "Platelets",
+        "value": "136.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "BUN",
+        "value": "11.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "ALT",
+        "value": "19.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "AST",
+        "value": "31.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-07",
+        "test_name": "Albumin",
+        "value": "5.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "WBC",
+        "value": "8.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "Hemoglobin",
+        "value": "12.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "Platelets",
+        "value": "190.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "BUN",
+        "value": "11.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "ALT",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "AST",
+        "value": "30.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-10",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "Platelets",
+        "value": "119.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "BUN",
+        "value": "11.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "ALT",
+        "value": "17.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "AST",
+        "value": "30.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-06-28",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "WBC",
+        "value": "4.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "Hemoglobin",
+        "value": "12.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "Platelets",
+        "value": "125.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "ALT",
+        "value": "17.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "AST",
+        "value": "29.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-19",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "WBC",
+        "value": "7.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "Hemoglobin",
+        "value": "13.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "Platelets",
+        "value": "158.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "BUN",
+        "value": "12.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "ALT",
+        "value": "18.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "AST",
+        "value": "32.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-07-22",
+        "test_name": "Albumin",
+        "value": "5.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "WBC",
+        "value": "10.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "Platelets",
+        "value": "179.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "Creatinine",
+        "value": "1.07",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "BUN",
+        "value": "13.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "ALT",
+        "value": "17.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "AST",
+        "value": "26.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-08-22",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "WBC",
+        "value": "10.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "Platelets",
+        "value": "184.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "BUN",
+        "value": "12.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "ALT",
+        "value": "16.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "AST",
+        "value": "27.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-04",
+        "test_name": "PT/INR",
+        "value": "1.0",
+        "unit": "",
+        "reference_range": "0.8-1.1",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "WBC",
+        "value": "13.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "Hemoglobin",
+        "value": "15.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "Platelets",
+        "value": "235.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "BUN",
+        "value": "11.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "ALT",
+        "value": "18.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "AST",
+        "value": "33.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-09-20",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "WBC",
+        "value": "13.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "Hemoglobin",
+        "value": "14.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "Platelets",
+        "value": "263.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "ALT",
+        "value": "17.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "AST",
+        "value": "33.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-10-16",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "WBC",
+        "value": "12.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "Hemoglobin",
+        "value": "14.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "Platelets",
+        "value": "248.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "Creatinine",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "ALT",
+        "value": "18.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "AST",
+        "value": "24.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-06",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "WBC",
+        "value": "14.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "Hemoglobin",
+        "value": "14.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "Platelets",
+        "value": "275.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "Creatinine",
+        "value": "0.87",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "BUN",
+        "value": "11.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "ALT",
+        "value": "18.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "AST",
+        "value": "29.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-09",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "WBC",
+        "value": "15.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "Hemoglobin",
+        "value": "14.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "Platelets",
+        "value": "267.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "Creatinine",
+        "value": "0.81",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "BUN",
+        "value": "11.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "ALT",
+        "value": "51.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "AST",
+        "value": "57.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-11-27",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "WBC",
+        "value": "13.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "Hemoglobin",
+        "value": "14.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "Platelets",
+        "value": "279.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "BUN",
+        "value": "13.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "ALT",
+        "value": "46.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "AST",
+        "value": "63.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-18",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "WBC",
+        "value": "15.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "Hemoglobin",
+        "value": "14.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "Platelets",
+        "value": "300.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "BUN",
+        "value": "11.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "ALT",
+        "value": "42.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "AST",
+        "value": "51.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2022-12-19",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "WBC",
+        "value": "16.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "Hemoglobin",
+        "value": "15.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "Platelets",
+        "value": "356.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "ALT",
+        "value": "31.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "AST",
+        "value": "28.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-01-17",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "WBC",
+        "value": "15.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "Hemoglobin",
+        "value": "18.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "Platelets",
+        "value": "432.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "Creatinine",
+        "value": "0.9",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "ALT",
+        "value": "26.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "AST",
+        "value": "26.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-04-29",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-05-03",
+        "test_name": "WBC",
+        "value": "16.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-05-03",
+        "test_name": "Hemoglobin",
+        "value": "16.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-05-03",
+        "test_name": "Platelets",
+        "value": "453.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "WBC",
+        "value": "14.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "Hemoglobin",
+        "value": "16.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "Platelets",
+        "value": "427.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "BUN",
+        "value": "11.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "ALT",
+        "value": "20.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "AST",
+        "value": "20.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-06-10",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "WBC",
+        "value": "15.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "Hemoglobin",
+        "value": "16.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "Platelets",
+        "value": "431.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "Creatinine",
+        "value": "1.15",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "BUN",
+        "value": "12.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "ALT",
+        "value": "18.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "AST",
+        "value": "21.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-11",
+        "test_name": "Albumin",
+        "value": "4.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "WBC",
+        "value": "14.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "Hemoglobin",
+        "value": "16.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "Platelets",
+        "value": "470.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "Creatinine",
+        "value": "1.03",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "ALT",
+        "value": "12.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "AST",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      },
+      {
+        "patient_id": "patient_299b455b46c9",
+        "date": "2023-09-14",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 7,
+        "scenario_label": "bladder"
+      }
+    ]
+  },
+  "scenario_index": 7,
+  "scenario_blurb": "Stage III muscle-invasive urothelial carcinoma of the bladder",
+  "scenario_label": "bladder"
+}

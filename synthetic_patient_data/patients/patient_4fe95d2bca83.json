@@ -1,0 +1,3144 @@
+{
+  "patient_id": "patient_4fe95d2bca83",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Mary Davis, 62-year-old Hispanic female, Current smoker (1 ppd). Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with High-grade serous carcinoma of the Right ovary. Clinical staging: T3cN1M0, AJCC Stage IIIC. ICD-10: C56.9. Stage IIIC high-grade serous ovarian cancer with BRCA1 mutation."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for baseline staging."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "surgery",
+      "text": "Underwent primary debulking surgery: Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy, and optimal cytoreduction (residual disease < 1 cm). Estimated blood loss 250 mL. Length of stay 3 days. Uncomplicated postoperative course."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for surgical pathology."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for postoperative follow-up."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with anti-angiogenic: Carboplatin AUC 6 + Paclitaxel 175 mg/m2 q3w x 6 cycles + Bevacizumab 15 mg/kg q3w. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 nausea. Managed with ondansetron 8 mg q8h PRN and dexamethasone 4 mg daily."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with anti-angiogenic: Carboplatin AUC 6 + Paclitaxel 175 mg/m2 q3w x 6 cycles + Bevacizumab 15 mg/kg q3w. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with anti-angiogenic: Carboplatin AUC 6 + Paclitaxel 175 mg/m2 q3w x 6 cycles + Bevacizumab 15 mg/kg q3w. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 neuropathy. Dose reduction of neurotoxic agent by 25%. Gabapentin 300 mg TID started."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with anti-angiogenic: Carboplatin AUC 6 + Paclitaxel 175 mg/m2 q3w x 6 cycles + Bevacizumab 15 mg/kg q3w. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 neuropathy. Dose reduction of neurotoxic agent by 25%. Gabapentin 300 mg TID started."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for restaging after first-line chemotherapy with anti-angiogenic."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after first-line chemotherapy with anti-angiogenic."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 nausea. Managed with ondansetron 8 mg q8h PRN and dexamethasone 4 mg daily."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 5. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line platinum-based chemotherapy: Carboplatin AUC 5 + Gemcitabine 1000 mg/m2 days 1,8 q3w. Cycle 6. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 6 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 thrombocytopenia. Platelets 65 K/uL. Dose delayed one week. Recovered to 120 K/uL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for restaging after second-line platinum-based chemotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after second-line platinum-based chemotherapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Study: 2023-06-15\n\nCLINICAL INDICATION: High-grade serous carcinoma of the right ovary. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Complex cystic and solid mass in the right adnexa measuring 10.5 cm. Omental caking present. Moderate ascites. Peritoneal carcinomatosis.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Complex adnexal mass with peritoneal carcinomatosis and ascites, concerning for advanced ovarian malignancy.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nSpecimen ID: S2023-50984\nDate of Procedure: 2023-06-16\nDate of Report: 2023-06-20\n\nSPECIMEN: Right ovary, excision/biopsy\n\nFINAL DIAGNOSIS:\nHigh-grade serous carcinoma, poorly differentiated.\nGreatest tumor dimension: 6.5 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Present\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nPAX8: Positive\nWT1: Positive\nP53: Aberrant (overexpression)\nCK7: Positive\nCK20: Negative\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Mary Davis - Right ovary\" is a gray-white tissue fragment measuring 6.5 x 4.5 x 3.2 cm. The cut surface reveals a friable gray-white mass. Specimen entirely submitted in cassettes A1-A8.\n\nMICROSCOPIC DESCRIPTION:\nSections show a poorly differentiated neoplasm composed of nests of atypical cells with moderate cytoplasm and irregular nuclear contours. Mitotic figures are occasionally seen (3 per 10 HPF). No necrosis is identified. The surrounding stroma shows chronic inflammation.\n\nElectronically signed by: James Park, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2023-06-22\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female who presents for initial evaluation of newly diagnosed high-grade serous carcinoma of the right ovary, IIIC. Patient presented with symptoms prompting workup. Stage IIIC high-grade serous ovarian cancer with BRCA1 mutation. Pathology confirmed high-grade serous carcinoma. Molecular testing has been sent. Patient reports palpable mass noted by patient.\n\nPAST MEDICAL HISTORY:\n- chronic kidney disease stage 2\n\nSURGICAL HISTORY:\n- Right knee arthroscopy (age 45)\n\nSOCIAL HISTORY:\n- Former smoker (quit 10 years ago)\n- Alcohol: Social drinker (2-3 drinks/week)\n- Occupation: Office manager\n- Lives with alone\n\nFAMILY HISTORY:\n- Sister with ovarian cancer at age 55.\n\nALLERGIES: Sulfa drugs (hives)\n\nMEDICATIONS:\n- None\n\nREVIEW OF SYSTEMS:\nPositive for: joint pain, night sweats, dizziness, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 137/76, HR 93, RR 17, Temp 98.2F, SpO2 98% on RA, Wt 77.5 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.8, Hgb 11.3, Plt 156, Cr 0.82\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. initial oncology consultation.\n\n1. High-grade serous carcinoma of the right ovary, Stage IIIC\n   - Reviewed pathology and imaging with patient and family\n   - Recommend primary debulking surgery\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - PICC line to be placed prior to treatment\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Report: 2023-07-02\nSpecimen: Right ovary (Core needle biopsy)\nDiagnosis: High-grade serous carcinoma\nPanel: Guardant360 CDx (468 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 6.8 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  BRCA1 p.E1836fs (c.5503delA) - Frameshift (Exon 22) [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  NF1 p.R1947* - Nonsense (Exon 39)\n  TP53 p.C176Y - Missense (Exon 5)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  CDK12 p.T826A - VUS\n  ARID1A p.D1850N - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - BRCA1 pathogenic variant: FDA-approved PARP inhibitors include olaparib, niraparib, rucaparib.\n  - Platinum sensitivity expected.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 454x coverage.\nTumor content: 24%.\n\nElectronically signed by: Andrew Patel, MD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 7,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nSpecimen ID: S2023-76935\nDate of Procedure: 2023-07-16\nDate of Report: 2023-07-18\n\nSPECIMEN: Right ovary, excision/biopsy\n\nFINAL DIAGNOSIS:\nHigh-grade serous carcinoma, well differentiated.\nGreatest tumor dimension: 1.6 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Present\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nPAX8: Positive\nWT1: Positive\nP53: Aberrant (overexpression)\nCK7: Positive\nCK20: Negative\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Mary Davis - Right ovary\" is a tan-white tissue fragment measuring 1.6 x 1.1 x 0.8 cm. The cut surface reveals a indurated gray-white mass. Specimen entirely submitted in cassettes A1-A5.\n\nMICROSCOPIC DESCRIPTION:\nSections show a well differentiated neoplasm composed of nests of atypical cells with abundant cytoplasm and prominent nucleoli. Mitotic figures are occasionally seen (3 per 10 HPF). No necrosis is identified. The surrounding stroma shows minimal reactive changes.\n\nElectronically signed by: James Park, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Gynecologic Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2023-07-24\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: postoperative follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for postoperative follow-up. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: joint pain, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 126/82, HR 71, RR 19, Temp 97.9F, SpO2 97% on RA, Wt 85.4 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 3.1, Hgb 13.2, Plt 305, Cr 0.82\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. postoperative follow-up.\n\n1. High-grade serous carcinoma - postoperative follow-up\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Carlos Mendez, MD\nGynecologic Oncology"
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Gynecologic Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2023-09-11\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for cycle 2 assessment. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, dry mouth, mild dyspnea on exertion. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 110/81, HR 81, RR 14, Temp 97.4F, SpO2 98% on RA, Wt 78.7 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.8, Hgb 10.1, Plt 116, Cr 1.1\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. cycle 2 assessment.\n\n1. High-grade serous carcinoma - cycle 2 assessment\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Helen Park, MD\nGynecologic Oncology"
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2023-10-23\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for cycle 4 assessment. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, abdominal bloating, intermittent nausea, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 118/71, HR 65, RR 14, Temp 97.9F, SpO2 96% on RA, Wt 77.0 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.1, Hgb 12.6, Plt 183, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. cycle 4 assessment.\n\n1. High-grade serous carcinoma - cycle 4 assessment\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 18,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Study: 2023-11-25\n\nCLINICAL INDICATION: High-grade serous carcinoma of the right ovary. restaging after first-line chemotherapy with anti-angiogenic.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Complex cystic and solid mass in the right adnexa measuring 8.8 cm. Omental caking present. Moderate ascites. Peritoneal carcinomatosis.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Complex adnexal mass with peritoneal carcinomatosis and ascites, concerning for advanced ovarian malignancy.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Gynecologic Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2023-11-26\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: results review after first-line chemotherapy with anti-angiogenic\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for results review after first-line chemotherapy with anti-angiogenic. Patient is tolerating treatment reasonably well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: abdominal bloating, intermittent headaches. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 146/85, HR 65, RR 16, Temp 97.4F, SpO2 98% on RA, Wt 85.3 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 4.0, Hgb 13.9, Plt 155, Cr 0.71\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. results review after first-line chemotherapy with anti-angiogenic.\n\n1. High-grade serous carcinoma - results review after first-line chemotherapy with anti-angiogenic\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 4 weeks\n\nElectronically signed by: Helen Park, MD\nGynecologic Oncology"
+    },
+    {
+      "event_index": 22,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-01-02\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for cycle 2 assessment. Patient reports mild fatigue but otherwise doing well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, intermittent nausea, joint pain, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 120/87, HR 85, RR 16, Temp 97.4F, SpO2 95% on RA, Wt 56.4 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 7.0, Hgb 11.8, Plt 137, Cr 1.08\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. cycle 2 assessment.\n\n1. High-grade serous carcinoma - cycle 2 assessment\n   - Proceed with next cycle as planned\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-02-12\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for cycle 4 assessment. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent headaches, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 135/82, HR 81, RR 18, Temp 98.5F, SpO2 95% on RA, Wt 86.2 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 4.1, Hgb 11.8, Plt 171, Cr 1.13\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. cycle 4 assessment.\n\n1. High-grade serous carcinoma - cycle 4 assessment\n   - Restaging imaging to be scheduled\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 29,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-03-25\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: cycle 6 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for cycle 6 assessment. Patient is tolerating treatment reasonably well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, abdominal bloating, mild dyspnea on exertion, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 136/66, HR 75, RR 17, Temp 97.2F, SpO2 97% on RA, Wt 61.2 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.9, Hgb 11.4, Plt 202, Cr 1.15\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. cycle 6 assessment.\n\n1. High-grade serous carcinoma - cycle 6 assessment\n   - Proceed with next cycle as planned\n   - Tumor markers trending favorably\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 31,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Study: 2024-04-21\n\nCLINICAL INDICATION: High-grade serous carcinoma of the right ovary. restaging after second-line platinum-based chemotherapy.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Complex cystic and solid mass in the right adnexa measuring 11.1 cm. Omental caking present. Moderate ascites. Peritoneal carcinomatosis.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Complex adnexal mass with peritoneal carcinomatosis and ascites, concerning for advanced ovarian malignancy.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 32,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-04-26\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: results review after second-line platinum-based chemotherapy\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for results review after second-line platinum-based chemotherapy. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, dizziness, abdominal bloating, fatigue. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 126/76, HR 77, RR 14, Temp 98.4F, SpO2 98% on RA, Wt 56.3 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.8, Hgb 14.3, Plt 321, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. results review after second-line platinum-based chemotherapy.\n\n1. High-grade serous carcinoma - results review after second-line platinum-based chemotherapy\n   - Continue current treatment regimen\n   - Tumor markers trending favorably\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 33,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Study: 2024-07-12\n\nCLINICAL INDICATION: High-grade serous carcinoma of the right ovary. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 9 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Complex cystic and solid mass in the right adnexa measuring 7.7 cm. Omental caking present. Moderate ascites. Peritoneal carcinomatosis.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Complex adnexal mass with peritoneal carcinomatosis and ascites, concerning for advanced ovarian malignancy.\n2. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 34,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-07-16\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent headaches, mild dyspnea on exertion, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 128/74, HR 80, RR 18, Temp 97.8F, SpO2 99% on RA, Wt 68.1 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 7.9, Hgb 9.8, Plt 232, Cr 0.8\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. surveillance follow-up.\n\n1. High-grade serous carcinoma - surveillance follow-up\n   - Proceed with next cycle as planned\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 35,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2024-11-03\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for surveillance follow-up. Patient is tolerating treatment reasonably well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: night sweats, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 118/77, HR 76, RR 14, Temp 98.7F, SpO2 99% on RA, Wt 97.4 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 6.3, Hgb 9.5, Plt 212, Cr 0.85\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. surveillance follow-up.\n\n1. High-grade serous carcinoma - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 36,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate of Study: 2025-01-13\n\nCLINICAL INDICATION: High-grade serous carcinoma of the right ovary. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 11 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Complex cystic and solid mass in the right adnexa measuring 5.5 cm. Omental caking present. Moderate ascites. Peritoneal carcinomatosis.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Complex adnexal mass with peritoneal carcinomatosis and ascites, concerning for advanced ovarian malignancy.\n2. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 37,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Mary Davis\nMRN: patient_4fe95d2bca83\nDate: 2025-01-15\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Davis is a 62-year-old female with IIIC high-grade serous carcinoma of the right ovary who presents for surveillance follow-up. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, night sweats, abdominal bloating, fatigue. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 129/81, HR 66, RR 17, Temp 98.6F, SpO2 99% on RA, Wt 89.1 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.0, Hgb 14.3, Plt 300, Cr 1.15\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n62-year-old female with IIIC high-grade serous carcinoma of the right ovary. surveillance follow-up.\n\n1. High-grade serous carcinoma - surveillance follow-up\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-15",
+        "diagnosis_code": "C56.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-16",
+        "diagnosis_code": "C56.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-02",
+        "diagnosis_code": "C56.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "diagnosis_code": "C56.9",
+        "department": "Gynecologic Oncology",
+        "visit_type": "Procedure",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-16",
+        "diagnosis_code": "C56.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-31",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-06",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-02",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-25",
+        "diagnosis_code": "C56.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-05",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-02",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-21",
+        "diagnosis_code": "C56.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-12",
+        "diagnosis_code": "C56.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-13",
+        "diagnosis_code": "C56.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "diagnosis_code": "C56.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "Hemoglobin",
+        "value": "11.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "Platelets",
+        "value": "208.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "BUN",
+        "value": "9.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "ALT",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "AST",
+        "value": "20.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "CA-125",
+        "value": "96.8",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-06-22",
+        "test_name": "HE4",
+        "value": "452.3",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "WBC",
+        "value": "6.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "Platelets",
+        "value": "212.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "BUN",
+        "value": "11.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "ALT",
+        "value": "16.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "AST",
+        "value": "20.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-09",
+        "test_name": "PT/INR",
+        "value": "1.1",
+        "unit": "",
+        "reference_range": "0.8-1.1",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "WBC",
+        "value": "5.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "Platelets",
+        "value": "198.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "BUN",
+        "value": "10.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "ALT",
+        "value": "17.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "AST",
+        "value": "20.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "CA-125",
+        "value": "93.7",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-07-24",
+        "test_name": "HE4",
+        "value": "447.9",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "WBC",
+        "value": "2.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "Hemoglobin",
+        "value": "11.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "Platelets",
+        "value": "140.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "Creatinine",
+        "value": "1.14",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "BUN",
+        "value": "10.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "ALT",
+        "value": "11.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "AST",
+        "value": "22.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "CA-125",
+        "value": "141.7",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-08-20",
+        "test_name": "HE4",
+        "value": "405.7",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "WBC",
+        "value": "2.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "Hemoglobin",
+        "value": "9.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "Platelets",
+        "value": "144.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "Creatinine",
+        "value": "0.83",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "BUN",
+        "value": "8.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "ALT",
+        "value": "16.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "AST",
+        "value": "19.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "CA-125",
+        "value": "164.8",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-10",
+        "test_name": "HE4",
+        "value": "664.3",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "WBC",
+        "value": "5.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "Hemoglobin",
+        "value": "10.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "Platelets",
+        "value": "212.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "BUN",
+        "value": "9.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "ALT",
+        "value": "17.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "AST",
+        "value": "22.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "Albumin",
+        "value": "3.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "CA-125",
+        "value": "134.4",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-09-11",
+        "test_name": "HE4",
+        "value": "600.3",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "WBC",
+        "value": "2.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "Hemoglobin",
+        "value": "10.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "Platelets",
+        "value": "135.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "BUN",
+        "value": "8.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "ALT",
+        "value": "16.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "AST",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "CA-125",
+        "value": "187.6",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-01",
+        "test_name": "HE4",
+        "value": "656.7",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "WBC",
+        "value": "3.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "Hemoglobin",
+        "value": "10.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "Platelets",
+        "value": "118.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "BUN",
+        "value": "9.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "ALT",
+        "value": "15.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "AST",
+        "value": "24.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "CA-125",
+        "value": "200.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-22",
+        "test_name": "HE4",
+        "value": "810.2",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "WBC",
+        "value": "4.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "Hemoglobin",
+        "value": "11.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "Platelets",
+        "value": "201.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "Creatinine",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "BUN",
+        "value": "10.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "ALT",
+        "value": "17.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "AST",
+        "value": "20.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "CA-125",
+        "value": "209.8",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-10-23",
+        "test_name": "HE4",
+        "value": "826.6",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "Platelets",
+        "value": "210.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "Creatinine",
+        "value": "0.99",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "BUN",
+        "value": "9.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "ALT",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "AST",
+        "value": "18.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "CA-125",
+        "value": "163.4",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-11-26",
+        "test_name": "HE4",
+        "value": "895.9",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "WBC",
+        "value": "3.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "Platelets",
+        "value": "112.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "BUN",
+        "value": "10.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "ALT",
+        "value": "20.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "AST",
+        "value": "20.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "CA-125",
+        "value": "204.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-09",
+        "test_name": "HE4",
+        "value": "835.3",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "WBC",
+        "value": "2.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "Hemoglobin",
+        "value": "9.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "Platelets",
+        "value": "147.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "BUN",
+        "value": "9.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "ALT",
+        "value": "16.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "AST",
+        "value": "21.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "CA-125",
+        "value": "292.7",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2023-12-30",
+        "test_name": "HE4",
+        "value": "1213.4",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "Hemoglobin",
+        "value": "10.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "Platelets",
+        "value": "191.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "Creatinine",
+        "value": "0.98",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "BUN",
+        "value": "9.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "ALT",
+        "value": "14.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "AST",
+        "value": "20.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "CA-125",
+        "value": "290.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-02",
+        "test_name": "HE4",
+        "value": "1314.1",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "WBC",
+        "value": "2.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "Hemoglobin",
+        "value": "10.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "Platelets",
+        "value": "122.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "Creatinine",
+        "value": "1.06",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "BUN",
+        "value": "8.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "ALT",
+        "value": "15.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "AST",
+        "value": "24.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "CA-125",
+        "value": "354.6",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-01-20",
+        "test_name": "HE4",
+        "value": "1193.9",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "WBC",
+        "value": "4.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "Hemoglobin",
+        "value": "9.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "Platelets",
+        "value": "122.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "Creatinine",
+        "value": "1.16",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "BUN",
+        "value": "9.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "ALT",
+        "value": "15.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "AST",
+        "value": "19.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "Albumin",
+        "value": "3.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "CA-125",
+        "value": "496.3",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-10",
+        "test_name": "HE4",
+        "value": "1280.1",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "Hemoglobin",
+        "value": "9.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "Platelets",
+        "value": "183.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "Creatinine",
+        "value": "1.02",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "BUN",
+        "value": "11.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "ALT",
+        "value": "17.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "AST",
+        "value": "21.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "CA-125",
+        "value": "437.4",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-02-12",
+        "test_name": "HE4",
+        "value": "1599.2",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "WBC",
+        "value": "4.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "Hemoglobin",
+        "value": "9.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "Platelets",
+        "value": "85.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "Creatinine",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "BUN",
+        "value": "9.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "ALT",
+        "value": "16.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "AST",
+        "value": "19.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "CA-125",
+        "value": "507.2",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-02",
+        "test_name": "HE4",
+        "value": "1611.6",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "WBC",
+        "value": "2.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "Hemoglobin",
+        "value": "9.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "Platelets",
+        "value": "83.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "BUN",
+        "value": "10.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "ALT",
+        "value": "17.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "AST",
+        "value": "20.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "CA-125",
+        "value": "530.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-23",
+        "test_name": "HE4",
+        "value": "2033.2",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "WBC",
+        "value": "6.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "Hemoglobin",
+        "value": "9.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "Platelets",
+        "value": "119.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "BUN",
+        "value": "10.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "ALT",
+        "value": "14.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "AST",
+        "value": "22.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "CA-125",
+        "value": "514.8",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-03-25",
+        "test_name": "HE4",
+        "value": "2123.7",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "WBC",
+        "value": "7.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "Platelets",
+        "value": "173.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "Creatinine",
+        "value": "1.0",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "BUN",
+        "value": "8.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "ALT",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "AST",
+        "value": "21.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "Albumin",
+        "value": "3.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "CA-125",
+        "value": "593.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-04-26",
+        "test_name": "HE4",
+        "value": "1633.7",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-12",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-12",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-12",
+        "test_name": "Platelets",
+        "value": "169.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "WBC",
+        "value": "10.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "Hemoglobin",
+        "value": "10.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "Platelets",
+        "value": "197.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "BUN",
+        "value": "10.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "ALT",
+        "value": "14.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "AST",
+        "value": "21.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "CA-125",
+        "value": "714.0",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-07-16",
+        "test_name": "HE4",
+        "value": "2279.7",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "WBC",
+        "value": "11.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "Hemoglobin",
+        "value": "11.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "Platelets",
+        "value": "290.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "BUN",
+        "value": "9.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "ALT",
+        "value": "13.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "AST",
+        "value": "20.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "CA-125",
+        "value": "684.8",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2024-11-03",
+        "test_name": "HE4",
+        "value": "1903.5",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "WBC",
+        "value": "13.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "Hemoglobin",
+        "value": "11.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "Platelets",
+        "value": "311.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "BUN",
+        "value": "10.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "ALT",
+        "value": "17.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "AST",
+        "value": "22.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "CA-125",
+        "value": "719.5",
+        "unit": "U/mL",
+        "reference_range": "0-35",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      },
+      {
+        "patient_id": "patient_4fe95d2bca83",
+        "date": "2025-01-15",
+        "test_name": "HE4",
+        "value": "2018.3",
+        "unit": "pmol/L",
+        "reference_range": "0-140",
+        "abnormal_flag": "H",
+        "scenario_index": 4,
+        "scenario_label": "ovarian_hgsoc"
+      }
+    ]
+  },
+  "scenario_index": 4,
+  "scenario_blurb": "Stage IIIC high-grade serous ovarian cancer with BRCA1 mutation",
+  "scenario_label": "ovarian_hgsoc"
+}

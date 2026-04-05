@@ -1,0 +1,2534 @@
+{
+  "patient_id": "patient_24ebf7df5e19",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Kevin Lewis, 63-year-old Hispanic male, Never smoker. Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Acinar adenocarcinoma, Gleason 4+5=9 of the Prostate. Clinical staging: T3bN1M1b, AJCC Stage IV. ICD-10: C61. Stage IV castration-resistant prostate cancer with bone metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for baseline staging."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line ADT with ARPI: Leuprolide 22.5 mg IM q3mo (ADT) + Enzalutamide 160 mg daily. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on first-line ADT with ARPI."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on first-line ADT with ARPI."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy for CRPC: Docetaxel 75 mg/m2 q3w x 6 cycles + Prednisone 5 mg BID. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 fatigue. Activity modification recommended. TSH and CBC checked - within normal limits."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy for CRPC: Docetaxel 75 mg/m2 q3w x 6 cycles + Prednisone 5 mg BID. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy for CRPC: Docetaxel 75 mg/m2 q3w x 6 cycles + Prednisone 5 mg BID. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy for CRPC: Docetaxel 75 mg/m2 q3w x 6 cycles + Prednisone 5 mg BID. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for restaging after first-line chemotherapy for CRPC."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after first-line chemotherapy for CRPC."
+    },
+    {
+      "type": "radiation",
+      "text": "Completed palliative bone radiation: Palliative radiation 30 Gy in 10 fractions to L3 vertebral body. Treatment delivered as planned."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for post-radiation assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line PARP inhibitor for BRCA2-mutant CRPC: Olaparib 300 mg BID. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PSMA PET/CT performed for restaging on second-line PARP inhibitor for BRCA2-mutant CRPC."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Study: 2022-11-23\n\nCLINICAL INDICATION: Acinar adenocarcinoma, Gleason 4+5=9 of the prostate. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nMultiple foci of increased radiotracer uptake in the pelvis and lumbar spine consistent with widespread osseous metastatic disease. Approximately 13 lesions identified.\n\nIMPRESSION:\n1. Widespread osseous metastatic disease.\n2. Pelvic lymphadenopathy consistent with nodal metastases.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nSpecimen ID: S2022-33806\nDate of Procedure: 2022-11-28\nDate of Report: 2022-12-01\n\nSPECIMEN: Prostate, excision/biopsy\n\nFINAL DIAGNOSIS:\nAcinar adenocarcinoma, Gleason 4+5=9, well differentiated.\nGreatest tumor dimension: 2.0 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nPSA: Positive\nNKX3.1: Positive\nAR: Positive\nERG: Positive (TMPRSS2-ERG fusion likely)\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Kevin Lewis - Prostate\" is a tan-pink tissue fragment measuring 2.0 x 1.4 x 1.0 cm. The cut surface reveals a soft yellow-tan mass. Specimen entirely submitted in cassettes A1-A4.\n\nMICROSCOPIC DESCRIPTION:\nSections show a well differentiated neoplasm composed of cords and trabeculae of atypical cells with abundant cytoplasm and irregular nuclear contours. Mitotic figures are occasionally seen (3 per 10 HPF). No necrosis is identified. The surrounding stroma shows chronic inflammation.\n\nElectronically signed by: Patricia Williams, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2022-12-06\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male who presents for initial evaluation of newly diagnosed acinar adenocarcinoma, gleason 4+5=9 of the prostate, IV. Patient presented with symptoms prompting workup. Stage IV castration-resistant prostate cancer with bone metastases. Pathology confirmed acinar adenocarcinoma, gleason 4+5=9. Molecular testing is pending. Patient reports incidental finding on routine screening.\n\nPAST MEDICAL HISTORY:\n- peripheral vascular disease\n- chronic kidney disease stage 2\n- obstructive sleep apnea\n\nSURGICAL HISTORY:\n- Appendectomy (age 25)\n\nSOCIAL HISTORY:\n- Former smoker (quit 5 years ago)\n- Alcohol: No alcohol use\n- Occupation: Engineer\n- Lives with spouse\n\nFAMILY HISTORY:\n- Father with prostate cancer at age 68. Paternal uncle with lung cancer.\n\nALLERGIES: Sulfa drugs (hives)\n\nMEDICATIONS:\n- None\n\nREVIEW OF SYSTEMS:\nPositive for: abdominal bloating, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 137/89, HR 80, RR 18, Temp 97.9F, SpO2 98% on RA, Wt 75.0 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.7, Hgb 13.3, Plt 200, Cr 0.93\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. initial oncology consultation.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 of the prostate, Stage IV\n   - Reviewed pathology and imaging with patient and family\n   - Recommend first-line ADT with ARPI\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - Port placement scheduled\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Report: 2022-12-10\nSpecimen: Prostate (Core needle biopsy)\nDiagnosis: Acinar adenocarcinoma, Gleason 4+5=9\nPanel: Tempus xT (523 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 2.2 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  BRCA2 p.E1493fs (c.4478delA) - Frameshift (Exon 11) [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  PTEN Loss - Homozygous deletion\n  AR Amplification - Amplification\n  TP53 p.R273C - Missense (Exon 8)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  ATM p.S1893R - VUS\n  CDK12 p.Q1142H - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - BRCA2 pathogenic variant: FDA-approved PARP inhibitor olaparib indicated for HRR-mutated mCRPC.\n  - Consider platinum-based chemotherapy.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 591x coverage.\nTumor content: 44%.\n\nElectronically signed by: Andrew Patel, MD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 7,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-01-17\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: follow-up on first-line ADT with ARPI\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for follow-up on first-line adt with arpi. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, unintentional weight loss, intermittent headaches. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 134/68, HR 86, RR 14, Temp 97.4F, SpO2 95% on RA, Wt 95.8 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.9, Hgb 11.6, Plt 139, Cr 0.82\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. follow-up on first-line ADT with ARPI.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - follow-up on first-line ADT with ARPI\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nUrology"
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-02-14\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: follow-up on first-line ADT with ARPI\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for follow-up on first-line adt with arpi. Patient has some concerns about side effects. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: night sweats, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 115/65, HR 89, RR 19, Temp 98.1F, SpO2 96% on RA, Wt 64.4 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.7, Hgb 13.2, Plt 200, Cr 1.15\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. follow-up on first-line ADT with ARPI.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - follow-up on first-line ADT with ARPI\n   - Proceed with next cycle as planned\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-04-12\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for cycle 2 assessment. Patient reports mild fatigue but otherwise doing well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, constipation. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 120/65, HR 76, RR 18, Temp 98.7F, SpO2 97% on RA, Wt 93.9 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.0, Hgb 14.2, Plt 286, Cr 0.78\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. cycle 2 assessment.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - cycle 2 assessment\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-05-23\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for cycle 4 assessment. Patient reports feeling well overall. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, decreased appetite. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 112/87, HR 92, RR 19, Temp 98.6F, SpO2 95% on RA, Wt 94.3 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 4.0, Hgb 10.2, Plt 229, Cr 0.81\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. cycle 4 assessment.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - cycle 4 assessment\n   - Treatment well tolerated, continue\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 4 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 16,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Study: 2023-06-26\n\nCLINICAL INDICATION: Acinar adenocarcinoma, Gleason 4+5=9 of the prostate. restaging after first-line chemotherapy for CRPC.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nMultiple foci of increased radiotracer uptake in the axial and appendicular skeleton consistent with widespread osseous metastatic disease. Approximately 7 lesions identified.\n\nIMPRESSION:\n1. Widespread osseous metastatic disease.\n2. Pelvic lymphadenopathy consistent with nodal metastases.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 17,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-06-30\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: results review after first-line chemotherapy for CRPC\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for results review after first-line chemotherapy for crpc. Patient is tolerating treatment reasonably well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: abdominal bloating, mild cough, dizziness, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 141/78, HR 90, RR 16, Temp 98.7F, SpO2 96% on RA, Wt 66.4 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 3.2, Hgb 11.7, Plt 312, Cr 0.91\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. results review after first-line chemotherapy for CRPC.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - results review after first-line chemotherapy for CRPC\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 6 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-07-24\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: post-radiation assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for post-radiation assessment. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, decreased appetite, abdominal bloating, intermittent headaches. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 145/84, HR 73, RR 18, Temp 97.6F, SpO2 95% on RA, Wt 81.9 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.7, Hgb 13.6, Plt 268, Cr 1.08\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. post-radiation assessment.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - post-radiation assessment\n   - Restaging imaging to be scheduled\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-09-04\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for follow-up on second-line parp inhibitor for brca2-mutant crpc. Patient reports feeling well overall. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: joint pain, dry mouth, intermittent nausea, dizziness. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 138/86, HR 65, RR 16, Temp 98.7F, SpO2 99% on RA, Wt 68.0 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 4.1, Hgb 14.7, Plt 315, Cr 1.06\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nUrology"
+    },
+    {
+      "event_index": 22,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2023-10-02\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for follow-up on second-line parp inhibitor for brca2-mutant crpc. Patient reports mild fatigue but otherwise doing well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 143/89, HR 80, RR 19, Temp 98.7F, SpO2 97% on RA, Wt 75.7 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.7, Hgb 14.6, Plt 289, Cr 1.13\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - follow-up on second-line PARP inhibitor for BRCA2-mutant CRPC\n   - Treatment well tolerated, continue\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 23,
+      "event_type": "imaging_report",
+      "text": "PSMA PET/CT REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Study: 2023-10-30\n\nCLINICAL INDICATION: Acinar adenocarcinoma, Gleason 4+5=9 of the prostate. restaging on second-line PARP inhibitor for BRCA2-mutant CRPC.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Enlarged prostate measuring 5.7 cm. Bilateral pelvic lymphadenopathy, largest node 2.9 cm.\n\nBONES: Multiple lytic osseous lesions involving pelvis and bilateral iliac bones consistent with osseous metastatic disease.\n\nIMPRESSION:\n1. Widespread osseous metastatic disease.\n2. Pelvic lymphadenopathy consistent with nodal metastases.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 24,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Study: 2024-01-23\n\nCLINICAL INDICATION: Acinar adenocarcinoma, Gleason 4+5=9 of the prostate. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 8 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: Enlarged prostate measuring 6.1 cm. Bilateral pelvic lymphadenopathy, largest node 2.5 cm.\n\nBONES: Multiple sclerotic osseous lesions involving thoracic and lumbar spine consistent with osseous metastatic disease.\n\nIMPRESSION:\n1. Widespread osseous metastatic disease.\n2. Pelvic lymphadenopathy consistent with nodal metastases.\n3. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 25,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2024-01-28\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent nausea, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 149/72, HR 90, RR 19, Temp 98.7F, SpO2 96% on RA, Wt 63.3 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.3, Hgb 12.4, Plt 137, Cr 0.89\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. surveillance follow-up.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - surveillance follow-up\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2024-05-21\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for surveillance follow-up. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, dry mouth, fatigue. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 124/67, HR 78, RR 18, Temp 98.5F, SpO2 96% on RA, Wt 69.5 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 8.0, Hgb 11.0, Plt 105, Cr 1.17\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. surveillance follow-up.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - surveillance follow-up\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Amanda Foster, MD\nUrology"
+    },
+    {
+      "event_index": 27,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2024-08-13\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild dyspnea on exertion, decreased appetite. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 146/73, HR 90, RR 14, Temp 97.5F, SpO2 97% on RA, Wt 57.8 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.4, Hgb 14.2, Plt 327, Cr 1.1\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. surveillance follow-up.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - surveillance follow-up\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 28,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate of Study: 2024-08-16\n\nCLINICAL INDICATION: Acinar adenocarcinoma, Gleason 4+5=9 of the prostate. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nMultiple foci of increased radiotracer uptake in the pelvis and lumbar spine consistent with widespread osseous metastatic disease. Approximately 7 lesions identified.\n\nIMPRESSION:\n1. Widespread osseous metastatic disease.\n2. Pelvic lymphadenopathy consistent with nodal metastases.\n3. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 29,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Kevin Lewis\nMRN: patient_24ebf7df5e19\nDate: 2024-12-01\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Lewis is a 63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate who presents for surveillance follow-up. Patient reports feeling well overall. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 136/84, HR 86, RR 15, Temp 97.9F, SpO2 96% on RA, Wt 95.9 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.6, Hgb 9.9, Plt 140, Cr 1.18\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IV acinar adenocarcinoma, gleason 4+5=9 of the prostate. surveillance follow-up.\n\n1. Acinar adenocarcinoma, Gleason 4+5=9 - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 2 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-28",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-10",
+        "diagnosis_code": "C61",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-29",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-26",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-10",
+        "diagnosis_code": "C61",
+        "department": "Radiation Oncology",
+        "visit_type": "Procedure",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-30",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-23",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-16",
+        "diagnosis_code": "C61",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "diagnosis_code": "C61",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "WBC",
+        "value": "6.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "Hemoglobin",
+        "value": "15.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "Platelets",
+        "value": "309.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "BUN",
+        "value": "13.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "ALT",
+        "value": "40.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "AST",
+        "value": "15.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-11-23",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "Hemoglobin",
+        "value": "14.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "Platelets",
+        "value": "308.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "Creatinine",
+        "value": "0.54",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "BUN",
+        "value": "13.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "ALT",
+        "value": "36.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "AST",
+        "value": "13.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-06",
+        "test_name": "PSA",
+        "value": "13.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "Platelets",
+        "value": "296.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "BUN",
+        "value": "13.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "ALT",
+        "value": "40.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "AST",
+        "value": "14.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "Albumin",
+        "value": "3.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2022-12-20",
+        "test_name": "PSA",
+        "value": "16.7",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "WBC",
+        "value": "6.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "Hemoglobin",
+        "value": "14.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "Platelets",
+        "value": "277.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "Creatinine",
+        "value": "0.79",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "BUN",
+        "value": "12.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "ALT",
+        "value": "34.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "AST",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-01-17",
+        "test_name": "PSA",
+        "value": "19.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "Hemoglobin",
+        "value": "15.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "Platelets",
+        "value": "273.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "ALT",
+        "value": "39.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "AST",
+        "value": "16.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-02-14",
+        "test_name": "PSA",
+        "value": "16.2",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "WBC",
+        "value": "4.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "Platelets",
+        "value": "226.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "Creatinine",
+        "value": "0.71",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "BUN",
+        "value": "11.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "ALT",
+        "value": "36.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "AST",
+        "value": "15.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-03-20",
+        "test_name": "PSA",
+        "value": "20.9",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "WBC",
+        "value": "4.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "Hemoglobin",
+        "value": "13.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "Platelets",
+        "value": "204.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "BUN",
+        "value": "11.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "ALT",
+        "value": "42.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "AST",
+        "value": "13.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-10",
+        "test_name": "PSA",
+        "value": "26.2",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "Hemoglobin",
+        "value": "15.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "Platelets",
+        "value": "236.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "Creatinine",
+        "value": "0.64",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "BUN",
+        "value": "11.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "ALT",
+        "value": "41.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "AST",
+        "value": "17.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-04-12",
+        "test_name": "PSA",
+        "value": "24.1",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "WBC",
+        "value": "2.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "Hemoglobin",
+        "value": "11.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "Platelets",
+        "value": "175.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "BUN",
+        "value": "12.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "ALT",
+        "value": "44.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "AST",
+        "value": "16.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-01",
+        "test_name": "PSA",
+        "value": "31.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "WBC",
+        "value": "2.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "Platelets",
+        "value": "148.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "ALT",
+        "value": "38.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "AST",
+        "value": "15.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-22",
+        "test_name": "PSA",
+        "value": "35.8",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "Platelets",
+        "value": "216.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "Creatinine",
+        "value": "0.83",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "BUN",
+        "value": "12.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "ALT",
+        "value": "47.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "AST",
+        "value": "16.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-05-23",
+        "test_name": "PSA",
+        "value": "41.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "WBC",
+        "value": "8.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "Hemoglobin",
+        "value": "13.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "Platelets",
+        "value": "246.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "Creatinine",
+        "value": "0.76",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "BUN",
+        "value": "13.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "ALT",
+        "value": "44.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "AST",
+        "value": "16.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "Albumin",
+        "value": "3.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-06-30",
+        "test_name": "PSA",
+        "value": "37.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-10",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-10",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-10",
+        "test_name": "Platelets",
+        "value": "223.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "WBC",
+        "value": "11.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "Platelets",
+        "value": "302.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "BUN",
+        "value": "12.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "ALT",
+        "value": "41.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "AST",
+        "value": "16.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-07-24",
+        "test_name": "PSA",
+        "value": "35.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "WBC",
+        "value": "10.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "Hemoglobin",
+        "value": "11.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "Platelets",
+        "value": "293.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "Creatinine",
+        "value": "0.67",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "BUN",
+        "value": "13.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "ALT",
+        "value": "37.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "AST",
+        "value": "14.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-08-07",
+        "test_name": "PSA",
+        "value": "43.2",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "WBC",
+        "value": "10.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "Hemoglobin",
+        "value": "13.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "Platelets",
+        "value": "280.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "Creatinine",
+        "value": "0.79",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "BUN",
+        "value": "12.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "ALT",
+        "value": "46.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "AST",
+        "value": "14.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-09-04",
+        "test_name": "PSA",
+        "value": "49.9",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "WBC",
+        "value": "11.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "Hemoglobin",
+        "value": "11.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "Platelets",
+        "value": "316.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "Creatinine",
+        "value": "0.78",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "BUN",
+        "value": "13.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "ALT",
+        "value": "49.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "AST",
+        "value": "19.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-02",
+        "test_name": "PSA",
+        "value": "43.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-30",
+        "test_name": "WBC",
+        "value": "12.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-30",
+        "test_name": "Hemoglobin",
+        "value": "13.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-30",
+        "test_name": "Platelets",
+        "value": "285.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2023-10-30",
+        "test_name": "PSA",
+        "value": "39.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "WBC",
+        "value": "10.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "Hemoglobin",
+        "value": "12.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "Platelets",
+        "value": "333.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "Creatinine",
+        "value": "0.7",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "BUN",
+        "value": "14.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "ALT",
+        "value": "35.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "AST",
+        "value": "16.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-01-28",
+        "test_name": "PSA",
+        "value": "42.8",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "WBC",
+        "value": "11.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "Platelets",
+        "value": "272.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "Creatinine",
+        "value": "0.71",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "BUN",
+        "value": "10.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "ALT",
+        "value": "38.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "AST",
+        "value": "16.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-05-21",
+        "test_name": "PSA",
+        "value": "49.0",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "WBC",
+        "value": "11.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "Hemoglobin",
+        "value": "12.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "Platelets",
+        "value": "302.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "BUN",
+        "value": "10.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "ALT",
+        "value": "37.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "AST",
+        "value": "17.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-08-13",
+        "test_name": "PSA",
+        "value": "47.1",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "WBC",
+        "value": "11.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "Platelets",
+        "value": "314.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "Creatinine",
+        "value": "0.64",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "ALT",
+        "value": "42.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "AST",
+        "value": "14.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      },
+      {
+        "patient_id": "patient_24ebf7df5e19",
+        "date": "2024-12-01",
+        "test_name": "PSA",
+        "value": "38.8",
+        "unit": "ng/mL",
+        "reference_range": "0.0-4.0",
+        "abnormal_flag": "H",
+        "scenario_index": 5,
+        "scenario_label": "prostate_crpc"
+      }
+    ]
+  },
+  "scenario_index": 5,
+  "scenario_blurb": "Stage IV castration-resistant prostate cancer with bone metastases",
+  "scenario_label": "prostate_crpc"
+}

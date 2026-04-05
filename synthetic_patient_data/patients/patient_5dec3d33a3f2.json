@@ -1,0 +1,2460 @@
+{
+  "patient_id": "patient_5dec3d33a3f2",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Andrew Allen, 64-year-old Asian male, Never smoker. Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Squamous cell carcinoma, p16-positive (HPV-associated) of the Base of tongue. Clinical staging: T3N1M0, AJCC Stage III. ICD-10: C10.9. Stage III HPV-positive squamous cell carcinoma of the oropharynx."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT neck with contrast performed for baseline staging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated definitive concurrent chemoradiation: Cisplatin 100 mg/m2 q3w x 3 cycles concurrent with radiation. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 nausea. Managed with ondansetron 8 mg q8h PRN and dexamethasone 4 mg daily."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated definitive concurrent chemoradiation: Cisplatin 100 mg/m2 q3w x 3 cycles concurrent with radiation. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 3 dysphagia. Speech pathology evaluation. Modified diet consistency. PEG tube nutrition supplementation."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated definitive concurrent chemoradiation: Cisplatin 100 mg/m2 q3w x 3 cycles concurrent with radiation. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 xerostomia. Pilocarpine 5 mg TID initiated. Artificial saliva recommended."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT neck with contrast performed for restaging after definitive concurrent chemoradiation."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after definitive concurrent chemoradiation."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nephrotoxicity. Aggressive IV hydration. Creatinine monitored. Dose adjustment per CrCl."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 3 dysphagia. Speech pathology evaluation. Modified diet consistency. PEG tube nutrition supplementation."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 5. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nephrotoxicity. Aggressive IV hydration. Creatinine monitored. Dose adjustment per CrCl."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line for recurrent/metastatic: Pembrolizumab 200 mg q3w + Cisplatin + 5-FU. Cycle 6. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 6 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT neck with contrast performed for restaging after first-line for recurrent/metastatic."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after first-line for recurrent/metastatic."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI neck with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nSpecimen ID: S2023-64971\nDate of Procedure: 2023-04-21\nDate of Report: 2023-04-24\n\nSPECIMEN: Base of tongue, excision/biopsy\n\nFINAL DIAGNOSIS:\nSquamous cell carcinoma, p16-positive (HPV-associated), well differentiated.\nGreatest tumor dimension: 3.1 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\np16: Positive (strong, diffuse)\np63: Positive\nCK5/6: Positive\nEBV: Negative\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Andrew Allen - Base of tongue\" is a gray-white tissue fragment measuring 3.1 x 2.2 x 1.6 cm. The cut surface reveals a firm gray-white mass. Specimen entirely submitted in cassettes A1-A4.\n\nMICROSCOPIC DESCRIPTION:\nSections show a well differentiated neoplasm composed of cords and trabeculae of atypical cells with abundant cytoplasm and prominent nucleoli. Mitotic figures are identified (6 per 10 HPF). Focal necrosis is present. The surrounding stroma shows fibrosis.\n\nElectronically signed by: Sarah Chen, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "imaging_report",
+      "text": "CT NECK WITH CONTRAST REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2023-04-21\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-04-23\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male who presents for initial evaluation of newly diagnosed squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue, III. Diagnosis made following evaluation of progressive symptoms. Stage III HPV-positive squamous cell carcinoma of the oropharynx. Pathology confirmed squamous cell carcinoma, p16-positive (hpv-associated). Molecular testing has been sent. Patient reports fatigue and unintentional 10-lb weight loss over 3 months.\n\nPAST MEDICAL HISTORY:\n- gastroesophageal reflux disease\n- coronary artery disease\n\nSURGICAL HISTORY:\n- Cholecystectomy (age 50)\n\nSOCIAL HISTORY:\n- Current smoker (0.5 ppd)\n- Alcohol: Rare alcohol use\n- Occupation: Retired teacher\n- Lives with partner\n\nFAMILY HISTORY:\n- No family history of cancer.\n\nALLERGIES: NKDA\n\nMEDICATIONS:\n- Omeprazole 20 mg daily\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, fatigue, intermittent headaches, mild dyspnea on exertion. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 116/80, HR 92, RR 19, Temp 98.2F, SpO2 96% on RA, Wt 62.5 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.0, Hgb 14.7, Plt 225, Cr 1.04\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. initial oncology consultation.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue, Stage III\n   - Reviewed pathology and imaging with patient and family\n   - Recommend definitive concurrent chemoradiation\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - Port placement scheduled\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Carlos Mendez, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Report: 2023-05-08\nSpecimen: Base of tongue (Core needle biopsy)\nDiagnosis: Squamous cell carcinoma, p16-positive (HPV-associated)\nPanel: FoundationOne CDx (324 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 5.2 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  HPV HPV-16 positive (p16 IHC positive) - Viral [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  PIK3CA p.E545K - Missense (Exon 9)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  CASP8 p.R127* - VUS\n  FAT1 p.G4551S - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - HPV-positive disease: Generally favorable prognosis. De-escalation trials may be appropriate.\n  - PIK3CA mutation: Alpelisib under investigation in HNSCC.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 437x coverage.\nTumor content: 22%.\n\nElectronically signed by: Maria Santos, MD, PhD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 9,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-06-05\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for cycle 2 assessment. Patient reports feeling well overall. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, abdominal bloating, constipation, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 128/66, HR 88, RR 19, Temp 97.9F, SpO2 98% on RA, Wt 71.1 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.3, Hgb 11.3, Plt 239, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. cycle 2 assessment.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - cycle 2 assessment\n   - Proceed with next cycle as planned\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "CT NECK WITH CONTRAST REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2023-07-29\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. restaging after definitive concurrent chemoradiation.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-07-31\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: results review after definitive concurrent chemoradiation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for results review after definitive concurrent chemoradiation. Patient is tolerating treatment reasonably well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent nausea, unintentional weight loss, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 122/87, HR 74, RR 14, Temp 97.5F, SpO2 98% on RA, Wt 57.3 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 10.0, Hgb 13.5, Plt 252, Cr 1.09\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. results review after definitive concurrent chemoradiation.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - results review after definitive concurrent chemoradiation\n   - Proceed with next cycle as planned\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Richard Okafor, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-09-04\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for cycle 2 assessment. Patient reports mild fatigue but otherwise doing well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, fatigue. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 135/85, HR 67, RR 14, Temp 97.2F, SpO2 99% on RA, Wt 66.2 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 7.0, Hgb 13.1, Plt 215, Cr 0.73\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. cycle 2 assessment.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - cycle 2 assessment\n   - Treatment well tolerated, continue\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 22,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-10-15\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for cycle 4 assessment. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, mild cough, night sweats, decreased appetite. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 120/68, HR 68, RR 18, Temp 98.3F, SpO2 97% on RA, Wt 74.2 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 3.5, Hgb 10.7, Plt 104, Cr 0.98\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. cycle 4 assessment.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - cycle 4 assessment\n   - Proceed with next cycle as planned\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-11-27\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: cycle 6 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for cycle 6 assessment. Patient reports mild fatigue but otherwise doing well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, constipation. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 129/84, HR 79, RR 15, Temp 98.3F, SpO2 96% on RA, Wt 57.4 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.5, Hgb 11.8, Plt 140, Cr 0.93\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. cycle 6 assessment.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - cycle 6 assessment\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nRadiation Oncology"
+    },
+    {
+      "event_index": 27,
+      "event_type": "imaging_report",
+      "text": "CT NECK WITH CONTRAST REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2023-12-26\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. restaging after first-line for recurrent/metastatic.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 28,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2023-12-29\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: results review after first-line for recurrent/metastatic\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for results review after first-line for recurrent/metastatic. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: night sweats, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 119/84, HR 75, RR 17, Temp 98.2F, SpO2 96% on RA, Wt 92.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 6.6, Hgb 9.3, Plt 227, Cr 0.88\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. results review after first-line for recurrent/metastatic.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - results review after first-line for recurrent/metastatic\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 29,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2024-03-14\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, dry mouth, dizziness. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 117/89, HR 87, RR 18, Temp 97.9F, SpO2 97% on RA, Wt 80.0 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 8.7, Hgb 14.1, Plt 126, Cr 0.8\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. surveillance follow-up.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - surveillance follow-up\n   - Continue current treatment regimen\n   - Tumor markers trending favorably\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 30,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2024-03-18\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 31,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2024-07-09\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for surveillance follow-up. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, joint pain, mild cough, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 114/79, HR 72, RR 18, Temp 98.3F, SpO2 98% on RA, Wt 88.8 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.1, Hgb 11.3, Plt 110, Cr 1.19\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. surveillance follow-up.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - surveillance follow-up\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 32,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2024-10-11\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for surveillance follow-up. Patient reports feeling well overall. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: abdominal bloating, fatigue, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 143/70, HR 78, RR 16, Temp 98.1F, SpO2 99% on RA, Wt 94.4 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.1, Hgb 14.6, Plt 290, Cr 1.09\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. surveillance follow-up.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - surveillance follow-up\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 33,
+      "event_type": "imaging_report",
+      "text": "MRI NECK WITH CONTRAST REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2024-10-14\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 9 weeks ago available for comparison.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nOROPHARYNX: Enhancing mass centered in the base of tongue measuring 3.6 x 2.5 cm with extension to the ipsilateral tonsil.\nNECK: Level IIB lymphadenopathy on the left, largest node 2.6 cm with heterogeneous enhancement.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 34,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2024-12-02\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for surveillance follow-up. Patient has some concerns about side effects. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, constipation. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 114/75, HR 79, RR 15, Temp 98.7F, SpO2 97% on RA, Wt 100.0 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 8.3, Hgb 11.9, Plt 283, Cr 0.81\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. surveillance follow-up.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 35,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate of Study: 2025-01-30\n\nCLINICAL INDICATION: Squamous cell carcinoma, p16-positive (HPV-associated) of the base of tongue. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 2 months ago.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Oropharyngeal mass with cervical lymphadenopathy. Clinical staging consistent with Stage III.\n2. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 36,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Radiation Oncology\n\nPatient: Andrew Allen\nMRN: patient_5dec3d33a3f2\nDate: 2025-02-02\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Allen is a 64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: unintentional weight loss, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 112/77, HR 73, RR 18, Temp 98.7F, SpO2 96% on RA, Wt 70.5 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.4, Hgb 13.6, Plt 121, Cr 0.89\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n64-year-old male with III squamous cell carcinoma, p16-positive (hpv-associated) of the base of tongue. surveillance follow-up.\n\n1. Squamous cell carcinoma, p16-positive (HPV-associated) - surveillance follow-up\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nRadiation Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-21",
+        "diagnosis_code": "C10.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-21",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-08",
+        "diagnosis_code": "C10.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-23",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-14",
+        "diagnosis_code": "C10.9",
+        "department": "Emergency",
+        "visit_type": "ED",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-07",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-29",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-19",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-05",
+        "diagnosis_code": "C10.9",
+        "department": "Emergency",
+        "visit_type": "ED",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-08",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-26",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-18",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-14",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-01-30",
+        "diagnosis_code": "C10.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "diagnosis_code": "C10.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "WBC",
+        "value": "8.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "Hemoglobin",
+        "value": "14.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "Platelets",
+        "value": "191.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "BUN",
+        "value": "12.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "ALT",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "AST",
+        "value": "32.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-04-23",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "WBC",
+        "value": "4.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "Hemoglobin",
+        "value": "11.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "Platelets",
+        "value": "113.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "BUN",
+        "value": "12.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "ALT",
+        "value": "17.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "AST",
+        "value": "28.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-05-14",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "WBC",
+        "value": "3.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "Hemoglobin",
+        "value": "11.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "Platelets",
+        "value": "123.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "BUN",
+        "value": "11.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "ALT",
+        "value": "18.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "AST",
+        "value": "30.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-04",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "Platelets",
+        "value": "160.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "Creatinine",
+        "value": "0.88",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "ALT",
+        "value": "21.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "AST",
+        "value": "36.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-05",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "Hemoglobin",
+        "value": "12.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "Platelets",
+        "value": "138.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "Creatinine",
+        "value": "1.19",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "BUN",
+        "value": "12.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "ALT",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "AST",
+        "value": "29.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-06-25",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "WBC",
+        "value": "8.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "Platelets",
+        "value": "193.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "Creatinine",
+        "value": "0.87",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "BUN",
+        "value": "13.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "ALT",
+        "value": "19.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "AST",
+        "value": "30.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-07-31",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "WBC",
+        "value": "2.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "Platelets",
+        "value": "82.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "Creatinine",
+        "value": "1.09",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "ALT",
+        "value": "20.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "AST",
+        "value": "28.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-08-12",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "WBC",
+        "value": "3.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "Hemoglobin",
+        "value": "11.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "Platelets",
+        "value": "109.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "BUN",
+        "value": "12.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "ALT",
+        "value": "18.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "AST",
+        "value": "29.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-02",
+        "test_name": "Albumin",
+        "value": "3.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "WBC",
+        "value": "6.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "Hemoglobin",
+        "value": "13.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "Platelets",
+        "value": "167.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "Creatinine",
+        "value": "0.92",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "ALT",
+        "value": "16.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "AST",
+        "value": "29.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-04",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "WBC",
+        "value": "2.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "Platelets",
+        "value": "152.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "ALT",
+        "value": "17.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "AST",
+        "value": "31.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-09-23",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "WBC",
+        "value": "4.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "Platelets",
+        "value": "92.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "Creatinine",
+        "value": "0.96",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "BUN",
+        "value": "12.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "ALT",
+        "value": "21.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "AST",
+        "value": "27.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-14",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "WBC",
+        "value": "7.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "Hemoglobin",
+        "value": "12.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "Platelets",
+        "value": "123.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "ALT",
+        "value": "20.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "AST",
+        "value": "30.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-10-15",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "WBC",
+        "value": "4.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "Hemoglobin",
+        "value": "11.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "Platelets",
+        "value": "131.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "ALT",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "AST",
+        "value": "33.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-04",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "WBC",
+        "value": "4.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "Platelets",
+        "value": "124.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "Creatinine",
+        "value": "0.88",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "BUN",
+        "value": "10.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "ALT",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "AST",
+        "value": "34.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-25",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "WBC",
+        "value": "7.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "Platelets",
+        "value": "141.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "Creatinine",
+        "value": "0.99",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "BUN",
+        "value": "12.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "ALT",
+        "value": "19.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "AST",
+        "value": "31.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-11-27",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "WBC",
+        "value": "7.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "Platelets",
+        "value": "231.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "Creatinine",
+        "value": "1.06",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "BUN",
+        "value": "10.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "ALT",
+        "value": "19.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "AST",
+        "value": "32.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2023-12-29",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "WBC",
+        "value": "9.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "Hemoglobin",
+        "value": "12.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "Platelets",
+        "value": "286.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "BUN",
+        "value": "11.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "ALT",
+        "value": "17.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "AST",
+        "value": "30.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-03-14",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "WBC",
+        "value": "10.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "Platelets",
+        "value": "286.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "BUN",
+        "value": "10.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "ALT",
+        "value": "18.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "AST",
+        "value": "29.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-07-09",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "WBC",
+        "value": "11.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "Hemoglobin",
+        "value": "13.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "Platelets",
+        "value": "370.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "Creatinine",
+        "value": "1.01",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "BUN",
+        "value": "12.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "ALT",
+        "value": "20.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "AST",
+        "value": "30.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-10-11",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "WBC",
+        "value": "14.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "Platelets",
+        "value": "363.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "Creatinine",
+        "value": "1.12",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "BUN",
+        "value": "11.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "ALT",
+        "value": "19.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "AST",
+        "value": "35.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2024-12-02",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-01-30",
+        "test_name": "WBC",
+        "value": "14.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-01-30",
+        "test_name": "Hemoglobin",
+        "value": "14.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-01-30",
+        "test_name": "Platelets",
+        "value": "386.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "WBC",
+        "value": "15.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "H",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "Hemoglobin",
+        "value": "15.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "Platelets",
+        "value": "455.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "Creatinine",
+        "value": "1.05",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "BUN",
+        "value": "11.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "ALT",
+        "value": "19.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "AST",
+        "value": "30.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      },
+      {
+        "patient_id": "patient_5dec3d33a3f2",
+        "date": "2025-02-02",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 9,
+        "scenario_label": "head_neck_scc"
+      }
+    ]
+  },
+  "scenario_index": 9,
+  "scenario_blurb": "Stage III HPV-positive squamous cell carcinoma of the oropharynx",
+  "scenario_label": "head_neck_scc"
+}

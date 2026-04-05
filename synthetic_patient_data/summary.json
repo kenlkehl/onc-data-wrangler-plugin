@@ -1,0 +1,80 @@
+{
+  "patient_count": 50,
+  "total_events": 1715,
+  "avg_events_per_patient": 34.3,
+  "document_count": 1017,
+  "table_row_counts": {
+    "encounters": 1615,
+    "labs": 9722
+  },
+  "output_files": {
+    "documents": "/home/user/onc-data-wrangler-plugin/synthetic_patient_data/all_documents.json",
+    "tables": {
+      "encounters": "/home/user/onc-data-wrangler-plugin/synthetic_patient_data/tables/encounters.csv",
+      "labs": "/home/user/onc-data-wrangler-plugin/synthetic_patient_data/tables/labs.csv"
+    },
+    "summary": "/home/user/onc-data-wrangler-plugin/synthetic_patient_data/summary.json"
+  },
+  "scenarios": {
+    "0": {
+      "label": "nsclc_egfr",
+      "blurb": "Stage III non-small cell lung cancer with EGFR L858R mutation",
+      "patients": 5,
+      "events": 168
+    },
+    "1": {
+      "label": "breast_her2",
+      "blurb": "Stage IV HER2-positive breast cancer with liver and bone metastases",
+      "patients": 5,
+      "events": 198
+    },
+    "2": {
+      "label": "colon",
+      "blurb": "Stage II colon cancer, microsatellite stable, status post hemicolectomy",
+      "patients": 5,
+      "events": 150
+    },
+    "3": {
+      "label": "melanoma_braf",
+      "blurb": "Stage IV melanoma with BRAF V600E mutation, lung and brain metastases",
+      "patients": 5,
+      "events": 155
+    },
+    "4": {
+      "label": "ovarian_hgsoc",
+      "blurb": "Stage IIIC high-grade serous ovarian cancer with BRCA1 mutation",
+      "patients": 5,
+      "events": 171
+    },
+    "5": {
+      "label": "prostate_crpc",
+      "blurb": "Stage IV castration-resistant prostate cancer with bone metastases",
+      "patients": 5,
+      "events": 166
+    },
+    "6": {
+      "label": "pancreatic",
+      "blurb": "Stage IIB pancreatic ductal adenocarcinoma, borderline resectable",
+      "patients": 5,
+      "events": 201
+    },
+    "7": {
+      "label": "bladder",
+      "blurb": "Stage III muscle-invasive urothelial carcinoma of the bladder",
+      "patients": 5,
+      "events": 214
+    },
+    "8": {
+      "label": "renal_cc",
+      "blurb": "Stage IV clear cell renal cell carcinoma with lung metastases",
+      "patients": 5,
+      "events": 151
+    },
+    "9": {
+      "label": "head_neck_scc",
+      "blurb": "Stage III HPV-positive squamous cell carcinoma of the oropharynx",
+      "patients": 5,
+      "events": 141
+    }
+  }
+}

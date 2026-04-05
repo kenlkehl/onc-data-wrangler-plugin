@@ -1,0 +1,1977 @@
+{
+  "patient_id": "patient_cdca513a2221",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Barbara Nguyen, 67-year-old White female, Former smoker (quit 10 years ago). Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Clear cell renal cell carcinoma, Fuhrman grade 3 of the Right kidney. Clinical staging: T3bN0M1, AJCC Stage IV. ICD-10: C64.9. Stage IV clear cell renal cell carcinoma with lung metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for baseline staging."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "surgery",
+      "text": "Underwent cytoreductive nephrectomy: Right radical nephrectomy with adrenalectomy. Estimated blood loss 400 mL. Length of stay 5 days. Uncomplicated postoperative course."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for surgical pathology."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for postoperative follow-up."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line immunotherapy-TKI combination: Pembrolizumab 200 mg q3w + Axitinib 5 mg BID. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line immunotherapy-TKI combination: Pembrolizumab 200 mg q3w + Axitinib 5 mg BID. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 proteinuria. 24-hour urine protein 1.2 g. Monitoring continued. No dose modification needed."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line immunotherapy-TKI combination: Pembrolizumab 200 mg q3w + Axitinib 5 mg BID. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 hand-foot syndrome. Urea-based emollient prescribed. Dose reduction per protocol."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line immunotherapy-TKI combination: Pembrolizumab 200 mg q3w + Axitinib 5 mg BID. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for restaging after first-line immunotherapy-TKI combination."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after first-line immunotherapy-TKI combination."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated second-line immunotherapy-TKI: Nivolumab 240 mg q2w + Cabozantinib 40 mg daily. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on second-line immunotherapy-TKI."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for follow-up on second-line immunotherapy-TKI."
+    },
+    {
+      "type": "imaging_report",
+      "text": "MRI abdomen with contrast performed for restaging on second-line immunotherapy-TKI."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Study: 2022-01-13\n\nCLINICAL INDICATION: Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Solid enhancing mass arising from the right kidney measuring 6.3 x 5.0 cm with extension into the renal vein.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Right renal mass consistent with renal cell carcinoma. Pulmonary metastases.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nSpecimen ID: S2022-88679\nDate of Procedure: 2022-01-15\nDate of Report: 2022-01-17\n\nSPECIMEN: Right kidney, excision/biopsy\n\nFINAL DIAGNOSIS:\nClear cell renal cell carcinoma, Fuhrman grade 3, poorly differentiated.\nGreatest tumor dimension: 6.2 cm\nMargins: Negative (closest margin 1.2 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Present\n\nIMMUNOHISTOCHEMISTRY:\nPAX8: Positive\nCA-IX: Positive (diffuse membranous)\nCD10: Positive\nCK7: Negative\nVimentin: Positive\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Barbara Nguyen - Right kidney\" is a tan-pink tissue fragment measuring 6.2 x 4.3 x 3.1 cm. The cut surface reveals a firm tan mass. Specimen entirely submitted in cassettes A1-A8.\n\nMICROSCOPIC DESCRIPTION:\nSections show a poorly differentiated neoplasm composed of cords and trabeculae of atypical cells with scant cytoplasm and high nuclear-to-cytoplasmic ratio. Mitotic figures are frequent (12 per 10 HPF). Focal necrosis is present. The surrounding stroma shows chronic inflammation.\n\nElectronically signed by: James Park, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Urology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-01-20\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female who presents for initial evaluation of newly diagnosed clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney, IV. Patient was referred by primary care physician after abnormal imaging. Stage IV clear cell renal cell carcinoma with lung metastases. Pathology confirmed clear cell renal cell carcinoma, fuhrman grade 3. Molecular testing has been sent. Patient reports fatigue and unintentional 10-lb weight loss over 3 months.\n\nPAST MEDICAL HISTORY:\n- coronary artery disease\n- obstructive sleep apnea\n- osteoarthritis\n\nSURGICAL HISTORY:\n- Cesarean section x 2 (if applicable)\n\nSOCIAL HISTORY:\n- Former smoker (quit 10 years ago)\n- Alcohol: No alcohol use\n- Occupation: Engineer\n- Lives with alone\n\nFAMILY HISTORY:\n- No family history of cancer.\n\nALLERGIES: Latex (contact dermatitis)\n\nMEDICATIONS:\n- None\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, unintentional weight loss, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 123/70, HR 83, RR 17, Temp 98.8F, SpO2 95% on RA, Wt 62.7 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.4, Hgb 12.1, Plt 243, Cr 0.88\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. initial oncology consultation.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney, Stage IV\n   - Reviewed pathology and imaging with patient and family\n   - Recommend cytoreductive nephrectomy\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - Peripheral access adequate\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Priya Sharma, MD\nUrology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Report: 2022-01-31\nSpecimen: Right kidney (Resection)\nDiagnosis: Clear cell renal cell carcinoma, Fuhrman grade 3\nPanel: Tempus xT (523 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 3.5 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  VHL p.L89P (c.266T>C) - Missense (Exon 1) [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  PBRM1 p.Q1298* - Nonsense (Exon 24)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  KDM5C p.A388T - VUS\n  MTOR p.S2215Y - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - VHL mutation: Consistent with clear cell histology. HIF-pathway targeted therapies (TKIs) and immunotherapy combinations recommended.\n  - BAP1 loss: Associated with more aggressive biology.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 684x coverage.\nTumor content: 59%.\n\nElectronically signed by: Maria Santos, MD, PhD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 7,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nSpecimen ID: S2022-48672\nDate of Procedure: 2022-02-13\nDate of Report: 2022-02-15\n\nSPECIMEN: Right kidney, excision/biopsy\n\nFINAL DIAGNOSIS:\nClear cell renal cell carcinoma, Fuhrman grade 3, moderately differentiated.\nGreatest tumor dimension: 7.9 cm\nMargins: Negative (closest margin 0.5 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nPAX8: Positive\nCA-IX: Positive (diffuse membranous)\nCD10: Positive\nCK7: Negative\nVimentin: Positive\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Barbara Nguyen - Right kidney\" is a gray-white tissue fragment measuring 7.9 x 5.5 x 4.0 cm. The cut surface reveals a soft white mass. Specimen entirely submitted in cassettes A1-A8.\n\nMICROSCOPIC DESCRIPTION:\nSections show a moderately differentiated neoplasm composed of glands of atypical cells with abundant cytoplasm and prominent nucleoli. Mitotic figures are occasionally seen (3 per 10 HPF). No necrosis is identified. The surrounding stroma shows minimal reactive changes.\n\nElectronically signed by: Patricia Williams, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-02-26\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: postoperative follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for postoperative follow-up. Patient reports mild fatigue but otherwise doing well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: unintentional weight loss, intermittent nausea, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 134/85, HR 78, RR 18, Temp 97.6F, SpO2 97% on RA, Wt 77.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.9, Hgb 12.3, Plt 213, Cr 0.83\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. postoperative follow-up.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - postoperative follow-up\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 6 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-04-13\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for cycle 2 assessment. Patient is tolerating treatment reasonably well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, joint pain, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 130/83, HR 80, RR 17, Temp 97.3F, SpO2 99% on RA, Wt 86.1 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 3.2, Hgb 11.5, Plt 131, Cr 1.18\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. cycle 2 assessment.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - cycle 2 assessment\n   - Proceed with next cycle as planned\n   - Tumor markers trending favorably\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 16,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-05-25\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for cycle 4 assessment. Patient reports mild fatigue but otherwise doing well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent nausea, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 133/77, HR 94, RR 15, Temp 97.2F, SpO2 98% on RA, Wt 74.0 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.1, Hgb 10.0, Plt 336, Cr 0.98\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. cycle 4 assessment.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - cycle 4 assessment\n   - Treatment well tolerated, continue\n   - Tumor markers trending favorably\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 17,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Study: 2022-06-26\n\nCLINICAL INDICATION: Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney. restaging after first-line immunotherapy-TKI combination.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Few pulmonary nodules, largest measuring 1.3 cm in the left lower lobe. Consistent with metastatic disease.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Heterogeneously enhancing mass arising from the right kidney measuring 6.0 x 4.8 cm with extension into the renal vein.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Right renal mass consistent with renal cell carcinoma. Pulmonary metastases.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-06-29\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: results review after first-line immunotherapy-TKI combination\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for results review after first-line immunotherapy-tki combination. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 111/69, HR 91, RR 14, Temp 98.5F, SpO2 97% on RA, Wt 84.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.9, Hgb 12.9, Plt 349, Cr 1.17\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. results review after first-line immunotherapy-TKI combination.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - results review after first-line immunotherapy-TKI combination\n   - Restaging imaging to be scheduled\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nUrology"
+    },
+    {
+      "event_index": 20,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-08-07\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: follow-up on second-line immunotherapy-TKI\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for follow-up on second-line immunotherapy-tki. Patient is tolerating treatment reasonably well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: mild dyspnea on exertion, mild peripheral edema, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 149/83, HR 93, RR 17, Temp 97.3F, SpO2 98% on RA, Wt 88.4 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 8.1, Hgb 14.0, Plt 228, Cr 1.08\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. follow-up on second-line immunotherapy-TKI.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - follow-up on second-line immunotherapy-TKI\n   - Continue current treatment regimen\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 3 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-09-04\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: follow-up on second-line immunotherapy-TKI\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for follow-up on second-line immunotherapy-tki. Patient reports mild fatigue but otherwise doing well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, constipation. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 147/88, HR 78, RR 15, Temp 97.9F, SpO2 95% on RA, Wt 59.3 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.7, Hgb 14.1, Plt 303, Cr 1.13\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. follow-up on second-line immunotherapy-TKI.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - follow-up on second-line immunotherapy-TKI\n   - Restaging imaging to be scheduled\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nUrology"
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "MRI ABDOMEN WITH CONTRAST REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Study: 2022-10-02\n\nCLINICAL INDICATION: Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney. restaging on second-line immunotherapy-TKI.\n\nCOMPARISON: None available.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nUnremarkable examination.\n\nIMPRESSION:\n1. Right renal mass consistent with renal cell carcinoma. Pulmonary metastases.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Urology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2022-12-07\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for surveillance follow-up. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: joint pain, mild peripheral edema, dry mouth, night sweats. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 135/74, HR 86, RR 16, Temp 98.1F, SpO2 96% on RA, Wt 99.8 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.1, Hgb 11.0, Plt 273, Cr 0.99\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. surveillance follow-up.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nUrology"
+    },
+    {
+      "event_index": 24,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Study: 2022-12-11\n\nCLINICAL INDICATION: Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nNo scintigraphic evidence of osseous metastatic disease. Degenerative uptake in bilateral knees.\n\nIMPRESSION:\n1. Right renal mass consistent with renal cell carcinoma. Pulmonary metastases.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 25,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2023-04-22\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: joint pain, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 142/69, HR 92, RR 17, Temp 97.5F, SpO2 97% on RA, Wt 76.2 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.5, Hgb 9.1, Plt 287, Cr 0.78\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. surveillance follow-up.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2023-05-24\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, mild peripheral edema, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 135/74, HR 69, RR 14, Temp 98.2F, SpO2 96% on RA, Wt 68.4 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.1, Hgb 13.9, Plt 231, Cr 1.1\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. surveillance follow-up.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Priya Sharma, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 27,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate of Study: 2023-05-25\n\nCLINICAL INDICATION: Clear cell renal cell carcinoma, Fuhrman grade 3 of the right kidney. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nNo scintigraphic evidence of osseous metastatic disease. Degenerative uptake in bilateral knees.\n\nIMPRESSION:\n1. Right renal mass consistent with renal cell carcinoma. Pulmonary metastases.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 28,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Barbara Nguyen\nMRN: patient_cdca513a2221\nDate: 2023-11-08\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Nguyen is a 67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney who presents for surveillance follow-up. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 125/66, HR 91, RR 15, Temp 97.4F, SpO2 95% on RA, Wt 89.2 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.5, Hgb 11.2, Plt 223, Cr 0.76\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n67-year-old female with IV clear cell renal cell carcinoma, fuhrman grade 3 of the right kidney. surveillance follow-up.\n\n1. Clear cell renal cell carcinoma, Fuhrman grade 3 - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Richard Okafor, MD\nMedical Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-13",
+        "diagnosis_code": "C64.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-15",
+        "diagnosis_code": "C64.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-31",
+        "diagnosis_code": "C64.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "diagnosis_code": "C64.9",
+        "department": "Surgery",
+        "visit_type": "Procedure",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-13",
+        "diagnosis_code": "C64.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-16",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-12",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-26",
+        "diagnosis_code": "C64.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-10-02",
+        "diagnosis_code": "C64.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-11",
+        "diagnosis_code": "C64.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-25",
+        "diagnosis_code": "C64.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "diagnosis_code": "C64.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "WBC",
+        "value": "8.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "Hemoglobin",
+        "value": "15.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "Platelets",
+        "value": "344.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "ALT",
+        "value": "25.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "AST",
+        "value": "16.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-01-20",
+        "test_name": "Albumin",
+        "value": "3.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "WBC",
+        "value": "9.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "Hemoglobin",
+        "value": "13.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "Platelets",
+        "value": "351.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "BUN",
+        "value": "12.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "ALT",
+        "value": "25.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "AST",
+        "value": "17.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-08",
+        "test_name": "PT/INR",
+        "value": "1.1",
+        "unit": "",
+        "reference_range": "0.8-1.1",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "Hemoglobin",
+        "value": "15.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "Platelets",
+        "value": "341.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "ALT",
+        "value": "25.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "AST",
+        "value": "15.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-02-26",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "Hemoglobin",
+        "value": "14.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "Platelets",
+        "value": "305.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "Creatinine",
+        "value": "0.92",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "BUN",
+        "value": "11.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "ALT",
+        "value": "56.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "H",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "AST",
+        "value": "40.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "H",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-03-22",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "WBC",
+        "value": "8.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "Hemoglobin",
+        "value": "14.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "Platelets",
+        "value": "333.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "Creatinine",
+        "value": "0.98",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "BUN",
+        "value": "11.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "ALT",
+        "value": "40.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "AST",
+        "value": "37.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-12",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "Hemoglobin",
+        "value": "15.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "Platelets",
+        "value": "313.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "Creatinine",
+        "value": "0.98",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "BUN",
+        "value": "11.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "ALT",
+        "value": "39.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "AST",
+        "value": "22.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-04-13",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "Hemoglobin",
+        "value": "15.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "Platelets",
+        "value": "311.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "BUN",
+        "value": "11.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "ALT",
+        "value": "41.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "AST",
+        "value": "27.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-03",
+        "test_name": "Albumin",
+        "value": "3.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "WBC",
+        "value": "8.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "Platelets",
+        "value": "326.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "Creatinine",
+        "value": "0.95",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "BUN",
+        "value": "14.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "ALT",
+        "value": "38.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "AST",
+        "value": "24.8",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-24",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "Hemoglobin",
+        "value": "15.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "Platelets",
+        "value": "334.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "Creatinine",
+        "value": "1.11",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "ALT",
+        "value": "28.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "AST",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-05-25",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "WBC",
+        "value": "7.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "Hemoglobin",
+        "value": "14.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "Platelets",
+        "value": "298.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "BUN",
+        "value": "11.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "ALT",
+        "value": "22.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "AST",
+        "value": "17.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-06-29",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "WBC",
+        "value": "8.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "Platelets",
+        "value": "291.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "Creatinine",
+        "value": "1.02",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "ALT",
+        "value": "22.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "AST",
+        "value": "17.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-07-10",
+        "test_name": "Albumin",
+        "value": "4.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "Hemoglobin",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "Platelets",
+        "value": "308.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "Creatinine",
+        "value": "1.06",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "BUN",
+        "value": "11.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "ALT",
+        "value": "21.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "AST",
+        "value": "16.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-08-07",
+        "test_name": "Albumin",
+        "value": "4.3",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "WBC",
+        "value": "8.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "Hemoglobin",
+        "value": "15.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "Platelets",
+        "value": "279.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "Creatinine",
+        "value": "1.02",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "BUN",
+        "value": "11.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "ALT",
+        "value": "23.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "AST",
+        "value": "15.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-09-04",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "WBC",
+        "value": "8.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "Hemoglobin",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "Platelets",
+        "value": "304.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "BUN",
+        "value": "10.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "ALT",
+        "value": "19.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "AST",
+        "value": "17.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2022-12-07",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "WBC",
+        "value": "7.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "Hemoglobin",
+        "value": "14.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "Platelets",
+        "value": "346.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "Creatinine",
+        "value": "1.05",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "BUN",
+        "value": "12.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "ALT",
+        "value": "24.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "AST",
+        "value": "17.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-04-22",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "WBC",
+        "value": "8.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "Hemoglobin",
+        "value": "15.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "Platelets",
+        "value": "309.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "Creatinine",
+        "value": "0.93",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "BUN",
+        "value": "11.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "ALT",
+        "value": "23.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "AST",
+        "value": "19.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-05-24",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "WBC",
+        "value": "8.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "Hemoglobin",
+        "value": "14.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "Platelets",
+        "value": "300.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "Creatinine",
+        "value": "1.08",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "ALT",
+        "value": "21.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "AST",
+        "value": "16.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      },
+      {
+        "patient_id": "patient_cdca513a2221",
+        "date": "2023-11-08",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 8,
+        "scenario_label": "renal_cc"
+      }
+    ]
+  },
+  "scenario_index": 8,
+  "scenario_blurb": "Stage IV clear cell renal cell carcinoma with lung metastases",
+  "scenario_label": "renal_cc"
+}

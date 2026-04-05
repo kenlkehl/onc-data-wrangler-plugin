@@ -1,0 +1,2112 @@
+{
+  "patient_id": "patient_9bb40ad67699",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Jeffrey Wilson, 63-year-old White male, Current smoker (1 ppd). Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Moderately differentiated adenocarcinoma of the Sigmoid colon. Clinical staging: T4aN0M0, AJCC Stage IIA. ICD-10: C18.9. Stage II colon cancer, microsatellite stable, status post hemicolectomy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for baseline staging."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "surgery",
+      "text": "Underwent surgical resection: Laparoscopic left hemicolectomy with lymph node dissection (22 nodes examined, 0/22 positive). Estimated blood loss 200 mL. Length of stay 3 days. Uncomplicated postoperative course."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for surgical pathology."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for postoperative follow-up."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 diarrhea. Managed with loperamide 4 mg then 2 mg after each loose stool. Stool studies negative."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 1 nausea. Managed with ondansetron 8 mg q8h PRN and dexamethasone 4 mg daily."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 5. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated adjuvant chemotherapy: FOLFOX (5-FU/Leucovorin/Oxaliplatin) q2w x 12 cycles. Cycle 6. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 6 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for restaging after adjuvant chemotherapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after adjuvant chemotherapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "PET/CT performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate of Study: 2022-11-04\n\nCLINICAL INDICATION: Moderately differentiated adenocarcinoma of the sigmoid colon. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Findings consistent with moderately differentiated adenocarcinoma as described.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nSpecimen ID: S2022-46697\nDate of Procedure: 2022-11-08\nDate of Report: 2022-11-10\n\nSPECIMEN: Sigmoid colon, excision/biopsy\n\nFINAL DIAGNOSIS:\nModerately differentiated adenocarcinoma, poorly differentiated.\nGreatest tumor dimension: 7.3 cm\nMargins: Negative (closest margin 0.3 cm)\nLymphovascular invasion: Present\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nCDX2: Positive\nCK20: Positive\nCK7: Negative\nMLH1: Intact\nMSH2: Intact\nMSH6: Intact\nPMS2: Intact\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Jeffrey Wilson - Sigmoid colon\" is a tan-pink tissue fragment measuring 7.3 x 5.1 x 3.6 cm. The cut surface reveals a soft yellow-tan mass. Specimen entirely submitted in cassettes A1-A4.\n\nMICROSCOPIC DESCRIPTION:\nSections show a poorly differentiated neoplasm composed of glands of atypical cells with moderate cytoplasm and vesicular chromatin. Mitotic figures are frequent (12 per 10 HPF). Focal necrosis is present. The surrounding stroma shows fibrosis.\n\nElectronically signed by: Sarah Chen, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Medical Oncology\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2022-11-11\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male who presents for initial evaluation of newly diagnosed moderately differentiated adenocarcinoma of the sigmoid colon, IIA. Patient was referred by primary care physician after abnormal imaging. Stage II colon cancer, microsatellite stable, status post hemicolectomy. Pathology confirmed moderately differentiated adenocarcinoma. Molecular testing is pending. Patient reports progressive dyspnea and cough x 6 weeks.\n\nPAST MEDICAL HISTORY:\n- coronary artery disease\n\nSURGICAL HISTORY:\n- No prior surgeries\n\nSOCIAL HISTORY:\n- Never smoker\n- Alcohol: Rare alcohol use\n- Occupation: Engineer\n- Lives with alone\n\nFAMILY HISTORY:\n- No family history of cancer.\n\nALLERGIES: Sulfa drugs (hives)\n\nMEDICATIONS:\n- None\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, mild cough. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 114/87, HR 71, RR 18, Temp 98.6F, SpO2 96% on RA, Wt 77.5 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.2, Hgb 10.1, Plt 154, Cr 0.81\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. initial oncology consultation.\n\n1. Moderately differentiated adenocarcinoma of the sigmoid colon, Stage IIA\n   - Reviewed pathology and imaging with patient and family\n   - Recommend surgical resection\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - Peripheral access adequate\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate of Report: 2022-11-19\nSpecimen: Sigmoid colon (Resection)\nDiagnosis: Moderately differentiated adenocarcinoma\nPanel: FoundationOne CDx (648 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 5.6 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  KRAS Wild-type - No mutation [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  TP53 p.R175H - Missense (Exon 5)\n  APC p.R1450* (c.4348C>T) - Nonsense (Exon 16)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  SMAD4 p.R361C - VUS\n  FBXW7 p.R465H - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - KRAS wild-type: Patient eligible for anti-EGFR therapy (cetuximab, panitumumab) if disease progresses.\n  - MSS: Unlikely to benefit from single-agent immune checkpoint inhibitor.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 796x coverage.\nTumor content: 52%.\n\nElectronically signed by: Katherine Liu, MD, PhD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 7,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nSpecimen ID: S2022-79236\nDate of Procedure: 2022-12-09\nDate of Report: 2022-12-13\n\nSPECIMEN: Sigmoid colon, excision/biopsy\n\nFINAL DIAGNOSIS:\nModerately differentiated adenocarcinoma, moderately differentiated.\nGreatest tumor dimension: 6.4 cm\nMargins: Negative (closest margin 0.3 cm)\nLymphovascular invasion: Not identified\nPerineural invasion: Not identified\n\nIMMUNOHISTOCHEMISTRY:\nCDX2: Positive\nCK20: Positive\nCK7: Negative\nMLH1: Intact\nMSH2: Intact\nMSH6: Intact\nPMS2: Intact\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Jeffrey Wilson - Sigmoid colon\" is a gray-white tissue fragment measuring 6.4 x 4.5 x 3.2 cm. The cut surface reveals a soft gray-white mass. Specimen entirely submitted in cassettes A1-A10.\n\nMICROSCOPIC DESCRIPTION:\nSections show a moderately differentiated neoplasm composed of sheets of atypical cells with moderate cytoplasm and irregular nuclear contours. Mitotic figures are frequent (12 per 10 HPF). Focal necrosis is present. The surrounding stroma shows desmoplastic reaction.\n\nElectronically signed by: Emily Nakamura, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2022-12-21\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: postoperative follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for postoperative follow-up. Patient reports mild fatigue but otherwise doing well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, unintentional weight loss, insomnia, dizziness. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 122/75, HR 75, RR 19, Temp 97.7F, SpO2 95% on RA, Wt 73.4 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.7, Hgb 12.8, Plt 204, Cr 0.82\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. postoperative follow-up.\n\n1. Moderately differentiated adenocarcinoma - postoperative follow-up\n   - Treatment well tolerated, continue\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 11,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Colorectal Surgery\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-01-28\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for cycle 2 assessment. Patient is tolerating treatment reasonably well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, night sweats. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 144/72, HR 71, RR 16, Temp 97.5F, SpO2 96% on RA, Wt 95.3 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.2, Hgb 13.5, Plt 102, Cr 1.18\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. cycle 2 assessment.\n\n1. Moderately differentiated adenocarcinoma - cycle 2 assessment\n   - Restaging imaging to be scheduled\n   - Tumor markers trending favorably\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nColorectal Surgery"
+    },
+    {
+      "event_index": 15,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-02-24\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for cycle 4 assessment. Patient is tolerating treatment reasonably well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild dyspnea on exertion, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 139/65, HR 94, RR 14, Temp 97.6F, SpO2 98% on RA, Wt 72.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.3, Hgb 9.6, Plt 263, Cr 0.9\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. cycle 4 assessment.\n\n1. Moderately differentiated adenocarcinoma - cycle 4 assessment\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 19,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Colorectal Surgery\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-03-25\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: cycle 6 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for cycle 6 assessment. Patient reports mild fatigue but otherwise doing well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, intermittent headaches, night sweats. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 121/80, HR 71, RR 14, Temp 98.1F, SpO2 99% on RA, Wt 60.8 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.4, Hgb 9.3, Plt 335, Cr 1.17\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. cycle 6 assessment.\n\n1. Moderately differentiated adenocarcinoma - cycle 6 assessment\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nColorectal Surgery"
+    },
+    {
+      "event_index": 20,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate of Study: 2023-04-12\n\nCLINICAL INDICATION: Moderately differentiated adenocarcinoma of the sigmoid colon. restaging after adjuvant chemotherapy.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Findings consistent with moderately differentiated adenocarcinoma as described.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Colorectal Surgery\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-04-17\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: results review after adjuvant chemotherapy\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for results review after adjuvant chemotherapy. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, mild cough, decreased appetite. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 129/65, HR 66, RR 19, Temp 97.7F, SpO2 96% on RA, Wt 92.2 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.2, Hgb 12.8, Plt 172, Cr 0.87\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. results review after adjuvant chemotherapy.\n\n1. Moderately differentiated adenocarcinoma - results review after adjuvant chemotherapy\n   - Restaging imaging to be scheduled\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nColorectal Surgery"
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate of Study: 2023-08-01\n\nCLINICAL INDICATION: Moderately differentiated adenocarcinoma of the sigmoid colon. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 11 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Findings consistent with moderately differentiated adenocarcinoma as described.\n2. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Colorectal Surgery\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-08-03\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for surveillance follow-up. Patient has some concerns about side effects. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, constipation, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 135/76, HR 73, RR 19, Temp 97.2F, SpO2 97% on RA, Wt 64.0 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 10.0, Hgb 13.6, Plt 279, Cr 1.01\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. surveillance follow-up.\n\n1. Moderately differentiated adenocarcinoma - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 4 weeks\n\nElectronically signed by: Priya Sharma, MD\nColorectal Surgery"
+    },
+    {
+      "event_index": 24,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Colorectal Surgery\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-10-29\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent headaches, fatigue, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 117/81, HR 77, RR 15, Temp 97.9F, SpO2 99% on RA, Wt 76.0 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.0, Hgb 11.5, Plt 339, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. surveillance follow-up.\n\n1. Moderately differentiated adenocarcinoma - surveillance follow-up\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Richard Okafor, MD\nColorectal Surgery"
+    },
+    {
+      "event_index": 25,
+      "event_type": "imaging_report",
+      "text": "PET/CT REPORT\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate of Study: 2023-11-24\n\nCLINICAL INDICATION: Moderately differentiated adenocarcinoma of the sigmoid colon. surveillance imaging.\n\nCOMPARISON: Prior study dated approximately 9 weeks ago available for comparison.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Clear. No pulmonary nodules or masses. No pleural effusion.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: Homogeneous attenuation. No focal lesions.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: No suspicious osseous lesions. Degenerative changes of the lumbar spine.\n\nIMPRESSION:\n1. Findings consistent with moderately differentiated adenocarcinoma as described.\n2. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 26,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Jeffrey Wilson\nMRN: patient_9bb40ad67699\nDate: 2023-11-25\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Wilson is a 63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: night sweats, mild peripheral edema, unintentional weight loss. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 115/87, HR 79, RR 16, Temp 98.3F, SpO2 97% on RA, Wt 55.9 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 5.2, Hgb 9.9, Plt 340, Cr 0.98\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n63-year-old male with IIA moderately differentiated adenocarcinoma of the sigmoid colon. surveillance follow-up.\n\n1. Moderately differentiated adenocarcinoma - surveillance follow-up\n   - Proceed with next cycle as planned\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-08",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-19",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "diagnosis_code": "C18.9",
+        "department": "Colorectal Surgery",
+        "visit_type": "Procedure",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-09",
+        "diagnosis_code": "C18.9",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-17",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-26",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-12",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-01",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-24",
+        "diagnosis_code": "C18.9",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "diagnosis_code": "C18.9",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "WBC",
+        "value": "5.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "Hemoglobin",
+        "value": "13.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "Platelets",
+        "value": "331.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "Creatinine",
+        "value": "0.89",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "BUN",
+        "value": "14.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "ALT",
+        "value": "18.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "AST",
+        "value": "15.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-04",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "Hemoglobin",
+        "value": "13.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "Platelets",
+        "value": "309.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "Creatinine",
+        "value": "0.97",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "BUN",
+        "value": "17.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "ALT",
+        "value": "20.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "AST",
+        "value": "16.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "Albumin",
+        "value": "4.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-11",
+        "test_name": "CEA",
+        "value": "12.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "WBC",
+        "value": "5.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "Hemoglobin",
+        "value": "13.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "Platelets",
+        "value": "299.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "Creatinine",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "BUN",
+        "value": "16.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "ALT",
+        "value": "17.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "AST",
+        "value": "15.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "Albumin",
+        "value": "3.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "CEA",
+        "value": "10.9",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-11-30",
+        "test_name": "PT/INR",
+        "value": "1.1",
+        "unit": "",
+        "reference_range": "0.8-1.1",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "Hemoglobin",
+        "value": "13.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "Platelets",
+        "value": "334.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "Creatinine",
+        "value": "0.72",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "BUN",
+        "value": "16.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "ALT",
+        "value": "19.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "AST",
+        "value": "17.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2022-12-21",
+        "test_name": "CEA",
+        "value": "12.0",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "WBC",
+        "value": "3.3",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "Hemoglobin",
+        "value": "10.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "Platelets",
+        "value": "201.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "Creatinine",
+        "value": "0.87",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "BUN",
+        "value": "17.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "ALT",
+        "value": "21.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "AST",
+        "value": "17.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-11",
+        "test_name": "CEA",
+        "value": "11.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "WBC",
+        "value": "2.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "Platelets",
+        "value": "201.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "Creatinine",
+        "value": "0.82",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "BUN",
+        "value": "17.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "ALT",
+        "value": "18.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "AST",
+        "value": "18.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-25",
+        "test_name": "CEA",
+        "value": "13.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "WBC",
+        "value": "3.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "Platelets",
+        "value": "242.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "Creatinine",
+        "value": "0.83",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "BUN",
+        "value": "17.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "ALT",
+        "value": "16.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "AST",
+        "value": "13.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-01-28",
+        "test_name": "CEA",
+        "value": "16.1",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "WBC",
+        "value": "1.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "Hemoglobin",
+        "value": "12.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "Platelets",
+        "value": "177.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "Creatinine",
+        "value": "0.94",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "BUN",
+        "value": "17.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "ALT",
+        "value": "18.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "AST",
+        "value": "14.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-08",
+        "test_name": "CEA",
+        "value": "12.2",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "WBC",
+        "value": "2.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "Platelets",
+        "value": "183.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "Creatinine",
+        "value": "0.87",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "BUN",
+        "value": "16.4",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "ALT",
+        "value": "18.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "AST",
+        "value": "17.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "Albumin",
+        "value": "3.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-22",
+        "test_name": "CEA",
+        "value": "18.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "WBC",
+        "value": "4.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "Hemoglobin",
+        "value": "13.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "Platelets",
+        "value": "198.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "BUN",
+        "value": "20.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "ALT",
+        "value": "17.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "AST",
+        "value": "15.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-02-24",
+        "test_name": "CEA",
+        "value": "16.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "WBC",
+        "value": "1.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "Hemoglobin",
+        "value": "10.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "Platelets",
+        "value": "147.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "Creatinine",
+        "value": "0.79",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "BUN",
+        "value": "16.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "ALT",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "AST",
+        "value": "17.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-08",
+        "test_name": "CEA",
+        "value": "17.6",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "WBC",
+        "value": "2.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "Platelets",
+        "value": "251.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "Creatinine",
+        "value": "0.91",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "BUN",
+        "value": "18.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "ALT",
+        "value": "20.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "AST",
+        "value": "15.3",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "Albumin",
+        "value": "3.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-22",
+        "test_name": "CEA",
+        "value": "24.9",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "WBC",
+        "value": "3.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "Hemoglobin",
+        "value": "12.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "Platelets",
+        "value": "298.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "Creatinine",
+        "value": "0.88",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "BUN",
+        "value": "16.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "ALT",
+        "value": "19.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "AST",
+        "value": "18.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-03-25",
+        "test_name": "CEA",
+        "value": "25.3",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "WBC",
+        "value": "4.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "Platelets",
+        "value": "319.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "Creatinine",
+        "value": "1.04",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "BUN",
+        "value": "16.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "ALT",
+        "value": "19.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "AST",
+        "value": "14.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "Albumin",
+        "value": "3.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-04-17",
+        "test_name": "CEA",
+        "value": "22.7",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "WBC",
+        "value": "5.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "Hemoglobin",
+        "value": "13.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "Platelets",
+        "value": "386.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "Creatinine",
+        "value": "0.77",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "BUN",
+        "value": "19.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "ALT",
+        "value": "20.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "AST",
+        "value": "16.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-08-03",
+        "test_name": "CEA",
+        "value": "22.0",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "WBC",
+        "value": "10.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "Hemoglobin",
+        "value": "14.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "Platelets",
+        "value": "445.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "Creatinine",
+        "value": "0.82",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "BUN",
+        "value": "19.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "ALT",
+        "value": "19.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "AST",
+        "value": "15.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-10-29",
+        "test_name": "CEA",
+        "value": "24.4",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "WBC",
+        "value": "10.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "Hemoglobin",
+        "value": "14.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "Platelets",
+        "value": "463.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "BUN",
+        "value": "15.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "ALT",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "AST",
+        "value": "15.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "Albumin",
+        "value": "3.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "L",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      },
+      {
+        "patient_id": "patient_9bb40ad67699",
+        "date": "2023-11-25",
+        "test_name": "CEA",
+        "value": "19.0",
+        "unit": "ng/mL",
+        "reference_range": "0.0-3.0",
+        "abnormal_flag": "H",
+        "scenario_index": 2,
+        "scenario_label": "colon"
+      }
+    ]
+  },
+  "scenario_index": 2,
+  "scenario_blurb": "Stage II colon cancer, microsatellite stable, status post hemicolectomy",
+  "scenario_label": "colon"
+}

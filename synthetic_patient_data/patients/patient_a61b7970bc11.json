@@ -1,0 +1,2906 @@
+{
+  "patient_id": "patient_a61b7970bc11",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "Nancy Flores, 52-year-old Black female, Never smoker. Lives independently. ECOG performance status 1."
+    },
+    {
+      "type": "diagnosis",
+      "text": "Diagnosed with Invasive ductal carcinoma of the Left breast. Clinical staging: T2N1M1, AJCC Stage IV. ICD-10: C50.911. Stage IV HER2-positive breast cancer with liver and bone metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for baseline staging."
+    },
+    {
+      "type": "pathology_report",
+      "text": "Pathology specimen received for initial biopsy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for initial oncology consultation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "NGS report received for molecular profiling."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with dual HER2 blockade: Docetaxel 75 mg/m2 + Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w x 6 cycles. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with dual HER2 blockade: Docetaxel 75 mg/m2 + Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w x 6 cycles. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 alopecia. Counseled on expected hair regrowth post-treatment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with dual HER2 blockade: Docetaxel 75 mg/m2 + Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w x 6 cycles. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated first-line chemotherapy with dual HER2 blockade: Docetaxel 75 mg/m2 + Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w x 6 cycles. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Brain MRI with contrast performed for restaging after first-line chemotherapy with dual HER2 blockade."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after first-line chemotherapy with dual HER2 blockade."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated maintenance HER2-directed therapy: Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w maintenance. Cycle 1. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "Developed grade 2 alopecia. Counseled on expected hair regrowth post-treatment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated maintenance HER2-directed therapy: Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w maintenance. Cycle 2. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 2 assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated maintenance HER2-directed therapy: Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w maintenance. Cycle 3. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "systemic",
+      "text": "Initiated maintenance HER2-directed therapy: Trastuzumab 6 mg/kg + Pertuzumab 420 mg q3w maintenance. Cycle 4. Patient tolerated treatment without immediate complications."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for cycle 4 assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "CT chest/abdomen/pelvis with contrast performed for restaging after maintenance HER2-directed therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for results review after maintenance HER2-directed therapy."
+    },
+    {
+      "type": "radiation",
+      "text": "Completed palliative SBRT: Stereotactic body radiation to liver metastasis 50 Gy in 5 fractions. Treatment delivered as planned."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for post-radiation assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Brain MRI with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Brain MRI with contrast performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    },
+    {
+      "type": "imaging_report",
+      "text": "Bone scan performed for surveillance imaging."
+    },
+    {
+      "type": "clinical_note",
+      "text": "Clinical visit for surveillance follow-up."
+    }
+  ],
+  "documents": [
+    {
+      "event_index": 2,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2022-11-08\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. baseline staging.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Few pulmonary nodules, largest measuring 0.6 cm in the left upper lobe. Consistent with metastatic disease.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: 3 hypodense lesions consistent with metastases, largest in segment 6 measuring 2.5 cm. New finding.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: Multiple lytic osseous lesions involving lumbar spine, pelvis, and bilateral proximal femora consistent with osseous metastatic disease.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions as described.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 3,
+      "event_type": "pathology_report",
+      "text": "PATHOLOGY REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nSpecimen ID: S2022-88792\nDate of Procedure: 2022-11-11\nDate of Report: 2022-11-14\n\nSPECIMEN: Left breast, excision/biopsy\n\nFINAL DIAGNOSIS:\nInvasive ductal carcinoma, moderately differentiated.\nGreatest tumor dimension: 3.2 cm\nMargins: Positive at inked margin\nLymphovascular invasion: Present\nPerineural invasion: Present\n\nIMMUNOHISTOCHEMISTRY:\nER: Negative (0%)\nPR: Negative (0%)\nHER2 IHC: 3+ (positive)\nKi-67: 45%\n\nGROSS DESCRIPTION:\nReceived fresh labeled \"Nancy Flores - Left breast\" is a tan-pink tissue fragment measuring 3.2 x 2.2 x 1.6 cm. The cut surface reveals a indurated yellow-tan mass. Specimen entirely submitted in cassettes A1-A11.\n\nMICROSCOPIC DESCRIPTION:\nSections show a moderately differentiated neoplasm composed of cords and trabeculae of atypical cells with moderate cytoplasm and vesicular chromatin. Mitotic figures are identified (6 per 10 HPF). Focal necrosis is present. The surrounding stroma shows chronic inflammation.\n\nElectronically signed by: James Park, MD\nDepartment of Pathology"
+    },
+    {
+      "event_index": 4,
+      "event_type": "clinical_note",
+      "text": "INITIAL CONSULTATION - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2022-11-14\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: initial oncology consultation\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female who presents for initial evaluation of newly diagnosed invasive ductal carcinoma of the left breast, IV. Patient presented with symptoms prompting workup. Stage IV HER2-positive breast cancer with liver and bone metastases. Pathology confirmed invasive ductal carcinoma. Molecular testing is pending. Patient reports fatigue and unintentional 10-lb weight loss over 3 months.\n\nPAST MEDICAL HISTORY:\n- hypothyroidism\n\nSURGICAL HISTORY:\n- Cholecystectomy (age 50)\n\nSOCIAL HISTORY:\n- Former smoker (quit 10 years ago)\n- Alcohol: No alcohol use\n- Occupation: Construction worker (retired)\n- Lives with alone\n\nFAMILY HISTORY:\n- Mother with breast cancer at age 62.\n\nALLERGIES: NKDA\n\nMEDICATIONS:\n- Levothyroxine 75 mcg daily\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent headaches, mild dyspnea on exertion. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 137/81, HR 92, RR 18, Temp 97.8F, SpO2 95% on RA, Wt 85.3 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 7.9, Hgb 9.4, Plt 168, Cr 0.92\n\nIMAGING:\nSee separate imaging report.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. initial oncology consultation.\n\n1. Invasive ductal carcinoma of the left breast, Stage IV\n   - Reviewed pathology and imaging with patient and family\n   - Recommend first-line chemotherapy with dual HER2 blockade\n   - Will discuss at multidisciplinary tumor board\n   - Molecular profiling results pending\n2. Supportive care\n   - Nutrition consultation placed\n   - Social work referral for psychosocial support\n   - Port placement scheduled\n3. Follow-up in 1-2 weeks to initiate treatment\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 5,
+      "event_type": "ngs_report",
+      "text": "NEXT GENERATION SEQUENCING REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Report: 2022-11-30\nSpecimen: Left breast (Core needle biopsy)\nDiagnosis: Invasive ductal carcinoma\nPanel: FoundationOne CDx (523 genes)\n\nRESULTS SUMMARY:\nTumor Mutational Burden (TMB): 2.6 mutations/Mb (Low)\nMicrosatellite Status: MSS\n\nCLINICALLY SIGNIFICANT GENOMIC ALTERATIONS:\n  ERBB2 Amplification (copy number 12) - Amplification [Clinically Significant]\n\nADDITIONAL PATHOGENIC ALTERATIONS:\n  PIK3CA p.H1047R - Missense (Exon 20)\n\nVARIANTS OF UNCERTAIN SIGNIFICANCE:\n  CHEK2 p.I157T - VUS\n  PALB2 p.L939W - VUS\n\nCOPY NUMBER ALTERATIONS:\n  No significant copy number alterations detected\n\nFUSIONS:\n  No pathogenic fusions detected.\n\nTHERAPY ASSOCIATIONS:\n  - ERBB2 amplification: FDA-approved HER2-directed therapies include trastuzumab, pertuzumab, T-DXd, tucatinib.\n  - PIK3CA H1047R: Alpelisib may be considered in HR+/HER2- setting.\n\nNote: This test was performed using hybrid capture-based next generation sequencing.\nSequencing depth: mean 408x coverage.\nTumor content: 37%.\n\nElectronically signed by: Katherine Liu, MD, PhD\nMolecular Pathology Laboratory"
+    },
+    {
+      "event_index": 8,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2022-12-28\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for cycle 2 assessment. Patient has some concerns about side effects. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: abdominal bloating, mild dyspnea on exertion, night sweats, intermittent nausea. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 110/73, HR 89, RR 19, Temp 97.5F, SpO2 98% on RA, Wt 88.3 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 7.0, Hgb 9.5, Plt 225, Cr 0.97\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. cycle 2 assessment.\n\n1. Invasive ductal carcinoma - cycle 2 assessment\n   - Restaging imaging to be scheduled\n   - Tumor markers trending favorably\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 12,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-02-09\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for cycle 4 assessment. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: constipation, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 147/83, HR 77, RR 15, Temp 97.6F, SpO2 97% on RA, Wt 86.9 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 7.3, Hgb 12.8, Plt 296, Cr 1.05\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. cycle 4 assessment.\n\n1. Invasive ductal carcinoma - cycle 4 assessment\n   - Restaging imaging to be scheduled\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 3 weeks\n\nElectronically signed by: Helen Park, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 13,
+      "event_type": "imaging_report",
+      "text": "BRAIN MRI WITH CONTRAST REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2023-03-12\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. restaging after first-line chemotherapy with dual HER2 blockade.\n\nCOMPARISON: None available.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nBRAIN: No intracranial mass, hemorrhage, or acute infarct. Ventricles normal in size.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions decreased in size, partial response.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 14,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-03-13\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: results review after first-line chemotherapy with dual HER2 blockade\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for results review after first-line chemotherapy with dual her2 blockade. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: dry mouth, fatigue, mild cough, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 121/74, HR 66, RR 17, Temp 97.7F, SpO2 95% on RA, Wt 55.8 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 9.6, Hgb 13.2, Plt 293, Cr 0.7\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. results review after first-line chemotherapy with dual HER2 blockade.\n\n1. Invasive ductal carcinoma - results review after first-line chemotherapy with dual HER2 blockade\n   - Continue current treatment regimen\n   - Tumor markers trending favorably\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 6 weeks\n\nElectronically signed by: Amanda Foster, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 18,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-04-19\nProvider: Dr. Carlos Mendez\n\nCHIEF COMPLAINT: cycle 2 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for cycle 2 assessment. Patient reports feeling well overall. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, dizziness, unintentional weight loss. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 123/88, HR 84, RR 19, Temp 97.7F, SpO2 95% on RA, Wt 70.6 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 8.1, Hgb 15.0, Plt 102, Cr 0.75\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. cycle 2 assessment.\n\n1. Invasive ductal carcinoma - cycle 2 assessment\n   - Continue current treatment regimen\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 4 weeks\n\nElectronically signed by: Priya Sharma, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 21,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-05-31\nProvider: Dr. Richard Okafor\n\nCHIEF COMPLAINT: cycle 4 assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for cycle 4 assessment. Patient is tolerating treatment reasonably well. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: insomnia, mild dyspnea on exertion, dry mouth, intermittent headaches. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 121/79, HR 92, RR 14, Temp 98.5F, SpO2 97% on RA, Wt 60.1 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 10.0, Hgb 12.3, Plt 108, Cr 1.0\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. cycle 4 assessment.\n\n1. Invasive ductal carcinoma - cycle 4 assessment\n   - Treatment well tolerated, continue\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 6 weeks\n\nElectronically signed by: Amanda Foster, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 22,
+      "event_type": "imaging_report",
+      "text": "CT CHEST/ABDOMEN/PELVIS WITH CONTRAST REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2023-06-26\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. restaging after maintenance HER2-directed therapy.\n\nCOMPARISON: None available.\n\nTECHNIQUE: Multidetector CT performed from skull base to iliac crest following administration of 100 mL Omnipaque 350 IV contrast.\n\nFINDINGS:\nLUNGS: Few pulmonary nodules, largest measuring 1.2 cm in the left lower lobe. Consistent with metastatic disease.\n\nMEDIASTINUM: No significant lymphadenopathy. Heart size normal.\n\nLIVER: 3 hypodense lesions consistent with metastases, largest in segment 8 measuring 3.3 cm. New finding.\n\nPANCREAS: Normal in size and attenuation. No pancreatic mass or ductal dilation.\n\nKIDNEYS: Normal in size bilaterally. No hydronephrosis or renal masses.\n\nPELVIS: No pelvic mass or lymphadenopathy. Bladder unremarkable.\n\nBONES: Multiple mixed lytic-sclerotic osseous lesions involving lumbar spine, pelvis, and bilateral proximal femora consistent with osseous metastatic disease.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions decreased in size, partial response.\n\nElectronically signed by: Sophia Martinez, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 23,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-06-27\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: results review after maintenance HER2-directed therapy\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for results review after maintenance her2-directed therapy. Patient has some concerns about side effects. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, insomnia. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 144/70, HR 86, RR 14, Temp 97.2F, SpO2 97% on RA, Wt 78.2 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-tender, non-distended. No hepatosplenomegaly.\nExtremities: Trace bilateral lower extremity edema. Warm and well-perfused.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 3.9, Hgb 11.9, Plt 125, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. results review after maintenance HER2-directed therapy.\n\n1. Invasive ductal carcinoma - results review after maintenance HER2-directed therapy\n   - Proceed with next cycle as planned\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 6 weeks\n\nElectronically signed by: Priya Sharma, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 25,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-07-17\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: post-radiation assessment\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for post-radiation assessment. Patient reports feeling well overall. Weight is stable.\n\nREVIEW OF SYSTEMS:\nPositive for: intermittent nausea, insomnia, joint pain, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 124/68, HR 93, RR 14, Temp 97.7F, SpO2 96% on RA, Wt 73.9 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 6.3, Hgb 10.7, Plt 280, Cr 1.05\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. post-radiation assessment.\n\n1. Invasive ductal carcinoma - post-radiation assessment\n   - Proceed with next cycle as planned\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 3 weeks\n\nElectronically signed by: Priya Sharma, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 26,
+      "event_type": "imaging_report",
+      "text": "BRAIN MRI WITH CONTRAST REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2023-11-02\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nBRAIN: No intracranial mass, hemorrhage, or acute infarct. Ventricles normal in size.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions decreased in size, partial response.\n3. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: David Kim, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 27,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Breast Surgery\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2023-11-05\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient has some concerns about side effects. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: fatigue, joint pain. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 124/66, HR 86, RR 17, Temp 98.3F, SpO2 99% on RA, Wt 99.6 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 7.1, Hgb 9.0, Plt 108, Cr 0.92\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Continue antiemetic regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nBreast Surgery"
+    },
+    {
+      "event_index": 28,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2024-01-19\nProvider: Dr. Amanda Foster\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient reports feeling well overall. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, mild dyspnea on exertion, intermittent headaches, abdominal bloating. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 149/84, HR 71, RR 14, Temp 97.6F, SpO2 98% on RA, Wt 93.1 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear to auscultation bilaterally.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 9.7, Hgb 11.0, Plt 297, Cr 0.71\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Treatment well tolerated, continue\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 2 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 29,
+      "event_type": "imaging_report",
+      "text": "BRAIN MRI WITH CONTRAST REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2024-03-01\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 3 months ago.\n\nTECHNIQUE: MRI performed with and without IV gadolinium contrast, multiplanar multisequence technique.\n\nFINDINGS:\nBRAIN: No intracranial mass, hemorrhage, or acute infarct. Ventricles normal in size.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions decreased in size, partial response.\n3. Overall assessment: Stable disease per RECIST 1.1.\n\nElectronically signed by: Robert Chang, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 30,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2024-03-03\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: dizziness, joint pain, mild dyspnea on exertion, intermittent nausea. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 124/82, HR 84, RR 16, Temp 98.6F, SpO2 95% on RA, Wt 71.1 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: Normocephalic, atraumatic. Mucous membranes moist.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 3.3, Hgb 13.3, Plt 210, Cr 1.08\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Monitoring for treatment-related toxicity\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 4 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 31,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2024-05-18\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Appetite has improved.\n\nREVIEW OF SYSTEMS:\nPositive for: mild peripheral edema, mild dyspnea on exertion, dry mouth. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 139/67, HR 94, RR 16, Temp 98.4F, SpO2 95% on RA, Wt 79.1 kg\nGeneral: Comfortable, thin-appearing, no acute distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Diminished breath sounds at right base. No wheezes.\nCV: Regular rate and rhythm, no murmurs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 4.8, Hgb 11.1, Plt 104, Cr 0.9\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Proceed with next cycle as planned\n   - Tumor markers trending favorably\n2. Symptom management\n   - Neuropathy being monitored\n3. Follow-up in 2 weeks\n\nElectronically signed by: Amanda Foster, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 32,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2024-06-20\nProvider: Dr. Priya Sharma\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient reports mild fatigue but otherwise doing well. Reports mild nausea but eating adequately.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 140/83, HR 67, RR 14, Temp 98.1F, SpO2 99% on RA, Wt 73.6 kg\nGeneral: Well-nourished, alert, in no distress.\nHEENT: No scleral icterus. Oropharynx clear.\nNeck: No thyromegaly. No lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, non-distended. Well-healed midline surgical scar.\nExtremities: No edema. No cyanosis or clubbing.\nNeuro: A&O x3, CN II-XII intact, no focal deficits.\n\nLABORATORY RESULTS:\nWBC 5.7, Hgb 9.1, Plt 337, Cr 1.14\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Continue current treatment regimen\n   - Will check labs prior to next cycle\n2. Symptom management\n   - Fatigue management discussed\n3. Follow-up in 4 weeks\n\nElectronically signed by: Carlos Mendez, MD\nMedical Oncology"
+    },
+    {
+      "event_index": 33,
+      "event_type": "imaging_report",
+      "text": "BONE SCAN REPORT\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate of Study: 2024-06-21\n\nCLINICAL INDICATION: Invasive ductal carcinoma of the left breast. surveillance imaging.\n\nCOMPARISON: Comparison made to prior study from approximately 2 months ago.\n\nTECHNIQUE: Whole body bone scintigraphy performed following IV injection of 25 mCi Tc-99m MDP.\n\nFINDINGS:\nMultiple foci of increased radiotracer uptake in the axial skeleton consistent with widespread osseous metastatic disease. Approximately 6 lesions identified.\n\nIMPRESSION:\n1. Known breast malignancy with hepatic and osseous metastases.\n2. Liver lesions decreased in size, partial response.\n3. Overall assessment: Partial response per RECIST 1.1.\n\nElectronically signed by: Jennifer Walsh, MD\nDepartment of Radiology"
+    },
+    {
+      "event_index": 34,
+      "event_type": "clinical_note",
+      "text": "FOLLOW-UP NOTE - Medical Oncology\n\nPatient: Nancy Flores\nMRN: patient_a61b7970bc11\nDate: 2024-11-16\nProvider: Dr. Helen Park\n\nCHIEF COMPLAINT: surveillance follow-up\n\nHISTORY OF PRESENT ILLNESS:\nMr./Ms. Flores is a 52-year-old female with IV invasive ductal carcinoma of the left breast who presents for surveillance follow-up. Patient is tolerating treatment reasonably well. Appetite is decreased but maintaining weight.\n\nREVIEW OF SYSTEMS:\nPositive for: mild cough, mild peripheral edema. Remainder of 14-point ROS reviewed and negative.\n\nPHYSICAL EXAMINATION:\nVitals: BP 117/79, HR 89, RR 15, Temp 97.8F, SpO2 99% on RA, Wt 79.3 kg\nGeneral: Alert, oriented, well-appearing, in no acute distress.\nHEENT: NCAT, EOMI, PERRL. Oral mucosa moist without lesions.\nNeck: Supple, no JVD, no cervical lymphadenopathy.\nLungs: Clear bilaterally. No rales or rhonchi.\nCV: RRR, S1/S2 normal. No murmurs, gallops, or rubs.\nAbdomen: Soft, mildly tender in RUQ. No rebound. Normoactive bowel sounds.\nExtremities: No peripheral edema. Good pulses bilaterally.\nNeuro: Alert and oriented. No focal neurological deficits.\n\nLABORATORY RESULTS:\nWBC 6.3, Hgb 13.8, Plt 189, Cr 0.93\n\nIMAGING:\nMost recent imaging reviewed.\n\nASSESSMENT AND PLAN:\n52-year-old female with IV invasive ductal carcinoma of the left breast. surveillance follow-up.\n\n1. Invasive ductal carcinoma - surveillance follow-up\n   - Restaging imaging to be scheduled\n   - Labs today show adequate counts for treatment\n2. Symptom management\n   - Pain well controlled on current regimen\n3. Follow-up in 2 weeks\n\nElectronically signed by: Helen Park, MD\nMedical Oncology"
+    }
+  ],
+  "tables": {
+    "encounters": [
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-11",
+        "diagnosis_code": "C50.911",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "New Patient",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-30",
+        "diagnosis_code": "C50.911",
+        "department": "Pathology",
+        "visit_type": "Procedure",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-05",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-12",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-04",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Infusion",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-26",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-10",
+        "diagnosis_code": "C50.911",
+        "department": "Radiation Oncology",
+        "visit_type": "Procedure",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-02",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-01",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-21",
+        "diagnosis_code": "C50.911",
+        "department": "Radiology",
+        "visit_type": "Imaging",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "diagnosis_code": "C50.911",
+        "department": "Medical Oncology",
+        "visit_type": "Follow-up",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      }
+    ],
+    "labs": [
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "WBC",
+        "value": "8.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "Hemoglobin",
+        "value": "15.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "Platelets",
+        "value": "332.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "Creatinine",
+        "value": "0.71",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "BUN",
+        "value": "14.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "ALT",
+        "value": "23.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "AST",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-08",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "WBC",
+        "value": "8.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "Hemoglobin",
+        "value": "15.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "Platelets",
+        "value": "350.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "Creatinine",
+        "value": "0.7",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "BUN",
+        "value": "14.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "ALT",
+        "value": "24.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "AST",
+        "value": "18.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-11-14",
+        "test_name": "CA 15-3",
+        "value": "69.9",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "Platelets",
+        "value": "170.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "Creatinine",
+        "value": "0.72",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "BUN",
+        "value": "12.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "ALT",
+        "value": "27.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "AST",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "Albumin",
+        "value": "5.0",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-05",
+        "test_name": "CA 15-3",
+        "value": "79.0",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "WBC",
+        "value": "4.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "Hemoglobin",
+        "value": "10.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "Platelets",
+        "value": "136.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "Creatinine",
+        "value": "0.85",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "BUN",
+        "value": "13.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "ALT",
+        "value": "26.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "AST",
+        "value": "21.6",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "Albumin",
+        "value": "4.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-26",
+        "test_name": "CA 15-3",
+        "value": "79.4",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "Hemoglobin",
+        "value": "10.9",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "Platelets",
+        "value": "187.5",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "Creatinine",
+        "value": "0.63",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "BUN",
+        "value": "14.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "ALT",
+        "value": "24.8",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "AST",
+        "value": "16.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2022-12-28",
+        "test_name": "CA 15-3",
+        "value": "85.6",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "WBC",
+        "value": "5.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "Hemoglobin",
+        "value": "10.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "Platelets",
+        "value": "253.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "BUN",
+        "value": "12.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "ALT",
+        "value": "25.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "AST",
+        "value": "18.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-01-16",
+        "test_name": "CA 15-3",
+        "value": "112.8",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "WBC",
+        "value": "3.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "Hemoglobin",
+        "value": "10.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "Platelets",
+        "value": "167.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "Creatinine",
+        "value": "0.78",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "ALT",
+        "value": "24.4",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "AST",
+        "value": "18.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-06",
+        "test_name": "CA 15-3",
+        "value": "121.5",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "WBC",
+        "value": "4.7",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "Hemoglobin",
+        "value": "11.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "Platelets",
+        "value": "191.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "Creatinine",
+        "value": "0.8",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "BUN",
+        "value": "13.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "ALT",
+        "value": "25.5",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "AST",
+        "value": "15.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "Albumin",
+        "value": "3.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-02-09",
+        "test_name": "CA 15-3",
+        "value": "112.6",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "WBC",
+        "value": "6.4",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "Hemoglobin",
+        "value": "12.2",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "Platelets",
+        "value": "286.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "Creatinine",
+        "value": "0.75",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "BUN",
+        "value": "13.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "ALT",
+        "value": "27.3",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "AST",
+        "value": "17.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "Albumin",
+        "value": "4.6",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-13",
+        "test_name": "CA 15-3",
+        "value": "114.7",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "WBC",
+        "value": "6.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "Hemoglobin",
+        "value": "11.6",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "Platelets",
+        "value": "275.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "BUN",
+        "value": "12.6",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "ALT",
+        "value": "24.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "AST",
+        "value": "19.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-03-26",
+        "test_name": "CA 15-3",
+        "value": "161.1",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "WBC",
+        "value": "5.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "Hemoglobin",
+        "value": "10.8",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "Platelets",
+        "value": "290.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "Creatinine",
+        "value": "0.71",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "BUN",
+        "value": "13.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "ALT",
+        "value": "23.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "AST",
+        "value": "18.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-16",
+        "test_name": "CA 15-3",
+        "value": "136.0",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "WBC",
+        "value": "5.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "Hemoglobin",
+        "value": "10.7",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "Platelets",
+        "value": "285.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "Creatinine",
+        "value": "0.86",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "BUN",
+        "value": "12.3",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "ALT",
+        "value": "24.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "AST",
+        "value": "18.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-04-19",
+        "test_name": "CA 15-3",
+        "value": "207.0",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "WBC",
+        "value": "6.0",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "Hemoglobin",
+        "value": "11.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "Platelets",
+        "value": "264.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "BUN",
+        "value": "12.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "ALT",
+        "value": "24.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "AST",
+        "value": "16.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "Albumin",
+        "value": "4.4",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-07",
+        "test_name": "CA 15-3",
+        "value": "179.5",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "Platelets",
+        "value": "273.6",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "Creatinine",
+        "value": "0.66",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "BUN",
+        "value": "15.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "ALT",
+        "value": "21.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "AST",
+        "value": "16.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-28",
+        "test_name": "CA 15-3",
+        "value": "194.1",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "WBC",
+        "value": "5.6",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "Platelets",
+        "value": "256.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "Creatinine",
+        "value": "0.84",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "BUN",
+        "value": "10.9",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "ALT",
+        "value": "23.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "AST",
+        "value": "16.0",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "Albumin",
+        "value": "4.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-05-31",
+        "test_name": "CA 15-3",
+        "value": "187.4",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-26",
+        "test_name": "WBC",
+        "value": "5.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-26",
+        "test_name": "Hemoglobin",
+        "value": "11.0",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-26",
+        "test_name": "Platelets",
+        "value": "267.9",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "Hemoglobin",
+        "value": "11.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "Platelets",
+        "value": "279.2",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "Creatinine",
+        "value": "0.69",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "BUN",
+        "value": "14.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "ALT",
+        "value": "26.1",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "AST",
+        "value": "16.5",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "Albumin",
+        "value": "3.8",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-06-27",
+        "test_name": "CA 15-3",
+        "value": "182.1",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-10",
+        "test_name": "WBC",
+        "value": "6.2",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-10",
+        "test_name": "Hemoglobin",
+        "value": "12.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-10",
+        "test_name": "Platelets",
+        "value": "284.1",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-10",
+        "test_name": "CA 15-3",
+        "value": "205.9",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "WBC",
+        "value": "5.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "Hemoglobin",
+        "value": "12.3",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "Platelets",
+        "value": "278.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "Creatinine",
+        "value": "0.66",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "BUN",
+        "value": "13.2",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "ALT",
+        "value": "23.2",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "AST",
+        "value": "17.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-07-17",
+        "test_name": "CA 15-3",
+        "value": "203.6",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "Platelets",
+        "value": "275.3",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "Creatinine",
+        "value": "0.75",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "BUN",
+        "value": "12.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "ALT",
+        "value": "26.6",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "AST",
+        "value": "18.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "Albumin",
+        "value": "4.9",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2023-11-05",
+        "test_name": "CA 15-3",
+        "value": "186.3",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "WBC",
+        "value": "5.8",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "Hemoglobin",
+        "value": "11.1",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "Platelets",
+        "value": "262.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "Creatinine",
+        "value": "0.65",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "BUN",
+        "value": "12.7",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "ALT",
+        "value": "25.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "AST",
+        "value": "15.2",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "Albumin",
+        "value": "4.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-01-19",
+        "test_name": "CA 15-3",
+        "value": "202.3",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "WBC",
+        "value": "5.9",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "Hemoglobin",
+        "value": "11.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "L",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "Platelets",
+        "value": "292.0",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "Creatinine",
+        "value": "0.68",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "BUN",
+        "value": "11.8",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "ALT",
+        "value": "27.9",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "AST",
+        "value": "18.7",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "Albumin",
+        "value": "4.5",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-03-03",
+        "test_name": "CA 15-3",
+        "value": "196.0",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "WBC",
+        "value": "5.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "Hemoglobin",
+        "value": "12.4",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "Platelets",
+        "value": "268.8",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "Creatinine",
+        "value": "0.75",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "BUN",
+        "value": "12.5",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "ALT",
+        "value": "30.0",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "AST",
+        "value": "18.9",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "Albumin",
+        "value": "4.1",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-05-18",
+        "test_name": "CA 15-3",
+        "value": "179.6",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "WBC",
+        "value": "5.5",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "Hemoglobin",
+        "value": "12.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "Platelets",
+        "value": "283.4",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "Creatinine",
+        "value": "0.74",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "BUN",
+        "value": "13.1",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "ALT",
+        "value": "26.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "AST",
+        "value": "18.4",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "Albumin",
+        "value": "5.2",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-06-20",
+        "test_name": "CA 15-3",
+        "value": "219.4",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "WBC",
+        "value": "5.1",
+        "unit": "K/uL",
+        "reference_range": "4.0-11.0",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "Hemoglobin",
+        "value": "12.5",
+        "unit": "g/dL",
+        "reference_range": "12.0-17.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "Platelets",
+        "value": "267.7",
+        "unit": "K/uL",
+        "reference_range": "150-400",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "Creatinine",
+        "value": "0.73",
+        "unit": "mg/dL",
+        "reference_range": "0.6-1.2",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "BUN",
+        "value": "14.0",
+        "unit": "mg/dL",
+        "reference_range": "7-20",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "ALT",
+        "value": "26.7",
+        "unit": "U/L",
+        "reference_range": "7-56",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "AST",
+        "value": "16.1",
+        "unit": "U/L",
+        "reference_range": "10-40",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "Albumin",
+        "value": "4.7",
+        "unit": "g/dL",
+        "reference_range": "3.5-5.5",
+        "abnormal_flag": "N",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      },
+      {
+        "patient_id": "patient_a61b7970bc11",
+        "date": "2024-11-16",
+        "test_name": "CA 15-3",
+        "value": "200.8",
+        "unit": "U/mL",
+        "reference_range": "0-30",
+        "abnormal_flag": "H",
+        "scenario_index": 1,
+        "scenario_label": "breast_her2"
+      }
+    ]
+  },
+  "scenario_index": 1,
+  "scenario_blurb": "Stage IV HER2-positive breast cancer with liver and bone metastases",
+  "scenario_label": "breast_her2"
+}
