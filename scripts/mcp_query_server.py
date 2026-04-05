@@ -25,7 +25,7 @@ def main():
 
         mcp = FastMCP(
             name="onc-data-wrangler (not configured)",
-            instructions="No project configuration found. Run /onc-data-wrangler:setup-project first.",
+            instructions="No project configuration found. Run /onc-data-wrangler:make-database first.",
         )
 
         @mcp.tool()
@@ -33,7 +33,7 @@ def main():
             """Check server status."""
             return {
                 "status": "not_configured",
-                "message": "No project config found. Run /onc-data-wrangler:setup-project to create one.",
+                "message": "No project config found. Run /onc-data-wrangler:make-database to create one.",
                 "config_path_checked": config_path,
             }
 

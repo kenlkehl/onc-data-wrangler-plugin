@@ -87,7 +87,7 @@ Present the schema summary to the user organized by domain.
 
 If the user provided a `.duckdb` path as an argument, use that. Otherwise:
 
-- If a project config exists but no database, advise: "Your project config exists but the database hasn't been built yet. You can either run `/onc-data-wrangler:run-pipeline` first, or point me at raw CSV/parquet files to work from directly."
+- If a project config exists but no database, advise: "Your project config exists but the database hasn't been built yet. You can either run `/onc-data-wrangler:make-database` first, or point me at raw CSV/parquet files to work from directly."
 - If the user provides CSV/parquet file paths, profile them:
 
 ```bash

@@ -4,7 +4,7 @@ description: |
   Per-patient clinical note extraction worker. Reads ontology definitions and
   extracts structured data from clinical text using domain-group-based extraction.
   Writes structured JSON result to a specified output path.
-  Spawned by the extract-notes or run-pipeline skill -- do not invoke directly.
+  Spawned by the extract-notes skill -- do not invoke directly.
 tools: [Read, Bash, Glob, Grep, Write]
 disallowedTools: [WebSearch, WebFetch, Agent]
 model: inherit

@@ -164,5 +164,5 @@ Present to the user:
 - Location of output files (extraction results, audit trail, review queue)
 
 Suggest next steps:
-- `/onc-data-wrangler:run-pipeline` to continue building the database
+- `/onc-data-wrangler:make-database` to build a database from tabular data
 - Review the `review_queue.csv` for items needing human attention

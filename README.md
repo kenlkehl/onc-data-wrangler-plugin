@@ -6,8 +6,7 @@ A Claude Code plugin for oncology data wrangling: extracting structured data fro
 
 | Skill | Command | Description |
 |-------|---------|-------------|
-| Setup Project | `/onc-data-wrangler:setup-project` | Interactive wizard to configure a new project |
-| Run Pipeline | `/onc-data-wrangler:run-pipeline` | Full pipeline: cohort -> extract -> harmonize -> database -> metadata |
+| Make Database | `/onc-data-wrangler:make-database` | Interactively build a DuckDB database from raw tabular data files |
 | Extract Notes | `/onc-data-wrangler:extract-notes` | Standalone extraction from clinical notes |
 | Query Database | `/onc-data-wrangler:query-database` | Interactive database querying with privacy enforcement |
 | Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data |
@@ -56,12 +55,11 @@ The `generate-synthetic-data` skill creates realistic synthetic clinical data fr
 
 ## Derive Dataset
 
-The `derive-dataset` skill creates a **one-row-per-patient analysis dataset** from a DuckDB database (built by `run-pipeline`) or raw tabular files. It combines interactive column definition with oncology and biostatistics domain expertise.
+The `derive-dataset` skill creates a **one-row-per-patient analysis dataset** from a DuckDB database (built by `make-database`) or raw tabular files. It combines interactive column definition with oncology and biostatistics domain expertise.
 
 **Typical workflow:**
 ```
-/onc-data-wrangler:setup-project    # configure project
-/onc-data-wrangler:run-pipeline     # build DuckDB
+/onc-data-wrangler:make-database    # discover data, configure project, build DuckDB
 /onc-data-wrangler:derive-dataset   # create analysis dataset
 ```
 
@@ -116,20 +114,20 @@ uv sync
 # 3. Launch Claude Code with the plugin
 claude --plugin-dir .
 
-# 4. Set up a project (interactive wizard)
-#    In Claude Code, type: /onc-data-wrangler:setup-project
+# 4. Build a database from your data files (interactive)
+#    In Claude Code, type: /onc-data-wrangler:make-database
 
-# 5. Generate synthetic test data
-#    /onc-data-wrangler:generate-synthetic-data
-
-# 6. Run the full pipeline
-#    /onc-data-wrangler:run-pipeline
-
-# 7. Query your database
+# 5. Query your database
 #    /onc-data-wrangler:query-database
 
-# 8. Build an analysis dataset
+# 6. Build an analysis dataset
 #    /onc-data-wrangler:derive-dataset
+
+# 7. (Optional) Generate synthetic test data
+#    /onc-data-wrangler:generate-synthetic-data
+
+# 8. (Optional) Extract from clinical notes
+#    /onc-data-wrangler:extract-notes
 ```
 
 ## Setup

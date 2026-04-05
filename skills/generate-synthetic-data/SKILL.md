@@ -292,5 +292,5 @@ Present to the user:
 Suggest next steps:
 - Review the generated data for clinical realism
 - Add more table schemas to `${CLAUDE_PLUGIN_ROOT}/data/synthetic_schemas/` (e.g., `medications.yaml`, `vitals.yaml`) and re-run to generate additional structured tables
-- Use `/onc-data-wrangler:run-pipeline` to build a DuckDB database from the structured tables
+- Use `/onc-data-wrangler:make-database` to build a DuckDB database from the structured tables
 - Use `/onc-data-wrangler:extract-notes` to test extraction pipelines against the synthetic documents

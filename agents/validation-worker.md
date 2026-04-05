@@ -3,8 +3,8 @@ name: validation-worker
 description: |
   Post-extraction cross-field validation worker. Loads extraction results
   for a batch of patients, runs NAACCR cross-field edit checks and confidence
-  scoring, and produces a review queue. Spawned by run-pipeline or extract-notes
-  skills -- do not invoke directly.
+  scoring, and produces a review queue. Spawned by the extract-notes skill -- do
+  not invoke directly.
 tools: [Read, Bash, Glob, Write]
 disallowedTools: [WebSearch, WebFetch, Agent]
 model: inherit

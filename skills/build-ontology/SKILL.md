@@ -110,4 +110,4 @@ for cat in items:
 "
 ```
 
-Report success and suggest using the ontology with `/onc-data-wrangler:extract-notes` or `/onc-data-wrangler:run-pipeline`.
+Report success and suggest using the ontology with `/onc-data-wrangler:extract-notes` or `/onc-data-wrangler:make-database`.
