@@ -31,7 +31,7 @@ A comprehensive end-to-end evaluation of the `onc-data-wrangler` Claude Code plu
 - **Added missing skill**: The `Answer Questions` skill (`/onc-data-wrangler:answer-questions`) was absent from the skills table. The table listed 8 skills; it now lists all 9.
 - **Added Quick Start section**: A numbered walkthrough from `uv` installation through `query-database`, giving new users a clear path to their first query.
 - **Added Setup requirements**: Explicit callout of Python 3.13+ and `uv` package manager (with install command), which were previously implied but not stated.
-- **Added Security Considerations section**: New section covering API key management (environment variables, never in config files), local model recommendations for PHI data (`provider: openai` or `vllm` with on-premises servers), de-identification layers, query privacy enforcement (SQL validation, cell suppression, output size guard, audit logging), agent isolation (no internet access), and red-team testing.
+- **Added Security Considerations section**: New section covering API key management (environment variables, never in config files), local model recommendations for PHI data (`provider: openai` with on-premises servers), de-identification layers, query privacy enforcement (SQL validation, cell suppression, output size guard, audit logging), agent isolation (no internet access), and red-team testing.
 - **Cleaned up marketplace notes**: Replaced the verbose research session dump at the bottom (captured 2026-04-02) with a concise 10-line Distribution section.
 
 ### 2.2 src/onc_wrangler/config.py — API Key Leak Prevention

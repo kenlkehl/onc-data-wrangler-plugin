@@ -26,7 +26,7 @@ If not provided, ask for each. Also ask for:
 - Patient ID column name (default: `patient_id`)
 - Text column name (default: `text`)
 - Date column name (default: `date`)
-- vLLM URL (if provider is openai, default: `http://localhost:8000/v1`)
+- Base URL (if provider is openai, default: `http://localhost:8000/v1`)
 - Model name (optional)
 
 ---
@@ -124,7 +124,7 @@ PYEOF
 Substitute the placeholder values (QUESTIONS_FILE, NOTES_FILE, OUTPUT_JSONL, column names, LLM URL/model) with the user's actual inputs before running.
 
 For different LLM providers, replace the client creation:
-- **openai/vllm**: `VLLMClient(base_url=url, api_key=key, model=model)`
+- **openai**: `VLLMClient(base_url=url, api_key=key, model=model)`
 - **anthropic**: `ClaudeClient(provider='anthropic', model=model, api_key=key)`
 - **vertex**: `ClaudeClient(provider='vertex', model=model)`
 - **azure**: `AzureClient(azure_endpoint=url, api_key=key, model=model)`
