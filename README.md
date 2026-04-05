@@ -1,6 +1,6 @@
 # onc-data-wrangler
 
-A Claude Code plugin for oncology data wrangling: extracting structured data from clinical notes, building privacy-preserving DuckDB databases, querying cohorts, and reproducing published paper results.
+A Claude Code plugin for oncology data wrangling and analysis: extracting structured data from clinical notes, building privacy-preserving DuckDB databases, querying cohorts, and reproducing published paper results.
 
 ## Installation & Quick Start
 
