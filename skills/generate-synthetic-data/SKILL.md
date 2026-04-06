@@ -1,15 +1,17 @@
 ---
 name: generate-synthetic-data
-description: Generate synthetic clinical data (patient events, clinical documents, and structured tables) from one or more clinical scenario descriptions. Supports external LLMs and Claude Code native generation.
+description: Generate synthetic clinical data (patient events, clinical documents, and structured tables) from one or more clinical scenario descriptions. Uses an external LLM for document generation with parallel workers and checkpoint/resume support.
 user-invocable: true
-allowed-tools: Read, Bash, Glob, Grep, Write, Agent
+allowed-tools: Read, Bash, Glob, Grep, Write
 model: inherit
 effort: max
 ---
 
 # Generate Synthetic Clinical Data
 
-You are generating synthetic but clinically realistic oncology data. The pipeline produces patient event timelines, detailed clinical documents, and structured tabular data (encounters, labs, and any additional table schemas).
+You are generating synthetic but clinically realistic oncology data. The pipeline produces patient event timelines, detailed clinical documents, and structured tabular data (encounters, labs, hospitalizations, PROs, and any additional table schemas).
+
+The entire pipeline runs in Python with parallel workers — no subagent spawning.
 
 **Supports multiple scenarios**: The user can provide a single blurb or multiple scenario descriptions, each with its own patient count. Patients are tagged with their originating scenario throughout all outputs.
 
@@ -46,20 +48,20 @@ Accept either:
 
 Each scenario's `label` is optional but helpful for identifying scenarios in outputs.
 
-### Additional Configuration
+### Inference Configuration
 
 Ask if not provided:
-1. **Inference mode**: `claude-code` or an external provider (`openai`, `azure`, `anthropic`, `vertex`)
+1. **LLM provider**: `openai`, `azure`, `anthropic`, or `vertex`. An external LLM is **strongly recommended** for document generation (stages 2+3) — it produces higher-quality, more detailed clinical notes and can run in parallel. If the user does not have access to an external LLM, stages 2+3 can run sequentially using the same provider configured for stage 1, but results will be slower and less detailed.
 2. If external provider: model name, base_url (if applicable), and confirm API key is set in environment
 3. **Output directory** for results
+4. **num_workers** (default: 4): number of parallel threads for stages 2+3. Use 1 for sequential processing.
+5. **drug_perturbation_prob** (default: 0.3): probability that each generated clinical note has generic drug names replaced with brand names or common abbreviations (e.g., pembrolizumab → Keytruda/pembro) for increased realism.
 
 ---
 
 ## STEP 1: Generate Patient Event Lists (Stage 1)
 
-Check the inference mode. For multiple scenarios, loop over each scenario — Stage 1 runs once per scenario.
-
-### MODE A: External LLM (openai, azure, anthropic, vertex)
+For multiple scenarios, loop over each scenario — Stage 1 runs once per scenario.
 
 **Single scenario:**
 ```bash
@@ -114,65 +116,11 @@ print(json.dumps({
 PYEOF
 ```
 
-### MODE B: Claude Code (claude-code)
-
-You ARE the LLM. For each scenario (or just the single blurb), generate the event lists by following these instructions:
-
-**For each scenario, generate the longitudinal clinical history for {N} patients matching the clinical context:**
-
-{Insert the scenario blurb here}
-
-**Event generation rules:**
-- Generate 20-30 events per patient covering the full disease trajectory
-- Event types: `<demographics>`, `<diagnosis>`, `<systemic>`, `<surgery>`, `<radiation>`, `<adverse_event>`, `<clinical_note>`, `<imaging_report>`, `<pathology_report>`, `<ngs_report>`
-- One event per line, formatted as `<event_type>descriptive sentence`
-- Separate patients with `<new_patient>` on its own line
-- Vary age, gender, stage, biomarkers, treatments, and disease course across patients
-- Diagnosis events: include TNM stage, summary stage, site description/code, histology description/code, site-specific data elements
-- Imaging events: specify study type, whether cancer present, response/progression status, metastatic sites
-- Clinical note events: indicate cancer present/absent, response/progression status
-- NGS events: include diagnosis, specimen site, detailed genomic findings with comutations
-- CRITICAL: Genomic findings must respect biological patterns (EGFR mutant lung cancers almost never have KRAS co-mutations)
-- CRITICAL: Do NOT mention trial enrollment or screening
-
-**For multiple scenarios**: Generate events for each scenario separately. After generating each scenario's events, parse them immediately so you can tag patients with the correct scenario index. Process scenarios sequentially (one Stage 1 generation per scenario).
-
-After generating the events for a scenario, parse them:
-
-```bash
-uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
-import json, sys
-from pathlib import Path
-from onc_wrangler.synthetic.pipeline import parse_events, write_events
-
-raw_text = """PASTE_THE_GENERATED_EVENT_TEXT_HERE"""
-
-patients = parse_events(
-    raw_text,
-    scenario_index=SCENARIO_INDEX,        # 0-based index for this scenario
-    scenario_blurb="""SCENARIO_BLURB""",  # the blurb text
-    scenario_label="SCENARIO_LABEL",      # optional label (or None)
-)
-output_dir = Path("OUTPUT_DIR")
-write_events(patients, output_dir)
-
-print(json.dumps({
-    "n_patients": len(patients),
-    "scenario_index": SCENARIO_INDEX,
-    "patients": [{"id": p["patient_id"], "n_events": len(p["events"])} for p in patients]
-}, indent=2))
-PYEOF
-```
-
-Repeat for each scenario, incrementing SCENARIO_INDEX.
-
 ---
 
 ## STEP 2: Generate Documents + Structured Data (Stages 2+3)
 
-### MODE A: External LLM
-
-Continue the Python pipeline (works for both single and multi-scenario — patients carry their scenario metadata):
+This step runs the full document generation and structured data extraction in Python with parallel workers and checkpoint/resume. If a previous run was interrupted, it automatically skips patients whose output files already exist.
 
 ```bash
 uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
@@ -197,69 +145,23 @@ for f in sorted(events_dir.glob("*.json")):
         patients.append(json.load(fh))
 
 schema_dir = Path("${CLAUDE_PLUGIN_ROOT}") / "data" / "synthetic_schemas"
-run_stages_2_and_3(client, patients, schema_dir, Path("OUTPUT_DIR"))
+run_stages_2_and_3(
+    client, patients, schema_dir, Path("OUTPUT_DIR"),
+    num_workers=NUM_WORKERS,
+    drug_perturbation_prob=DRUG_PERTURBATION_PROB,
+)
 PYEOF
 ```
 
-### MODE B: Claude Code (claude-code)
+Replace `NUM_WORKERS` and `DRUG_PERTURBATION_PROB` with the values from STEP 0.
 
-Spawn `synthetic-data-worker` agents in parallel, one per patient (across all scenarios).
-
-1. Read the patient event files from `OUTPUT_DIR/events/`:
-   ```bash
-   uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 -c "
-   import json
-   from pathlib import Path
-   events_dir = Path('OUTPUT_DIR') / 'events'
-   patients = []
-   for f in sorted(events_dir.glob('*.json')):
-       with open(f) as fh:
-           p = json.load(fh)
-           patients.append(p)
-           sc = f' [scenario {p[\"scenario_index\"]}]' if 'scenario_index' in p else ''
-           print(f'{p[\"patient_id\"]}: {len(p[\"events\"])} events{sc}')
-   print(f'Total: {len(patients)} patients')
-   "
-   ```
-
-2. For each patient, spawn a `synthetic-data-worker` agent:
-   - Set `model: "inherit"` on the Agent tool to inherit the parent model
-   - Set `run_in_background: true`
-   - Spawn in batches of 5 — wait for each batch to complete before starting the next
-   - Each worker receives this prompt (include scenario metadata if present):
-
-   ```
-   You are generating synthetic clinical data for one patient.
-
-   Patient ID: {patient_id}
-   Scenario index: {scenario_index}
-   Scenario label: {scenario_label}
-   Scenario description: {scenario_blurb}
-
-   Patient event list:
-   {events formatted as <event_type>text lines}
-
-   Schema directory: ${CLAUDE_PLUGIN_ROOT}/data/synthetic_schemas
-
-   Output directory: OUTPUT_DIR
-
-   Follow the instructions in your agent definition to generate clinical documents
-   and structured tabular data for this patient. Include the scenario metadata
-   (scenario_index, scenario_blurb, scenario_label) in your output JSON.
-   Write your output JSON to:
-   OUTPUT_DIR/patients/{patient_id}.json
-   ```
-
-3. After all workers complete, verify outputs:
-   ```bash
-   ls OUTPUT_DIR/patients/*.json | wc -l
-   ```
+**Checkpoint/resume**: If the run is interrupted, simply re-run the same command. Patients with existing output files in `OUTPUT_DIR/patients/` are automatically skipped.
 
 ---
 
 ## STEP 3: Assembly
 
-Combine per-patient outputs into final files (both modes). The assembler automatically includes `scenario_index` and `scenario_label` columns in output CSVs when scenario metadata is present.
+Combine per-patient outputs into final files. The assembler automatically includes `scenario_index` and `scenario_label` columns in output CSVs when scenario metadata is present.
 
 ```bash
 uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
@@ -281,12 +183,14 @@ Present to the user:
 - Number of patients generated (total and per scenario if multi-scenario)
 - Average events per patient
 - Number of clinical documents generated
-- Row counts for each structured table (encounters, labs, etc.)
+- Row counts for each structured table (encounters, labs, hospitalizations, pros, etc.)
 - Per-scenario breakdown (if applicable)
 - Location of output files:
   - `OUTPUT_DIR/all_documents.json` — all clinical documents
   - `OUTPUT_DIR/tables/encounters.csv` — encounters table (includes `scenario_index`, `scenario_label` columns when multi-scenario)
   - `OUTPUT_DIR/tables/labs.csv` — labs table
+  - `OUTPUT_DIR/tables/hospitalizations.csv` — hospitalizations table
+  - `OUTPUT_DIR/tables/pros.csv` — patient-reported outcomes table
   - `OUTPUT_DIR/summary.json` — generation summary with per-scenario stats
 
 Suggest next steps:

@@ -16,7 +16,8 @@ dependencies = [
     "sqlglot>=25.0.0",
     "lifelines",
     "statsmodels",
-    "scikit-learn"
+    "scikit-learn",
+    "tqdm>=4.60.0"
 ]
 
 [build-system]

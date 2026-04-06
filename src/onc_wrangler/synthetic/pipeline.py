@@ -1,22 +1,37 @@
-"""Synthetic clinical data generation pipeline for external LLM providers.
+"""Synthetic clinical data generation pipeline.
 
-This module is used by MODE A (external LLM) of the generate-synthetic-data skill.
-MODE B (claude-code) uses agents instead and only needs parse_events + assemble.
+Generates patient event timelines, clinical documents, and structured
+tabular data from clinical scenario blurbs using an LLM backend.
+
+Supports parallel patient processing via ThreadPoolExecutor with
+per-patient checkpoint/resume and optional drug-name perturbation.
 """
 
 from __future__ import annotations
 
 import csv
 import json
+import logging
 import re
 import uuid
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 from typing import Optional
 
+import numpy as np
+from tqdm import tqdm
+
 from onc_wrangler.llm.base import LLMClient
 
+from .drug_perturbation import (
+    DEFAULT_DRUG_MAP,
+    apply_drug_perturbation,
+    compile_replacement_patterns,
+)
 from .prompts import build_stage1_prompt, build_stage2_prompt, build_stage3_prompt
 from .schemas import TableSchema, load_table_schemas
+
+logger = logging.getLogger(__name__)
 
 
 # ---------------------------------------------------------------------------
@@ -69,7 +84,7 @@ def load_scenarios(path: str | Path) -> list[dict]:
 
 
 # ---------------------------------------------------------------------------
-# Event parsing (shared between Mode A and Mode B)
+# Event parsing
 # ---------------------------------------------------------------------------
 
 EVENT_PATTERN = re.compile(r"<(\w+)>(.*?)(?=<|\Z)", re.DOTALL)
@@ -132,6 +147,18 @@ def write_events(patients: list[dict], output_dir: Path) -> None:
         path = events_dir / f"{patient['patient_id']}.json"
         with open(path, "w") as f:
             json.dump(patient, f, indent=2)
+
+
+# ---------------------------------------------------------------------------
+# Atomic file writes
+# ---------------------------------------------------------------------------
+
+def _write_json_atomic(path: Path, data: dict) -> None:
+    """Write JSON to *path* via a temp file to prevent partial writes."""
+    tmp = path.with_suffix(".json.tmp")
+    with open(tmp, "w") as f:
+        json.dump(data, f, indent=2)
+    tmp.rename(path)
 
 
 # ---------------------------------------------------------------------------
@@ -273,15 +300,14 @@ def _generate_structured_data(
     try:
         tables = json.loads(text)
     except json.JSONDecodeError:
-        print(f"  WARNING: Failed to parse structured data JSON for {patient_id}. "
-              "Attempting repair...")
+        logger.warning("Failed to parse structured data JSON for %s. Attempting repair...", patient_id)
         # Try to extract JSON object from the response
         match = re.search(r"\{[\s\S]*\}", text)
         if match:
             try:
                 tables = json.loads(match.group())
             except json.JSONDecodeError:
-                print(f"  ERROR: Could not parse structured data for {patient_id}")
+                logger.error("Could not parse structured data for %s", patient_id)
                 tables = {}
         else:
             tables = {}
@@ -289,52 +315,136 @@ def _generate_structured_data(
     return tables
 
 
+def _process_single_patient(
+    client: LLMClient,
+    patient: dict,
+    schemas: list[TableSchema],
+    patients_dir: Path,
+    drug_patterns: list | None,
+    drug_perturbation_prob: float,
+) -> tuple[str, int, dict[str, int]]:
+    """Process stages 2+3 for one patient and write output atomically.
+
+    Returns:
+        Tuple of (patient_id, n_documents, table_row_counts).
+    """
+    pid = patient["patient_id"]
+    events = patient["events"]
+
+    # Stage 2: generate documents
+    documents = _generate_documents(client, pid, events)
+
+    # Apply drug perturbation to document text
+    if drug_patterns and drug_perturbation_prob > 0:
+        rng = np.random.default_rng(hash(pid) & 0xFFFFFFFF)
+        for doc in documents:
+            if rng.random() < drug_perturbation_prob:
+                doc["text"] = apply_drug_perturbation(doc["text"], drug_patterns, rng)
+
+    # Stage 3: generate structured data
+    tables = _generate_structured_data(client, pid, events, documents, schemas)
+    table_counts = {k: len(v) for k, v in tables.items() if isinstance(v, list)}
+
+    # Build result and write atomically
+    result: dict = {
+        "patient_id": pid,
+        "events": events,
+        "documents": documents,
+        "tables": tables,
+    }
+    for key in ("scenario_index", "scenario_blurb", "scenario_label"):
+        if key in patient:
+            result[key] = patient[key]
+
+    _write_json_atomic(patients_dir / f"{pid}.json", result)
+    return pid, len(documents), table_counts
+
+
 def run_stages_2_and_3(
     client: LLMClient,
     patients: list[dict],
     schema_dir: Path,
     output_dir: Path,
+    num_workers: int = 4,
+    drug_perturbation_prob: float = 0.3,
+    show_progress: bool = True,
 ) -> None:
-    """Run Stages 2 and 3 for all patients.
+    """Run Stages 2 and 3 for all patients with parallel workers.
+
+    Uses ThreadPoolExecutor for concurrent patient processing and
+    per-patient file checkpoints so interrupted runs can resume.
 
     Args:
         client: LLM client for inference.
         patients: List of patient dicts from Stage 1.
         schema_dir: Path to directory containing table schema YAMLs.
         output_dir: Base output directory.
+        num_workers: Number of parallel threads (default 4).
+        drug_perturbation_prob: Probability of applying drug-name
+            perturbation to each generated document (default 0.3).
+        show_progress: Show a tqdm progress bar (default True).
     """
     schemas = load_table_schemas(schema_dir)
     patients_dir = output_dir / "patients"
     patients_dir.mkdir(parents=True, exist_ok=True)
 
-    for idx, patient in enumerate(patients):
-        pid = patient["patient_id"]
-        events = patient["events"]
-        print(f"Processing patient {idx + 1}/{len(patients)}: {pid}")
+    # Checkpoint: skip patients whose output files already exist
+    remaining = []
+    skipped = 0
+    for patient in patients:
+        out_path = patients_dir / f"{patient['patient_id']}.json"
+        if out_path.exists():
+            skipped += 1
+        else:
+            remaining.append(patient)
 
-        # Stage 2: generate documents
-        documents = _generate_documents(client, pid, events)
-        print(f"  Stage 2: {len(documents)} documents generated")
+    if skipped:
+        print(f"Checkpoint: skipping {skipped} already-completed patients")
+    print(f"Stage 2+3: {len(remaining)} patients to process")
 
-        # Stage 3: generate structured data
-        tables = _generate_structured_data(client, pid, events, documents, schemas)
-        table_summary = {k: len(v) for k, v in tables.items() if isinstance(v, list)}
-        print(f"  Stage 3: {table_summary}")
+    if not remaining:
+        print("All patients already processed.")
+        return
 
-        # Write combined output
-        result = {
-            "patient_id": pid,
-            "events": events,
-            "documents": documents,
-            "tables": tables,
-        }
-        # Propagate scenario metadata if present
-        for key in ("scenario_index", "scenario_blurb", "scenario_label"):
-            if key in patient:
-                result[key] = patient[key]
-        out_path = patients_dir / f"{pid}.json"
-        with open(out_path, "w") as f:
-            json.dump(result, f, indent=2)
+    # Prepare drug perturbation patterns (compiled once, shared across threads)
+    drug_patterns = compile_replacement_patterns(DEFAULT_DRUG_MAP) if drug_perturbation_prob > 0 else None
+
+    if num_workers <= 1:
+        # Sequential mode (e.g. for claude-code provider with no external LLM)
+        iterator = enumerate(remaining)
+        if show_progress:
+            iterator = tqdm(iterator, total=len(remaining), desc="Generating patients")
+        for _idx, patient in iterator:
+            pid, n_docs, table_counts = _process_single_patient(
+                client, patient, schemas, patients_dir,
+                drug_patterns, drug_perturbation_prob,
+            )
+            if not show_progress:
+                print(f"  {pid}: {n_docs} docs, tables: {table_counts}")
+    else:
+        # Parallel mode
+        with ThreadPoolExecutor(max_workers=num_workers) as executor:
+            futures = {
+                executor.submit(
+                    _process_single_patient,
+                    client, patient, schemas, patients_dir,
+                    drug_patterns, drug_perturbation_prob,
+                ): patient["patient_id"]
+                for patient in remaining
+            }
+
+            iterator = as_completed(futures)
+            if show_progress:
+                iterator = tqdm(iterator, total=len(remaining), desc="Generating patients")
+
+            for future in iterator:
+                try:
+                    pid, n_docs, table_counts = future.result()
+                    if not show_progress:
+                        print(f"  {pid}: {n_docs} docs, tables: {table_counts}")
+                except Exception:
+                    failed_pid = futures[future]
+                    logger.exception("Failed to process patient %s", failed_pid)
 
     print(f"Stages 2+3 complete: {len(patients)} patients processed")
 
@@ -350,6 +460,8 @@ def run_full_pipeline(
     schema_dir: Optional[Path] = None,
     output_dir: Optional[Path] = None,
     scenarios: Optional[list[dict]] = None,
+    num_workers: int = 4,
+    drug_perturbation_prob: float = 0.3,
 ) -> dict:
     """Run the complete synthetic data pipeline (Stages 1-3 + assembly).
 
@@ -364,6 +476,9 @@ def run_full_pipeline(
         output_dir: Base output directory.
         scenarios: List of scenario dicts, each with 'blurb', 'n_patients',
                    and optional 'label'. Overrides blurb/n_patients.
+        num_workers: Number of parallel threads for stages 2+3.
+        drug_perturbation_prob: Probability of drug-name perturbation per
+            document (0.0 to disable, default 0.3).
 
     Returns:
         Summary dict from assembly.
@@ -385,6 +500,10 @@ def run_full_pipeline(
     else:
         raise ValueError("Either 'blurb' or 'scenarios' must be provided")
 
-    run_stages_2_and_3(client, patients, schema_dir, output_dir)
+    run_stages_2_and_3(
+        client, patients, schema_dir, output_dir,
+        num_workers=num_workers,
+        drug_perturbation_prob=drug_perturbation_prob,
+    )
     summary = assemble_outputs(output_dir, schema_dir)
     return summary
