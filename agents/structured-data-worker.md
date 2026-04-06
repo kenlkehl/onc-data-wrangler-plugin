@@ -1,7 +1,7 @@
 ---
 name: structured-data-worker
 description: |
-  Generates structured tabular data (encounters, labs, hospitalizations, PROs)
+  Generates structured tabular data (encounters, labs, hospitalizations, medications, PROs)
   for a single patient from their event list and document summaries.
   Reads table schemas from YAML files. Writes JSON output to a specified path.
   Spawned by the generate-synthetic-data skill -- do not invoke directly.
@@ -59,6 +59,7 @@ For each table schema, generate an array of row objects following the schema def
 - **Encounters**: One row per clinical interaction. Map event types to departments logically. Demographics and diagnosis events do NOT generate encounter rows.
 - **Labs**: Pre-chemo labs (CBC, CMP mandatory), pre-surgery labs (CBC, CMP, PT/INR), follow-up (tumor markers). Values should reflect trajectory: dropping WBC/platelets during chemo, rising markers with progression, elevated LFTs with liver mets.
 - **Hospitalizations**: Common reasons: febrile neutropenia, planned surgery, disease complications, severe toxicities. LOS: 1-3 days minor, 5-14 days major surgery.
+- **Medications**: One row per individual drug per treatment period. Split multi-drug regimens into separate rows. Use generic drug names. Include 2-4 supportive care medications per chemotherapy regimen (antiemetics, growth factors). Assign line_of_therapy sequentially.
 - **PROs**: Patient-reported outcome scores that reflect trajectory: worse during active treatment, improve in remission, decline with progression.
 
 ### Step 4: Write Output
@@ -76,6 +77,10 @@ Your output must be a JSON object with one key per table name, each mapping to a
     ...
   ],
   "hospitalizations": [
+    ...
+  ],
+  "medications": [
+    {"patient_id": "...", "drug_name": "carboplatin", "drug_category": "Chemotherapy", "start_date": "YYYY-MM-DD", "end_date": "YYYY-MM-DD", "route": "IV", "dose": "AUC 5", "frequency": "every 3 weeks", "line_of_therapy": 1, "intent": "Adjuvant"},
     ...
   ],
   "pros": [

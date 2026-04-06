@@ -9,7 +9,7 @@ effort: max
 
 # Generate Synthetic Clinical Data
 
-You are generating synthetic but clinically realistic oncology data. The pipeline produces patient event timelines, detailed clinical documents, and structured tabular data (encounters, labs, hospitalizations, PROs, and any additional table schemas).
+You are generating synthetic but clinically realistic oncology data. The pipeline produces patient event timelines, detailed clinical documents, and structured tabular data (encounters, labs, hospitalizations, medications, PROs, and any additional table schemas).
 
 **Supports multiple scenarios**: The user can provide a single blurb or multiple scenario descriptions, each with its own patient count. Patients are tagged with their originating scenario throughout all outputs.
 
@@ -25,7 +25,7 @@ Accept either:
 
 ### Input Specification
 
-Ask the user to specify one or more clinical scenarios (based on a clinical context blurb) for which to generate synthetic data (or to specify if Claude should do so itself) and how many patients to generate for each scenario. Also inform the user they can refer to a JSON or CSV file with multiple scenarios or provide them as an inline list in the conversation. The JSON file would be in this style:
+Ask the user to specify one or more clinical scenarios (based on a clinical context blurb) for which to generate synthetic data; also specify the option to have Claude create the scenarios itself. Ask how many patients to generate for each scenario. Also inform the user they can refer to a JSON or CSV file with multiple scenarios or provide them as an inline list in the conversation. The JSON file would be in this style:
 
 ```json
    [
@@ -582,18 +582,19 @@ Present to the user:
 - Number of patients generated (total and per scenario if multi-scenario)
 - Average events per patient
 - Number of clinical documents generated
-- Row counts for each structured table (encounters, labs, hospitalizations, pros, etc.)
+- Row counts for each structured table (encounters, labs, hospitalizations, medications, pros, etc.)
 - Per-scenario breakdown (if applicable)
 - Location of output files:
   - `OUTPUT_DIR/all_documents.json` — all clinical documents
   - `OUTPUT_DIR/tables/encounters.csv` — encounters table (includes `scenario_index`, `scenario_label` columns when multi-scenario)
   - `OUTPUT_DIR/tables/labs.csv` — labs table
   - `OUTPUT_DIR/tables/hospitalizations.csv` — hospitalizations table
+  - `OUTPUT_DIR/tables/medications.csv` — medications table
   - `OUTPUT_DIR/tables/pros.csv` — patient-reported outcomes table
   - `OUTPUT_DIR/summary.json` — generation summary with per-scenario stats
 
 Suggest next steps:
 - Review the generated data for clinical realism
-- Add more table schemas to `${CLAUDE_PLUGIN_ROOT}/data/synthetic_schemas/` (e.g., `medications.yaml`, `vitals.yaml`) and re-run to generate additional structured tables
+- Add more table schemas to `${CLAUDE_PLUGIN_ROOT}/data/synthetic_schemas/` (e.g., `vitals.yaml`, `diagnoses.yaml`) and re-run to generate additional structured tables
 - Use `/onc-data-wrangler:make-database` to build a DuckDB database from the structured tables
 - Use `/onc-data-wrangler:extract-notes` to test extraction pipelines against the synthetic documents
