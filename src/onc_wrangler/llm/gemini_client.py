@@ -30,7 +30,7 @@ class GeminiClient(LLMClient):
         self,
         model: str = "gemini-3-flash-preview",
         vertex_project: Optional[str] = None,
-        vertex_region: str = "us-east5",
+        vertex_region: str = "us-central1",
         api_key: Optional[str] = None,
         max_retries: int = 3,
         initial_backoff: float = 2.0,

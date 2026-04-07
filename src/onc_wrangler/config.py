@@ -18,7 +18,7 @@ class LLMConfig:
     max_tokens: int = 16384
     temperature: float = 0.0
     vertex_project: Optional[str] = None
-    vertex_region: str = "us-east5"
+    vertex_region: str = "us-central1"
     azure_api_version: str = "2024-12-01-preview"
     reasoning_marker: Optional[str] = None
     timeout: int = 300

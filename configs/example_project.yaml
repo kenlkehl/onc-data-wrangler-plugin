@@ -36,7 +36,7 @@ extraction:
     # provider: gemini
     # model: gemini-3-flash-preview
     # vertex_project: my-gcp-project     # or set GOOGLE_VERTEX_PROJECT_ID env var
-    # vertex_region: us-east5
+    # vertex_region: us-central1
     #
     # --- Gemini via AI Studio ---
     # provider: gemini
