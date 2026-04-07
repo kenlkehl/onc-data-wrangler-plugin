@@ -362,6 +362,6 @@ After all stages complete:
 1. Report summary: number of patients, tables created, columns per table
 2. Confirm `active_config.yaml` exists in the working directory
 3. Suggest next steps:
-   - `/onc-data-wrangler:query-database` to start querying the database
+   - `/onc-data-wrangler:aggregate-database-query` to start querying the database
    - `/onc-data-wrangler:derive-dataset` to build a one-row-per-patient analysis dataset
    - `/onc-data-wrangler:extract-notes` to add clinical notes extraction later (update the `extraction` section of the config first)
