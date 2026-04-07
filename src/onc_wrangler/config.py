@@ -31,6 +31,10 @@ class LLMConfig:
             return os.environ.get("ANTHROPIC_API_KEY", "")
         if self.provider == "vertex":
             return ""
+        if self.provider == "gemini":
+            if self.vertex_project or os.environ.get("GOOGLE_VERTEX_PROJECT_ID"):
+                return ""  # Vertex AI mode uses ADC
+            return os.environ.get("GOOGLE_API_KEY", "")
         if self.provider == "azure":
             return os.environ.get("AZURE_OPENAI_API_KEY", "")
         if self.provider == "openai":
@@ -41,7 +45,10 @@ class LLMConfig:
         """Resolve Vertex project from config or environment."""
         if self.vertex_project:
             return self.vertex_project
-        return os.environ.get("ANTHROPIC_VERTEX_PROJECT_ID", "")
+        return os.environ.get(
+            "ANTHROPIC_VERTEX_PROJECT_ID",
+            os.environ.get("GOOGLE_VERTEX_PROJECT_ID", ""),
+        )
 
 
 @dataclass

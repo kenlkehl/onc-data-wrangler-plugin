@@ -42,16 +42,19 @@ You should then ask the user to specify:
 ### Inference Configuration
 
 Ask if not provided:
-1. **LLM provider**: `openai-compatible`, `azure`, `anthropic`, `vertex`, or `claude-code`.
+1. **LLM provider**: `openai-compatible`, `azure`, `anthropic`, `vertex`, `gemini`, or `claude-code`.
    - External LLM providers run all generation in Python with parallel threads.
    - `claude-code` uses Claude Code subagents for all generation (no external API needed).
 2. If external provider: model name, base_url (if applicable), and confirm API key is set in environment
-3. If `claude-code`:
+3. If `gemini`: which model? (gemini-3-flash-preview, gemini-2.5-flash, gemini-2.5-pro, etc.)
+   - If using Vertex AI: confirm GCP project ID and region (or that `GOOGLE_VERTEX_PROJECT_ID` env var is set and `gcloud auth application-default login` has been run)
+   - If using AI Studio: confirm `GOOGLE_API_KEY` env var is set
+4. If `claude-code`:
    - **Event list model** (opus, sonnet, or haiku): which Claude model to use for Stage 1 (patient event list generation)
    - **Document model** (opus, sonnet, or haiku): which Claude model to use for Stages 2+3 (document generation and structured data)
-4. **Output directory** for results
-5. **num_workers** (default: 4): number of parallel threads for stages 2+3. Only applicable to external LLM providers; ignored for `claude-code`.
-6. **drug_perturbation_prob** (default: 0.3): probability that each generated clinical note has generic drug names replaced with brand names or common abbreviations (e.g., pembrolizumab → Keytruda/pembro) for increased realism.
+5. **Output directory** for results
+6. **num_workers** (default: 4): number of parallel threads for stages 2+3. Only applicable to external LLM providers; ignored for `claude-code`.
+7. **drug_perturbation_prob** (default: 0.3): probability that each generated clinical note has generic drug names replaced with brand names or common abbreviations (e.g., pembrolizumab → Keytruda/pembro) for increased realism.
 
 ---
 
@@ -59,7 +62,7 @@ Ask if not provided:
 
 Check the LLM provider selected in STEP 0:
 
-- **MODE A**: External LLM (`openai-compatible`, `azure`, `anthropic`, `vertex`) → proceed to [MODE A: External LLM Pipeline](#mode-a-external-llm-pipeline)
+- **MODE A**: External LLM (`openai-compatible`, `azure`, `anthropic`, `vertex`, `gemini`) → proceed to [MODE A: External LLM Pipeline](#mode-a-external-llm-pipeline)
 - **MODE B**: Claude Code Native (`claude-code`) → proceed to [MODE B: Claude Code Native Pipeline](#mode-b-claude-code-native-pipeline)
 
 ---

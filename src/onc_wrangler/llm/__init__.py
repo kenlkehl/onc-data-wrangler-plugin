@@ -6,8 +6,9 @@ from .base import LLMClient, LLMResponse
 from .vllm_client import VLLMClient
 from .claude_client import ClaudeClient
 from .azure_client import AzureClient
+from .gemini_client import GeminiClient
 
-__all__ = ["LLMClient", "LLMResponse", "LLMConfig", "VLLMClient", "ClaudeClient", "AzureClient", "create_llm_client"]
+__all__ = ["LLMClient", "LLMResponse", "LLMConfig", "VLLMClient", "ClaudeClient", "AzureClient", "GeminiClient", "create_llm_client"]
 
 
 def create_llm_client(config: LLMConfig) -> LLMClient:
@@ -37,6 +38,14 @@ def create_llm_client(config: LLMConfig) -> LLMClient:
             api_key=config.resolve_api_key(),
             vertex_project=config.resolve_vertex_project(),
             vertex_region=config.vertex_region,
+        )
+    elif config.provider == "gemini":
+        from .gemini_client import GeminiClient
+        return GeminiClient(
+            model=config.model,
+            vertex_project=config.resolve_vertex_project(),
+            vertex_region=config.vertex_region,
+            api_key=config.resolve_api_key(),
         )
     elif config.provider == "claude-code":
         raise ValueError(

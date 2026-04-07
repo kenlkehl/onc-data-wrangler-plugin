@@ -5,6 +5,7 @@ description = "Self-contained Claude Code plugin for oncology data wrangling, ex
 requires-python = ">=3.13"
 dependencies = [
     "anthropic[vertex]>=0.42.0",
+    "google-genai>=1.0.0",
     "duckdb>=1.0.0",
     "numpy>=1.24.0",
     "openai>=1.0.0",

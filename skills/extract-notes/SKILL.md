@@ -1,6 +1,6 @@
 ---
 name: extract-notes
-description: Extract structured data from unstructured clinical notes using dictionary-driven LLM extraction. Supports local models, Azure, Claude API, or Claude Code native extraction. Use when the user wants to extract data from clinical text.
+description: Extract structured data from unstructured clinical notes using dictionary-driven LLM extraction. Supports local models, Azure, Claude API, Google Gemini, or Claude Code native extraction. Use when the user wants to extract data from clinical text.
 user-invocable: true
 allowed-tools: Read, Bash, Glob, Grep, Write, Agent
 model: inherit
@@ -24,8 +24,9 @@ Accept either:
 If no config provided, ask:
 1. Path to notes file (CSV/parquet with patient_id, text columns)
 2. Ontology to use (list from `${CLAUDE_PLUGIN_ROOT}/data/ontologies/`)
-3. LLM provider: openai, azure, anthropic, vertex, or claude-code
-4. If claude-code: which model? (opus, sonnet, haiku)
+3. LLM provider: openai, azure, anthropic, vertex, gemini, or claude-code
+4. If gemini: which model? (gemini-3-flash-preview, gemini-2.5-flash, gemini-2.5-pro, etc.)
+5. If claude-code: which model? (opus, sonnet, haiku)
 
 ---
 
@@ -33,7 +34,7 @@ If no config provided, ask:
 
 Check the LLM provider:
 
-### MODE A: External LLM (openai, azure, anthropic, vertex)
+### MODE A: External LLM (openai, azure, anthropic, vertex, gemini)
 
 Run the Python extraction engine which handles the full domain-group loop:
 
