@@ -98,6 +98,7 @@ claude --plugin-dir .
 | Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description |
 | Answer Questions | `/onc-data-wrangler:answer-questions` | Answer clinical questions about patients from their notes with confidence scores |
 | Derive Dataset | `/onc-data-wrangler:derive-dataset` | Create a one-row-per-patient analysis dataset with biostatistics guidance and reproducible script |
+| Analyze Data | `/onc-data-wrangler:analyze-data` | Interactive Python-based data analysis with oncology domain knowledge |
 
 ## Extraction LLM Backends
 
