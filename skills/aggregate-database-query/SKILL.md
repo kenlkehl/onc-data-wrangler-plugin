@@ -1,5 +1,5 @@
 ---
-name: query-database
+name: aggregate-database-query
 description: Interactive querying of the project's DuckDB database. Supports aggregate queries (with privacy enforcement) and individual-level queries (when privacy mode allows). Use when the user wants to explore or analyze data in the built database.
 user-invocable: true
 allowed-tools: Read, Bash, Glob, Grep
@@ -7,7 +7,7 @@ model: inherit
 effort: high
 ---
 
-# Query Database
+# Aggregate Database Query
 
 You are an interactive clinical dataset analysis assistant. Help the user explore and analyze data in their DuckDB database using SQL queries with appropriate privacy enforcement.
 

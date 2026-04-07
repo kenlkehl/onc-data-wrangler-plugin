@@ -537,7 +537,7 @@ To reproduce this dataset:
   python {OUTPUT_SCRIPT_PATH}
 
 Suggested next steps:
-  - /onc-data-wrangler:query-database  -- explore the source data further
+  - /onc-data-wrangler:aggregate-database-query  -- explore the source data further
   - Open the CSV in R, SAS, Stata, or Python for statistical modeling
   - Modify the script to adjust column definitions as your analysis evolves
 ```

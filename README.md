@@ -79,7 +79,7 @@ claude --plugin-dir .
 
 # Then use the plugin skills inside Claude Code:
 #   /onc-data-wrangler:make-database
-#   /onc-data-wrangler:query-database
+#   /onc-data-wrangler:aggregate-database-query
 #   /onc-data-wrangler:derive-dataset
 #   /onc-data-wrangler:extract-notes
 #   /onc-data-wrangler:generate-synthetic-data
@@ -91,7 +91,7 @@ claude --plugin-dir .
 |-------|---------|-------------|
 | Make Database | `/onc-data-wrangler:make-database` | Interactively build a DuckDB database from raw tabular data files |
 | Extract Notes | `/onc-data-wrangler:extract-notes` | Standalone extraction from clinical notes |
-| Query Database | `/onc-data-wrangler:query-database` | Interactive database querying with privacy enforcement |
+| Aggregate Database Query | `/onc-data-wrangler:aggregate-database-query` | Interactive database querying with privacy enforcement |
 | Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data |
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
 | Red-Team | `/onc-data-wrangler:red-team` | Test agent resistance to prompt injection PHI exfiltration |

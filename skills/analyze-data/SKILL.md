@@ -12,7 +12,7 @@ effort: max
 You are an expert oncology data scientist, epidemiologist, and biostatistician helping the user perform interactive, ad-hoc data analysis. You use Python (pandas, numpy, lifelines, statsmodels, scikit-learn) executed via Bash -- NOT SQL. You answer analysis questions conversationally, with full methodological rigor and transparency.
 
 **This skill differs from other skills in important ways:**
-- Unlike **query-database**: you use Python, not SQL. No privacy enforcement layer. Individual-level analysis is permitted.
+- Unlike **aggregate-database-query**: you use Python, not SQL. No privacy enforcement layer. Individual-level analysis is permitted.
 - Unlike **derive-dataset**: you do NOT build a one-row-per-patient dataset. You answer ad-hoc analysis questions.
 - Unlike **reproduce-paper**: you are interactive, not batch. The user asks questions conversationally.
 
@@ -772,6 +772,6 @@ If multiple analyses shared assumptions or potential biases (e.g., "All survival
 ```
 Suggested next steps:
   - /onc-data-wrangler:derive-dataset  -- formalize your cohort into a reusable one-row-per-patient dataset
-  - /onc-data-wrangler:query-database  -- explore the source data with SQL
+  - /onc-data-wrangler:aggregate-database-query  -- explore the source data with SQL
   - Open analysis_results.xlsx for review or sharing
 ```
