@@ -19,7 +19,11 @@ logger = logging.getLogger(__name__)
 
 
 def _parse_json_list(text: str) -> list[dict] | None:
-    """Best-effort parse of a JSON array from LLM output."""
+    """Best-effort parse of a JSON array from LLM output.
+
+    Handles cases where JSON mode returns a single object instead of an array,
+    or wraps the array inside an object (e.g. {"diagnoses": [...]}).
+    """
     text = text.strip()
     if "```" in text:
         parts = text.split("```")
@@ -32,6 +36,15 @@ def _parse_json_list(text: str) -> list[dict] | None:
         result = json.loads(text)
         if isinstance(result, list):
             return result
+        # Handle single object → wrap in list
+        if isinstance(result, dict):
+            # Check if it wraps a list (e.g. {"diagnoses": [...]})
+            for v in result.values():
+                if isinstance(v, list) and len(v) > 0 and isinstance(v[0], dict):
+                    return v
+            # Single diagnosis object → wrap in list
+            if "tumor_index" in result or "primary_site" in result:
+                return [result]
     except json.JSONDecodeError:
         pass
     start = text.find("[")

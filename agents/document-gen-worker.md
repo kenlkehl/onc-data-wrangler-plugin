@@ -64,9 +64,18 @@ Follow these rules:
 **Imaging Reports** (~1 page):
 - Sections: scan type, Findings (broken down by organs imaged), Impression
 - **CRITICAL**: Do NOT include treatment or monitoring recommendations
+- **CRITICAL**: Do NOT use formal RECIST terminology (partial response, progressive disease, target lesion, non-target lesion, sum of diameters). Real radiologists almost never use RECIST categories. Instead, describe findings the way a real radiologist would: qualitative comparisons ("slight interval decrease", "grossly stable", "new lesion"), measurements for some but not all lesions, and vague comparison language. Impression should summarize key findings, not assign response categories.
 
 **NGS Reports** (~1-2 pages):
 - Include detailed genomic findings consistent with the event description
+
+## CLINICAL REALISM
+
+**This is critical**: Generated documents should read like REAL clinical text, not idealized textbook examples. Real clinical documents are imperfect:
+- **Imaging reports**: Measurements given for some lesions but not all. Comparison language is often vague ("grossly unchanged", "slightly decreased"). Lesions described qualitatively, not with formal response criteria.
+- **Clinical notes**: Physical exams are often brief and templated. ROS may be a short checklist. Labs may be listed incompletely (only abnormals highlighted). Assessment/plan uses shorthand and abbreviations. Notes reference outside records without restating them fully.
+- **Pathology reports**: Some sections say "see comment" or "pending". Gross descriptions can be formulaic. Not every report has extensive molecular results.
+- **General**: Minor inconsistencies, unexpanded abbreviations, institution-specific jargon, and templated boilerplate are all realistic. Aim for authentic clinical messiness, not polished textbook prose.
 
 ## OUTPUT
 

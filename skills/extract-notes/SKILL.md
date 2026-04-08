@@ -30,6 +30,29 @@ If no config provided, ask:
 
 ---
 
+## STEP 0.5: Inspect the Notes File
+
+Before proceeding, **always inspect the notes file** to identify the correct columns and understand the data shape. Never assume column positions — always use column names.
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 -c "
+import pandas as pd
+df = pd.read_csv('NOTES_PATH')  # or pd.read_parquet() for .parquet
+print('Columns:', df.columns.tolist())
+print('Shape:', df.shape)
+# Identify the patient ID column by NAME, not by position
+patient_col = 'patient_id'  # or whatever the actual column name is
+print(f'Unique patients ({patient_col}):', df[patient_col].nunique())
+print(f'Notes per patient:')
+print(df.groupby(patient_col).size().describe())
+print(f'Avg text length:', df['text'].dropna().str.len().mean())
+"
+```
+
+**Important**: The total row count is the number of *notes*, NOT the number of patients. A cohort may have many notes per patient. Always use `df[patient_col].nunique()` (referencing the column by name) to get the true patient count — never use `df.iloc[:,0].nunique()` or assume the first column is the patient ID.
+
+---
+
 ## STEP 1: Determine Extraction Mode
 
 Check the LLM provider:
@@ -125,9 +148,43 @@ Claude Code itself acts as the extractor. Spawn `extraction-worker` agents in pa
 
 ---
 
-## STEP 2: Post-Processing (Both Modes)
+## STEP 2: Consolidate Extractions to Parquet (Both Modes)
 
-After extraction completes, run validation and generate audit trail:
+After extraction completes, consolidate per-patient results into `extractions.parquet` so that `/onc-data-wrangler:make-database` can load them directly.
+
+The script handles both output formats:
+- **Mode B** (claude-code native): individual `patient_*.json` files with `{patient_id, ontology, categories}` structure
+- **Mode A** (external LLM): single `extraction_results.json` with `{patient_id: extraction_list}` structure
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
+import logging
+from pathlib import Path
+from onc_wrangler.extraction.consolidate import consolidate_extractions
+
+logging.basicConfig(level=logging.INFO)
+
+output_dir = Path('OUTPUT_DIR')
+extractions_dir = output_dir / "extractions"
+ontologies_dir = Path('${CLAUDE_PLUGIN_ROOT}') / "data" / "ontologies"
+
+df = consolidate_extractions(extractions_dir, ontologies_dir=ontologies_dir)
+if not df.empty:
+    print(f"Consolidated: {len(df)} rows, {df['patient_id'].nunique()} patients")
+    print(f"Categories: {sorted(df['category'].unique().tolist())}")
+    print(f"Rows per category:")
+    for cat, count in df['category'].value_counts().items():
+        print(f"  {cat}: {count}")
+else:
+    print("WARNING: No extraction data to consolidate")
+PYEOF
+```
+
+---
+
+## STEP 3: Post-Processing (Both Modes)
+
+After consolidation, run validation and generate audit trail:
 
 ```bash
 uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
@@ -155,7 +212,7 @@ PYEOF
 
 ---
 
-## STEP 3: Report Results
+## STEP 4: Report Results
 
 Present to the user:
 - Number of patients processed

@@ -97,41 +97,84 @@ from onc_wrangler.extraction.result import merge_results
 
 ## OUTPUT FORMAT
 
-Write the result as a JSON file to the output path specified in your task prompt:
+Write the result as a JSON file to the output path specified in your task prompt.
+
+**You MUST use this exact structure.** The downstream pipeline depends on the `categories` key with category names matching the ontology's category IDs. Do not invent alternative structures (no `results`, `records`, `patient_records`, `_records` suffixes, numbered field suffixes, or top-level category keys).
+
+- **Patient-level categories** (`per_diagnosis: false` in ontology): a dict of `{field_id: {value, confidence, evidence, evidence_date}}`.
+- **Per-diagnosis categories** (`per_diagnosis: true` in ontology): a list of dicts, one per record. Each dict has plain field values (not wrapped in `{value, confidence}`) plus a `ca_seq` field linking to the diagnosis.
 
 ```json
 {
   "patient_id": "the patient ID",
-  "ontology_id": "the ontology used",
-  "n_fields_extracted": 42,
-  "mean_confidence": 0.78,
-  "results": {
-    "field_id_1": {
-      "value": "extracted value",
-      "resolved_code": "resolved code (if different from value)",
-      "confidence": 0.95,
-      "evidence": "exact text snippet",
-      "evidence_date": "2024-03-15",
-      "domain_group": "demographics"
+  "ontology": "the ontology ID (e.g. prissmm, naaccr, generic_cancer)",
+  "extraction_date": "YYYY-MM-DD",
+  "categories": {
+    "patient": {
+      "birth_year": {
+        "value": 1965,
+        "confidence": 0.95,
+        "evidence": "65-year-old male at diagnosis in 2030",
+        "evidence_date": "2030-03-15"
+      },
+      "naaccr_sex_code": {
+        "value": "1",
+        "confidence": 1.0,
+        "evidence": "65-year-old male",
+        "evidence_date": "2030-03-15"
+      }
     },
-    "field_id_2": {
-      "value": "...",
-      "resolved_code": "...",
-      "confidence": 0.80,
-      "evidence": "...",
-      "evidence_date": "2024-06-01",
-      "domain_group": "staging"
-    }
+    "cancer_diagnosis": [
+      {
+        "ca_seq": 0,
+        "cohort": "NSCLC",
+        "ca_type": "Adenocarcinoma",
+        "naaccr_histology_code": "8140",
+        "ca_stage": "IVA",
+        "ca_tnm_t": "T2a",
+        "ca_tnm_n": "N2",
+        "ca_tnm_m": "M1a"
+      }
+    ],
+    "regimen": [
+      {
+        "ca_seq": 0,
+        "regimen_number": 1,
+        "regimen_drugs": "Carboplatin, Pemetrexed, Pembrolizumab",
+        "drugs_num": 3,
+        "regimen_setting": "First-line metastatic",
+        "dx_reg_start_days": 21,
+        "includes_immunotherapy": "Yes",
+        "includes_chemo": "Yes"
+      }
+    ],
+    "medical_oncologist_assessment": [
+      {
+        "ca_seq": 0,
+        "md_dx_days": 30,
+        "md_ca": "Cancer present",
+        "md_ca_status": "Stable",
+        "md_ecog": 1
+      }
+    ]
   },
   "review_items": [
     {
-      "field_id": "field_id_3",
-      "reason": "Low confidence (0.3)",
+      "field_id": "ca_tnm_n",
+      "reason": "Conflicting evidence: N1 in radiology vs N2 in pathology",
       "priority": "HIGH"
     }
   ]
 }
 ```
+
+**Key rules:**
+- The `categories` dict keys MUST match the ontology's category `id` values exactly
+- Patient-level fields use the `{value, confidence, evidence, evidence_date}` wrapper
+- Per-diagnosis fields use plain values (string, int, float) directly — no wrapper
+- Each per-diagnosis record MUST include `ca_seq` to link back to the diagnosis
+- If a per-diagnosis category has multiple records (e.g. multiple regimens), include all as separate list items
+- Omit fields with no evidence rather than including null/empty values
 
 ## EXTRACTION GUIDELINES
 
