@@ -1,0 +1,148 @@
+{
+  "patient_id": "patient_61c72ae48153",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 62-year-old female named Margaret Chen. She is a former smoker with a 25 pack-year history, having quit 8 years prior to diagnosis. She has a history of hypertension and type 2 diabetes mellitus. She works as a retired accountant and lives with her husband."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 62 years, the patient received a diagnosis of Stage IIIB (T3 N3 M0, AJCC 8th edition) NON-SMALL CELL LUNG CARCINOMA, ADENOCARCINOMA (ICD-O-3 histology code 8140/3), primary site: UPPER LOBE OF LEFT LUNG (ICD-O-3 site code C34.1). Summary stage: Regional. Key biomarkers: EGFR L858R mutation detected (exon 21 point mutation); PD-L1 TPS 15%; ALK IHC negative; ROS1 FISH negative; KRAS wild-type. Tumor size: 4.2 cm primary mass with ipsilateral supraclavicular lymphadenopathy. Confirmation: POSITIVE HISTOLOGY via CT-guided biopsy. Laterality: Left. Tumor grade: Poorly differentiated (Grade 3). Performance status: ECOG 1."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62 years, the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (staging), which showed a 4.2 cm spiculated left upper lobe mass, mediastinal lymphadenopathy (stations 4L, 5, 6), left supraclavicular lymphadenopathy, and no evidence of distant metastatic disease. No pleural effusion. No liver, adrenal, or bone lesions identified. Cancer present."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62 years, the patient had a PET-CT WHOLE BODY (staging), which showed FDG-avid left upper lobe primary mass (SUVmax 12.4), FDG-avid mediastinal and left supraclavicular lymphadenopathy (SUVmax up to 8.7), no evidence of distant organ or bone metastases. Findings consistent with stage IIIB disease. Cancer present."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62 years, the patient had an MRI BRAIN WITH AND WITHOUT GADOLINIUM (staging), which showed no evidence of intracranial metastatic disease. No leptomeningeal enhancement. Normal study. Cancer absent."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 62 years, the patient had a pathology result from CT-guided left upper lobe core needle biopsy. Diagnosis: Invasive adenocarcinoma, acinar predominant pattern (60%), with solid components (40%). Immunohistochemistry: TTF-1 positive, Napsin-A positive, CK7 positive, CK20 negative, p40 negative. Consistent with primary lung adenocarcinoma. Molecular testing ordered. Specimen adequacy: Adequate for molecular profiling."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 62 years, the patient had next generation sequencing performed for non-small cell lung carcinoma, adenocarcinoma, based on a specimen obtained from the left upper lobe primary tumor (CT-guided biopsy), which showed an EGFR p.L858R (exon 21) activating mutation (allele frequency 38%), a TP53 p.R175H missense mutation (allele frequency 42%), a CDKN2A homozygous deletion (copy number loss), and an NKX2-1 (TTF-1) amplification. No KRAS, NRAS, BRAF, MET, RET, ROS1, ALK, ERBB2, or FGFR alterations detected. TMB: 4 mutations/Mb (low). MSI: Stable. No T790M resistance mutation detected at baseline."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62 years, the patient had a thoracic oncology multidisciplinary tumor board discussion. Stage IIIB (T3N3M0) left lung adenocarcinoma with EGFR L858R mutation. Given N3 disease (contralateral supraclavicular involvement), concurrent chemoradiation was considered but consensus favored systemic therapy with osimertinib given the sensitizing EGFR mutation, as per emerging data for EGFR-mutant stage III disease. Decision: Initiate osimertinib 80 mg daily as first-line systemic therapy. Radiation oncology to evaluate for potential consolidation thoracic radiotherapy. Cancer present. No response assessment yet as treatment not started."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 62 years, the patient initiated first-line systemic therapy with osimertinib (TAGRISSO) 80 mg orally once daily for stage IIIB EGFR L858R-mutant non-small cell lung carcinoma, adenocarcinoma. Treatment intent: Curative-intent (definitive systemic therapy). Cycle 1 Day 1."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 62 years (approximately 4 weeks after starting osimertinib), the patient developed grade 2 acneiform rash over the face and upper chest, and grade 1 diarrhea (2-3 loose stools/day). Managed with topical clindamycin and doxycycline 100 mg daily for rash; loperamide PRN for diarrhea. No dose reduction required. These events were attributed to osimertinib (CTCAE v5.0: Rash acneiform Grade 2, Diarrhea Grade 1)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 62 years (3 months after initiating osimertinib), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (response assessment), which showed significant reduction of the left upper lobe primary mass from 4.2 cm to 2.1 cm (50% reduction by RECIST 1.1), decreased mediastinal lymphadenopathy, near-resolution of supraclavicular lymphadenopathy. Assessment: Partial response. No new lesions. Cancer present but responding."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 62 years (3 months on osimertinib), the patient had an oncologist office assessment. CT showing excellent partial response (50% reduction in primary tumor). Patient tolerating therapy well with manageable grade 2 rash, now improving. QTc 432 ms on ECG (within acceptable range). Continuing osimertinib 80 mg daily. Cancer present with response to therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (9 months after initiating osimertinib), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (response assessment), which showed continued partial response with left upper lobe mass now measuring 1.5 cm (64% reduction from baseline), minimal residual mediastinal adenopathy. No evidence of new metastatic disease in chest, abdomen, or pelvis. Assessment: Ongoing partial response by RECIST 1.1. Cancer present but responding."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (9 months after initiating osimertinib), the patient had an MRI BRAIN WITH AND WITHOUT GADOLINIUM (surveillance), which showed no evidence of intracranial metastatic disease. No new lesions. Cancer absent."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 years (9 months on osimertinib), the patient had an oncologist office assessment. Continued partial response on imaging. Patient remains ECOG 1 with well-controlled rash (now grade 1). Paronychia grade 1 of left index finger noted, managed with warm soaks and topical antibiotics. No evidence of brain metastases on surveillance MRI. Continuing osimertinib 80 mg daily. Cancer present with ongoing response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (14 months after initiating osimertinib), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (response assessment), which showed interval increase in left upper lobe residual mass from 1.5 cm to 2.8 cm, new left hilar lymphadenopathy, new small right adrenal nodule measuring 1.1 cm (new from prior). Assessment: Progressive disease by RECIST 1.1. Cancer present, progression documented."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (14 months after initiating osimertinib), the patient had an MRI BRAIN WITH AND WITHOUT GADOLINIUM (prompted by progression on CT), which showed three new enhancing brain metastases: right frontal (1.4 cm), right parietal (0.8 cm), and left cerebellar hemisphere (0.6 cm). No leptomeningeal enhancement. Mass effect minimal. Cancer present, new brain metastases."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 years (14 months on osimertinib, at progression), the patient had an urgent oncologist office assessment. CT demonstrating systemic progression, MRI showing three new brain metastases. Patient currently neurologically intact (ECOG 1), no headaches, no focal deficits. Decision to obtain liquid biopsy (cell-free DNA) for resistance mechanism profiling and to re-biopsy adrenal nodule. Urgently referred to radiation oncology for stereotactic radiosurgery evaluation for brain metastases. Osimertinib held pending further workup. Cancer present, actively progressing."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 63 years (at time of progression), the patient had a pathology result from CT-guided right adrenal core needle biopsy. Diagnosis: Metastatic adenocarcinoma, consistent with lung primary origin. Immunohistochemistry: TTF-1 positive, Napsin-A focally positive, CK7 positive. Morphology consistent with metastatic lung adenocarcinoma. Molecular testing (NGS and EGFR T790M) ordered from this specimen."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 63 years (progression biopsy), the patient had next generation sequencing performed for non-small cell lung carcinoma, adenocarcinoma, based on a specimen obtained from the right adrenal metastasis (CT-guided biopsy), which showed an EGFR p.L858R (exon 21) activating mutation (allele frequency 44%), an EGFR p.T790M (exon 20) resistance mutation (allele frequency 31%), a TP53 p.R175H missense mutation (allele frequency 47%), a CDKN2A homozygous deletion, an NKX2-1 amplification, and a PIK3CA p.E545K mutation (allele frequency 19%, newly acquired). No MET amplification. No EGFR C797S detected. TMB: 5 mutations/Mb (low). MSI: Stable. The T790M and PIK3CA mutations are consistent with acquired resistance to first-generation/third-generation EGFR TKI therapy."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 63 years (14 months after starting osimertinib, approximately 3 weeks after progression documented), the patient received stereotactic radiosurgery (SRS) to three brain metastases: right frontal (1.4 cm, 20 Gy in 1 fraction), right parietal (0.8 cm, 20 Gy in 1 fraction), and left cerebellar hemisphere (0.6 cm, 18 Gy in 1 fraction). Treatment delivered using Gamma Knife Perfexion platform. Treatment intent: Palliative/local control. Total brain irradiation deferred given oligometastatic burden and desire to preserve neurocognitive function."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63 years (2 weeks post-SRS), the patient developed grade 2 fatigue and grade 1 headache following stereotactic radiosurgery. Treated with dexamethasone 4 mg twice daily for 5 days with taper. No seizures. No neurological deficits. Symptoms resolved within 2 weeks of completing the steroid taper. Attributed to SRS-related cerebral edema (CTCAE v5.0: Fatigue Grade 2, Headache Grade 1)."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 63 years (approximately 6 weeks after progression documentation, following recovery from SRS), the patient initiated second-line systemic therapy with carboplatin (AUC 5 IV day 1) plus pemetrexed (500 mg/m2 IV day 1) every 21 days for stage IV (M1c) EGFR-mutant non-small cell lung carcinoma, adenocarcinoma with acquired T790M resistance mutation and brain metastases. Treatment intent: Palliative. Osimertinib was discontinued. Folic acid 400 mcg daily and vitamin B12 1000 mcg IM every 9 weeks initiated per pemetrexed protocol. Dexamethasone premedication given."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63 years (during carboplatin/pemetrexed chemotherapy, cycle 2), the patient developed grade 3 neutropenia (ANC 0.7 x 10^9/L), grade 2 nausea, and grade 1 fatigue. Carboplatin/pemetrexed dose delayed by 1 week; filgrastim 480 mcg subcutaneously daily for 5 days administered. Ondansetron and prochlorperazine prescribed for nausea. Counts recovered; cycle 3 administered at full dose with G-CSF prophylaxis thereafter (CTCAE v5.0: Neutrophil count decreased Grade 3, Nausea Grade 2, Fatigue Grade 1)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (after 3 cycles of carboplatin/pemetrexed), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (response assessment), which showed stable left upper lobe mass (2.8 cm, unchanged), stable right adrenal nodule (1.1 cm, unchanged), no new systemic metastases. Assessment: Stable disease by RECIST 1.1. Cancer present, neither responding nor progressing."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 years (after 3 cycles of carboplatin/pemetrexed), the patient had an MRI BRAIN WITH AND WITHOUT GADOLINIUM (follow-up post-SRS), which showed stable treatment effect at all three prior SRS sites (right frontal, right parietal, left cerebellar), with no new brain metastases. Mild radiation-related change at right frontal SRS site (expected). Cancer absent (no active intracranial disease)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 years (after 3 cycles of carboplatin/pemetrexed), the patient had an oncologist office assessment. Imaging showing stable systemic disease and good intracranial control post-SRS. Patient tolerating chemotherapy with managed toxicities (grade 3 neutropenia in cycle 2, now on G-CSF prophylaxis). Completed 4 cycles total of carboplatin/pemetrexed, transitioning to pemetrexed maintenance as per standard of care. ECOG PS 1. Discussed clinical trial options given T790M/PIK3CA co-resistance profile. Cancer present, disease stable."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 64 years (after completing 4 cycles of carboplatin/pemetrexed induction), the patient initiated pemetrexed maintenance therapy (500 mg/m2 IV every 21 days) for stage IV EGFR-mutant non-small cell lung carcinoma following carboplatin/pemetrexed induction. Continued folic acid and vitamin B12 supplementation. Treatment intent: Palliative/maintenance."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 64 years (after 3 cycles of pemetrexed maintenance, approximately 9 months after SRS and chemotherapy initiation), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (response assessment), which showed interval progression: left upper lobe mass increased from 2.8 cm to 4.0 cm, right adrenal nodule increased from 1.1 cm to 2.0 cm, new small hepatic lesion in segment VI measuring 0.9 cm (new from prior), new right-sided pleural effusion (small). Assessment: Progressive disease by RECIST 1.1. Cancer present, actively progressing."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 years (at second progression), the patient had an oncologist office assessment. CT demonstrating systemic progression on pemetrexed maintenance with new liver metastasis and increasing pleural effusion. ECOG PS 1-2. MRI brain ordered. Discussed transition to clinical trial. Patient enrolled in Phase I/II trial evaluating a novel EGFR/PIK3CA dual inhibitor (protocol NCT-XXXXXX) given co-existence of acquired T790M and PIK3CA E545K resistance mutations. Pemetrexed discontinued. Baseline assessments for trial initiated. Cancer present, progressing."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 64 years (at second progression, pre-clinical trial enrollment), the patient had an MRI BRAIN WITH AND WITHOUT GADOLINIUM, which showed stable post-treatment changes at prior SRS sites with no new intracranial metastases. One prior SRS lesion (right frontal) showed central necrosis consistent with radiation necrosis vs. pseudoprogression, stable in size at 1.4 cm. No new enhancing lesions. Cancer absent (stable intracranial disease, no new metastases)."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 64 years, the patient enrolled in and initiated treatment on a Phase I/II clinical trial evaluating an investigational EGFR exon 20/C797S/T790M-resistant inhibitor combined with a PI3K alpha-selective inhibitor (alpelisib analog) for patients with EGFR-mutant NSCLC with acquired PIK3CA co-mutations. Trial arm: Experimental arm (investigational EGFR inhibitor + PI3K inhibitor combination). Treatment intent: Palliative/investigational. Baseline labs, ECG, ophthalmologic exam, and fasting glucose completed per trial protocol. Cycle 1 Day 1."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64 years (cycle 2 of clinical trial therapy), the patient developed grade 2 hyperglycemia (fasting glucose 210 mg/dL) attributed to PI3K inhibitor component, grade 1 mucositis, and grade 1 rash. Metformin dose increased; dietary counseling provided. No dose reduction required at this time. Glucose monitored weekly. CTCAE v5.0: Hyperglycemia Grade 2, Mucositis oral Grade 1, Rash maculopapular Grade 1."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 64 years (after 2 cycles of clinical trial therapy, approximately 8 weeks on trial), the patient had a CT CHEST/ABDOMEN/PELVIS WITH CONTRAST (trial response assessment, RECIST 1.1), which showed decrease in left upper lobe mass from 4.0 cm to 3.0 cm, stable right adrenal nodule (2.0 cm), decrease in hepatic segment VI lesion from 0.9 cm to 0.6 cm, near-resolution of pleural effusion. Assessment: Partial response by RECIST 1.1 (25% reduction in sum of target lesions). Cancer present but responding to investigational therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 years (on clinical trial, after 2 cycles), the patient had an oncologist/trial site office assessment. CT showing early partial response on investigational therapy. Patient tolerating trial therapy with manageable hyperglycemia (now grade 1 with metformin adjustment), mild mucositis and rash. ECOG PS 1. QTc 438 ms on serial ECG monitoring. Patient motivated and engaged with trial participation. Will continue on protocol with next response assessment at cycle 4 (8-week mark). Cancer present with response to investigational therapy."
+    }
+  ],
+  "scenario_index": 0,
+  "scenario_label": "nsclc_egfr",
+  "scenario_blurb": "Stage IIIB non-small cell lung cancer (NSCLC) with EGFR L858R mutation in a 62-year-old former smoker. Initially treated with osimertinib with good partial response lasting 14 months, then develops progression with T790M resistance mutation and new brain metastases. Undergoes stereotactic radiosurgery and switches to platinum-based chemotherapy with eventual transition to clinical trial."
+}

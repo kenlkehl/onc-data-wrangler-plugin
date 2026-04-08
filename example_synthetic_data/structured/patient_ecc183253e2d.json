@@ -1,0 +1,1872 @@
+{
+  "encounters": [
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-16",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-22",
+      "diagnosis_code": "C56.9",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-05",
+      "diagnosis_code": "C56.9",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "diagnosis_code": "C56.9",
+      "department": "Surgery",
+      "visit_type": "New Patient"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-03-08",
+      "diagnosis_code": "C56.9",
+      "department": "Surgery",
+      "visit_type": "Inpatient"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-03-20",
+      "diagnosis_code": "C56.9",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-14",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-05",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-26",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "diagnosis_code": "G62.0",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-16",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-07",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-28",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-08-25",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-22",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-11-03",
+      "diagnosis_code": "D69.6",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-10",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-08-28",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-08-28",
+      "diagnosis_code": "C56.9",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "diagnosis_code": "C56.9",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    }
+  ],
+  "labs": [
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "CA-125",
+      "value": "1847",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "HE4",
+      "value": "412",
+      "unit": "pmol/L",
+      "reference_range": "<70",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "WBC",
+      "value": "7.8",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Hemoglobin",
+      "value": "11.4",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Platelets",
+      "value": "312",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "BUN",
+      "value": "14",
+      "unit": "mg/dL",
+      "reference_range": "7-20",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "AST",
+      "value": "24",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "ALT",
+      "value": "19",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Alkaline Phosphatase",
+      "value": "98",
+      "unit": "U/L",
+      "reference_range": "44-147",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Total Bilirubin",
+      "value": "0.6",
+      "unit": "mg/dL",
+      "reference_range": "0.2-1.2",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "Albumin",
+      "value": "3.3",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "PT/INR",
+      "value": "1.1",
+      "unit": "ratio",
+      "reference_range": "0.8-1.2",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-01-15",
+      "test_name": "aPTT",
+      "value": "28",
+      "unit": "sec",
+      "reference_range": "25-35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "CA-125",
+      "value": "89",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "WBC",
+      "value": "6.4",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "Hemoglobin",
+      "value": "9.8",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "Platelets",
+      "value": "224",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "BUN",
+      "value": "12",
+      "unit": "mg/dL",
+      "reference_range": "7-20",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "ALT",
+      "value": "18",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "AST",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "Albumin",
+      "value": "3.6",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "test_name": "Magnesium",
+      "value": "1.9",
+      "unit": "mg/dL",
+      "reference_range": "1.7-2.2",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-14",
+      "test_name": "WBC",
+      "value": "6.2",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-14",
+      "test_name": "Hemoglobin",
+      "value": "10.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-14",
+      "test_name": "Platelets",
+      "value": "218",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-14",
+      "test_name": "Creatinine",
+      "value": "0.80",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-05",
+      "test_name": "WBC",
+      "value": "4.8",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-05",
+      "test_name": "Hemoglobin",
+      "value": "9.6",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-05",
+      "test_name": "Platelets",
+      "value": "201",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-05",
+      "test_name": "CA-125",
+      "value": "42",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-26",
+      "test_name": "WBC",
+      "value": "4.1",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-26",
+      "test_name": "Hemoglobin",
+      "value": "9.4",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-05-26",
+      "test_name": "Platelets",
+      "value": "188",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-16",
+      "test_name": "WBC",
+      "value": "3.9",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-16",
+      "test_name": "Hemoglobin",
+      "value": "9.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-16",
+      "test_name": "Platelets",
+      "value": "175",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-16",
+      "test_name": "Creatinine",
+      "value": "0.83",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-07",
+      "test_name": "WBC",
+      "value": "3.7",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-07",
+      "test_name": "Hemoglobin",
+      "value": "9.0",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-07",
+      "test_name": "Platelets",
+      "value": "168",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-28",
+      "test_name": "WBC",
+      "value": "3.8",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-28",
+      "test_name": "Hemoglobin",
+      "value": "9.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-28",
+      "test_name": "Platelets",
+      "value": "173",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-07-28",
+      "test_name": "CA-125",
+      "value": "14",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-08-25",
+      "test_name": "CA-125",
+      "value": "11",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "CA-125",
+      "value": "11",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "WBC",
+      "value": "5.2",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "Hemoglobin",
+      "value": "10.8",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "Platelets",
+      "value": "187",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "ANC",
+      "value": "3.1",
+      "unit": "K/uL",
+      "reference_range": "1.8-7.7",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "ALT",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "AST",
+      "value": "19",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "test_name": "TSH",
+      "value": "2.1",
+      "unit": "mIU/L",
+      "reference_range": "0.4-4.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-06",
+      "test_name": "WBC",
+      "value": "5.1",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-06",
+      "test_name": "Platelets",
+      "value": "134",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-06",
+      "test_name": "Hemoglobin",
+      "value": "10.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-20",
+      "test_name": "WBC",
+      "value": "4.9",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-20",
+      "test_name": "Platelets",
+      "value": "62",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-10-20",
+      "test_name": "Hemoglobin",
+      "value": "10.6",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-11-03",
+      "test_name": "WBC",
+      "value": "4.8",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-11-03",
+      "test_name": "Platelets",
+      "value": "41",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-11-03",
+      "test_name": "Hemoglobin",
+      "value": "10.5",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-11-17",
+      "test_name": "Platelets",
+      "value": "98",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "WBC",
+      "value": "5.4",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "Platelets",
+      "value": "156",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "Hemoglobin",
+      "value": "10.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "ANC",
+      "value": "3.1",
+      "unit": "K/uL",
+      "reference_range": "1.8-7.7",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "CA-125",
+      "value": "12",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "ALT",
+      "value": "19",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "test_name": "AST",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-01-12",
+      "test_name": "WBC",
+      "value": "5.0",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-01-12",
+      "test_name": "Platelets",
+      "value": "143",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-01-12",
+      "test_name": "Hemoglobin",
+      "value": "11.0",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-02-09",
+      "test_name": "Platelets",
+      "value": "128",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-02-09",
+      "test_name": "Hemoglobin",
+      "value": "11.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "CA-125",
+      "value": "9",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "WBC",
+      "value": "5.1",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "Hemoglobin",
+      "value": "11.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "Platelets",
+      "value": "137",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "ANC",
+      "value": "2.4",
+      "unit": "K/uL",
+      "reference_range": "1.8-7.7",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "ALT",
+      "value": "19",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "test_name": "AST",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "CA-125",
+      "value": "8",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "WBC",
+      "value": "4.9",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "Hemoglobin",
+      "value": "11.6",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "Platelets",
+      "value": "131",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "test_name": "ALT",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "CA-125",
+      "value": "10",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "WBC",
+      "value": "4.8",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "Hemoglobin",
+      "value": "11.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "Platelets",
+      "value": "138",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "Creatinine",
+      "value": "0.78",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "test_name": "ALT",
+      "value": "20",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "CA-125",
+      "value": "11",
+      "unit": "U/mL",
+      "reference_range": "<35",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "WBC",
+      "value": "5.1",
+      "unit": "K/uL",
+      "reference_range": "4.5-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "Hemoglobin",
+      "value": "12.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "Platelets",
+      "value": "141",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "ALT",
+      "value": "18",
+      "unit": "U/L",
+      "reference_range": "7-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "test_name": "AST",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    }
+  ],
+  "hospitalizations": [
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "admission_date": "2022-03-08",
+      "discharge_date": "2022-03-13",
+      "principal_dx_code": "C56.9",
+      "principal_dx_description": "Malignant neoplasm of ovary, unspecified",
+      "los_days": 5,
+      "discharge_disposition": "home",
+      "reason": "Primary debulking surgery - total abdominal hysterectomy, bilateral salpingo-oophorectomy, infracolic omentectomy, appendectomy, bilateral pelvic peritoneal stripping, right hemidiaphragm peritonectomy, pelvic and para-aortic lymph node sampling; R0 resection achieved"
+    }
+  ],
+  "medications": [
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "carboplatin",
+      "drug_category": "Chemotherapy",
+      "start_date": "2022-04-14",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "AUC 5",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "paclitaxel",
+      "drug_category": "Chemotherapy",
+      "start_date": "2022-04-14",
+      "end_date": "2022-05-26",
+      "route": "IV",
+      "dose": "175 mg/m2",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "paclitaxel",
+      "drug_category": "Chemotherapy",
+      "start_date": "2022-06-16",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "135 mg/m2",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "dexamethasone",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-04-14",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "20 mg",
+      "frequency": "pre-chemotherapy each cycle",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "diphenhydramine",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-04-14",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "50 mg",
+      "frequency": "pre-chemotherapy each cycle",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "famotidine",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-04-14",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "20 mg",
+      "frequency": "pre-chemotherapy each cycle",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "ondansetron",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-04-14",
+      "end_date": "2022-07-28",
+      "route": "IV",
+      "dose": "8 mg",
+      "frequency": "pre-chemotherapy each cycle",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "gabapentin",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-06-02",
+      "end_date": "2023-06-01",
+      "route": "PO",
+      "dose": "300 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Adjuvant"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "niraparib",
+      "drug_category": "Targeted Therapy",
+      "start_date": "2022-09-22",
+      "end_date": "2022-11-03",
+      "route": "PO",
+      "dose": "200 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "niraparib",
+      "drug_category": "Targeted Therapy",
+      "start_date": "2022-12-01",
+      "end_date": "2025-09-10",
+      "route": "PO",
+      "dose": "100 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "ondansetron",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-09-22",
+      "end_date": "2025-09-10",
+      "route": "PO",
+      "dose": "4 mg",
+      "frequency": "PRN nausea",
+      "line_of_therapy": 1,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "venlafaxine",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-09-15",
+      "end_date": "2025-09-10",
+      "route": "PO",
+      "dose": "37.5 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "drug_name": "estradiol vaginal cream",
+      "drug_category": "Hormonal Therapy",
+      "start_date": "2022-09-15",
+      "end_date": "2025-09-10",
+      "route": "PO",
+      "dose": "0.5 g (low-dose topical)",
+      "frequency": "twice weekly",
+      "line_of_therapy": 1,
+      "intent": "Maintenance"
+    }
+  ],
+  "pros": [
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "42",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "60",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "52",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "56",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea and Vomiting",
+      "value": "28",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Pain",
+      "value": "38",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Appetite Loss",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Abdominal Pain",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-02-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "65",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "55",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-04-07",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "60",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "58",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Numbness and Tingling",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-06-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "65",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "73",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea and Vomiting",
+      "value": "11",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-09-08",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Numbness and Tingling",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "62",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "72",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "39",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea and Vomiting",
+      "value": "17",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2022-12-01",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Numbness and Tingling",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "72",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "80",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "78",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "70",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Social Functioning",
+      "value": "75",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "33",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea and Vomiting",
+      "value": "17",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-03-15",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Numbness and Tingling",
+      "value": "0",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "75",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Cognitive Functioning",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "28",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea and Vomiting",
+      "value": "11",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2023-09-07",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "0",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "87",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Cognitive Functioning",
+      "value": "75",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "22",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2024-09-05",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "0",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "87",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "90",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "100",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Cognitive Functioning",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "11",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "0",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_ecc183253e2d",
+      "date": "2025-09-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "0",
+      "scale_range": "0-4"
+    }
+  ]
+}

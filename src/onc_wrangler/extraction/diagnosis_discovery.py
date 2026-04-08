@@ -105,6 +105,22 @@ documented as independent primaries (not contralateral spread).
 5. Order diagnoses by date_of_diagnosis (earliest first), starting at \
 tumor_index 0.
 6. If only ONE cancer is found, return a single-element array.
+7. COMMON TRAPS -- do NOT create a new diagnosis for any of these:
+   - "Lung metastasis from breast cancer" → still 1 breast cancer diagnosis
+   - "Recurrent ovarian cancer" → still the original ovarian cancer
+   - "Brain mets from NSCLC" → still 1 lung cancer diagnosis
+   - "Disease progression with liver involvement" → same diagnosis
+   - "Second-line treatment for relapsed lymphoma" → same lymphoma
+   - "Restaging shows new bone lesions" → same diagnosis, not a new primary
+8. A second primary IS a new diagnosis ONLY when the text explicitly states \
+or clearly implies a NEW, INDEPENDENT cancer at a different site with its \
+own histology. Look for language like "new primary," "second malignancy," \
+"synchronous primary," or documentation of a biopsy-proven cancer at a \
+site unrelated to the known cancer's pattern of spread.
+9. When uncertain whether a mentioned cancer site is a metastasis or a new \
+primary, default to treating it as a metastasis of the existing cancer \
+UNLESS there is explicit documentation of an independent primary. Set \
+confidence lower (0.5-0.7) and note the ambiguity in the evidence field.
 
 For each diagnosis, extract:
 - tumor_index: integer starting at 0

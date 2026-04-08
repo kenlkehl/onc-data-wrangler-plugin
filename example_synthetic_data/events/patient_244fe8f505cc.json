@@ -1,0 +1,140 @@
+{
+  "patient_id": "patient_244fe8f505cc",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a male named Marcus T. Delgado, born in 1965, of Hispanic/Latino ethnicity. He is a former smoker (quit 12 years prior), works as a high school teacher, and has a family history of colorectal cancer in his father. Comorbidities include well-controlled type 2 diabetes mellitus (on metformin) and mild hypertension at baseline."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 58 years, the patient had a diagnosis of Stage IV (AJCC 8th edition, cT3 N2b M1b) ADENOCARCINOMA OF THE SIGMOID COLON (ICD-O-3 site code C18.7, histology code 8140/3). Synchronous liver metastases were identified in both hepatic lobes (bilobar, 4 lesions, largest 3.8 cm in segment VI). Relevant biomarkers included: MSS (microsatellite stable) by IHC/PCR; KRAS G12D mutation detected; NRAS wild-type; BRAF wild-type (non-V600E); HER2 IHC 1+; TMB low (3 mut/Mb). CEA at diagnosis: 487 ng/mL. CA 19-9: 312 U/mL. Confirmation: POSITIVE HISTOLOGY (colonoscopic biopsy). Primary tumor location: left-sided (sigmoid). Tumor size: 4.5 cm. Lymphovascular invasion: present. Perineural invasion: present. Circumferential resection margin: not applicable at diagnosis. Summary stage: DISTANT."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58 years, the patient had a colonoscopic biopsy pathology result. Specimen: sigmoid colon biopsy. Diagnosis: Moderately differentiated (grade 2) adenocarcinoma of sigmoid colon. Architectural pattern: tubular with focal mucinous features (<10% mucinous component). Immunohistochemistry: MLH1 retained, MSH2 retained, MSH6 retained, PMS2 retained (MMR-proficient / MSS). CDX2 positive. CK20 positive. CK7 negative. SATB2 positive. Ki-67: approximately 65%. No signet ring cells identified."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years, the patient had a CT scan of the chest, abdomen, and pelvis with contrast (staging CT CAP), which showed cancer. Primary sigmoid colon mass measuring 4.5 x 3.8 cm with pericolonic fat stranding and involvement of 5 regional lymph nodes (largest 1.4 cm). Liver metastases: four lesions identified — segment VI (3.8 cm), segment IVa (2.1 cm), segment II (1.3 cm), and segment VII (0.9 cm). No lung nodules identified. No peritoneal carcinomatosis. No ascites. Bones unremarkable. Impression: Stage IV colorectal cancer with synchronous bilobar liver metastases. No extrahepatic disease other than primary tumor."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years, the patient had an MRI of the liver with hepatobiliary contrast (gadoxetate disodium), which showed cancer with metastatic disease. Four hepatic metastases confirmed: segment VI lesion 3.8 cm (arterial enhancement with washout, restricted diffusion), segment IVa lesion 2.1 cm, segment II lesion 1.3 cm, segment VII lesion 0.9 cm. No additional occult lesions identified on hepatobiliary phase. Bilobar distribution precludes upfront surgical resection. Impression: Bilobar colorectal liver metastases, technically unresectable at present; conversion chemotherapy strategy recommended."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 58 years, the patient had next-generation sequencing performed for colorectal adenocarcinoma based on a specimen obtained from the sigmoid colon primary tumor (FFPE tissue). Panel: comprehensive solid tumor NGS (523 gene panel). Actionable alterations: KRAS p.G12D (c.35G>A) mutation, variant allele frequency 42%, likely pathogenic driver. Additional somatic mutations: APC p.R1450* nonsense mutation (VAF 48%), TP53 p.R248W missense mutation (VAF 45%), SMAD4 p.R361H missense mutation (VAF 31%), PIK3CA p.E545K mutation (VAF 19%), FBXW7 p.R465H mutation (VAF 14%). Copy number alterations: MYC amplification (6.8-fold), CDK8 gain, chromosome 18q loss (encompassing SMAD4, DCC). Fusions: none detected. Microsatellite instability: MSS (0 unstable loci of 95 examined). TMB: 3.2 mutations/Mb (low). KRAS wild-type codons 12/13 assessment: G12D confirmed; codons 59, 61, 117, 146 wild-type. NRAS exons 2-4: wild-type. BRAF exons 11/15: wild-type. HER2: no amplification (copy number 2.1). Germline findings: no pathogenic germline variants identified in APC, MLH1, MSH2, MSH6, PMS2, MUTYH. Note: SMAD4 loss and PIK3CA co-mutation may predict reduced benefit from anti-EGFR therapy (irrelevant given RAS mutation), and may confer resistance to some targeted strategies."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years, the patient had a multidisciplinary tumor board assessment. Discussion involved medical oncology, surgical oncology, interventional radiology, and hepatobiliary surgery. Consensus: primary tumor is not obstructing and does not require immediate resection. Patient is fit for systemic therapy (ECOG PS 1). Given KRAS G12D mutation, anti-EGFR therapy (cetuximab, panitumumab) is contraindicated. RAS/RAF wild-type panel otherwise, but KRAS G12D precludes anti-EGFR use. Plan: initiate FOLFOX plus bevacizumab with intent of conversion to resectability. Reassess response after 4-6 cycles. Colorectal surgery recommends primary resection can be deferred if no obstruction. Patient counseled on goals of therapy, prognosis, and reproductive/genetic considerations. Cancer present. No response to therapy yet (treatment naive)."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years, the patient received palliative-intent FOLFOX (oxaliplatin 85 mg/m2 IV day 1, leucovorin 400 mg/m2 IV day 1, 5-fluorouracil 400 mg/m2 IV bolus day 1, then 5-fluorouracil 2400 mg/m2 IV continuous infusion over 46 hours) plus bevacizumab 5 mg/kg IV day 1, given every 2 weeks. Cycle 1 of planned 12 cycles. Pre-medications: ondansetron, dexamethasone, lorazepam. Hydration protocol initiated. Neuropathy baseline assessment documented (0/10). Blood pressure 138/86 mmHg at treatment initiation."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years (approximately 6 weeks into FOLFOX/bevacizumab, after cycle 3), the patient developed grade 1 peripheral sensory neuropathy in the fingertips and toes bilaterally — described as intermittent tingling and numbness, worse with cold exposure (cold-induced dysesthesias, classic oxaliplatin-related acute neuropathy). No functional impairment. Management: patient educated on cold avoidance, gloves in cold weather. No dose reduction required at this time. Additionally, blood pressure noted to be elevated at 154/96 mmHg, new grade 1 hypertension attributed to bevacizumab. Amlodipine 5 mg daily initiated in coordination with primary care physician."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years (after 4 cycles of FOLFOX/bevacizumab, approximately 8 weeks from treatment start), the patient had a CT CAP restaging scan, which showed cancer with partial response. Liver metastases: segment VI lesion decreased from 3.8 to 2.9 cm (24% decrease), segment IVa from 2.1 to 1.6 cm (24% decrease), segment II from 1.3 to 1.0 cm (23% decrease), segment VII from 0.9 to 0.6 cm (33% decrease). Primary sigmoid tumor appears slightly smaller (3.9 cm). No new lesions. No lung nodules. RECIST 1.1: sum of target lesions decreased from 8.1 cm to 6.1 cm, representing 25% decrease — PARTIAL RESPONSE. CEA trending down from 487 to 198 ng/mL. Impression: Partial response to FOLFOX/bevacizumab. Continue therapy; re-evaluate for potential conversion resection."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (cycle 4 response assessment), the patient had an oncologist office assessment showing cancer present with response to therapy. CEA 198 ng/mL, improving. Patient tolerating therapy reasonably well. Peripheral neuropathy now grade 1-2, worse in fingertips — continued cold dysesthesias plus emerging persistent numbness in feet. Hypertension now controlled on amlodipine (BP 142/88 mmHg). Discussed with hepatobiliary surgery: bilobar disease still present, insufficient hepatic reserve for resection after 4 cycles. Plan: continue FOLFOX/bevacizumab to 12 cycles, reassess liver resectability. ECOG PS 1."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years (approximately cycle 8, 4 months into treatment), the patient developed worsening peripheral sensory neuropathy now grade 2: persistent numbness and tingling in bilateral feet and fingertips, affecting fine motor tasks (difficulty buttoning shirt, writing), though still ambulatory without assistance. Oxaliplatin dose reduced to 75 mg/m2 (from 85 mg/m2) per standard dose modification guidelines. Hypertension progressed to grade 2 (BP 162/100 mmHg despite amlodipine 5 mg); amlodipine dose increased to 10 mg daily. Patient referred to cardiology for blood pressure management."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years (cycle 10), the patient developed grade 3 peripheral sensory neuropathy: numbness now involving bilateral feet to mid-calf and bilateral hands to the wrists; patient has difficulty walking on uneven surfaces and has dropped objects on 3 occasions. Oxaliplatin discontinued per institutional protocol (cumulative dose approximately 760 mg/m2). Patient transitioned to modified FOLFOX without oxaliplatin (5-FU/leucovorin/bevacizumab) to complete the planned treatment course. Neuropathy graded as grade 3 per CTCAE v5.0. Neurology consultation obtained; electromyography/nerve conduction studies ordered. Gabapentin 300 mg TID initiated for neuropathic pain management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years (after 12 cycles of planned FOLFOX/bevacizumab, with cycles 11-12 as 5-FU/LV/bevacizumab due to oxaliplatin discontinuation, approximately 6 months from treatment start), the patient had a CT CAP restaging scan, which showed cancer with partial response (best response). Liver metastases: segment VI lesion 2.3 cm (from 3.8 cm, 39% decrease), segment IVa 1.2 cm (43% decrease), segment II 0.7 cm (46% decrease), segment VII 0.4 cm (56% decrease). Primary sigmoid tumor: 3.2 cm (29% decrease from baseline). No new lesions. No lung nodules identified. RECIST 1.1: sum of target lesions decreased from 8.1 cm to 4.6 cm, representing 43% decrease — PARTIAL RESPONSE (confirmed). CEA: 87 ng/mL (down from 487). CA 19-9: 64 U/mL. Impression: Ongoing partial response. Liver metastases reduced but hepatobiliary surgery notes continued bilobar distribution; surgical resection still not feasible given need for adequate future liver remnant."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58 years, the patient had an EMG/nerve conduction study (NCS) performed by neurology. Findings: Sensorimotor peripheral neuropathy, predominantly sensory, axonal pattern affecting bilateral upper and lower extremities. Sural sensory nerve action potential (SNAP) reduced bilaterally. Peroneal and tibial motor nerve conduction velocities mildly reduced. No evidence of demyelinating features. Conclusion: Findings consistent with oxaliplatin-induced peripheral neuropathy, length-dependent, axonal sensorimotor pattern. Prognosis: partial recovery expected over months to years after oxaliplatin cessation; complete resolution uncertain given grade 3 severity."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years (approximately 6 months from initial treatment start, following completion of 12 cycles of induction FOLFOX/bevacizumab), the patient transitioned to maintenance therapy with 5-fluorouracil 2400 mg/m2 IV continuous infusion over 46 hours plus leucovorin 400 mg/m2 IV plus bevacizumab 7.5 mg/kg IV every 2 weeks (maintenance 5-FU/LV/bevacizumab). Rationale: standard maintenance approach per OPTIMOX1 strategy and CAIRO3 data, intended to maintain disease control while reducing cumulative oxaliplatin toxicity (already discontinued). Peripheral neuropathy grade 3 at transition, planned monitoring for improvement."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (2 months into maintenance therapy, approximately 8 months from diagnosis), the patient had an oncologist office assessment showing cancer present, disease stable (no progression on maintenance). CEA 79 ng/mL (stable). Patient tolerating maintenance 5-FU/bevacizumab well. Peripheral neuropathy now improving to grade 2 — still present in feet and hands but less severe, gabapentin providing partial relief. Hypertension now well controlled on amlodipine 10 mg plus lisinopril 10 mg (BP 134/84 mmHg). Patient returned to part-time teaching duties. No new symptoms. ECOG PS 1. Plan: continue maintenance, next CT restaging in 6 weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years (approximately 10 months from initial diagnosis, 4 months into maintenance therapy), the patient had a CT CAP restaging scan, which showed cancer with progression. New findings: Two new pulmonary nodules — right lower lobe 1.1 cm and right upper lobe 0.7 cm — new from prior scan, highly suspicious for metastases. Liver metastases: slight increase in segment VI lesion (2.5 cm vs. 2.3 cm), segment IVa stable (1.2 cm), segment II stable (0.7 cm), segment VII 0.5 cm (was 0.4 cm). Primary sigmoid colon mass: 3.3 cm (stable). RECIST 1.1: sum of target lesions increased from 4.6 cm to 6.1 cm (new lung lesions added to target sum), representing 33% increase — PROGRESSIVE DISEASE by RECIST (new lesions). CEA: 142 ng/mL (rising from 79). CA 19-9: 108 U/mL (rising). Impression: Radiographic disease progression on maintenance therapy with new pulmonary metastatic disease. Clinical decision: Discontinue maintenance, initiate second-line therapy."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58 years (at time of progression, 10 months from diagnosis), the patient had a CT-guided biopsy of the right lower lobe pulmonary nodule. Specimen: lung core needle biopsy. Diagnosis: Metastatic adenocarcinoma, consistent with colorectal primary. Morphology: moderately differentiated glandular architecture with dirty necrosis. Immunohistochemistry: CK20 positive, CDX2 positive, CK7 negative, TTF-1 negative, SATB2 positive. Impression: Morphology and immunoprofile consistent with colorectal primary metastasis to lung. KRAS G12D confirmed by targeted PCR on lung biopsy tissue (concordant with primary)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (10 months from diagnosis), the patient had a multidisciplinary tumor board re-evaluation following documented disease progression. New pulmonary metastases confirmed as colorectal origin. Disease now stage IV with both hepatic and pulmonary metastases. ECOG PS 1. Discussion: patient progressed through oxaliplatin-based regimen (and oxaliplatin was discontinued for toxicity). Second-line options reviewed: FOLFIRI with either bevacizumab continuation (per TML/ML18147 data) or ramucirumab (per RAISE trial data). Given bevacizumab was used in first-line, options include ramucirumab (VEGFR-2 targeted antibody). KRAS G12D status precludes anti-EGFR therapy. No approved KRAS G12D-specific targeted therapy available outside clinical trial (note: MRTX1133 not yet approved). Enrollment in clinical trial discussed but patient declined. Decision: FOLFIRI plus ramucirumab per RAISE trial regimen. Cancer present, progression documented."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58-59 years (month 10 from diagnosis), the patient received second-line FOLFIRI (irinotecan 180 mg/m2 IV over 90 minutes day 1, leucovorin 400 mg/m2 IV day 1, 5-fluorouracil 400 mg/m2 IV bolus day 1, then 5-fluorouracil 2400 mg/m2 IV continuous infusion over 46 hours) plus ramucirumab 8 mg/kg IV day 1, every 2 weeks. Cycle 1 initiated. Pre-medications: ondansetron, dexamethasone, atropine (prophylactic). Baseline ECOG PS 1. UGT1A1 genotyping performed prior to irinotecan: patient is UGT1A1 *1/*28 (heterozygous), indicating intermediate irinotecan metabolizer — standard starting dose appropriate, monitor for toxicity."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59 years (approximately cycle 3 of FOLFIRI/ramucirumab, 6 weeks into second-line therapy), the patient developed grade 2 diarrhea — up to 6-7 loose stools per day, occurring in delayed fashion (days 2-5 post-infusion), consistent with irinotecan-related delayed diarrhea. Management: loperamide 4 mg at first loose stool, then 2 mg every 2 hours until 12 hours diarrhea-free per standard protocol. Irinotecan dose reduced to 150 mg/m2 (from 180 mg/m2) for subsequent cycles. Patient educated on hydration. Residual peripheral neuropathy continued to improve (now grade 1), gabapentin tapered."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59 years (cycle 5 of FOLFIRI/ramucirumab), the patient developed worsening hypertension grade 3 with blood pressure measurements of 174/108 mmHg on two separate readings, attributed to ramucirumab (anti-VEGFR-2 mechanism). Ramucirumab held for 1 cycle. Antihypertensive regimen intensified: lisinopril increased from 10 to 20 mg daily, amlodipine continued at 10 mg, added hydrochlorothiazide 12.5 mg daily. Cardiology co-management continued. Blood pressure responded to regimen intensification (142/88 mmHg). Ramucirumab resumed at full dose with close BP monitoring each cycle."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (after 4 cycles of FOLFIRI/ramucirumab, approximately 3 months into second-line therapy, 13 months from diagnosis), the patient had a CT CAP restaging scan, which showed cancer with mixed response/stable disease. Lung nodules: right lower lobe lesion stable at 1.1 cm, right upper lobe lesion stable at 0.7 cm (no new pulmonary nodules). Liver metastases: segment VI lesion 2.3 cm (down from 2.5 cm), segment IVa 1.1 cm (stable), segment II 0.7 cm (stable), segment VII 0.4 cm (stable). Primary sigmoid colon mass: 3.1 cm (stable). RECIST 1.1: sum of target lesions 5.7 cm (from 6.1 cm), representing 7% decrease — STABLE DISEASE (no PR threshold reached, no PD). CEA: 112 ng/mL (slight decrease from 142). CA 19-9: 94 U/mL. Impression: Disease stabilization on FOLFIRI/ramucirumab. Continue current regimen."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (approximately 14 months from diagnosis), the patient had an oncologist office assessment showing cancer present, with disease stable on FOLFIRI/ramucirumab. CEA 112 ng/mL (stable). Patient is managing reasonably well on second-line therapy. Neuropathy continues to improve (grade 1 now, intermittent tingling in feet only). Hypertension managed on triple antihypertensive regimen, BP controlled. Irinotecan-related diarrhea manageable with dose reduction and loperamide. Patient remains ECOG PS 1. Discussed prognosis and goals of care — patient wishes to continue active treatment, focused on quality of life and time with family. Palliative care consultation offered; patient agrees to outpatient palliative care involvement for symptom management co-management. Plan: continue FOLFIRI/ramucirumab, repeat imaging in 8 weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (approximately 17 months from diagnosis, 7 months into second-line therapy), the patient had a CT CAP restaging scan, which showed cancer with progressive disease. New findings: Three additional pulmonary nodules — left lower lobe 0.8 cm, right middle lobe 0.6 cm, left upper lobe (lingula) 0.5 cm. Existing lung nodules stable. Liver metastases: segment VI lesion increased to 2.9 cm (from 2.3 cm), new segment V lesion 0.8 cm. Segment IVa, II, VII stable. Primary sigmoid tumor: 3.4 cm (slight increase). RECIST 1.1: sum of target lesions increased from 5.7 cm to 8.5 cm (49% increase, including new lesions) — PROGRESSIVE DISEASE. CEA: 287 ng/mL (markedly rising). CA 19-9: 201 U/mL. Impression: Disease progression on FOLFIRI/ramucizumab with new pulmonary and hepatic lesions. Transition to third-line therapy indicated."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (17 months from diagnosis), the patient had an oncologist office assessment demonstrating disease progression on second-line FOLFIRI/ramucirumab. ECOG PS 2 (some fatigue and decreased activity, now spending >50% of waking hours ambulatory but with limitations). Discussed third-line options: regorafenib (standard third-line, CORRECT trial), TAS-102/trifluridine-tipiracil (RECOURSE trial), or combination TAS-102 plus bevacizumab (SUNLIGHT trial data). Clinical trial options re-discussed including KRAS G12D targeted therapies in development. Patient counseled on declining performance status and need to balance efficacy against quality of life. Patient and family express clear desire to continue treatment if tolerable. Plan: initiate TAS-102 (trifluridine/tipiracil) plus bevacizumab per SUNLIGHT regimen as third-line therapy. Cancer present, progression documented. Palliative care team actively involved."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 59 years (month 17 from diagnosis), the patient received third-line TAS-102 (trifluridine/tipiracil, Lonsurf) 35 mg/m2 orally twice daily with food on days 1-5 and 8-12 of each 28-day cycle, plus bevacizumab 5 mg/kg IV every 2 weeks (days 1 and 15 of each cycle), per the SUNLIGHT trial regimen. Cycle 1 initiated. Patient instructed on oral medication compliance. Antiemetic prophylaxis: ondansetron PRN. Complete blood count monitoring every 2 weeks given myelosuppression risk."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59 years (cycle 2 of TAS-102/bevacizumab), the patient developed grade 3 neutropenia (absolute neutrophil count 0.7 x10^9/L) on day 15 CBC check. No fever; no infectious symptoms. Management: TAS-102 dose held on days 8-12 of cycle 2. G-CSF (filgrastim) administered for 5 days. ANC recovered to 1.9 x10^9/L by day 22. TAS-102 dose reduced to 30 mg/m2 for cycle 3 per dose modification guidelines. No hospitalization required. Bevacizumab held pending ANC recovery."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (approximately 20 months from diagnosis, after 3 cycles of TAS-102/bevacizumab), the patient had a CT CAP restaging scan, which showed cancer with stable disease. Lung nodules: multiple bilateral nodules as previously documented, none significantly increased. Right lower lobe largest nodule 1.2 cm (minimally increased from 1.1 cm). Liver metastases: segment VI lesion 3.1 cm (slight increase from 2.9 cm); new segment V lesion 0.9 cm (from 0.8 cm). Sum of target lesions: 9.1 cm (from 8.5 cm at progression), representing 7% increase — borderline stable vs. minor progression (below 20% threshold for definitive PD by RECIST). CEA: 312 ng/mL (rising). CA 19-9: 245 U/mL. Impression: Disease marginally stable on TAS-102/bevacizumab; minimal interval change. Continue therapy; close monitoring. Disease trajectory concerning."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (approximately 21 months from initial diagnosis), the patient had an oncologist office assessment with palliative care co-management. Cancer present. Performance status declined to ECOG PS 2-3 — significant fatigue, decreased appetite, weight loss of 8 lbs over past 2 months, increased abdominal discomfort. Patient and family (wife and two adult children) present for goals-of-care discussion. Explored patient's values and wishes: patient desires to avoid hospitalization if possible, prioritizes time at home with family, agrees that quality of life is increasingly important relative to quantity of time. Decision: continue TAS-102/bevacizumab at reduced dose if tolerated; increase palliative care involvement; initiate formal advance care planning including POLST/MOLST completion. Discussed hospice as future option when no longer benefiting from treatment. Referred to clinical dietitian for nutritional support. Symptom management: prochlorperazine for nausea, methylphenidate 5 mg AM for fatigue, acetaminophen for abdominal discomfort. Cancer present, slow progression."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (approximately 23 months from diagnosis, after 5 cycles of TAS-102/bevacizumab), the patient had a CT CAP restaging scan, which showed cancer with progressive disease. Significant interval increase: liver metastases now extensive with segment VI lesion 4.2 cm, new lesions in segments III and VIII (1.4 cm and 1.1 cm respectively), total hepatic tumor burden increased substantially. Lung nodules: bilateral, now 6 nodules identified, multiple >1 cm. New small volume ascites. No brain metastases assessed. RECIST 1.1: progressive disease. CEA: 587 ng/mL (markedly elevated). CA 19-9: 412 U/mL. Impression: Significant multiorgan disease progression on third-line therapy. Patient now has hepatic, pulmonary, and peritoneal involvement."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (23 months from initial diagnosis), the patient had an oncologist and palliative care team joint assessment. Cancer present with progression through three lines of therapy. ECOG PS 3. Patient now with worsening fatigue, anorexia, early satiety, mild abdominal distension from ascites. Patient and family meeting conducted. After thorough discussion of disease trajectory, expected prognosis (weeks to months), goals of care, patient elected to transition to comfort-focused hospice care. All cytotoxic and targeted therapies discontinued. Enrolled in home hospice program. Symptom management plan: opioids for pain/dyspnea (low-dose morphine IR), lorazepam PRN for anxiety, haloperidol PRN for nausea, and continued dexamethasone 2 mg daily for appetite/energy. Goals: maintain comfort, maximize time at home with family, avoid invasive procedures. Primary oncologist to remain available for consultation. Last clinic visit with oncology team at this encounter."
+    }
+  ],
+  "scenario_index": 2,
+  "scenario_label": "crc_kras",
+  "scenario_blurb": "Stage IV colorectal cancer with KRAS G12D mutation and synchronous liver metastases in a 58-year-old male. Initial treatment with FOLFOX plus bevacizumab for 12 cycles with partial response, then maintenance 5-FU/bevacizumab. Progression at 10 months with new lung nodules, switched to FOLFIRI plus ramucirumab. Develops oxaliplatin neuropathy and treatment-related hypertension."
+}

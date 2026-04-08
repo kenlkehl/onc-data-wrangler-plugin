@@ -1,0 +1,116 @@
+{
+  "patient_id": "patient_e8618868a1b4",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 52-year-old female named Margaret Chen. She is a never-smoker with no significant alcohol use. She works as a high school music teacher. She has no family history of head and neck cancer. She is of Chinese-American ethnicity. Past medical history is notable for hypothyroidism managed with levothyroxine and seasonal allergic rhinitis."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 52 years, the patient received a diagnosis of Stage III (T2N1M0, AJCC 8th edition p16+ classification) SQUAMOUS CELL CARCINOMA, HPV-POSITIVE (p16+) of the BASE OF TONGUE (ICD-O site code C01.9, histology code 8070/3). The primary tumor measured 3.1 cm in greatest dimension at the base of tongue, right-sided, without extension beyond the oropharynx. A single ipsilateral right level II cervical lymph node measuring 2.4 cm was identified, without extranodal extension. No distant metastases were identified. Relevant biomarkers included p16 immunohistochemistry: STRONGLY POSITIVE (3+, >75% nuclear and cytoplasmic staining); HPV in situ hybridization: POSITIVE for high-risk HPV (type 16); Tumor grade: Moderately differentiated. Confirmation: POSITIVE HISTOLOGY via direct laryngoscopy and biopsy. The patient presented with a 3-month history of right-sided throat discomfort and mild odynophagia, initially attributed to reflux. Indirect laryngoscopy by ENT demonstrated a right base of tongue mass. Performance status ECOG 0."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 52 years, the patient had a pathology result of type ANATOMIC PATHOLOGY from a right base of tongue biopsy. Gross description: Multiple tan-pink irregular tissue fragments aggregating 1.2 cm. Microscopic findings: Invasive moderately differentiated squamous cell carcinoma with nested and sheet-like growth pattern. Tumor cells have abundant eosinophilic cytoplasm and pleomorphic nuclei with prominent nucleoli. Lymphovascular invasion: Not identified. Perineural invasion: Not identified. Margins: Not applicable (biopsy specimen). Immunohistochemistry: p16 (CINtec) POSITIVE, strong diffuse nuclear and cytoplasmic staining in >75% of tumor cells. HPV RNA ISH (RNAscope): POSITIVE, consistent with transcriptionally active HPV. Final diagnosis: Squamous cell carcinoma, HPV-associated (p16 positive), base of tongue."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52 years, the patient had a CT NECK WITH CONTRAST (diagnostic), which showed a 3.1 cm heterogeneously enhancing mass centered at the right base of tongue with involvement of the right glossoepiglottic fold. No extension into the vallecula, epiglottis, or pre-epiglottic space. A right level IIA cervical lymph node measuring 2.4 x 1.8 cm with internal heterogeneity suspicious for nodal metastasis. No radiographic evidence of extranodal extension. No contralateral adenopathy. Airway patent. Cancer present, locoregional disease only."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52 years, the patient had a PET/CT (FDG) WHOLE BODY for staging, which showed FDG-avid right base of tongue primary tumor (SUVmax 12.4, 3.1 cm). FDG-avid right level IIA lymph node (SUVmax 8.7, 2.4 cm). No FDG-avid lymph nodes below the clavicles. No FDG-avid pulmonary nodules. No hepatic, osseous, or other distant metastatic disease identified. Impression: Locoregional HPV-positive oropharyngeal squamous cell carcinoma, stage III (T2N1M0). No evidence of distant metastatic disease. Cancer present, locoregional only."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52 years, the patient had an MRI OROPHARYNX/NECK WITH AND WITHOUT CONTRAST for treatment planning, which showed a 3.0 cm T2-hyperintense, heterogeneously enhancing right base of tongue mass. Involvement of the right glossoepiglottic fold. No tongue base midline crossing. No pre-epiglottic space involvement. No involvement of the mandible, pterygoid musculature, or parapharyngeal space. Right level IIA lymph node 2.4 cm with irregular enhancement, no frank extranodal extension. Precise tumor volume delineation performed for IMRT planning. Cancer present."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 52 years, the patient had next generation sequencing performed for HPV-positive oropharyngeal squamous cell carcinoma based on a specimen obtained from the right base of tongue biopsy (primary tumor). Tumor mutational burden: 5 mutations/Mb (low). Microsatellite status: MSS (microsatellite stable). Actionable alterations: PIK3CA p.E545K mutation (variant allele frequency 28%, potentially actionable - PI3K pathway). Comutations of uncertain/low significance: FAT1 p.R1837* mutation (VAF 18%); KMT2D p.Q1389fs mutation (VAF 22%); NOTCH1 p.P2415fs mutation (VAF 15%); EP300 p.R240H mutation (VAF 12%). Copy number alterations: CCND1 focal gain (chromosome 11q13); FGFR1 low-level gain. No high-level amplifications identified. No CDKN2A deletion. No TP53 mutation (consistent with HPV-driven carcinogenesis; TP53 wild-type). No KRAS, HRAS, or NRAS mutations. No actionable fusions identified. HPV integration: Evidence of HPV-16 genomic integration detected by sequencing. PD-L1 expression (concurrent IHC): CPS 12 (Combined Positive Score). EGFR copy number: Polysomy, no high-level amplification. Note: TP53 wild-type status and PIK3CA E545K mutation are consistent with HPV-positive OPSCC genomic profile."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52 years, the patient had a multidisciplinary tumor board evaluation at the Head and Neck Oncology program. Attendance included radiation oncology, medical oncology, head and neck surgery, speech-language pathology, nutrition/dietetics, and dental oncology. Discussion: Patient presents with T2N1M0, p16-positive oropharyngeal SCC of the right base of tongue. Given HPV-positive status, excellent performance status (ECOG 0), and absence of adverse pathologic features, definitive concurrent chemoradiation with cisplatin was recommended as the standard of care approach. Primary surgical resection via TORS was discussed but not recommended given the node-positive disease and anticipated morbidity. De-escalation trial enrollment (e.g., lower-dose radiation to 60 Gy instead of standard 70 Gy) was considered but patient was not enrolled in a formal trial. Dental evaluation completed; one molar extraction required prior to radiation. Pre-treatment swallowing evaluation and baseline audiogram completed. PEG tube placement discussed as prophylactic option vs. as-needed; decision deferred with plan to reassess during treatment. Cancer present, no response assessment yet."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 52 years, the patient underwent pre-radiation DENTAL EXTRACTION of tooth #19 (lower left first molar) with evidence of significant periapical disease and deemed high risk for osteoradionecrosis if left in situ during radiation. Procedure performed by oral and maxillofacial surgery under local anesthesia without complication. Socket healing confirmed at 14-day follow-up prior to radiation start. A custom oral stent/tongue depressor device was also fabricated for radiation treatment positioning."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 52 years, the patient began definitive INTENSITY-MODULATED RADIATION THERAPY (IMRT) to the oropharynx and bilateral neck using a simultaneous integrated boost (SIB) technique. Planning target volumes: PTV_High (primary tumor and involved right level IIA node): 70 Gy in 35 fractions (2.0 Gy/fraction); PTV_Intermediate (high-risk elective bilateral neck, levels II-IV): 59.5 Gy in 35 fractions; PTV_Low (low-risk elective neck): 56 Gy in 35 fractions. Treatment delivered Monday through Friday, 5 days per week, over 7 weeks. Image guidance: daily cone-beam CT. Mean parotid dose: right 28 Gy, left 24 Gy (IMRT sparing technique employed). Concurrent systemic therapy: cisplatin 100 mg/m2 IV every 3 weeks (planned x2 cycles during radiation). Radiation oncologist: Dr. Jennifer Park. Simulation date preceded treatment start by 10 days."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52 years, the patient received cycle 1 of concurrent CISPLATIN 100 mg/m2 IV (actual dose 165 mg given BSA 1.65 m2) as part of definitive chemoradiation for HPV-positive oropharyngeal SCC. Pre-medications included ondansetron, dexamethasone, and aggressive IV hydration (2L NS). Granisetron patch applied for outpatient nausea prophylaxis. Baseline creatinine 0.8 mg/dL; GFR estimated at 88 mL/min. Concurrent with IMRT week 1. Administered without complication on day 1 of radiation. Planned 3-week cycles x2."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52 years (week 3 of chemoradiation), the patient developed GRADE 2 MUCOSITIS (CTCAE v5.0) involving the oropharynx and base of tongue. Symptoms included moderate pain rated 5/10, requiring scheduled acetaminophen and intermittent oxycodone. Oral rinses (magic mouthwash, sodium bicarbonate, and saline) initiated. Mild dysphagia to solids noted. Weight loss of 3 lbs from baseline (2% body weight). Nutritional counseling reinforced with high-calorie oral supplements. Patient still tolerating adequate oral intake. Radiation continued without interruption."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 52 years, the patient received cycle 2 of concurrent CISPLATIN 100 mg/m2 IV (day 22 of radiation, week 4 of IMRT). Creatinine stable at 0.9 mg/dL; GFR 82 mL/min (acceptable, full dose administered). Hearing screen: high-frequency audiogram showed no significant change from baseline. Nausea grade 1, managed with scheduled ondansetron. Patient noted increasing odynophagia and difficulty with solid foods. Dietitian engaged for nutritional monitoring. Weight now 4.5 lbs below baseline (3% total body weight loss). Administered with full dose without dose reduction."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52 years (week 5 of chemoradiation), the patient developed GRADE 3 MUCOSITIS (CTCAE v5.0). Findings included confluent pseudomembranous mucositis involving the entire oropharynx, soft palate, and posterior tongue. Pain rated 8/10 despite scheduled extended-release oxycodone and breakthrough immediate-release oxycodone. Severe odynophagia with near-inability to swallow liquids. Weight loss now 9 lbs from baseline (6% total body weight). Oral intake insufficient to meet nutritional needs (estimated <25% of daily caloric requirements). PERCUTANEOUS ENDOSCOPIC GASTROSTOMY (PEG) TUBE PLACED by gastroenterology at this time for nutritional support. Patient begun on tube feeding with Osmolite 1.5 at goal rate of 80 mL/hr x 14 hours overnight. Dermatitis grade 2 of the bilateral neck skin also noted (dry desquamation). Continued radiation without treatment break."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 52 years (week 5 of chemoradiation), the patient underwent PERCUTANEOUS ENDOSCOPIC GASTROSTOMY (PEG) TUBE PLACEMENT performed by gastroenterology under conscious sedation. Indication: Grade 3 radiation-induced mucositis with inability to maintain adequate oral caloric intake. Procedure performed without complications. 20 Fr PEG tube placed in appropriate position confirmed fluoroscopically. Tube feeds initiated at 6 hours post-procedure. Patient and family educated on PEG tube care, flushing, and administration of tube feeds and medications."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 52 years (week 6-7 of chemoradiation), the patient developed GRADE 2 RADIATION DERMATITIS involving bilateral anterior and posterior neck skin with moist desquamation in the skin folds bilaterally. Managed with aquaphor ointment, non-adherent dressings, and wound care nursing visits. Additionally, GRADE 1 XEROSTOMIA developed (persistent dry mouth) expected with parotid gland irradiation. Patient also developed GRADE 2 FATIGUE, managed with activity pacing and energy conservation strategies. No febrile neutropenia or hospital admission required during treatment. Radiation completed on schedule without any treatment interruptions. Total treatment time: 7 weeks (35 fractions completed). Cisplatin: 2 of 2 planned cycles completed at full dose."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52 years, the patient completed definitive concurrent chemoradiation (70 Gy IMRT + cisplatin x2 cycles) for HPV-positive right base of tongue SCC, T2N1M0. End-of-treatment assessment: Patient has completed full planned course of treatment. Grade 3 mucositis present at treatment completion but improving. PEG tube in place and being used exclusively for nutrition. Weight loss totaling 11 lbs (7.5% of baseline body weight) over course of treatment. Performance status ECOG 2 at end of treatment (limited due to mucositis, fatigue, and dysphagia). Plan: Serial oncologic surveillance imaging at 8-12 weeks post-treatment per NCCN guidelines (PET/CT preferred). Speech-language pathology for dysphagia rehabilitation. Continue PEG tube until adequate oral intake restored. Nephrology and audiology follow-up per cisplatin exposure. Return to clinic in 2 weeks for first post-treatment assessment."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52 years (6 weeks post-chemoradiation completion), the patient had an oncologist office visit. Interval improvement noted: mucositis grade 1 (mild residual erythema and tenderness). Pain now managed with scheduled acetaminophen only, narcotic discontinued. Patient beginning oral trials per speech-language pathology guidance - tolerating pureed foods and thin liquids. PEG tube still in place; approximately 50% of calories by tube, 50% oral. Weight stabilized, net loss 9 lbs from pre-treatment baseline. ECOG performance status 1. Xerostomia persisting, grade 1-2, using artificial saliva spray and sipping water frequently. Neck skin healed, residual hyperpigmentation. Cancer status: clinical exam shows marked regression of right base of tongue mass; no palpable cervical lymphadenopathy. Response to therapy: apparent response. Awaiting 12-week post-treatment PET/CT for definitive response assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 52 years (12 weeks post-completion of chemoradiation), the patient had a PET/CT (FDG) WHOLE BODY for post-treatment response assessment. Findings: No FDG-avid residual primary tumor at the right base of tongue (previously SUVmax 12.4; now no focal uptake above background, SUVmax 1.8 at site of primary). No FDG-avid cervical lymphadenopathy identified bilaterally. No new FDG-avid lesions in the chest, abdomen, or pelvis. Mild diffuse FDG uptake in the oropharynx consistent with post-radiation inflammation. No evidence of distant metastatic disease. IMPRESSION: COMPLETE METABOLIC RESPONSE to definitive chemoradiation. No evidence of residual or recurrent locoregional disease. No distant metastases. Cancer absent."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52 years (12 weeks post-chemoradiation), the patient had an oncologist office visit for post-treatment response assessment. PET/CT reviewed: COMPLETE RESPONSE confirmed. Clinical examination: no visible or palpable residual tumor at base of tongue on flexible nasopharyngoscopy; no palpable cervical lymphadenopathy. Patient counseled extensively on the excellent prognosis associated with HPV-positive OPSCC complete response after definitive chemoradiation (5-year OS >85% in this subgroup). Discussion of de-escalation: Patient not enrolled in adjuvant de-escalation trial. No adjuvant systemic therapy planned (standard of care is surveillance after complete response). Plan: Continue NCCN-guided surveillance per HPV-positive OPSCC protocol (H&P every 1-3 months for years 1-2, then every 2-6 months years 3-5, then annually after year 5). Consider PEG tube removal when oral intake adequate. Dental and speech-language pathology follow-up ongoing. Cancer absent, complete response to therapy."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 52 years (approximately 5 months post-chemoradiation completion), the patient underwent PERCUTANEOUS ENDOSCOPIC GASTROSTOMY (PEG) TUBE REMOVAL. Indication: Adequate oral caloric intake re-established; patient tolerating soft mechanical diet and thin liquids, meeting >85% of daily caloric needs orally. Weight recovering toward baseline (net loss now only 4 lbs from pre-treatment baseline). Procedure performed by gastroenterology in clinic by cutting and removing external bumper; internal bumper allowed to pass naturally. No complications. Patient to continue soft diet and follow up with speech-language pathology for ongoing dysphagia rehabilitation."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 52 years (6 months post-chemoradiation), the patient had a surveillance visit with medical oncology. The patient reports returning to work part-time as a music teacher. Diet advancing - tolerating soft mechanical diet, working toward regular diet. Xerostomia persisting (grade 1), using saliva substitutes and pilocarpine 5 mg TID with partial benefit. PEG tube removed 1 month ago. Weight within 2 lbs of pre-treatment baseline. Flexible nasopharyngoscopy: no visible tumor at base of tongue, mucosa healing well. No palpable cervical lymphadenopathy. Performance status ECOG 0. Cancer absent. No evidence of disease recurrence. Thyroid function: TSH mildly elevated at 5.8 mIU/L (likely radiation-induced hypothyroidism); levothyroxine dose increased. Reinforce sun protection for neck skin. Next surveillance imaging (CT neck with contrast) at 12 months post-treatment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53 years (12 months post-chemoradiation completion), the patient had a CT NECK WITH CONTRAST for surveillance. Findings: Post-radiation changes in the oropharynx including mucosal thickening and soft tissue stranding in the right base of tongue region, consistent with expected post-treatment sequelae. No discrete mass lesion or abnormal enhancement to suggest residual or recurrent primary tumor. Right level IIA region: small residual 0.8 cm lymph node with homogeneous enhancement, decreased from 2.4 cm at diagnosis, consistent with complete treatment response and post-treatment fibrosis. No new or enlarging cervical lymphadenopathy. No evidence of distant disease on chest/upper abdomen included cuts. IMPRESSION: No evidence of disease recurrence at 12-month post-treatment surveillance. Cancer absent."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 53 years (12 months post-chemoradiation), the patient had a surveillance visit. CT neck reviewed - no evidence of recurrence. Patient reports feeling well overall, returned to full-time teaching. Diet: tolerating regular diet with some limitations (avoids very dry/chewy foods due to xerostomia). Xerostomia grade 1 persisting, manageable. No significant trismus. Neck range of motion preserved with regular physical therapy exercises. No dysphagia at rest; mild effort dysphagia with large food boluses managed behaviorally. Audiogram: mild high-frequency sensorineural hearing loss (4-8 kHz) bilaterally, attributed to cisplatin, not requiring hearing aids at this time. Endocrinology: thyroid function normalized on adjusted levothyroxine dose. Cancer absent. Surveillance: continue per NCCN guidelines. Next visit in 3 months; imaging annually or as clinically indicated. Patient counseled on signs/symptoms of recurrence and to report promptly."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 53 years (18 months post-chemoradiation completion), the patient had a CT NECK WITH CONTRAST for surveillance. Findings: Stable post-radiation changes in the oropharynx. No new mass, abnormal enhancement, or FDG-avid lesion (PET not performed at this interval per clinical discretion). Bilateral cervical lymph nodes: no pathologically enlarged lymph nodes. Previously noted right level IIA lymph node now 0.6 cm, stable to decreased. No new chest, upper abdominal, or neck findings. IMPRESSION: No evidence of disease recurrence at 18-month post-treatment surveillance. Continued post-radiation changes stable. Cancer absent."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 53 years (18 months post-chemoradiation), the patient had a surveillance visit with medical oncology and radiation oncology co-management. No evidence of recurrence on latest imaging. Patient reports excellent quality of life. Xerostomia stable grade 1. No pain. No dysphagia with regular diet. Returned to full professional and social activities. Physical examination: Flexible nasopharyngoscopy by ENT demonstrates well-healed mucosa at the right base of tongue, no masses, no concerning lesions. Bilateral neck without adenopathy. Cancer absent. Late effects discussion: Patient counseled on risk of radiation-induced hypothyroidism (already managed), risk of carotid stenosis with ongoing surveillance, dental hygiene with fluoride trays daily. Ongoing monitoring of hearing recommended annually. No evidence of disease. Continue surveillance per NCCN HPV-positive oropharyngeal SCC guidelines."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 54 years (24 months post-chemoradiation), the patient had a 2-year surveillance visit. The patient remains well with no symptoms of disease recurrence. No new lymphadenopathy, no throat pain, no unexplained weight loss, no new neck masses. CT neck with contrast obtained and reviewed: no evidence of recurrent or new disease (stable post-radiation changes, no new lesions). Performance status ECOG 0. The patient is counseled that completing 2 years of disease-free follow-up represents a very favorable milestone for HPV-positive oropharyngeal SCC and that 5-year survival rates exceed 85% for her clinical subgroup. The patient reports interest in reducing surveillance visit frequency. Surveillance intervals adjusted per NCCN: visits every 2-6 months going forward (years 3-5). Patient counseled to report immediately if new neck mass, hemoptysis, or significant unexplained throat pain develops. Cancer absent. No evidence of disease at 24-month landmark."
+    }
+  ],
+  "scenario_index": 9,
+  "scenario_label": "hnscc_hpv",
+  "scenario_blurb": "HPV-positive (p16+) oropharyngeal squamous cell carcinoma (base of tongue) stage III (T2N1M0) in a 52-year-old nonsmoker. Treated with definitive concurrent cisplatin and intensity-modulated radiation therapy. Develops grade 3 mucositis and requires PEG tube for nutrition support. Achieves complete response. Post-treatment surveillance with consideration of de-escalation in the adjuvant setting."
+}
