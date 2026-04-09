@@ -285,10 +285,20 @@ You can run Claude Code itself against a local model, keeping all data — inclu
 claude --plugin-dir ./onc-data-wrangler-plugin
 ```
 
-### Install from GitHub
+### Install from the marketplace
 
 ```bash
-/plugin install owner/repo
+# Add the marketplace
+/plugin marketplace add kenlkehl/onc-data-wrangler-plugin
+
+# Install the plugin
+/plugin install onc-data-wrangler@onc-data-wrangler-marketplace
+```
+
+### Install directly from GitHub
+
+```bash
+/plugin install kenlkehl/onc-data-wrangler-plugin
 ```
 
 
