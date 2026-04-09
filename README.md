@@ -2,7 +2,7 @@
 
 A Claude Code plugin for oncology data wrangling and analysis: extracting structured data from clinical notes, building privacy-preserving DuckDB databases, querying cohorts, and reproducing published paper results.
 
-> **Do not send real Protected Health Information (PHI) to any LLM endpoint that is not covered by an institutional Business Associate Agreement (BAA).** Cloud LLM APIs — including the Anthropic API, OpenAI API, Google Vertex/AI Studio, and Azure OpenAI — are **not** BAA-covered by default. If you are working with real patient data, use a locally hosted model (see [Running with a Local Model](#running-with-a-local-model)) or confirm that your institution has a signed BAA with the provider **and** that the specific endpoint you are using is within scope. When in doubt, treat the data as PHI and keep it on-premises.
+> **Do not send real Protected Health Information (PHI) to any LLM endpoint that is not covered by an institutional Business Associate Agreement (BAA)!** Cloud LLM APIs — including the Anthropic API, OpenAI API, Google Vertex/AI Studio, and Azure OpenAI — are **not** BAA-covered by default. If you are working with real patient data, use a locally hosted model (see [Running with a Local Model](#running-with-a-local-model)) or confirm that your institution has a signed BAA with the provider **and** that the specific endpoint you are using is within scope. When in doubt, treat the data as PHI and keep it on-premises. You take all responsibility for where you are sending data; if in doubt about your configuration, do not use!
 
 ## Example Synthetic Data
 

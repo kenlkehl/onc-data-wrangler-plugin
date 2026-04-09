@@ -62,6 +62,7 @@ class DataCategory:
     items: List[DataItem]
     context: str = ""
     per_diagnosis: bool = False
+    multi_instance: bool = False
 
 
 # ---------------------------------------------------------------------------
@@ -96,6 +97,7 @@ def _parse_category(raw: dict) -> DataCategory:
         description=raw.get("description", ""),
         items=items,
         per_diagnosis=raw.get("per_diagnosis", False),
+        multi_instance=raw.get("multi_instance", False),
     )
 
 

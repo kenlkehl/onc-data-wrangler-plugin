@@ -66,6 +66,39 @@ class SchemaBuilder:
             f"Expected fields:\n{fields_block}"
         )
 
+    def build_multi_instance_format_instructions(
+        self,
+        items: list[Any],
+        code_resolver: Any,
+    ) -> str:
+        """Generate prompt text for multi_instance extraction (array output).
+
+        Same field descriptions as single-instance, but instructs the LLM
+        to return a JSON array of objects.
+        """
+        field_lines: list[str] = []
+        for item in items:
+            field_name = self._field_name(item)
+            desc = self._field_description(item, code_resolver)
+            field_lines.append(f'- "{field_name}": {desc}')
+
+        fields_block = "\n".join(field_lines)
+
+        return (
+            "Respond with a JSON ARRAY of objects. Each object represents one instance "
+            "(e.g., one treatment regimen, one assessment timepoint).\n"
+            "For each instance, provide an object with these fields. "
+            "For each field, provide:\n"
+            '  "value": the extracted value (use valid codes listed below),\n'
+            '  "confidence": a float 0.0-1.0 indicating extraction confidence,\n'
+            '  "evidence": a short quote (max 200 chars) from the text supporting the value.\n'
+            "\n"
+            "If information is not found for a field, set value to \"unknown\" and confidence to 0.0.\n"
+            "Return an empty array [] if no instances are found.\n"
+            "\n"
+            f"Fields per instance:\n{fields_block}"
+        )
+
     def build_simple_schema(self, fields: dict[str, dict]) -> dict:
         """Build a JSON schema dict for simple extractions."""
         return {

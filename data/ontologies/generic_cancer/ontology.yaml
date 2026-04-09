@@ -125,6 +125,7 @@ categories:
       MRD status, serum markers (M-protein, free light chains, beta-2
       microglobulin, LDH), and blast percentage.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: biomarker_type
         name: Biomarker Type
@@ -159,6 +160,7 @@ categories:
       Systemic therapy regimens administered to the patient. Only extract
       regimens actually administered, not discussed options.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: regimen_drug_list
         name: Regimen Drug List
@@ -188,6 +190,7 @@ categories:
       malignancies, include hematopoietic stem cell transplant (HSCT) here
       as well as in the dedicated transplant category.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: surgery_type
         name: Surgery Type
@@ -214,6 +217,7 @@ categories:
       patients who received HSCT (autologous or allogeneic). Leave this
       category empty for patients who did not receive transplant.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: transplant_type
         name: Transplant Type
@@ -255,6 +259,7 @@ categories:
     name: Cancer Radiation Therapy
     description: "Radiation therapy courses administered to the patient."
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: radiation_type
         name: Radiation Type
@@ -288,6 +293,7 @@ categories:
       response), PR (partial response), sCR (stringent complete response),
       MRD-negative, stable disease, progressive disease, relapse.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: burden_assessor_type
         name: Burden Assessor Type

@@ -99,6 +99,7 @@ categories:
       Cancer biomarker testing results. Note that EGFR should only refer to an
       EGFR mutation, not estimated GFR (which is kidney function).
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: biomarker_type
         name: Biomarker Type
@@ -122,6 +123,7 @@ categories:
       Systemic therapy regimens administered to the patient. Only extract
       regimens actually administered, not discussed options.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: regimen_drug_list
         name: Regimen Drug List
@@ -148,6 +150,7 @@ categories:
     name: Cancer Surgery
     description: "Cancer surgical procedures performed on the patient."
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: surgery_type
         name: Surgery Type
@@ -184,6 +187,7 @@ categories:
     name: Cancer Radiation Therapy
     description: "Radiation therapy courses administered to the patient."
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: radiation_type
         name: Radiation Type
@@ -213,6 +217,7 @@ categories:
       only be called if the tumor is growing. If burden_type is cancer_site, add
       another cancer_site subfield to specify the location.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: burden_assessor_type
         name: Burden Assessor Type

@@ -218,6 +218,7 @@ categories:
     name: Cancer-Directed Regimen Dataset
     description: "Treatment regimens linked to cancers by ca_seq"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: ca_seq
         name: Cancer Sequence
@@ -299,6 +300,7 @@ categories:
     name: Medical Oncologist Assessment Dataset
     description: "Longitudinal medical oncologist assessments"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: ca_seq
         name: Cancer Sequence
@@ -324,4 +326,217 @@ categories:
         name: ECOG
         description: "ECOG performance status (0-4)"
         data_type: integer
+        length: null
+
+  - id: pathology_report
+    name: Pathology Report Dataset
+    description: "Pathology reports (surgical pathology, biopsy, cytology)"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer this report pertains to"
+        data_type: integer
+        length: null
+      - id: path_report_type
+        name: Report Type
+        description: "surgical_pathology, core_biopsy, fine_needle_aspirate, cytology, bone_marrow_biopsy"
+        data_type: string
+        length: null
+      - id: path_dx_days
+        name: Days from Diagnosis
+        description: "Days from cancer diagnosis to pathology report"
+        data_type: integer
+        length: null
+      - id: path_histology
+        name: Histologic Diagnosis
+        description: "Histologic diagnosis from pathology report"
+        data_type: string
+        length: null
+      - id: path_grade
+        name: Tumor Grade
+        description: "Histologic grade (e.g., well/moderately/poorly differentiated, Grade 1-3, Gleason)"
+        data_type: string
+        length: null
+      - id: path_margins
+        name: Surgical Margins
+        description: "Margin status: positive, negative, close"
+        data_type: string
+        length: null
+      - id: path_lvi
+        name: Lymphovascular Invasion
+        description: "Lymphovascular invasion present/absent"
+        data_type: string
+        length: null
+      - id: path_pni
+        name: Perineural Invasion
+        description: "Perineural invasion present/absent"
+        data_type: string
+        length: null
+      - id: path_tumor_size_cm
+        name: Tumor Size (cm)
+        description: "Greatest dimension of tumor in cm"
+        data_type: float
+        length: null
+      - id: path_nodes_positive
+        name: Nodes Positive
+        description: "Number of positive lymph nodes"
+        data_type: integer
+        length: null
+      - id: path_nodes_examined
+        name: Nodes Examined
+        description: "Total number of lymph nodes examined"
+        data_type: integer
+        length: null
+
+  - id: genomic_test
+    name: Genomic Testing Dataset
+    description: "NGS panels, molecular testing, and genomic profiling results"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer this test pertains to"
+        data_type: integer
+        length: null
+      - id: ngs_dx_days
+        name: Days from Diagnosis
+        description: "Days from cancer diagnosis to genomic test"
+        data_type: integer
+        length: null
+      - id: ngs_panel
+        name: Panel Name
+        description: "Name of NGS panel or test (e.g., FoundationOne CDx, MSK-IMPACT, Tempus xT, Guardant360)"
+        data_type: string
+        length: null
+      - id: ngs_specimen_type
+        name: Specimen Type
+        description: "tissue, liquid_biopsy, bone_marrow"
+        data_type: string
+        length: null
+      - id: ngs_tmb
+        name: Tumor Mutational Burden
+        description: "TMB score (mutations/Mb)"
+        data_type: float
+        length: null
+      - id: ngs_msi_status
+        name: MSI Status
+        description: "MSI-H (high), MSS (stable), MSI-L (low)"
+        data_type: string
+        length: null
+      - id: ngs_mutations
+        name: Key Mutations
+        description: "Comma-separated list of key mutations found (e.g., EGFR L858R, KRAS G12C, TP53 R175H)"
+        data_type: string
+        length: null
+      - id: ngs_fusions
+        name: Fusions/Rearrangements
+        description: "Comma-separated list of fusions found (e.g., ALK-EML4, ROS1-CD74, RET-KIF5B)"
+        data_type: string
+        length: null
+      - id: ngs_amplifications
+        name: Amplifications
+        description: "Comma-separated list of amplified genes (e.g., HER2, MET, FGFR2)"
+        data_type: string
+        length: null
+      - id: ngs_pdl1_tps
+        name: PD-L1 TPS
+        description: "PD-L1 Tumor Proportion Score (%) if reported"
+        data_type: string
+        length: null
+      - id: ngs_pdl1_cps
+        name: PD-L1 CPS
+        description: "PD-L1 Combined Positive Score if reported"
+        data_type: string
+        length: null
+
+  - id: imaging
+    name: Imaging Study Dataset
+    description: "Imaging studies and their key findings"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer this imaging pertains to"
+        data_type: integer
+        length: null
+      - id: img_dx_days
+        name: Days from Diagnosis
+        description: "Days from cancer diagnosis to imaging study"
+        data_type: integer
+        length: null
+      - id: img_modality
+        name: Imaging Modality
+        description: "CT, MRI, PET-CT, ultrasound, X-ray, bone_scan"
+        data_type: string
+        length: null
+      - id: img_body_region
+        name: Body Region
+        description: "Body region imaged (e.g., chest, abdomen_pelvis, brain, whole_body)"
+        data_type: string
+        length: null
+      - id: img_overall_assessment
+        name: Overall Assessment
+        description: "response, stable, progression, mixed"
+        data_type: string
+        length: null
+      - id: img_target_lesion_response
+        name: Target Lesion Response
+        description: "RECIST assessment of target lesions if applicable (CR, PR, SD, PD)"
+        data_type: string
+        length: null
+      - id: img_new_lesions
+        name: New Lesions
+        description: "Yes/No — whether new lesions were identified"
+        data_type: string
+        length: null
+      - id: img_sites_of_disease
+        name: Sites of Disease
+        description: "Comma-separated list of disease sites seen on imaging"
+        data_type: string
+        length: null
+
+  - id: radiation
+    name: Radiation Therapy Dataset
+    description: "Radiation therapy courses"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: ca_seq
+        name: Cancer Sequence
+        description: "Cancer this radiation treats"
+        data_type: integer
+        length: null
+      - id: rt_dx_days
+        name: Days from Diagnosis
+        description: "Days from cancer diagnosis to radiation start"
+        data_type: integer
+        length: null
+      - id: rt_modality
+        name: Radiation Modality
+        description: "external_beam, SBRT, SRS, brachytherapy, proton, TBI"
+        data_type: string
+        length: null
+      - id: rt_site
+        name: Radiation Site
+        description: "Anatomical site treated"
+        data_type: string
+        length: null
+      - id: rt_dose_cgy
+        name: Total Dose (cGy)
+        description: "Total radiation dose in cGy"
+        data_type: float
+        length: null
+      - id: rt_fractions
+        name: Number of Fractions
+        description: "Total number of fractions"
+        data_type: integer
+        length: null
+      - id: rt_intent
+        name: Radiation Intent
+        description: "Curative/Definitive, Adjuvant, Palliative, Consolidative"
+        data_type: string
         length: null

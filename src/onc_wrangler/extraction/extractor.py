@@ -247,7 +247,7 @@ class Extractor:
         ct = cancer_type or self.cancer_type
 
         # Reconstruct multi-diagnosis state from prior running output
-        patient_state, diagnosis_states, discovered = self._list_to_internal_multi(running)
+        patient_state, diagnosis_states, discovered, multi_instance_data = self._list_to_internal_multi(running)
 
         # --- Phase 1: Diagnosis discovery (first chunk only) ---
         if not discovered:
@@ -318,25 +318,48 @@ class Extractor:
                         # _build_system_prompt can substitute it
                         context["tumor_context"] = tumor_context
 
-                        group_results = self._extract_domain_group(
-                            group=group,
-                            chunk_text=chunk_text,
-                            internal_state=diag_state,
-                            ont=self._ontologies[oid],
-                            oid=oid,
-                            resolver=resolver,
-                            item_registry=item_registry,
-                            context=context,
-                            chunk_index=chunk_index,
-                            total_chunks=total_chunks,
-                            max_tokens=max_tokens,
-                            max_retries=max_retries,
-                            tumor_context=tumor_context,
-                        )
-                        # Tag results with tumor_index
-                        for r in group_results:
-                            r.tumor_index = tidx
-                        diag_state = merge_results(diag_state, group_results)
+                        if group.multi_instance:
+                            # Multi-instance extraction (e.g. regimens, assessments)
+                            instances = self._extract_multi_instance_group(
+                                group=group,
+                                chunk_text=chunk_text,
+                                ont=self._ontologies[oid],
+                                oid=oid,
+                                resolver=resolver,
+                                item_registry=item_registry,
+                                context=context,
+                                chunk_index=chunk_index,
+                                total_chunks=total_chunks,
+                                max_tokens=max_tokens,
+                                max_retries=max_retries,
+                                tumor_context=tumor_context,
+                            )
+                            mi_key = f"{tidx}_{group.group_id}"
+                            if instances:
+                                # On later chunks, append to existing instances
+                                existing = multi_instance_data.get(mi_key, [])
+                                existing.extend(instances)
+                                multi_instance_data[mi_key] = existing
+                        else:
+                            group_results = self._extract_domain_group(
+                                group=group,
+                                chunk_text=chunk_text,
+                                internal_state=diag_state,
+                                ont=self._ontologies[oid],
+                                oid=oid,
+                                resolver=resolver,
+                                item_registry=item_registry,
+                                context=context,
+                                chunk_index=chunk_index,
+                                total_chunks=total_chunks,
+                                max_tokens=max_tokens,
+                                max_retries=max_retries,
+                                tumor_context=tumor_context,
+                            )
+                            # Tag results with tumor_index
+                            for r in group_results:
+                                r.tumor_index = tidx
+                            diag_state = merge_results(diag_state, group_results)
                     except Exception:
                         logger.exception(
                             "Error in diagnosis %d group %s/%s",
@@ -346,7 +369,7 @@ class Extractor:
             diagnosis_states[tidx] = diag_state
 
         # Convert back to list[dict] format
-        return self._internal_to_list_multi(patient_state, diagnosis_states, discovered)
+        return self._internal_to_list_multi(patient_state, diagnosis_states, discovered, multi_instance_data)
 
     def extract_iterative(
         self,
@@ -432,6 +455,129 @@ class Extractor:
                 )
 
         return all_results
+
+    def _extract_multi_instance_group(
+        self,
+        group: DomainGroup,
+        chunk_text: str,
+        ont: Any,
+        oid: str,
+        resolver: Any,
+        item_registry: dict[str, Any],
+        context: dict[str, str],
+        chunk_index: int,
+        total_chunks: int,
+        max_tokens: Optional[int],
+        max_retries: int,
+        tumor_context: str = "",
+    ) -> list[dict[str, str]]:
+        """Extract multiple instances of a domain group (e.g. regimens).
+
+        Returns a list of dicts, each representing one instance with
+        resolved field values.
+        """
+        # Resolve items
+        if oid == "naaccr":
+            items = self._resolve_naaccr_items(group, item_registry)
+        else:
+            items = self._resolve_generic_items(group, item_registry)
+
+        if not items:
+            return []
+
+        # Build multi-instance JSON format instructions
+        json_instructions = self._schema_builder.build_multi_instance_format_instructions(
+            items, resolver,
+        )
+
+        # Build system prompt
+        system_prompt = self._build_system_prompt(group, json_instructions, context)
+
+        # Build user prompt (no prior state for multi-instance)
+        user_prompt = CHUNK_USER_TEMPLATE.format(
+            first_date="",
+            last_date="",
+            chunk_text=chunk_text,
+            tumor_context=tumor_context,
+            prior_state_block="Extract ALL instances found in the text.",
+            json_field_descriptions=json_instructions,
+        )
+
+        # Call LLM with retry
+        parsed = None
+        full_prompt = system_prompt + "\n\n" + user_prompt
+        for attempt in range(max_retries):
+            try:
+                response = self.llm_client.generate_structured(
+                    full_prompt, max_tokens=max_tokens or 8000,
+                )
+                parsed = parse_json_list(response.text)
+                if parsed is not None:
+                    break
+                # Maybe it returned a single object instead of array
+                obj = parse_json_object(response.text)
+                if obj is not None:
+                    parsed = [obj]
+                    break
+                logger.warning(
+                    "Multi-instance group %s JSON parse failed (attempt %d/%d)",
+                    group.group_id, attempt + 1, max_retries,
+                )
+                failed_text = response.text[:2000] if len(response.text) > 2000 else response.text
+                full_prompt = (
+                    system_prompt + "\n\n" + user_prompt
+                    + "\n\n--- PREVIOUS ATTEMPT FAILED ---\n"
+                    "Your previous response could not be parsed as valid JSON array. "
+                    "Here is what you returned:\n\n"
+                    + failed_text
+                    + "\n\nPlease try again and return ONLY a valid JSON array of objects."
+                )
+            except Exception:
+                logger.exception(
+                    "Multi-instance group %s LLM call failed (attempt %d/%d)",
+                    group.group_id, attempt + 1, max_retries,
+                )
+
+        if not parsed:
+            return []
+
+        # Build field_name -> item lookup
+        field_map: dict[str, Any] = {}
+        for item in items:
+            pfn = self._schema_builder._field_name(item)
+            field_map[pfn] = item
+
+        # Process each instance
+        instances: list[dict[str, str]] = []
+        for instance_data in parsed:
+            if not isinstance(instance_data, dict):
+                continue
+            row: dict[str, str] = {}
+            for field_name, payload in instance_data.items():
+                if field_name.startswith("_"):
+                    continue
+                item = field_map.get(field_name)
+                if item is None:
+                    continue
+
+                if not isinstance(payload, dict):
+                    payload = {"value": str(payload), "confidence": 0.5, "evidence": ""}
+
+                raw_value = str(payload.get("value", "")).strip()
+                if not raw_value:
+                    continue
+
+                field_id = self._get_field_id(item)
+                resolved_code, _ = resolver.resolve(field_id, raw_value)
+                row[field_name] = resolved_code
+            if row:
+                instances.append(row)
+
+        logger.info(
+            "Multi-instance group %s: extracted %d instances",
+            group.group_id, len(instances),
+        )
+        return instances
 
     def _extract_batch(
         self,
@@ -876,14 +1022,16 @@ class Extractor:
         dict[str, ExtractionResult],        # patient_state
         dict[int, dict[str, ExtractionResult]],  # diagnosis_states
         list[DiagnosisInfo],                # discovered diagnoses
+        dict[str, list[dict[str, str]]],    # multi_instance_data
     ]:
         """Reconstruct multi-diagnosis state from the list[dict] output format."""
         patient_state: dict[str, ExtractionResult] = {}
         diagnosis_states: dict[int, dict[str, ExtractionResult]] = {}
         discovered: list[DiagnosisInfo] = []
+        multi_instance_data: dict[str, list[dict[str, str]]] = {}
 
         if not running:
-            return patient_state, diagnosis_states, discovered
+            return patient_state, diagnosis_states, discovered, multi_instance_data
 
         for entry in running:
             if not isinstance(entry, dict):
@@ -893,6 +1041,13 @@ class Extractor:
             if "_discovered_diagnoses" in entry:
                 for d in entry["_discovered_diagnoses"]:
                     discovered.append(DiagnosisInfo.from_dict(d))
+                continue
+
+            # Multi-instance data (regimens, assessments, etc.)
+            if "_multi_instance" in entry:
+                for mi_key, instances in entry["_multi_instance"].items():
+                    if isinstance(instances, list):
+                        multi_instance_data[mi_key] = instances
                 continue
 
             # Multi-diagnosis metadata
@@ -949,13 +1104,14 @@ class Extractor:
                         pass_number=0,
                     )
 
-        return patient_state, diagnosis_states, discovered
+        return patient_state, diagnosis_states, discovered, multi_instance_data
 
     def _internal_to_list_multi(
         self,
         patient_state: dict[str, ExtractionResult],
         diagnosis_states: dict[int, dict[str, ExtractionResult]],
         discovered: list[DiagnosisInfo],
+        multi_instance_data: dict[str, list[dict[str, str]]] | None = None,
     ) -> list[dict]:
         """Convert multi-diagnosis state to list[dict] for checkpointing.
 
@@ -967,6 +1123,9 @@ class Extractor:
                     {"tumor_index": 0, oid: {field: value}},
                     {"tumor_index": 1, oid: {field: value}},
                 ]},
+                {"_multi_instance": {
+                    "0_regimen": [{field: value}, ...],
+                }},
                 {"_extraction_results": {
                     "patient": {fid: result_dict, ...},
                     "diagnosis_0": {fid: result_dict, ...},
@@ -999,6 +1158,10 @@ class Extractor:
             diag_entry.update(by_ont)
             diagnoses_list.append(diag_entry)
         output.append({"_diagnoses": diagnoses_list})
+
+        # Multi-instance data (regimens, assessments, etc.)
+        if multi_instance_data:
+            output.append({"_multi_instance": multi_instance_data})
 
         # Metadata for round-trip
         metadata: dict[str, dict[str, dict]] = {}

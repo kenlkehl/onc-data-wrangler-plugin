@@ -17,6 +17,7 @@ categories:
       use RECIST 1.1 criteria; for hematologic malignancies use disease-specific
       criteria (IMWG for myeloma, Lugano for lymphoma, ELN for AML).
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: best_overall_response
         name: Best Overall Response
@@ -84,6 +85,7 @@ categories:
     description: >-
       Reason and timing of treatment discontinuation for each treatment line.
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: discontinuation_reason
         name: Discontinuation Reason

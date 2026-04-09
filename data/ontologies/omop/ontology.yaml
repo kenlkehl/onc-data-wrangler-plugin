@@ -111,6 +111,7 @@ categories:
     name: "Episode (Oncology Extension)"
     description: "Disease and treatment episodes"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: episode_id
         name: Episode ID
@@ -152,6 +153,7 @@ categories:
     name: Drug Exposure
     description: "Cancer treatments (chemotherapy, immunotherapy, targeted therapy)"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: drug_concept_id
         name: Drug Concept ID
@@ -188,6 +190,7 @@ categories:
     name: Procedure Occurrence
     description: "Surgical and diagnostic procedures"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: procedure_concept_id
         name: Procedure Concept ID
@@ -214,6 +217,7 @@ categories:
     name: Measurement
     description: "Labs, tumor markers, biomarkers"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: measurement_concept_id
         name: Measurement Concept ID

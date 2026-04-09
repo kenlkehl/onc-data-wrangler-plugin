@@ -508,8 +508,9 @@ class CheckpointManager:
     def _build_structured_output(self, final_extractions: dict[str, list]) -> pd.DataFrame:
         """Build output for structured JSON extractions.
 
-        Handles both multi-diagnosis format (with ``_diagnoses`` key) and
-        legacy single-diagnosis format.
+        Handles multi-diagnosis format (with ``_diagnoses`` key),
+        multi-instance format (with ``_multi_instance`` key for regimens etc.),
+        and legacy single-diagnosis format.
         """
         rows = []
         for patient_id, extraction in final_extractions.items():
@@ -533,6 +534,30 @@ class CheckpointManager:
                                 "category": category,
                             }
                             for k, v in attrs.items():
+                                if isinstance(v, list):
+                                    row[k] = "; ".join(str(item) for item in v)
+                                else:
+                                    row[k] = v
+                            rows.append(row)
+                    continue
+
+                # Multi-instance: one row per instance (regimens, assessments)
+                if "_multi_instance" in ext:
+                    for mi_key, instances in ext["_multi_instance"].items():
+                        # mi_key format: "{tumor_index}_{group_id}"
+                        parts = mi_key.split("_", 1)
+                        tumor_idx = int(parts[0]) if parts[0].isdigit() else 0
+                        category = parts[1] if len(parts) > 1 else mi_key
+                        for instance_idx, instance in enumerate(instances):
+                            if not isinstance(instance, dict):
+                                continue
+                            row = {
+                                "patient_id": patient_id,
+                                "tumor_index": tumor_idx,
+                                "category": category,
+                                "instance_index": instance_idx,
+                            }
+                            for k, v in instance.items():
                                 if isinstance(v, list):
                                     row[k] = "; ".join(str(item) for item in v)
                                 else:

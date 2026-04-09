@@ -156,6 +156,7 @@ categories:
     name: Sample Summary
     description: "Sample-level clinical and genomic attributes"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: sample_id
         name: Sample ID
@@ -273,6 +274,7 @@ categories:
     name: Anti-Cancer Medications
     description: "Timeline of anti-cancer medications"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: start_date
         name: Start Date
@@ -304,6 +306,7 @@ categories:
     name: Radiation Therapy
     description: "Timeline of radiation treatments"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: start_date
         name: Start Date
@@ -340,6 +343,7 @@ categories:
     name: Surgery and IR
     description: "Timeline of surgical and IR procedures"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: procedure_date
         name: Procedure Date
@@ -366,6 +370,7 @@ categories:
     name: Cancer Progression
     description: "NLP-derived cancer progression events from radiology"
     per_diagnosis: true
+    multi_instance: true
     items:
       - id: progression_date
         name: Progression Date

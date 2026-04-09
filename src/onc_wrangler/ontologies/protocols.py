@@ -121,3 +121,4 @@ class DomainGroup:
     context_keys: list[str] = field(default_factory=list)
     is_narrative: bool = False
     dynamic: bool = False  # True if field_ids are determined at runtime (e.g. staging)
+    multi_instance: bool = False  # True for categories with multiple rows (e.g. regimens)

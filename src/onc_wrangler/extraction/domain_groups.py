@@ -286,6 +286,28 @@ cancers the patient may have.
 {json_format_instructions}"""
 
 
+GENERIC_MULTI_INSTANCE_SYSTEM_PROMPT = """\
+You are a clinical data extraction system specializing in structured data extraction \
+from clinical notes. Extract ALL instances of {domain_name} data.
+
+{domain_context}
+
+RULES:
+1. Extract ONLY what is explicitly stated in the text. Do not infer.
+2. Return a JSON ARRAY of objects. Each object represents one instance \
+(e.g., one treatment regimen or one assessment timepoint).
+3. Extract ALL instances mentioned in the text, not just the first or most recent.
+4. For each field in each instance, include "value", "confidence" (0.0-1.0), \
+and "evidence" (short quote, max 200 chars).
+5. Use valid codes when provided. If not found, use "unknown" and confidence 0.0.
+6. Order instances chronologically when possible.
+7. MULTI-DIAGNOSIS: When a tumor_context is provided, extract ONLY instances \
+pertaining to that specific diagnosis. Do not conflate data from different \
+cancers the patient may have.
+
+{json_format_instructions}"""
+
+
 # ---------------------------------------------------------------------------
 # Helper: build prior state block from generalized ExtractionResult
 # ---------------------------------------------------------------------------
@@ -595,13 +617,15 @@ def build_generic_domain_groups_multi(ontology: Any) -> tuple[list[DomainGroup],
             fid = getattr(item, "json_field", None) or getattr(item, "id", None) or item.name
             field_ids.append(fid)
 
+        is_multi = getattr(cat, "multi_instance", False)
         group = DomainGroup(
             group_id=cat.id,
             name=cat.name,
             field_ids=field_ids,
-            system_prompt_template=GENERIC_DOMAIN_SYSTEM_PROMPT,
+            system_prompt_template=GENERIC_MULTI_INSTANCE_SYSTEM_PROMPT if is_multi else GENERIC_DOMAIN_SYSTEM_PROMPT,
             depends_on=[],
             context_keys=[],
+            multi_instance=is_multi,
         )
 
         if getattr(cat, "per_diagnosis", False):
