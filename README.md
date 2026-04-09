@@ -1,8 +1,8 @@
 # onc-data-wrangler
 
-A Claude Code plugin for oncology data wrangling and analysis: extracting structured data from clinical notes, building privacy-preserving DuckDB databases, querying cohorts, and reproducing published paper results.
+A Claude Code plugin for oncology data wrangling and analysis. Core skills include extracting structured data from clinical documents, wrangling tabular structured data and extractions from documents into a relational SQL (DuckDB) database, deriving a "one-row-per-patient" analysis table from such a database, and running statistical analyses. Additional features include generating syntehtic clinical data, "red-teaming" a coding harness + LLM combination to evaluate its propensity to exfiltrate clinical data, and reproducing published paper results.
 
-> **Do not send real Protected Health Information (PHI) to any LLM endpoint that is not covered by an institutional Business Associate Agreement (BAA)!** Cloud LLM APIs — including the Anthropic API, OpenAI API, Google Vertex/AI Studio, and Azure OpenAI — are **not** BAA-covered by default. If you are working with real patient data, use a locally hosted model (see [Running with a Local Model](#running-with-a-local-model)) or confirm that your institution has a signed BAA with the provider **and** that the specific endpoint you are using is within scope. When in doubt, treat the data as PHI and keep it on-premises. You take all responsibility for where you are sending data; if in doubt about your configuration, do not use!
+> **Do not send real Protected Health Information (PHI) to any LLM endpoint that is not covered by an institutional Business Associate Agreement (BAA)!** Cloud LLM APIs — including the Anthropic API, OpenAI API, Google Vertex/AI Studio, and Azure OpenAI — are **not** BAA-covered by default. If you are working with real patient data, use a locally hosted model (see [Running with a Local Model](#running-with-a-local-model)) or confirm that your institution has a signed BAA with the provider **and** that the specific endpoint you are using is within scope. When in doubt, treat the data as PHI and keep it on-premises. Many institutions also have policies governing where research or other proprietary data can be sent, even if they do not contain PHI. You take all responsibility for where you are sending data; if in doubt about your configuration, do not use!
 
 ## Example Synthetic Data
 
@@ -13,7 +13,7 @@ The repository includes a set of pre-generated synthetic clinical data in `examp
 - **`structured/`** — Per-patient structured data (encounters, labs, medications, hospitalizations, patient-reported outcomes)
 - **`tables/`** — Combined CSVs (encounters, labs, medications, hospitalizations, PROs) with `scenario_index` and `scenario_label` columns
 
-This data is entirely synthetic and contains no real patient information. It can be used to test extraction pipelines, build example databases, or explore the plugin's capabilities without any PHI concerns.
+This data is entirely synthetic and contains no real patient information. It can be used to test extraction pipelines, build example databases, or explore the plugin's capabilities without PHI concerns.
 
 ## Installation & Quick Start
 
@@ -70,6 +70,7 @@ ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
 ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
 claude --model opus --plugin-dir .
 ```
+You can also wrap the above in a wrapper script for convenience.
 
 #### Option B: Ollama
 
@@ -80,22 +81,18 @@ Install [Ollama](https://ollama.com/download) and pull a model. See the [Ollama 
 curl -fsSL https://ollama.com/install.sh | sh
 
 # Pull a model and launch Claude Code
-ollama pull gemma4
-ollama launch claude-code
+ollama pull gemma4:31b
+# (you'll probably have better results with gemma4:31b than anything smaller)
+ollama launch claude --model gemma4:31b -- --plugin-dir .
 ```
 
 ### 4. Launch Claude Code with the plugin
 
 ```bash
-# With the Anthropic API (default)
+# This will use your default configuration of a claude endpoint, so be careful!
 claude --plugin-dir .
 
-# Then use the plugin skills inside Claude Code:
-#   /onc-data-wrangler:make-database
-#   /onc-data-wrangler:aggregate-database-query
-#   /onc-data-wrangler:derive-dataset
-#   /onc-data-wrangler:extract-notes
-#   /onc-data-wrangler:generate-synthetic-data
+# Then use the plugin skills inside Claude Code, as below.
 ```
 
 ## Skills
@@ -108,7 +105,7 @@ claude --plugin-dir .
 | Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data |
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
 | Red-Team | `/onc-data-wrangler:red-team` | Test agent resistance to prompt injection PHI exfiltration |
-| Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description |
+| Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description. Note that this can get expensive if you're not using a local model. |
 | Answer Questions | `/onc-data-wrangler:answer-questions` | Answer clinical questions about patients from their notes with confidence scores |
 | Derive Dataset | `/onc-data-wrangler:derive-dataset` | Create a one-row-per-patient analysis dataset with biostatistics guidance and reproducible script |
 | Analyze Data | `/onc-data-wrangler:analyze-data` | Interactive Python-based data analysis with oncology domain knowledge |
@@ -118,7 +115,7 @@ claude --plugin-dir .
 The extraction engine supports multiple LLM backends:
 
 - **Local models** (`provider: openai`): Any OpenAI-compatible server (vLLM, Ollama, TGI, etc.). For PHI data that can't leave the network.
-- **Azure OpenAI** (`provider: azure`): Institutional Azure deployments.
+- **Azure OpenAI** (`provider: azure`): Institutional Azure endpoint deployments.
 - **Claude API** (`provider: anthropic` or `vertex`): Direct Anthropic API or Google Vertex AI.
 - **Claude Code** (`provider: claude-code`): Claude Code itself acts as the extractor. Specify which model with `claude_code_model: opus|sonnet|haiku`.
 
@@ -278,28 +275,7 @@ Plugin (skills, agents, query CLI)
 
 You can run Claude Code itself against a local model, keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session. See the [Installation & Quick Start](#installation--quick-start) section above for setup instructions.
 
-### Wrapper script (vLLM)
 
-For convenience, save the vLLM launch command as a shell script (e.g., `localclaude`):
-
-```bash
-#!/usr/bin/env bash
-CLAUDE_CODE_USE_VERTEX=0 \
-ANTHROPIC_BASE_URL=http://localhost:8000 \
-ANTHROPIC_API_KEY=dummy \
-ANTHROPIC_AUTH_TOKEN=dummy \
-ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
-ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
-ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
-claude --model opus "$@"
-```
-
-```bash
-chmod +x localclaude
-./localclaude --plugin-dir .
-```
-
-Replace `localhost:8000` with the hostname of your vLLM server if it runs on a different machine.
 
 ## Distribution
 
@@ -315,18 +291,4 @@ claude --plugin-dir ./onc-data-wrangler-plugin
 /plugin install owner/repo
 ```
 
-### Marketplace distribution
 
-To create a discoverable plugin marketplace, add `.claude-plugin/marketplace.json`:
-
-```json
-{
-  "name": "your-marketplace-name",
-  "owner": { "name": "Your Name" },
-  "plugins": [
-    { "name": "onc-data-wrangler", "source": "./", "description": "Oncology data wrangling plugin" }
-  ]
-}
-```
-
-Users can then discover and install via `/plugin marketplace add owner/repo`.
