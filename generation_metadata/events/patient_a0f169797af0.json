@@ -1,0 +1,116 @@
+{
+  "patient_id": "patient_a0f169797af0",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 58-year-old female named Margaret Okonkwo. She is of West African descent, postmenopausal, gravida 3 para 3, non-smoker, with a family history significant for breast cancer in her mother (diagnosed at age 45) and ovarian cancer in a maternal aunt. She has a history of hypertension managed with lisinopril and a remote history of appendectomy."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 58 years, the patient had a diagnosis of FIGO Stage IIIC (AJCC 8th edition pT3c pN1 M0) HIGH-GRADE SEROUS CARCINOMA OF THE OVARY (ICD-O-3 site code C56.9, histology code 8461/3: Serous cystadenocarcinoma, NOS). Bilateral ovarian involvement with omental cake and diffuse peritoneal carcinomatosis including diaphragmatic implants. Ascites volume estimated at 3.2 liters on diagnostic paracentesis. CA-125 at diagnosis: 4,820 U/mL. HE4: 312 pmol/L. ROMA score: 94.3% (high risk). Confirmation: POSITIVE HISTOLOGY. Tumor grade: Grade 3 (high-grade). Tumor size: bilateral ovarian masses, right 8.4 cm, left 5.1 cm. ER/PR: ER positive (30%), PR negative. No lymphovascular invasion identified on biopsy specimen. Performance status: ECOG 1."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years, the patient had a CT scan of the chest, abdomen, and pelvis with contrast (diagnostic staging), which showed cancer. Bilateral ovarian masses: right ovary 8.4 x 6.2 x 5.8 cm, left ovary 5.1 x 4.0 x 3.7 cm with internal septations and solid components. Large volume ascites. Diffuse peritoneal carcinomatosis with studding along the paracolic gutters, liver capsule (Glisson's capsule implants without parenchymal involvement), diaphragmatic surfaces bilaterally, and omentum (omental cake 9.2 x 4.8 cm). Pelvic sidewall adenopathy up to 1.6 cm. No pleural effusion. No hepatic parenchymal metastases. No pulmonary metastases. Impression: Findings highly suspicious for advanced ovarian carcinoma with peritoneal carcinomatosis; no supradiaphragmatic disease. Peritoneal Cancer Index (estimated): 18."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58 years, the patient had a pathology result of type DIAGNOSTIC ANATOMIC PATHOLOGY (omental biopsy and peritoneal washing obtained by image-guided core needle biopsy). Omental core biopsy: High-grade serous carcinoma. Morphology: sheets and nests of highly atypical epithelial cells with marked nuclear pleomorphism, prominent nucleoli, abundant mitoses (>10/hpf), and psammoma bodies. Immunohistochemistry: PAX8 positive, WT-1 positive, p53 aberrant (overexpression pattern, diffuse strong positivity >90% of cells), CK7 positive, CK20 negative, ER positive (30%), PR negative, Her2 negative. Ki-67: 80%. Peritoneal washing: Positive for malignant cells consistent with high-grade serous carcinoma. Diagnosis: High-grade serous carcinoma of Mullerian origin, consistent with primary ovarian/peritoneal origin."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 58 years, the patient had next-generation sequencing performed for high-grade serous ovarian carcinoma based on a specimen obtained from an omental biopsy (peritoneal implant). Germline testing (blood): BRCA1 pathogenic variant c.5266dupC (p.Gln1756ProfsTer74), a frameshift mutation in exon 20 associated with hereditary breast and ovarian cancer syndrome. Somatic tumor sequencing: TP53 p.R175H missense mutation (VAF 68%), consistent with loss-of-function; BRCA1 somatic LOH present (second allele lost); RB1 splice site mutation c.1386+1G>A (VAF 22%); CCNE1 amplification (copy number 8.4, high-level amplification); MYC gain (copy number 3.8); NF1 frameshift p.Q1966fs (VAF 19%); RAD51C promoter hypermethylation absent; CDK12 wild-type; PTEN wild-type; PIK3CA wild-type; KRAS wild-type; NRAS wild-type; BRAF wild-type. HRD score: 48 (HRD positive, threshold >42). Genomic LOH: 18.2% (elevated). Tumor mutational burden (TMB): 4.2 mut/Mb (low). Microsatellite instability (MSI): MSS (microsatellite stable). Actionable alterations: BRCA1 pathogenic germline variant (PARP inhibitor sensitivity, Tier IA); HRD positive (PARP inhibitor benefit, Tier IB). Relevant co-mutations: TP53 (expected for HGSOC), CCNE1 amplification (may predict relative resistance to platinum; prognostic significance uncertain in BRCA1-mutated context)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years, the patient had a gynecologic oncology consultation and pre-surgical assessment. Multidisciplinary tumor board reviewed case. Given CT imaging suggesting potentially resectable disease without bulky retroperitoneal nodes above the renal vessels and no pleural effusions, the patient was considered a candidate for primary debulking surgery (PDS) with goal of R0 resection. Diagnostic laparoscopy performed first to assess resectability: Fagotti score calculated at 6 (bilateral ovarian masses +2, omental cake +2, diaphragmatic involvement +2; no bowel mesentery involvement, no stomach involvement, no liver surface score). Fagotti score of 6 was considered borderline; multidisciplinary discussion concluded that PDS should be attempted by an experienced gynecologic oncologist given absence of unresectable upper abdominal disease. Patient consented to possible bowel resection. Anesthesia pre-assessment: ASA class II. Nutritional assessment: albumin 3.4 g/dL, pre-surgical optimization with nutritional support initiated."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 58 years, the patient underwent PRIMARY DEBULKING SURGERY (PDS) via midline laparotomy. Procedure: Total abdominal hysterectomy, bilateral salpingo-oophorectomy, omentectomy (infracolic and supracolic), bilateral pelvic and para-aortic lymph node dissection, peritoneal stripping of bilateral diaphragmatic surfaces, peritonectomy of right paracolic gutter, rectosigmoid resection with primary anastomosis (colorectal stapled anastomosis, no diverting ostomy), appendectomy, cholecystectomy (incidental gallstone noted), and splenectomy (splenic hilum implant). Estimated blood loss: 1,850 mL. Intraoperative transfusion: 2 units packed red blood cells. Operative time: 7 hours 42 minutes. Surgical findings: Bilateral ovarian masses as described, omental cake, diaphragmatic studding bilaterally (right > left), splenic hilum implant, 4 pelvic sidewall implants, 3 para-aortic implants, rectosigmoid serosal implant requiring bowel resection. Residual disease at end of surgery: R0 (no gross residual disease). Surgeon: Dr. Adebimpe Adeyemi, Gynecologic Oncology. Pathologic specimen sent for final assessment."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 58 years, the patient had a pathology result of type SURGICAL PATHOLOGY (primary debulking surgery specimen). Right ovary and fallopian tube: High-grade serous carcinoma, 8.4 cm, with extension through ovarian surface; fallopian tube mucosa involved (STIC - serous tubal intraepithelial carcinoma identified in right fallopian tube, consistent with primary tubal origin). Left ovary and fallopian tube: High-grade serous carcinoma, 5.1 cm, with extension through ovarian surface. Uterus: Serosal implants of high-grade serous carcinoma; endometrium and myometrium uninvolved. Omentum: Extensive involvement by high-grade serous carcinoma (omental cake). Diaphragm (right peritoneal strip): High-grade serous carcinoma, multifocal. Peritoneum (right paracolic): High-grade serous carcinoma, multifocal. Rectosigmoid: Serosal and subserosal involvement; mucosa uninvolved; margins negative. Spleen: Splenic hilar soft tissue with high-grade serous carcinoma; splenic parenchyma uninvolved. Pelvic lymph nodes: 4/18 positive for metastatic high-grade serous carcinoma (largest deposit 1.4 cm). Para-aortic lymph nodes: 2/14 positive. Appendix: No tumor. Final pathologic stage: pT3c pN1 M0, FIGO IIIC."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years, the patient experienced a post-operative complication of ILEUS (CTCAE Grade 2) on post-operative day 4, requiring nasogastric tube placement and NPO status. Hospital stay extended by 4 days. Managed conservatively with bowel rest, IV fluids, ambulation. Resolution by post-operative day 8. No anastomotic leak identified on Gastrografin enema performed on POD 7. Additional post-operative complication: WOUND SEROMA (CTCAE Grade 1) at midline incision, managed with observation. Patient discharged on post-operative day 12 in stable condition."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (approximately 5 weeks post-surgery), the patient had a post-operative oncology visit. Performance status ECOG 1. Wound healing well. CA-125 post-operatively (4 weeks): 847 U/mL (down from 4,820 U/mL at diagnosis). Discussed adjuvant chemotherapy plan: carboplatin AUC 5 / paclitaxel 175 mg/m2 IV every 21 days for 6 cycles. Discussed addition of bevacizumab; patient declined due to concerns about delayed wound healing given recent bowel resection and per protocol delay recommendation. Germline BRCA1 result reviewed; patient referred to genetic counseling for cascade testing of children. Discussed PARP inhibitor maintenance therapy after chemotherapy completion. Patient agreeable to plan. Laboratory values: WBC 7.2 K/uL, Hgb 9.8 g/dL (mild anemia, transfusion not required), Plt 312 K/uL, Cr 0.82 mg/dL, AST 28 U/L, ALT 31 U/L, ALP 88 U/L, Total Bili 0.6 mg/dL. Neuropathy baseline assessment: none."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years, the patient received cycle 1 of curative-intent adjuvant carboplatin AUC 5 / paclitaxel 175 mg/m2 IV every 21 days. Premedication: dexamethasone 20 mg IV, diphenhydramine 25 mg IV, famotidine 20 mg IV, ondansetron 8 mg IV. Carboplatin dose: 635 mg IV over 30 minutes. Paclitaxel dose: 289 mg IV over 3 hours. Tolerated well. No hypersensitivity reaction. Post-cycle antiemetics: ondansetron 8 mg orally TID x3 days, dexamethasone 4 mg BID x2 days, prochlorperazine PRN."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years, after cycle 1 of carboplatin/paclitaxel, the patient developed ALOPECIA (CTCAE Grade 2), FATIGUE (CTCAE Grade 2), and NAUSEA (CTCAE Grade 1, well controlled with antiemetics). Alopecia was expected and scalp cooling was not used per patient preference. Fatigue was managed with activity pacing. No significant hematologic toxicity at day 14 nadir: WBC 3.1 K/uL, ANC 1.4 K/uL, Hgb 9.2 g/dL, Plt 198 K/uL."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years, the patient received cycles 2, 3, and 4 of carboplatin AUC 5 / paclitaxel 175 mg/m2 IV every 21 days without dose modification. All cycles administered on schedule. CA-125 after cycle 3: 42 U/mL (normal range <35 U/mL; near normalization). Cumulative paclitaxel-related peripheral neuropathy developing: Grade 1 sensory neuropathy in bilateral fingertips and toes noted at cycle 4 evaluation. CBC at cycle 4 day 1: WBC 5.4 K/uL, ANC 3.2 K/uL, Hgb 10.1 g/dL, Plt 245 K/uL."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 58 years (after cycle 3 of carboplatin/paclitaxel), the patient had a CT scan of the chest, abdomen, and pelvis with contrast (interim restaging), which showed no cancer (complete response). No evidence of residual or recurrent peritoneal disease. No ascites. No pleural effusion. Lymph nodes within normal limits. Post-surgical changes noted in pelvis and right upper quadrant consistent with prior debulking surgery and cholecystectomy/splenectomy. No hepatic parenchymal metastases. No pulmonary nodules. Impression: Complete radiographic response to adjuvant chemotherapy following primary debulking surgery."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years, the patient received cycles 5 and 6 of carboplatin AUC 5 / paclitaxel 175 mg/m2 IV every 21 days, completing the planned 6-cycle adjuvant course. Paclitaxel dose was reduced to 155 mg/m2 (89% of planned dose) for cycle 6 due to worsening Grade 2 sensory peripheral neuropathy affecting bilateral hands and feet, with difficulty with fine motor tasks. Cycle 6 completed without further complications. CA-125 after cycle 6: 18 U/mL (normal). End-of-treatment CBC: WBC 5.8 K/uL, Hgb 10.6 g/dL, Plt 262 K/uL."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years, at completion of 6 cycles of carboplatin/paclitaxel, the patient had cumulative PERIPHERAL NEUROPATHY (CTCAE Grade 2, sensory) affecting bilateral hands and feet, with numbness and tingling interfering with fine motor tasks but not activities of daily living. Referred to physical therapy and occupational therapy for neuropathy management. Started on duloxetine 30 mg daily titrated to 60 mg daily for neuropathic pain and functional improvement. Partial improvement over subsequent 3 months of follow-up (Grade 1 residual neuropathy)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (post-chemotherapy, pre-maintenance assessment), the patient had a gynecologic oncology visit to discuss maintenance therapy. CA-125: 18 U/mL (normal). CT restaging post-cycle 6: complete radiographic response confirmed. ECOG PS: 1. Peripheral neuropathy: Grade 1 (improved from Grade 2). Discussed options for maintenance therapy: niraparib (FDA approved for all-comers post first-line platinum-based chemotherapy, regardless of BRCA status; particularly indicated for BRCA-mutated patients). Olaparib also discussed as an option; patient chose niraparib. Baseline complete blood count and platelets reviewed prior to initiating niraparib. Baseline weight: 62 kg. Baseline platelet count: 272 K/uL. Per PRIMA trial individualized dosing: Given weight <77 kg and platelets <150 K/uL criterion not applicable, standard starting dose 200 mg daily discussed; however, given weight of 62 kg, weight-based dosing recommended at 200 mg daily (some institutional protocols use 200 mg for weight <77 kg). Patient counseled on hematologic monitoring, fatigue, nausea, hypertension. Agreed to proceed."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 58 years (approximately 7 weeks after completing cycle 6 of carboplatin/paclitaxel), the patient was initiated on niraparib 200 mg orally once daily as maintenance therapy. Counseled to take at bedtime to minimize nausea. Antiemetic: ondansetron 4 mg PRN for nausea. Antihypertensive: lisinopril continued; blood pressure monitoring at home twice weekly given niraparib-associated hypertension risk. CBC monitoring: weekly for first 4 weeks, then monthly thereafter."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years, approximately 3 weeks after initiating niraparib 200 mg daily, the patient developed THROMBOCYTOPENIA (CTCAE Grade 3) with platelet count of 42 K/uL on weekly CBC monitoring (down from baseline 272 K/uL). Patient had no active bleeding symptoms. No petechiae or purpura on exam. Niraparib was held per protocol. Bone marrow suppression versus immune thrombocytopenia (ITP) considered. Peripheral smear reviewed: no schistocytes (excluding TTP/HUS), large platelets consistent with peripheral destruction versus marrow suppression. Niraparib-induced thrombocytopenia considered most likely. Niraparib held for 14 days. Repeat CBC at day 7 of hold: platelets 98 K/uL. Repeat CBC at day 14 of hold: platelets 167 K/uL (recovery to Grade 0). Niraparib resumed at reduced dose of 100 mg daily per package insert recommendations for Grade 3/4 thrombocytopenia."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 58 years, approximately 6 weeks after resuming niraparib at 100 mg daily, the patient developed recurrent THROMBOCYTOPENIA (CTCAE Grade 2) with platelet count of 68 K/uL. No bleeding symptoms. Niraparib held again for 7 days. Platelet recovery to 145 K/uL. Hematology consultation obtained. Bone marrow biopsy performed to evaluate for marrow infiltration or aplasia: hypocellular marrow (30% cellularity for age) with megakaryocyte hypoplasia, consistent with drug-induced myelosuppression; no evidence of malignant infiltration. Niraparib resumed at 100 mg daily (no further dose reduction available per label; discuss risk/benefit of continuation)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (approximately 9 months after completing primary chemotherapy, 6 months on niraparib maintenance), the patient had a CT scan of the chest, abdomen, and pelvis with contrast (surveillance restaging), which showed no cancer. No evidence of peritoneal carcinomatosis recurrence. No ascites. No adenopathy. No parenchymal metastases. Post-surgical changes stable. CA-125 at this timepoint: 21 U/mL (normal). Impression: Continued complete radiographic response. No evidence of disease recurrence."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 59 years (on niraparib 100 mg daily, approximately 8 months of maintenance), the patient developed HYPERTENSION (CTCAE Grade 2) with blood pressure readings of 158-164/92-98 mmHg on home monitoring. Lisinopril dose increased from 10 mg to 20 mg daily by primary care physician in coordination with oncology. Amlodipine 5 mg daily added. Blood pressure improved to 132-138/82-86 mmHg over subsequent 4 weeks. Niraparib continued without dose modification. Additional complaint: FATIGUE (CTCAE Grade 1-2, ongoing), managed with activity modification and support."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (12 months of niraparib maintenance), the patient had a routine surveillance oncology visit. CA-125: 19 U/mL (normal, stable). CBC: WBC 5.2 K/uL, Hgb 11.0 g/dL, Plt 132 K/uL (Grade 1 thrombocytopenia, stable). Blood pressure: 134/84 mmHg (improved, Grade 1). Peripheral neuropathy: Grade 1 (stable residual). ECOG PS: 1. Patient tolerating niraparib 100 mg daily with manageable toxicities. Discussed ongoing benefit of PARP inhibitor maintenance in BRCA1-mutated HGSOC (PRIMA, SOLO-1 data reviewed). Patient wishes to continue. Quality of life assessment: moderate; fatigue remains most burdensome symptom. Counseled on importance of continuing antihypertensive medications. Next imaging in 6 months. Genetic counseling completed; two adult daughters undergoing cascade BRCA1 testing."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 59 years (approximately 18 months after completing primary chemotherapy, 15 months on niraparib maintenance), the patient had a CT scan of the chest, abdomen, and pelvis with contrast (surveillance restaging), which showed no cancer. No evidence of disease recurrence. No new lymphadenopathy, ascites, or peritoneal implants. CA-125: 22 U/mL (normal). Impression: Durable complete remission maintained on niraparib maintenance. No evidence of disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 59 years (18 months of niraparib maintenance), the patient had an oncology surveillance visit. CA-125: 22 U/mL (normal, stable). CBC: WBC 5.6 K/uL, Hgb 11.3 g/dL, Plt 148 K/uL (Grade 1 thrombocytopenia, stable, chronically). Blood pressure well controlled on dual antihypertensive therapy. ECOG PS: 1. Patient continues niraparib 100 mg daily. Peripheral neuropathy remains Grade 1 (stable). Discussion: Based on current evidence and SOLO-1 trial data showing benefit up to 5 years of maintenance in BRCA-mutated HGSOC, plan to continue niraparib indefinitely until disease progression, unacceptable toxicity, or completion of planned duration. Thrombocytopenia chronically at Grade 1 level; acceptable for continuation. Quality of life: improved from earlier in maintenance course; patient has returned to part-time work as a secondary school teacher. Genetic counseling update: one daughter tested BRCA1 positive and referred to high-risk breast/ovarian cancer surveillance program."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 60 years (approximately 27 months of niraparib maintenance, 30 months after primary debulking surgery), the patient had a CT scan of the chest, abdomen, and pelvis with contrast (surveillance restaging), which showed no cancer. Continued complete radiographic remission. No peritoneal, lymph node, or parenchymal metastases. No ascites. CA-125: 24 U/mL (normal). Impression: Sustained complete remission on niraparib maintenance therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 60 years (approximately 27 months of niraparib maintenance), the patient had a routine surveillance visit. CA-125: 24 U/mL (normal, trend stable). CBC: WBC 5.9 K/uL, Hgb 11.6 g/dL, Plt 155 K/uL (Grade 1 thrombocytopenia, stable chronic). Blood pressure: 128/80 mmHg (well controlled). ECOG PS: 1. Peripheral neuropathy: Grade 1 (stable). No new symptoms. Tolerating niraparib 100 mg daily. Patient in sustained complete remission now approximately 2.5 years from diagnosis. Discussion: Continued niraparib maintenance recommended. Annual surveillance CT to continue. Discussed clinical trial options for next-line therapy should relapse occur. Patient educated on signs and symptoms of recurrence (new abdominal symptoms, increased abdominal girth, new pelvic pain). Overall status: patient is in complete remission, tolerating maintenance PARP inhibitor with manageable chronic toxicities, with excellent disease control reflecting the clinical benefit of PARP inhibition in germline BRCA1-mutated high-grade serous ovarian cancer."
+    }
+  ],
+  "scenario_index": 5,
+  "scenario_label": "ovarian_brca1",
+  "scenario_blurb": "High-grade serous ovarian cancer FIGO stage IIIC in a 52-year-old with germline BRCA1 pathogenic variant. Presents with ascites and peritoneal carcinomatosis. Undergoes primary debulking surgery achieving R0 resection, followed by 6 cycles of carboplatin/paclitaxel with CA-125 normalization. Started on niraparib maintenance therapy. Develops thrombocytopenia requiring dose reduction."
+}

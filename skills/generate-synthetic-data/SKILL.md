@@ -589,6 +589,7 @@ Present to the user:
 - Per-scenario breakdown (if applicable)
 - Location of output files:
   - `OUTPUT_DIR/all_documents.json` — all clinical documents
+  - `OUTPUT_DIR/notes.csv` — clinical notes CSV (one row per note, ready for `/onc-data-wrangler:extract-notes`)
   - `OUTPUT_DIR/tables/encounters.csv` — encounters table (includes `scenario_index`, `scenario_label` columns when multi-scenario)
   - `OUTPUT_DIR/tables/labs.csv` — labs table
   - `OUTPUT_DIR/tables/hospitalizations.csv` — hospitalizations table
@@ -596,8 +597,22 @@ Present to the user:
   - `OUTPUT_DIR/tables/pros.csv` — patient-reported outcomes table
   - `OUTPUT_DIR/summary.json` — generation summary with per-scenario stats
 
+**If `notes.csv` needs to be regenerated from existing documents** (e.g., the `patients/` directory was cleaned up but `documents/` still exists):
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
+from pathlib import Path
+from onc_wrangler.synthetic.assembler import build_notes_csv
+
+docs_dir = Path("OUTPUT_DIR") / "documents"
+notes_path = Path("OUTPUT_DIR") / "notes.csv"
+count = build_notes_csv(docs_dir, notes_path)
+print(f"Wrote {count} notes to {notes_path}")
+PYEOF
+```
+
 Suggest next steps:
 - Review the generated data for clinical realism
 - Add more table schemas to `${CLAUDE_PLUGIN_ROOT}/data/synthetic_schemas/` (e.g., `vitals.yaml`, `diagnoses.yaml`) and re-run to generate additional structured tables
 - Use `/onc-data-wrangler:make-database` to build a DuckDB database from the structured tables
-- Use `/onc-data-wrangler:extract-notes` to test extraction pipelines against the synthetic documents
+- Use `/onc-data-wrangler:extract-notes` with `OUTPUT_DIR/notes.csv` as the notes file to test extraction against the synthetic documents

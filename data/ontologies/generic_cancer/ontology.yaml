@@ -44,32 +44,38 @@ categories:
       - id: overall_stage_at_diagnosis
         name: Overall Stage at Diagnosis
         description: >-
-          Overall cancer stage at time of diagnosis. For solid tumors use AJCC
-          stage (e.g., I, IIA, IIIB, IV). For hematologic malignancies use
-          the disease-specific staging system (see heme_staging_system and
-          heme_stage fields).
+          Overall cancer stage at time of INITIAL diagnosis ONLY. For solid
+          tumors use AJCC stage (e.g., I, IIA, IIIB, IV). Do NOT update this
+          field based on later disease recurrence, progression, or metastasis.
+          Stage is set once at diagnosis and does not change. For hematologic
+          malignancies use the disease-specific staging system (see
+          heme_staging_system and heme_stage fields).
         data_type: string
         length: null
       - id: t_stage_at_diagnosis
         name: T Stage at Diagnosis
         description: >-
-          Tumor stage component at diagnosis (e.g., T2a, T3b). Leave blank
-          for hematologic malignancies where TNM does not apply.
+          Tumor stage component at initial diagnosis (e.g., T2a, T3b). Do NOT
+          update based on later restaging or progression. Leave blank for
+          hematologic malignancies where TNM does not apply.
         data_type: string
         length: null
       - id: n_stage_at_diagnosis
         name: N Stage at Diagnosis
         description: >-
-          Nodal stage component at diagnosis (e.g., N0, N1, N2, N3). Leave
-          blank for hematologic malignancies where TNM does not apply (except
+          Nodal stage component at initial diagnosis (e.g., N0, N1, N2, N3).
+          Do NOT update based on later restaging or progression. Leave blank
+          for hematologic malignancies where TNM does not apply (except
           lymphoma which may use Ann Arbor).
         data_type: string
         length: null
       - id: m_stage_at_diagnosis
         name: M Stage at Diagnosis
         description: >-
-          Metastasis stage component at diagnosis (e.g., M0, M1a, M1b). Leave
-          blank for hematologic malignancies where TNM does not apply.
+          Metastasis stage component at INITIAL diagnosis (e.g., M0, M1a,
+          M1b). Record ONLY metastases known at the time of diagnosis.
+          Later-discovered metastases do NOT change this field. Leave blank
+          for hematologic malignancies where TNM does not apply.
         data_type: string
         length: null
       - id: heme_staging_system

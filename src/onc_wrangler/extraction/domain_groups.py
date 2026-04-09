@@ -100,6 +100,33 @@ You are an expert cancer registrar performing staging extraction for a \
 
 TASK: Extract staging, tumor characteristics, and prognostic factors.
 
+STAGING TEMPORAL RULE (MANDATORY):
+Cancer stage is defined ONCE at the time of initial diagnosis and MUST NOT \
+change based on later events. When extracting staging data:
+- Use ONLY staging information documented at or near the time of initial \
+diagnosis (the date_of_diagnosis for this cancer).
+- Do NOT incorporate later restaging, recurrence, progression, or new \
+metastases into the initial stage.
+- If the text mentions "restaging" or "upstaging" months/years after \
+diagnosis, that is NOT the initial stage -- ignore it for staging fields.
+- If a patient was initially Stage II and later developed metastases, the \
+stage remains Stage II. The metastases are a disease EVENT, not a change \
+to the original stage.
+- Mets at DX fields: Record ONLY metastases documented at the time of \
+diagnosis. Metastases discovered months or years later are NOT "mets at DX."
+- If you see a stage mentioned in a later note (e.g., "Stage IV disease" \
+in a note 2 years post-diagnosis), verify whether this refers to the \
+ORIGINAL staging at diagnosis or a later assessment. Only use it if it \
+clearly refers to the initial diagnosis.
+
+EXAMPLES OF CORRECT vs INCORRECT STAGING:
+- Patient diagnosed Stage IIA breast cancer 2019, develops bone mets 2021:
+  CORRECT: Stage IIA, Mets at DX = none
+  INCORRECT: Stage IV (incorporating the 2021 bone mets)
+- Patient with "restaging CT shows progression" 6 months after diagnosis:
+  CORRECT: Use the original staging from diagnosis workup
+  INCORRECT: Update staging based on the restaging scan
+
 CRITICAL RULES:
 1. TNM: Distinguish clinical (c) from pathological (p) staging. Do not mix components.
 2. Tumor Size: Record in millimeters. Pathological preferred over clinical.
@@ -109,8 +136,11 @@ CRITICAL RULES:
 5. Biomarkers: Extract exact values (e.g., ER 95%, PSA 4.2, Gleason 3+4=7).
 6. Regional Nodes: 00=none examined, 01-89=exact count, 90=90+, 99=unknown.
 7. Mets at DX: For each site (bone, brain, distant LN, liver, lung, other): \
-0=none, 1=yes, 8=N/A, 9=unknown.
+0=none, 1=yes, 8=N/A, 9=unknown. Record ONLY mets present AT DIAGNOSIS.
 8. Provide confidence 0.0-1.0 and evidence for each item.
+9. TEMPORAL GUARD: If your evidence for a staging field comes from a date \
+significantly after the date of diagnosis, lower your confidence to 0.3 or \
+below and note "evidence may reflect post-diagnosis status" in the evidence field.
 
 {json_format_instructions}"""
 
@@ -202,6 +232,13 @@ Clinical text (dates: {first_date} to {last_date}):
 
 {prior_state_block}
 
+EXTRACTION GUARD RULES:
+- If multiple cancers are present, extract ONLY for the diagnosis specified \
+above. Ignore data belonging to other cancers.
+- For staging fields: use ONLY information from the time of initial diagnosis. \
+Do NOT incorporate later recurrence, progression, or metastatic events into \
+the original staging.
+
 Extract the following data items. For coded items, use ONLY the valid codes listed.
 If an item was previously extracted with high confidence and this text provides no better
 evidence, you may output the same value. Only update if this text provides STRONGER
@@ -239,6 +276,12 @@ RULES:
 2. For each item, rate your confidence 0.0-1.0.
 3. Provide a short evidence quote (max 200 chars) from the text.
 4. Use valid codes when provided. If not found, use "unknown" and confidence 0.0.
+5. STAGING SCOPE: Fields with "at_diagnosis" or "at diagnosis" in their name \
+or description refer to the cancer's status at the time of INITIAL DIAGNOSIS \
+ONLY. Do NOT populate these with later restaging, recurrence, or progression data.
+6. MULTI-DIAGNOSIS: When a tumor_context is provided, extract ONLY data \
+pertaining to that specific diagnosis. Do not conflate data from different \
+cancers the patient may have.
 
 {json_format_instructions}"""
 
@@ -440,6 +483,10 @@ CRITICAL RULES:
 4. Date of Diagnosis: EARLIEST date THIS cancer was first suspected/confirmed (YYYYMMDD).
 5. Do NOT confuse this diagnosis with other cancers the patient may have.
 6. For each item, rate confidence 0.0-1.0 and quote supporting evidence (max 200 chars).
+7. If the patient has multiple cancers, the text may interleave information \
+about different diagnoses. Be vigilant: a "Stage IV" mentioned in context \
+of Cancer A must NOT be attributed to Cancer B. Match staging/treatment \
+language to the specific cancer diagnosis by anatomic site and temporal context.
 
 {json_format_instructions}"""
 

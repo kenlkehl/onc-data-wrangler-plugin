@@ -68,6 +68,23 @@ groups:
 
       TASK: Extract staging, tumor characteristics, and prognostic factors.
 
+      STAGING TEMPORAL RULE (MANDATORY):
+      Cancer stage is defined ONCE at the time of initial diagnosis and MUST NOT change based on later events. When extracting staging data:
+      - Use ONLY staging information documented at or near the time of initial diagnosis (the date_of_diagnosis for this cancer).
+      - Do NOT incorporate later restaging, recurrence, progression, or new metastases into the initial stage.
+      - If the text mentions "restaging" or "upstaging" months/years after diagnosis, that is NOT the initial stage -- ignore it for staging fields.
+      - If a patient was initially Stage II and later developed metastases, the stage remains Stage II. The metastases are a disease EVENT, not a change to the original stage.
+      - Mets at DX fields: Record ONLY metastases documented at the time of diagnosis. Metastases discovered months or years later are NOT "mets at DX."
+      - If you see a stage mentioned in a later note (e.g., "Stage IV disease" in a note 2 years post-diagnosis), verify whether this refers to the ORIGINAL staging at diagnosis or a later assessment. Only use it if it clearly refers to the initial diagnosis.
+
+      EXAMPLES OF CORRECT vs INCORRECT STAGING:
+      - Patient diagnosed Stage IIA breast cancer 2019, develops bone mets 2021:
+        CORRECT: Stage IIA, Mets at DX = none
+        INCORRECT: Stage IV (incorporating the 2021 bone mets)
+      - Patient with "restaging CT shows progression" 6 months after diagnosis:
+        CORRECT: Use the original staging from diagnosis workup
+        INCORRECT: Update staging based on the restaging scan
+
       CRITICAL RULES:
       1. TNM: Distinguish clinical (c) from pathological (p) staging. Do not mix components.
       2. Tumor Size: Record in millimeters. Pathological preferred over clinical.
@@ -75,8 +92,9 @@ groups:
       4. EOD: Record primary tumor extent, regional nodes, and mets using valid codes.
       5. Biomarkers: Extract exact values (e.g., ER 95%, PSA 4.2, Gleason 3+4=7).
       6. Regional Nodes: 00=none examined, 01-89=exact count, 90=90+, 99=unknown.
-      7. Mets at DX: For each site (bone, brain, distant LN, liver, lung, other): 0=none, 1=yes, 8=N/A, 9=unknown.
+      7. Mets at DX: For each site (bone, brain, distant LN, liver, lung, other): 0=none, 1=yes, 8=N/A, 9=unknown. Record ONLY mets present AT DIAGNOSIS.
       8. Provide confidence 0.0-1.0 and evidence for each item.
+      9. TEMPORAL GUARD: If your evidence for a staging field comes from a date significantly after the date of diagnosis, lower your confidence to 0.3 or below and note "evidence may reflect post-diagnosis status" in the evidence field.
 
       {json_format_instructions}
 

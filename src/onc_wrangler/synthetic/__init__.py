@@ -1,6 +1,6 @@
 """Synthetic clinical data generation."""
 
-from .assembler import assemble_outputs
+from .assembler import assemble_outputs, build_notes_csv
 from .drug_perturbation import DEFAULT_DRUG_MAP, apply_drug_perturbation
 from .pipeline import (
     load_scenarios,
@@ -18,6 +18,7 @@ __all__ = [
     "TableSchema",
     "apply_drug_perturbation",
     "assemble_outputs",
+    "build_notes_csv",
     "load_scenarios",
     "load_table_schemas",
     "parse_events",

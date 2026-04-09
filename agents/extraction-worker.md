@@ -188,6 +188,25 @@ Write the result as a JSON file to the output path specified in your task prompt
 - **Date formats**: Extract dates in the format specified by the field definition
 - **Multiple values**: If a field can have only one value but multiple are found, choose the most recent or most specific one and note the conflict in evidence
 
+## STAGING TEMPORAL RULES
+
+When extracting staging fields (stage, TNM, mets at diagnosis, summary stage):
+
+1. **Stage is set ONCE at diagnosis**: Cancer stage reflects the extent of disease at the time of initial diagnosis. It does NOT change when the disease recurs or progresses later.
+2. **Ignore post-diagnosis restaging**: If a note mentions "restaging" or documents new metastases months/years after diagnosis, this is NOT the initial stage.
+3. **Mets at DX vs. later mets**: "Mets at diagnosis" means metastases present at the time of the initial cancer diagnosis. Metastases discovered later are disease events, not staging data.
+4. **Temporal matching**: Prefer staging evidence from the diagnostic workup period (within ~30 days of diagnosis date). Evidence from much later should have lower confidence.
+5. **Common error pattern**: A patient initially diagnosed Stage IIA who later develops liver mets is STILL Stage IIA for staging purposes. The liver mets would be captured in cancer_burden or follow-up data, not staging.
+
+## MULTI-DIAGNOSIS CONFLATION GUARD
+
+When the patient has multiple primary cancers:
+
+1. **Site matching**: Before attributing any data to a diagnosis, verify the anatomic site matches (e.g., "right breast mass" belongs to the breast cancer diagnosis, not the colon cancer diagnosis).
+2. **Temporal matching**: Treatment and staging data should be temporally consistent with the diagnosis date (e.g., chemotherapy started in 2020 likely belongs to the 2020 diagnosis, not the 2015 diagnosis).
+3. **When ambiguous**: If a data point could belong to either diagnosis, assign it to the diagnosis whose site and timeline best match, and lower confidence to 0.5.
+4. **Never cross-contaminate**: Even if you are uncertain, it is better to skip a field (leave it empty) than to attribute data from Cancer A to Cancer B.
+
 ## HEMATOLOGIC MALIGNANCY GUIDANCE
 
 When the patient has a hematologic malignancy (leukemia, lymphoma, myeloma, MDS, MPN):

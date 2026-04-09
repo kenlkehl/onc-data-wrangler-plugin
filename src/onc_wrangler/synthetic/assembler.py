@@ -2,6 +2,7 @@
 
 Collects per-patient JSON outputs and combines them into:
   - all_documents.json: combined documents from all patients
+  - notes.csv: one-row-per-note CSV for extract-notes consumption
   - tables/<table_name>.csv: one CSV per table schema
   - summary.json: generation metadata
 """
@@ -14,6 +15,42 @@ from pathlib import Path
 import pandas as pd
 
 from .schemas import load_table_schemas
+
+_NOTES_COLUMNS = ["patient_id", "text", "date", "note_type"]
+
+
+def build_notes_csv(documents_dir: str | Path, output_path: str | Path) -> int:
+    """Build a notes CSV from individual document JSON files.
+
+    Reads all ``*.json`` files in *documents_dir* and produces a CSV with
+    columns ``patient_id, text, date, note_type`` — the format expected by
+    the ``extract-notes`` skill.
+
+    Args:
+        documents_dir: Directory containing per-document JSON files
+            (e.g. ``patient_abc123_evt5.json``).
+        output_path: Path to write the output CSV.
+
+    Returns:
+        Number of rows written.
+    """
+    documents_dir = Path(documents_dir)
+    rows: list[dict] = []
+    decoder = json.JSONDecoder(strict=False)
+    for doc_file in sorted(documents_dir.glob("*.json")):
+        with open(doc_file) as f:
+            doc = decoder.decode(f.read())
+        rows.append({
+            "patient_id": doc["patient_id"],
+            "text": doc.get("text", ""),
+            "date": "",
+            "note_type": doc.get("event_type", ""),
+        })
+
+    df = pd.DataFrame(rows, columns=_NOTES_COLUMNS) if rows else pd.DataFrame(columns=_NOTES_COLUMNS)
+    df.to_csv(output_path, index=False)
+    print(f"Wrote {len(rows)} notes to {output_path}")
+    return len(rows)
 
 
 def assemble_outputs(output_dir: str | Path, schema_dir: str | Path) -> dict:
@@ -87,6 +124,17 @@ def assemble_outputs(output_dir: str | Path, schema_dir: str | Path) -> dict:
     with open(docs_path, "w") as f:
         json.dump(all_documents, f, indent=2)
 
+    # Write notes.csv for extract-notes consumption
+    notes_rows = [{
+        "patient_id": doc["patient_id"],
+        "text": doc.get("text", ""),
+        "date": "",
+        "note_type": doc.get("event_type", ""),
+    } for doc in all_documents]
+    notes_path = output_dir / "notes.csv"
+    notes_df = pd.DataFrame(notes_rows, columns=_NOTES_COLUMNS) if notes_rows else pd.DataFrame(columns=_NOTES_COLUMNS)
+    notes_df.to_csv(notes_path, index=False)
+
     # Write combined tables as CSVs
     tables_dir = output_dir / "tables"
     tables_dir.mkdir(parents=True, exist_ok=True)
@@ -120,6 +168,7 @@ def assemble_outputs(output_dir: str | Path, schema_dir: str | Path) -> dict:
         "table_row_counts": table_counts,
         "output_files": {
             "documents": str(docs_path),
+            "notes": str(notes_path),
             "tables": {name: str(tables_dir / f"{name}.csv") for name in table_counts},
             "summary": str(output_dir / "summary.json"),
         },
@@ -133,6 +182,6 @@ def assemble_outputs(output_dir: str | Path, schema_dir: str | Path) -> dict:
         json.dump(summary, f, indent=2)
 
     print(f"Assembly complete: {patient_count} patients, "
-          f"{len(all_documents)} documents, "
+          f"{len(all_documents)} documents ({len(notes_rows)} notes.csv rows), "
           f"tables: {table_counts}")
     return summary

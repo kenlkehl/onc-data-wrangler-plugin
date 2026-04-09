@@ -20,22 +20,32 @@ categories:
         length: null
       - id: overall_stage_at_diagnosis
         name: Overall Stage at Diagnosis
-        description: "Overall cancer stage at time of diagnosis (e.g., I, IIA, IIIB, IV)"
+        description: >-
+          Overall cancer stage at time of INITIAL diagnosis ONLY (e.g., I,
+          IIA, IIIB, IV). Do NOT update based on later recurrence,
+          progression, or metastasis. Stage is set once and does not change.
         data_type: string
         length: null
       - id: t_stage_at_diagnosis
         name: T Stage at Diagnosis
-        description: "Tumor stage component at diagnosis (e.g., T2a, T3b)"
+        description: >-
+          Tumor stage component at initial diagnosis (e.g., T2a, T3b). Do NOT
+          update based on later restaging or progression.
         data_type: string
         length: null
       - id: n_stage_at_diagnosis
         name: N Stage at Diagnosis
-        description: "Nodal stage component at diagnosis (e.g., N0, N1, N2, N3)"
+        description: >-
+          Nodal stage component at initial diagnosis (e.g., N0, N1, N2, N3).
+          Do NOT update based on later restaging or progression.
         data_type: string
         length: null
       - id: m_stage_at_diagnosis
         name: M Stage at Diagnosis
-        description: "Metastasis stage component at diagnosis (e.g., M0, M1a, M1b)"
+        description: >-
+          Metastasis stage component at initial diagnosis (e.g., M0, M1a,
+          M1b). Record ONLY metastases known at the time of diagnosis.
+          Later-discovered metastases do NOT change this field.
         data_type: string
         length: null
       - id: histology

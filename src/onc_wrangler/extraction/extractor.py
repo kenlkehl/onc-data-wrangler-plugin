@@ -780,6 +780,11 @@ class Extractor:
             "Extract ONLY information pertaining to THIS specific cancer diagnosis. "
             "Do NOT include data from the patient's other cancer(s)."
         )
+        parts.append(
+            "For staging fields: use ONLY staging data from the initial diagnosis "
+            "workup for THIS cancer. Do NOT incorporate later recurrence, "
+            "progression, or metastatic events into the original stage."
+        )
         return "\n".join(parts)
 
     # ------------------------------------------------------------------

@@ -1,0 +1,86 @@
+{
+  "patient_count": 50,
+  "total_events": 1478,
+  "avg_events_per_patient": 29.6,
+  "document_count": 946,
+  "table_row_counts": {
+    "encounters": 1508,
+    "hospitalizations": 104,
+    "labs": 5472,
+    "medications": 804,
+    "pros": 3165
+  },
+  "output_files": {
+    "documents": "/data1/ken/plugin_testing/example_synthetic_data/all_documents.json",
+    "tables": {
+      "encounters": "/data1/ken/plugin_testing/example_synthetic_data/tables/encounters.csv",
+      "hospitalizations": "/data1/ken/plugin_testing/example_synthetic_data/tables/hospitalizations.csv",
+      "labs": "/data1/ken/plugin_testing/example_synthetic_data/tables/labs.csv",
+      "medications": "/data1/ken/plugin_testing/example_synthetic_data/tables/medications.csv",
+      "pros": "/data1/ken/plugin_testing/example_synthetic_data/tables/pros.csv"
+    },
+    "summary": "/data1/ken/plugin_testing/example_synthetic_data/summary.json"
+  },
+  "scenarios": {
+    "0": {
+      "label": "nsclc_egfr",
+      "blurb": "Stage IIIB non-small cell lung cancer (NSCLC) with EGFR L858R mutation in a 62-year-old former smoke",
+      "patients": 5,
+      "events": 165
+    },
+    "1": {
+      "label": "breast_tnbc",
+      "blurb": "Triple-negative breast cancer (TNBC) stage IIB in a 45-year-old woman, diagnosed after palpable mass",
+      "patients": 5,
+      "events": 151
+    },
+    "2": {
+      "label": "crc_kras",
+      "blurb": "Stage IV colorectal cancer with KRAS G12D mutation and synchronous liver metastases in a 58-year-old",
+      "patients": 5,
+      "events": 152
+    },
+    "3": {
+      "label": "melanoma_braf",
+      "blurb": "Metastatic melanoma with BRAF V600E mutation in a 55-year-old, presenting with widespread cutaneous,",
+      "patients": 5,
+      "events": 146
+    },
+    "4": {
+      "label": "prostate_crpc",
+      "blurb": "Castration-resistant prostate cancer in a 71-year-old with germline BRCA2 loss, rising PSA on ADT + ",
+      "patients": 5,
+      "events": 158
+    },
+    "5": {
+      "label": "ovarian_brca1",
+      "blurb": "High-grade serous ovarian cancer FIGO stage IIIC in a 52-year-old with germline BRCA1 pathogenic var",
+      "patients": 5,
+      "events": 135
+    },
+    "6": {
+      "label": "aml_flt3",
+      "blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation (high allelic ratio) in a 48-year-old, presentin",
+      "patients": 5,
+      "events": 131
+    },
+    "7": {
+      "label": "rcc_clear",
+      "blurb": "Clear cell renal cell carcinoma stage IV with sarcomatoid differentiation (20%) in a 63-year-old, pr",
+      "patients": 5,
+      "events": 146
+    },
+    "8": {
+      "label": "pancreatic_adeno",
+      "blurb": "Locally advanced pancreatic adenocarcinoma (borderline resectable) in a 66-year-old with tumor abutt",
+      "patients": 5,
+      "events": 154
+    },
+    "9": {
+      "label": "hnscc_hpv",
+      "blurb": "HPV-positive (p16+) oropharyngeal squamous cell carcinoma (base of tongue) stage III (T2N1M0) in a 5",
+      "patients": 5,
+      "events": 140
+    }
+  }
+}

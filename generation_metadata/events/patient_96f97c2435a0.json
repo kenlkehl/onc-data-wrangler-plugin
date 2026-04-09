@@ -1,0 +1,120 @@
+{
+  "patient_id": "patient_96f97c2435a0",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a female named Margaret Chen, born in 1977. She works as a high school biology teacher and is a non-smoker with no significant toxic exposures. She has a history of hypothyroidism managed with levothyroxine and no prior hematologic conditions."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 48 years, the patient had a diagnosis of Acute Myeloid Leukemia (AML), NOS (ICD-O-3 histology code 9861/3), arising de novo without prior MDS or antecedent hematologic disorder. Site: bone marrow and peripheral blood (ICD-O-3 site code C42.1). AJCC staging not applicable for leukemia. Summary stage: systemic/disseminated. Presenting clinical features: WBC 87,400/uL with circulating blasts (~40%), hemoglobin 6.8 g/dL, platelets 32,000/uL. Gingival hyperplasia with spontaneous bleeding noted on oral examination. Bone marrow biopsy showed hypercellular marrow (95%) with 72% myeloblasts. Auer rods identified on peripheral smear. Immunophenotype: CD34+, CD117+, CD13+, CD33+, MPO+, HLA-DR+, CD7 dim, CD19-, CD3-. Cytogenetics: 46,XX, normal karyotype (NK-AML). FLT3-ITD positive with allelic ratio 0.68 (high). NPM1 mutation status: negative. CEBPA: not mutated. IDH1/IDH2: negative. ELN 2022 Risk Classification: Adverse (FLT3-ITD high allelic ratio with normal karyotype in NPM1-unmutated setting)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 48 years, the patient had a bone marrow biopsy and aspirate (right posterior iliac crest). Pathology result: hypercellular bone marrow (estimated cellularity 95%) with sheets of myeloblasts comprising 72% of total nucleated cells. Blasts show large nuclei, prominent nucleoli, and moderate amounts of basophilic cytoplasm. Auer rods present. Flow cytometry immunophenotyping: blast population CD45-dim, CD34+, CD117+, CD33+, CD13+, MPO+, HLA-DR+, CD7 dim positive, CD19 negative, CD3 negative, CD56 negative, CD14 negative, CD64 negative, consistent with AML, not otherwise specified. Cytogenetics by conventional karyotype: 46,XX [20/20 metaphases analyzed], normal female karyotype. FISH panel: negative for t(8;21), inv(16), t(15;17). Molecular studies sent separately."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 48 years, the patient had next-generation sequencing performed for acute myeloid leukemia based on a specimen obtained from bone marrow aspirate at diagnosis. A comprehensive myeloid panel (523-gene panel) showed the following findings: FLT3-ITD insertion (exon 14, 33 bp insertion, allelic ratio 0.68, VAF 40.2%) - clinically actionable, associated with adverse prognosis; DNMT3A p.R882H mutation (VAF 48.1%) - pathogenic, co-mutation commonly seen with FLT3-ITD; RUNX1 p.S291fs*16 frameshift mutation (VAF 43.7%) - pathogenic, associated with adverse ELN risk; TET2 p.Q916* nonsense mutation (VAF 22.4%) - pathogenic, likely subclonal; WT1 p.R462Q mutation (VAF 18.9%) - variant of uncertain significance, associated with AML; PTPN11 p.E76K mutation (VAF 8.3%) - likely pathogenic, RAS pathway activation; no FLT3-TKD (D835) mutation detected; no NPM1 mutation; no CEBPA mutation; no IDH1/IDH2 mutation; no TP53 mutation; no ASXL1 mutation; no NRAS/KRAS mutations; no KIT mutation. Copy number: no significant copy number alterations detected. Fusions: no pathognomonic fusions detected (BCR-ABL1, PML-RARA, RUNX1-RUNX1T1, CBFB-MYH11 all negative). Summary: high-risk AML with FLT3-ITD (high allelic ratio), DNMT3A, RUNX1, and TET2 co-mutations. ELN 2022 Adverse risk confirmed."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 48 years, the patient had a CT scan of the chest, abdomen, and pelvis with contrast (staging/pre-treatment). Findings: no mediastinal or hilar lymphadenopathy. Mild splenomegaly with spleen measuring 14.2 cm in craniocaudal dimension. Liver is mildly enlarged at 17.1 cm. No hepatic lesions. No lymphadenopathy in the abdomen or pelvis. No lytic or blastic osseous lesions. Small bilateral pleural effusions. Impression: Splenomegaly and hepatomegaly consistent with leukemic infiltration. No discrete tumor masses. No evidence of CNS involvement on brain MRI (performed separately): no leptomeningeal enhancement, no parenchymal lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years, the patient had an initial oncology consultation and treatment planning note. The patient presented with a 3-week history of progressive fatigue, easy bruising, gingival bleeding, and a 12-pound unintentional weight loss. Physical examination showed pallor, petechiae on bilateral lower extremities, gingival hyperplasia with active oozing, and a palpable spleen tip 4 cm below the left costal margin. ECOG performance status: 1. She was admitted to the inpatient hematology/oncology unit for induction chemotherapy. Transfusion support initiated: 2 units pRBC for hemoglobin 6.8 g/dL, platelets transfused for count <10,000/uL. Echocardiogram obtained pre-chemotherapy: LVEF 62%, no significant valvular disease. Plan: proceed with 7+3 induction chemotherapy (cytarabine + daunorubicin) plus midostaurin per the RATIFY protocol. Allogeneic SCT to be planned in first CR given adverse ELN risk. HLA typing sent on patient and siblings (one full sibling available). Unrelated donor search initiated concurrently."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 48 years, the patient received induction chemotherapy for AML with curative intent: cytarabine 100 mg/m2/day continuous infusion on days 1-7 AND daunorubicin 60 mg/m2 IV on days 1-3 (7+3 regimen) PLUS midostaurin 50 mg PO twice daily on days 8-21 (FLT3 inhibitor, added per RATIFY trial data). Anti-emetics: ondansetron, dexamethasone. Tumor lysis prophylaxis: allopurinol, aggressive IV hydration. Growth factor support withheld per standard induction protocol. The patient was hospitalized throughout induction."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 48 years (during induction, approximately day 10), the patient developed febrile neutropenia (temperature 38.9 degrees C, ANC 0/uL). Grade 3 adverse event. Blood cultures drawn; empiric broad-spectrum antibiotics initiated with cefepime 2g IV q8h. Oral mucositis grade 2 also present, managed with magic mouthwash and morphine PCA for pain control. CT sinuses and chest obtained: bilateral lower lobe consolidations concerning for early pneumonia. Antifungal coverage added: micafungin 150 mg IV daily. The patient defervesced after 5 days of antibiotics. No bacteremia identified. Presumed diagnosis: pneumonia (possibly fungal). Total antibiotic course: 14 days."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 48 years (during induction, approximately day 14), the patient developed grade 2 nausea and vomiting despite ondansetron prophylaxis, attributed to midostaurin. Prochlorperazine added with improvement. Midostaurin continued at full dose. Additionally, grade 1 transaminase elevation noted (ALT 58 U/L, AST 45 U/L), monitored and resolved without intervention."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (day 14 post-induction start), the patient had an inpatient oncology assessment. CBC showed WBC 0.2 k/uL (nadir, ANC 0/uL), hemoglobin 8.4 g/uL (transfusion-supported), platelets 9,000/uL (transfusion-supported). Patient remained afebrile on antibiotics. Bone marrow biopsy deferred until day 28 per protocol. Midostaurin continued through day 21. Transfusion requirements: 6 units pRBC and 12 units platelets during induction hospitalization. No signs of leukostasis. Status: active cancer treatment in progress, aplasia phase."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 48 years (day 28 post-induction), the patient had a bone marrow biopsy and aspirate for response assessment. Pathology result: hypocellular bone marrow (estimated cellularity 10-15%) with trilineage hematopoiesis emerging. Myeloblasts: 3% of total nucleated cells (complete remission criteria met: <5% blasts). No Auer rods identified. Flow cytometry for MRD: no immunophenotypically aberrant blast population detected above the threshold of 0.01% (MRD negative by 8-color flow cytometry). Cytogenetics: 46,XX [15/20 metaphases; 5 metaphases inadequate], normal karyotype. FLT3-ITD by PCR: not detected. DNMT3A and RUNX1 mutations: not detected by sensitive sequencing at this sensitivity level. Assessment: morphologic complete remission (CR) with MRD negativity by flow cytometry."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (approximately 5 weeks after diagnosis), the patient had an oncology assessment post-induction. The patient achieved morphologic complete remission (CR) with MRD negativity after a single induction cycle. CBC recovering: WBC 3.1 k/uL, hemoglobin 9.8 g/dL, platelets 88,000/uL. Patient is being discharged from hospital. Performance status ECOG 1, improving. Plan: proceed directly to allogeneic stem cell transplant given adverse-risk disease (FLT3-ITD high allelic ratio, RUNX1 mutation, DNMT3A mutation). No consolidation chemotherapy planned prior to transplant given expedited transplant timeline. HLA typing results reviewed: sibling is a 7/10 HLA match (not suitable). Unrelated donor search identifies a 10/10 HLA-matched unrelated donor (MUD). Transplant center consultation confirmed. Target transplant in 6-8 weeks. Midostaurin maintenance bridge therapy to be considered."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 48 years (pre-transplant evaluation, approximately 6 weeks post-diagnosis), the patient had a PET-CT scan of the whole body (pre-transplant restaging). Findings: no FDG-avid lesions in the neck, chest, abdomen, or pelvis. No lymphadenopathy. Spleen now measures 11.8 cm (previously 14.2 cm, improved). Liver size normal at 15.3 cm. No bone lesions. Impression: complete metabolic response, no evidence of residual or extramedullary disease. Consistent with complete remission."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (approximately 7 weeks post-diagnosis), the patient had a pre-transplant evaluation visit at the transplant center. Detailed history and physical: ECOG PS 0-1. No active infections. No significant organ dysfunction. Cardiac evaluation: LVEF 60% on repeat echo (stable). Pulmonary function tests: FEV1 88% predicted, DLCO 82% predicted (adequate for transplant). Renal function: creatinine 0.8 mg/dL, eGFR >90. Hepatic function: transaminases normal. Dental clearance obtained. Caregiver support confirmed (husband is primary caregiver). Psychosocial evaluation completed. Consent obtained for matched unrelated donor (MUD) allogeneic hematopoietic stem cell transplant (alloHSCT) with myeloablative conditioning. Donor: 10/10 HLA-matched (A, B, C, DRB1, DQB1) unrelated male donor, age 32, CMV seropositive. Patient is CMV seropositive. Plan: fludarabine/busulfan (FluBu4) myeloablative conditioning with tacrolimus/methotrexate GVHD prophylaxis."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 48 years (transplant conditioning, approximately day -7 to day 0 of transplant), the patient received myeloablative conditioning with fludarabine 40 mg/m2 IV daily on days -6 through -3 AND busulfan 3.2 mg/kg IV daily on days -6 through -3 (FluBu4, pharmacokinetically dosed with target AUC 4000-5000 umol*min/L/day). Anti-seizure prophylaxis with levetiracetam administered during busulfan. GVHD prophylaxis: tacrolimus 0.03 mg/kg/day continuous IV infusion starting day -3, target trough 5-15 ng/mL, AND methotrexate 15 mg/m2 IV on day +1, then 10 mg/m2 on days +3, +6, +11. CMV prophylaxis: letermovir 480 mg daily starting day +1. Antifungal prophylaxis: micafungin. PJP prophylaxis: trimethoprim-sulfamethoxazole (held during conditioning, restarted post-engraftment). Day 0: infusion of 10/10 HLA-MUD peripheral blood stem cells (CD34+ cell dose 5.2 x 10^6/kg)."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 48 years (post-transplant, approximately day +8), the patient developed grade 3 mucositis with inability to tolerate oral intake, requiring total parenteral nutrition (TPN) and IV morphine PCA. Also developed grade 2 nausea/vomiting and grade 1 diarrhea. Managed with aggressive supportive care. Mucositis gradually improved by day +18. Additionally, elevated tacrolimus level (25 ng/mL on day +10) required dose reduction; renal function transiently worsened (creatinine 1.4 mg/dL from baseline 0.8 mg/dL). Dose adjusted, levels corrected, creatinine returned to 1.0 mg/dL by day +20."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 48 years (post-transplant day +30), the patient had a bone marrow biopsy and aspirate for engraftment and response assessment. Pathology result: normocellular bone marrow (cellularity 50-60%) with trilineage hematopoiesis. Myeloblasts: <1% (within normal limits). No morphologic evidence of AML. Donor chimerism by STR analysis: total chimerism 98% donor (CD3+ T cells: 92% donor; CD33+ myeloid cells: 99% donor). MRD by flow cytometry: negative (no immunophenotypically aberrant cells detected above 0.01% threshold). Cytogenetics: 46,XY [donor karyotype, 20/20 metaphases] - confirms complete donor chimerism. Assessment: engraftment confirmed with complete donor chimerism and morphologic remission."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (post-transplant day +45 clinic visit), the patient had an oncology and transplant assessment. The patient was discharged from hospital on day +28. Currently ECOG PS 1. CBC: WBC 4.8 k/uL, ANC 2,800/uL, hemoglobin 10.9 g/dL, platelets 112,000/uL - counts fully recovered. Tacrolimus trough level 9.2 ng/mL (therapeutic). No signs of acute GVHD at this visit (skin, GI, liver - all normal). CMV PCR: undetectable on letermovir prophylaxis. Epstein-Barr virus PCR: undetectable. No infections. Continues on tacrolimus, letermovir, acyclovir, fluconazole, TMP-SMX (restarted). Cancer status: in complete remission, MRD negative. Plan: gradual tacrolimus taper to begin at approximately day +100 if no GVHD."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 48 years (post-transplant day +90, approximately 5 months post-diagnosis), the patient had a CT scan of the chest, abdomen, and pelvis with contrast (routine post-transplant surveillance). Findings: no lymphadenopathy. Spleen normal size at 10.5 cm. Liver normal size, no lesions. No new pulmonary infiltrates. Mild ground-glass opacities in the right lower lobe, likely resolving infection vs. engraftment syndrome (clinically asymptomatic, stable to prior imaging). No evidence of extramedullary disease. Impression: no evidence of AML recurrence. Mild residual pulmonary findings, clinically insignificant."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (post-transplant day +100), the patient had a transplant and oncology follow-up. The patient developed new onset of mild skin changes: scattered erythematous papules on bilateral forearms and dorsal hands, covering approximately 10% body surface area. No oral mucosal involvement at this time. GI: 1-2 loose stools per day (baseline), no blood. Liver function tests: total bilirubin 0.9 mg/dL, ALT 48 U/L, AST 38 U/L (mildly elevated). Skin biopsy obtained. Assessment: clinical picture consistent with chronic GVHD (cGVHD), mild-moderate severity per NIH consensus criteria, skin and possibly GI involvement (overall NIH global severity score: mild). Tacrolimus taper deferred. Topical corticosteroids initiated for skin GVHD (clobetasol ointment). Cancer status: complete remission maintained."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 48 years (post-transplant day +102), the patient had a skin punch biopsy of right forearm papule for evaluation of GVHD. Pathology result: lichenoid tissue reaction with basal layer vacuolization, dyskeratotic keratinocytes, and lymphocytic infiltrate at the dermal-epidermal junction. Findings are consistent with chronic graft-versus-host disease, lichenoid type (NIH grade 2). No evidence of malignancy or infection. Comment: morphologic features are characteristic of cGVHD and correlate with clinical presentation."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 48 years (post-transplant, days +100 through +180), the patient experienced mild chronic GVHD affecting skin (lichenoid changes, 15% BSA involvement, NIH score 2) and gastrointestinal tract (persistent loose stools 2-3 per day, mild cramping, no bleeding, NIH score 1). Managed with topical clobetasol to skin lesions (significant improvement), oral budesonide 3 mg TID for GI symptoms, and continuation of tacrolimus at therapeutic doses. Overall NIH global cGVHD score: mild. No requirement for systemic high-dose corticosteroids. Oral mucosa: mild xerostomia noted, managed with saliva substitutes."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 48 years (post-transplant day +180, approximately 8 months post-diagnosis), the patient had a transplant and oncology follow-up. CBC: WBC 5.9 k/uL, ANC 3,600/uL, hemoglobin 12.3 g/dL, platelets 178,000/uL - all within normal limits. ECOG PS 0-1. Skin GVHD: markedly improved on topical corticosteroids, now <5% BSA involvement, no active papules. GI GVHD: loose stools reduced to 1-2 per day on budesonide. Tacrolimus trough 8.1 ng/mL. Donor chimerism (peripheral blood): 99% donor (total), 97% CD3+ T cells - excellent. CMV PCR: undetectable. No active infections. Cancer status: complete remission, no evidence of disease. Plan: continue slow tacrolimus taper over next 6 months targeting discontinuation by day +365 if cGVHD remains mild/controlled."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 48 years (post-transplant day +180), the patient had a bone marrow biopsy and aspirate for 6-month surveillance. Pathology result: normocellular bone marrow with trilineage hematopoiesis. Myeloblasts: <2% (within normal limits). No morphologic evidence of AML. Donor chimerism by STR: 99.5% donor (total), 98% CD3+ T cells, 100% CD33+ myeloid cells. MRD by flow cytometry: negative (below 0.01% threshold). Molecular testing: FLT3-ITD by quantitative PCR - not detected. DNMT3A R882H by ddPCR - not detected. Assessment: durable complete remission with full donor chimerism maintained at 6 months post-transplant."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49 years (post-transplant approximately day +365, 1 year post-transplant), the patient had a PET-CT scan of the whole body (1-year post-transplant restaging). Findings: no FDG-avid lesions. No lymphadenopathy. Spleen: 10.2 cm (normal). Liver: normal size, no lesions. Lungs: clear, previously noted ground-glass opacities have completely resolved. No evidence of extramedullary disease. Impression: complete remission maintained at 1 year post-allogeneic SCT. No evidence of AML recurrence."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49 years (post-transplant day +365, 1-year anniversary), the patient had a 1-year post-transplant comprehensive evaluation. The patient is doing well. ECOG PS 0. Returns to part-time teaching. Skin GVHD: in complete remission on low-dose topical corticosteroids (now down to over-the-counter hydrocortisone). GI cGVHD: resolved, budesonide successfully discontinued at month 9. Tacrolimus successfully tapered and discontinued at month 11 without GVHD flare. CBC: WBC 6.2 k/uL, Hgb 13.1 g/dL, Plt 210,000/uL. Comprehensive metabolic panel: within normal limits. Tacrolimus discontinued. All prophylactic antimicrobials discontinued per protocol. Bone marrow biopsy (see pathology report): no evidence of AML, full donor chimerism. Cancer status: morphologic and molecular complete remission. MRD negative. Plan: clinic follow-up every 3 months for year 2, bone marrow biopsy at 18 months if clinically indicated. Patient educated regarding signs of relapse and late effects of transplant."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49 years (post-transplant day +365), the patient had a bone marrow biopsy and aspirate for 12-month surveillance. Pathology result: normocellular bone marrow (cellularity 40-50%) with normal trilineage hematopoiesis. Myeloblasts: 1% (within normal limits). No Auer rods. No morphologic evidence of AML. Donor chimerism by STR: 99.8% donor (total). MRD by 10-color flow cytometry: negative. Molecular: FLT3-ITD by quantitative PCR - not detected (sensitivity 0.001%). DNMT3A R882H by ddPCR - not detected. RUNX1 frameshift by NGS deep sequencing - not detected. Assessment: sustained complete molecular remission at 1 year post-allogeneic SCT, full donor chimerism."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49 years (approximately 18 months post-transplant), the patient had a routine oncology and transplant follow-up. No new symptoms. ECOG PS 0. Returned to full-time teaching. Skin: no active GVHD lesions. GI: normal bowel habits. No medications except levothyroxine (pre-existing hypothyroidism) and daily aspirin. CBC: WBC 5.8 k/uL, Hgb 13.5 g/dL, Plt 195,000/uL. Comprehensive metabolic panel: ALT 22 U/L (normal), creatinine 0.9 mg/dL. Peripheral blood chimerism: 99.5% donor. No evidence of relapse clinically or by peripheral blood assessment. CMV, EBV: undetectable. Cancer status: complete remission, no evidence of disease. Patient counseled regarding long-term survivorship: secondary malignancy screening, vaccination schedule (live vaccines deferred until 2 years post-transplant), bone health (DEXA scan ordered), ophthalmology referral for cataract surveillance (busulfan exposure). Quality of life: good. Plan: continue surveillance every 3 months."
+    }
+  ],
+  "scenario_index": 6,
+  "scenario_label": "aml_flt3",
+  "scenario_blurb": "Acute myeloid leukemia (AML) with FLT3-ITD mutation (high allelic ratio) in a 48-year-old, presenting with leukocytosis, anemia, and gingival bleeding. Treated with 7+3 induction (cytarabine/daunorubicin) plus midostaurin, achieves CR after first induction. MRD negative by flow cytometry. Proceeds to matched unrelated donor allogeneic stem cell transplant with mild chronic GVHD."
+}
