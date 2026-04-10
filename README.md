@@ -27,13 +27,12 @@ curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
 
 
 ### 3. Install plugin 
+Note: The Marketplace method for installation doesn't load skills properly, so the below is a direct local Github install method.
 
 ```bash
-# Add the marketplace
-/plugin marketplace add kenlkehl/onc-data-wrangler-plugin
+# Clone the plugin to your working directory
+git clone https://github.com/kenlkehl/onc-data-wrangler-plugin
 
-# Install the plugin
-/plugin install onc-data-wrangler@onc-data-wrangler-marketplace
 ```
 
 
@@ -65,7 +64,7 @@ ANTHROPIC_AUTH_TOKEN=dummy \
 ANTHROPIC_DEFAULT_OPUS_MODEL=gemma4-31b \
 ANTHROPIC_DEFAULT_SONNET_MODEL=gemma4-31b \
 ANTHROPIC_DEFAULT_HAIKU_MODEL=gemma4-31b \
-claude --model opus --plugin-dir .
+claude --model opus --plugin-dir ./onc-data-wrangler-plugin
 ```
 You can also wrap the above in a wrapper script for convenience.
 
@@ -80,13 +79,13 @@ curl -fsSL https://ollama.com/install.sh | sh
 # Pull a model and launch Claude Code
 ollama pull gemma4:31b
 # (you'll probably have better results with gemma4:31b than anything smaller)
-ollama launch claude --model gemma4:31b -- --plugin-dir .
+ollama launch claude --model gemma4:31b -- --plugin-dir ./onc-data-wrangler-plugin
 ```
 
 ### 5. Launch Claude Code with the plugin
 
 ```bash
-claude 
+claude --plugin-dir ./onc-data-wrangler-plugin
 
 # Then use the plugin skills inside Claude Code, as below.
 ```
