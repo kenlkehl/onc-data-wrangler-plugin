@@ -4,17 +4,6 @@ A Claude Code plugin for oncology data wrangling and analysis. Core skills inclu
 
 > **Do not send real Protected Health Information (PHI) to any LLM endpoint that is not covered by an institutional Business Associate Agreement (BAA)!** Cloud LLM APIs — including the Anthropic API, OpenAI API, Google Vertex/AI Studio, and Azure OpenAI — are **not** BAA-covered by default. If you are working with real patient data, use a locally hosted model (see [Running with a Local Model](#running-with-a-local-model)) or confirm that your institution has a signed BAA with the provider **and** that the specific endpoint you are using is within scope. When in doubt, treat the data as PHI and keep it on-premises. Many institutions also have policies governing where research or other proprietary data can be sent, even if they do not contain PHI. You take all responsibility for where you are sending data; if in doubt about your configuration, do not use! It is also very unwise to run on a machine containing confidential data with permissions turned off.
 
-## Example Synthetic Data
-
-The repository includes a set of pre-generated synthetic clinical data in `example_synthetic_data/`. This dataset was produced by the `generate-synthetic-data` skill and covers 50 patients across multiple cancer scenarios (NSCLC, breast, renal cell carcinoma, head & neck, and others). It contains:
-
-- **`documents/`** — 946 individual clinical document JSON files (progress notes, imaging reports, pathology reports, NGS reports)
-- **`notes.csv`** — The same documents collected into a single CSV (one row per note, columns: `patient_id`, `text`, `date`, `note_type`) ready for use with the `extract-notes` skill
-- **`structured/`** — Per-patient structured data (encounters, labs, medications, hospitalizations, patient-reported outcomes)
-- **`tables/`** — Combined CSVs (encounters, labs, medications, hospitalizations, PROs) with `scenario_index` and `scenario_label` columns
-
-This data is entirely synthetic and contains no real patient information. It can be used to test extraction pipelines, build example databases, or explore the plugin's capabilities without PHI concerns.
-
 ## Installation & Quick Start
 
 ### 1. Install Claude Code
@@ -34,13 +23,27 @@ irm https://claude.ai/install.ps1 | iex
 ```bash
 # Install uv (Python package manager) if you don't have it
 curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
+```
+
+
+### 3. Install plugin 
+
+```bash
+# Add the marketplace
+/plugin marketplace add kenlkehl/onc-data-wrangler-plugin
+
+# Install the plugin
+/plugin install onc-data-wrangler@onc-data-wrangler-marketplace
+```
+
 
 # Install plugin dependencies (requires Python 3.13+)
+```
 cd /path/to/onc-data-wrangler-plugin
 uv sync
 ```
 
-### 3. (Optional) Set up a local model
+### 4. (Optional) Set up a local model
 
 If your data cannot leave your network, you can run Claude Code entirely against a local model using **vLLM** or **Ollama**.
 
@@ -86,11 +89,10 @@ ollama pull gemma4:31b
 ollama launch claude --model gemma4:31b -- --plugin-dir .
 ```
 
-### 4. Launch Claude Code with the plugin
+### 5. Launch Claude Code with the plugin
 
 ```bash
-# This will use your default configuration of a claude endpoint, so be careful!
-claude --plugin-dir .
+claude 
 
 # Then use the plugin skills inside Claude Code, as below.
 ```
@@ -146,6 +148,17 @@ The `generate-synthetic-data` skill creates realistic synthetic clinical data fr
 - `tables/encounters.csv` — One row per clinical encounter (includes `scenario_index`/`scenario_label` when multi-scenario)
 - `tables/labs.csv` — One row per lab result
 - `summary.json` — Generation metadata with per-scenario breakdown
+
+## Example Synthetic Data
+
+The repository includes a set of pre-generated synthetic clinical data in `example_synthetic_data/`. This dataset was produced by the `generate-synthetic-data` skill and covers 50 patients across multiple cancer scenarios (NSCLC, breast, renal cell carcinoma, head & neck, and others). It contains:
+
+- **`documents/`** — 946 individual clinical document JSON files (progress notes, imaging reports, pathology reports, NGS reports)
+- **`notes.csv`** — The same documents collected into a single CSV (one row per note, columns: `patient_id`, `text`, `date`, `note_type`) ready for use with the `extract-notes` skill
+- **`structured/`** — Per-patient structured data (encounters, labs, medications, hospitalizations, patient-reported outcomes)
+- **`tables/`** — Combined CSVs (encounters, labs, medications, hospitalizations, PROs) with `scenario_index` and `scenario_label` columns
+
+This data is entirely synthetic and contains no real patient information. It can be used to test extraction pipelines, build example databases, or explore the plugin's capabilities without PHI concerns.
 
 ## Derive Dataset
 
@@ -277,28 +290,6 @@ You can run Claude Code itself against a local model, keeping all data — inclu
 
 
 
-## Distribution
 
-### Local testing
-
-```bash
-claude --plugin-dir ./onc-data-wrangler-plugin
-```
-
-### Install from the marketplace
-
-```bash
-# Add the marketplace
-/plugin marketplace add kenlkehl/onc-data-wrangler-plugin
-
-# Install the plugin
-/plugin install onc-data-wrangler@onc-data-wrangler-marketplace
-```
-
-### Install directly from GitHub
-
-```bash
-/plugin install kenlkehl/onc-data-wrangler-plugin
-```
 
 
