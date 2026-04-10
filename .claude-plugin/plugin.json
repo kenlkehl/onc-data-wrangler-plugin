@@ -16,5 +16,7 @@
     "privacy",
     "synthetic-data",
     "nlp"
-  ]
+  ],
+  "skills": "./skills/",
+  "agents": "./agents/"
 }
