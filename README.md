@@ -37,12 +37,6 @@ curl -LsSf https://astral.sh/uv/install.sh | sh  # or: pip install uv
 ```
 
 
-# Install plugin dependencies (requires Python 3.13+)
-```
-cd /path/to/onc-data-wrangler-plugin
-uv sync
-```
-
 ### 4. (Optional) Set up a local model
 
 If your data cannot leave your network, you can run Claude Code entirely against a local model using **vLLM** or **Ollama**.
