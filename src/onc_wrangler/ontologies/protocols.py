@@ -122,3 +122,5 @@ class DomainGroup:
     is_narrative: bool = False
     dynamic: bool = False  # True if field_ids are determined at runtime (e.g. staging)
     multi_instance: bool = False  # True for categories with multiple rows (e.g. regimens)
+    items_per_call: int | None = None  # Override Extractor default; 0 = no batching
+    multi_instance_subgroups: list["DomainGroup"] = field(default_factory=list)  # Embedded multi-instance groups for consolidated extraction

@@ -8,6 +8,7 @@ When the ``clinical_summary`` ontology is the sole ontology, extraction
 switches to free-text summary mode (see ``SummaryExtractor``).
 """
 
+import copy
 import json
 import logging
 from typing import Any, Optional
@@ -27,10 +28,14 @@ from .domain_groups import (
     build_naaccr_domain_groups_multi,
     build_generic_domain_groups,
     build_generic_domain_groups_multi,
+    build_naaccr_consolidated_group,
+    build_generic_consolidated_group,
     build_prior_state_block,
     build_prior_narratives_block,
     CHUNK_USER_TEMPLATE,
     NARRATIVE_USER_TEMPLATE,
+    NARRATIVE_ITEM_IDS,
+    PATIENT_LEVEL_ITEM_IDS,
 )
 from .diagnosis_discovery import DiagnosisInfo, discover_diagnoses
 from ..ontologies.protocols import DomainGroup
@@ -147,6 +152,11 @@ class Extractor:
         self._patient_groups: dict[str, list[DomainGroup]] = {}
         self._diagnosis_groups: dict[str, list[DomainGroup]] = {}
 
+        # Consolidated extraction: single group per ontology
+        self._consolidated_groups: dict[str, DomainGroup] = {}
+        # Set of field_ids that are narrative (skip code resolution)
+        self._narrative_field_ids: set[str] = set(NARRATIVE_ITEM_IDS)
+
         registry = OntologyRegistry()
         registry.discover()
         for oid in self.ontology_ids:
@@ -173,11 +183,19 @@ class Extractor:
             pg, dg = build_naaccr_domain_groups_multi()
             self._patient_groups[oid] = pg
             self._diagnosis_groups[oid] = dg
+            # Consolidated group
+            self._consolidated_groups[oid] = build_naaccr_consolidated_group()
         else:
             self._domain_groups[oid] = build_generic_domain_groups(ont)
             pg, dg = build_generic_domain_groups_multi(ont)
             self._patient_groups[oid] = pg
             self._diagnosis_groups[oid] = dg
+            # Consolidated group
+            cg = build_generic_consolidated_group(ont)
+            self._consolidated_groups[oid] = cg
+            # Collect narrative field_ids from generic ontology's text-like items
+            for sub in cg.multi_instance_subgroups:
+                pass  # multi-instance items are not narrative
 
         # Item registry: field_id -> item object
         registry: dict[str, Any] = {}
@@ -216,7 +234,7 @@ class Extractor:
         self,
         text: str,
         cancer_type: Optional[str] = None,
-        max_tokens: Optional[int] = 8000,
+        max_tokens: Optional[int] = 32768,
     ) -> list[dict]:
         """Extract structured data from a single text document."""
         return self.extract_single_chunk(text, [], 0, 1, cancer_type, max_tokens)
@@ -228,19 +246,26 @@ class Extractor:
         chunk_index: int = 0,
         total_chunks: int = 1,
         cancer_type: Optional[str] = None,
-        max_tokens: Optional[int] = 8000,
+        max_tokens: Optional[int] = 32768,
         max_retries: int = 3,
     ) -> list[dict]:
-        """Extract from a single chunk using multi-diagnosis domain-group processing.
+        """Extract from a single chunk.
 
-        1. Discovers all distinct cancer diagnoses (chunk 0 only).
-        2. Extracts patient-level fields once (shared across diagnoses).
-        3. For each diagnosis, extracts diagnosis-level fields with
-           per-diagnosis schema resolution and tumor context.
+        Delegates to ``extract_single_chunk_consolidated`` which uses
+        a single LLM call per diagnosis (1 discovery + 1 consolidated).
 
-        Returns list[dict] encoding patient-level fields, per-diagnosis
-        fields, and metadata for round-trip fidelity across chunks.
+        The legacy multi-call path is preserved below the delegation
+        for reference and can be activated by setting
+        ``self._use_legacy_extraction = True``.
         """
+        # Use consolidated extraction by default
+        if not getattr(self, "_use_legacy_extraction", False):
+            return self.extract_single_chunk_consolidated(
+                chunk_text, running, chunk_index, total_chunks,
+                cancer_type, max_tokens, max_retries,
+            )
+
+        # --- Legacy multi-call path (preserved for A/B testing) ---
         if running is None:
             running = []
 
@@ -428,8 +453,9 @@ class Extractor:
         if not items:
             return []
 
-        # Batch by items_per_call
-        batches = split_items_into_batches(items, self.items_per_call)
+        # Batch by items_per_call (per-group override or extractor default)
+        effective_ipc = group.items_per_call if group.items_per_call is not None else self.items_per_call
+        batches = split_items_into_batches(items, effective_ipc)
 
         all_results: list[ExtractionResult] = []
         for batch in batches:
@@ -729,7 +755,10 @@ class Extractor:
 
             field_id = self._get_field_id(item)
 
-            if is_narrative:
+            # Per-item narrative detection: group-level flag OR field_id in narrative set
+            field_is_narrative = is_narrative or field_id in self._narrative_field_ids
+
+            if field_is_narrative:
                 # No code resolution for narrative text
                 length = getattr(item, "length", 0) or 0
                 if length > 0:
@@ -932,6 +961,311 @@ class Extractor:
             "progression, or metastatic events into the original stage."
         )
         return "\n".join(parts)
+
+    # ------------------------------------------------------------------
+    # Consolidated extraction (1 discovery + 1 call per diagnosis)
+    # ------------------------------------------------------------------
+
+    def _resolve_schema_from_discovery(
+        self,
+        diag: DiagnosisInfo,
+        context: dict[str, str],
+        group: DomainGroup,
+    ) -> None:
+        """Resolve NAACCR staging schema from discovery results.
+
+        Uses ``DiagnosisInfo.primary_site`` and ``histology`` directly
+        (instead of extraction state) and appends staging item IDs to
+        the consolidated group's ``field_ids``.
+        """
+        primary_site = diag.primary_site or ""
+        histology = diag.histology or ""
+
+        schema = self._naaccr_schema_registry.get_schema_for_site_histology(
+            primary_site, histology, None,
+        )
+        staging_items = self._naaccr_schema_registry.get_all_staging_items(schema)
+        site_desc = self._naaccr_schema_registry.get_primary_site_description(schema)
+        site_context = self._naaccr_schema_registry.get_site_context(schema)
+
+        context["primary_site"] = primary_site or "unknown"
+        context["histology"] = histology or "unknown"
+        context["primary_site_desc"] = site_desc
+        context["site_context"] = site_context
+
+        # Append staging items to the consolidated group
+        if group.dynamic:
+            existing = set(group.field_ids)
+            for item_num in staging_items:
+                sid = str(item_num)
+                if sid not in existing:
+                    group.field_ids.append(sid)
+                    existing.add(sid)
+
+    def _extract_consolidated(
+        self,
+        group: DomainGroup,
+        chunk_text: str,
+        merged_state: dict[str, ExtractionResult],
+        oid: str,
+        resolver: Any,
+        item_registry: dict[str, Any],
+        context: dict[str, str],
+        chunk_index: int,
+        total_chunks: int,
+        max_tokens: Optional[int],
+        max_retries: int,
+        tumor_context: str = "",
+    ) -> tuple[list[ExtractionResult], dict[str, list[dict[str, str]]]]:
+        """Extract all fields (single + multi-instance) in one LLM call.
+
+        Returns ``(single_instance_results, multi_instance_data)`` where
+        ``multi_instance_data`` is ``{group_id: [row_dict, ...]}``.
+        """
+        # -- Resolve single-instance items --
+        if oid == "naaccr":
+            single_items = self._resolve_naaccr_items(group, item_registry)
+        else:
+            single_items = self._resolve_generic_items(group, item_registry)
+
+        # Filter high-confidence items
+        single_items = [
+            item for item in single_items
+            if merged_state.get(self._get_field_id(item)) is None
+            or merged_state[self._get_field_id(item)].confidence < HIGH_CONFIDENCE_THRESHOLD
+        ]
+
+        # -- Resolve multi-instance items --
+        mi_groups_info: list[tuple[str, str, list[Any]]] = []
+        for mi_sub in group.multi_instance_subgroups:
+            mi_items = self._resolve_generic_items(mi_sub, item_registry)
+            if mi_items:
+                mi_groups_info.append((mi_sub.group_id, mi_sub.name, mi_items))
+
+        if not single_items and not mi_groups_info:
+            return [], {}
+
+        # -- Build format instructions --
+        json_instructions = self._schema_builder.build_consolidated_format_instructions(
+            single_items, mi_groups_info, resolver,
+        )
+
+        # -- Build system prompt --
+        system_prompt = self._build_system_prompt(group, json_instructions, context)
+
+        # -- Build user prompt --
+        field_ids = [self._get_field_id(item) for item in single_items]
+        prior_block = build_prior_state_block(merged_state, field_ids)
+
+        user_prompt = CHUNK_USER_TEMPLATE.format(
+            first_date="",
+            last_date="",
+            chunk_text=chunk_text,
+            tumor_context=tumor_context,
+            prior_state_block=prior_block,
+            json_field_descriptions=json_instructions,
+        )
+
+        # -- Call LLM with retry --
+        parsed = None
+        full_prompt = system_prompt + "\n\n" + user_prompt
+        for attempt in range(max_retries):
+            try:
+                response = self.llm_client.generate_structured(
+                    full_prompt, max_tokens=max_tokens or 32768,
+                )
+                parsed = parse_json_object(response.text)
+                if parsed is not None:
+                    break
+                logger.warning(
+                    "Consolidated extraction JSON parse failed (attempt %d/%d)",
+                    attempt + 1, max_retries,
+                )
+                failed_text = response.text[:2000] if len(response.text) > 2000 else response.text
+                full_prompt = (
+                    system_prompt + "\n\n" + user_prompt
+                    + "\n\n--- PREVIOUS ATTEMPT FAILED ---\n"
+                    "Your previous response could not be parsed as valid JSON. "
+                    "Here is what you returned:\n\n"
+                    + failed_text
+                    + "\n\nPlease try again and return ONLY a valid JSON object."
+                )
+            except Exception:
+                logger.exception(
+                    "Consolidated extraction LLM call failed (attempt %d/%d)",
+                    attempt + 1, max_retries,
+                )
+
+        if parsed is None:
+            return [], {}
+
+        # -- Parse single-instance results --
+        # Separate out multi-instance arrays before parsing single-instance
+        mi_raw: dict[str, list[dict]] = {}
+        single_response: dict[str, Any] = {}
+        for key, value in parsed.items():
+            if key.startswith("_") and isinstance(value, list):
+                # Multi-instance array
+                mi_raw[key.lstrip("_")] = value
+            else:
+                single_response[key] = value
+
+        single_results = self._parse_response(
+            single_response, single_items, oid, resolver, chunk_index, False,
+        )
+
+        # -- Parse multi-instance results --
+        mi_data: dict[str, list[dict[str, str]]] = {}
+        for group_id, group_name, mi_items in mi_groups_info:
+            raw_instances = mi_raw.get(group_id, [])
+            if not raw_instances:
+                continue
+            # Build field map for this mi group
+            mi_field_map: dict[str, Any] = {}
+            for item in mi_items:
+                pfn = self._schema_builder._field_name(item)
+                mi_field_map[pfn] = item
+            instances: list[dict[str, str]] = []
+            for instance_data in raw_instances:
+                if not isinstance(instance_data, dict):
+                    continue
+                row: dict[str, str] = {}
+                for fname, payload in instance_data.items():
+                    item = mi_field_map.get(fname)
+                    if item is None:
+                        continue
+                    if not isinstance(payload, dict):
+                        payload = {"value": str(payload), "confidence": 0.5, "evidence": ""}
+                    raw_val = str(payload.get("value", "")).strip()
+                    if not raw_val:
+                        continue
+                    fid = self._get_field_id(item)
+                    resolved, _ = resolver.resolve(fid, raw_val)
+                    row[fname] = resolved
+                if row:
+                    instances.append(row)
+            if instances:
+                mi_data[group_id] = instances
+
+        return single_results, mi_data
+
+    def extract_single_chunk_consolidated(
+        self,
+        chunk_text: str,
+        running: Optional[list[dict]] = None,
+        chunk_index: int = 0,
+        total_chunks: int = 1,
+        cancer_type: Optional[str] = None,
+        max_tokens: Optional[int] = 32768,
+        max_retries: int = 3,
+    ) -> list[dict]:
+        """Consolidated extraction: 1 discovery + 1 call per diagnosis per chunk.
+
+        Replaces the multi-call sequential domain-group approach with a
+        single consolidated LLM call that extracts all single-instance
+        fields (demographics, staging, treatment, follow-up, narratives)
+        and all multi-instance categories (regimens, biomarkers) at once.
+        """
+        if running is None:
+            running = []
+
+        ct = cancer_type or self.cancer_type
+
+        # Reconstruct state from prior chunks
+        patient_state, diagnosis_states, discovered, multi_instance_data = \
+            self._list_to_internal_multi(running)
+
+        # --- Discovery (chunk 0 only) ---
+        if not discovered:
+            discovered = discover_diagnoses(
+                self.llm_client, chunk_text,
+                max_tokens=4096, max_retries=max_retries,
+            )
+            for diag in discovered:
+                if diag.tumor_index not in diagnosis_states:
+                    diagnosis_states[diag.tumor_index] = {}
+
+        # --- Per-diagnosis consolidated extraction ---
+        for diag in discovered:
+            tidx = diag.tumor_index
+            diag_state = diagnosis_states.get(tidx, {})
+
+            # Seed from discovery results
+            diag_state = self._seed_from_diagnosis(diag, diag_state)
+
+            for oid in self.ontology_ids:
+                resolver = self._code_resolvers[oid]
+                item_registry = self._item_registries.get(oid, {})
+                group = copy.deepcopy(self._consolidated_groups.get(oid))
+                if group is None:
+                    continue
+
+                context = dict(self._base_context_from_diagnosis(diag, ct))
+                tumor_context = self._build_tumor_context(diag, len(discovered))
+                context["tumor_context"] = tumor_context
+
+                # Schema resolution from discovery (NAACCR)
+                if oid == "naaccr":
+                    self._resolve_schema_from_discovery(diag, context, group)
+                else:
+                    # For generic ontologies, populate domain_context
+                    from .domain_groups import build_generic_consolidated_group
+                    ont = self._ontologies.get(oid)
+                    if ont:
+                        contexts = []
+                        for cat in ont.get_base_items():
+                            ctx = getattr(cat, "context", "") or getattr(cat, "description", "") or ""
+                            if ctx:
+                                contexts.append(f"{cat.name}: {ctx}")
+                        context["domain_context"] = "\n".join(contexts) if contexts else ""
+
+                # Merge patient + diagnosis state for HIGH_CONFIDENCE filtering
+                merged_state = {**patient_state, **diag_state}
+
+                single_results, mi_data = self._extract_consolidated(
+                    group=group,
+                    chunk_text=chunk_text,
+                    merged_state=merged_state,
+                    oid=oid,
+                    resolver=resolver,
+                    item_registry=item_registry,
+                    context=context,
+                    chunk_index=chunk_index,
+                    total_chunks=total_chunks,
+                    max_tokens=max_tokens,
+                    max_retries=max_retries,
+                    tumor_context=tumor_context,
+                )
+
+                # Split results: patient-level vs diagnosis-level
+                for r in single_results:
+                    r.ontology_id = oid
+                    if r.field_id in PATIENT_LEVEL_ITEM_IDS:
+                        # Patient-level: store once, higher confidence wins
+                        existing = patient_state.get(r.field_id)
+                        if existing is None or r.confidence > existing.confidence:
+                            patient_state[r.field_id] = r
+                    else:
+                        r.tumor_index = tidx
+
+                diag_results = [
+                    r for r in single_results
+                    if r.field_id not in PATIENT_LEVEL_ITEM_IDS
+                ]
+                diag_state = merge_results(diag_state, diag_results)
+
+                # Merge multi-instance data
+                for mi_group_id, instances in mi_data.items():
+                    mi_key = f"{tidx}_{mi_group_id}"
+                    existing_mi = multi_instance_data.get(mi_key, [])
+                    existing_mi.extend(instances)
+                    multi_instance_data[mi_key] = existing_mi
+
+            diagnosis_states[tidx] = diag_state
+
+        return self._internal_to_list_multi(
+            patient_state, diagnosis_states, discovered, multi_instance_data,
+        )
 
     # ------------------------------------------------------------------
     # Format conversion (internal <-> list[dict])

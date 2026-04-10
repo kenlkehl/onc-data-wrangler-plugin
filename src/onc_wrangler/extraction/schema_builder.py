@@ -99,6 +99,84 @@ class SchemaBuilder:
             f"Fields per instance:\n{fields_block}"
         )
 
+    def build_consolidated_format_instructions(
+        self,
+        single_items: list[Any],
+        multi_instance_groups: list[tuple[str, str, list[Any]]],
+        code_resolver: Any,
+    ) -> str:
+        """Generate prompt text for consolidated extraction (mixed format).
+
+        The LLM returns a single JSON object containing:
+        - Top-level keys for single-instance fields (``{value, confidence, evidence}``)
+        - ``_``-prefixed keys for multi-instance categories (JSON arrays of objects)
+
+        Parameters
+        ----------
+        single_items:
+            Data items for single-instance extraction.
+        multi_instance_groups:
+            List of ``(group_key, group_name, items)`` tuples.
+            ``group_key`` becomes the ``_``-prefixed key in the output.
+        code_resolver:
+            Code resolver for valid-code prompts.
+        """
+        sections: list[str] = []
+
+        # -- Single-instance section --
+        if single_items:
+            field_lines: list[str] = []
+            for item in single_items:
+                field_name = self._field_name(item)
+                desc = self._field_description(item, code_resolver)
+                field_lines.append(f'- "{field_name}": {desc}')
+            fields_block = "\n".join(field_lines)
+
+            sections.append(
+                "Respond with a JSON object.\n\n"
+                "=== SINGLE-INSTANCE FIELDS ===\n"
+                "For each of the following fields, provide an object with:\n"
+                '  "value": the extracted value (use valid codes listed below),\n'
+                '  "confidence": a float 0.0-1.0 indicating extraction confidence,\n'
+                '  "evidence": a short quote (max 200 chars) from the text supporting the value.\n'
+                "\n"
+                "If information is not found, set value to the appropriate "
+                '"unknown" code (e.g. "9", "99", "unknown") and confidence to 0.0.\n'
+                "\n"
+                f"Expected fields:\n{fields_block}"
+            )
+
+        # -- Multi-instance sections --
+        if multi_instance_groups:
+            mi_lines: list[str] = []
+            for group_key, group_name, items in multi_instance_groups:
+                mi_lines.append(f'\n--- "{group_name}" (key: "_{group_key}") ---')
+                mi_lines.append(
+                    f'Provide a JSON array under the key "_{group_key}". '
+                    "Each element is an object representing one instance "
+                    f"(e.g., one {group_name.lower()})."
+                )
+                mi_lines.append(
+                    "For each field in an instance, provide "
+                    '{{value, confidence, evidence}}. Return "_{key}'
+                    '": [] if no instances found.'.format(key=group_key)
+                )
+                mi_lines.append("Fields per instance:")
+                for item in items:
+                    field_name = self._field_name(item)
+                    desc = self._field_description(item, code_resolver)
+                    mi_lines.append(f'  - "{field_name}": {desc}')
+
+            sections.append(
+                "\n=== MULTI-INSTANCE CATEGORIES ===\n"
+                "For each category below, return ALL instances as a JSON array "
+                "under the designated key. Each instance is an object with "
+                "{value, confidence, evidence} per field.\n"
+                + "\n".join(mi_lines)
+            )
+
+        return "\n\n".join(sections)
+
     def build_simple_schema(self, fields: dict[str, dict]) -> dict:
         """Build a JSON schema dict for simple extractions."""
         return {

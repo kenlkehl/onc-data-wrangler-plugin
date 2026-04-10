@@ -591,6 +591,232 @@ def build_naaccr_domain_groups_multi() -> tuple[list[DomainGroup], list[DomainGr
     return patient_groups, diagnosis_groups
 
 
+# ---------------------------------------------------------------------------
+# Consolidated extraction (single-call-per-diagnosis)
+# ---------------------------------------------------------------------------
+
+# Set of NAACCR text/narrative item numbers for per-item narrative detection
+NARRATIVE_ITEM_IDS: set[str] = {str(n) for n in TEXT_ITEMS}
+PATIENT_LEVEL_ITEM_IDS: set[str] = {str(n) for n in PATIENT_LEVEL_ITEMS}
+
+CONSOLIDATED_SYSTEM_PROMPT = """\
+You are an expert cancer registrar certified by the NCRA extracting comprehensive \
+cancer registry data for a {primary_site_desc} cancer case \
+(Primary Site: {primary_site}, Histology: {histology}).
+
+{site_context}
+
+=== DEMOGRAPHICS & CANCER IDENTIFICATION ===
+1. Primary Site: ICD-O-3 topography code (C##.#). Do NOT confuse metastatic sites \
+with primary.
+2. Histologic Type: ICD-O-3 morphology code (4 digits, 8000-9989).
+3. Behavior Code: 0=benign, 1=uncertain, 2=in situ, 3=malignant primary.
+4. Date of Diagnosis: EARLIEST date cancer was first suspected/confirmed (YYYYMMDD).
+
+=== STAGING & PROGNOSTIC FACTORS ===
+STAGING TEMPORAL RULE (MANDATORY):
+Cancer stage is defined ONCE at the time of initial diagnosis and MUST NOT \
+change based on later events. When extracting staging data:
+- Use ONLY staging information documented at or near the time of initial \
+diagnosis (the date_of_diagnosis for this cancer).
+- Do NOT incorporate later restaging, recurrence, progression, or new \
+metastases into the initial stage.
+- If the text mentions "restaging" or "upstaging" months/years after \
+diagnosis, that is NOT the initial stage -- ignore it for staging fields.
+- If a patient was initially Stage II and later developed metastases, the \
+stage remains Stage II. The metastases are a disease EVENT, not a change \
+to the original stage.
+- Mets at DX fields: Record ONLY metastases documented at the time of \
+diagnosis. Metastases discovered months or years later are NOT "mets at DX."
+- If you see a stage mentioned in a later note (e.g., "Stage IV disease" \
+in a note 2 years post-diagnosis), verify whether this refers to the \
+ORIGINAL staging at diagnosis or a later assessment. Only use it if it \
+clearly refers to the initial diagnosis.
+
+EXAMPLES OF CORRECT vs INCORRECT STAGING:
+- Patient diagnosed Stage IIA breast cancer 2019, develops bone mets 2021:
+  CORRECT: Stage IIA, Mets at DX = none
+  INCORRECT: Stage IV (incorporating the 2021 bone mets)
+- Patient with "restaging CT shows progression" 6 months after diagnosis:
+  CORRECT: Use the original staging from diagnosis workup
+  INCORRECT: Update staging based on the restaging scan
+
+STAGING RULES:
+1. TNM: Distinguish clinical (c) from pathological (p) staging. Do not mix components.
+2. Tumor Size: Record in millimeters. Pathological preferred over clinical.
+3. Summary Stage 2018: 0=in situ, 1=localized, 2=regional direct extension, \
+3=regional LN only, 4=regional both, 7=distant, 9=unknown.
+4. EOD: Record primary tumor extent, regional nodes, and mets using valid codes.
+5. Biomarkers: Extract exact values (e.g., ER 95%, PSA 4.2, Gleason 3+4=7).
+6. Regional Nodes: 00=none examined, 01-89=exact count, 90=90+, 99=unknown.
+7. Mets at DX: For each site (bone, brain, distant LN, liver, lung, other): \
+0=none, 1=yes, 8=N/A, 9=unknown. Record ONLY mets present AT DIAGNOSIS.
+8. TEMPORAL GUARD: If your evidence for a staging field comes from a date \
+significantly after the date of diagnosis, lower your confidence to 0.3 or \
+below and note "evidence may reflect post-diagnosis status" in the evidence field.
+
+=== SURGICAL TREATMENT (First Course Only) ===
+1. Surgery Date: YYYYMMDD of most definitive procedure.
+2. Distinguish diagnostic procedures (biopsies) from definitive surgery.
+3. LN Surgery Scope: 0=none, 1=biopsy, 2=sentinel, 3=unknown count, \
+5=1-3 removed, 6=4+ removed, 7=sentinel+complete, 9=unknown.
+4. Surgical Margins: 0=R0, 1=residual NOS, 2=R1, 3=R2, 8=no surgery, 9=unknown.
+
+=== RADIATION TREATMENT (First Course Only) ===
+1. Radiation Date: YYYYMMDD when radiation started.
+2. RX Summ--Radiation: 0=none, 1=beam, 2=implants, 3=radioisotopes, 4=combo, 5=NOS, 9=unknown.
+3. Up to 3 phases, each with: dose per fraction, fractions, total dose, modality, technique, volume.
+4. Dose in cGy. Total = dose/fraction x fractions.
+
+=== SYSTEMIC THERAPY (First Course Only) ===
+1. Chemo Date: YYYYMMDD when started.
+2. Chemo: 00=none, 01=NOS, 02=single, 03=multi-agent, 85=not recommended, 87=refused, 99=unknown.
+3. Hormone: 00=none, 01=hormone therapy, 85=not recommended, 87=refused, 99=unknown.
+4. BRM/Immunotherapy: 00=none, 01=BRM, 85=not recommended, 87=refused, 99=unknown.
+5. Treatment Status: 0=none given, 1=completed, 2=incomplete, 9=unknown.
+6. Neoadjuvant: 0=no, 1=yes, 9=unknown.
+
+=== FOLLOW-UP & OUTCOMES ===
+1. Date of Last Contact: Most recent date patient known alive or date of death (YYYYMMDD).
+2. Vital Status: 0=Dead, 1=Alive.
+3. Cancer Status: 1=no evidence of disease, 2=evidence of disease, 9=unknown.
+
+=== NARRATIVE TEXT FIELDS ===
+For items marked as narrative/text fields, compose concise factual summaries:
+- Only include information found in the text.
+- Each summary under 4000 characters.
+- Use standard medical terminology.
+- Include dates, measurements, specific findings.
+- Do not include patient identifiers.
+
+=== GENERAL RULES ===
+1. For each item, rate confidence 0.0-1.0 and quote supporting evidence (max 200 chars).
+2. Extract ONLY what is explicitly stated. Do not infer.
+
+{json_format_instructions}"""
+
+
+GENERIC_CONSOLIDATED_SYSTEM_PROMPT = """\
+You are a clinical data extraction system specializing in structured data extraction \
+from clinical notes. Extract all requested information for this patient.
+
+{domain_context}
+
+RULES:
+1. Extract ONLY what is explicitly stated in the text. Do not infer.
+2. For each item, rate your confidence 0.0-1.0.
+3. Provide a short evidence quote (max 200 chars) from the text.
+4. Use valid codes when provided. If not found, use "unknown" and confidence 0.0.
+5. STAGING SCOPE: Fields with "at_diagnosis" or "at diagnosis" in their name \
+or description refer to the cancer's status at the time of INITIAL DIAGNOSIS \
+ONLY. Do NOT populate these with later restaging, recurrence, or progression data.
+6. MULTI-DIAGNOSIS: When a tumor_context is provided, extract ONLY data \
+pertaining to that specific diagnosis.
+7. MULTI-INSTANCE DATA: For categories that can have multiple instances \
+(e.g., treatment regimens, biomarker tests), return ALL instances as JSON \
+arrays under the designated key. Return an empty array if none found.
+
+{json_format_instructions}"""
+
+
+def build_naaccr_consolidated_group() -> DomainGroup:
+    """Return a single consolidated DomainGroup for NAACCR extraction.
+
+    All single-instance items (patient demographics, diagnosis identity,
+    surgery, radiation, systemic, follow-up, narratives) are in ``field_ids``.
+    Staging items are appended dynamically after schema resolution.
+    NAACCR has no multi-instance subgroups.
+    """
+    all_single_items = (
+        PATIENT_LEVEL_ITEMS
+        + DIAGNOSIS_IDENTITY_ITEMS
+        + SURGERY_ITEMS
+        + RADIATION_ITEMS
+        + SYSTEMIC_ITEMS
+        + FOLLOWUP_ITEMS
+        + TEXT_ITEMS
+    )
+    # Deduplicate while preserving order
+    seen: set[int] = set()
+    deduped: list[int] = []
+    for n in all_single_items:
+        if n not in seen:
+            seen.add(n)
+            deduped.append(n)
+
+    return DomainGroup(
+        group_id="consolidated_all",
+        name="Consolidated Extraction",
+        field_ids=[str(n) for n in deduped],
+        system_prompt_template=CONSOLIDATED_SYSTEM_PROMPT,
+        depends_on=[],
+        context_keys=[
+            "primary_site", "histology",
+            "primary_site_desc", "site_context",
+        ],
+        dynamic=True,  # staging items appended at runtime
+        items_per_call=0,  # no batching — all items in one call
+    )
+
+
+def build_generic_consolidated_group(ontology: Any) -> DomainGroup:
+    """Return a single consolidated DomainGroup for a generic ontology.
+
+    All non-multi-instance categories are merged into one group's
+    ``field_ids``.  Multi-instance categories become
+    ``multi_instance_subgroups``.
+    """
+    single_field_ids: list[str] = []
+    mi_subgroups: list[DomainGroup] = []
+    seen_ids: set[str] = set()
+    domain_contexts: list[str] = []
+
+    categories = ontology.get_base_items()
+    try:
+        site_categories = ontology.get_site_specific_items("generic")
+        categories = categories + site_categories
+    except Exception:
+        pass
+
+    for cat in categories:
+        if cat.id in seen_ids:
+            continue
+        seen_ids.add(cat.id)
+
+        field_ids: list[str] = []
+        for item in cat.items:
+            fid = getattr(item, "json_field", None) or getattr(item, "id", None) or item.name
+            field_ids.append(fid)
+
+        is_multi = getattr(cat, "multi_instance", False)
+
+        if is_multi:
+            mi_subgroups.append(DomainGroup(
+                group_id=cat.id,
+                name=cat.name,
+                field_ids=field_ids,
+                system_prompt_template="",  # not used directly
+                multi_instance=True,
+            ))
+        else:
+            single_field_ids.extend(field_ids)
+
+        ctx = getattr(cat, "context", "") or getattr(cat, "description", "") or ""
+        if ctx:
+            domain_contexts.append(f"{cat.name}: {ctx}")
+
+    return DomainGroup(
+        group_id="consolidated_all",
+        name="Consolidated Extraction",
+        field_ids=single_field_ids,
+        system_prompt_template=GENERIC_CONSOLIDATED_SYSTEM_PROMPT,
+        depends_on=[],
+        context_keys=["domain_context"],
+        items_per_call=0,
+        multi_instance_subgroups=mi_subgroups,
+    )
+
+
 def build_generic_domain_groups_multi(ontology: Any) -> tuple[list[DomainGroup], list[DomainGroup]]:
     """Split generic ontology groups into patient-level and diagnosis-level.
 
