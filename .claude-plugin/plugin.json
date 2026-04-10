@@ -17,6 +17,5 @@
     "synthetic-data",
     "nlp"
   ],
-  "skills": "./skills/",
-  "agents": "./agents/"
+  "skills": "./skills/"
 }
