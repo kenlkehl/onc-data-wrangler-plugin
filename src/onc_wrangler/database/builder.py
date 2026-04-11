@@ -122,17 +122,18 @@ def _category_from_harmonized_stem(
     Harmonized files are named ``{source_stem}_{category}.parquet``.
     Since both the source stem and the category can contain underscores,
     we match against *known_categories* (longest first) to find the
-    correct suffix.  Falls back to the last underscore-delimited word
-    if no known category matches.
+    correct suffix.  Falls back to the **full stem** as the category
+    if no known category matches — this prevents unrelated files that
+    happen to share a suffix (e.g. ``imaging_assessments`` and
+    ``med_onc_assessments``) from colliding into the same table.
     """
     # Try longest categories first so e.g. "cancer_systemic_therapy_regimen"
     # matches before "regimen".
     for cat in sorted(known_categories, key=len, reverse=True):
         if stem.endswith("_" + cat) or stem == cat:
             return cat
-    # Fallback: last underscore segment
-    parts = stem.rsplit("_", 1)
-    return parts[-1] if len(parts) > 1 else stem
+    # Fallback: use the full stem as the category to avoid collisions
+    return stem
 
 
 def _table_name_from_category(category: str) -> str:
