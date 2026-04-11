@@ -90,14 +90,133 @@ Gather the following from the user interactively. Auto-detect and propose defaul
    - `individual-allowed`: Individual-level queries permitted
    - `individual-with-audit`: Same as above but all queries are logged
 
+### Ontology Harmonization (Optional)
+
+Before categorizing files, offer the user ontology-driven column harmonization. This maps source columns in their data files to standardized ontology fields, auto-populating `field_mappings` in the config so the Harmonizer produces standardized, category-based tables.
+
+**Important**: A single input file can populate multiple database tables (e.g., one file has diagnosis, staging, and treatment columns → three tables). And multiple input files can contribute rows to the same table (e.g., two files both have diagnosis columns). Present mappings organized by ontology category to make this clear.
+
+1. **Ask the user**: "Would you like to use an ontology to standardize your data columns? This maps your raw column names to a standard schema (e.g., `SITE_CD` → `primary_site`) and organizes tables by clinical category. If not, files will be loaded as-is with their original column names."
+
+2. **If yes**, list available ontologies:
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 -c "
+from onc_wrangler.ontologies.registry import OntologyRegistry
+registry = OntologyRegistry()
+registry.discover()
+for ont in registry.list_ontologies():
+    cats = ont.get_categories()
+    total_items = sum(len(c.items) for c in cats)
+    print(f'{ont.ontology_id}: {ont.display_name} — {ont.description} ({len(cats)} categories, {total_items} fields)')
+"
+```
+
+Present the list and let the user pick one. If the user already chose an ontology in step 6 (Optional settings), default to that one. Note: if an ontology has 0 fields (e.g., NAACCR whose items are loaded from CSV dictionaries at runtime), recommend `generic_cancer` or another ontology with inline field definitions for structured data harmonization.
+
+3. **Load the chosen ontology's full structure** (categories, items with descriptions, data types, and valid values):
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 -c "
+from onc_wrangler.ontologies.registry import OntologyRegistry
+registry = OntologyRegistry()
+registry.discover()
+ont = registry.get('ONTOLOGY_ID')
+for cat in ont.get_categories():
+    print(f'Category: {cat.id} — {cat.name}')
+    print(f'  Description: {cat.description}')
+    for item in cat.items:
+        vv = ''
+        if item.valid_values:
+            vv = ' | valid: ' + ', '.join(v.code for v in item.valid_values[:8])
+        print(f'  - {item.id} ({item.data_type}): {item.description[:100]}{vv}')
+    print()
+"
+```
+
+4. **For each non-cohort tabular file**, semantically match source columns to ontology fields. Use the column names, sample data (from Stage 0 profiling), ontology field descriptions, and data types to propose mappings. Follow these rules:
+   - Match by semantic meaning, not just name similarity (e.g., `DRUG_NAMES` → `regimen_drug_list`, `HIST_DESC` → `histology`)
+   - A source column maps to exactly one target field in one category
+   - A single file's columns may span multiple categories — this is expected and correct
+   - Multiple files may contribute columns to the same category
+   - The patient ID column is NOT mapped — it is handled separately by the Harmonizer
+   - Only propose mappings you are reasonably confident about — do not force marginal matches
+   - Date columns should be matched to date-typed target fields
+
+5. **Present proposed mappings** organized by **ontology category**, showing which file each source column comes from:
+
+```
+Proposed ontology mappings (ONTOLOGY_NAME):
+
+→ Table: cancer_diagnosis
+    tumor_registry.csv: SITE_CD       → primary_site
+    tumor_registry.csv: HIST_DESC     → histology
+    tumor_registry.csv: STAGE_GRP     → overall_stage_at_diagnosis
+    pathology.csv:      SITE_CODE     → primary_site
+    pathology.csv:      GRADE         → grade
+
+→ Table: cancer_systemic_therapy_regimen
+    treatment.csv:      DRUG_NAMES    → regimen_drug_list
+    treatment.csv:      TX_START      → regimen_start_date
+    treatment.csv:      TX_END        → regimen_end_date
+
+→ Table: cancer_biomarker
+    lab_results.csv:    TEST_NAME     → biomarker_tested
+    lab_results.csv:    TEST_RESULT   → biomarker_result
+
+Unmapped columns per file:
+  tumor_registry.csv: [COL_A, COL_B]
+  treatment.csv: [COL_X]
+  imaging.csv: (no mappings found — will go to File Categorization)
+```
+
+Ask the user to confirm, remove individual mappings, or add any missed ones. If the user wants to add a transform (e.g., `lowercase`, `date_to_yyyy_mm_dd`, `to_string`, `to_numeric`) or value_map for any mapping, accommodate that.
+
+6. **Record confirmed mappings** for use when writing the config in Stage 2. The mappings will be written as the `field_mappings` section using this format:
+
+```yaml
+field_mappings:
+  cancer_diagnosis:
+    - source: SITE_CD
+      target: primary_site
+    - source: HIST_DESC
+      target: histology
+    - source: STAGE_GRP
+      target: overall_stage_at_diagnosis
+    - source: SITE_CODE
+      target: primary_site
+    - source: GRADE
+      target: grade
+  cancer_systemic_therapy_regimen:
+    - source: DRUG_NAMES
+      target: regimen_drug_list
+    - source: TX_START
+      target: regimen_start_date
+    - source: TX_END
+      target: regimen_end_date
+  cancer_biomarker:
+    - source: TEST_NAME
+      target: biomarker_tested
+    - source: TEST_RESULT
+      target: biomarker_result
+```
+
+7. **Track which files were fully handled**. A file is "fully handled" if at least one of its non-ID columns was mapped to an ontology field. Files with zero accepted mappings are "unhandled" and proceed to File Categorization.
+
+**If the user declines ontology harmonization** (says no in step 1), skip this entire section and proceed directly to File Categorization with `field_mappings: {}`.
+
 ### File Categorization
 
-For each tabular file that is NOT the patient/diagnosis/demographics file, ask the user how to handle it:
+For each tabular file that is NOT the patient/diagnosis/demographics file **and was NOT handled by ontology harmonization above**, ask the user how to handle it:
 
 - **"Load as database table"** — include it as a separate table in the DuckDB. Ask for a short table name (e.g., `encounters`, `labs`, `medications`). Record these files and their table names for Stage 4.
 - **"Skip"** — exclude from the database.
 
-If there are many files, present the list and let the user batch-categorize (e.g., "load all of these as tables").
+If ontology harmonization was used, first summarize: "The following files are mapped via ontology harmonization and will produce standardized tables: [list files and their target categories]. The remaining files need categorization:"
+
+If there are many uncategorized files, present the list and let the user batch-categorize (e.g., "load all of these as tables").
+
+Note: Files handled by ontology harmonization are processed in Stage 4 via the Harmonizer. Files categorized here as "load as database table" are processed in Stage 4 as direct table loads.
 
 ---
 
@@ -156,6 +275,8 @@ query:
 field_mappings: {}
 patient_id_columns: {}
 ```
+
+If ontology harmonization was configured in Stage 1, populate the `field_mappings` section with the user-confirmed mappings instead of `{}`. Use the category-based format shown in the Ontology Harmonization step. The category IDs must match the ontology's category IDs exactly.
 
 **Note:** The `extraction` section is populated with defaults. If the user later wants to extract from clinical notes, they can update these fields and run `/onc-data-wrangler:extract-notes`.
 
@@ -241,7 +362,7 @@ This stage loads additional tabular files (categorized in Stage 1) into the `har
 
 ### Files with field_mappings configured
 
-If the user configured explicit `field_mappings` in the config:
+If `field_mappings` are present in the config (either from the ontology harmonization step in Stage 1, or configured manually):
 
 ```bash
 uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
