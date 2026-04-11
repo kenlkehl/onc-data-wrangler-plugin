@@ -125,12 +125,169 @@ def _truncate(text: str, limit: int) -> str:
     )
 
 
-def execute_python(code: str, work_dir: str, timeout: int = 120) -> str:
-    """Write code to a temp file, execute it, return stdout+stderr."""
+# ---------------------------------------------------------------------------
+# execute_python sandbox preamble
+#
+# Installs a sys.addaudithook that gates every Python-level open() call
+# against an allowlist (the caller-supplied allowed_dirs plus the Python
+# install and a minimal set of system directories libraries need). Also
+# blocks subprocess/exec events so a worker can't shell out to `cat` to
+# bypass the Python-level check.
+#
+# Audit hooks installed via sys.addaudithook cannot be removed or replaced
+# (Python docs), so user code running after the preamble cannot disable
+# the gate without going under the interpreter with ctypes. This is
+# intended to defend against accidental leakage and unsophisticated LLM
+# escape attempts, not against an adversarial code-executing attacker.
+# ---------------------------------------------------------------------------
+
+# The placeholder is replaced with a JSON literal of the user's allowed_dirs.
+_SANDBOX_PLACEHOLDER = "__ONC_WRANGLER_ALLOWED_USER_DIRS__"
+
+_SANDBOX_PREAMBLE = r"""# --- BEGIN execute_python sandbox preamble ---
+def __onc_wrangler_install_sandbox():
+    import sys, os, sysconfig
+
+    user_dirs = __ONC_WRANGLER_ALLOWED_USER_DIRS__
+
+    def _realpath(p):
+        try:
+            return os.path.realpath(p)
+        except Exception:
+            return None
+
+    def _build_prefixes():
+        dirs = set()
+        for d in user_dirs:
+            r = _realpath(d)
+            if r:
+                dirs.add(r)
+        # Python install / stdlib / site-packages
+        try:
+            for key in ("stdlib", "platstdlib", "purelib", "platlib",
+                        "include", "platinclude", "scripts", "data"):
+                p = sysconfig.get_paths().get(key)
+                if p:
+                    r = _realpath(p)
+                    if r:
+                        dirs.add(r)
+        except Exception:
+            pass
+        for attr in ("prefix", "exec_prefix", "base_prefix", "base_exec_prefix"):
+            p = getattr(sys, attr, None)
+            if p:
+                r = _realpath(p)
+                if r:
+                    dirs.add(r)
+        for p in list(sys.path):
+            if p and os.path.isdir(p):
+                r = _realpath(p)
+                if r:
+                    dirs.add(r)
+        # Minimal system read-only locations libraries need (certificates,
+        # locale data, /proc, /dev/urandom, shared libs). Note: /tmp is
+        # deliberately NOT in the baseline — if a worker needs a scratch
+        # directory, pass its work_dir explicitly via allowed_dirs instead.
+        for p in ("/usr", "/etc", "/lib", "/lib32", "/lib64", "/opt",
+                  "/proc", "/sys", "/dev", "/run"):
+            if os.path.isdir(p):
+                r = _realpath(p)
+                if r:
+                    dirs.add(r)
+        home = os.environ.get("HOME")
+        if home:
+            for sub in (".cache", ".config", ".local"):
+                cand = os.path.join(home, sub)
+                if os.path.isdir(cand):
+                    r = _realpath(cand)
+                    if r:
+                        dirs.add(r)
+        return tuple(sorted(dirs))
+
+    allowed_prefixes = _build_prefixes()
+    sep = os.sep
+    fsdecode = os.fsdecode
+
+    def is_allowed(path):
+        rp = _realpath(path)
+        if rp is None:
+            return False
+        for pref in allowed_prefixes:
+            if rp == pref or rp.startswith(pref + sep):
+                return True
+        return False
+
+    _spawn_events = frozenset((
+        "subprocess.Popen",
+        "os.exec",
+        "os.posix_spawn",
+        "os.posix_spawnp",
+        "os.spawn",
+    ))
+
+    def audit(event, args):
+        if event in _spawn_events:
+            raise PermissionError(
+                "[SANDBOX] process spawning is not permitted in execute_python: "
+                + str(event))
+        if event == "open":
+            if not args:
+                return
+            path = args[0]
+            if isinstance(path, (bytes, bytearray)):
+                try:
+                    path = fsdecode(path)
+                except Exception:
+                    return
+            if not isinstance(path, str):
+                # fd-based reopen: let through (no new filesystem path revealed)
+                return
+            if not is_allowed(path):
+                raise PermissionError(
+                    "[SANDBOX] open() denied: " + path
+                    + " is not within allowed directories")
+
+    sys.addaudithook(audit)
+
+
+__onc_wrangler_install_sandbox()
+del __onc_wrangler_install_sandbox
+# --- END execute_python sandbox preamble ---
+
+"""
+
+
+def _build_sandbox_preamble(allowed_dirs: Optional[list[str]]) -> str:
+    """Return the sandbox preamble with allowed_dirs injected as a JSON literal.
+
+    If ``allowed_dirs`` is None, returns an empty string (sandbox disabled).
+    """
+    if allowed_dirs is None:
+        return ""
+    literal = json.dumps([str(d) for d in allowed_dirs])
+    return _SANDBOX_PREAMBLE.replace(_SANDBOX_PLACEHOLDER, literal)
+
+
+def execute_python(
+    code: str,
+    work_dir: str,
+    timeout: int = 120,
+    allowed_dirs: Optional[list[str]] = None,
+) -> str:
+    """Write code to a temp file, execute it, return stdout+stderr.
+
+    If ``allowed_dirs`` is provided (even as an empty list), a sandbox
+    preamble is prepended to the script that installs a sys.addaudithook
+    denying any open() outside ``allowed_dirs`` plus the Python install
+    and minimal system directories, and blocks subprocess spawning.
+    Pass ``allowed_dirs=None`` to disable the sandbox entirely (legacy).
+    """
     os.makedirs(work_dir, exist_ok=True)
     fd, script_path = tempfile.mkstemp(suffix=".py", dir=work_dir)
     try:
+        preamble = _build_sandbox_preamble(allowed_dirs)
         with os.fdopen(fd, "w") as f:
+            f.write(preamble)
             f.write(code)
         result = subprocess.run(
             [sys.executable, script_path],
@@ -205,6 +362,7 @@ def execute_tool(tool_call: ToolCall, work_dir: str, allowed_dirs: list[str],
                 code=tool_call.arguments.get("code", ""),
                 work_dir=work_dir,
                 timeout=timeout,
+                allowed_dirs=allowed_dirs,
             )
         elif tool_call.name == "read_file":
             content = read_file(
