@@ -97,7 +97,7 @@ claude --plugin-dir ./onc-data-wrangler-plugin
 | Make Database | `/onc-data-wrangler:make-database` | Interactively build a DuckDB database from raw tabular data files |
 | Extract Notes | `/onc-data-wrangler:extract-notes` | Standalone extraction from clinical notes |
 | Aggregate Database Query | `/onc-data-wrangler:aggregate-database-query` | Interactive database querying with privacy enforcement |
-| Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data |
+| Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data. Supports Claude Code subagents (default) or external LLMs via API. |
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
 | Red-Team | `/onc-data-wrangler:red-team` | Test agent resistance to prompt injection PHI exfiltration |
 | Generate Synthetic Data | `/onc-data-wrangler:generate-synthetic-data` | Generate synthetic clinical data (events, documents, structured tables) from a text description. Note that this can get expensive if you're not using a local model. |
@@ -105,14 +105,23 @@ claude --plugin-dir ./onc-data-wrangler-plugin
 | Derive Dataset | `/onc-data-wrangler:derive-dataset` | Create a one-row-per-patient analysis dataset with biostatistics guidance and reproducible script |
 | Analyze Data | `/onc-data-wrangler:analyze-data` | Interactive Python-based data analysis with oncology domain knowledge |
 
-## Extraction LLM Backends
+## LLM Backends
 
-The extraction engine supports multiple LLM backends:
+Multiple skills support external LLM backends in addition to Claude Code native execution:
 
 - **Local models** (`provider: openai`): Any OpenAI-compatible server (vLLM, Ollama, TGI, etc.). For PHI data that can't leave the network.
 - **Azure OpenAI** (`provider: azure`): Institutional Azure endpoint deployments.
 - **Claude API** (`provider: anthropic` or `vertex`): Direct Anthropic API or Google Vertex AI.
-- **Claude Code** (`provider: claude-code`): Claude Code itself acts as the extractor. Specify which model with `claude_code_model: opus|sonnet|haiku`.
+- **Google Gemini** (`provider: gemini`): Gemini via Vertex AI or AI Studio.
+- **Claude Code** (`provider: claude-code`): Claude Code itself acts as the agent. Specify which model with `claude_code_model: opus|sonnet|haiku`.
+
+**Skills with external LLM support:**
+
+| Skill | External LLM mode | Notes |
+|-------|--------------------|-------|
+| Extract Notes | Single-call extraction per domain group | Stateless prompt-response |
+| Generate Synthetic Data | Single-call generation per patient | Stateless prompt-response |
+| Reproduce Paper | Agentic loop with tool use (execute_python, read_file, list_files) | Multi-turn iterative code execution; requires a model with function-calling support |
 
 ## Synthetic Data Generation
 
@@ -267,6 +276,7 @@ Plugin (skills, agents, query CLI)
   └── Internal Python package (src/onc_wrangler/)
       ├── config.py          - YAML configuration
       ├── llm/               - LLM client abstraction
+      ├── agent/             - Agentic loop with provider-native tool use
       ├── cohort/             - Patient roster building
       ├── database/           - DuckDB creation & metadata
       ├── extraction/         - Extraction engine & utilities
@@ -274,6 +284,7 @@ Plugin (skills, agents, query CLI)
       ├── ontologies/         - Ontology loading & registry
       ├── output/             - NAACCR output formats
       ├── query/              - SQL validation & privacy
+      ├── reproduce/          - Paper reproduction pipeline
       └── synthetic/          - Synthetic data generation pipeline
 ```
 
