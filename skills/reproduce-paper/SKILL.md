@@ -55,14 +55,23 @@ Ask the user to confirm or correct:
 4. Which directory contains the data files?
 5. Which directory contains data dictionaries?
 
-### 0.4 Model preference
+### 0.4 Execution mode
 
-Ask the user which model to use for per-question analysis (Phases 2 and 3):
-- **opus** (default): Most capable, best for complex survival analyses. Higher cost.
-- **sonnet**: Faster and cheaper, suitable for simpler questions.
-- **inherit**: Use the default model specified in the agent definitions .
+Ask the user which execution mode to use for per-question analysis (Phases 2 and 3):
 
-Store this choice -- it will be passed as the `model` parameter when spawning subagents.
+- **claude-code** (default): Native Claude Code subagents. No external API key needed. Choose a model:
+  - **opus** (default): Most capable, best for complex survival analyses. Higher cost.
+  - **sonnet**: Faster and cheaper, suitable for simpler questions.
+  - **inherit**: Use the default model specified in the agent definitions.
+  - Store this choice -- it will be passed as the `model` parameter when spawning subagents.
+
+- **external**: Use an external LLM via API. The user must provide:
+  - **provider**: `openai` (vLLM/OpenAI-compatible), `anthropic`, `vertex`, `azure`, or `gemini`
+  - **model**: Model name or deployment name (e.g., `claude-opus-4-6`, `gemma4-31b`)
+  - **base_url** (for openai provider): API endpoint URL (e.g., `http://localhost:8000/v1`)
+  - **api_key** (optional): API key, or set via environment variable
+  - **num_workers** (optional, default 5): Number of parallel workers
+  - Store these as `EXECUTION_MODE = "external"` and the LLM configuration values. These will be used to create `LLMConfig` and run the Python pipeline in Phases 2 and 3.
 
 ### 0.5 Build data context
 
@@ -125,7 +134,64 @@ Ask the user to review the questions. They may want to add, remove, or modify qu
 
 ## PHASE 2: INDEPENDENT ANALYSIS (Step B)
 
-This phase uses native Claude Code subagents to analyze each question independently. Each question is handled by an `analysis-worker` agent that reads data files, writes and executes Python code, and produces a structured JSON result.
+**If `EXECUTION_MODE == "external"`, use MODE A below. Otherwise (default), use MODE B.**
+
+### MODE A: External LLM Pipeline
+
+Run the analysis phase using the external LLM agentic pipeline. This uses Python with ThreadPoolExecutor to run workers in parallel, where each worker runs an agentic loop with the external LLM using tool-use (execute_python, read_file, list_files).
+
+Execute this Python script via Bash, filling in the configuration values from Phase 0:
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
+import json
+import logging
+import sys
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
+
+from onc_wrangler.config import LLMConfig
+from onc_wrangler.reproduce.pipeline import run_analysis_phase
+
+config = LLMConfig(
+    provider="PROVIDER",       # Replace with actual provider
+    model="MODEL",             # Replace with actual model
+    base_url="BASE_URL",       # Replace with actual base_url (or None)
+    # api_key is resolved from environment variables by default
+)
+
+# Load questions from the Excel file
+import openpyxl
+wb = openpyxl.load_workbook("questions_with_answers.xlsx", read_only=True)
+ws = wb.active
+headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
+q_col = headers.index("analysis_question") + 1
+questions = []
+for row_idx in range(2, ws.max_row + 1):
+    q = ws.cell(row_idx, q_col).value
+    if q and str(q).strip():
+        questions.append({"question": str(q).strip(), "index": row_idx - 1})
+wb.close()
+
+results = run_analysis_phase(
+    config=config,
+    questions=questions,
+    data_context="""DATA_CONTEXT_HERE""",  # Replace with actual DATA_CONTEXT
+    data_dir="DATA_DIR_HERE",              # Replace with absolute path
+    dict_dir="DICT_DIR_HERE",              # Replace with absolute path
+    output_dir="question_results/",
+    num_workers=5,                         # Replace with user's choice
+)
+
+print(f"Completed: {sum(1 for r in results if r)} / {len(questions)} questions")
+PYEOF
+```
+
+After the script completes, proceed to **step 2.5** below to collect, validate, and merge results into Excel. Steps 2.5 through 2.7 are shared between MODE A and MODE B.
+
+### MODE B: Claude Code Subagents (default)
+
+This mode uses native Claude Code subagents to analyze each question independently. Each question is handled by an `analysis-worker` agent that reads data files, writes and executes Python code, and produces a structured JSON result.
 
 ### 2.1 Read questions
 
@@ -211,7 +277,74 @@ Report:
 
 ## PHASE 3: DISCREPANCY ANALYSIS (Step C)
 
-This phase uses native Claude Code subagents to compare published results against the model's reproduced results.
+**If `EXECUTION_MODE == "external"`, use MODE A below. Otherwise (default), use MODE B.**
+
+### MODE A: External LLM Pipeline
+
+Run the discrepancy phase using the external LLM agentic pipeline. Steps 3.1 and 3.2 are shared (prepare input file and read paper context), then run the Python pipeline instead of spawning subagents.
+
+First complete steps 3.1 and 3.2 below (shared between modes), then execute this Python script via Bash:
+
+```bash
+uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 << 'PYEOF'
+import json
+import logging
+
+logging.basicConfig(level=logging.INFO, format="%(asctime)s %(name)s %(levelname)s %(message)s")
+
+from onc_wrangler.config import LLMConfig
+from onc_wrangler.reproduce.pipeline import run_discrepancy_phase
+
+config = LLMConfig(
+    provider="PROVIDER",       # Replace with actual provider
+    model="MODEL",             # Replace with actual model
+    base_url="BASE_URL",       # Replace with actual base_url (or None)
+)
+
+# Load rows from discrepancy_analysis_input.xlsx
+import openpyxl
+wb = openpyxl.load_workbook("discrepancy_analysis_input.xlsx", read_only=True)
+ws = wb.active
+headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
+rows = []
+for row_idx in range(2, ws.max_row + 1):
+    row = {headers[c]: ws.cell(row_idx, c + 1).value for c in range(len(headers))}
+    rows.append({
+        "question": str(row.get("analysis_question", "")),
+        "reported_result": str(row.get("reported_analysis_result", "")),
+        "model_result": str(row.get("analysis_result", "")),
+        "denominator": str(row.get("denominator_used", "N/A")),
+        "assumptions": str(row.get("assumptions_made", "N/A")),
+        "step_by_step": str(row.get("step_by_step_analysis", "N/A")),
+        "index": row_idx - 1,
+    })
+wb.close()
+
+# Read paper context
+with open("paper_context.txt") as f:
+    paper_context = f.read()
+
+results = run_discrepancy_phase(
+    config=config,
+    rows=rows,
+    data_context="""DATA_CONTEXT_HERE""",   # Replace with actual DATA_CONTEXT
+    data_dir="DATA_DIR_HERE",               # Replace with absolute path
+    dict_dir="DICT_DIR_HERE",               # Replace with absolute path
+    paper_pdf="PAPER_PDF_HERE",             # Replace with absolute path
+    paper_context=paper_context,
+    output_dir="row_outputs/",
+    num_workers=5,                          # Replace with user's choice
+)
+
+print(f"Completed: {sum(1 for r in results if r)} / {len(rows)} rows")
+PYEOF
+```
+
+After the script completes, proceed to **step 3.5** below to collect, validate, and merge results. Steps 3.1-3.2 and 3.5-3.7 are shared between MODE A and MODE B.
+
+### MODE B: Claude Code Subagents (default)
+
+This mode uses native Claude Code subagents to compare published results against the model's reproduced results.
 
 ### 3.1 Prepare the input file
 
@@ -318,7 +451,9 @@ Highlight any systematic patterns (e.g., "All survival questions are discrepant 
 
 ## IMPORTANT NOTES
 
-- **Native subagent execution**: Phases 2 and 3 use Claude Code's Agent tool to spawn `analysis-worker` and `discrepancy-worker` subagents. No API key or external Python runner is needed.
+- **Two execution modes**: Phases 2 and 3 support two modes:
+  - **MODE B (default, `claude-code`)**: Uses Claude Code's Agent tool to spawn `analysis-worker` and `discrepancy-worker` subagents. No API key or external Python runner is needed.
+  - **MODE A (`external`)**: Uses an external LLM via API with an agentic loop (tool use for code execution). Requires an API key and a model that supports function calling. Supports OpenAI-compatible (vLLM), Anthropic, Azure, Vertex, and Gemini providers.
 - **Batch parallelism**: Agents are spawned in batches of 5 with `run_in_background: true`. After each batch completes, the next batch is launched. Adjust batch size down if resource issues occur.
 - **Resumability**: Results are saved as per-question/per-row JSON files. If the pipeline is interrupted, re-running will detect and skip completed items.
 - **No internet access**: Worker agents have `WebSearch` and `WebFetch` disabled via `disallowedTools`. They can only access local data files.
