@@ -76,7 +76,7 @@ Gather the following from the user interactively. Auto-detect and propose defaul
    - Diagnosis code filter (e.g., `["C34"]` for lung cancer) — only if a diagnosis file is provided
 4. **Output directory** for all results
 
-### Optional (propose sensible defaults)
+### More required - ask, but propose sensible defaults
 
 5. **Cancer type** (default: `generic`). The `generic` setting works for **pan-cancer projects** — the extraction engine auto-detects each patient's specific cancer type(s) from clinical text. Only set a specific type (lung, breast, prostate, colorectal, etc.) if the project is single-disease and the user indicates so. Default to `generic` without asking unless they mention a specific disease.
 6. **Ontology** — list available ontologies by scanning `${CLAUDE_PLUGIN_ROOT}/data/ontologies/`:
@@ -90,7 +90,7 @@ Gather the following from the user interactively. Auto-detect and propose defaul
    - `individual-allowed`: Individual-level queries permitted
    - `individual-with-audit`: Same as above but all queries are logged
 
-### Ontology Harmonization (Optional)
+### Ontology Harmonization
 
 Before categorizing files, offer the user ontology-driven column harmonization. This maps source columns in their data files to standardized ontology fields, auto-populating `field_mappings` in the config so the Harmonizer produces standardized, category-based tables.
 
