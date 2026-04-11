@@ -1,0 +1,2922 @@
+{
+  "project_name": "example-synthetic-data",
+  "total_patients": 50,
+  "tables": [
+    {
+      "name": "cohort",
+      "row_count": 50,
+      "column_count": 0,
+      "column_names": [],
+      "unique_patients": 50
+    },
+    {
+      "name": "diagnoses",
+      "row_count": 108,
+      "column_count": 33,
+      "column_names": [
+        "tumor_index",
+        "primarySite",
+        "histologicTypeIcdO3",
+        "dateOfDiagnosis",
+        "laterality",
+        "birth_year",
+        "naaccr_sex_code",
+        "race_ethnicity",
+        "age_at_diagnosis",
+        "os_status",
+        "os_months",
+        "number_of_cancers",
+        "ca_seq",
+        "cohort",
+        "ca_type",
+        "naaccr_histology_code",
+        "ca_hist_adeno_squamous",
+        "naaccr_primary_site",
+        "ca_stage",
+        "ca_tnm_t",
+        "ca_tnm_n",
+        "ca_tnm_m",
+        "ca_dmets_yn",
+        "dmets_brain",
+        "dmets_bone",
+        "dmets_liver",
+        "dmets_lung",
+        "dmets_lymph",
+        "dmets_adrenal",
+        "dmets_pleura",
+        "dmets_peritoneum",
+        "dmets_other",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "encounters",
+      "row_count": 1508,
+      "column_count": 7,
+      "column_names": [
+        "date",
+        "diagnosis_code",
+        "department",
+        "visit_type",
+        "scenario_index",
+        "scenario_label",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "genomics",
+      "row_count": 109,
+      "column_count": 13,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "ngs_dx_days",
+        "ngs_panel",
+        "ngs_specimen_type",
+        "ngs_tmb",
+        "ngs_msi_status",
+        "ngs_mutations",
+        "ngs_fusions",
+        "ngs_amplifications",
+        "ngs_pdl1_tps",
+        "ngs_pdl1_cps",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "hospitalizations",
+      "row_count": 104,
+      "column_count": 10,
+      "column_names": [
+        "admission_date",
+        "discharge_date",
+        "principal_dx_code",
+        "principal_dx_description",
+        "los_days",
+        "discharge_disposition",
+        "reason",
+        "scenario_index",
+        "scenario_label",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "imaging",
+      "row_count": 242,
+      "column_count": 10,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "img_dx_days",
+        "img_modality",
+        "img_body_region",
+        "img_overall_assessment",
+        "img_target_lesion_response",
+        "img_new_lesions",
+        "img_sites_of_disease",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "labs",
+      "row_count": 5472,
+      "column_count": 9,
+      "column_names": [
+        "date",
+        "test_name",
+        "value",
+        "unit",
+        "reference_range",
+        "abnormal_flag",
+        "scenario_index",
+        "scenario_label",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "medications",
+      "row_count": 804,
+      "column_count": 12,
+      "column_names": [
+        "drug_name",
+        "drug_category",
+        "start_date",
+        "end_date",
+        "route",
+        "dose",
+        "frequency",
+        "line_of_therapy",
+        "intent",
+        "scenario_index",
+        "scenario_label",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "medonc",
+      "row_count": 115,
+      "column_count": 7,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "md_dx_days",
+        "md_ca",
+        "md_ca_status",
+        "md_ecog",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "pathology",
+      "row_count": 157,
+      "column_count": 13,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "path_report_type",
+        "path_dx_days",
+        "path_histology",
+        "path_grade",
+        "path_margins",
+        "path_lvi",
+        "path_pni",
+        "path_tumor_size_cm",
+        "path_nodes_positive",
+        "path_nodes_examined",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "pros",
+      "row_count": 3165,
+      "column_count": 8,
+      "column_names": [
+        "date",
+        "instrument",
+        "subscale",
+        "value",
+        "scale_range",
+        "scenario_index",
+        "scenario_label",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "radiation",
+      "row_count": 47,
+      "column_count": 9,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "rt_dx_days",
+        "rt_modality",
+        "rt_site",
+        "rt_dose_cgy",
+        "rt_fractions",
+        "rt_intent",
+        "data_source"
+      ],
+      "unique_patients": 24,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    },
+    {
+      "name": "regimens",
+      "row_count": 239,
+      "column_count": 14,
+      "column_names": [
+        "tumor_index",
+        "instance_index",
+        "regimen_number",
+        "regimen_drugs",
+        "drugs_num",
+        "regimen_setting",
+        "dx_reg_start_days",
+        "dx_reg_end_days",
+        "regimen_ongoing",
+        "regimen_disc_reason",
+        "includes_immunotherapy",
+        "includes_targeted",
+        "includes_chemo",
+        "data_source"
+      ],
+      "unique_patients": 50,
+      "note": "Multiple rows per patient. Use COUNT(DISTINCT record_id) for patient-level denominators, not COUNT(*)."
+    }
+  ],
+  "demographics": {},
+  "table_summaries": {
+    "diagnoses": {
+      "categorical": [
+        {
+          "column": "primarySite",
+          "values": [
+            {
+              "label": "nan",
+              "n": 54,
+              "suppressed": false
+            },
+            {
+              "label": "C44.5",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C81.9",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C34.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C18.7",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C25.0",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C64.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C01.9",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C50.4",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C56.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C60.0",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C60.9",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C54.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C50.9",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C54.0",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "histologicTypeIcdO3",
+          "values": [
+            {
+              "label": "nan",
+              "n": 54,
+              "suppressed": false
+            },
+            {
+              "label": "8140",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "8500",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "8070",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8460",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8720",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8300",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "9861",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8080",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8301",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8260",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "9864",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8750",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8310",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "9883",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "laterality",
+          "values": [
+            {
+              "label": "nan",
+              "n": 54,
+              "suppressed": false
+            },
+            {
+              "label": "not_applicable",
+              "n": 21,
+              "suppressed": false
+            },
+            {
+              "label": "left",
+              "n": 13,
+              "suppressed": false
+            },
+            {
+              "label": "right",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "bilateral",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "midline",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "birth_year",
+          "values": [
+            {
+              "label": "nan",
+              "n": 54,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": 50,
+              "suppressed": false
+            },
+            {
+              "label": "1969",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "1965",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "1977",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "encounters": {
+      "categorical": [
+        {
+          "column": "diagnosis_code",
+          "values": [
+            {
+              "label": "C50.412",
+              "n": 149,
+              "suppressed": false
+            },
+            {
+              "label": "C18.7",
+              "n": 134,
+              "suppressed": false
+            },
+            {
+              "label": "C61",
+              "n": 130,
+              "suppressed": false
+            },
+            {
+              "label": "C25.0",
+              "n": 125,
+              "suppressed": false
+            },
+            {
+              "label": "C56.9",
+              "n": 115,
+              "suppressed": false
+            },
+            {
+              "label": "C43.59",
+              "n": 92,
+              "suppressed": false
+            },
+            {
+              "label": "C64.1",
+              "n": 90,
+              "suppressed": false
+            },
+            {
+              "label": "C01",
+              "n": 79,
+              "suppressed": false
+            },
+            {
+              "label": "C91.00",
+              "n": 74,
+              "suppressed": false
+            },
+            {
+              "label": "C34.12",
+              "n": 58,
+              "suppressed": false
+            },
+            {
+              "label": "C34.11",
+              "n": 51,
+              "suppressed": false
+            },
+            {
+              "label": "C64.0",
+              "n": 33,
+              "suppressed": false
+            },
+            {
+              "label": "Z85.819",
+              "n": 31,
+              "suppressed": false
+            },
+            {
+              "label": "C78.7",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "C43.5",
+              "n": 24,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "department",
+          "values": [
+            {
+              "label": "Medical Oncology",
+              "n": 821,
+              "suppressed": false
+            },
+            {
+              "label": "Radiology",
+              "n": 380,
+              "suppressed": false
+            },
+            {
+              "label": "Pathology",
+              "n": 189,
+              "suppressed": false
+            },
+            {
+              "label": "Surgery",
+              "n": 51,
+              "suppressed": false
+            },
+            {
+              "label": "Radiation Oncology",
+              "n": 33,
+              "suppressed": false
+            },
+            {
+              "label": "Emergency",
+              "n": 11,
+              "suppressed": false
+            },
+            {
+              "label": "Hematology-Oncology",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Primary Care",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Gynecologic Oncology",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Gastroenterology",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Neurology",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Cardiology",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "visit_type",
+          "values": [
+            {
+              "label": "Follow-up",
+              "n": 497,
+              "suppressed": false
+            },
+            {
+              "label": "Imaging",
+              "n": 380,
+              "suppressed": false
+            },
+            {
+              "label": "Infusion",
+              "n": 281,
+              "suppressed": false
+            },
+            {
+              "label": "Procedure",
+              "n": 248,
+              "suppressed": false
+            },
+            {
+              "label": "New Patient",
+              "n": 51,
+              "suppressed": false
+            },
+            {
+              "label": "Inpatient",
+              "n": 39,
+              "suppressed": false
+            },
+            {
+              "label": "ED",
+              "n": 11,
+              "suppressed": false
+            },
+            {
+              "label": "Emergency",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "scenario_label",
+          "values": [
+            {
+              "label": "breast_tnbc",
+              "n": 204,
+              "suppressed": false
+            },
+            {
+              "label": "pancreatic_adeno",
+              "n": 170,
+              "suppressed": false
+            },
+            {
+              "label": "nsclc_egfr",
+              "n": 169,
+              "suppressed": false
+            },
+            {
+              "label": "prostate_crpc",
+              "n": 149,
+              "suppressed": false
+            },
+            {
+              "label": "rcc_clear",
+              "n": 147,
+              "suppressed": false
+            },
+            {
+              "label": "crc_kras",
+              "n": 143,
+              "suppressed": false
+            },
+            {
+              "label": "melanoma_braf",
+              "n": 141,
+              "suppressed": false
+            },
+            {
+              "label": "ovarian_brca1",
+              "n": 135,
+              "suppressed": false
+            },
+            {
+              "label": "hnscc_hpv",
+              "n": 130,
+              "suppressed": false
+            },
+            {
+              "label": "aml_flt3",
+              "n": 120,
+              "suppressed": false
+            }
+          ]
+        }
+      ]
+    },
+    "genomics": {
+      "categorical": [
+        {
+          "column": "ngs_dx_days",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 107,
+              "suppressed": false
+            },
+            {
+              "label": "0",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "ngs_panel",
+          "values": [
+            {
+              "label": "FoundationOne CDx",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": 23,
+              "suppressed": false
+            },
+            {
+              "label": "Foundation One CDx",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Guardant360",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "324-gene panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive Solid Tumor Panel (523-gene panel)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive Genomic Profile (CGP)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive Solid Tumor Panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Tempus xT",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive Somatic Tumor Profiling \u2014 500+ Gene Panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive myeloid NGS panel (283-gene)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive myeloid next-generation sequencing (NGS) panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "comprehensive 468-gene NGS panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive Solid Tumor DNA + RNA Panel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Comprehensive genomic profiling",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "ngs_specimen_type",
+          "values": [
+            {
+              "label": "tissue",
+              "n": 86,
+              "suppressed": false
+            },
+            {
+              "label": "bone_marrow",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "liquid_biopsy",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "tissue, liquid_biopsy",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "ngs_tmb",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "6.2",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "4",
+              "n": 11,
+              "suppressed": false
+            },
+            {
+              "label": "5",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "3",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "4.2",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "6",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "3.2",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "42",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "18.4",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "8",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "11",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "3.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "28",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "9",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "hospitalizations": {
+      "categorical": [
+        {
+          "column": "principal_dx_code",
+          "values": [
+            {
+              "label": "D64.9",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "C91.00",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "C56.9",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "K52.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C79.31",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C50.412",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C64.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C25.0",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "C18.7",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "K86.89",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Z45.2",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "D70.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "K12.30",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "D61.1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "K12.31",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "principal_dx_description",
+          "values": [
+            {
+              "label": "Secondary malignant neoplasm of brain",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Malignant neoplasm of upper-outer quadrant of left female breast",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Malignant neoplasm of ovary, unspecified",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Anemia, unspecified",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Malignant neoplasm of right kidney, except renal pelvis",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Acute myeloid leukemia, without mention of having achieved remission",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Toxic gastroenteritis and colitis",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Toxic gastroenteritis and colitis (immune-mediated colitis)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Agranulocytosis secondary to cancer chemotherapy",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Encounter for adjustment and management of vascular access device",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Anemia, unspecified (recurrent grade 3, olaparib-induced)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Oral mucositis (ulcerative) due to antineoplastic therapy",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Malignant neoplasm of head of pancreas",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Drug-induced aplastic anemia",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Other specified diseases of pancreas",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "discharge_disposition",
+          "values": [
+            {
+              "label": "home",
+              "n": 104,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "reason",
+          "values": [
+            {
+              "label": "Planned primary debulking surgery: exploratory laparotomy, TAH-BSO, omentectomy, appendectomy, bilateral pelvic and para-aortic lymph node dissection, peritoneal implant resection, diaphragmatic stripping; R0 resection achieved; overnight SICU then floor",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Febrile neutropenia (ANC 0.3 K/uL, temperature 38.9 C) after cycle 1 carboplatin/cabazitaxel; IV piperacillin-tazobactam, 2 units pRBCs for grade 3 anemia, transient AKI",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Grade 3 immune-mediated colitis after cycle 3 ipilimumab/nivolumab; treated with IV methylprednisolone and infliximab",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Grade 3 diarrhea requiring IV hydration and electrolyte repletion during FOLFIRINOX cycle 7",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Grade B pancreatic fistula post-Whipple: IV antibiotics, TPN, octreotide, CT-guided drain repositioning",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Symptomatic anemia (Hgb 8.9 g/dL) in setting of olaparib progression with hepatic metastases; transfusion support and goals of care discussion",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Port-a-cath placement for chemotherapy infusion access",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Planned stereotactic radiosurgery (Gamma Knife Icon) to three brain metastases; outpatient same-day procedure; patient tolerated well",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Subcutaneous implanted venous access port placement (right chest wall, subclavian approach) prior to chemotherapy initiation",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "AML-MRC induction chemotherapy (7+3 cytarabine/daunorubicin plus midostaurin); complicated by febrile neutropenia with E. coli bacteremia, grade 3 mucositis; post-induction bone marrow biopsy confirming CR1",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Grade A pancreatic fistula recurrence during adjuvant GemCap cycle 1; managed conservatively with NPO, drain management, and octreotide; gemcitabine held",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Stereotactic radiosurgery (Gamma Knife) to three brain metastases; planned outpatient procedure requiring brief overnight observation",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Port-a-cath placement for chemotherapy venous access prior to cycle 1 initiation",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Grade 3 irinotecan-induced diarrhea and Grade 3 neutropenia (ANC 0.6) after cycle 6 of FOLFIRI plus ramucirumab; managed with IV fluids, loperamide, empiric antibiotics, and filgrastim",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Planned left partial mastectomy (lumpectomy) with wire localization, sentinel lymph node biopsy, and axillary lymph node dissection levels I-II",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "imaging": {
+      "categorical": [
+        {
+          "column": "img_dx_days",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 234,
+              "suppressed": false
+            },
+            {
+              "label": "0",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "56",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "30",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "630",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "img_modality",
+          "values": [
+            {
+              "label": "CT",
+              "n": 139,
+              "suppressed": false
+            },
+            {
+              "label": "MRI",
+              "n": 46,
+              "suppressed": false
+            },
+            {
+              "label": "PET-CT",
+              "n": 41,
+              "suppressed": false
+            },
+            {
+              "label": "bone_scan",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "ultrasound",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "img_body_region",
+          "values": [
+            {
+              "label": "chest, abdomen_pelvis",
+              "n": 95,
+              "suppressed": false
+            },
+            {
+              "label": "whole_body",
+              "n": 60,
+              "suppressed": false
+            },
+            {
+              "label": "abdomen_pelvis",
+              "n": 29,
+              "suppressed": false
+            },
+            {
+              "label": "brain",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "chest",
+              "n": 11,
+              "suppressed": false
+            },
+            {
+              "label": "neck",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "chest, abdomen, pelvis",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "liver",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "abdomen",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "breast",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "abdomen_pelvis, chest",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "chest_abdomen_pelvis",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "pelvis",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "img_overall_assessment",
+          "values": [
+            {
+              "label": "response",
+              "n": 111,
+              "suppressed": false
+            },
+            {
+              "label": "progression",
+              "n": 58,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": 52,
+              "suppressed": false
+            },
+            {
+              "label": "stable",
+              "n": 20,
+              "suppressed": false
+            },
+            {
+              "label": "mixed",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "labs": {
+      "categorical": [
+        {
+          "column": "test_name",
+          "values": [
+            {
+              "label": "Hemoglobin",
+              "n": 699,
+              "suppressed": false
+            },
+            {
+              "label": "WBC",
+              "n": 694,
+              "suppressed": false
+            },
+            {
+              "label": "Platelets",
+              "n": 688,
+              "suppressed": false
+            },
+            {
+              "label": "Creatinine",
+              "n": 526,
+              "suppressed": false
+            },
+            {
+              "label": "ALT",
+              "n": 475,
+              "suppressed": false
+            },
+            {
+              "label": "AST",
+              "n": 441,
+              "suppressed": false
+            },
+            {
+              "label": "Albumin",
+              "n": 233,
+              "suppressed": false
+            },
+            {
+              "label": "TSH",
+              "n": 175,
+              "suppressed": false
+            },
+            {
+              "label": "ANC",
+              "n": 156,
+              "suppressed": false
+            },
+            {
+              "label": "CEA",
+              "n": 145,
+              "suppressed": false
+            },
+            {
+              "label": "Alkaline Phosphatase",
+              "n": 144,
+              "suppressed": false
+            },
+            {
+              "label": "Total Bilirubin",
+              "n": 131,
+              "suppressed": false
+            },
+            {
+              "label": "BUN",
+              "n": 124,
+              "suppressed": false
+            },
+            {
+              "label": "CA 19-9",
+              "n": 123,
+              "suppressed": false
+            },
+            {
+              "label": "LDH",
+              "n": 118,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "value",
+          "values": [
+            {
+              "label": "28",
+              "n": 130,
+              "suppressed": false
+            },
+            {
+              "label": "22",
+              "n": 128,
+              "suppressed": false
+            },
+            {
+              "label": "1.1",
+              "n": 105,
+              "suppressed": false
+            },
+            {
+              "label": "198",
+              "n": 78,
+              "suppressed": false
+            },
+            {
+              "label": "24",
+              "n": 78,
+              "suppressed": false
+            },
+            {
+              "label": "0.9",
+              "n": 77,
+              "suppressed": false
+            },
+            {
+              "label": "0.82",
+              "n": 70,
+              "suppressed": false
+            },
+            {
+              "label": "3.8",
+              "n": 65,
+              "suppressed": false
+            },
+            {
+              "label": "6.8",
+              "n": 62,
+              "suppressed": false
+            },
+            {
+              "label": "5.8",
+              "n": 60,
+              "suppressed": false
+            },
+            {
+              "label": "18",
+              "n": 58,
+              "suppressed": false
+            },
+            {
+              "label": "2.1",
+              "n": 55,
+              "suppressed": false
+            },
+            {
+              "label": "4.8",
+              "n": 53,
+              "suppressed": false
+            },
+            {
+              "label": "11.4",
+              "n": 52,
+              "suppressed": false
+            },
+            {
+              "label": "3.6",
+              "n": 52,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "unit",
+          "values": [
+            {
+              "label": "K/uL",
+              "n": 1501,
+              "suppressed": false
+            },
+            {
+              "label": "U/L",
+              "n": 1181,
+              "suppressed": false
+            },
+            {
+              "label": "g/dL",
+              "n": 932,
+              "suppressed": false
+            },
+            {
+              "label": "mg/dL",
+              "n": 868,
+              "suppressed": false
+            },
+            {
+              "label": "ng/mL",
+              "n": 247,
+              "suppressed": false
+            },
+            {
+              "label": "U/mL",
+              "n": 185,
+              "suppressed": false
+            },
+            {
+              "label": "mIU/L",
+              "n": 164,
+              "suppressed": false
+            },
+            {
+              "label": "ng/dL",
+              "n": 87,
+              "suppressed": false
+            },
+            {
+              "label": "mEq/L",
+              "n": 74,
+              "suppressed": false
+            },
+            {
+              "label": "%",
+              "n": 42,
+              "suppressed": false
+            },
+            {
+              "label": "ratio",
+              "n": 39,
+              "suppressed": false
+            },
+            {
+              "label": "x10^9/L",
+              "n": 33,
+              "suppressed": false
+            },
+            {
+              "label": "/uL",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "mL/min/1.73m2",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "mU/L",
+              "n": 11,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "reference_range",
+          "values": [
+            {
+              "label": "150-400",
+              "n": 688,
+              "suppressed": false
+            },
+            {
+              "label": "4.0-11.0",
+              "n": 612,
+              "suppressed": false
+            },
+            {
+              "label": "12.0-16.0",
+              "n": 461,
+              "suppressed": false
+            },
+            {
+              "label": "10-40",
+              "n": 429,
+              "suppressed": false
+            },
+            {
+              "label": "7-56",
+              "n": 370,
+              "suppressed": false
+            },
+            {
+              "label": "3.5-5.0",
+              "n": 234,
+              "suppressed": false
+            },
+            {
+              "label": "0.5-1.1",
+              "n": 226,
+              "suppressed": false
+            },
+            {
+              "label": "13.5-17.5",
+              "n": 200,
+              "suppressed": false
+            },
+            {
+              "label": "0.7-1.3",
+              "n": 151,
+              "suppressed": false
+            },
+            {
+              "label": "0.4-4.0",
+              "n": 149,
+              "suppressed": false
+            },
+            {
+              "label": "44-147",
+              "n": 137,
+              "suppressed": false
+            },
+            {
+              "label": "0-37",
+              "n": 93,
+              "suppressed": false
+            },
+            {
+              "label": "1.8-7.7",
+              "n": 87,
+              "suppressed": false
+            },
+            {
+              "label": "7-40",
+              "n": 84,
+              "suppressed": false
+            },
+            {
+              "label": "0.1-1.2",
+              "n": 84,
+              "suppressed": false
+            }
+          ]
+        }
+      ]
+    },
+    "medications": {
+      "categorical": [
+        {
+          "column": "drug_name",
+          "values": [
+            {
+              "label": "ondansetron",
+              "n": 79,
+              "suppressed": false
+            },
+            {
+              "label": "dexamethasone",
+              "n": 53,
+              "suppressed": false
+            },
+            {
+              "label": "levothyroxine",
+              "n": 27,
+              "suppressed": false
+            },
+            {
+              "label": "loperamide",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "leucovorin",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "fluorouracil",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "prednisone",
+              "n": 17,
+              "suppressed": false
+            },
+            {
+              "label": "amlodipine",
+              "n": 17,
+              "suppressed": false
+            },
+            {
+              "label": "diphenhydramine",
+              "n": 17,
+              "suppressed": false
+            },
+            {
+              "label": "prochlorperazine",
+              "n": 16,
+              "suppressed": false
+            },
+            {
+              "label": "capecitabine",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "carboplatin",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "pegfilgrastim",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "nivolumab",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "lisinopril",
+              "n": 12,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "drug_category",
+          "values": [
+            {
+              "label": "Supportive Care",
+              "n": 523,
+              "suppressed": false
+            },
+            {
+              "label": "Chemotherapy",
+              "n": 160,
+              "suppressed": false
+            },
+            {
+              "label": "Targeted Therapy",
+              "n": 67,
+              "suppressed": false
+            },
+            {
+              "label": "Immunotherapy",
+              "n": 35,
+              "suppressed": false
+            },
+            {
+              "label": "Hormonal Therapy",
+              "n": 19,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "route",
+          "values": [
+            {
+              "label": "PO",
+              "n": 406,
+              "suppressed": false
+            },
+            {
+              "label": "IV",
+              "n": 341,
+              "suppressed": false
+            },
+            {
+              "label": "SC",
+              "n": 41,
+              "suppressed": false
+            },
+            {
+              "label": "IM",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "topical",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "ophthalmic",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Ophthalmic",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Topical",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "dose",
+          "values": [
+            {
+              "label": "8 mg",
+              "n": 85,
+              "suppressed": false
+            },
+            {
+              "label": "10 mg",
+              "n": 31,
+              "suppressed": false
+            },
+            {
+              "label": "5 mg",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "20 mg",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "4 mg",
+              "n": 22,
+              "suppressed": false
+            },
+            {
+              "label": "400 mg/m2",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "2 mg",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "400 mg",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "25 mg",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "12 mg",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "500 mg",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "300 mg",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "1000 mg",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "6 mg",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "75 mcg",
+              "n": 13,
+              "suppressed": false
+            }
+          ]
+        }
+      ]
+    },
+    "medonc": {
+      "categorical": [
+        {
+          "column": "md_dx_days",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 98,
+              "suppressed": false
+            },
+            {
+              "label": "42",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "180",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "540",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "35",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "900",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "28",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "810",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "270",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "120",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "730",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "14",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "100",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "365",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "60",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "md_ca",
+          "values": [
+            {
+              "label": "Evidence of cancer",
+              "n": 79,
+              "suppressed": false
+            },
+            {
+              "label": "No evidence of cancer",
+              "n": 36,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "md_ca_status",
+          "values": [
+            {
+              "label": "Improving",
+              "n": 48,
+              "suppressed": false
+            },
+            {
+              "label": "Stable",
+              "n": 34,
+              "suppressed": false
+            },
+            {
+              "label": "Worsening",
+              "n": 24,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Mixed",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "md_ecog",
+          "values": [
+            {
+              "label": "1",
+              "n": 62,
+              "suppressed": false
+            },
+            {
+              "label": "0",
+              "n": 32,
+              "suppressed": false
+            },
+            {
+              "label": "2",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "1-2",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "3",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "0-1",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "pathology": {
+      "categorical": [
+        {
+          "column": "path_report_type",
+          "values": [
+            {
+              "label": "core_biopsy",
+              "n": 76,
+              "suppressed": false
+            },
+            {
+              "label": "surgical_pathology",
+              "n": 54,
+              "suppressed": false
+            },
+            {
+              "label": "bone_marrow_biopsy",
+              "n": 14,
+              "suppressed": false
+            },
+            {
+              "label": "fine_needle_aspirate",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "cytology",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "path_dx_days",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 151,
+              "suppressed": false
+            },
+            {
+              "label": "0",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "28",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "35",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "path_histology",
+          "values": [
+            {
+              "label": "moderately differentiated adenocarcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "squamous cell carcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "invasive ductal carcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "HIGH-GRADE SEROUS CARCINOMA",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "clear cell RCC",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "metastatic carcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "high-grade serous carcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "High-grade serous carcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "metastatic melanoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "METASTATIC MALIGNANT MELANOMA",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "metastatic adenocarcinoma",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "METASTATIC PROSTATIC ADENOCARCINOMA",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "RENAL CELL CARCINOMA, CLEAR CELL TYPE",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "clear cell RCC with sarcomatoid differentiation",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Clear Cell Renal Cell Carcinoma",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "path_grade",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 50,
+              "suppressed": false
+            },
+            {
+              "label": "moderately differentiated",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "Grade 3",
+              "n": 15,
+              "suppressed": false
+            },
+            {
+              "label": "Grade 2",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "high-grade",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Moderately differentiated (Grade 2)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "WHO/ISUP grade 4",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "High-grade",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "grade 3",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Fuhrman grade 4",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Gleason 4+5=9, Grade Group 5",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "poorly differentiated",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Gleason 9 (5+4), Grade Group 5",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "G2 (moderately differentiated)",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "ISUP/WHO Nuclear Grade: 3",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "pros": {
+      "categorical": [
+        {
+          "column": "instrument",
+          "values": [
+            {
+              "label": "EORTC QLQ-C30",
+              "n": 2271,
+              "suppressed": false
+            },
+            {
+              "label": "PRO-CTCAE",
+              "n": 826,
+              "suppressed": false
+            },
+            {
+              "label": "EORTC QLQ-H&N35",
+              "n": 46,
+              "suppressed": false
+            },
+            {
+              "label": "FACT-BMT",
+              "n": 20,
+              "suppressed": false
+            },
+            {
+              "label": "FKSI-DRS",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "subscale",
+          "values": [
+            {
+              "label": "Fatigue",
+              "n": 587,
+              "suppressed": false
+            },
+            {
+              "label": "Global Health Status",
+              "n": 375,
+              "suppressed": false
+            },
+            {
+              "label": "Physical Functioning",
+              "n": 374,
+              "suppressed": false
+            },
+            {
+              "label": "Pain",
+              "n": 296,
+              "suppressed": false
+            },
+            {
+              "label": "Role Functioning",
+              "n": 286,
+              "suppressed": false
+            },
+            {
+              "label": "Emotional Functioning",
+              "n": 214,
+              "suppressed": false
+            },
+            {
+              "label": "Diarrhea",
+              "n": 134,
+              "suppressed": false
+            },
+            {
+              "label": "Appetite Loss",
+              "n": 96,
+              "suppressed": false
+            },
+            {
+              "label": "Nausea",
+              "n": 82,
+              "suppressed": false
+            },
+            {
+              "label": "Numbness/Tingling",
+              "n": 67,
+              "suppressed": false
+            },
+            {
+              "label": "Fatigue severity",
+              "n": 62,
+              "suppressed": false
+            },
+            {
+              "label": "Dyspnea",
+              "n": 53,
+              "suppressed": false
+            },
+            {
+              "label": "Nausea/Vomiting",
+              "n": 43,
+              "suppressed": false
+            },
+            {
+              "label": "Nausea and Vomiting",
+              "n": 34,
+              "suppressed": false
+            },
+            {
+              "label": "Social Functioning",
+              "n": 30,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "scale_range",
+          "values": [
+            {
+              "label": "0-100",
+              "n": 2317,
+              "suppressed": false
+            },
+            {
+              "label": "0-4",
+              "n": 826,
+              "suppressed": false
+            },
+            {
+              "label": "0-28",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "0-24",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "0-40",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "0-36",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "scenario_label",
+          "values": [
+            {
+              "label": "hnscc_hpv",
+              "n": 379,
+              "suppressed": false
+            },
+            {
+              "label": "nsclc_egfr",
+              "n": 341,
+              "suppressed": false
+            },
+            {
+              "label": "breast_tnbc",
+              "n": 327,
+              "suppressed": false
+            },
+            {
+              "label": "rcc_clear",
+              "n": 327,
+              "suppressed": false
+            },
+            {
+              "label": "crc_kras",
+              "n": 319,
+              "suppressed": false
+            },
+            {
+              "label": "prostate_crpc",
+              "n": 317,
+              "suppressed": false
+            },
+            {
+              "label": "pancreatic_adeno",
+              "n": 311,
+              "suppressed": false
+            },
+            {
+              "label": "melanoma_braf",
+              "n": 301,
+              "suppressed": false
+            },
+            {
+              "label": "aml_flt3",
+              "n": 282,
+              "suppressed": false
+            },
+            {
+              "label": "ovarian_brca1",
+              "n": 261,
+              "suppressed": false
+            }
+          ]
+        }
+      ]
+    },
+    "radiation": {
+      "categorical": [
+        {
+          "column": "rt_dx_days",
+          "values": [
+            {
+              "label": "unknown",
+              "n": 47,
+              "suppressed": false
+            }
+          ]
+        },
+        {
+          "column": "rt_modality",
+          "values": [
+            {
+              "label": "external_beam",
+              "n": 33,
+              "suppressed": false
+            },
+            {
+              "label": "SRS",
+              "n": 12,
+              "suppressed": false
+            },
+            {
+              "label": "SBRT",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "rt_site",
+          "values": [
+            {
+              "label": "pancreas",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right frontal lobe",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "brain",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right cerebellar hemisphere",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right 5th posterior rib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "left base of tongue, left level IIA cervical lymph node",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "left breast, supraclavicular fossa, axilla, internal mammary chain",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "left chest wall and regional nodes",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "primary tumor, celiac axis nodal region, peripancreatic lymph nodes",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right femoral neck",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right lower lobe lung",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "T10-T12 thoracic spine",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right frontal lobe, left cerebellar hemisphere",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right base of tongue, right IIA node",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "right lower lobe pulmonary metastasis",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "rt_dose_cgy",
+          "values": [
+            {
+              "label": "5040",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "7000",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "2000",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "5400",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "6000",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "3000",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "2200",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "1800",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "7800",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "2000-2200",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    },
+    "regimens": {
+      "categorical": [
+        {
+          "column": "regimen_number",
+          "values": [
+            {
+              "label": "1",
+              "n": 95,
+              "suppressed": false
+            },
+            {
+              "label": "2",
+              "n": 82,
+              "suppressed": false
+            },
+            {
+              "label": "3",
+              "n": 48,
+              "suppressed": false
+            },
+            {
+              "label": "4",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "5",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "regimen_drugs",
+          "values": [
+            {
+              "label": "ipilimumab, nivolumab",
+              "n": 18,
+              "suppressed": false
+            },
+            {
+              "label": "cytarabine, daunorubicin, midostaurin",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "nivolumab",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "osimertinib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "olaparib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "cabozantinib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "fludarabine, busulfan",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "dabrafenib, trametinib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "capecitabine",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "leuprolide acetate, abiraterone acetate, prednisone",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "cisplatin",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "niraparib",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "carboplatin, paclitaxel",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "gemcitabine, capecitabine",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "enzalutamide",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "drugs_num",
+          "values": [
+            {
+              "label": "2",
+              "n": 97,
+              "suppressed": false
+            },
+            {
+              "label": "1",
+              "n": 79,
+              "suppressed": false
+            },
+            {
+              "label": "3",
+              "n": 32,
+              "suppressed": false
+            },
+            {
+              "label": "4",
+              "n": 29,
+              "suppressed": false
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "0",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        },
+        {
+          "column": "regimen_setting",
+          "values": [
+            {
+              "label": "Subsequent",
+              "n": 69,
+              "suppressed": false
+            },
+            {
+              "label": "First-line metastatic",
+              "n": 58,
+              "suppressed": false
+            },
+            {
+              "label": "Adjuvant",
+              "n": 35,
+              "suppressed": false
+            },
+            {
+              "label": "Neoadjuvant",
+              "n": 27,
+              "suppressed": false
+            },
+            {
+              "label": "Maintenance",
+              "n": 27,
+              "suppressed": false
+            },
+            {
+              "label": "First-line",
+              "n": 10,
+              "suppressed": false
+            },
+            {
+              "label": "Definitive",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Consolidative",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Consolidation",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "unknown",
+              "n": null,
+              "suppressed": true
+            },
+            {
+              "label": "Curative",
+              "n": null,
+              "suppressed": true
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

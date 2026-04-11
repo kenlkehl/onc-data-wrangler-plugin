@@ -1,0 +1,47 @@
+project:
+  name: example-synthetic-data
+  input_paths:
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/extractions
+  output_dir: /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/output
+
+cohort:
+  patient_file: /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/encounters.csv
+  patient_id_column: patient_id
+  diagnosis_file: null
+  diagnosis_code_column: null
+  diagnosis_code_filter: []
+  demographics_files: []
+  column_mappings:
+    sex: null
+    race: null
+    ethnicity: null
+    birth_date: null
+    death_date: null
+
+extraction:
+  llm:
+    provider: claude-code
+    model: ""
+    base_url: ""
+  claude_code_model: opus
+  ontology_ids:
+    - naaccr
+  cancer_type: generic
+  notes_paths: []
+  notes_text_column: text
+  notes_date_column: date
+  patient_id_column: patient_id
+
+database:
+  deidentify_dates: true
+  record_id_prefix: patient
+  min_non_missing: 10
+
+query:
+  privacy_mode: aggregate-only
+  min_cell_size: 10
+  max_query_rows: 500
+
+field_mappings: {}
+patient_id_columns: {}
