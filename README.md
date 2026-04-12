@@ -51,7 +51,8 @@ vllm serve nvidia/Gemma-4-31b-IT-NVFP4 \
   --enable-auto-tool-choice \
   --reasoning-parser gemma4 \
   --tool-call-parser gemma4 \
-  --served-model-name gemma4-31b
+  --served-model-name gemma4-31b \
+  --default-chat-template-kwargs '{"enable_thinking": true}'
 ```
 
 Then launch Claude Code pointed at the local server:
