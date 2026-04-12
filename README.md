@@ -59,6 +59,7 @@ Then launch Claude Code pointed at the local server:
 
 ```bash
 CLAUDE_CODE_USE_VERTEX=0 \
+CLAUDE_CODE_DISABLE_ADAPTIVE_THINKING=1 \
 ANTHROPIC_BASE_URL=http://localhost:8000 \
 ANTHROPIC_API_KEY=dummy \
 ANTHROPIC_AUTH_TOKEN=dummy \
