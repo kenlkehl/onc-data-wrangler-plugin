@@ -104,17 +104,26 @@ class VLLMClient(LLMClient):
         messages.append({"role": "system", "content": json_system})
         messages.append({"role": "user", "content": prompt})
 
-        # Try JSON mode if we haven't determined it's unsupported
-        if self._json_mode_supported is not False:
+        # Skip JSON mode when a reasoning marker is configured, because
+        # response_format=json_object conflicts with vLLM's reasoning parser
+        # (e.g., --reasoning-parser gemma4), causing mangled output.
+        if self._json_mode_supported is not False and not self._reasoning_marker:
             try:
                 response = self._call_api(
                     messages, temperature, max_tokens,
                     response_format={"type": "json_object"},
                 )
                 self._json_mode_supported = True
-                text = response.choices[0].message.content or ""
+                raw_text = response.choices[0].message.content or ""
+                text = raw_text
                 if self._reasoning_marker:
                     text = strip_reasoning(text, self._reasoning_marker)
+                    if len(text) < 20 and len(raw_text) > 100:
+                        logger.warning(
+                            "Reasoning strip left near-empty output (%d chars from %d). "
+                            "Raw (last 500 chars): %s",
+                            len(text), len(raw_text), raw_text[-500:],
+                        )
                 usage = None
                 if response.usage:
                     usage = {
@@ -136,7 +145,52 @@ class VLLMClient(LLMClient):
 
 
 def strip_reasoning(text: str, marker: str = "</think>") -> str:
-    """Remove reasoning tokens before the final-answer marker."""
+    """Remove reasoning tokens before the final-answer marker.
+
+    Handles multiple formats:
+    1. Standard: <think>...</think>ANSWER  →  ANSWER
+    2. Malformed (vLLM reasoning parser mangles tags): the content starts
+       with "thought" followed by chain-of-thought, with the actual answer
+       (often JSON) appearing at the end, possibly inside ```json blocks.
+    """
+    # Standard case: marker present
     if marker in text:
         return text.split(marker, 1)[-1].strip()
+
+    # Malformed case: content starts with "thought" (mangled <think> tag)
+    stripped = text.strip()
+    if not stripped.lower().startswith("thought"):
+        return text
+
+    # Extract JSON from the end of the reasoning output.
+    # The model typically puts the final JSON after its reasoning,
+    # sometimes inside a ```json code block.
+    import json as _json
+    import re
+
+    # First try: find the last ```json ... ``` block
+    code_blocks = list(re.finditer(r"```(?:json)?\s*\n?([\s\S]*?)```", stripped))
+    if code_blocks:
+        # Take the last code block — earlier ones may be part of reasoning
+        candidate = code_blocks[-1].group(1).strip()
+        try:
+            _json.loads(candidate)
+            return candidate
+        except _json.JSONDecodeError:
+            pass
+
+    # Second try: find the last JSON array or object
+    for start_char, end_char in [("[", "]"), ("{", "}")]:
+        last_start = stripped.rfind(start_char)
+        if last_start > 0:
+            # Find the matching close
+            last_end = stripped.rfind(end_char)
+            if last_end > last_start:
+                candidate = stripped[last_start:last_end + 1]
+                try:
+                    _json.loads(candidate)
+                    return candidate
+                except _json.JSONDecodeError:
+                    pass
+
     return text
