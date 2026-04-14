@@ -92,7 +92,7 @@ for pid, group in notes_df.groupby(patient_col):
     all_text = "\n\n---\n\n".join(group[text_col].dropna().tolist())
 
     # Chunk if needed
-    chunks = chunk_text_by_chars(all_text, chunk_size=config.extraction.chunk_tokens * 4)
+    chunks = chunk_text_by_chars(all_text, chunk_size_chars=config.extraction.chunk_tokens * 4)
 
     # Extract iteratively across chunks
     patient_results = extractor.extract_iterative(chunks, config.extraction.cancer_type)
