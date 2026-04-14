@@ -113,22 +113,60 @@ Replace the placeholders with the actual file paths discovered in Phase 0:
 - `{{DATA_DICTIONARY_PATHS}}`: Paths to data dictionary files
 - `{{DATA_FILE_LIST}}`: List of available data files with brief descriptions
 
-### 1.3 Execute question extraction
+### 1.3 Spawn question extraction agent
 
-Follow the filled-in prompt instructions directly (you are the agent doing the extraction -- do NOT invoke a subprocess for this step). Read the paper PDF, cross-reference with the data dictionary, and systematically extract every quantitative result as an analysis question.
+Spawn a `question-extraction-worker` agent using the Agent tool. Pass the filled-in prompt template as the agent's prompt, including:
 
-Write the output files:
+- Paper PDF path: `{PAPER_PDF}`
+- Supplement PDF paths: list of paths, or "None"
+- Data dictionary paths: list of files in `{DICT_DIR}`
+- Data file list: brief list from DATA_CONTEXT (filenames and column summaries only)
+
+The agent will read the paper and write three output files:
 - `questions_with_answers.xlsx` (columns: analysis_id, category, analysis_question, reported_analysis_result)
+- `questions_only.xlsx` (columns: analysis_id, category, analysis_question — NO reported answers)
 - `paper_context.txt` (structured summary of the paper for later use in Phase 3)
+
+**IMPORTANT: Do NOT read the paper PDF yourself. Do NOT read `questions_with_answers.xlsx` until Phase 3. You will only read `questions_only.xlsx` (which contains no reported answers) until Phase 3.**
+
+Wait for the agent to complete, then verify that all three output files exist on disk.
+
+### 1.3.1 If the extraction agent fails
+
+If the `question-extraction-worker` fails to produce all three output files:
+1. Re-spawn it with the same prompt (up to 2 retries).
+2. If it fails 3 times total, inform the user and ask if they want to:
+   a. Provide a pre-existing `questions_with_answers.xlsx` manually
+   b. Abort the pipeline
+3. If the user provides files manually, generate `questions_only.xlsx` from `questions_with_answers.xlsx` by running a Python script that copies only the first 3 columns (analysis_id, category, analysis_question) programmatically, without displaying or printing column 4.
+
+**The orchestrator MUST NEVER read the paper PDF and perform extraction itself. This is a hard constraint for scientific integrity.**
 
 ### 1.4 Display summary and get user approval
 
-Show the user:
+Read **`questions_only.xlsx`** (NOT `questions_with_answers.xlsx`). Show the user:
 - Total number of questions generated
 - Breakdown by category
-- A sample of 5-10 questions spanning different categories
+- A sample of 5-10 question TEXTS spanning different categories
 
-Ask the user to review the questions. They may want to add, remove, or modify questions before proceeding. If the user edits `questions_with_answers.xlsx` externally, re-read it before continuing.
+**Do NOT display `reported_analysis_result` values.** If the user wants to review the full file including reported answers, direct them to open `questions_with_answers.xlsx` externally (in Excel, LibreOffice, etc.).
+
+Ask the user to confirm the questions look reasonable. They may want to add, remove, or modify questions before proceeding. If the user edits `questions_with_answers.xlsx` externally, regenerate `questions_only.xlsx` by running:
+
+```python
+import openpyxl
+wb = openpyxl.load_workbook('questions_with_answers.xlsx', read_only=True)
+ws = wb.active
+wb_out = openpyxl.Workbook()
+ws_out = wb_out.active
+for row in ws.iter_rows(min_row=1, max_row=ws.max_row, max_col=3, values_only=True):
+    ws_out.append(list(row))
+wb_out.save('questions_only.xlsx')
+wb.close()
+wb_out.close()
+```
+
+This script copies only the first 3 columns programmatically without displaying column 4. Then re-read `questions_only.xlsx` before continuing.
 
 ---
 
@@ -160,9 +198,9 @@ config = LLMConfig(
     # api_key is resolved from environment variables by default
 )
 
-# Load questions from the Excel file
+# Load questions from the blinded Excel file (no reported answers)
 import openpyxl
-wb = openpyxl.load_workbook("questions_with_answers.xlsx", read_only=True)
+wb = openpyxl.load_workbook("questions_only.xlsx", read_only=True)
 ws = wb.active
 headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
 q_col = headers.index("analysis_question") + 1
@@ -195,11 +233,11 @@ This mode uses native Claude Code subagents to analyze each question independent
 
 ### 2.1 Read questions
 
-Read `questions_with_answers.xlsx` and extract the list of analysis questions. Use Python via Bash:
+Read **`questions_only.xlsx`** and extract the list of analysis questions. **Do NOT read `questions_with_answers.xlsx` — you must not have access to reported answers during Phase 2.** Use Python via Bash:
 
 ```python
 import openpyxl, json
-wb = openpyxl.load_workbook('questions_with_answers.xlsx', read_only=True)
+wb = openpyxl.load_workbook('questions_only.xlsx', read_only=True)
 ws = wb.active
 headers = [ws.cell(1, c).value for c in range(1, ws.max_column + 1)]
 q_col = headers.index('analysis_question') + 1
@@ -248,14 +286,25 @@ The JSON must have these fields:
 
 If the user chose **sonnet** in Phase 0, pass `model: "sonnet"` to the Agent tool to override the agent's default opus model.
 
-### 2.5 Collect and validate results
+### 2.5 Collect, validate, and retry failures
 
 After all agents complete:
 
 1. Read each `question_results/q{NNN}_result.json` file
 2. Validate that each file contains valid JSON with the required fields
 3. Log any failures (missing files, invalid JSON, or agents that did not produce output)
-4. For failures, note the question for potential manual review
+4. For failures, **re-spawn a new `analysis-worker` agent** for each failed question (up to 2 retries per question). Use the same prompt template as step 2.4.
+5. After retries, if any questions still have no valid result, write a placeholder result:
+   ```json
+   {
+     "analysis_result": "FAILED: Agent could not produce a result after retries",
+     "denominator_used": "N/A",
+     "assumptions_made": "N/A",
+     "step_by_step_analysis": "Agent failed to produce output after maximum retries"
+   }
+   ```
+
+**CRITICAL: The orchestrator MUST NEVER perform data analysis manually. This is a scientific integrity constraint — the orchestrator has not read the paper's reported answers and must not attempt to reproduce results itself. Always re-spawn a worker agent instead.**
 
 ### 2.6 Merge results into Excel
 
@@ -347,6 +396,8 @@ After the script completes, proceed to **step 3.5** below to collect, validate, 
 This mode uses native Claude Code subagents to compare published results against the model's reproduced results.
 
 ### 3.1 Prepare the input file
+
+**Note: This is the first phase where the orchestrator reads `questions_with_answers.xlsx` and sees `reported_analysis_result` values. This is appropriate because Phase 3's purpose is comparing published vs reproduced results.**
 
 Merge data from the two previous outputs into `discrepancy_analysis_input.xlsx`:
 - From `questions_with_answers.xlsx`: `analysis_question`, `reported_analysis_result`
@@ -462,3 +513,4 @@ Highlight any systematic patterns (e.g., "All survival questions are discrepant 
 - **Model override**: The orchestrator can pass `model: "sonnet"` to agent spawns if the user selected Sonnet in Phase 0. Default is Opus.
 - **Excel cell limit**: Excel cells have a 32,767 character limit. Truncate step_by_step_analysis and discrepancy_analysis if needed.
 - **Structured output**: Results are written as JSON files by the worker agents using the Write tool.
+- **Scientific integrity (blinding)**: The orchestrator MUST NOT read the paper PDF or `questions_with_answers.xlsx` until Phase 3. Question extraction is delegated to a `question-extraction-worker` subagent. During Phase 2, the orchestrator reads only `questions_only.xlsx` (no reported answers). When analysis workers fail, the orchestrator re-spawns agents rather than performing analysis manually. This prevents contamination of independent reproduction by knowledge of expected results.
