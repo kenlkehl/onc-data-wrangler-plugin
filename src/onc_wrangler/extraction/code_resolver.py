@@ -137,13 +137,26 @@ class GenericCodeResolver:
     def from_data_items(cls, items: list) -> "GenericCodeResolver":
         """Build a resolver from a list of DataItem objects.
 
-        Extracts ``valid_values`` dict from each item that has one.
+        Extracts ``valid_values`` from each item that has them.
+        Handles both dict-style ``{code: description}`` and
+        ``List[ValidValue]`` (from YAML-parsed ontologies).
         Uses ``item.id`` or ``item.json_field`` as the field_id.
         """
         valid_values_map: dict[str, dict[str, str]] = {}
         for item in items:
             fid = getattr(item, "json_field", None) or getattr(item, "id", None) or str(id(item))
             vv = getattr(item, "valid_values", None)
-            if vv and isinstance(vv, dict):
+            if not vv:
+                continue
+            if isinstance(vv, dict):
                 valid_values_map[fid] = {str(k): str(v) for k, v in vv.items()}
+            elif isinstance(vv, list):
+                codes_dict: dict[str, str] = {}
+                for v in vv:
+                    code = getattr(v, "code", None)
+                    desc = getattr(v, "description", "")
+                    if code is not None:
+                        codes_dict[str(code)] = str(desc)
+                if codes_dict:
+                    valid_values_map[fid] = codes_dict
         return cls(valid_values_map)
