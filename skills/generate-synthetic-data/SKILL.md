@@ -13,6 +13,10 @@ You are generating synthetic but clinically realistic oncology data. The pipelin
 
 **Supports multiple scenarios**: The user can provide a single blurb or multiple scenario descriptions, each with its own patient count. Patients are tagged with their originating scenario throughout all outputs.
 
+**Medical code grounding**: Stages 2 and 3 inject a per-patient "Reference Vocabularies" block containing ICD-10-CM, LOINC, and SNOMED CT codes relevant to that patient's scenario and Stage-1 events. This grounds LLM output in real codes rather than made-up ones. Bundled subsets live in `data/ontologies/medical_codes/`; to install full releases (LOINC / SNOMED CT require licensed downloads; ICD-10-CM is public), run `python scripts/download_medical_codes.py --icd10 [--loinc PATH] [--snomed PATH]` and the registry will prefer the full release automatically.
+
+**Synthetic NAACCR cancer registry**: After Stage 3, the pipeline optionally runs the existing NAACCR extraction pipeline (`onc_wrangler.extraction`) on each patient's generated documents to produce a registrar-grade NAACCR record. Output is written to `OUTPUT_DIR/cancer_registry.csv` and `OUTPUT_DIR/cancer_registry.xml` via `NAACCRWriter`, and a `cancer_registry` row is also added to the standard tables/ assembly. This is useful both as synthetic ground-truth training data and as a round-trip benchmark for the extractor itself. Enable/disable via the `generate_registry` flag on `run_full_pipeline`.
+
 Plugin root: `${CLAUDE_PLUGIN_ROOT}`
 
 ---
@@ -595,6 +599,9 @@ Present to the user:
   - `OUTPUT_DIR/tables/hospitalizations.csv` — hospitalizations table
   - `OUTPUT_DIR/tables/medications.csv` — medications table
   - `OUTPUT_DIR/tables/pros.csv` — patient-reported outcomes table
+  - `OUTPUT_DIR/tables/cancer_registry.csv` — per-patient synthetic NAACCR registry row (present when registry generation is enabled)
+  - `OUTPUT_DIR/cancer_registry.csv` — NAACCR-formatted registry CSV (item-name-keyed columns) from `NAACCRWriter`
+  - `OUTPUT_DIR/cancer_registry.xml` — NAACCR XML (NaaccrData > Patient > Tumor hierarchy)
   - `OUTPUT_DIR/summary.json` — generation summary with per-scenario stats
 
 **If `notes.csv` needs to be regenerated from existing documents** (e.g., the `patients/` directory was cleaned up but `documents/` still exists):

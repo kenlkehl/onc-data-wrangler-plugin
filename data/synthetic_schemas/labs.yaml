@@ -10,6 +10,9 @@ columns:
   - name: test_name
     type: string
     description: Standard lab test name (WBC, Hemoglobin, Platelets, Creatinine, ALT, AST, CEA, etc.)
+  - name: loinc_code
+    type: string
+    description: "LOINC code for the test. Use a code from the Reference Vocabularies section when present; otherwise leave empty."
   - name: value
     type: string
     description: Result value
@@ -35,3 +38,6 @@ generation_instructions: |
     - Renal function changes with nephrotoxic agents (cisplatin, etc.)
   Multiple rows per encounter date are expected (one row per individual test).
   Not every encounter needs labs; use clinical judgment about which visits would have labs drawn.
+  Populate loinc_code from the Reference Vocabularies section when a matching code is listed
+  (e.g., 718-7 for Hemoglobin, 6690-2 for WBC, 2160-0 for serum creatinine, 2857-1 for PSA,
+  2091-7 for CEA). If no LOINC match is available for a test, leave loinc_code empty.

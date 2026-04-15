@@ -1,0 +1,237 @@
+code,description,category
+C00.9,"Malignant neoplasm of lip, unspecified",head_and_neck
+C01,Malignant neoplasm of base of tongue,head_and_neck
+C02.9,"Malignant neoplasm of tongue, unspecified",head_and_neck
+C04.9,"Malignant neoplasm of floor of mouth, unspecified",head_and_neck
+C06.9,"Malignant neoplasm of mouth, unspecified",head_and_neck
+C07,Malignant neoplasm of parotid gland,head_and_neck
+C09.9,"Malignant neoplasm of tonsil, unspecified",head_and_neck
+C10.9,"Malignant neoplasm of oropharynx, unspecified",head_and_neck
+C11.9,"Malignant neoplasm of nasopharynx, unspecified",head_and_neck
+C12,Malignant neoplasm of pyriform sinus,head_and_neck
+C13.9,"Malignant neoplasm of hypopharynx, unspecified",head_and_neck
+C14.0,"Malignant neoplasm of pharynx, unspecified",head_and_neck
+C15.9,"Malignant neoplasm of esophagus, unspecified",gi
+C16.0,Malignant neoplasm of cardia,gi
+C16.9,"Malignant neoplasm of stomach, unspecified",gi
+C17.9,"Malignant neoplasm of small intestine, unspecified",gi
+C18.0,Malignant neoplasm of cecum,gi
+C18.2,Malignant neoplasm of ascending colon,gi
+C18.3,Malignant neoplasm of hepatic flexure,gi
+C18.4,Malignant neoplasm of transverse colon,gi
+C18.5,Malignant neoplasm of splenic flexure,gi
+C18.6,Malignant neoplasm of descending colon,gi
+C18.7,Malignant neoplasm of sigmoid colon,gi
+C18.9,"Malignant neoplasm of colon, unspecified",gi
+C19,Malignant neoplasm of rectosigmoid junction,gi
+C20,Malignant neoplasm of rectum,gi
+C21.0,"Malignant neoplasm of anus, unspecified",gi
+C21.1,Malignant neoplasm of anal canal,gi
+C22.0,"Liver cell carcinoma",gi
+C22.1,Intrahepatic bile duct carcinoma,gi
+C22.9,"Malignant neoplasm of liver, not specified as primary or secondary",gi
+C23,Malignant neoplasm of gallbladder,gi
+C24.0,Malignant neoplasm of extrahepatic bile duct,gi
+C24.1,Malignant neoplasm of ampulla of Vater,gi
+C24.9,"Malignant neoplasm of biliary tract, unspecified",gi
+C25.0,Malignant neoplasm of head of pancreas,gi
+C25.1,Malignant neoplasm of body of pancreas,gi
+C25.2,Malignant neoplasm of tail of pancreas,gi
+C25.3,Malignant neoplasm of pancreatic duct,gi
+C25.9,"Malignant neoplasm of pancreas, unspecified",gi
+C30.0,Malignant neoplasm of nasal cavity,thoracic
+C31.9,"Malignant neoplasm of accessory sinus, unspecified",thoracic
+C32.9,"Malignant neoplasm of larynx, unspecified",thoracic
+C33,Malignant neoplasm of trachea,thoracic
+C34.00,"Malignant neoplasm of unspecified main bronchus",thoracic
+C34.10,"Malignant neoplasm of upper lobe, unspecified bronchus or lung",thoracic
+C34.11,"Malignant neoplasm of upper lobe, right bronchus or lung",thoracic
+C34.12,"Malignant neoplasm of upper lobe, left bronchus or lung",thoracic
+C34.2,Malignant neoplasm of middle lobe bronchus or lung,thoracic
+C34.30,"Malignant neoplasm of lower lobe, unspecified bronchus or lung",thoracic
+C34.31,"Malignant neoplasm of lower lobe, right bronchus or lung",thoracic
+C34.32,"Malignant neoplasm of lower lobe, left bronchus or lung",thoracic
+C34.80,"Malignant neoplasm of overlapping sites of unspecified bronchus and lung",thoracic
+C34.90,"Malignant neoplasm of unspecified part of unspecified bronchus or lung",thoracic
+C34.91,"Malignant neoplasm of unspecified part of right bronchus or lung",thoracic
+C34.92,"Malignant neoplasm of unspecified part of left bronchus or lung",thoracic
+C37,Malignant neoplasm of thymus,thoracic
+C38.4,Malignant neoplasm of pleura,thoracic
+C40.20,"Malignant neoplasm of long bones of unspecified lower limb",bone
+C41.9,"Malignant neoplasm of bone and articular cartilage, unspecified",bone
+C43.9,"Malignant melanoma of skin, unspecified",skin
+C43.51,Malignant melanoma of anterior skin of trunk,skin
+C43.62,Malignant melanoma of left upper limb,skin
+C44.91,"Basal cell carcinoma of skin, unspecified",skin
+C44.92,"Squamous cell carcinoma of skin, unspecified",skin
+C45.9,"Mesothelioma, unspecified",thoracic
+C46.9,"Kaposi's sarcoma, unspecified",other
+C47.9,"Malignant neoplasm of peripheral nerves and autonomic nervous system, unspecified",other
+C48.2,"Malignant neoplasm of peritoneum, unspecified",gi
+C49.9,"Malignant neoplasm of connective and soft tissue, unspecified",other
+C50.011,Malignant neoplasm of nipple and areola of right female breast,breast
+C50.012,Malignant neoplasm of nipple and areola of left female breast,breast
+C50.111,Malignant neoplasm of central portion of right female breast,breast
+C50.112,Malignant neoplasm of central portion of left female breast,breast
+C50.211,Malignant neoplasm of upper-inner quadrant of right female breast,breast
+C50.212,Malignant neoplasm of upper-inner quadrant of left female breast,breast
+C50.311,Malignant neoplasm of lower-inner quadrant of right female breast,breast
+C50.312,Malignant neoplasm of lower-inner quadrant of left female breast,breast
+C50.411,Malignant neoplasm of upper-outer quadrant of right female breast,breast
+C50.412,Malignant neoplasm of upper-outer quadrant of left female breast,breast
+C50.511,Malignant neoplasm of lower-outer quadrant of right female breast,breast
+C50.512,Malignant neoplasm of lower-outer quadrant of left female breast,breast
+C50.811,Malignant neoplasm of overlapping sites of right female breast,breast
+C50.812,Malignant neoplasm of overlapping sites of left female breast,breast
+C50.911,Malignant neoplasm of unspecified site of right female breast,breast
+C50.912,Malignant neoplasm of unspecified site of left female breast,breast
+C50.919,Malignant neoplasm of unspecified site of unspecified female breast,breast
+C50.921,Malignant neoplasm of unspecified site of right male breast,breast
+C50.929,Malignant neoplasm of unspecified site of unspecified male breast,breast
+C53.9,"Malignant neoplasm of cervix uteri, unspecified",gyn
+C54.1,Malignant neoplasm of endometrium,gyn
+C54.9,"Malignant neoplasm of corpus uteri, unspecified",gyn
+C55,"Malignant neoplasm of uterus, part unspecified",gyn
+C56.1,Malignant neoplasm of right ovary,gyn
+C56.2,Malignant neoplasm of left ovary,gyn
+C56.9,Malignant neoplasm of unspecified ovary,gyn
+C57.00,Malignant neoplasm of unspecified fallopian tube,gyn
+C60.9,"Malignant neoplasm of penis, unspecified",gu
+C61,Malignant neoplasm of prostate,gu
+C62.90,Malignant neoplasm of unspecified testis (descended),gu
+C62.91,Malignant neoplasm of unspecified testis (undescended),gu
+C64.1,Malignant neoplasm of right kidney (except renal pelvis),gu
+C64.2,Malignant neoplasm of left kidney (except renal pelvis),gu
+C64.9,"Malignant neoplasm of unspecified kidney, except renal pelvis",gu
+C65.1,Malignant neoplasm of right renal pelvis,gu
+C65.9,Malignant neoplasm of unspecified renal pelvis,gu
+C66.9,Malignant neoplasm of unspecified ureter,gu
+C67.0,Malignant neoplasm of trigone of bladder,gu
+C67.1,Malignant neoplasm of dome of bladder,gu
+C67.9,"Malignant neoplasm of bladder, unspecified",gu
+C69.90,Malignant neoplasm of unspecified site of unspecified eye,other
+C70.9,"Malignant neoplasm of meninges, unspecified",cns
+C71.0,Malignant neoplasm of cerebrum,cns
+C71.1,Malignant neoplasm of frontal lobe,cns
+C71.2,Malignant neoplasm of temporal lobe,cns
+C71.3,Malignant neoplasm of parietal lobe,cns
+C71.4,Malignant neoplasm of occipital lobe,cns
+C71.6,Malignant neoplasm of cerebellum,cns
+C71.7,Malignant neoplasm of brain stem,cns
+C71.9,"Malignant neoplasm of brain, unspecified",cns
+C72.0,Malignant neoplasm of spinal cord,cns
+C73,Malignant neoplasm of thyroid gland,endocrine
+C74.90,Malignant neoplasm of unspecified part of unspecified adrenal gland,endocrine
+C77.0,"Secondary and unspecified malignant neoplasm of lymph nodes of head, face and neck",metastasis
+C77.1,Secondary and unspecified malignant neoplasm of intrathoracic lymph nodes,metastasis
+C77.2,Secondary and unspecified malignant neoplasm of intra-abdominal lymph nodes,metastasis
+C77.3,"Secondary and unspecified malignant neoplasm of axilla and upper limb lymph nodes",metastasis
+C77.4,"Secondary and unspecified malignant neoplasm of inguinal and lower limb lymph nodes",metastasis
+C77.5,Secondary and unspecified malignant neoplasm of intrapelvic lymph nodes,metastasis
+C77.9,"Secondary and unspecified malignant neoplasm of lymph node, unspecified",metastasis
+C78.00,Secondary malignant neoplasm of unspecified lung,metastasis
+C78.01,Secondary malignant neoplasm of right lung,metastasis
+C78.02,Secondary malignant neoplasm of left lung,metastasis
+C78.1,Secondary malignant neoplasm of mediastinum,metastasis
+C78.2,Secondary malignant neoplasm of pleura,metastasis
+C78.39,Secondary malignant neoplasm of other respiratory organs,metastasis
+C78.4,Secondary malignant neoplasm of small intestine,metastasis
+C78.5,Secondary malignant neoplasm of large intestine and rectum,metastasis
+C78.6,Secondary malignant neoplasm of retroperitoneum and peritoneum,metastasis
+C78.7,Secondary malignant neoplasm of liver and intrahepatic bile duct,metastasis
+C78.89,Secondary malignant neoplasm of other digestive organs,metastasis
+C79.00,Secondary malignant neoplasm of unspecified kidney and renal pelvis,metastasis
+C79.10,"Secondary malignant neoplasm of unspecified urinary organs",metastasis
+C79.2,Secondary malignant neoplasm of skin,metastasis
+C79.31,Secondary malignant neoplasm of brain,metastasis
+C79.32,Secondary malignant neoplasm of cerebral meninges,metastasis
+C79.40,Secondary malignant neoplasm of unspecified part of nervous system,metastasis
+C79.49,Secondary malignant neoplasm of other parts of nervous system,metastasis
+C79.51,Secondary malignant neoplasm of bone,metastasis
+C79.52,Secondary malignant neoplasm of bone marrow,metastasis
+C79.60,Secondary malignant neoplasm of unspecified ovary,metastasis
+C79.81,Secondary malignant neoplasm of breast,metastasis
+C79.82,Secondary malignant neoplasm of genital organs,metastasis
+C79.89,Secondary malignant neoplasm of other specified sites,metastasis
+C79.9,"Secondary malignant neoplasm of unspecified site",metastasis
+C80.0,"Disseminated malignant neoplasm, unspecified",metastasis
+C80.1,"Malignant (primary) neoplasm, unspecified",metastasis
+C81.90,"Hodgkin lymphoma, unspecified, unspecified site",hematologic
+C82.90,"Follicular lymphoma, unspecified, unspecified site",hematologic
+C83.30,"Diffuse large B-cell lymphoma, unspecified site",hematologic
+C83.50,"Lymphoblastic (diffuse) lymphoma, unspecified site",hematologic
+C84.90,"Mature T/NK-cell lymphomas, unspecified, unspecified site",hematologic
+C85.90,"Non-Hodgkin lymphoma, unspecified, unspecified site",hematologic
+C88.4,Extranodal marginal zone B-cell lymphoma of mucosa-associated lymphoid tissue [MALT lymphoma],hematologic
+C90.00,"Multiple myeloma not having achieved remission",hematologic
+C90.01,"Multiple myeloma in remission",hematologic
+C90.02,"Multiple myeloma in relapse",hematologic
+C91.00,"Acute lymphoblastic leukemia not having achieved remission",hematologic
+C91.10,"Chronic lymphocytic leukemia of B-cell type not having achieved remission",hematologic
+C92.00,"Acute myeloblastic leukemia, not having achieved remission",hematologic
+C92.10,"Chronic myeloid leukemia, BCR/ABL-positive, not having achieved remission",hematologic
+C95.90,"Leukemia, unspecified not having achieved remission",hematologic
+D05.90,"Unspecified type of carcinoma in situ of unspecified breast",breast
+D06.9,"Carcinoma in situ of cervix, unspecified",gyn
+D25.9,"Leiomyoma of uterus, unspecified",benign
+D32.9,"Benign neoplasm of meninges, unspecified",benign
+D33.2,"Benign neoplasm of brain, unspecified",benign
+D37.5,Neoplasm of uncertain behavior of rectum,uncertain
+D46.9,"Myelodysplastic syndrome, unspecified",hematologic
+D48.60,"Neoplasm of uncertain behavior of unspecified breast",uncertain
+D49.0,Neoplasm of unspecified behavior of digestive system,uncertain
+D49.1,Neoplasm of unspecified behavior of respiratory system,uncertain
+D49.3,Neoplasm of unspecified behavior of breast,uncertain
+D49.9,"Neoplasm of unspecified behavior of unspecified site",uncertain
+D50.9,"Iron deficiency anemia, unspecified",supportive
+D61.810,Antineoplastic chemotherapy induced pancytopenia,adverse_event
+D64.81,Anemia due to antineoplastic chemotherapy,adverse_event
+D70.1,Agranulocytosis secondary to cancer chemotherapy,adverse_event
+D70.9,"Neutropenia, unspecified",adverse_event
+D75.81,Myelofibrosis,hematologic
+E03.9,"Hypothyroidism, unspecified",comorbidity
+E11.9,Type 2 diabetes mellitus without complications,comorbidity
+E78.5,"Hyperlipidemia, unspecified",comorbidity
+E86.0,Dehydration,adverse_event
+E87.1,Hypo-osmolality and hyponatremia,adverse_event
+E87.6,Hypokalemia,adverse_event
+G89.3,Neoplasm related pain (acute) (chronic),supportive
+I10,Essential (primary) hypertension,comorbidity
+I25.10,Atherosclerotic heart disease of native coronary artery without angina pectoris,comorbidity
+I48.91,"Unspecified atrial fibrillation",comorbidity
+I50.9,"Heart failure, unspecified",comorbidity
+J18.9,"Pneumonia, unspecified organism",adverse_event
+J44.9,"Chronic obstructive pulmonary disease, unspecified",comorbidity
+J90,"Pleural effusion, not elsewhere classified",adverse_event
+J96.00,"Acute respiratory failure, unspecified whether with hypoxia or hypercapnia",adverse_event
+K21.9,Gastro-esophageal reflux disease without esophagitis,comorbidity
+K52.1,Toxic gastroenteritis and colitis,adverse_event
+K56.609,"Unspecified intestinal obstruction, unspecified as to partial versus complete",adverse_event
+K72.90,Hepatic failure without coma,adverse_event
+K74.60,"Unspecified cirrhosis of liver",comorbidity
+K76.6,Portal hypertension,comorbidity
+K92.2,"Gastrointestinal hemorrhage, unspecified",adverse_event
+L03.90,"Cellulitis, unspecified",adverse_event
+M79.605,"Pain in left leg, unspecified",supportive
+N17.9,"Acute kidney failure, unspecified",adverse_event
+N18.3,Chronic kidney disease stage 3 (moderate),comorbidity
+N18.9,"Chronic kidney disease, unspecified",comorbidity
+N39.0,"Urinary tract infection, site not specified",adverse_event
+R05.9,"Cough, unspecified",symptom
+R06.00,"Dyspnea, unspecified",symptom
+R10.9,"Unspecified abdominal pain",symptom
+R11.2,Nausea with vomiting unspecified,adverse_event
+R18.8,Other ascites,adverse_event
+R50.81,Fever presenting with conditions classified elsewhere,adverse_event
+R53.83,Other fatigue,symptom
+R63.0,Anorexia,symptom
+R63.4,Abnormal weight loss,symptom
+T45.1X5A,Adverse effect of antineoplastic and immunosuppressive drugs initial encounter,adverse_event
+Z51.11,Encounter for antineoplastic chemotherapy,encounter
+Z51.12,Encounter for antineoplastic immunotherapy,encounter
+Z51.0,Encounter for antineoplastic radiation therapy,encounter
+Z85.3,Personal history of malignant neoplasm of breast,history
+Z85.038,Personal history of other malignant neoplasm of large intestine,history
+Z85.118,Personal history of other malignant neoplasm of bronchus and lung,history
+Z85.46,Personal history of malignant neoplasm of prostate,history
+Z85.828,Personal history of other malignant neoplasm of skin,history

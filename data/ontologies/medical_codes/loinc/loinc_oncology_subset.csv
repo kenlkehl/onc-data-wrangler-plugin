@@ -1,0 +1,105 @@
+code,description,category
+6690-2,Leukocytes [#/volume] in Blood by Automated count,cbc
+718-7,Hemoglobin [Mass/volume] in Blood,cbc
+4544-3,Hematocrit [Volume Fraction] of Blood by Automated count,cbc
+777-3,Platelets [#/volume] in Blood by Automated count,cbc
+789-8,Erythrocytes [#/volume] in Blood by Automated count,cbc
+787-2,MCV [Entitic volume] by Automated count,cbc
+785-6,MCH [Entitic mass] by Automated count,cbc
+786-4,MCHC [Mass/volume] by Automated count,cbc
+788-0,Erythrocyte distribution width [Ratio] by Automated count,cbc
+770-8,"Neutrophils/100 leukocytes in Blood by Automated count",cbc
+751-8,Neutrophils [#/volume] in Blood by Automated count,cbc
+736-9,Lymphocytes/100 leukocytes in Blood by Automated count,cbc
+731-0,Lymphocytes [#/volume] in Blood by Automated count,cbc
+5905-5,Monocytes/100 leukocytes in Blood by Automated count,cbc
+742-7,Monocytes [#/volume] in Blood by Automated count,cbc
+713-8,Eosinophils/100 leukocytes in Blood by Automated count,cbc
+711-2,Eosinophils [#/volume] in Blood by Automated count,cbc
+706-2,Basophils/100 leukocytes in Blood by Automated count,cbc
+704-7,Basophils [#/volume] in Blood by Automated count,cbc
+2339-0,Glucose [Mass/volume] in Blood,cmp
+3094-0,Urea nitrogen [Mass/volume] in Serum or Plasma,cmp
+2160-0,Creatinine [Mass/volume] in Serum or Plasma,cmp
+33914-3,Glomerular filtration rate/1.73 sq M.predicted,cmp
+2951-2,Sodium [Moles/volume] in Serum or Plasma,cmp
+2823-3,Potassium [Moles/volume] in Serum or Plasma,cmp
+2075-0,Chloride [Moles/volume] in Serum or Plasma,cmp
+2028-9,Carbon dioxide [Moles/volume] in Serum or Plasma,cmp
+17861-6,Calcium [Mass/volume] in Serum or Plasma,cmp
+1975-2,Bilirubin.total [Mass/volume] in Serum or Plasma,cmp
+1968-7,Bilirubin.direct [Mass/volume] in Serum or Plasma,cmp
+6768-6,Alkaline phosphatase [Enzymatic activity/volume] in Serum or Plasma,cmp
+1742-6,Alanine aminotransferase [Enzymatic activity/volume] in Serum or Plasma,cmp
+1920-8,Aspartate aminotransferase [Enzymatic activity/volume] in Serum or Plasma,cmp
+2324-2,Gamma glutamyl transferase [Enzymatic activity/volume] in Serum or Plasma,cmp
+1751-7,Albumin [Mass/volume] in Serum or Plasma,cmp
+2885-2,Protein [Mass/volume] in Serum or Plasma,cmp
+14682-9,Creatinine [Moles/volume] in Serum or Plasma,cmp
+2532-0,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma,cmp
+5902-2,Prothrombin time (PT),coag
+6301-6,INR in Platelet poor plasma by Coagulation assay,coag
+14979-9,aPTT in Platelet poor plasma by Coagulation assay,coag
+3255-7,Fibrinogen [Mass/volume] in Platelet poor plasma,coag
+48065-7,Fibrin D-dimer FEU [Mass/volume] in Platelet poor plasma,coag
+2276-4,Ferritin [Mass/volume] in Serum or Plasma,iron
+2498-4,Iron [Mass/volume] in Serum or Plasma,iron
+2500-7,Iron binding capacity [Mass/volume] in Serum or Plasma,iron
+2857-1,Prostate specific Ag [Mass/volume] in Serum or Plasma,tumor_marker
+10886-0,Prostate Specific Ag Free [Mass/volume] in Serum or Plasma,tumor_marker
+2039-6,Cholera toxin Ab [Units/volume] in Serum or Plasma,tumor_marker
+10334-1,Immunoglobulin M [Mass/volume] in Serum or Plasma,tumor_marker
+2091-7,Carcinoembryonic Ag [Mass/volume] in Serum or Plasma,tumor_marker
+10378-8,Cancer Ag 15-3 [Units/volume] in Serum or Plasma,tumor_marker
+19176-7,Cancer Ag 19-9 [Units/volume] in Serum or Plasma,tumor_marker
+10334-2,Cancer Ag 125 [Units/volume] in Serum or Plasma,tumor_marker
+1834-1,Alpha-1-Fetoprotein [Mass/volume] in Serum or Plasma,tumor_marker
+19080-1,"Choriogonadotropin.beta subunit [Units/volume] in Serum or Plasma",tumor_marker
+49563-0,Chromogranin A [Mass/volume] in Serum or Plasma,tumor_marker
+75408-9,Cancer Ag 27-29 [Units/volume] in Serum or Plasma,tumor_marker
+33903-6,Beta-2-microglobulin [Mass/volume] in Serum or Plasma,tumor_marker
+5206-8,Lactate dehydrogenase [Enzymatic activity/volume] in Serum or Plasma by Lactate to pyruvate reaction,tumor_marker
+62320-0,Thyroglobulin [Mass/volume] in Serum or Plasma,tumor_marker
+3016-3,Thyrotropin [Units/volume] in Serum or Plasma,endocrine
+3051-0,Triiodothyronine (T3) [Mass/volume] in Serum or Plasma,endocrine
+3024-7,Thyroxine (T4) free [Mass/volume] in Serum or Plasma,endocrine
+85319-6,Estrogen receptor Ag [Presence] in Breast cancer specimen by Immune stain,pathology_marker
+16112-5,Estrogen receptor Ag [Interpretation] in Tissue,pathology_marker
+40556-0,Progesterone receptor Ag [Interpretation] in Tissue,pathology_marker
+85337-4,HER2 Ag [Presence] in Breast cancer specimen by Immune stain,pathology_marker
+48676-1,HER2 [Interpretation] in Tissue,pathology_marker
+85318-8,PD-L1 Ag [Interpretation] in Tissue by Immune stain,pathology_marker
+62842-3,Microsatellite instability [Interpretation] in Cancer specimen,pathology_marker
+48700-9,Microsatellite stability [Interpretation] in Cancer specimen,pathology_marker
+85315-4,Ki-67 nuclear Ag [Interpretation] in Breast cancer specimen by Immune stain,pathology_marker
+21885-6,Cytokeratin 5+6 Ag [Interpretation] in Tissue by Immune stain,pathology_marker
+48676-2,Oncotype DX Recurrence Score,genomic_assay
+48677-9,MammaPrint risk class,genomic_assay
+62858-9,BRCA1 gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,genomic_assay
+62859-7,BRCA2 gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,genomic_assay
+62862-1,EGFR gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,genomic_assay
+62866-2,KRAS gene mutations found [Identifier] in Blood or Tissue by Molecular genetics method Nominal,genomic_assay
+79231-1,ALK gene rearrangements found [Identifier] in Tissue by FISH Nominal,genomic_assay
+79241-0,ROS1 gene rearrangements found [Identifier] in Tissue by FISH Nominal,genomic_assay
+81247-9,Tumor mutation burden [# per 1000000 bases] in Cancer specimen by Molecular genetics method,genomic_assay
+75323-0,Next generation sequencing panel in Cancer specimen by Molecular genetics method,genomic_assay
+82115-8,Circulating tumor DNA panel in Plasma by Molecular genetics method,genomic_assay
+8480-6,Systolic blood pressure,vital
+8462-4,Diastolic blood pressure,vital
+8867-4,Heart rate,vital
+9279-1,Respiratory rate,vital
+8310-5,Body temperature,vital
+2708-6,"Oxygen saturation in Arterial blood",vital
+29463-7,Body weight,vital
+8302-2,Body height,vital
+39156-5,Body mass index (BMI) [Ratio],vital
+2019-8,Carbon dioxide [Partial pressure] in Arterial blood,abg
+2703-7,Oxygen [Partial pressure] in Arterial blood,abg
+2744-1,"pH of Arterial blood",abg
+6298-4,"Potassium [Moles/volume] in Blood",cmp
+2345-7,"Glucose [Mass/volume] in Serum or Plasma",cmp
+5804-0,Protein [Mass/volume] in Urine by Test strip,urinalysis
+5811-5,Specific gravity of Urine by Test strip,urinalysis
+5767-9,Appearance of Urine,urinalysis
+5778-6,Color of Urine,urinalysis
+2345-8,"Urinalysis macro (dipstick) panel - Urine",urinalysis

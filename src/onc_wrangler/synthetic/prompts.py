@@ -112,7 +112,7 @@ def build_stage1_prompt(blurb: str, n_patients: int) -> tuple[str, str]:
 
 STAGE2_SYSTEM = "You are a brilliant synthetic clinical document generation bot with encyclopedic knowledge about cancer and its treatment."
 
-STAGE2_USER_TEMPLATE = """You will be given a semi-structured list of events from a patient's clinical history, with each event on its own line of text.
+STAGE2_USER_TEMPLATE = """{reference_codes_block}You will be given a semi-structured list of events from a patient's clinical history, with each event on its own line of text.
 The events are sorted in chronological order.
 One of these events will be surrounded by the tags <BEGIN EVENT CORRESPONDING TO SYNTHETIC NOTE> and <END EVENT CORRESPONDING TO SYNTHETIC NOTE>.
 Your job is to create a synthetic clinical document corresponding to the event denoted by those tags.
@@ -139,7 +139,11 @@ Here is the list of events:
 Now, generate the synthetic document corresponding to the notated event."""
 
 
-def build_stage2_prompt(all_events: list[dict], target_event_index: int) -> tuple[str, str]:
+def build_stage2_prompt(
+    all_events: list[dict],
+    target_event_index: int,
+    reference_codes: str = "",
+) -> tuple[str, str]:
     """Build system and user prompts for Stage 2 document generation.
 
     Uses the masked-text approach: full patient event history with the
@@ -148,6 +152,8 @@ def build_stage2_prompt(all_events: list[dict], target_event_index: int) -> tupl
     Args:
         all_events: List of event dicts with 'type' and 'text' keys.
         target_event_index: Index of the event to generate a document for.
+        reference_codes: Optional markdown block of retrieved ICD-10-CM /
+            LOINC / SNOMED codes to ground the LLM output.
 
     Returns:
         (system_prompt, user_prompt)
@@ -164,7 +170,11 @@ def build_stage2_prompt(all_events: list[dict], target_event_index: int) -> tupl
         lines.append(event_line)
 
     masked_text = "\n".join(lines)
-    user_prompt = STAGE2_USER_TEMPLATE.format(masked_text=masked_text)
+    ref_block = (reference_codes.rstrip() + "\n\n") if reference_codes else ""
+    user_prompt = STAGE2_USER_TEMPLATE.format(
+        masked_text=masked_text,
+        reference_codes_block=ref_block,
+    )
     return STAGE2_SYSTEM, user_prompt
 
 
@@ -180,7 +190,7 @@ STAGE3_SYSTEM = (
 
 STAGE3_USER_TEMPLATE = """Given the following patient event list and any generated clinical documents, produce structured tabular data.
 
-## Patient Event List
+{reference_codes_block}## Patient Event List
 {events_text}
 
 ## Generated Documents Summary
@@ -210,7 +220,8 @@ Respond with ONLY a JSON object. No markdown fences, no explanation. The JSON mu
 - Use the patient_id provided: {patient_id}
 - Dates must form a coherent chronological timeline consistent with the event list
 - Lab values must be clinically realistic and consistent with the disease trajectory
-- ICD-10 codes must be valid for the cancer type described
+- ICD-10-CM codes must be valid for the cancer type described. Where a Reference Vocabularies section is provided above, pick codes from it rather than inventing new ones.
+- LOINC codes on lab rows must also come from the Reference Vocabularies section when listed there.
 - Generate data ONLY for the tables listed above
 - Every row must include all columns defined in the schema
 """
@@ -221,6 +232,7 @@ def build_stage3_prompt(
     all_events: list[dict],
     documents: list[dict],
     schemas: list[TableSchema],
+    reference_codes: str = "",
 ) -> tuple[str, str]:
     """Build system and user prompts for Stage 3 structured data generation.
 
@@ -229,6 +241,8 @@ def build_stage3_prompt(
         all_events: List of event dicts with 'type' and 'text' keys.
         documents: List of generated document dicts with 'event_index', 'event_type', 'text'.
         schemas: Table schemas to generate data for.
+        reference_codes: Optional markdown block of retrieved ICD-10-CM /
+            LOINC / SNOMED codes to ground the LLM output.
 
     Returns:
         (system_prompt, user_prompt)
@@ -249,10 +263,13 @@ def build_stage3_prompt(
 
     schemas_text = "\n\n".join(schema_to_prompt_text(s) for s in schemas)
 
+    ref_block = (reference_codes.rstrip() + "\n\n") if reference_codes else ""
+
     user_prompt = STAGE3_USER_TEMPLATE.format(
         events_text=events_text,
         documents_summary=documents_summary,
         schemas_text=schemas_text,
         patient_id=patient_id,
+        reference_codes_block=ref_block,
     )
     return STAGE3_SYSTEM, user_prompt

@@ -9,7 +9,7 @@ columns:
     description: Date of encounter (YYYY-MM-DD)
   - name: diagnosis_code
     type: string
-    description: Primary ICD-10 diagnosis code for the encounter
+    description: Primary ICD-10-CM diagnosis code for the encounter. Must be selected from the Reference Vocabularies section when present.
   - name: department
     type: string
     description: Clinical department (Medical Oncology, Radiation Oncology, Surgery, Radiology, Pathology, Emergency, Primary Care)
@@ -27,6 +27,9 @@ generation_instructions: |
     radiation -> Radiation Oncology
     ngs_report -> Pathology (visit_type: Procedure)
     adverse_event -> Emergency or Medical Oncology depending on severity
-  Use realistic ICD-10 codes for the cancer type and any comorbidities.
+  Use realistic ICD-10-CM codes for the cancer type and any comorbidities. When a
+  Reference Vocabularies section is provided above, pick diagnosis_code values from that
+  list (e.g., C50.911 for right-breast cancer, C34.91 for right-lung cancer, C79.51 for
+  secondary malignant neoplasm of bone). Only invent codes as a last resort.
   Dates should form a coherent chronological timeline spanning the disease trajectory.
   Demographics and diagnosis events do NOT generate encounter rows.

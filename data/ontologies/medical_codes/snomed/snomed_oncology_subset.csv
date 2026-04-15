@@ -1,0 +1,159 @@
+code,description,category
+363346000,Malignant neoplastic disease (disorder),disorder
+254837009,Malignant tumor of breast,disorder
+254838004,"Infiltrating ductal carcinoma of breast",disorder
+254840009,"Infiltrating lobular carcinoma of breast",disorder
+86049000,"Malignant neoplasm, primary (morphologic abnormality)",disorder
+399068003,Malignant tumor of prostate,disorder
+399490008,Primary malignant neoplasm of prostate,disorder
+93880001,Primary malignant neoplasm of bronchus,disorder
+254626006,Adenocarcinoma of lung (disorder),disorder
+254632001,Small cell carcinoma of lung,disorder
+254637007,Non-small cell lung cancer,disorder
+254634000,Squamous cell carcinoma of lung,disorder
+93761005,Primary malignant neoplasm of colon,disorder
+363406005,Malignant tumor of colon,disorder
+93763008,Primary malignant neoplasm of rectum,disorder
+363351000,Malignant tumor of rectum,disorder
+93870000,Primary malignant neoplasm of liver,disorder
+25370001,Hepatocellular carcinoma,disorder
+93934004,Primary malignant neoplasm of pancreas,disorder
+363418001,Malignant tumor of pancreas,disorder
+448982000,Adenocarcinoma of head of pancreas,disorder
+93655004,Primary malignant neoplasm of brain,disorder
+254938000,"Glioblastoma of brain",disorder
+443961001,Primary malignant neoplasm of ovary,disorder
+254879003,Serous cystadenocarcinoma of ovary,disorder
+371973000,Primary malignant neoplasm of endometrium,disorder
+254878006,Endometrial carcinoma,disorder
+285608009,Primary malignant neoplasm of cervix,disorder
+372130007,Malignant melanoma of skin,disorder
+46586006,Malignant lymphoma,disorder
+118599009,Hodgkin lymphoma,disorder
+118600007,Non-Hodgkin lymphoma,disorder
+52921007,Diffuse large B-cell lymphoma,disorder
+118618005,Follicular lymphoma,disorder
+91861009,Acute myeloid leukemia,disorder
+93143009,"Acute lymphoblastic leukemia",disorder
+92814006,"Chronic myeloid leukemia, BCR-ABL positive",disorder
+92978004,Multiple myeloma,disorder
+94381002,Secondary malignant neoplasm of liver,disorder
+94222008,Secondary malignant neoplasm of bone,disorder
+94225005,Secondary malignant neoplasm of brain,disorder
+94391008,Secondary malignant neoplasm of lung,disorder
+188340000,Stage I (localized),stage
+188341001,Stage II (locally advanced),stage
+188342008,Stage III (regionally advanced),stage
+188343003,Stage IV (metastatic),stage
+399537006,TNM staging system,stage
+399492000,cT1 category (finding),stage
+399415002,cT2 category (finding),stage
+399510008,cT3 category (finding),stage
+399412004,cT4 category (finding),stage
+399437002,cN0 category (finding),stage
+399566006,cN1 category (finding),stage
+399599000,cN2 category (finding),stage
+399555006,cN3 category (finding),stage
+399425006,cM0 category (finding),stage
+399394008,cM1 category (finding),stage
+373572006,Clinical stage finding,stage
+384704002,Pathological stage finding,stage
+385356007,Tumor stage finding,finding
+399261000,Histologic grade finding,finding
+11654001,Grade 1 (finding),finding
+11655000,Grade 2 (finding),finding
+11656004,Grade 3 (finding),finding
+11657008,Grade 4 (finding),finding
+439401001,Diagnosis (observable entity),finding
+421961002,Biological tumor marker,finding
+385432009,Recurrence (finding),finding
+54535007,Remission phase of disease,finding
+277022003,Disease progression,finding
+58790005,Stable disease (finding),finding
+182840001,Partial response (finding),finding
+103338009,Complete response (finding),finding
+395082007,Chemotherapy (procedure),procedure
+33195004,Radiation oncology (specialty),procedure
+404924005,Adjuvant chemotherapy,procedure
+169413002,Neoadjuvant chemotherapy,procedure
+441960009,Immunotherapy (procedure),procedure
+169315003,Radiotherapy (procedure),procedure
+108290001,"Radiotherapy, external beam",procedure
+169359004,Hormone therapy for cancer,procedure
+384692006,Targeted therapy (procedure),procedure
+71388002,"Biopsy (procedure)",procedure
+431525006,Core needle biopsy of breast,procedure
+392021009,"Lumpectomy of breast",procedure
+64368001,Partial mastectomy,procedure
+37687000,Total mastectomy,procedure
+359615001,Partial pancreatectomy,procedure
+445351005,Total pancreatectomy,procedure
+90470006,Prostatectomy,procedure
+237367009,"Radical prostatectomy",procedure
+5413007,Nephrectomy,procedure
+90199006,Partial nephrectomy,procedure
+26390003,Hysterectomy,procedure
+44103008,Wedge resection of lung,procedure
+173171007,Lobectomy of lung,procedure
+125571002,Pneumonectomy,procedure
+173172000,Right upper lobectomy of lung,procedure
+86273004,Biopsy,procedure
+439846005,Endoscopic biopsy,procedure
+73761001,Colonoscopy,procedure
+709528008,Positron emission tomography with computed tomography scan,procedure
+24642003,Computed tomography of chest,procedure
+169069000,CT scan of abdomen,procedure
+241615005,CT scan of pelvis,procedure
+241601008,CT scan of brain,procedure
+312245003,Magnetic resonance imaging,procedure
+241601009,MRI of brain,procedure
+24142005,Bone scan,procedure
+422735006,Next generation sequencing (procedure),procedure
+445250007,"Molecular genetic analysis (procedure)",procedure
+62747000,Reverse transcription polymerase chain reaction,procedure
+703051005,Fluorescence in situ hybridization (procedure),procedure
+261665006,Unknown (qualifier value),qualifier
+260385009,Negative (qualifier value),qualifier
+10828004,Positive (qualifier value),qualifier
+52101004,Present (qualifier value),qualifier
+2667000,Absent (qualifier value),qualifier
+386661006,Fever (finding),adverse_event
+62315008,Diarrhea (finding),adverse_event
+422587007,Nausea (finding),adverse_event
+422400008,Vomiting (finding),adverse_event
+84229001,Fatigue (finding),adverse_event
+224960004,Neuropathic pain (finding),adverse_event
+409089005,Peripheral neuropathy,adverse_event
+165517008,Neutropenia (finding),adverse_event
+271737000,Anaemia (finding),adverse_event
+302215000,Thrombocytopenic disorder,adverse_event
+65323003,Pancytopenia (finding),adverse_event
+14760008,Constipation,adverse_event
+271594007,Syncope (finding),adverse_event
+22253000,Pain (finding),adverse_event
+248324001,Weight loss (finding),adverse_event
+78164000,Anorexia (finding),adverse_event
+267036007,Dyspnea (finding),adverse_event
+62315008,Cough (finding),adverse_event
+233604007,Pneumonia (disorder),adverse_event
+74474003,Pleural effusion (finding),adverse_event
+363765003,"EGFR protein, human",gene_product
+706982009,EGFR gene mutation,gene_variant
+890144003,KRAS gene mutation,gene_variant
+890145002,BRAF gene mutation,gene_variant
+890146001,HER2 gene mutation,gene_variant
+890147005,ALK gene rearrangement,gene_variant
+890148000,ROS1 gene rearrangement,gene_variant
+706983004,TP53 gene mutation,gene_variant
+896013004,BRCA1 germline mutation,gene_variant
+896014005,BRCA2 germline mutation,gene_variant
+448974003,Microsatellite instability-high,gene_variant
+448973009,Microsatellite stable,gene_variant
+734002005,Tumor mutational burden-high,finding
+73211009,Diabetes mellitus (disorder),comorbidity
+38341003,Hypertensive disorder (disorder),comorbidity
+13645005,Chronic obstructive lung disease (disorder),comorbidity
+13644009,Chronic ischemic heart disease,comorbidity
+84114007,Heart failure (disorder),comorbidity
+709044004,Chronic kidney disease (disorder),comorbidity
+40930008,Hypothyroidism (disorder),comorbidity

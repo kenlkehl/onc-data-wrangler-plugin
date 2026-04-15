@@ -23,6 +23,9 @@ from tqdm import tqdm
 
 from onc_wrangler.llm.base import LLMClient
 
+from onc_wrangler.ontologies.medical_codes import MedicalCodeRegistry
+
+from .code_retrieval import build_reference_block_for_patient
 from .drug_perturbation import (
     DEFAULT_DRUG_MAP,
     apply_drug_perturbation,
@@ -172,6 +175,7 @@ def run_stage1(
     output_dir: Path,
     scenario_index: Optional[int] = None,
     scenario_label: Optional[str] = None,
+    code_registry: Optional[MedicalCodeRegistry] = None,
 ) -> list[dict]:
     """Generate patient event lists from a clinical context blurb.
 
@@ -182,6 +186,11 @@ def run_stage1(
         output_dir: Base output directory.
         scenario_index: If provided, tag patients with this scenario index.
         scenario_label: If provided, tag patients with this label.
+        code_registry: Optional loaded :class:`MedicalCodeRegistry`. When
+            provided, each patient is annotated with a ``reference_codes``
+            markdown block (ICD-10-CM / LOINC / SNOMED matches for the
+            scenario + events) that downstream Stage 2 / Stage 3 prompts
+            inject to ground LLM output in real codes.
 
     Returns:
         List of patient dicts with events.
@@ -200,6 +209,13 @@ def run_stage1(
         scenario_blurb=blurb,
         scenario_label=scenario_label,
     )
+    if code_registry is not None:
+        for patient in patients:
+            patient["reference_codes"] = build_reference_block_for_patient(
+                code_registry,
+                blurb=blurb,
+                events=patient.get("events", []),
+            )
     write_events(patients, output_dir)
     label_str = f" (scenario {scenario_index}: {scenario_label or blurb[:50]})" if scenario_index is not None else ""
     print(f"Stage 1 complete: {len(patients)} patients generated{label_str}")
@@ -210,6 +226,7 @@ def run_stage1_multi(
     client: LLMClient,
     scenarios: list[dict],
     output_dir: Path,
+    code_registry: Optional[MedicalCodeRegistry] = None,
 ) -> list[dict]:
     """Generate patient event lists for multiple scenarios.
 
@@ -220,6 +237,8 @@ def run_stage1_multi(
         client: LLM client for inference.
         scenarios: List of scenario dicts.
         output_dir: Base output directory.
+        code_registry: Optional loaded :class:`MedicalCodeRegistry`; see
+            :func:`run_stage1`.
 
     Returns:
         Combined list of patient dicts from all scenarios.
@@ -233,6 +252,7 @@ def run_stage1_multi(
         patients = run_stage1(
             client, blurb, n_patients, output_dir,
             scenario_index=i, scenario_label=label,
+            code_registry=code_registry,
         )
         all_patients.extend(patients)
 
@@ -248,6 +268,7 @@ def _generate_documents(
     client: LLMClient,
     patient_id: str,
     events: list[dict],
+    reference_codes: str = "",
 ) -> list[dict]:
     """Generate clinical documents for document-type events (Stage 2)."""
     documents = []
@@ -255,7 +276,9 @@ def _generate_documents(
         if event["type"] not in DOCUMENT_EVENT_TYPES:
             continue
 
-        system_prompt, user_prompt = build_stage2_prompt(events, i)
+        system_prompt, user_prompt = build_stage2_prompt(
+            events, i, reference_codes=reference_codes,
+        )
         response = client.generate(
             user_prompt,
             system=system_prompt,
@@ -278,10 +301,12 @@ def _generate_structured_data(
     events: list[dict],
     documents: list[dict],
     schemas: list[TableSchema],
+    reference_codes: str = "",
 ) -> dict[str, list[dict]]:
     """Generate structured tabular rows for all table schemas (Stage 3)."""
     system_prompt, user_prompt = build_stage3_prompt(
         patient_id, events, documents, schemas,
+        reference_codes=reference_codes,
     )
     response = client.generate_structured(
         user_prompt,
@@ -322,17 +347,24 @@ def _process_single_patient(
     patients_dir: Path,
     drug_patterns: list | None,
     drug_perturbation_prob: float,
-) -> tuple[str, int, dict[str, int]]:
+    generate_registry: bool = False,
+    registry_dictionary: Optional["object"] = None,
+) -> tuple[str, int, dict[str, int], dict[str, str]]:
     """Process stages 2+3 for one patient and write output atomically.
 
     Returns:
-        Tuple of (patient_id, n_documents, table_row_counts).
+        Tuple of ``(patient_id, n_documents, table_row_counts, registry_record)``.
+        ``registry_record`` is the NAACCR ``{item_number_str: code}`` dict (empty
+        if registry generation is disabled or failed).
     """
     pid = patient["patient_id"]
     events = patient["events"]
+    reference_codes = patient.get("reference_codes", "") or ""
 
     # Stage 2: generate documents
-    documents = _generate_documents(client, pid, events)
+    documents = _generate_documents(
+        client, pid, events, reference_codes=reference_codes,
+    )
 
     # Apply drug perturbation to document text
     if drug_patterns and drug_perturbation_prob > 0:
@@ -342,8 +374,35 @@ def _process_single_patient(
                 doc["text"] = apply_drug_perturbation(doc["text"], drug_patterns, rng)
 
     # Stage 3: generate structured data
-    tables = _generate_structured_data(client, pid, events, documents, schemas)
+    tables = _generate_structured_data(
+        client, pid, events, documents, schemas,
+        reference_codes=reference_codes,
+    )
     table_counts = {k: len(v) for k, v in tables.items() if isinstance(v, list)}
+
+    # Stage 3b: synthetic NAACCR cancer registry record (optional).
+    # Reuses the extraction pipeline on the generated documents.
+    registry_record: dict[str, str] = {}
+    if generate_registry:
+        try:
+            # Local import to avoid a hard dependency at module load time.
+            from .naaccr_registry import extract_registry_record
+
+            registry_record = extract_registry_record(
+                client=client,
+                patient_id=pid,
+                events=events,
+                documents=documents,
+                dictionary=registry_dictionary,
+            )
+            if registry_record:
+                # Surface the record inside the patient's tables too, so the
+                # standard CSV assembler writes a cancer_registry.csv row
+                # alongside the other tables.
+                tables["cancer_registry"] = [{"patient_id": pid, **registry_record}]
+                table_counts["cancer_registry"] = 1
+        except Exception:
+            logger.exception("NAACCR registry extraction failed for %s", pid)
 
     # Build result and write atomically
     result: dict = {
@@ -352,12 +411,14 @@ def _process_single_patient(
         "documents": documents,
         "tables": tables,
     }
+    if registry_record:
+        result["naaccr_registry"] = registry_record
     for key in ("scenario_index", "scenario_blurb", "scenario_label"):
         if key in patient:
             result[key] = patient[key]
 
     _write_json_atomic(patients_dir / f"{pid}.json", result)
-    return pid, len(documents), table_counts
+    return pid, len(documents), table_counts, registry_record
 
 
 def run_stages_2_and_3(
@@ -368,7 +429,8 @@ def run_stages_2_and_3(
     num_workers: int = 4,
     drug_perturbation_prob: float = 0.3,
     show_progress: bool = True,
-) -> None:
+    generate_registry: bool = False,
+) -> dict[str, dict[str, str]]:
     """Run Stages 2 and 3 for all patients with parallel workers.
 
     Uses ThreadPoolExecutor for concurrent patient processing and
@@ -383,10 +445,24 @@ def run_stages_2_and_3(
         drug_perturbation_prob: Probability of applying drug-name
             perturbation to each generated document (default 0.3).
         show_progress: Show a tqdm progress bar (default True).
+        generate_registry: When True, run the NAACCR extraction pipeline
+            on each patient's generated documents (Stage 3b) and collect
+            the per-patient registry records. See :mod:`synthetic.naaccr_registry`.
+
+    Returns:
+        Dictionary of ``{patient_id: {item_number_str: code}}`` registry
+        records. Empty if ``generate_registry`` is False.
     """
     schemas = load_table_schemas(schema_dir)
     patients_dir = output_dir / "patients"
     patients_dir.mkdir(parents=True, exist_ok=True)
+
+    # Load the NAACCR dictionary once if we'll need it.
+    registry_dictionary = None
+    if generate_registry:
+        from onc_wrangler.ontologies.naaccr_dictionary import NAACCRDictionary
+        registry_dictionary = NAACCRDictionary()
+        registry_dictionary.load()
 
     # Checkpoint: skip patients whose output files already exist
     remaining = []
@@ -402,9 +478,14 @@ def run_stages_2_and_3(
         print(f"Checkpoint: skipping {skipped} already-completed patients")
     print(f"Stage 2+3: {len(remaining)} patients to process")
 
+    registry_records: dict[str, dict[str, str]] = {}
+
     if not remaining:
         print("All patients already processed.")
-        return
+        # Still try to reload registry records from on-disk patient JSONs.
+        if generate_registry:
+            registry_records = _collect_registry_records_from_disk(patients, patients_dir)
+        return registry_records
 
     # Prepare drug perturbation patterns (compiled once, shared across threads)
     drug_patterns = compile_replacement_patterns(DEFAULT_DRUG_MAP) if drug_perturbation_prob > 0 else None
@@ -415,10 +496,14 @@ def run_stages_2_and_3(
         if show_progress:
             iterator = tqdm(iterator, total=len(remaining), desc="Generating patients")
         for _idx, patient in iterator:
-            pid, n_docs, table_counts = _process_single_patient(
+            pid, n_docs, table_counts, registry_record = _process_single_patient(
                 client, patient, schemas, patients_dir,
                 drug_patterns, drug_perturbation_prob,
+                generate_registry=generate_registry,
+                registry_dictionary=registry_dictionary,
             )
+            if registry_record:
+                registry_records[pid] = registry_record
             if not show_progress:
                 print(f"  {pid}: {n_docs} docs, tables: {table_counts}")
     else:
@@ -429,6 +514,8 @@ def run_stages_2_and_3(
                     _process_single_patient,
                     client, patient, schemas, patients_dir,
                     drug_patterns, drug_perturbation_prob,
+                    generate_registry,
+                    registry_dictionary,
                 ): patient["patient_id"]
                 for patient in remaining
             }
@@ -439,14 +526,49 @@ def run_stages_2_and_3(
 
             for future in iterator:
                 try:
-                    pid, n_docs, table_counts = future.result()
+                    pid, n_docs, table_counts, registry_record = future.result()
+                    if registry_record:
+                        registry_records[pid] = registry_record
                     if not show_progress:
                         print(f"  {pid}: {n_docs} docs, tables: {table_counts}")
                 except Exception:
                     failed_pid = futures[future]
                     logger.exception("Failed to process patient %s", failed_pid)
 
+    # Pick up any pre-existing records from checkpointed patient files so
+    # resumed runs don't drop them from the final CSV/XML.
+    if generate_registry:
+        pre_existing = _collect_registry_records_from_disk(
+            [p for p in patients if p not in remaining],
+            patients_dir,
+        )
+        for pid, rec in pre_existing.items():
+            registry_records.setdefault(pid, rec)
+
     print(f"Stages 2+3 complete: {len(patients)} patients processed")
+    return registry_records
+
+
+def _collect_registry_records_from_disk(
+    patients: list[dict],
+    patients_dir: Path,
+) -> dict[str, dict[str, str]]:
+    """Load NAACCR registry records stored under the ``naaccr_registry`` key."""
+    out: dict[str, dict[str, str]] = {}
+    for patient in patients:
+        pid = patient["patient_id"]
+        path = patients_dir / f"{pid}.json"
+        if not path.exists():
+            continue
+        try:
+            with open(path) as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        rec = data.get("naaccr_registry")
+        if isinstance(rec, dict) and rec:
+            out[pid] = rec
+    return out
 
 
 # ---------------------------------------------------------------------------
@@ -462,6 +584,8 @@ def run_full_pipeline(
     scenarios: Optional[list[dict]] = None,
     num_workers: int = 4,
     drug_perturbation_prob: float = 0.3,
+    use_medical_code_registry: bool = True,
+    generate_registry: bool = True,
 ) -> dict:
     """Run the complete synthetic data pipeline (Stages 1-3 + assembly).
 
@@ -479,6 +603,14 @@ def run_full_pipeline(
         num_workers: Number of parallel threads for stages 2+3.
         drug_perturbation_prob: Probability of drug-name perturbation per
             document (0.0 to disable, default 0.3).
+        use_medical_code_registry: When True (default), load the bundled
+            medical-code registry (ICD-10-CM / LOINC / SNOMED) and attach
+            context-matched ``reference_codes`` to each patient so Stage 2
+            and Stage 3 prompts can ground LLM output in real codes.
+        generate_registry: When True (default), run the NAACCR extraction
+            pipeline on each patient's generated documents (Stage 3b) and
+            write ``cancer_registry.csv`` + ``cancer_registry.xml`` to
+            ``output_dir``.
 
     Returns:
         Summary dict from assembly.
@@ -493,17 +625,47 @@ def run_full_pipeline(
     output_dir = Path(output_dir)
     output_dir.mkdir(parents=True, exist_ok=True)
 
+    code_registry: Optional[MedicalCodeRegistry] = None
+    if use_medical_code_registry:
+        try:
+            code_registry = MedicalCodeRegistry()
+            code_registry.load()
+        except Exception:
+            logger.exception("Failed to load MedicalCodeRegistry; continuing without code grounding")
+            code_registry = None
+
     if scenarios:
-        patients = run_stage1_multi(client, scenarios, output_dir)
+        patients = run_stage1_multi(
+            client, scenarios, output_dir, code_registry=code_registry,
+        )
     elif blurb:
-        patients = run_stage1(client, blurb, n_patients, output_dir)
+        patients = run_stage1(
+            client, blurb, n_patients, output_dir,
+            code_registry=code_registry,
+        )
     else:
         raise ValueError("Either 'blurb' or 'scenarios' must be provided")
 
-    run_stages_2_and_3(
+    registry_records = run_stages_2_and_3(
         client, patients, schema_dir, output_dir,
         num_workers=num_workers,
         drug_perturbation_prob=drug_perturbation_prob,
+        generate_registry=generate_registry,
     )
+
+    # Write NAACCR CSV + XML if registry records were produced.
+    if generate_registry and registry_records:
+        try:
+            from onc_wrangler.ontologies.naaccr_dictionary import NAACCRDictionary
+            from onc_wrangler.output.naaccr_writer import NAACCRWriter
+
+            naaccr_dict = NAACCRDictionary()
+            naaccr_dict.load()
+            writer = NAACCRWriter(naaccr_dict)
+            writer.write_csv(registry_records, output_dir / "cancer_registry.csv")
+            writer.write_xml(registry_records, output_dir / "cancer_registry.xml")
+        except Exception:
+            logger.exception("Failed to write NAACCR cancer_registry outputs")
+
     summary = assemble_outputs(output_dir, schema_dir)
     return summary
