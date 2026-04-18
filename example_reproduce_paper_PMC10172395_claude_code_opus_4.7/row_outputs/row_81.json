@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "4/54 (7.41%)",
+  "discrepancy_analysis": "Reported 7% NOTCH1 vs. model 4/54 (7.41%). Relative difference = |7.41 - 7| / 7 = 5.86%, which is within the 10% concordance threshold. The model's 7.41% rounds to 7% as reported in the paper's Fig 2b oncoprint.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

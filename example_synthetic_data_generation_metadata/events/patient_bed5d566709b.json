@@ -1,0 +1,124 @@
+{
+  "patient_id": "patient_bed5d566709b",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 63-year-old female named Margaret Okonkwo. She has a history of hypertension managed with amlodipine and a remote 20 pack-year smoking history (quit 15 years prior). She works as a retired schoolteacher. Eastern Cooperative Oncology Group (ECOG) performance status at diagnosis: 1. She has no family history of renal cell carcinoma or hereditary cancer syndromes."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, the patient had a CT abdomen and pelvis with contrast (initial staging), which showed a large heterogeneous right renal mass measuring 11.4 x 9.7 x 10.2 cm arising from the upper and mid poles of the right kidney, with areas of central necrosis. There was extension into the perinephric fat. Multiple enlarged retroperitoneal lymph nodes were identified, the largest measuring 2.8 x 2.1 cm at the level of the renal hilum and an additional 1.9 cm paraaortic node. The right renal vein appeared patent. No adrenal involvement. No evidence of inferior vena cava thrombus. Radiographic cancer status: cancer present with regional lymphadenopathy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, the patient had a CT chest with contrast (initial staging), which showed multiple bilateral pulmonary nodules consistent with metastatic disease. The largest lesion was in the right lower lobe measuring 1.8 x 1.5 cm. Additional nodules in the left upper lobe (0.9 cm), right upper lobe (0.7 cm), and left lower lobe (0.6 cm). No pleural effusion. No mediastinal adenopathy. Radiographic cancer status: metastatic pulmonary disease confirmed."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63, the patient had a bone scan (initial staging), which showed no definitive evidence of osseous metastatic disease. There was mild degenerative changes in the lumbar spine and bilateral hips, not suspicious for metastasis. Radiographic cancer status: no osseous metastases."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 63 years, the patient had a diagnosis of Stage IV (AJCC 8th edition) clear cell renal cell carcinoma (ccRCC) of the right kidney. Primary site: right kidney (ICD-O-3 site C64.1). Histology: renal cell carcinoma, clear cell type (ICD-O-3 histology code 8310/3). TNM staging: pT3aNxM1 (radiographic N1 retroperitoneal lymphadenopathy; M1 bilateral pulmonary metastases). ISUP/WHO nuclear grade: Grade 3. Sarcomatoid differentiation: present, estimated 20% of tumor volume. Tumor size: 11.4 cm greatest dimension. Extension into perinephric fat: present. Adrenal involvement: absent. Renal vein invasion: absent. IVC involvement: absent. Lymphovascular invasion: present. IMDC (International Metastatic RCC Database Consortium) risk score: Intermediate risk (2 factors: KPS <80% equivalent due to ECOG 1, and diagnosis to systemic therapy <1 year). Confirmation: positive histology by percutaneous core needle biopsy. Tumor site description: right kidney, upper and mid pole. Summary stage: distant metastasis."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 63, the patient had a pathology result from a CT-guided percutaneous core needle biopsy of the right renal mass. Specimen type: core needle biopsy, right kidney mass. Gross description: four tan-white cores measuring 1.0 to 1.5 cm in length. Microscopic findings: renal cell carcinoma, clear cell type, ISUP/WHO nuclear grade 3. The tumor cells have abundant clear cytoplasm with distinct cell borders arranged in nested and alveolar patterns separated by a delicate sinusoidal vascular network. Approximately 20% of the sampled tumor demonstrates sarcomatoid differentiation with high-grade spindle cell morphology, marked nuclear pleomorphism, and brisk mitotic activity. Areas of geographic necrosis are present. Perinephric fat focally involved. Immunohistochemistry: tumor cells positive for CA9 (carbonic anhydrase IX), PAX8, vimentin, and CD10. Negative for CK7, TFE3, and CAIX focal loss. PD-L1 expression: combined positive score (CPS) 15 (Dako 22C3 assay). Final diagnosis: Clear cell renal cell carcinoma, ISUP grade 3 with 20% sarcomatoid differentiation."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 63 years, the patient had next generation sequencing performed for clear cell renal cell carcinoma based on a specimen obtained from the right renal mass (core needle biopsy). Platform: FoundationOne CDx (Foundation Medicine). Tumor mutational burden: 5 mutations/Mb (low). Microsatellite status: microsatellite stable (MSS). Loss of heterozygosity: high genomic LOH (23% of genome). Actionable and clinically relevant alterations: VHL p.R200* (nonsense, pathogenic, biallelic loss via LOH — canonical clear cell RCC driver), PBRM1 frameshift deletion (exon 15, c.2570_2571delAG, loss-of-function — chromatin remodeling tumor suppressor), BAP1 p.W136* (nonsense, loss-of-function — associated with sarcomatoid differentiation and poor prognosis), SETD2 p.K1740fs*2 (frameshift, loss-of-function — histone methyltransferase), TP53 p.R248W (hotspot missense, gain-of-function — associated with sarcomatoid features). Copy number alterations: chromosome 3p loss (encompassing VHL, PBRM1, BAP1, SETD2), MYC gain (chromosome 8q), CDKN2A/B homozygous deletion (chromosome 9p21). Additional variants of uncertain significance: ARID1A p.S1235L, KDM5C p.R726Q (likely benign), KMT2C p.R668H. No MTOR pathway alterations detected. No actionable fusions identified. No HER2 amplification. Germline testing recommended given BAP1 alteration (patient declined germline follow-up at this time)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63, the patient had a multidisciplinary tumor board assessment. The case was reviewed by medical oncology, urology, and radiation oncology. Given the large right renal mass (11.4 cm), retroperitoneal lymphadenopathy, and bilateral pulmonary metastases, the consensus recommendation was for cytoreductive nephrectomy (CN) given IMDC intermediate risk status, good performance status, predominance of disease in the primary site, and the presence of sarcomatoid differentiation warranting tissue for full molecular characterization. Following recovery from surgery, first-line immunotherapy with ipilimumab plus nivolumab (Checkmate 214 regimen) was recommended given intermediate IMDC risk and presence of sarcomatoid differentiation (which is associated with enhanced IO benefit). Cancer present. No response assessment yet — pre-treatment."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 63 years, the patient underwent a right radical nephrectomy (cytoreductive nephrectomy) with retroperitoneal lymph node dissection via open approach. Operative findings: right kidney with a large upper/mid pole mass with perinephric fat involvement. Multiple enlarged hilar and paraaortic lymph nodes were resected. The right adrenal gland was preserved. Right renal vein was intact without thrombus. IVC was inspected and free of tumor. Estimated blood loss: 650 mL. Intraoperative blood transfusion: 2 units packed red blood cells. Surgical margins: negative (R0). Procedure intent: cytoreductive (palliative)."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 63, the patient had a final surgical pathology result from the right radical nephrectomy specimen. Specimen: right kidney with perinephric fat and retroperitoneal lymph nodes. Gross: kidney measuring 14.5 x 11.8 x 9.0 cm, with a dominant right renal mass 11.4 cm in greatest dimension with central necrosis (approximately 30% of tumor area) and yellow-tan solid viable tumor at periphery. Microscopic: renal cell carcinoma, clear cell type, ISUP/WHO nuclear grade 3. Sarcomatoid differentiation present in 20% of sampled tumor (high-grade spindle cell morphology, necrosis). Extension into perinephric fat: present. Gerota's fascia: not involved. Renal sinus fat: focally involved. Renal vein margin: negative. Ureteral margin: negative. Adrenal gland: not submitted (preserved). Lymph nodes: 5 of 8 retroperitoneal lymph nodes positive for metastatic clear cell RCC (5/8). Largest positive node: 2.8 cm with extranodal extension. Final pathologic stage: pT3a pN1 M1 (AJCC 8th edition, Stage IV). Immunohistochemistry on surgical specimen consistent with prior biopsy. PD-L1 CPS on surgical specimen: 18 (Dako 22C3)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 (approximately 5 weeks post-nephrectomy), the patient had a post-surgical oncology clinic visit. She had recovered well from her right radical nephrectomy. Wound healing was intact, no surgical complications noted. Creatinine 1.3 mg/dL (baseline 0.9 mg/dL pre-operatively), consistent with expected decline after nephrectomy. ECOG performance status: 1. Hemoglobin 10.2 g/dL. She was counseled extensively on the immunotherapy regimen of ipilimumab 1 mg/kg plus nivolumab 3 mg/kg every 3 weeks x 4 cycles (induction), followed by nivolumab 480 mg flat dose every 4 weeks (maintenance). She understood the immune-related adverse event (irAE) risks. Treatment to begin next week. Cancer status: present (pulmonary metastases remain; lymph nodes resected). No response assessment."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 63 years (approximately 6 weeks post-nephrectomy), the patient initiated first-line systemic therapy with ipilimumab 1 mg/kg IV plus nivolumab 3 mg/kg IV every 3 weeks for planned 4 induction cycles, followed by nivolumab maintenance 480 mg IV every 4 weeks. Treatment intent: palliative (first-line metastatic). Regimen basis: Checkmate 214 trial. Pre-medications: standard anti-emetics and corticosteroid premedication per institutional protocol. Baseline labs within acceptable range. Renal function acceptable (eGFR 52 mL/min/1.73m2 post-nephrectomy)."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63 (after cycle 2 of ipilimumab/nivolumab), the patient developed grade 2 immune-related colitis manifesting as increased stool frequency (5-6 loose stools per day above baseline), mild lower abdominal cramping, and no rectal bleeding. Onset approximately 5 weeks after initiation of ipilimumab/nivolumab. Managed with oral prednisone 1 mg/kg/day with gradual taper over 6 weeks per NCCN immune-related adverse event management guidelines. Infectious workup (C. difficile, stool culture, ova and parasites) negative. Colonoscopy deferred given clinical Grade 2 and response to steroids. Ipilimumab held for one cycle; nivolumab continued. Diarrhea resolved to Grade 1 after 10 days of steroids. Steroids tapered and discontinued over 6 weeks. CTCAE Grade 2."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 (after completing 4 induction cycles of ipilimumab/nivolumab), the patient had a restaging oncology assessment. She tolerated the regimen overall, with the episode of Grade 2 immune colitis that resolved. ECOG performance status: 1. She transitioned to nivolumab 480 mg IV monotherapy every 4 weeks as planned maintenance. Interval symptom review: no new pulmonary symptoms, no hemoptysis, no constitutional symptoms. Laboratory values stable. Cancer status: present, response assessment pending imaging."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63 (approximately 4 months after starting ipilimumab/nivolumab, post 4 induction cycles), the patient had a CT chest/abdomen/pelvis with contrast (first restaging scan). Chest: right lower lobe lesion decreased from 1.8 cm to 1.0 cm (44% decrease). Left upper lobe nodule decreased from 0.9 cm to 0.5 cm. Right upper lobe nodule stable at 0.7 cm. Left lower lobe nodule stable at 0.6 cm. Abdomen/pelvis: nephrectomy bed without evidence of local recurrence. No new retroperitoneal adenopathy. No new hepatic or adrenal lesions. Overall assessment: mixed response — partial response in right lower lobe and left upper lobe target lesions per RECIST 1.1; stable disease in other pulmonary nodules. Sum of target lesion diameters: decreased by 28% from baseline (partial response by RECIST 1.1 in target lesions). No new lesions. Radiographic cancer status: cancer present, mixed/partial response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 63 (approximately 5 months on therapy), the patient had an oncology office visit for ongoing nivolumab maintenance. Imaging showed mixed/partial response with reduction in dominant pulmonary lesions but stability in smaller nodules. Clinical decision: continue nivolumab 480 mg IV every 4 weeks given overall disease control and tolerability. She reported mild fatigue (Grade 1) and occasional grade 1 arthralgias managed with NSAIDs. No gastrointestinal symptoms. ECOG PS: 1. Thyroid function tests: TSH 6.8 mIU/L (elevated from baseline 2.1), free T4 0.7 ng/dL (low), consistent with Grade 2 immune-related hypothyroidism. Levothyroxine 75 mcg daily initiated. No nivolumab dose modification. Cancer present, responding."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 63 (approximately 5 months on ipilimumab/nivolumab then nivolumab maintenance), the patient developed immune-related hypothyroidism. TSH elevated at 6.8 mIU/L, free T4 low at 0.7 ng/dL. Symptoms: fatigue, mild cold intolerance, and constipation consistent with hypothyroidism. CTCAE Grade 2 immune-related endocrinopathy (hypothyroidism). Levothyroxine 75 mcg orally daily initiated. Nivolumab continued without dose modification. Thyroid function tests to be monitored every 6-8 weeks. No corticosteroids required for hypothyroidism management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 63-64 (approximately 9 months after starting ipilimumab/nivolumab), the patient had a CT chest/abdomen/pelvis with contrast (second restaging scan, disease progression assessment). Chest: right lower lobe lesion now measures 2.4 cm (increased from 1.0 cm at prior scan, and above 1.8 cm baseline — unequivocal progression). Left upper lobe nodule increased from 0.5 cm to 1.2 cm. Right upper lobe nodule increased from 0.7 cm to 1.4 cm. Left lower lobe nodule increased from 0.6 cm to 1.1 cm. Two new small pulmonary nodules identified in the right middle lobe (0.5 and 0.6 cm). Abdomen/pelvis: two new small liver lesions, right hepatic lobe, measuring 0.8 and 0.6 cm, with enhancement pattern suspicious for metastatic disease. No new retroperitoneal adenopathy. No bone lesions. Overall assessment: progressive disease by RECIST 1.1 — new lesions (hepatic) and increase in all target pulmonary lesions. Sum of target lesion diameters increased by 62% from nadir. Radiographic cancer status: cancer present, progressive disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 (9 months after initiating first-line ipilimumab/nivolumab), the patient had an oncology visit for disease progression assessment. Restaging CT demonstrated progressive pulmonary disease with new hepatic metastases, confirming progression on nivolumab maintenance. The patient remained clinically well with ECOG PS 1, no significant new symptoms. Discussion of second-line therapy options: cabozantinib (VEGFR/MET/AXL inhibitor) as standard second-line after IO-based therapy, supported by METEOR trial data and real-world evidence in IO-refractory ccRCC. Alternative options discussed: lenvatinib plus everolimus, axitinib. Given the presence of sarcomatoid features and MET pathway relevance (MET amplification absent but AXL overexpression common in sarcomatoid tumors), cabozantinib selected as preferred second-line agent. Nivolumab discontinued. Levothyroxine continued for hypothyroidism. Cancer present, progressing."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 64 years (9 months after initiating first-line therapy, following confirmed radiographic progression on nivolumab), the patient initiated second-line systemic therapy with cabozantinib 60 mg orally once daily (standard starting dose). Treatment intent: palliative (second-line metastatic). Regimen basis: METEOR trial, with consideration of MET/AXL/VEGFR activity relevant to sarcomatoid histology. Counseled on common TKI-related adverse effects including hand-foot syndrome (palmar-plantar erythrodysesthesia), hypertension, diarrhea, fatigue, and mucositis. Preemptive measures discussed: thick-soled footwear, urea-based cream, dose-reduction algorithm reviewed."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64 (approximately 3 weeks after starting cabozantinib 60 mg daily), the patient developed Grade 2 palmar-plantar erythrodysesthesia (hand-foot syndrome, HFS). Findings: bilateral palmar and plantar erythema, tenderness, peeling, and blistering affecting weight-bearing areas and palmar creases, limiting some instrumental activities of daily living. Management: cabozantinib dose reduced to 40 mg orally daily per dose-reduction algorithm. Urea 40% cream applied twice daily, thick-soled cushioned footwear, and avoidance of heat/friction. The patient was referred to dermatology for supportive care optimization. CTCAE Grade 2 hand-foot skin reaction."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64 (approximately 4 weeks after starting cabozantinib), the patient developed Grade 2 diarrhea with 4-6 loose stools per day above baseline, without blood or significant cramping. Management: loperamide 2 mg after each loose stool (up to 8 doses per day as needed), dietary modifications (low-residue diet, BRAT diet elements), and adequate hydration. Infectious causes excluded. Diarrhea improved to Grade 1 (2-3 stools per day) within 2 weeks on 40 mg cabozantinib. Cabozantinib held briefly for 5 days then resumed at 40 mg. No hospitalization required. CTCAE Grade 2."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 64 (6 weeks after starting cabozantinib), the patient was noted to have Grade 2 hypertension on cabozantinib (blood pressure 158/96 mmHg on amlodipine). Amlodipine dose uptitrated from 5 mg to 10 mg daily. Blood pressure adequately controlled to <140/90 mmHg on adjusted regimen. No cabozantinib dose modification required for hypertension. CTCAE Grade 2 hypertension."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 (approximately 6 weeks after starting cabozantinib 40 mg daily), the patient had an oncology visit. Hand-foot syndrome had improved to Grade 1 with supportive care. Diarrhea controlled at Grade 1 on loperamide PRN. Blood pressure well-controlled on amlodipine 10 mg. She tolerated cabozantinib 40 mg overall. TSH normalized to 2.8 mIU/L on levothyroxine 75 mcg. ECOG PS: 1. Restaging imaging planned. She reported feeling generally well with manageable side effects. Cancer present, response assessment pending."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 64 (approximately 3 months after starting cabozantinib, 12 months from original diagnosis), the patient had a CT chest/abdomen/pelvis with contrast (restaging on cabozantinib). Chest: right lower lobe lesion decreased from 2.4 cm to 1.9 cm. Left upper lobe nodule decreased from 1.2 cm to 0.9 cm. Right upper lobe nodule decreased from 1.4 cm to 1.1 cm. Left lower lobe nodule decreased from 1.1 cm to 0.9 cm. Right middle lobe nodules stable (0.4 and 0.5 cm). Abdomen: hepatic lesions in right lobe stable at 0.8 and 0.6 cm, no new hepatic lesions. No new osseous lesions. No new sites of disease. Overall assessment: stable disease by RECIST 1.1 — minor decreases in some target lesions but no confirmed partial response (sum of target lesion diameters decreased by 18% from pre-cabozantinib baseline, below -30% threshold for PR). No new lesions. Radiographic cancer status: cancer present, stable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 (3 months on cabozantinib, 12 months from diagnosis), the patient had a scheduled oncology clinic visit reviewing restaging results. CT imaging demonstrated stable disease on cabozantinib 40 mg with minor reductions in pulmonary targets and stable hepatic disease. The patient and oncologist agreed to continue cabozantinib at 40 mg given disease stability, tolerability improvement, and clinical benefit. Ongoing management of hand-foot syndrome (Grade 1), diarrhea (Grade 1), and hypertension (controlled). Hypothyroidism stable on levothyroxine. Quality of life assessment: moderate, ECOG PS 1. No evidence of clinical deterioration. Patient expressed desire to continue active treatment. Next restaging in 3 months. Cancer present, stable disease on cabozantinib."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 64 (approximately 6 months after starting cabozantinib, 15 months from original diagnosis), the patient had a CT chest/abdomen/pelvis with contrast (follow-up restaging). Chest: right lower lobe lesion stable at 1.8 cm. Left upper lobe nodule stable at 0.9 cm. Right upper lobe nodule stable at 1.0 cm. Left lower lobe nodule stable at 0.8 cm. Right middle lobe nodules unchanged. Abdomen: hepatic lesions stable at 0.7 and 0.5 cm. No new sites of disease. Nephrectomy bed without recurrence. No new skeletal lesions. Overall assessment: continued stable disease by RECIST 1.1. No progression and no new lesions. Radiographic cancer status: cancer present, stable disease — best overall response stable disease on cabozantinib."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 (6 months on cabozantinib, 15 months from initial diagnosis), the patient had an oncology follow-up visit. Continued stable disease on cabozantinib 40 mg daily. Ongoing toxicities remain manageable: hand-foot syndrome Grade 1 (stable with urea cream and footwear modifications), diarrhea Grade 1 (1-2 stools above baseline, controlled with loperamide PRN), and blood pressure well-controlled. Thyroid function stable on levothyroxine. ECOG PS: 1. Patient reports moderate fatigue, some limitations in walking, but overall functional at home. Nutritional status adequate; weight loss of 4 kg since starting TKI therapy, being monitored. Discussion of continued treatment and goals of care initiated. Patient wishes to continue active therapy. Social work referral placed for psychosocial support. Palliative care consultation discussed; patient not yet interested but agreed to revisit. Cancer present, stable disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 64 (approximately 18 months from original diagnosis, 9 months on cabozantinib), the patient had a comprehensive oncology visit. Restaging scans (CT chest/abdomen/pelvis) show continued stable disease — all target lesions minimally changed from prior scan, no new lesions. Persistent stable disease representing durable benefit from cabozantinib. Performance status remains ECOG 1. Key current issues: (1) Hand-foot syndrome Grade 1, well-managed; patient has adapted lifestyle modifications. (2) Diarrhea Grade 1, managed with dietary adjustments and PRN loperamide. (3) Hypertension Grade 1-2, stable on amlodipine 10 mg. (4) Hypothyroidism from prior immunotherapy, stable on levothyroxine 75 mcg. (5) Mild chronic fatigue, referred to integrative oncology for exercise counseling. Lab: CBC within acceptable range, slight anemia (Hgb 10.8 g/dL), creatinine 1.4 mg/dL (stable), LFTs normal, TSH 3.1 mIU/L. Treatment plan: continue cabozantinib 40 mg daily with ongoing toxicity monitoring. Next restaging in 3 months. Goals of care: active treatment with quality of life optimization. Cancer present, stable disease with ongoing TKI therapy."
+    }
+  ],
+  "scenario_index": 7,
+  "scenario_label": "rcc_clear",
+  "scenario_blurb": "Clear cell renal cell carcinoma stage IV with sarcomatoid differentiation (20%) in a 63-year-old, presenting with large right renal mass, retroperitoneal lymphadenopathy, and pulmonary metastases. Undergoes cytoreductive nephrectomy. First-line ipilimumab/nivolumab with mixed response. Progression at 9 months, switched to cabozantinib with stable disease. Manages TKI-related hand-foot syndrome and diarrhea."
+}

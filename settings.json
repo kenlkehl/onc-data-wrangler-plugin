@@ -1,0 +1,45 @@
+{
+  "permissions": {
+    "allow": [
+      "Read",
+      "Edit",
+      "Glob",
+      "Grep",
+
+      "Bash(uv run *)",
+      "Bash(uv pip *)",
+      "Bash(uv sync*)",
+      "Bash(python3 *)",
+      "Bash(python3 -c *)",
+      "Bash(python3 <<*)",
+      "Bash(python *)",
+      "Bash(pip *)",
+
+      "Bash(ls *)",
+      "Bash(ls)",
+      "Bash(cat *)",
+      "Bash(head *)",
+      "Bash(tail *)",
+      "Bash(wc *)",
+      "Bash(mkdir *)",
+      "Bash(sort *)",
+      "Bash(find *)",
+      "Bash(diff *)",
+      "Bash(file *)",
+
+      "Write(*.json)",
+      "Write(*.yaml)",
+      "Write(*.yml)",
+      "Write(*.csv)",
+      "Write(*.xlsx)",
+      "Write(*.md)",
+      "Write(*.txt)",
+      "Write(*.jsonl)",
+      "Write(*.py)",
+
+      "Bash(uv run --directory * python */scripts/query.py *)",
+      "Bash(uv run --directory * python */scripts/pmc_search.py *)",
+      "Bash(rm -rf *)"
+    ]
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "35 samples with Tumor Type == Neurofibroma (non-cutaneous; 19 Peripheral + 16 Spinal) in MOESM4 Clinical Data table",
+  "discrepancy_analysis": "Reported 34 vs model 35 differs by 1 sample (relative difference 2.94%), which is within the ±10% concordance threshold. The paper's Methods text ('108 samples...19 MPNSTs, 22 premalignant neurofibromas, 34 plexiform neurofibromas and 33 cutaneous neurofibromas') sums to 108 and appears to represent a re-grouped clinical categorization. The MOESM4 table has: Neurofibroma=35 (19 Peripheral + 16 Spinal), Atypical_NF=21, Cutaneous_NF=33, MPNST=16, Low-Grade MPNST=3 (total=108). Mapping: 19 MPNSTs = MPNST(16)+Low-Grade MPNST(3); 33 cutaneous = Cutaneous_NF; but the 22 premalignant vs 34 plexiform split does not match 21 Atypical_NF vs 35 Neurofibroma. One sample appears to have been reclassified between categories (plexiform->premalignant) in the paper text. The model's count of 35 directly from the MOESM4 table is accurate; the paper's text summary reflects a slightly different manual categorization.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "N/A"
+}

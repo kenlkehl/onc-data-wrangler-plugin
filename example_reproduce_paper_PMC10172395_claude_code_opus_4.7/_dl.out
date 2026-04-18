@@ -1,0 +1,39 @@
+{
+  "pmc_id": "PMC10172395",
+  "dest": "/workspace/out/basic_science/PMC10172395",
+  "pdf": true,
+  "data_files": [
+    "41467_2023_38432_MOESM8_ESM.xlsx",
+    "41467_2023_38432_MOESM6_ESM.xlsx",
+    "41467_2023_38432_MOESM7_ESM.xlsx",
+    "41467_2023_38432_MOESM5_ESM.xlsx",
+    "41467_2023_38432_MOESM10_ESM.xlsx",
+    "41467_2023_38432_MOESM4_ESM.xlsx",
+    "GSE207207_series_matrix.txt.gz",
+    "filelist.txt",
+    "GSE207399_series_matrix.txt.gz",
+    "filelist.txt",
+    "GSE207400_series_matrix.txt.gz",
+    "GSE207400_Matrix.txt.gz"
+  ],
+  "supplementary_files": [
+    "41467_2023_38432_MOESM1_ESM.pdf",
+    "41467_2023_38432_MOESM3_ESM.pdf",
+    "41467_2023_38432_MOESM2_ESM.pdf",
+    "41467_2023_38432_MOESM9_ESM.docx"
+  ],
+  "external_downloads": {
+    "geo:GSE207207": [
+      "GSE207207_series_matrix.txt.gz",
+      "filelist.txt"
+    ],
+    "geo:GSE207399": [
+      "GSE207399_series_matrix.txt.gz",
+      "filelist.txt"
+    ],
+    "geo:GSE207400": [
+      "GSE207400_series_matrix.txt.gz",
+      "GSE207400_Matrix.txt.gz"
+    ]
+  }
+}

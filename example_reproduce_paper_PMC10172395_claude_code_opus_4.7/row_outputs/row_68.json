@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "DATA_UNAVAILABLE \u2014 TCGA MPNST external validation cohort not included locally.",
+  "discrepancy_analysis": "The question asks about NF1 mutation status in MPNST-G2 samples from the TCGA MPNST validation dataset. The model reported DATA_UNAVAILABLE because the TCGA MPNST external validation cohort (an external dataset used by the paper for validation purposes) was not included in the local data directory. Without access to the TCGA MPNST mutation data and the MPNST-G2 methylation class assignments for those samples, the reported value of 2 of 3 (66%) cannot be independently verified. This is a data availability limitation rather than a true discrepancy in analysis methodology.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "Obtain the TCGA MPNST cohort data including NF1 mutation calls and methylation class (MPNST-G1/G2) assignments from the paper's supplementary materials or cBioPortal/GDC, then re-run the analysis to count NF1-mutated samples among the 3 MPNST-G2 cases.",
+  "confidence": "N/A"
+}

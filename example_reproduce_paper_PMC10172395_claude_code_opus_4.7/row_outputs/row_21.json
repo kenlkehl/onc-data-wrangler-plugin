@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "n=16; MPNST_G1 (n=8) and MPNST_G2 (n=8); all 16 high-grade MPNSTs have methylation data.",
+  "discrepancy_analysis": "CONCORDANT: The model's result (n=16; MPNST_G1 n=8, MPNST_G2 n=8) matches the reported paper result (n=16; 8 MPNST-G1 and 8 MPNST-G2) exactly. Total count matches (16=16), and both subgroup counts match (8 G1 = 8 G1, 8 G2 = 8 G2). Relative difference is 0%, well within the +/-10% concordance threshold.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

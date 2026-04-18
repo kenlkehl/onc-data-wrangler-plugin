@@ -1,0 +1,62 @@
+{
+  "total": 191,
+  "concordance": {
+    "CONCORDANT": 87,
+    "DISCREPANT": 98,
+    "UNABLE_TO_EVALUATE": 6
+  },
+  "magnitude": {
+    "N/A": 116,
+    "MINOR": 17,
+    "MAJOR": 55,
+    "MAJOR (>20% relative)": 2,
+    "MAJOR (>20%)": 1
+  },
+  "root_cause": {
+    "N/A": 93,
+    "0:HUMAN_ANNOTATION_INCORRECT": 4,
+    "5:STATISTICAL_METHOD": 38,
+    "2:VARIABLE_CHOICE": 21,
+    "1:COHORT_FILTER_DIFFERENCE": 9,
+    "3:VALUE_MAPPING": 2,
+    "7:MISSING_DATA_HANDLING": 24
+  },
+  "confidence": {
+    "HIGH": 151,
+    "N/A": 12,
+    "MEDIUM": 21,
+    "LOW": 7
+  },
+  "by_category": {
+    "Study Design": {
+      "CONCORDANT": 11,
+      "DISCREPANT": 1
+    },
+    "Demographics": {
+      "CONCORDANT": 6
+    },
+    "Clinical Characteristics": {
+      "CONCORDANT": 5
+    },
+    "Survival": {
+      "CONCORDANT": 9,
+      "DISCREPANT": 2
+    },
+    "Genomic/Molecular": {
+      "CONCORDANT": 38,
+      "DISCREPANT": 69,
+      "UNABLE_TO_EVALUATE": 6
+    },
+    "Treatment": {
+      "DISCREPANT": 14,
+      "CONCORDANT": 4
+    },
+    "Supplementary": {
+      "DISCREPANT": 12,
+      "CONCORDANT": 8
+    },
+    "Statistical Tests": {
+      "CONCORDANT": 6
+    }
+  }
+}

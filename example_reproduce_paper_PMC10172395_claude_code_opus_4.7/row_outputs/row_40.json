@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "BACKEND_UNAVAILABLE",
+  "discrepancy_analysis": "Model result was BACKEND_UNAVAILABLE, so concordance cannot be evaluated. The reported result from the paper was 87.5% for 9q loss frequency in MPNST-G1, but the model did not produce a reproducible numeric value because the required analysis backend was not available.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "N/A"
+}

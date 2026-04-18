@@ -1,0 +1,43 @@
+table_name: labs
+description: One row per laboratory test result
+columns:
+  - name: patient_id
+    type: string
+    description: Unique patient identifier
+  - name: date
+    type: date
+    description: Date the lab was drawn (YYYY-MM-DD)
+  - name: test_name
+    type: string
+    description: Standard lab test name (WBC, Hemoglobin, Platelets, Creatinine, ALT, AST, CEA, etc.)
+  - name: loinc_code
+    type: string
+    description: "LOINC code for the test. Use a code from the Reference Vocabularies section when present; otherwise leave empty."
+  - name: value
+    type: string
+    description: Result value
+  - name: unit
+    type: string
+    description: Unit of measurement
+  - name: reference_range
+    type: string
+    description: Normal reference range (e.g., "4.0-11.0")
+  - name: abnormal_flag
+    type: string
+    description: N=normal, H=high, L=low, A=abnormal
+generation_instructions: |
+  Generate lab values for encounters where labs would typically be drawn:
+    - Pre-chemotherapy visits: CBC (WBC, Hemoglobin, Platelets) and CMP (Creatinine, BUN, ALT, AST, Albumin) are mandatory
+    - Pre-surgical evaluations: CBC, CMP, PT/INR
+    - Follow-up visits: tumor markers appropriate to cancer type (CEA, CA-125, PSA, AFP, CA 19-9, etc.)
+    - Infusion visits: CBC at minimum
+  Values must be clinically consistent with the patient's disease trajectory:
+    - Dropping WBC/Platelets during cytotoxic chemotherapy
+    - Rising tumor markers with progression
+    - Elevated LFTs with liver metastases or hepatotoxic therapy
+    - Renal function changes with nephrotoxic agents (cisplatin, etc.)
+  Multiple rows per encounter date are expected (one row per individual test).
+  Not every encounter needs labs; use clinical judgment about which visits would have labs drawn.
+  Populate loinc_code from the Reference Vocabularies section when a matching code is listed
+  (e.g., 718-7 for Hemoglobin, 6690-2 for WBC, 2160-0 for serum creatinine, 2857-1 for PSA,
+  2091-7 for CEA). If no LOINC match is available for a test, leave loinc_code empty.

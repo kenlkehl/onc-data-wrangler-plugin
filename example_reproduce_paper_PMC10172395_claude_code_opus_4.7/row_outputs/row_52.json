@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "62.5% (5/8 at -0.10)",
+  "discrepancy_analysis": "CONCORDANT: Reported 62.5% and model 62.5% (5/8 MPNST-G2 samples with 9p loss at threshold -0.10) are an exact match (0% relative difference), well within the +/-10% concordance threshold. Python CONUMEE-substitute analysis successfully reproduced the paper's 9p loss frequency for MPNST-G2.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

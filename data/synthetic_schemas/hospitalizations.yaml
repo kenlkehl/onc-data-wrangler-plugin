@@ -1,0 +1,39 @@
+table_name: hospitalizations
+description: One row per hospital admission/discharge episode.
+columns:
+  - name: patient_id
+    type: string
+    description: Unique patient identifier
+  - name: admission_date
+    type: date
+    description: Date of hospital admission
+  - name: discharge_date
+    type: date
+    description: Date of discharge
+  - name: principal_dx_code
+    type: string
+    description: Principal ICD-10 diagnosis code for the admission
+  - name: principal_dx_description
+    type: string
+    description: Description of principal diagnosis
+  - name: los_days
+    type: integer
+    description: Length of stay in days
+  - name: discharge_disposition
+    type: string
+    description: "Discharge disposition (e.g., home, rehab, skilled nursing, deceased)"
+  - name: reason
+    type: string
+    description: Brief reason for admission (e.g., febrile neutropenia, planned surgery, disease progression)
+
+generation_instructions: |
+  Generate one row for each hospital admission in the patient's history.
+  Common oncology admission reasons include:
+    - Febrile neutropenia after chemotherapy
+    - Planned surgery (tumor resection, port placement)
+    - Disease-related complications (bowel obstruction, pleural effusion, brain metastases)
+    - Severe adverse events (grade 3-4 toxicities)
+    - Stem cell transplant (conditioning and engraftment)
+  Length of stay should be realistic: 1-3 days for minor procedures,
+  5-14 days for major surgery or complications, 21-30+ days for transplant.
+  Use appropriate ICD-10 codes (e.g., D70.1 for neutropenia, K56.60 for bowel obstruction).

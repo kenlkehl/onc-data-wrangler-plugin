@@ -1,0 +1,77 @@
+{
+  "pmc_id": "PMC10172395",
+  "pmid": "37164978",
+  "doi": "10.1038/s41467-023-38432-6",
+  "title": "Multiplatform molecular profiling uncovers two subgroups of malignant peripheral nerve sheath tumors with distinct therapeutic vulnerabilities",
+  "abstract": "Malignant peripheral nerve sheath tumor (MPNST) is a highly aggressive sarcoma, and a lethal neurofibromatosis type 1-related malignancy, with little progress made on treatment strategies. Here, we apply a multiplatform integrated molecular analysis on 108 tumors spanning the spectrum of peripheral nerve sheath tumors to identify candidate drivers of MPNST that can serve as therapeutic targets. Unsupervised analyses of methylome and transcriptome profiles identify two distinct subgroups of MPNSTs with unique targetable oncogenic programs. We establish two subgroups of MPNSTs: SHH pathway activation in MPNST-G1 and WNT/\u00df-catenin/CCND1 pathway activation in MPNST-G2. Single nuclei RNA sequencing characterizes the complex cellular architecture and demonstrate that malignant cells from MPNST-G1 and MPNST-G2 have neural crest-like and Schwann cell precursor-like cell characteristics, respectively. Further, in pre-clinical models of MPNST we confirm that inhibiting SHH pathway in MPNST-G1 prevent growth and malignant progression, providing the rational for investigating these treatments in clinical trials.",
+  "authors": [
+    "Suganth Suppiah",
+    "Sheila Mansouri",
+    "Yasin Mamatjan",
+    "Jeffrey C. Liu",
+    "Minu M. Bhunia",
+    "Vikas Patil",
+    "Prisni Rath",
+    "Bharati Mehani",
+    "Pardeep Heir",
+    "Severa Bunda",
+    "German L. Velez-Reyes",
+    "Olivia Singh",
+    "Nazanin Ijad",
+    "Neda Pirouzmand",
+    "Tatyana Dalcourt",
+    "Ying Meng",
+    "Shirin Karimi",
+    "Qingxia Wei",
+    "Farshad Nassiri",
+    "Trevor J. Pugh",
+    "Gary D. Bader",
+    "Kenneth D. Aldape",
+    "David A. Largaespada",
+    "Gelareh Zadeh"
+  ],
+  "journal": "Nature Communications",
+  "year": "2023",
+  "data_availability": "Data availabilityRaw sequencing data for all datatypes have been deposited into public repositories and publicly available. Methylation (idat) datasets has been deposited to GSE207207 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA854154], bulk RNA (fastq) datasets has been deposited to GSE207399 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA855245], snRNA(fastq) has been deposited to GSE207400 [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA855244], and WES datasets has been deposited to PRJNA854920. Source data are provided as Source Data file.",
+  "data_sources": [
+    {
+      "type": "geo",
+      "id": "GSE207207"
+    },
+    {
+      "type": "geo",
+      "id": "GSE207399"
+    },
+    {
+      "type": "geo",
+      "id": "GSE207400"
+    },
+    {
+      "type": "pmc_supp",
+      "id": "PMC10172395"
+    }
+  ],
+  "files": {
+    "paper_pdf": "paper.pdf",
+    "supplementary": [
+      "41467_2023_38432_MOESM1_ESM.pdf",
+      "41467_2023_38432_MOESM3_ESM.pdf",
+      "41467_2023_38432_MOESM2_ESM.pdf",
+      "41467_2023_38432_MOESM9_ESM.docx"
+    ],
+    "data": [
+      "41467_2023_38432_MOESM10_ESM.xlsx",
+      "41467_2023_38432_MOESM4_ESM.xlsx",
+      "41467_2023_38432_MOESM5_ESM.xlsx",
+      "41467_2023_38432_MOESM6_ESM.xlsx",
+      "41467_2023_38432_MOESM7_ESM.xlsx",
+      "41467_2023_38432_MOESM8_ESM.xlsx",
+      "GSE207207_series_matrix.txt.gz",
+      "GSE207399_series_matrix.txt.gz",
+      "GSE207400_Matrix.txt.gz",
+      "GSE207400_series_matrix.txt.gz",
+      "filelist.txt"
+    ]
+  },
+  "pipeline_timestamp": "2026-04-15T21:37:18.854029+00:00"
+}

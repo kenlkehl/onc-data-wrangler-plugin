@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "2/7 (28.6%)",
+  "discrepancy_analysis": "Reported result 2/7 (29%) and model result 2/7 (28.6%) match exactly. Both have numerator=2 and denominator=7; the percentages differ only by rounding (29% rounded to whole number vs 28.6% to one decimal place). Relative difference is well within the +/-10% concordance threshold.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

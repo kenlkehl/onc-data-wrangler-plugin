@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "JARID2 chr6:15246584, ATP5MC2 chr12:53672645",
+  "discrepancy_analysis": "CONCORDANT: Both chromosome assignments match exactly. Reported: chr6 (JARID2), chr12 (ATP5MC2). Model: JARID2 chr6:15246584, ATP5MC2 chr12:53672645. Chromosomes agree for both genes.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

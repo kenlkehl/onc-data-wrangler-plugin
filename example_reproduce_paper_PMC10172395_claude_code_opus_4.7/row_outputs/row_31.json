@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p=8.92e-303 (chi2=1383; 2121 vs 301 promoter-island CpGs hypermethylated). Gene-level: 891 vs ~N. Massively significant, way below p<0.0001.",
+  "discrepancy_analysis": "CONCORDANT: The paper reports 'chi-square p < 0.0001' for the comparison of methylated/silenced gene counts between MPNST-G1 and MPNST-G2 in Fig 1f. This is a threshold rather than a precise value. The model's computed p-value of 8.92e-303 is dramatically below the 0.0001 threshold, meaning the model reproduces the reported inequality correctly. Both results support the same qualitative conclusion: the difference in methylated/silenced gene counts between MPNST-G1 and MPNST-G2 is highly statistically significant. The extreme significance level (p=8.92e-303) is consistent with the large chi-square statistic (chi2=1383) given the large counts (2121 vs 301 hypermethylated CpGs). Since the paper only reported an upper bound (p<0.0001) rather than an exact p-value, there is no numerical discrepancy to measure - any p-value below 0.0001 satisfies the reported claim.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

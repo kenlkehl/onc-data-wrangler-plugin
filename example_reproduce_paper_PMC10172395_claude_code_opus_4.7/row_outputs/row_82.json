@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "4/54 (7.4%)",
+  "discrepancy_analysis": "Reported 7% LZTR1 mutation frequency vs model 4/54 (7.4%). Relative difference is |7.4 - 7|/7 = 5.7%, within the +/-10% concordance threshold. The reported 7% is consistent with 4/54 rounded to the nearest whole percent.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

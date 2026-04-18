@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "MPNST-G1 5/8 (62.5%); MPNST-G2 0/7 (0.0%); Fisher p = 0.0256.",
+  "discrepancy_analysis": "The model's reproduced frequencies (62.5% in MPNST-G1 and 0% in MPNST-G2) match the paper's reported values exactly. The model's Fisher's exact p-value of 0.0256 is consistent with the reported p < 0.05. Both the point estimates and statistical significance are fully concordant.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

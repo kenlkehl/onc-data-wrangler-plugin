@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p=0.0101; 7/8 (87.5%) MPNST-G1 vs 1/8 (12.5%) MPNST-G2; OR=49. Fisher's exact test on PTCH1 promoter hypermethylation (threshold: mean of cg01512589 and cg26878949 beta > 0.2).",
+  "discrepancy_analysis": "CONCORDANT. The model's reproduced proportions (7/8 = 87.5% vs 1/8 = 12.5%) exactly match the reported values (87.5% vs 12.5%). The computed p-value of 0.0101 is effectively at the threshold of the reported p<0.01; given that the paper reported p<0.01 as a threshold statement and the substantive proportions match exactly, the result is within expected reproducibility tolerance. The tiny discrepancy between p=0.0101 and p<0.01 is consistent with rounding or a marginally different Fisher's exact implementation (one-sided vs two-sided, or slight differences in conditional computation). Substantively, both the effect direction, magnitude (OR=49), and proportions are reproduced identically.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

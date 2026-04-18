@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "Female (F): 54; Male (M): 54",
+  "discrepancy_analysis": "Model result (F=54, M=54) matches reported result (54 female, 54 male) exactly across the full 108 PNST cohort. Within the \u00b110% concordance threshold (0% relative difference).",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

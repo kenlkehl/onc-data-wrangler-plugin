@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p = 0.0406 (G1 1/8 vs G2 5/7)",
+  "discrepancy_analysis": "Model computed Fisher's exact p = 0.0406 for NF1 mutation frequency G2 (5/7, 71.4%) vs G1 (1/8, 12.5%). Reported p < 0.05. Model value 0.0406 is less than 0.05 threshold, so the model result is consistent with the reported significance threshold. CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

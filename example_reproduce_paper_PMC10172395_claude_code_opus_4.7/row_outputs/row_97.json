@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "1.67699",
+  "discrepancy_analysis": "Reported result (1.67699) and model result (1.67699) match exactly (0% relative difference, within the +/-10% concordance threshold).",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

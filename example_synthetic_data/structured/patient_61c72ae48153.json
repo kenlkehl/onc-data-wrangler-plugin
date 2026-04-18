@@ -1,0 +1,1939 @@
+{
+  "encounters": [
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-08-05",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-08-10",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-08-12",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-08-18",
+      "diagnosis_code": "C34.12",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-08-25",
+      "diagnosis_code": "C34.12",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "New Patient"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-15",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-10-13",
+      "diagnosis_code": "L70.0",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-15",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-15",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-15",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-20",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-20",
+      "diagnosis_code": "C79.31",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-29",
+      "diagnosis_code": "C79.71",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-12-05",
+      "diagnosis_code": "C79.31",
+      "department": "Pathology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-12-08",
+      "diagnosis_code": "C79.31",
+      "department": "Radiation Oncology",
+      "visit_type": "Procedure"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-12-22",
+      "diagnosis_code": "G44.309",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "diagnosis_code": "D70.1",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-08",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-08",
+      "diagnosis_code": "C79.31",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-06",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-12",
+      "diagnosis_code": "C79.31",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Infusion"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "diagnosis_code": "E11.65",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-28",
+      "diagnosis_code": "C34.12",
+      "department": "Radiology",
+      "visit_type": "Imaging"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "diagnosis_code": "C34.12",
+      "department": "Medical Oncology",
+      "visit_type": "Follow-up"
+    }
+  ],
+  "labs": [
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "WBC",
+      "value": "7.4",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Hemoglobin",
+      "value": "12.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Platelets",
+      "value": "248",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Creatinine",
+      "value": "0.82",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "BUN",
+      "value": "14",
+      "unit": "mg/dL",
+      "reference_range": "7-20",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "ALT",
+      "value": "22",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "AST",
+      "value": "19",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Alkaline Phosphatase",
+      "value": "74",
+      "unit": "U/L",
+      "reference_range": "44-147",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Albumin",
+      "value": "3.9",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Total Bilirubin",
+      "value": "0.6",
+      "unit": "mg/dL",
+      "reference_range": "0.1-1.2",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Sodium",
+      "value": "138",
+      "unit": "mEq/L",
+      "reference_range": "136-145",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Potassium",
+      "value": "4.1",
+      "unit": "mEq/L",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Calcium",
+      "value": "9.4",
+      "unit": "mg/dL",
+      "reference_range": "8.5-10.5",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "Glucose",
+      "value": "118",
+      "unit": "mg/dL",
+      "reference_range": "70-100",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "LDH",
+      "value": "198",
+      "unit": "U/L",
+      "reference_range": "140-280",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "HbA1c",
+      "value": "7.2",
+      "unit": "%",
+      "reference_range": "4.0-5.6",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "test_name": "CEA",
+      "value": "8.4",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "WBC",
+      "value": "6.8",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "Hemoglobin",
+      "value": "12.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "Platelets",
+      "value": "231",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "Creatinine",
+      "value": "0.79",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "ALT",
+      "value": "28",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "AST",
+      "value": "24",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "test_name": "CEA",
+      "value": "3.9",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "WBC",
+      "value": "6.2",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "Hemoglobin",
+      "value": "11.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "Platelets",
+      "value": "218",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "Creatinine",
+      "value": "0.84",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "ALT",
+      "value": "31",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "AST",
+      "value": "26",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "test_name": "CEA",
+      "value": "2.8",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "WBC",
+      "value": "7.1",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "Hemoglobin",
+      "value": "11.5",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "Platelets",
+      "value": "272",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "Creatinine",
+      "value": "0.86",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "ALT",
+      "value": "34",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "AST",
+      "value": "30",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "Albumin",
+      "value": "3.6",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "test_name": "CEA",
+      "value": "14.7",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "WBC",
+      "value": "7.4",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "Hemoglobin",
+      "value": "11.3",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "Platelets",
+      "value": "256",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "Creatinine",
+      "value": "0.88",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "BUN",
+      "value": "16",
+      "unit": "mg/dL",
+      "reference_range": "7-20",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "ALT",
+      "value": "29",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "AST",
+      "value": "25",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "Albumin",
+      "value": "3.5",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "Alkaline Phosphatase",
+      "value": "89",
+      "unit": "U/L",
+      "reference_range": "44-147",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-01-19",
+      "test_name": "CEA",
+      "value": "18.2",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "WBC",
+      "value": "1.8",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "ANC",
+      "value": "0.7",
+      "unit": "K/uL",
+      "reference_range": "1.5-8.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "Hemoglobin",
+      "value": "9.6",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "Platelets",
+      "value": "112",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "Creatinine",
+      "value": "0.92",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "ALT",
+      "value": "36",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-02-12",
+      "test_name": "AST",
+      "value": "33",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "WBC",
+      "value": "5.6",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "Hemoglobin",
+      "value": "10.2",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "Platelets",
+      "value": "188",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "Creatinine",
+      "value": "0.90",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "ALT",
+      "value": "40",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "AST",
+      "value": "35",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "Albumin",
+      "value": "3.3",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "test_name": "CEA",
+      "value": "12.4",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "test_name": "WBC",
+      "value": "5.9",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "test_name": "Hemoglobin",
+      "value": "10.5",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "test_name": "Platelets",
+      "value": "204",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "test_name": "Creatinine",
+      "value": "0.89",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-05-07",
+      "test_name": "CEA",
+      "value": "11.1",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "WBC",
+      "value": "6.3",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "Hemoglobin",
+      "value": "10.1",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "Platelets",
+      "value": "231",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "Creatinine",
+      "value": "0.93",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "ALT",
+      "value": "51",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "AST",
+      "value": "44",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "Alkaline Phosphatase",
+      "value": "112",
+      "unit": "U/L",
+      "reference_range": "44-147",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "Albumin",
+      "value": "3.1",
+      "unit": "g/dL",
+      "reference_range": "3.5-5.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "test_name": "CEA",
+      "value": "27.3",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "WBC",
+      "value": "6.8",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "Hemoglobin",
+      "value": "10.4",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "Platelets",
+      "value": "248",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "Creatinine",
+      "value": "0.91",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "ALT",
+      "value": "44",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "AST",
+      "value": "38",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "Glucose",
+      "value": "142",
+      "unit": "mg/dL",
+      "reference_range": "70-100",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-09-05",
+      "test_name": "CEA",
+      "value": "23.6",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "WBC",
+      "value": "5.7",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "Hemoglobin",
+      "value": "10.8",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "Platelets",
+      "value": "253",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "Glucose",
+      "value": "210",
+      "unit": "mg/dL",
+      "reference_range": "70-100",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "Creatinine",
+      "value": "0.88",
+      "unit": "mg/dL",
+      "reference_range": "0.5-1.1",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "ALT",
+      "value": "47",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "AST",
+      "value": "41",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "HbA1c",
+      "value": "8.1",
+      "unit": "%",
+      "reference_range": "4.0-5.6",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-03",
+      "test_name": "CEA",
+      "value": "19.4",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "WBC",
+      "value": "5.4",
+      "unit": "K/uL",
+      "reference_range": "4.0-11.0",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "Hemoglobin",
+      "value": "10.9",
+      "unit": "g/dL",
+      "reference_range": "12.0-16.0",
+      "abnormal_flag": "L"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "Platelets",
+      "value": "261",
+      "unit": "K/uL",
+      "reference_range": "150-400",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "Glucose",
+      "value": "168",
+      "unit": "mg/dL",
+      "reference_range": "70-100",
+      "abnormal_flag": "H"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "ALT",
+      "value": "43",
+      "unit": "U/L",
+      "reference_range": "7-56",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "AST",
+      "value": "37",
+      "unit": "U/L",
+      "reference_range": "10-40",
+      "abnormal_flag": "N"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "test_name": "CEA",
+      "value": "15.8",
+      "unit": "ng/mL",
+      "reference_range": "0-3.0",
+      "abnormal_flag": "H"
+    }
+  ],
+  "hospitalizations": [
+    {
+      "patient_id": "patient_61c72ae48153",
+      "admission_date": "2024-02-12",
+      "discharge_date": "2024-02-15",
+      "principal_dx_code": "D70.1",
+      "principal_dx_description": "Agranulocytosis secondary to cancer chemotherapy",
+      "los_days": 3,
+      "discharge_disposition": "home",
+      "reason": "Grade 3 neutropenia (ANC 0.7) during cycle 2 of carboplatin/pemetrexed; treated with IV antibiotics, filgrastim support, monitoring for febrile neutropenia"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "admission_date": "2023-12-08",
+      "discharge_date": "2023-12-09",
+      "principal_dx_code": "C79.31",
+      "principal_dx_description": "Secondary malignant neoplasm of brain",
+      "los_days": 1,
+      "discharge_disposition": "home",
+      "reason": "Stereotactic radiosurgery (Gamma Knife) to three brain metastases; planned outpatient procedure requiring brief overnight observation"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "admission_date": "2023-11-29",
+      "discharge_date": "2023-11-30",
+      "principal_dx_code": "C79.71",
+      "principal_dx_description": "Secondary malignant neoplasm of adrenal gland",
+      "los_days": 1,
+      "discharge_disposition": "home",
+      "reason": "CT-guided right adrenal core needle biopsy for progression workup; same-day procedure with brief observation"
+    }
+  ],
+  "medications": [
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "osimertinib",
+      "drug_category": "Targeted Therapy",
+      "start_date": "2022-09-15",
+      "end_date": "2023-12-01",
+      "route": "PO",
+      "dose": "80 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Curative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "loperamide",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-09-15",
+      "end_date": "2023-12-01",
+      "route": "PO",
+      "dose": "2 mg",
+      "frequency": "as needed",
+      "line_of_therapy": 1,
+      "intent": "Curative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "doxycycline",
+      "drug_category": "Supportive Care",
+      "start_date": "2022-10-13",
+      "end_date": "2023-02-15",
+      "route": "PO",
+      "dose": "100 mg",
+      "frequency": "daily",
+      "line_of_therapy": 1,
+      "intent": "Curative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "dexamethasone",
+      "drug_category": "Supportive Care",
+      "start_date": "2023-12-22",
+      "end_date": "2024-01-05",
+      "route": "PO",
+      "dose": "4 mg",
+      "frequency": "twice daily with taper",
+      "line_of_therapy": 1,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "carboplatin",
+      "drug_category": "Chemotherapy",
+      "start_date": "2024-01-19",
+      "end_date": "2024-04-26",
+      "route": "IV",
+      "dose": "AUC 5",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "pemetrexed",
+      "drug_category": "Chemotherapy",
+      "start_date": "2024-01-19",
+      "end_date": "2024-04-26",
+      "route": "IV",
+      "dose": "500 mg/m2",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "ondansetron",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-01-19",
+      "end_date": "2024-04-26",
+      "route": "PO",
+      "dose": "8 mg",
+      "frequency": "every 8 hours as needed on infusion days",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "prochlorperazine",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-01-19",
+      "end_date": "2024-04-26",
+      "route": "PO",
+      "dose": "10 mg",
+      "frequency": "every 6 hours as needed",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "dexamethasone",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-01-19",
+      "end_date": "2024-04-26",
+      "route": "IV",
+      "dose": "4 mg",
+      "frequency": "premedication day 1 each cycle",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "filgrastim",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-02-12",
+      "end_date": "2024-04-26",
+      "route": "SC",
+      "dose": "480 mcg",
+      "frequency": "daily for 5 days starting day 2 of each cycle",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "folic acid",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-01-12",
+      "end_date": "2024-08-31",
+      "route": "PO",
+      "dose": "400 mcg",
+      "frequency": "daily",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "cyanocobalamin",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-01-12",
+      "end_date": "2024-08-31",
+      "route": "IM",
+      "dose": "1000 mcg",
+      "frequency": "every 9 weeks",
+      "line_of_therapy": 2,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "pemetrexed",
+      "drug_category": "Chemotherapy",
+      "start_date": "2024-05-07",
+      "end_date": "2024-08-08",
+      "route": "IV",
+      "dose": "500 mg/m2",
+      "frequency": "every 3 weeks",
+      "line_of_therapy": 3,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "ondansetron",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-05-07",
+      "end_date": "2024-08-08",
+      "route": "PO",
+      "dose": "8 mg",
+      "frequency": "every 8 hours as needed on infusion days",
+      "line_of_therapy": 3,
+      "intent": "Maintenance"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "investigational EGFR inhibitor",
+      "drug_category": "Targeted Therapy",
+      "start_date": "2024-09-05",
+      "end_date": "2024-10-30",
+      "route": "PO",
+      "dose": "per protocol",
+      "frequency": "daily",
+      "line_of_therapy": 4,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "investigational PI3K inhibitor",
+      "drug_category": "Targeted Therapy",
+      "start_date": "2024-09-05",
+      "end_date": "2024-10-30",
+      "route": "PO",
+      "dose": "per protocol",
+      "frequency": "daily",
+      "line_of_therapy": 4,
+      "intent": "Palliative"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "drug_name": "metformin",
+      "drug_category": "Supportive Care",
+      "start_date": "2024-09-05",
+      "end_date": "2024-10-30",
+      "route": "PO",
+      "dose": "1500 mg",
+      "frequency": "daily in divided doses",
+      "line_of_therapy": 4,
+      "intent": "Palliative"
+    }
+  ],
+  "pros": [
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "62",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "73",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "55",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "38",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Diarrhea",
+      "value": "11",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-09-02",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Cough",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "70",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "80",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "75",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "28",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "28",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Diarrhea",
+      "value": "22",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Rash",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Diarrhea",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2022-12-16",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "75",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "83",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "73",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "22",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "22",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Rash",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-06-17",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "67",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "58",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "48",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2023-11-22",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Headache",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "55",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "62",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "58",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "52",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "56",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Nausea",
+      "value": "33",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-04-10",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "42",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "53",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "45",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "61",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "56",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Appetite Loss",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "3",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-08-08",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Global Health Status",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Physical Functioning",
+      "value": "60",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Role Functioning",
+      "value": "55",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Emotional Functioning",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Fatigue",
+      "value": "50",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Dyspnea",
+      "value": "44",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "EORTC QLQ-C30",
+      "subscale": "Appetite Loss",
+      "value": "33",
+      "scale_range": "0-100"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Fatigue",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Shortness of Breath",
+      "value": "2",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Rash",
+      "value": "1",
+      "scale_range": "0-4"
+    },
+    {
+      "patient_id": "patient_61c72ae48153",
+      "date": "2024-10-30",
+      "instrument": "PRO-CTCAE",
+      "subscale": "Nausea",
+      "value": "1",
+      "scale_range": "0-4"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "NES=2.4829757",
+  "discrepancy_analysis": "Reported NES=2.4829757 and model NES=2.4829757 match exactly for the top MPNST-G1 GSEA gene set (RB_P107_DN.V1_UP). Relative difference is 0%, well within the ±10% concordance threshold.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

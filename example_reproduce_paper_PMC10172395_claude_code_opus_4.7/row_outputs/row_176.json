@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE",
+  "discrepancy_analysis": "UNABLE_TO_EVALUATE: The paper's Supplementary Figure 3c presents a TCGA MPNST oncoprint showing APC mutation frequency of 20%. However, the TCGA MPNST-specific data matrix used to generate this oncoprint was not deposited in the local data directory. Without access to the underlying TCGA MPNST mutation calls (e.g., MAF file or mutation matrix restricted to the MPNST cohort used in the paper), the model cannot independently reproduce the 20% APC alteration frequency. The reported result (20%) is taken directly from the paper's supplementary figure but cannot be verified computationally in this environment. Root cause is classified as 7:MISSING_DATA_HANDLING because the required input dataset (TCGA MPNST oncoprint source data) is absent from the local data deposit.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Deposit the TCGA MPNST mutation matrix (or the processed oncoprint source data) used to generate Supplementary Figure 3c in the local data directory. Alternatively, download TCGA sarcoma (SARC) MAF files from GDC, filter to MPNST-classified samples per the paper's inclusion criteria, and compute APC alteration frequency (mutations + CNAs as defined in the oncoprint legend) over the resulting denominator.",
+  "confidence": "HIGH"
+}

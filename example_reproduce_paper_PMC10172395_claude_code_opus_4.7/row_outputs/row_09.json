@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "54 tumors with WES=='X' in MOESM4 matches Fig 2b n=54. The 55-sample text reference may include 1 extra sample not in the clinical table.",
+  "discrepancy_analysis": "Model result (54) matches the Fig 2b oncoprint reported value (54) exactly (0% relative difference). Against the alternative reported value of 55 (text reference), the relative difference is |54-55|/55 = 1.8%, which is well within the +/-10% concordance threshold. The model's note about the 55-sample text reference potentially including 1 extra sample not in the clinical table is a reasonable observation and does not affect concordance.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

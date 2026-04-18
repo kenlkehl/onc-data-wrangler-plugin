@@ -1,0 +1,6 @@
+{
+  "analysis_result": "Female (F): 54; Male (M): 54",
+  "denominator_used": "N = 108; definition: all rows in MOESM4 'Clinical Data' sheet with non-null Tumor_ID (PNST samples)",
+  "assumptions_made": "Gender 'F' = Female and 'M' = Male; Tumor_ID non-null filter applied per instructions",
+  "step_by_step_analysis": "A. DATA LOADED\n   - File: 41467_2023_38432_MOESM4_ESM.xlsx, sheet 'Clinical Data'\n   - Shape: (108, 15), columns include Tumor_ID and Gender\n\nB. COHORT DEFINITION\n   - Filter 1: Tumor_ID non-null -> 108 samples\n   - Final analytic cohort: 108 PNST samples\n\nC. VARIABLE CODING\n   - Gender column values (incl. NaN): {'F': 54, 'M': 54}\n   - 'F' = Female, 'M' = Male\n\nD. COMPUTATION\n   - Counted rows where Gender == 'F' and Gender == 'M'\n   - Numerator Female = 54; Numerator Male = 54\n   - Denominator = 108\n\nE. RESULT\n   - Female (F): 54\n   - Male (M): 54\n\nF. CAVEATS\n   - Assumed 'Gender' column codes F=Female and M=Male per the data file\n   - All 108 samples have non-null Tumor_ID and non-null Gender values"
+}

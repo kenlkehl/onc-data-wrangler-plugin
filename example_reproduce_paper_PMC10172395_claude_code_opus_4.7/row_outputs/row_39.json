@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "BACKEND_UNAVAILABLE (CONUMEE R package not installed)",
+  "discrepancy_analysis": "The model was unable to evaluate the 9p loss frequency in MPNST-G1 because the required CONUMEE R/Bioconductor package was not installed. Methylation-array-based CNV calling for arm-level 9p loss requires minfi (for IDAT preprocessing) and conumee (for CNV segmentation/calling) from Bioconductor. Without these, the model cannot reproduce the reported 100% frequency of 9p loss in the MPNST-G1 group. No independent computation was possible against the reported value.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "Install the R/Bioconductor packages required for CNV calling from MethylationEPIC IDATs. Run: Rscript -e 'renv::restore(project=\"/home/klkehl/Partners HealthCare Dropbox/Kenneth Kehl/chatbpc/multi_paper_analyses/onc-data-wrangler-plugin/skills/analyze-data/recipes/R\", prompt=FALSE)' to restore the pinned environment, or install minfi and conumee directly via BiocManager::install(c('minfi','conumee')). Then re-run using the conumee_cnv.R recipe to derive arm-level CNV calls, aggregate 9p-arm losses per sample, and compute the fraction of MPNST-G1 samples with 9p loss.",
+  "confidence": "N/A"
+}

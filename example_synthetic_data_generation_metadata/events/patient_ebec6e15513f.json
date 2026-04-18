@@ -1,0 +1,128 @@
+{
+  "patient_id": "patient_ebec6e15513f",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 49-year-old woman named Denise Okafor. She has a family history significant for her mother with ovarian cancer at age 52 and a maternal aunt with breast cancer at age 44. She is of West African descent, non-smoker, BMI 27.4, ECOG performance status 0 at baseline. She works as a high school biology teacher."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 49 years, the patient had a diagnosis of Stage IIB (T2N1M0, AJCC 8th edition) INVASIVE DUCTAL CARCINOMA, GRADE 3 (MALIGNANT, PRIMARY) of the LEFT BREAST, UPPER OUTER QUADRANT (ICD-O site code C50.4). Histology code: 8500/3 (Infiltrating duct carcinoma, NOS). ER: Negative (Allred score 0/8); PR: Negative (Allred score 0/8); HER2: Negative (IHC 1+, FISH not amplified, ratio 1.4); Ki-67: 85%; Nuclear grade: 3; Nottingham grade: 3 (tubule formation 3, nuclear pleomorphism 3, mitotic count 3). Tumor size on imaging: 3.2 cm. Ipsilateral axillary lymph node involvement: 1 of 3 sentinel nodes positive on initial biopsy. Tumor-infiltrating lymphocytes (TILs): 35% stromal. PD-L1 CPS (22C3 assay): 18. Confirmation: Positive histology by core needle biopsy. Laterality: Left. Multifocality: Unifocal. Lymphovascular invasion: Present."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49, the patient had a core needle biopsy pathology result of the left breast mass (upper outer quadrant). Gross description: Three core biopsy fragments, each approximately 1.5 cm in length. Microscopic: Infiltrating ductal carcinoma, poorly differentiated (Nottingham grade 3/3). Tumor cells show marked nuclear pleomorphism, prominent nucleoli, and abundant mitoses (>20 per 10 HPF). Background shows areas of central necrosis and pushing borders. Associated high-grade ductal carcinoma in situ (DCIS) present at periphery (~10% of specimen). Immunohistochemistry panel: ER (SP1): negative (0% staining); PR (1E2): negative (0% staining); HER2 (4B5): 1+ incomplete membranous staining; Ki-67: 85% nuclear positivity. Stromal TILs estimated at 35%. No lymphovascular invasion identified on biopsy cores. Sentinel lymph node biopsy (same session): 1 of 3 nodes positive for metastatic carcinoma, largest deposit 4 mm, no extranodal extension."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, the patient had a diagnostic mammogram and bilateral breast MRI, which showed a 3.2 x 2.8 cm irregular, spiculated mass in the left breast upper outer quadrant with marked enhancement kinetics (type III curve, washout). Associated skin thickening overlying the mass. No satellite lesions. Left axillary lymph nodes: two enlarged nodes with cortical thickening up to 8 mm, suspicious for metastatic involvement. Right breast: no suspicious findings. BIRADS 5. No evidence of distant metastatic disease. Chest/abdomen/pelvis CT performed separately and showed no visceral or distant nodal metastases."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, the patient had a CT chest/abdomen/pelvis with contrast for staging workup, which showed no evidence of distant metastatic disease. No pulmonary nodules, hepatic lesions, or suspicious osseous lesions. Left axillary lymphadenopathy consistent with known nodal involvement. No mediastinal or supraclavicular adenopathy. Impression: Stage IIB disease, no distant metastases identified."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 49 years, the patient had next generation sequencing (tumor/normal paired) performed for invasive ductal carcinoma, triple-negative subtype, based on a specimen obtained from the left breast core biopsy. Tumor mutational burden (TMB): 11 mutations/Mb (intermediate). Microsatellite status: MSS. Germline findings: BRCA2 pathogenic variant c.5946delT (p.S1982Rfs*22) confirmed in peripheral blood. Somatic alterations identified: TP53 p.R248W (VAF 42%, pathogenic, loss of function), PIK3CA p.H1047R (VAF 18%, pathogenic, gain of function), RB1 splice site c.1386+1G>A (VAF 31%, likely pathogenic, loss of function), PTEN p.R130Q (VAF 24%, likely pathogenic), MYC amplification (copy number 12, gain), CDKN2A homozygous deletion, CCNE1 amplification (copy number 6), RAD51C p.L138F (VAF 15%, variant of uncertain significance). No EGFR, KRAS, NRAS, BRAF, CDH1, or AKT1 mutations. No NTRK, ALK, or RET fusions detected. PD-L1 CPS 18 (22C3). Homologous recombination deficiency (HRD) score: 68 (positive, cutoff >42). Genomic loss of heterozygosity (gLOH): 22%. Note: germline BRCA2 result communicated to genetic counselor for family counseling."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, the patient had a multidisciplinary tumor board discussion and oncology consultation. Diagnosis of Stage IIB (T2N1M0) TNBC confirmed. PD-L1 CPS 18 and germline BRCA2 pathogenic variant noted. TILs 35%, HRD positive. Plan for neoadjuvant chemotherapy with pembrolizumab per KEYNOTE-522 regimen: pembrolizumab 200 mg Q3W x 4 cycles with dose-dense AC (doxorubicin 60 mg/m2 + cyclophosphamide 600 mg/m2 Q2W x 4 cycles with G-CSF support), followed by pembrolizumab 200 mg Q3W + weekly paclitaxel 80 mg/m2 x 12 weeks. Definitive surgery planned after neoadjuvant completion. Genetic counseling referral placed for BRCA2 mutation carrier management and family counseling. Patient enrolled in BRCA2 registry. Olaparib discussed as potential future therapy given BRCA2 germline status."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49 years, the patient received neoadjuvant-intent pembrolizumab 200 mg IV Q3W (Cycle 1 Day 1), with concurrent dose-dense doxorubicin 60 mg/m2 IV and cyclophosphamide 600 mg/m2 IV (ddAC Cycle 1), plus pegfilgrastim 6 mg SC on Day 2 for G-CSF support. Pre-medications: ondansetron, dexamethasone, lorazepam. Baseline LFTs, CBC, TSH all within normal limits. Treatment tolerated with grade 1 nausea day 1-3."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, the patient developed a grade 2 immune-related adverse event: autoimmune thyroiditis (thyrotoxic phase) during pembrolizumab Cycle 2 of the neoadjuvant phase. TSH suppressed at 0.01 mIU/L (normal 0.4-4.0), free T4 elevated at 2.8 ng/dL (normal 0.8-1.8). Patient reported palpitations, heat intolerance, and fatigue. Propranolol 10 mg TID initiated for symptomatic management. Pembrolizumab held for one cycle per protocol. Endocrinology consulted. Repeat TFTs at 6 weeks showed transition to hypothyroid phase (TSH 18.2 mIU/L, free T4 0.6 ng/dL); levothyroxine 75 mcg daily initiated. Pembrolizumab resumed after normalization of thyroid function on replacement therapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49 years, the patient completed all 4 cycles of dose-dense AC (ddAC Cycles 1-4 administered Q2W with pegfilgrastim support) concurrent with pembrolizumab (Cycles 1, 3, and 4, with Cycle 2 held for thyroiditis). Total neoadjuvant AC phase: approximately 8 weeks. Then transitioned to weekly paclitaxel 80 mg/m2 IV x 12 weeks combined with pembrolizumab 200 mg IV Q3W (Cycles 5, 6, 7 at weeks 1, 4, 7 of paclitaxel phase). Paclitaxel dose reduced to 64 mg/m2 (80% dose) from week 7 onward due to grade 2 sensory peripheral neuropathy. All 12 planned weekly paclitaxel infusions completed."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, the patient developed grade 2 sensory peripheral neuropathy (bilateral hands and feet, stocking-glove distribution) during weekly paclitaxel, first noted at week 7 of the paclitaxel phase. Symptoms included numbness and tingling without pain or functional impairment. Paclitaxel dose reduced to 80% (64 mg/m2). Duloxetine 30 mg daily initiated for neuropathic symptoms. Patient continued all 12 planned paclitaxel doses despite dose reduction. Neuropathy improved to grade 1 by end of treatment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, the patient had a breast MRI post-neoadjuvant chemotherapy (after completion of ddAC + paclitaxel + pembrolizumab), which showed partial radiographic response. Residual enhancing mass in left breast upper outer quadrant measuring 1.6 x 1.4 cm (previously 3.2 x 2.8 cm), representing approximately 50% reduction in size. Residual left axillary lymph node: 1 node with persistent cortical thickening, 6 mm (previously 8 mm). Overall impression: Partial radiographic response, Miller-Payne grade 3 estimated. Residual disease present; surgical planning recommended. No new distant lesions."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, the patient had a pre-operative oncology assessment. Post-neoadjuvant MRI shows partial response with residual 1.6 cm mass and persistent axillary node. Patient counseled regarding surgical options: left breast-conserving surgery (lumpectomy) with sentinel lymph node biopsy vs. mastectomy. Given BRCA2 carrier status and residual disease, patient elected left mastectomy with immediate tissue expander reconstruction and right prophylactic mastectomy with reconstruction. Breast surgery and plastic surgery teams coordinated. ECOG PS 0 at pre-op. Levothyroxine dose stabilized, TSH 1.8 mIU/L. Neuropathy grade 1, not a surgical contraindication."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 49 years, the patient underwent left modified radical mastectomy with axillary lymph node dissection (levels I-II) and right prophylactic mastectomy with bilateral immediate tissue expander reconstruction. Procedure performed under general anesthesia without complications. Left axillary dissection yielded 16 nodes. Intraoperative findings: palpable firm residual mass in upper outer quadrant left breast. Skin-sparing mastectomy performed bilaterally with nipple-sparing on the right. Estimated blood loss 220 mL. No intraoperative complications. Drains placed bilaterally."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 49, the patient had a surgical mastectomy specimen pathology result. Left breast modified radical mastectomy: Residual invasive ductal carcinoma, grade 3, measuring 1.8 cm in greatest dimension (ypT1c). Margins: negative (closest margin 0.8 cm, deep margin). Associated residual high-grade DCIS present (2.5 cm span). Lymphovascular invasion: present (focal). Axillary lymph nodes: 3 of 16 lymph nodes positive for metastatic carcinoma (ypN1a); largest deposit 5 mm; no extranodal extension. Residual carcinoma in sentinel node previously identified: viable tumor. Tumor bed fibrosis present (approximately 40% of tumor bed). Pathologic response classification: Non-pCR (ypT1cN1a). Miller-Payne grade 3 (marked reduction in tumor cellularity, 30-90% reduction). Residual Cancer Burden (RCB) calculated: RCB index 2.8, RCB Class III (extensive residual disease). Right prophylactic mastectomy: No carcinoma, benign fibrocystic changes only."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, the patient had a post-operative oncology assessment at 4 weeks following bilateral mastectomy. Healing well, drains removed at week 2. Tissue expanders in place bilaterally, initial fills performed. Pathology results reviewed: RCB Class III residual disease, 3/16 positive nodes (ypT1cN1a). Plan: adjuvant capecitabine 1000 mg/m2 BID days 1-14 Q21 days x 8 cycles, and pembrolizumab 200 mg Q3W x 9 cycles (to complete total of 1 year of pembrolizumab including neoadjuvant doses). Post-mastectomy radiation therapy (PMRT) discussed: given 3 positive lymph nodes post-neoadjuvant therapy, radiation oncology consultation obtained. PMRT to left chest wall and regional lymph nodes recommended. Olaparib adjuvant therapy discussed; given concurrent capecitabine and ongoing pembrolizumab, plan to consider olaparib after completion of capecitabine if patient remains disease-free. Levothyroxine continued."
+    },
+    {
+      "type": "radiation",
+      "text": "At age 49 years, the patient received post-mastectomy radiation therapy (PMRT) to the left chest wall and regional lymph nodes (supraclavicular, axillary levels I-III, internal mammary nodes). Technique: 3D-conformal with bolus. Total dose: 50 Gy in 25 fractions (2 Gy/fraction) to chest wall and regional nodes, followed by chest wall boost of 10 Gy in 5 fractions (total chest wall dose 60 Gy). Treatment initiated 6 weeks post-surgery, concurrent with capecitabine (capecitabine held during boost week). Radiation completed over 6.5 weeks. Acute toxicities: grade 2 radiation dermatitis (moist desquamation in axillary fold, managed with silver sulfadiazine and wound care), grade 1 fatigue."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 49 years, the patient received adjuvant capecitabine 1000 mg/m2 BID (approximately 1500 mg BID given BSA 1.73 m2) on days 1-14 of each 21-day cycle for a planned 8 cycles, concurrent with pembrolizumab 200 mg IV Q3W (completing remaining pembrolizumab cycles to reach 17 total cycles over approximately 1 year including neoadjuvant). Capecitabine initiated 5 weeks post-surgery, 1 week before radiation. Concurrent PMRT administered (capecitabine held during radiation boost week). Cycles 1-4 completed with dose modifications as noted."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, the patient developed grade 2 hand-foot syndrome (palmar-plantar erythrodysesthesia) during capecitabine Cycle 3. Findings: bilateral palmar erythema, tenderness, and superficial blistering without impairment of activities of daily living (grade 2). Capecitabine dose reduced to 75% (1125 mg BID) for subsequent cycles. Urea-based cream (Kerasal) applied twice daily; patient instructed to avoid tight footwear and prolonged pressure. Symptoms improved to grade 1 with dose reduction. No further dose reductions required."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 49, the patient developed a grade 3 immune-related adverse event during pembrolizumab Cycle 14 (adjuvant phase): immune-related hepatitis. ALT 412 U/L (10x ULN), AST 389 U/L (9.7x ULN), total bilirubin 1.4 mg/dL (normal). Patient asymptomatic, identified on routine LFT monitoring. Pembrolizumab permanently discontinued per protocol guidelines for grade 3 hepatitis. Methylprednisolone 1 mg/kg/day IV initiated for 3 days then transitioned to prednisone 1 mg/kg/day PO (80 mg daily). Hepatology consultation obtained. Hepatitis B/C serology, ANA, ASMA, anti-LKM antibodies checked; all negative. Liver biopsy deferred given classic presentation and rapid response to steroids. LFTs normalized over 6 weeks with steroid taper. Prednisone tapered over 8 weeks to discontinuation. Capecitabine continued uninterrupted during hepatitis management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 49, the patient had a CT chest/abdomen/pelvis with contrast at 6-month surveillance (approximately 6 months post-surgery), which showed no evidence of local recurrence or distant metastatic disease. Left chest wall post-mastectomy changes consistent with tissue expander in place. Post-radiation changes in left chest wall soft tissues. No hepatic lesions (liver enzymes normalizing on steroids). No pulmonary nodules or mediastinal adenopathy. No suspicious osseous lesions. Impression: No evidence of disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 49, the patient had an oncology follow-up visit after completing capecitabine (8 cycles completed, total duration ~24 weeks) and pembrolizumab permanently discontinued after grade 3 hepatitis at cycle 14. ECOG PS 0. Neuropathy: grade 1, improved. Hand-foot syndrome: resolved. Thyroid function stable on levothyroxine 75 mcg. LFTs now normalized (ALT 28 U/L, AST 24 U/L). Patient on steroid taper (prednisone 20 mg, tapering). Discussing olaparib adjuvant therapy given germline BRCA2 status and RCB Class III residual disease at surgery. OlympiA trial data reviewed with patient: 3-year IDFS benefit with olaparib 300 mg BID x 1 year in germline BRCA1/2 TNBC with high-risk features. Plan: start olaparib after prednisone taper complete and LFTs remain normal. Tissue expander exchange to permanent implants scheduled with plastic surgery."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 50 years, the patient initiated adjuvant olaparib 300 mg BID (OlympiA regimen) following completion of all other adjuvant therapies and normalization of liver enzymes. Indication: germline BRCA2 pathogenic variant, high-risk residual disease (RCB Class III, node-positive post-neoadjuvant). CBC and LFTs normal at baseline. Planned duration: 1 year (approximately 52 weeks). Patient counseled on anemia risk, nausea, fatigue. Started with CBC monitoring every 4 weeks for first 3 months."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 50, the patient developed grade 2 anemia during olaparib therapy at week 8. Hemoglobin 8.9 g/dL (baseline 12.4 g/dL), MCV 102 fL (macrocytic pattern). Reticulocyte count low-normal. B12 and folate normal. Iron studies: ferritin 45 ng/mL, TIBC elevated, consistent with functional iron deficiency. Olaparib continued at full dose; IV iron (ferric carboxymaltose 750 mg x1) administered. Hemoglobin improved to 10.2 g/dL at 4-week recheck. No transfusion required. Olaparib dose not reduced. Repeat CBC at 12 weeks showed Hgb 11.1 g/dL, stable."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 50, the patient had a CT chest/abdomen/pelvis with contrast at 12-month surveillance post-surgery (during olaparib therapy), which showed no evidence of local recurrence or distant metastatic disease. No new pulmonary nodules. Liver appears normal in size and morphology, no hepatic lesions. Bilateral breast implants in place post exchange surgery. No suspicious lymphadenopathy. Post-radiation soft tissue changes in left chest wall stable. Left axillary surgical changes stable. Impression: No evidence of disease at 12 months post-surgery."
+    },
+    {
+      "type": "surgery",
+      "text": "At age 50 years, the patient underwent bilateral tissue expander exchange to permanent silicone implants (Mentor MemoryGel) as part of staged breast reconstruction, performed by plastic surgery. Left breast reconstruction following therapeutic mastectomy; right reconstruction following prophylactic mastectomy. Procedure uneventful, performed as outpatient. No complications. Patient highly satisfied with cosmetic outcome. Neuropathy grade 1 at time of surgery, not a contraindication."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 50, the patient had a routine oncology follow-up at completion of 1 year of adjuvant olaparib. All 52 weeks of olaparib completed at full dose (300 mg BID) without further dose reductions. Final CBC on olaparib: Hgb 11.8 g/dL, platelets 198 x10^9/L, WBC 5.1 x10^9/L. LFTs normal. ECOG PS 0. No evidence of disease on imaging at 12 months post-surgery. Peripheral neuropathy: grade 1, stable, duloxetine 30 mg daily ongoing. Thyroid function stable on levothyroxine. Reconstruction complete, patient satisfied. Bilateral implants intact on exam. Premenopausal status: last menstrual period occurred approximately 4 months after chemotherapy completion (transient chemotherapy-induced amenorrhea), cycles now irregular; referral to gynecologic oncology for discussion of risk-reducing salpingo-oophorectomy given BRCA2 status. Plan: surveillance imaging Q6 months for 2 years, then annually. Continue levothyroxine and duloxetine."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 50, the patient had a CT chest/abdomen/pelvis with contrast at 18-month surveillance post-surgery, which showed no evidence of locoregional recurrence or distant metastatic disease. New finding: small 4 mm pulmonary nodule in right lower lobe, not present on prior scans. Given small size and no other suspicious findings, Fleischner Society guidelines recommend follow-up CT in 3 months. No hepatic lesions, no adenopathy, no osseous lesions. Impression: No evidence of malignant disease; 4 mm RLL pulmonary nodule, likely benign, short-interval follow-up recommended."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 50, the patient had a follow-up CT chest (3-month interval follow-up for 4 mm RLL nodule), which showed stable 4 mm right lower lobe pulmonary nodule, no interval growth. No new pulmonary nodules. No mediastinal or hilar adenopathy. Impression: Stable pulmonary nodule, most consistent with benign etiology (granuloma or intrapulmonary lymph node). Next surveillance per standard schedule."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 50, the patient had an oncology surveillance visit at 24 months post-surgery. No new symptoms. No evidence of disease on most recent imaging including stable pulmonary nodule confirmed benign. ECOG PS 0. Completing risk-reducing bilateral salpingo-oophorectomy (RRBSO) planned in coordination with gynecologic oncology given BRCA2 germline variant (surgery scheduled for next month). Duloxetine continued for residual grade 1 neuropathy. Levothyroxine dose adjusted: TSH 5.1 mIU/L, dose increased to 88 mcg daily. Patient overall doing well, back to full-time work. No signs of local or distant recurrence. Next CT surveillance at 30 months. Continued multidisciplinary follow-up with genetics, gynecologic oncology, and breast surgery teams."
+    }
+  ],
+  "scenario_index": 1,
+  "scenario_label": "breast_tnbc",
+  "scenario_blurb": "Triple-negative breast cancer (TNBC) stage IIB in a 45-year-old woman, diagnosed after palpable mass and core needle biopsy showing grade 3 invasive ductal carcinoma, ER/PR/HER2 negative, Ki-67 85%. Treated with neoadjuvant pembrolizumab plus dose-dense AC followed by paclitaxel, then surgery. Mixed pathologic response with residual disease, followed by adjuvant capecitabine and pembrolizumab maintenance."
+}

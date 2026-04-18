@@ -1,0 +1,251 @@
+id: omop
+name: "OMOP CDM v5.4 + Oncology Extension"
+version: "5.4.0"
+description: "OMOP Common Data Model oncology extension"
+is_free_text: false
+
+categories:
+  - id: person
+    name: Person
+    description: "Patient demographics"
+    per_diagnosis: false
+    items:
+      - id: person_id
+        name: Person ID
+        description: "Unique patient identifier"
+        data_type: integer
+        length: null
+      - id: year_of_birth
+        name: Year of Birth
+        description: "Birth year"
+        data_type: integer
+        length: null
+      - id: month_of_birth
+        name: Month of Birth
+        description: "Birth month"
+        data_type: integer
+        length: null
+      - id: day_of_birth
+        name: Day of Birth
+        description: "Birth day"
+        data_type: integer
+        length: null
+      - id: gender_concept_id
+        name: Gender Concept ID
+        description: "OMOP gender concept"
+        data_type: integer
+        length: null
+      - id: gender_concept_name
+        name: Gender
+        description: "Gender (Male/Female)"
+        data_type: string
+        length: null
+      - id: race_concept_id
+        name: Race Concept ID
+        description: "OMOP race concept"
+        data_type: integer
+        length: null
+      - id: race_concept_name
+        name: Race
+        description: "Race category"
+        data_type: string
+        length: null
+      - id: ethnicity_concept_id
+        name: Ethnicity Concept ID
+        description: "OMOP ethnicity concept"
+        data_type: integer
+        length: null
+      - id: ethnicity_concept_name
+        name: Ethnicity
+        description: "Ethnicity category"
+        data_type: string
+        length: null
+
+  - id: condition_occurrence
+    name: Condition Occurrence
+    description: "Cancer diagnoses"
+    per_diagnosis: true
+    items:
+      - id: condition_concept_id
+        name: Condition Concept ID
+        description: "SNOMED/ICD-O-3 concept"
+        data_type: integer
+        length: null
+      - id: condition_concept_name
+        name: Condition Name
+        description: "Cancer diagnosis"
+        data_type: string
+        length: null
+      - id: condition_start_date
+        name: Condition Start Date
+        description: "Diagnosis date"
+        data_type: date
+        length: null
+      - id: condition_source_value
+        name: Condition Source Value
+        description: "ICD-10/ICD-O-3 code"
+        data_type: string
+        length: null
+      - id: topography_concept_id
+        name: Topography Concept ID
+        description: "ICD-O-3 site code"
+        data_type: integer
+        length: null
+      - id: topography_source_value
+        name: Topography
+        description: "Primary site (e.g., C34.1)"
+        data_type: string
+        length: null
+      - id: morphology_concept_id
+        name: Morphology Concept ID
+        description: "ICD-O-3 histology code"
+        data_type: integer
+        length: null
+      - id: morphology_source_value
+        name: Morphology
+        description: "Histology (e.g., 8140/3)"
+        data_type: string
+        length: null
+
+  - id: episode
+    name: "Episode (Oncology Extension)"
+    description: "Disease and treatment episodes"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: episode_id
+        name: Episode ID
+        description: "Unique episode identifier"
+        data_type: integer
+        length: null
+      - id: episode_concept_id
+        name: Episode Concept ID
+        description: "Episode type concept"
+        data_type: integer
+        length: null
+      - id: episode_concept_name
+        name: Episode Type
+        description: "Disease First Occurrence, Treatment Regimen, etc."
+        data_type: string
+        length: null
+      - id: episode_start_date
+        name: Episode Start Date
+        description: "Episode begin date"
+        data_type: date
+        length: null
+      - id: episode_end_date
+        name: Episode End Date
+        description: "Episode end date"
+        data_type: date
+        length: null
+      - id: episode_object_concept_id
+        name: Episode Object Concept ID
+        description: "What the episode is about"
+        data_type: integer
+        length: null
+      - id: episode_object_concept_name
+        name: Episode Object
+        description: "Cancer type or regimen name"
+        data_type: string
+        length: null
+
+  - id: drug_exposure
+    name: Drug Exposure
+    description: "Cancer treatments (chemotherapy, immunotherapy, targeted therapy)"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: drug_concept_id
+        name: Drug Concept ID
+        description: "RxNorm/HemOnc concept"
+        data_type: integer
+        length: null
+      - id: drug_concept_name
+        name: Drug Name
+        description: "Treatment name"
+        data_type: string
+        length: null
+      - id: drug_exposure_start_date
+        name: Start Date
+        description: "Treatment start"
+        data_type: date
+        length: null
+      - id: drug_exposure_end_date
+        name: End Date
+        description: "Treatment end"
+        data_type: date
+        length: null
+      - id: route_concept_name
+        name: Route
+        description: "Administration route (IV, PO, etc.)"
+        data_type: string
+        length: null
+      - id: drug_source_value
+        name: Source Drug Name
+        description: "Original drug name"
+        data_type: string
+        length: null
+
+  - id: procedure_occurrence
+    name: Procedure Occurrence
+    description: "Surgical and diagnostic procedures"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: procedure_concept_id
+        name: Procedure Concept ID
+        description: "SNOMED/CPT concept"
+        data_type: integer
+        length: null
+      - id: procedure_concept_name
+        name: Procedure Name
+        description: "Procedure description"
+        data_type: string
+        length: null
+      - id: procedure_date
+        name: Procedure Date
+        description: "Date performed"
+        data_type: date
+        length: null
+      - id: procedure_source_value
+        name: Source Value
+        description: "CPT/HCPCS code"
+        data_type: string
+        length: null
+
+  - id: measurement
+    name: Measurement
+    description: "Labs, tumor markers, biomarkers"
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: measurement_concept_id
+        name: Measurement Concept ID
+        description: "LOINC concept"
+        data_type: integer
+        length: null
+      - id: measurement_concept_name
+        name: Measurement Name
+        description: "Lab/biomarker name"
+        data_type: string
+        length: null
+      - id: measurement_date
+        name: Measurement Date
+        description: "Date of measurement"
+        data_type: date
+        length: null
+      - id: value_as_number
+        name: Numeric Value
+        description: "Numeric result"
+        data_type: float
+        length: null
+      - id: value_as_concept_name
+        name: Categorical Value
+        description: "Categorical result (Positive/Negative)"
+        data_type: string
+        length: null
+      - id: unit_concept_name
+        name: Unit
+        description: "Unit of measure"
+        data_type: string
+        length: null

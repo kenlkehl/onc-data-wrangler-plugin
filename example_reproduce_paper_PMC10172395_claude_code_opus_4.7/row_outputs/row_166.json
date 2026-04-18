@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "41% (14/34 samples with non-silent NF1)",
+  "discrepancy_analysis": "Reported 41% NF1 mutation frequency matches model result of 41% (14/34) exactly. Within the +/-10% concordance threshold.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

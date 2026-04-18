@@ -1,0 +1,6 @@
+{
+  "analysis_result": "BACKEND_UNAVAILABLE: worker agent stalled before completion (rate limit). Distinguishing neoplastic vs non-neoplastic nuclei requires inferCNV or equivalent CNV inference pipeline plus cell-type scoring (Schwann/SCP markers), neither of which was executed. GSE207399_series_matrix.txt.gz does not contain per-barcode cell-type annotations. Deferred to Phase 3 review.",
+  "denominator_used": "Approximately 43,365 total nuclei across 6 PNST samples per paper; raw matrices contain more (all 10X whitelist barcodes).",
+  "assumptions_made": "Worker agent was spawned but rate limit prevented execution. No cell-type labels in accompanying metadata. inferCNV R pipeline not attempted.",
+  "step_by_step_analysis": "Not performed - worker stalled. For Phase 3 review: would require loading all 6 10X samples, integrating with Harmony/BBKNN, running inferCNV or copykat for CNV calling, plus marker-based scoring (S100B/SOX10/MBP for Schwann; PTPRC/CD14/CD3 for immune; COL1A1/LUM for fibroblast) to separate neoplastic from stromal/immune."
+}

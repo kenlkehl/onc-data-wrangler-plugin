@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "DATA_UNAVAILABLE — TCGA external cohort not in local data.",
+  "discrepancy_analysis": "The reported result (1 of 2 MPNST-G1 [50%] harboring PRC2 component mutations) comes from the TCGA external validation cohort described in the paper (Supplementary Fig. 3c). On page 5 the paper states: 'We confirmed this finding in the validation cohort, with 50% of MPNST-G1 tumors (1 of 2) and none of the MPNST-G2 (0 of 3) samples harboring PRC2 component gene mutations.' The local data for this reproduction task does not contain the TCGA MPNST validation cohort WES/mutation data — only the primary discovery cohort is available. Therefore the model cannot independently reproduce this statistic. This is a data availability issue (the external cohort was used only for validation in the paper and is not included in the local dataset), not a discrepancy between reported and computed values. Concordance cannot be assessed.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "To evaluate this statistic, the TCGA MPNST cohort WES mutation data would need to be downloaded (e.g., from cBioPortal or GDC), MPNST-G1/G2 subgroup assignments obtained (from the paper's Supplementary Fig. 3c or methylation-based classification applied to TCGA methylation data), and the proportion of MPNST-G1 tumors harboring SUZ12 or EED mutations computed.",
+  "confidence": "N/A"
+}

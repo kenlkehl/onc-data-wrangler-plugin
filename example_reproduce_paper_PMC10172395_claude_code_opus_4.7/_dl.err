@@ -1,0 +1,17 @@
+2026-04-15 21:37:07,050 [INFO]   Downloading tgz package...
+2026-04-15 21:37:13,884 [INFO]   Extracted main PDF: 41467_2023_Article_38432.pdf
+2026-04-15 21:37:14,007 [INFO]   Extracted data file: 41467_2023_38432_MOESM8_ESM.xlsx
+2026-04-15 21:37:14,011 [INFO]   Extracted data file: 41467_2023_38432_MOESM6_ESM.xlsx
+2026-04-15 21:37:14,011 [INFO]   Extracted data file: 41467_2023_38432_MOESM7_ESM.xlsx
+2026-04-15 21:37:14,032 [INFO]   Extracted data file: 41467_2023_38432_MOESM5_ESM.xlsx
+2026-04-15 21:37:14,045 [INFO]   Extracted data file: 41467_2023_38432_MOESM10_ESM.xlsx
+2026-04-15 21:37:14,046 [INFO]   Extracted data file: 41467_2023_38432_MOESM4_ESM.xlsx
+2026-04-15 21:37:14,052 [INFO]   GEO: downloading GSE207207...
+2026-04-15 21:37:14,475 [INFO]   Downloaded (0.0MB): GSE207207_series_matrix.txt.gz
+2026-04-15 21:37:15,207 [INFO]   Skipping (too large: 296MB): https://ftp.ncbi.nlm.nih.gov/geo/series/GSE207nnn/GSE207207/suppl/GSE207207_average_beta_values.txt.gz
+2026-04-15 21:37:15,556 [INFO]   Downloaded (0.0MB): filelist.txt
+2026-04-15 21:37:15,556 [INFO]   GEO: downloading GSE207399...
+2026-04-15 21:37:16,251 [INFO]   Downloaded (0.0MB): GSE207399_series_matrix.txt.gz
+2026-04-15 21:37:16,628 [INFO]   GEO: downloading GSE207400...
+2026-04-15 21:37:17,325 [INFO]   Downloaded (0.0MB): GSE207400_series_matrix.txt.gz
+2026-04-15 21:37:18,853 [INFO]   Downloaded (5.0MB): GSE207400_Matrix.txt.gz

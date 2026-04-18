@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p=2.38e-30 (F=57.37); ANOVA across 7 methylation subgroups on mean beta at CpG islands; N=108 samples; 141,200 Island-annotated EPIC probes.",
+  "discrepancy_analysis": "Reported result is 'p<2.2e-16', which is the standard R default display floor for extremely small p-values (the smallest double-precision representable p-value when computed via pf/pt). The model's exact p-value of 2.38e-30 is well below this 2.2e-16 threshold and is therefore fully consistent with the reported result. Both statistics indicate highly significant differences in mean CpG island beta across the 7 methylation subgroups in the n=108 cohort. Concordance by construction: any p-value smaller than 2.2e-16 satisfies the paper's reported bound.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

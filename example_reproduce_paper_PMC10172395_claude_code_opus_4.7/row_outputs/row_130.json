@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "47.6% immune cells (combined M1677 + M1933) by Leiden clustering + immune marker dominance; M1677 57.9%, M1933 36.5%. PTPRC-positive simpler proxy: 47.2%.",
+  "discrepancy_analysis": "CONCORDANT: Reported = 46.35% immune cells in MPNST-G2; Model = 47.6% immune cells (Leiden + marker-based annotation). Absolute difference = 1.25 percentage points; relative difference = |47.6 - 46.35| / 46.35 = 2.70%, well within the ±10% concordance threshold. The PTPRC-positive simpler proxy (47.2%) independently corroborates the Leiden-based estimate and is also within tolerance of the reported value. The combined MPNST-G2 denominator of 14,501 nuclei (7,536 M1677 + 6,965 M1933) and per-sample breakdowns (M1677 57.9%, M1933 36.5%) appear consistent with the paper's reported heterogeneity between the two MPNST-G2 specimens. Standard QC thresholds and marker panel (PTPRC, CD3D, CD14, CD68, CD163, MS4A1, NKG7, CSF1R, ITGAM, TYROBP) produced an immune cell fraction in close agreement with the reported result.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

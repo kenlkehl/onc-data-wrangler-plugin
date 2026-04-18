@@ -1,0 +1,750 @@
+                                    Article                                                                                                   https://doi.org/10.1038/s41467-023-38432-6
+
+
+                                    Multiplatform molecular proﬁling uncovers
+                                    two subgroups of malignant peripheral
+                                    nerve sheath tumors with distinct
+                                    therapeutic vulnerabilities
+
+                                    Received: 4 March 2022                              Suganth Suppiah1,2, Sheila Mansouri1,13, Yasin Mamatjan 1,3,13, Jeffrey C. Liu1,4,13,
+                                                                                        Minu M. Bhunia 5, Vikas Patil1, Prisni Rath 6, Bharati Mehani 7, Pardeep Heir1,
+                                    Accepted: 28 April 2023
+                                                                                        Severa Bunda1, German L. Velez-Reyes5, Olivia Singh 1, Nazanin Ijad1,
+                  1234567890():,;
+1234567890():,;
+
+
+
+
+                                                                                        Neda Pirouzmand1, Tatyana Dalcourt1, Ying Meng2, Shirin Karimi1, Qingxia Wei1,
+                                                                                        Farshad Nassiri 1,2, Trevor J. Pugh 6,8,9, Gary D. Bader 8,9,10,11,
+                                        Check for updates                               Kenneth D. Aldape 7, David A. Largaespada 5,12 & Gelareh Zadeh 1,2
+
+
+                                                                                        Malignant peripheral nerve sheath tumor (MPNST) is a highly aggressive sar-
+                                                                                        coma, and a lethal neuroﬁbromatosis type 1-related malignancy, with little
+                                                                                        progress made on treatment strategies. Here, we apply a multiplatform inte-
+                                                                                        grated molecular analysis on 108 tumors spanning the spectrum of peripheral
+                                                                                        nerve sheath tumors to identify candidate drivers of MPNST that can serve as
+                                                                                        therapeutic targets. Unsupervised analyses of methylome and transcriptome
+                                                                                        proﬁles identify two distinct subgroups of MPNSTs with unique targetable
+                                                                                        oncogenic programs. We establish two subgroups of MPNSTs: SHH pathway
+                                                                                        activation in MPNST-G1 and WNT/ß-catenin/CCND1 pathway activation in
+                                                                                        MPNST-G2. Single nuclei RNA sequencing characterizes the complex cellular
+                                                                                        architecture and demonstrate that malignant cells from MPNST-G1 and MPNST-
+                                                                                        G2 have neural crest-like and Schwann cell precursor-like cell characteristics,
+                                                                                        respectively. Further, in pre-clinical models of MPNST we conﬁrm that inhibit-
+                                                                                        ing SHH pathway in MPNST-G1 prevent growth and malignant progression,
+                                                                                        providing the rational for investigating these treatments in clinical trials.
+
+
+                                    Malignant peripheral nerve sheath tumors (MPNSTs) represent a                  neuroﬁbromatosis type 1 (NF1) tumor predisposition syndrome, which
+                                    highly aggressive and lethal subtype of peripheral nerve sheath tumors         afﬂicts 1 in 3000 individuals2. The hallmark of NF1 is the development
+                                    (PNSTs) that confer a 5-year survival rate as low as 20–50%1. Approxi-         of PNSTs that fall within a spectrum of benign (cutaneous and intra-
+                                    mately half of all MPNSTs occur in the setting of the hereditary               neural neuroﬁbromas) and malignant (MPNST). Plexiform intraneural
+
+
+                                    1
+                                     MacFeeters-Hamilton Centre for Neuro-Oncology Research, Princess Margaret Cancer Centre, Toronto, ON, Canada. 2Division of Neurosurgery, Department
+                                    of Neurosurgery, University of Toronto, Toronto, ON, Canada. 3Faculty of Science, Thompson Rivers University, Kamloops, BC, Canada. 4The Donnelly Centre,
+                                    University of Toronto, Toronto, ON, Canada. 5Masonic Cancer Center, University of Minnesota, Minneapolis, MN, USA. 6Ontario Institute for Cancer Research,
+                                    Toronto, ON, Canada. 7Laboratory of Pathology, Center for Cancer Research, National Cancer Institute, Bethesda, MD, USA. 8Department of Medical
+                                    Biophysics, University of Toronto, Toronto, ON, Canada. 9Princess Margaret Cancer Centre, University Health Network, Toronto, ON, Canada. 10Department of
+                                    Molecular Genetics, University of Toronto, Toronto, ON, Canada. 11Department of Computer Science, University of Toronto, Toronto, ON, Canada.
+                                    12
+                                      Department of Pediatrics, University of Minnesota, Minneapolis, MN, USA. 13These authors contributed equally: Sheila Mansouri, Yasin Mamatjan, Jeffrey C.
+                                    Liu.   e-mail: Gelareh.zadeh@uhn.ca
+
+
+                                    Nature Communications | (2023)14:2696                                                                                                                    1
+Article                                                                                             https://doi.org/10.1038/s41467-023-38432-6
+
+
+neuroﬁbromas are present in around 30–50% of NF1 patients and              subgroups (Supplementary Fig. 1a). We further validated our ﬁndings
+harbor a 5–15% lifetime risk of malignant transformation3. Recently,       using two additional independent validation cohorts; TCGA (n = 5) and
+atypical neuroﬁbromas have been described with premalignant fea-           DKFZ (n = 33) datasets (Supplementary Fig. 1b–d)10,13. There was no
+tures consisting of increased cellularity, cytological atypia and/or a     difference in NF1 syndrome status, tumor size, tumor location/depth,
+fascicular growth pattern4,5. On the malignant end of the spectrum,        extent of resection or adjuvant treatment (Supplementary Data 1).
+MPNSTs are sarcomas causing an average reduction in life expectancy        Most notably, survival analysis revealed that prognoses of patients
+by 5–10 years in the NF1 population6. Standard of care includes max-       with MPNST-G1 were statistically signiﬁcantly worse than MPNST-G2
+imal surgical resection with adjuvant radiation therapy, with few          (median PFS of 0.6 vs 1.4 years, p < 0.05, log-rank test). In summary,
+effective chemotherapies presently available. Limited advances in the      these results reveal that there exist two distinct methylation subtypes
+clinical outcome of these aggressive sarcomas reﬂect gaps in knowl-        of MPNST with very different clinical outcomes, potentially serving as a
+edge in the mechanism of malignant transformation and lack of can-         prognostic marker for MPNSTs.
+didates in the therapeutic pipeline.
+     The drivers of malignant transformation are not fully understood      CpG island methylator phenotype in MPNST-G1
+in PNSTs. In benign neuroﬁbromas, the loss of NF1, which is a classic      With the identiﬁcation of the two distinct methylation groups
+tumor suppressor gene that encodes neuroﬁbromin and negatively             MPNST-G1 and MPNST-G2, we next investigated the extent of CpG
+regulates the RAS-MAPK (mitogen-activated protein kinase) pathway,         methylation in the spectrum of PNSTs. Compared to benign neu-
+occurs early2. Atypical neuroﬁbromas are characterized by CDKN2A/B         roﬁbromas (G4), we observed an overall reduction in global DNA
+deletion in addition to NF1 loss, suggesting this is the next step in      methylation in MPNST-G1 and MPNST-G2 (Fig. 1c, Supplementary
+tumor progression4. What is known in MPNSTs is that there is a loss of     Fig. 2a). This relative global hypomethylation phenomenon was
+Polycomb repressive complex 2 (PRC2) subunits through bi-allelic           not observed in premalignant tumors (G3) or cutaneous neuroﬁ-
+inactivation of SUZ12 or EED in a subset of MPNSTs7–9. However, an in-     bromas (G6&7). We then compared CpG island methylation and
+depth understanding of the molecular landscape and subtypes of             found that MPNST-G1 tumors have a greater number of methylated
+MPNSTs is lacking. Here, we performed a comprehensive integrated           CpG islands compared to MPNST-G2 and all neuroﬁbroma sub-
+genomic and epigenomic analysis on a cohort of 108 samples that span       groups (Fig. 1d, Supplementary Fig. 2b, c). When we focused on the
+the entire spectrum of PNSTs with the goal to identify the drivers of      promoter regions, MPNST-G1 harbored more methylated CpG
+malignant transformation. We discovered two distinct MPNST sub-            islands and more corresponding genes transcriptionally silenced
+groups that we conﬁrm and comprehensively characterized by                 based on gene expression data (see below) when compared to
+methylation signature, copy number alterations, whole exome                MPNST-G2 (Fig. 1e, f). Indeed, the TCGA and DKFZ cohorts con-
+sequencing (WES), RNA sequencing and single-cell RNA sequencing.           ﬁrmed that CpG islands within promoters are hypermethylated in
+The transcriptional networks that deﬁne these two subgroups are            MPNST-G1 tumors relative to MPNST-G2 tumors (Supplementary
+sonic hedgehog (SHH) and WNT pathways. We demonstrate that tar-            Fig. 2d, e). These results demonstrate that MPNST-G1 exhibit a CpG
+geted inhibition of SHH pathway in-vitro and in-vivo can control the       island hypermethylation phenotype. To determine the oncogenic
+growth and progression of these malignant sarcomas and establish           programs dysregulated by the CpG island hypermethylation, we
+therapeutic avenues to leverage for clinical trials.                       performed pathway analysis on this cohort. We found sonic
+                                                                           hedgehog (SHH) signaling genes as the most signiﬁcantly enriched
+Results                                                                    pathway in MPNST-G1, which was absent in MPNST-G2 (Fig. 1g).
+Methylome-based proﬁling identiﬁes two distinct MPNST                      Speciﬁcally, we found CpGs in the promoter region (cg01512589
+subgroups                                                                  and cg26878949) of PTCH1, a transmembrane protein that sup-
+We proﬁled genome-wide DNA methylation patterns using the Illumina         presses the SHH signaling cascade by inhibiting the oncoprotein
+MethylationEPIC 850k array on a cohort (n = 108) representing the full     SMO14, to be hypermethylated in MPNST-G1 but not in MPNST-G2
+spectrum of PNSTs (Supplementary Data 1). Unsupervised consensus           (Fig. 3f). This suggested that SHH pathway may be activated
+hierarchical clustering of the top 20,000 most variably methylated         through epigenetic dysregulation in MPNST-G1 tumors.
+probes yielded seven stable and robust subgroups (Fig. 1a). Cutaneous
+neuroﬁbromas (33 of 33, 100%), while histopathologically indis-            MPNST G1 and G2 harbor distinct complex copy number
+tinguishable from all other neuroﬁbromas, resolved into homogenous         alterations
+methylation clusters (G6 & G7) that are distinct from all other PNSTs.     To investigate whether methylation sub-groups are deﬁned by speciﬁc
+Given that tumor-associated DNA methylation signatures are thought         chromosomal aberrations, we inferred copy number proﬁles from the
+to maintain the epigenetic programs of the cell-of-origin10,11, the dis-   methylation data using the CONUMEE15 algorithm (Fig. 1h). Except for
+tinct methylation signature of cutaneous neuroﬁbromas, suggests that       occasional small deletions affecting chromosome 17q encompassing
+they arise from a distinct cell-of-origin and possibly provides an         the NF1 locus, benign neuroﬁbromas (G4) and cutaneous neuroﬁ-
+explanation for the divergent clinical phenotype with lack of malignant    bromas (G6&7) did not harbor recurrent chromosomal aberrations. In
+potential for this subset of PNST neuroﬁbromas12.                          contrast, we observed the loss of chromosome 9p, encompassing the
+      Atypical neuroﬁbromas (20 of 21, 95%) and all low-grade MPNSTs       CDKN2A locus, in 55% of tumors in the premalignant (G3) methylation
+(3 of 3, 100%) grouped together to form the G3 methylation cluster. G3     subclass. The MPNST-G1 tumors demonstrated complex copy number
+neuroﬁbromas demonstrated signiﬁcantly worse progression-free              alterations (average 17.5 chromosomes affected), indicative of geno-
+survival (PFS) compared to benign neuroﬁbroma subgroups (Fig. 1b,          mic instability. The most common losses affected 1p (100%), 9p
+p < 0.0001, log-rank test). Therefore, we propose that neuroﬁbromas        (100%), 9q (87.5%), 11q (87.5%), 13q (87.5%), 17p (87.5%), 18q (75%) and
+that exhibit G3 methylation signature represent a premalignant tumor       20p (75%). The most frequent gains involved 1q (50%), 8q (50%), and
+at risk of malignant transformation, and this signature can be used as a   19p (62.5%). In contrast, MPNST-G2 exhibited fewer chromosomal
+potential predictive marker for malignant tendency in clinical practice.   alterations (average 8.9 chromosomes affected), including loss of
+A striking ﬁnding is that the high-grade MPNSTs (n = 16) formed two        chromosome 1p (50%), 6p (62.5%), and 9p (62.5%), and gain of chro-
+distinct methylome clusters (MPNST-G1, n = 8 and MPNST-G2, n = 8).         mosome 12q (50%). In MPNST-G1, we found PTCH1 loss (62.5%) and
+Based on the distinct clusters of high-grade MPNSTs (G1 and G2), we        SMO gain (37.5%) in majority of samples. SHH pathway gene alterations
+next performed consensus hierarchical clustering on the high-grade         were statistically signiﬁcantly higher in MPNST-G1 compared to
+MPNST cohort alone to conﬁrm robust delineation of two methylation         MPNST-G2 (75% vs 12.5%, p < 0.05, Fisher’s exact test).
+
+
+Nature Communications | (2023)14:2696                                                                                                            2
+Article                                                                                                            https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 1 | Methylation and CNV based classiﬁcation of the PNSTs. a Unsupervised          respectively). e Volcano plot comparing the number of signiﬁcant methylated
+consensus hierarchical clustering of the 20,000 CpGs that show the highest median      probes of CpG islands in the promoter region between MPNST-G1 and MPNST-G2
+absolute deviation across the β values of 108 PNSTs. b Kaplan–Meier plot of            (FDR corrected p value < 0.05 and mean β value difference > 0.1). f Differences in
+progression-free survival as function of methylation subgroups. Log-Rank test          the number of methylated and silenced genes in MPNST-G1 versus MPNST-G2. Chi-
+(p < 0.0001). c Cumulative distribution function plot of the average β values of all   Square Test (p < 0.0001). g Top 10 pathways affected by CpG island hypermethy-
+CpG sites in the methylation subgroups. d Box plot of the mean β values of the CpG     lation in MPNST-G1. -log (FDR corrected P-value) shown. h CNV heatmap generated
+islands versus all other probes in the methylation subgroups (n = 108 samples).        from raw CONUMEE calls on methylation data for each subtype across all chro-
+Show the median, ﬁrst and third quartiles (boxes), and the whiskers encompass the      mosomes. Inset shows a magniﬁcation of chromosome 9. Source data provided as
+1.5X the interquartile range. One-way ANOVA (p < 2.2e−16 and p = 1.8e−13,              source data ﬁle.
+
+
+
+Nature Communications | (2023)14:2696                                                                                                                                  3
+Article                                                                                                         https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 2 | PRC2 mutations are unique to MPNST-G1. a Nonsynonymous mutations           quartiles (boxes), and the whiskers encompass the 1.5X the interquartile range.
+per megabase for benign neuroﬁbromas, atypical neuroﬁbromas and MPNSTs              b Results from whole exome sequencing (n = 54) with frequency and mutations
+(n = 55 samples) compared to other childhood neuronal cancers and sarcomas          identiﬁed. c Schematic of the distribution of the mutations along the PTPRD gene.
+from several cancer sequencing projects. Boxplots show the median, ﬁrst and third
+
+
+
+Mutations in PRC2 components are unique to MPNST-G1                                 Interestingly, NF1 mutations were signiﬁcantly more prevalent in
+We next performed WES to establish the mutational proﬁle of PNSTs.                  MPNST-G2 compared to MPNST-G1 (71.4% vs 12.5%, Fisher exact test,
+The overall somatic mutation burden in this spectrum of PNSTs was                   p < 0.05). However, we observed signiﬁcantly higher rates of 17q
+low (Fig. 2a), with the mutational burden of MPNSTs (0.58 non-                      deletions encompassing the NF1 locus in MPNST-G1 compared to
+synonymous SNVs per megabase) was statistically signiﬁcantly higher                 MPNST-G2 (Fig. 1a; 87.5% vs 12.5%, p < 0.05). We further validated these
+than benign and atypical neuroﬁbromas (0.016 and 0.049 nonsynon-                    ﬁndings in the TCGA dataset, with 2 of 2 (100%) of MPNST-G1 har-
+ymous SNVs per megabase, respectively, t-test, p < 0.05). In keeping                boring 17q deletions encompassing the NF1 locus, while 2 of 3 (66%)
+with previous studies, we identiﬁed NF1 as the most frequently altered              MPNST-G2 tumors harboring NF1 mutations (Supplementary Fig. 3c).
+gene, with 23 of 55 samples (42%) harboring somatic mutations                       Taken together, this suggests that the mechanisms of genome
+(Fig. 2b, Supplementary Data 3). NF1 mutations were observed in 44%                 instability and inactivation of NF1 is distinct between the two MPNST
+of MPNSTs, 60% of atypical neuroﬁbromas and 18% of benign neuro-                    subgroups.
+ﬁbromas. When we dichotomized benign neuroﬁbromas based on                               Additional recurrent but low-frequency mutations in neuroﬁ-
+NF1 syndrome status, only 14% (2 of 14) of sporadic neuroﬁbromas                    bromas include FANCA, PTPRD, NF2, LZTR1, KNL1 and RUNX1 (Supple-
+harbored somatic NF1 gene mutations, which suggests sporadic neu-                   mentary Fig. 3a, b). In a previous study, 46% of atypical neuroﬁbromas
+roﬁbromas may have different mechanism of RAS pathway activation.                   harbored deletions of the receptor-type tyrosine-protein phosphatase
+
+
+Nature Communications | (2023)14:2696                                                                                                                              4
+Article                                                                                             https://doi.org/10.1038/s41467-023-38432-6
+
+
+delta (PTPRD) genes4. Notably, we report a mechanism of PTPRD              promoter hypermethylation in MPNST-G1 tumors compared to
+inactivation through mutations, which were private to atypical neu-        MPNST-G2 tumors (87.5% vs. 12.5%, p < 0.01, Fisher exact test). Fur-
+roﬁbromas and MPNST-G2 tumors. We observed PTPRD mutations in 2            thermore, this inversely correlated with PTCH1 gene expression
+of 19 atypical neuroﬁbromas (11%) and 2 of 7 MPNST-G2 tumors (29%).        (Fig. 3f; r = −0.58, p < 0.0001, Pearson correlation). We next used the
+Similar to other cancers, the majority of mutations in this gene loca-     DrugBank database to predict potential FDA approved drugs that can
+lized in the ﬁrst and second ﬁbronectin type III domains (Fig. 2c)16,17.   be repurposed for treatment using network analysis and identiﬁed
+PTPRD is a leukocyte-common antigen-related receptor tyrosine              smoothened inhibitors (vismodegib and sonidegib) as one of the top
+phosphatase and negatively controls the WNT/B-catenin pathway18,19.        potential treatments for MPNST-G1 tumors (Supplementary Data 4).
+In addition, reduced expression of PTPRD was correlated with invasive           In contrast, MPNST-G2 overexpressed many key WNT pathway
+status of other cancers with highly activated WNT signaling20. Further     genes, including WNT10A, RAC2, AXIN1 and FZD1 (Fig. 3f). This cluster
+studies will be needed to uncover the role of PTPRD in MPNST-G2            of MPNSTs also signiﬁcantly under-expressed APC, a known negative
+tumors and cancer cell migration.                                          regulator of the WNT pathway and a component of the ß-catenin
+     In MPNSTs, a signiﬁcant proportion of recurrent mutational            destruction complex21. In addition, RSPO2 is a secreted ligand that
+events converge on epigenetic mechanisms. Previous studies descri-         potentiates WNT pathway activation, and its overexpression was pre-
+bed nonsense mutations in SUZ12 (24.2% of MPNSTs) and EED (9.8% of         viously described in a subset of MPNSTs22. We observed higher
+MPNSTs), which are core components of the PRC2 complex7–9. In our          expression of RSPO2 (fold change 3.7, p = 0.073) in MPNST-G2 samples
+cohort, 22% (4 of 18) and 6% (1 of 18) of MPNSTs exhibited SUZ12 and       compared to all other MPNSTs. Samples M2377 and M1933 had a 39.7-
+EED mutations, respectively (Fig. 2b). Most notably, the PRC2 com-         fold and 49.5-fold higher expression, respectively, of RSPO2 compared
+ponent mutations are restricted to MPNST-G1 tumors (62.5% in               to all other MPNSTs. Drug target analysis revealed that vorapaxar, a
+MPNST-G1 vs 0% in MPNST-G2, p < 0.05). We conﬁrmed this ﬁnding in          competitive thrombin receptor protease-activated receptor (PAR-1)
+the validation cohort, with 50% of MPNST-G1 (1 of 2) and none of the       antagonist, is a potential FDA approved drug candidate for treatment
+MPNST-G2 (0 of 3) samples harboring PRC2 component gene muta-              of MPNST-G2. PAR-1 is a positive regulator of the WNT and ß-catenin
+tions (Supplementary Fig. 3c). Compared to other malignancies,             pathway (Supplementary Data 4).
+MPNSTs have a very low tumor mutational burden and low number of
+recurrent mutations. Recurrent mutations in SUZ12 and EED in MPNSTs        Inactivating gene fusions of PRC2 components are unique to
+further support the importance of epigenetic dysregulation in malig-       MPNST-G1
+nant transformation.                                                       We then examined the RNA seq data for gene fusions in all PNSTs and
+                                                                           compared between the two MPNST subgroups. We identiﬁed an out-
+Transcriptional proﬁling validates and deﬁnes two distinct                 of-frame fusion in an atypical neuroﬁbroma (G3) involving CDKN2A
+subgroups of MPNSTs with SHH or WNT pathway activation                     and TMEM17, which represents a mechanism for CDKN2A inactivation
+We next analyzed the transcriptomic proﬁle of the two methylome-           (Supplementary Data 5). MPNST-G1 harbored statistically signiﬁcant
+based subgroups of MPNSTs to establish whether at an expression            more fusion events per sample compared to all other PNST clusters
+level MPNST-G1 and MPNST-G2 maintained distinct signatures. In the         (Supplementary Fig. 8a–e; p < 0.01, ANOVA). Increased gene fusions in
+principal component analysis (PCA) of the whole transcriptome, all         MPNST-G1, in addition to the previously described high copy number
+MPNSTs clustered together and were separated from the neuroﬁ-              alterations, further lends support to chromosomal instability in this
+bromas by the ﬁrst principal component (PC1) (Fig. 3a). Consistent         subtype. Speciﬁcally, we identiﬁed interchromosomal JARID2-
+with the methylation subgroupings, MPNSTs resolved into two sub-           ATP5MC2 fusions in 33% of MPNST-G1 samples (Supplementary
+groups by the second principal component (PC2). In fact, focusing          Fig. 8f–g). JARID2 and ATP5MC2 are located on chromosomes 6 and 12,
+analysis on MPNSTs alone faithfully reproduced the two MPNST sub-          respectively. In both cases, the fusions were predicted to be inacti-
+groups (Supplementary Fig. 4a). Consensus clustering of the TCGA           vating since they were classiﬁed as either out-of-frame or truncating.
+MPNST cohort also resolved into two distinct clusters that corre-          JARID2 is sufﬁcient to recruit the PRC2 to target genes, and inhibition
+sponded with the methylation subgroups (Supplementary Fig. 4b).            of JARID2 reduces PRC2 binding and loss of H3K27me3 levels on target
+Further, unbiased approaches with methylome and transcriptomic             genes23. JARID2-ATP5MC2 fusions represents another mechanism by
+signatures agree on two distinct MPNST subgroups (Supplementary            which epigenetic homeostasis is dysregulated in MPNST-G1.
+Fig. 4c; Adjusted Rand Index = 0.81, p < 0.001).
+     We next generated the differentially expressed genes between the      Analyzing the cellular heterogeneity of MPNSTs using single cell
+methylation-based subgroups of all PNSTs (Fig. 3b). In Gene Set            RNA sequencing
+Enrichment Analysis (GSEA), we observed no difference in NF1/RAS/          Cellular heterogeneity is a recognized challenging aspect of tumor
+RAF/MEK pathway activity between MPNST-G1 and MPNST-G2 (Sup-               biology and a well-established feature of MPNSTs24. We undertook
+plementary Fig. 5a–e). This further conﬁrms that NF1 pathway is            droplet-based single nuclear RNA sequencing (snRNA-seq) using the
+inactivated in both tumors despite having different mechanisms of NF1      10X Genomics platform for nuclei dissociated from 6 PNSTs to infer
+inactivation. Furthermore, MPNST-G1 and MPNST-G2 shared upregu-            cellular architecture. Overall, we analyzed 43,365 nuclei from 3
+lation of pathways associated with RB1 knockdown and E2F1 upregu-          MPNST-G1 (M803, M3048 and M2372), 2 MPNST-G2 (M1933 and
+lation, which is consistent with the frequent loss of CDKN2A in majority   M1677), and 1 atypical neuroﬁbroma (NF110) with a median of 2249
+of MPNSTs (Fig. 3c). Strikingly, MPNST-G1 was enriched for PRC2 loss       unique genes detected per nucleus (Fig. 4a). We estimated the identity
+modules and SHH pathway activation, while MPNST-G2 was enriched            of the cell clusters by correlating expression of genes with immune cell
+for WNT/ß-catenin/cyclinD1 pathway activation (Fig. 3d, Supplemen-         markers from the Human Primary Cell Atlas (HPCA) as reference
+tary Fig. 6).                                                              (Fig. 4b)25. We conﬁdently distinguished 30,518 neoplastic and 12,847
+     Tumors in MPNST-G1 overexpressed genes involved in SHH sig-           non-neoplastic cells. The transcriptional proﬁle and copy-number
+naling, such as SMO, GLI2, GLI3, CCNE1 and TGFB2 (Fig. 3e, Supple-         proﬁles of neoplastic cell from each sample did not show substantial
+mentary Data 3). In keeping with these results, we also observed a         variability between cells (Fig. 4d, Supplementary Fig. 9). When we
+lower expression of PTCH1 in MPNST-G1 (Fig. 3e). The pattern of CpG        stratiﬁed based on tumor subtypes (Fig. 4c), MPNST-G2 (46.35%) and
+island promoter methylation in MPNST-G1 prompted us to investigate         atypical neuroﬁbromas (G3) (51.2%) had a statistically signiﬁcant
+which genes were potentially silenced by methylation (Supplementary        greater representation of immune cell populations compared to
+Fig. 7). As indicated above, there was a statistically signiﬁcant PTCH1    MPNST-G1 (10.6%; Supplementary Fig. 10–12a, b). The largest groups
+
+
+Nature Communications | (2023)14:2696                                                                                                            5
+Article                                                                                                         https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 3 | MPNST-G1 and MPNST-G2 demonstrate distinct transcriptome proﬁles          representative group of SHH and WNT pathway genes (n = 49 samples). Show the
+with signiﬁcant differences in critical oncogenic regulators. a PCA of the whole   median, ﬁrst and third quartiles (boxes), and the whiskers encompass the 1.5X the
+transcriptome demonstrating neuroﬁbromas segregated from MPNSTs on PC1.            interquartile range. *p < 0.05, **p < 0.005, ***p < 0.0005 (FDR corrected p-value).
+MPNST-G1 and MPNST-G2 resolve into two groups on PC2. b Heatmap of the dif-        f Correlation of PTCH1 promoter hypermethylation (cg01512589 and cg26878949)
+ferentially expressed genes between the methylation subgroups (logFC > 1, FDR      with gene expression (n = 49 samples). Data are presented as mean values +/− SEM.
+corrected p-value < 0.05). c Top 10 upregulated pathways in MPNST-G1 (red) and     Pearson’s correlation coefﬁcient (r = −0.5129) and two tailed P values (P = 0.0002).
+MPNST-G2 (blue) subgroups. d GSEA enrichment plots for the SHH and WNT             Source data provided as source data ﬁle.
+pathways in MPNST-G1 and MPNST-G2. e Gene expression by RNA-seq of
+
+
+
+
+Nature Communications | (2023)14:2696                                                                                                                                6
+Article                                                                                                           https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 4 | Single-nuclear RNA sequencing highlights the complex tumor micro-            the expression proﬁles of single nuclei (random sample of 10,000 cells) from all 6
+environment and neural crest lineage developmental hierarchy in progressing           tumors. e t-SNE plots overlaid with correlation scores to bulk RNA signatures for
+peripheral nerve sheath tumors. t-distributed stochastic neighbor embedding (t-       MPNST-G1, MPNST-G2 and premalignant_NF-G3. f t-SNE plots overlaid with
+SNE) representation of the snRNA-seq dataset. Colors represent (a) sample, (b) cell   expression of markers for Schwann cells, Schwann-cell precursor and neural
+type and (c) methylation-based tumor subgroup. d Pairwise correlations between        crest cells.
+
+
+
+
+Nature Communications | (2023)14:2696                                                                                                                                 7
+Article                                                                                                https://doi.org/10.1038/s41467-023-38432-6
+
+
+of immune cells in MPNST-G2 classiﬁed as macrophages (29.2%) and              (Fig. 5c). Furthermore, PTCH1-knockout resulted in statistically
+T-cells (15.4%). We further validated the difference in immune cell           signiﬁcant increase in cellular proliferation, anchorage indepen-
+composition by using computational cell fraction deconvolution                dent growth and migration (Fig. 5b, g, h). To further validate these
+techniques on our bulk methylation and RNA transcriptional data from          ﬁndings, we also knocked out PTCH1 in an immortalized neuroﬁ-
+our full cohort (Supplementary Fig. 12c–e). Similarly, we observed            broma cell line (ipNF06.2A)30. Again, PTCH1-knockout in ipNF06.2A
+signiﬁcantly higher immune cell inﬁltration in premalignant neuroﬁ-           cells induced activation of the SHH pathway and a signiﬁcant
+broma subgroup (G3) compared to all other neuroﬁbromas. Our data              increase in cellular proliferation and migration (Fig. 5d–f,i). We next
+demonstrate that MPNST-G1 are predominantly neoplastic cells while            tested PTCH1-knockout cells in vivo by injection into the ﬂanks of
+immune cells constitute up to half of MPNST-G2 tumors.                        immunodeﬁcient mice. In 75% of mice HSC1λ-gPTCH1 formed
+                                                                              tumors in the ﬂank, compared to 0% of mice injected with control
+Single nuclear RNA sequencing demonstrates a neural crest cell                parental HSC1λ-gGFP cells. Since NF1 is frequently co-deleted in the
+like signature in MPNST-G1                                                    spectrum of PNSTs, we also engineered cells to knock out both NF1
+We next analyzed the single cell data to better understand differences        and PTCH, creating HSC1λ NF1−/−; gPTCH1 cells. These cells grew as
+between the neoplastic cells of MPNST-G1 and MPNST-G2. First, we              xenograft tumors in all mice (100%), while the NF1−/− HSC1λ cells
+correlated the snRNA seq data of neoplastic cells of MPNST-G1 and             (with PTCH1 intact) formed tumors in only 50% of mice (Supple-
+MPNST-G2 with the bulk transcriptome signatures of all PNSTs (Fig. 4e,        mentary Fig. 14). These results validate that SHH pathway induces
+Supplementary Fig. 13a). The neoplastic cells from MPNST-G1 samples           malignant phenotype in vitro and in vivo.
+(M3048, M803 and M2372) had high correlation with MPNST-G1 bulk                    We next characterized a panel of established human MPNST
+transcriptome signature and low correlation with MPNST-G2 bulk                cell lines (S462-TY, T265, S462, and STS-26T) with respect to the
+transcriptome signature. Similarly, neoplastic cells from MPNST-G2            status of activation of SHH and WNT pathway. We identiﬁed sig-
+samples (M1933 and M1677) had high correlation with MPNST-G2 bulk             niﬁcantly elevated levels of GLI1, GLI2, and SMO in 3 of 4 MPNST cell
+transcriptome signature and low correlation with MPNST-G1 sig-                lines (S462, S462TY, and T265) that interestingly also have PRC2
+natures. Furthermore, tumoral cells in MPNST-G1 cells overexpressed           alterations (Fig. 5j). Similarly, STS-26T with WT PRC2 complex
+SMO, while MPNST-G2 overexpressed PTCH1 and WNT11 (Supple-                    demonstrated signiﬁcantly higher levels of CCND1 expression
+mentary Fig. 13b–d). The results further conﬁrmed that at a cellular          (Supplementary Fig. 15a). To conﬁrm that the MPNST cell lines were
+level MPNST-G1 and MPNST-G2 tumoral cells are distinct from each              consistent with our established MPNST subgroups, we assessed the
+other. In addition, we inferred the neuroﬁbroma cell composition in           methylation proﬁles. As expected, cell lines S462, S462TY and T265
+our full bulk RNA seq cohort, and found that MPNST-G1 tumors did not          clustered with MPSNT-G1 tumors, while STS-26T clustered with
+have neuroﬁbroma cells within the tumor (Supplementary Fig. 13e).             MPNST-G2 tumors (Supplementary Fig. 15b). These results validate
+Second, to understand the cell of origin, we assessed the expression of       our tumor-based genomic analysis. Given that our genomic data
+Schwann cell lineage markers in neoplastic cells. Neuroﬁbroma tumor           identiﬁed the upregulation of the SHH pathway to be a driver of
+nuclei remain most similar to Schwann cells, with expression of mar-          MPNST-G1 tumors and our transcriptomic network analysis identi-
+kers such as S100B, PMP2, MPZ and ERBB3 (Fig. 4f, Supplementary               ﬁed SMO inhibitors as a potential drug candidate, we hypothesized
+Fig. 14, Supplementary Table 7). In contrast, majority of MPNST neo-          that sonidegib (SMO inhibitor) could provide a therapeutic beneﬁt
+plastic cells had lost these Schwann cell markers, suggesting that these      to MPNST lines with SHH pathway activation while not impacting
+cells have dedifferentiated into a more primitive cell state. Intriguingly,   the other cell line. To test this hypothesis, we treated S462TY
+we observed overexpression of factors known to play canonical roles           (MPNST-G1; SHH activated) and STS-26T (MPNST-G2; WNT acti-
+in the early neural crest cell speciﬁcation (TWIST1, SOX9, SNAI2, OTX2,       vated) with sonidegib for 48 h at varying doses (Supplementary
+PAX3 and PAX6)26,27 in MPNST-G1 tumor cells. Neural crest cells are           Fig. 16b, c). In vitro treatment of S462TY with sonidegib resulted in a
+multipotent developmental cell population characterized by mole-              twofold lower half-maximal inhibitory concentration (IC50) com-
+cular diversity, which can give rise to Schwann cells, neurons, mela-         pared to STS-26T (Fig. 5k). To validate this ﬁnding in vivo, we
+nocytes, smooth muscles, cartilage and bone28. MPNST-G2 neoplastic            injected S46TY and STS-26T cells into the ﬂank of NOD-SCID mice
+cells resembled more of a Schwann-cell precursor-like cell phenotype          and treated with sonidegib (20 mg/kg/day) until end point (tumor
+by overexpressing GAP43, PLP1 and NGFR, with an absence of Schwann            size >1.5 cm). S462TY xenografts treated with sonidegib survived
+cell markers (S100B, PMP2, ERBB3, MPZ)29. Finally, we performed tra-          statistically signiﬁcantly longer than xenografts treated with vehicle
+jectory analysis on the tumoral cells and demonstrated a pseudo-              (median survival 78 vs 45 days, log-rank test, p = 0.03, Fig. 5l). In
+temporal continuum from atypical neuroﬁbroma (Schwann cell)                   contrast, STS-26T xenografts treated with sonidegib did not have
+to MPNST-G2 (Schwann cell precursor cell) to MPNST-G1 (neural                 improved survival consistent with the lack of SHH pathway activa-
+crest cell), which further supports that these tumors fall along              tion in this cell line. These results lend additional validation of the
+the developmental trajectories of neural crest lineage (Supplementary         genomic/epigenomic ﬁndings, as well as provide the preclinical
+Fig. 12e, f).                                                                 evidence to support clinical trials using SMO inhibitor in MPNST-G1
+                                                                              subgroup.
+SHH pathway activation drives malignant transformation and
+provides an effective therapeutic target                                      Discussion
+The accumulation of methylation, mutational and transcriptomic                There is a considerable unmet need to identify clinically relevant
+data have all supported that there are two distinct MPNST sub-                and actionable therapeutic targets for MPNSTS, as present treat-
+groups formed through two distinct pathways; SHH and WNT. In                  ment options ar limited. Furthermore, identifying predictive mar-
+MPNST-G1, multiple biological mechanisms appear to converge on                kers of malignant transformation would be most impactful to care
+the SHH pathway playing a central role in malignant progression.              of patients with sporadic or NF-1 associated PNSTs. Our in depth
+We therefore hypothesized that SHH activation in immortalized                 comprehensive integrative genomic and epigenomic analysis of the
+human Schwann cells (HSC1λ) may be sufﬁcient to induce trans-                 spectrum of PNSTs identiﬁes two molecularly distinct pathways that
+formation and aggressive phenotype. To activate the SHH pathway,              can drive the growth and progression of MPNSTs: MPNST-G1 and
+we generated PTCH1-knockout HSC1λ (HSC1λ-gPTCH1) cell lines                   MPNST-G2, each have a distinct outcome with MPNST-G2 demon-
+(Fig. 5a). The loss of PTCH1 resulted in increased expression of SMO,         strating more than double the RFS compared MPNSTs-G1. Our study
+GLI1 and GLI2 in the HSC1λ cell lines, which are SHH pathway genes            highlights the importance of future studies with larger cohorts of
+
+
+Nature Communications | (2023)14:2696                                                                                                              8
+Article                                                                                                           https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 5 | SHH pathway is important for malignant transformation in a subset of        λ cell lines. Error bars, s.e.m; n = 8 biologically independent experiments.
+MPNSTs and a therapeutic target. a Capillary-based immunoassay (WES) con-            h Representative images and quantitative colony formation in HSC1-λ cell lines.
+ﬁrming knockout of PTCH1 and subsequent increased GLI1 activity in HSC1-λ cells.     Error bars, s.e.m; n = 8 biologically independent experiments. i Representative
+b Trypan blue counts of parental HSC1-λ and PTCH1-knockout clone. Error bars,        images and quantitative colony formation in ipNF06.2A cells. Error bars, s.e.m; n = 3
+s.e.m.; n = 3 biologically independent experiments. c PTCH1-knockout in HSC1-λ       biologically independent experiments. j 4 MPNST cells lines were screened for SHH
+cell lines leads to upregulation of SHH pathway (GLI1, GLI2 and SMO). Error bars,    pathway activation. Error bars, s.e.m; n = 3 biologically independent experiments.
+s.e.m.; n = 3 biologically independent experiments. d Protein blot conﬁrming         k IC50 curves of S462TY and STS-26T cells treated with sonidegib. Error bars, s.e.m;
+knockout of PTCH1 in ipNF06.2A cells. e Trypan blue counts of a parental             n = 3 biologically independent experiments. l Survival curves of mouse xenografts
+ipNF06.2A cells and PTCH1-knockout clone. Error bars, s.e.m; n = 3 biologically      of S462TY and STS-26T treated with sonidegib at a dose of 20 mg/kg/day or vehicle
+independent experiments. f PTCH1-knockout in ipNF06.2A leads to upregulation of      starting day 14. Median survival for S462TY-Sonidegib vs S462TY-Vehicle (78 vs
+SHH pathway (GLI1, GLI2 and SMO). Error bars, s.e.m; n = 3 biologically indepen-     45 days, log-rank test, p = 0.03). Source data provided as source data ﬁle.
+dent experiments. g Representative images and quantitative cell migration in HSC1-
+
+
+
+
+tumors to better understand the molecular alterations that drive                          Data from this study support that epigenetic dysregulation is a
+malignant transformation and the clinical signiﬁcance of the two                     deﬁning feature of MPNSTs. Although MPNSTs harbor very few
+MPNST subgroups. Most importantly the two distinct subgroups                         recurrent somatic genetic events, many of the recurrent genetic events
+can unmask molecular rationale to explore therapeutic vulner-                        converge on genes important in post-translational modiﬁcation of
+abilities in clinical trials (Fig. 6).                                               histones, speciﬁcally H3K27me3. Alterations in the PRC2 components,
+
+
+Nature Communications | (2023)14:2696                                                                                                                                   9
+Article                                                                                                      https://doi.org/10.1038/s41467-023-38432-6
+
+
+
+
+Fig. 6 | Synopsis of PNST subgroups. Overview of the PNST molecular subgroups     schematic representation that summarizes the major molecular ﬁndings and con-
+and their demographic, genetic and epigenetic characteristics. a Summary of the   clusions of our study. Created with Biorender.com.
+demographic data and the available molecular datasets for cohort of PNSTs. b A
+
+
+
+through mutations and gene fusions, are uniquely restricted to                    demonstrates global hypomethylation. The mechanism for MPNST-G2
+MPNST-G1. PRC2 mainly mediates transcriptional repression and has                 hypomethylation needs further future investigation.
+essential roles in maintenance of cell identity and differentiation. In                Notably, we found that SMO inhibitors are a potential therapeutic
+embryonic stem cells, the loss of PRC2 induces hypermethylation of                option for treatment of SHH-MPNST subgroup of tumors. MPNST-G1
+CpG islands in the promoter regions near key developmental genes31,32.            tumors were enriched for deletions of PTCH1, a negative regulator of
+PRC2 deﬁcient MPNST-G1 demonstrated a CpG island promoter                         the SHH pathway, and gains of SMO, a positive regulator of the SHH
+hypermethylation phenotype. In nerve injury models, epigenetic                    pathway. In addition, we demonstrate promoter hypermethylation of
+reprogramming of a Schwann cell is induced after nerve injury through             PTCH1 and a corresponding repression of gene expression. Dysregu-
+inhibition of PRC2 and subsequent activation of the SHH pathway33.                lation and activation of the SHH signaling cascade is implicated in
+We propose that MPNST-G1 tumors hijack this nerve regeneration                    several cancers, but to date not studied in detail in PNSTs34. Tran-
+machinery through inactivating molecular alterations of MPNST-G1                  scriptome proﬁling further highlighted SHH pathway activation in
+that result in dysregulation of the SHH signaling cascade. In contrast,           MPNST-G1, with computational network analysis-based drug screen
+PRC2 dysregulation is not evident in MPNST-G2 though this subgroup                suggesting the SMO inhibitors are one of the top drug classes for
+
+
+Nature Communications | (2023)14:2696                                                                                                                       10
+Article                                                                                            https://doi.org/10.1038/s41467-023-38432-6
+
+
+treatment of MPNST-G1. Our in-vitro and in-vivo data also demon-           calculating the elapsed time from the date of index surgery to ﬁrst
+strated that SHH pathway activation is sufﬁcient to drive malignant        postoperative imaging documenting tumor recurrence.
+phenotype in Schwann cell and neuroﬁbroma cell lines. Most impor-
+tantly, SMO inhibitors demonstrated efﬁcacy in treating MPNST cell         DNA and RNA processing
+lines that had SHH pathway activation. Taken together, our data pro-       DNA was extracted from fresh-frozen tumor tissue and normal tissue
+vides evidence to support a clinical trial for SMO inhibitors in the       using the DNeasy Blood and Tissue Kit (Qiagen, USA). Total RNA was
+MPNST-G1 subgroup of tumors.                                               isolated from tumor using the RNeasy Mini Kit (Qiagen, USA). DNA and
+      We have demonstrated that the second molecular subgroup of           RNA were quantiﬁed using Nanodrop 1000 instrument (Thermo Sci-
+MPNSTs (MPNST-G2) have signiﬁcant activation of the WNT/ß-                 entiﬁc, USA) and integrity assessed by either agarose gel electro-
+catenin/cyclinD1 pathways. Consistent with our data, a forward             phoresis (DNA) or Agilent 2100 Bioanalyzer (RNA; Agilent, USA) at the
+genetic screen utilizing the Sleeping Beauty (SB) transposon based         Princess Margaret Cancer Genomics Centre (PMGC, Toronto, Canada).
+somatic mutagenesis system identiﬁed many cooperating muta-                DNA (0.5-1μg) was used for bisulﬁte treatment (Zymo Research,
+tions affecting WNT signaling regulators in mice MPNST-like                Irvine, USA).
+tumors35. Similarly, WNT pathway activation induces malignant
+behavior in human Schwann cells and are required for tumor                 Genome-wide DNA methylation analysis
+maintenance in MPNST cells22,36. Our data demonstrates that acti-          Methylation proﬁling was performed on bisulﬁte-treated DNA using
+vation of the WNT pathway through knockout of APC is sufﬁcient to          the Illumina Inﬁnium MethylationEPIC BeadChip array (Illumina, San
+drive malignant transformation in Schwann cell lines. In addition,         Diego, USA) at the PMGC (Toronto, Canada). Generated raw methy-
+we demonstrate that MPNST-G2 harbor signiﬁcantly larger popu-              lation ﬁles were imported and preprocessed with the statistical pro-
+lation of macrophages within the tumor microenvironment, which             gramming language R using the minﬁ package (Bioconductor). Data
+may be a potential therapeutic target. We deﬁnitively show that            was normalized and failed probes with a detection P-value thresh-
+MPNST-G2 tumors are different biologically from MPNST-G1 and               old > 0.01 were removed from further downstream analysis. Further
+have unique set of targetable oncogenic pathways driving tumor-            ﬁltering of the data was performed, as previously described, by
+igenesis and moreover distinct clinical outcomes.                          removing all probes that ﬁt one of these criteria: (1) probes that
+      At a single cell level, the tumor cells in each tumor demonstrated   overlapped with known single nucleotide polymorphisms, (2) probes
+high correlation with the bulk transcriptomic signatures of their          located on X and Y chromosomes, or (3) cross-reactive probes.
+respective MPNST subgroup. Most interestingly, the malignant cells         Unsupervised consensus hierarchical clustering was performed with
+from MPNST-G1 and MPNST-G2 resembled various stages of the                 ConsensusClusterPlus package (Bioconductor) on beta values using
+Schwann cell lineage. MPNST-G1 tumor cells resemble a neural crest         Euclidean distance and Ward’s linkage method with 1000 resampling
+cell-like state, while MPNST-G2 tumors resembled a Schwann cell            steps (epsilon = 0.8). We selected the top 20,000 probes that showed
+precursor-like state, which is an intermediate cell type between neural    the highest median absolute deviation (MAD) across the ß-values for
+crest cells and Schwann cells. Hedgehog signaling is essential for the     clustering. The unscaled methylation levels were shown in a heatmap
+survival of neural crest cells, and blocking this cascade has shown to     from unmethylated state (purple color) to methylated state (red
+decrease cell proliferation and induce apoptosis37–39. Collectively, the   color). Differentially methylated probes were identiﬁed using limma
+data strongly supports the existence of two distinct cells of origin for   based modeling approach (Bioconductor) for the methylation sub-
+the subtypes of MPNST.                                                     classes. Absolute mean β-value difference > 0.1 and adjusted p-value
+      In conclusion, integrated multi-platform genomic and epige-          (FDR-corrected) < 0.05 were considered to be signiﬁcant.
+nomic analysis shows that there are two distinct molecular subgroups
+of MPNSTs: MPNST-G1 and MPNST-G2 that can inform on predictive             Whole exome sequencing
+biomarkers for prognosis, leverage therapeutic vulnerabilities and         Whole-exome sequencing of 54 PNSTs and 20 matched blood samples
+drivers of malignant transformation. We found distinct mechanisms          was performed by The Centre for Applied Genomics (TCAG, Toronto).
+that drive MPNST formation and have shown through in vitro and             Genomic DNA libraries were prepared using Agilent SureSelect Human
+in vivo preclinical models that targeting these oncogenic programs can     Exome Library Preparation V5 kit with the Agilent Bravo Automation
+be leveraged towards therapeutic options.                                  System and paired end sequencing on a HiSeq 2500 platform to a
+                                                                           median of 60X. In brief, read pairs were aligned to the hg19 reference
+Methods                                                                    genome using BWA-MEM v 0.7.1240 with default parameters. PCR
+Patient samples and clinical annotation                                    duplicate marking, indel realignment and base quality score recali-
+Tumor samples and peripheral blood of patients were collected from         bration were performed using Picard v1.72 and GATK v3.6.041. We
+the University Health Network Brain Tumor Bank (Toronto) and the           obtained germline variant calls by joint genotyping and variant quality
+Mount Sinai Hospital Sarcoma Tumor Bank (Toronto, Canada) under            score recalibration on 20 peripheral blood controls, in adherence to
+institutional review board (IRB)-approved protocols with patient           the GATK Best Practices framework42. Data quality assessment was
+informed consent. Samples were collected fresh from the patients at        performed using Picard tool CalculateHSMetrics. We identiﬁed
+the time of surgical resection and stored at −80 °C. Additional samples    somatic mutations using Mutect V1.1.643 and Strelka v1.0.1344 for 20
+were obtained from the Children’s Tumor Foundation (CTF, New York,         tumors with matched peripheral blood controls and Mutect2 V1.143 for
+USA). In summary, we used 108 samples in this study (19 MPNSTs, 22         35 unmatched tumor samples. Variants with allele fractions <10% were
+premalignant neuroﬁbromas, 34 plexiform neuroﬁbromas and 33                removed to control for potential sequencing artifacts. Since we lacked
+cutaneous neuroﬁbromas). Pathologic diagnosis was conﬁrmed by at           normal control for a subset of samples, putative somatic variants were
+least two experienced pathologists using diagnostic formalin-ﬁxed and      retained by ﬁltering likely germline variants with GnomAD45 popula-
+parafﬁn-embedded blocks to conﬁrm diagnosis of peripheral nerve            tion frequency >0.01% (r2.0.1). TGL frequency database of variants of
+sheath tumors and to subtype tumors according to recognized histo-         <1% were retained to ﬁlter out initial passenger events. We annotated
+pathological classiﬁcations. Given the tendency for local recurrence       variants using Variant Effect Predictor v.92.046, OncoKB Precision
+and distant metastasis in MPNSTs, PFS was used as the primary out-         Oncology Knowledge Base47, CancerHotspots.org48 and dbNSFP
+come of interest in this study. PFS was deﬁned as local tumor growth       database49. Tumor mutational burden is calculated as the fraction of
+after gross total resection, tumor progression following subtotal          total number of nonsynonymous (protein altering) somatic mutations
+resection, or distant metastasis. Time to recurrence was determined by     across the whole exome capture space in Mb.
+
+
+Nature Communications | (2023)14:2696                                                                                                           11
+Article                                                                                             https://doi.org/10.1038/s41467-023-38432-6
+
+
+RNA sequencing and analysis                                               The raw gene expression matrix was normalized, and variance stabi-
+The isolated RNA was processed using the Illumina TruSeq Stranded         lized by SCTransform in Suerat version 3.0 using UMI count and per-
+Total RNA kit with Ribo-Zero Gold Prep kit according to manu-             cent reads aligned to mitochondrial transcripts as covariates (Stuart
+facturer’s protocol. Libraries were sequenced on the Illumina Next-       et al. 2018). Principal component analysis was performed using highly
+Seq500 platform with 75-cycle paired-end protocol to obtain               variable genes (FDR < 0.001) identiﬁed by scran and the number of
+minimum 40 million reads. Sequence data was processed and aligned         signiﬁcant principal components (PC,10) were determined based on
+to human reference genome (hg38) using STAR aligner (v.2.6.0)50.          the inﬂection point of the “scree” plot. Principle components were
+Next, duplicate reads were removed. Reads were sorted using Sam-          corrected for batch effect using Harmony (v.01)59. The ﬁrst 10 PC
+Tools (v.1.3)51. Gene expression in raw counts for each sample was        spaces were used to build a shared-nearest-neighbor graph. Clusters
+calculated by the algorithm “featureCounts” in the package Rsubread       were identiﬁed by optimizing the modularity function within its space
+(v.1.5.0). Data was normalized by counts-per-million (CPM) and then       with a resolution set to 0.1 and clustering results were visualized using
+subjected to trimmed means of M (TMM) using edgeR52 (v.3.22.3). CPM       t-SNE of the selected principal components.
+cutoff values were determined empirically by identifying the minimum
+value required to achieve the best normalization across samples. Dif-     scRNA-seq pseudotime analysis
+ferentially expressed genes (DEG) was determined using Quasi-             Pseudotime analysis was performed as previously described60 using
+likelihood F-test in EdgeR52. Pathway analysis was performed on the       Monocle261. Brieﬂy, raw UMI counts from the cleaned and processed
+DEG from the indicated pairwise analysis using Gene Set Enrichment        Seurat objects was used to generate CellDataSet objects by normal-
+Analysis (GSEA) package (Broad Institute).                                izing the data using a negative binomial distribution with ﬁxed var-
+                                                                          iance. The CellDataSet object was processed to estimate sequencing
+Computational FDA drug mapping                                            depth (estimateSizeFactors), gene dispersions (estimateDispersions)
+In order to discover potential therapeutic agents, we used the            and per-cell coverage. The data was further ﬁltered to keep high-
+Enrichment Map App in Cytoscape to perform post-analysis with FDA         quality cells with >500 genes. In addition, genes were ﬁltered to retain
+approved drug targets. A scoring system was formulated to ﬁrst select     genes present in greater than 10 cells. The DDRTree algorithm inclu-
+drugs by the number of target genes in the leading edge of signiﬁcant     ded with Monocle2 was used to reduce the dataset two dimensions
+GSEA pathways for indicated comparison. Then each drug was ranked         and the marker genes that differentiated the clusters were used to
+by the number of pathways targeted. Finally, the number of signiﬁcant     guide the trajectory inference. Relative pseudotime was generated
+genes targeted were divided by the total number of target genes of the    through a linear transformation relative to the cells with the lowest and
+drug to assess the speciﬁcity. This scoring system selected the drugs     highest pseudotimes.
+targeting the greatest number of driving genes in signiﬁcant biological
+pathways with high speciﬁcity. The resulting list of drugs were           Cell type classiﬁcation
+grouped by common targets to produce a high-level summary of the          Cells were assigned to different cell types based on a consensus of (1)
+class of drugs with the highest possibility of effective treatment.       similarity of expression proﬁles, (2) copy number proﬁles and (3)
+                                                                          expression of canonical markers. First, unsupervised hierarchical
+Fusion calls                                                              Pearson clustering with Ward linkages on the matrix of correlation was
+Fusion genes for cohort of PNSTs were identiﬁed using FusionCatcher       performed to correlate the expression proﬁle of each cell to every
+v1.1.053,54 with default parameters, which aligns reads to the human      other cell. Two major clusters of putative neoplastic and non-
+reference genome (GRCh38) using Bowtie55 (v1.2), Bowtie256 (v2.3),        neoplastic cells were identiﬁed. Second, CNAs of neoplastic and non-
+Star57 (v2.7) and BLAT58 (v0.35). Adjacent and read-through fusions       neoplastic cells were inferred from the snRNA-seq data using inferCNV
+were ﬁltered out from analyses. To reduce false positive detection of     (v.1.1.1)62. After the genes were ordered according to the human
+genes with similar sequence homology, gene fusions with Count-            GRCh38 assembly, a heatmap illustrating relative expression inten-
+s_of_common_mapping_reads = 0 were selected.                              sities of neoplastic nuclei to reference population across the genome
+                                                                          was generated for visualization. Almost all neoplastic clusters har-
+Droplet-based single nuclear RNA sequencing and analysis                  bored multiple CNAs throughout the genome, while the non-
+Flash frozen archived tumor specimens were minced with sterile            neoplastic cells were generally lacking CNAs. Finally, FindAllMarkers
+scalpel and mechanically dissociated with a dounce tissue grinder (size   in Seurat was used to identify differentially expressed genes in each
+A and B, Sigma Aldrich) in ice cold lysis buffer (0.32 M sucrose, 5 mM    cluster, which were then inspected for canonical immune and stromal
+CaCl2, 3 mM MgAc2, 0.1 mM EDTA, 20 mM Tris-HCl, 40U/ml RNase              cell markers.
+inhibitor and 0.1% Triton X-100 in DEPC-treated water). Homogenized
+tissues was centrifuged at 800 × g for 10 min at 4 °C and resuspended     Cell viability assay
+in 1 m of wash buffer (1× PBS, 1% BSA and 0.2 U/μl RNase Inhibitor).      Immortalized human Schwann cell (HSC1λ) and immortalized neuro-
+Nuclei were ﬁltered twice in 40 μm strainers (Flowmi cell strainer,       ﬁbroma cell (ipNF06.2A30) were obtained from Dr. Margaret Wallace’s
+Sigma Aldrich). Isolated nuclei were stained with DAPI at concentra-      laboratory at the University of Florida. MPNST cell lines (STS-26T63,
+tions suggested by the manufacturer and sorted by FACS (BD Inﬂux          S46264, S462TY, T26565) were obtained from Dr. David Largaespada’s
+BRV, Becton Dickinson Biosciences). Nuclei were collected, washed         laboratory at the University of Minnesota. All cell lines were cultured
+and resuspended in wash buffer. Nuclei were counted and appropriate       with Dulbecco’s modiﬁed Eagle’s medium (DMEM, Wisent Technolo-
+volume for each sample was calculated for a target capture of 6000        gies) supplemented with 10% fetal bovine serum (FBS, Wisent Tech-
+nuclei. Samples were loaded onto a 10× Chromium controller using the      nologies) and 1% penicillin/streptomycin. Cells were grown at 37 °C
+Chromium Single Cell 3’ Library & Gel Bead Kit v3 (10× Genomics).         and 5% CO2. For direct cell counting, 1 × 105 cells were plated in tripli-
+After droplet generation, Libraries were sequenced on an Illumina         cates into 6 well plates in 2 ml of medium. After incubation times (days
+NovaSeq (10x speciﬁc protocol) with >50, 000 reads per cell.              1–5), cells were collected and analyzed for cell count and cell viability.
+     CellRanger (10× Genomics) analysis pipeline was used for library     Cells were directly counted using Trypan blue and the Beckman
+demultiplexing, read alignment to human genome GRCh38 and UMI             Coulter Vi-CELL (12-sample carousel) Cell Viability Analyzer (Beckman
+quantiﬁcation per gene per cell. High-quality cells with >1500 unique     Coulter). IC50 assays were performed in 96 wells by seeding 5000 cells
+genes detected and <1.5% reads attributed to mitochondrial transcripts    in triplicate overnight. Cells were treated with sonidegib (NVP-LDE225,
+were retained. Genes detected in less than three cells were removed.      Selleck Chemicals) the following day with increasing drug
+
+
+Nature Communications | (2023)14:2696                                                                                                            12
+Article                                                                                            https://doi.org/10.1038/s41467-023-38432-6
+
+
+concentrations and read by CellTitre-Glo luminescent cell viability       mounted on slides. The number of migrating cells were observed with
+assay in accordance with the manufacturer’s instructions (Promega,        brightﬁeld microscope, and manually counted.
+G7570) on a 96-well plate reader (GloMax-96 microplate luminometer;
+Promega).                                                                 Xenograft models
+                                                                          All animal procedures were carried out according to animal use pro-
+CRISPR/Cas9 knockout cell line preparation                                tocols approved by the Institutional Animal Care Committee. Immu-
+Guide RNA oligo sequences were generated using CRISPR-Cas9 Design         nodeﬁcient NOD-Rag1null IL2rgnull mice (The Jackson Laboratory)
+Tool (www.crispr.mit.edu/). The guide RNA sequences chosen had the        received approximately 3 million cells via subcutaneous ﬂank injec-
+least number of potential off-target sites predicted by the CRISPR-Cas9   tion. Cells were in media and Matrigel in a 1:1 ratio. Mice were injected
+Design Tool. To generate CRISPR/Cas9-modiﬁed ipNF06.2A cell lines,        with HSC1λ gGFP (n = 4), HSC1λ gPTCH1 (n = 4), HSC1λ NF1−/− gPTCH1
+sequences were subcloned into pX330: gGFP;5’-GGATACTTCT                   (n = 4), HSC1λ NF1−/− (n = 12), HSC1λ gGFP (n = 4), HSC1λ gAPC (n = 4).
+TCGAACGTTT, gPTCH1;5’-TGCTTTTAATCCCACCGCGA. Cells were co-                Mice were monitored daily. Mice were sacriﬁced 4 months post-
+transfected with one pX330 construct and pRNAT-H1.3 (Hygro) con-          injection and tumors were harvested. For the sonidegib drug treat-
+trol plasmid expressing GFP and hygromycin resistance genes.              ment, non-obese diabetic severe combined immune deﬁciency spon-
+ipNF06.2A-gPTCH1 and ipNF06.2A-gCTRL cells were selected with             taneous male mice (NOD-SCID-Prkdcscid) received 5 × 106 cells via
+hygromycin and monoclonal lines were screened. CRISPR/Cas9-mod-           subcutaneous ﬂank injection. Mice were randomly selected to receive
+iﬁed HSC1λ cell lines were generated using lentiviral transduction of     S462TY (10 mice) or STS-26T cells (10 mice). Cells were in a 1:1 media
+Cas9 and a guide RNA: gGFP; 5’- CACCGAGCTGGACGGCGACGTAAAG,                and Matrigel suspension. On day 14, mice were treated with sonidegib
+gPTCH1;5’- GCCTATGGCGCGGCAGACCACCCAC, gAPC;5’CACCGAAC                     (Sellekchem) dissolved in vehicle (PEG 400/5% dextrose in water), at a
+AGCATCGAGCCAACCTCACCGCCGAGCAGCGGCTAGGCTTCCACCGA                           dose of 20 mg/kg/day, or with vehicle alone. Mice were monitored
+AGCCTAGCCGCTGCTCGGCACCGCCGGAAGCCTAGCCGCTGCT. Len-                         daily, and tumor size was measured with calipers. Mice were sacriﬁced
+tiviral particles were produced in 293T cells with viral packaging        when they reached end point (tumor size >1.5 cm in any one
+plasmids. After 24 h, the viral supernatant was collected and added to    dimension).
+adherent HSC1λ cells, supplemented with 6 μg/ml polybrene. After
+lentiviral transduction, cells with the correct construct were selected   Reporting summary
+with 2 μg/ml puromycin. Genotype was conﬁrmed with PCR and                Further information on research design is available in the Nature
+sequencing. These cells were grown in media with puromycin sup-           Portfolio Reporting Summary linked to this article.
+plemented through all downstream applications.
+                                                                          Data availability
+Western blot                                                              Raw sequencing data for all datatypes have been deposited into public
+Traditional western blots were performed using standard protocols.        repositories and publicly available. Methylation (idat) datasets has
+Primary antibodies for B-Actin(1:1000, Cat #8457S, Cell Signaling         been deposited to GSE207207 [https://www.ncbi.nlm.nih.gov/
+Technologies), Vinculin(1:30000, Cat #V9264, Sigma Aldrich),              bioproject/PRJNA854154], bulk RNA (fastq) datasets has been depos-
+PTCH1(1:500,Cat#MAB41051, R&D systems) and APC(1:500, Cat                 ited to GSE207399 [https://www.ncbi.nlm.nih.gov/bioproject/
+#15270, Abcam) were used. Knock out HSC1λ cell line genotypes were        PRJNA855245], snRNA(fastq) has been deposited to GSE207400
+conﬁrmed with capillary electrophoresis-western blot using a WES          [https://www.ncbi.nlm.nih.gov/bioproject/PRJNA855244], and WES
+capillary electrophoresis device (ProteinSimple, San Jose, CA, USA)       datasets has been deposited to PRJNA854920. Source data are pro-
+according to the manufacturer’s instructions. Primary antibodies          vided as Source Data ﬁle.
+against B-Actin (Cell Signaling Technologies #8457S, 1:10), PTCH1 (Cell
+Signaling Technologies #2468, 1:10), GLI1 (Cell Signaling Technologies    Code availability
+#3538, 1:10).                                                             No special code was used in this study, and code for all ﬁgures in the
+                                                                          study are available for research purposes from the corresponding
+Anchorage independent growth assay                                        authors on request.
+6-well plates (Corning) were prepared with bottom agar (3.2%) and top
+agar (0.48%) composed of low melting point agarose in DMEM full           References
+media. The bottom agar was allowed to solidify before 10,000 cells in     1.   Kolberg, M. et al. Survival meta-analyses for >1800 malignant per-
+top agar were plated and allowed to solidify. DMEM media supple-               ipheral nerve sheath tumor patients with and without neuroﬁ-
+mented with 10% FBS and 2 ug/ml puromycin was plated over the cells            bromatosis type 1. Neuro Oncol. 15, 135–147 (2013).
+in the 6-well plates and incubated under standard conditions. After       2.   Gutmann, D. H. et al. Neuroﬁbromatosis type 1. Nat. Rev. Dis. Prim.
+14 days, top media were removed, and cells were ﬁxed in 10% formalin           3, 17004 (2017).
+(Fisher Scientiﬁc) containing 0.0005% crystal violet (Sigma) for 1 h at   3.   Hirbe, A. C. & Gutmann, D. H. Neuroﬁbromatosis type 1: a multi-
+room temperature. Colonies were imaged on Leica S8 AP0 microscope              disciplinary approach to care. Lancet Neurol. 13, 834–843 (2014).
+with 12 images per cell line. Automated colony counts were done using     4.   Pemov, A. et al. Low mutation burden and frequent loss of CDKN2A/
+ImageJ software66 using TKS Batch Count Colonies macro (courtesy of            B and SMARCA2, but not PRC2, deﬁne pre-malignant neuroﬁ-
+StarrLab). Results shown are a representative example of at least 3            bromatosis type 1-associated atypical neuroﬁbromas. Neuro Oncol.
+independent experiments.                                                       https://doi.org/10.1093/neuonc/noz028 (2019).
+                                                                          5.   Miettinen, M. M. et al. Histopathologic evaluation of atypical neu-
+Transwell migration assay                                                      roﬁbromatous tumors and their transformation into malignant
+Cell migration assays were performed using Transwell inserts with              peripheral nerve sheath tumor in patients with neuroﬁbromatosis
+8 μm pore size polycarbonate membranes (Corning). Brieﬂy, cells were           1-a consensus overview. Hum. Pathol. 67, 1–10 (2017).
+resuspended in serum free media and 1000 cells were seeded into           6.   Uusitalo, E. et al. Distinctive cancer associations in patients with
+inserts. The lower chamber for each well was set up with 500 μl of             neuroﬁbromatosis type 1. J. Clin. Oncol. 34, 1978–1986 (2016).
+media supplemented with 10% FBS as a chemoattractant. After 24 h,         7.   Lee, W. et al. PRC2 is recurrently inactivated through EED or SUZ12
+the cells on upper membrane surface were removed mechanically. The             loss in malignant peripheral nerve sheath tumors. Nat. Genet. 46,
+membranes were then ﬁxed with 0.1% crystal violet for 15 min and then          1227–1232 (2014).
+
+
+Nature Communications | (2023)14:2696                                                                                                           13
+Article                                                                                                 https://doi.org/10.1038/s41467-023-38432-6
+
+
+8.  De Raedt, T. et al. PRC2 loss ampliﬁes Ras-driven transcription and       30. Li, H., Chang, L.-J., Neubauer, D. R., Muir, D. F. & Wallace, M. R.
+    confers sensitivity to BRD4-based therapies. Nature 514,                      Immortalization of human normal and NF1 neuroﬁbroma Schwann
+    247–251 (2014).                                                               cells. Lab. Invest. 96, 1105–1115 (2016).
+9. Zhang, M. et al. Somatic mutations of SUZ12 in malignant peripheral        31. Li, Y. et al. Genome-wide analyses reveal a role of Polycomb in
+    nerve sheath tumors. Nat. Genet. 46, 1170–1172 (2014).                        promoting hypomethylation of DNA methylation valleys. Genome
+10. Hoadley, K. A. et al. Cell-of-origin patterns dominate the molecular          Biol. 19, 18 (2018).
+    classiﬁcation of 10,000 tumors from 33 types of cancer. Cell 173,         32. Gal-Yam, E. N. et al. Frequent switching of Polycomb repressive
+    291–304.e6 (2018).                                                            marks and DNA hypermethylation in the PC3 prostate cancer cell
+11. Bormann, F. et al. Cell-of-origin DNA methylation signatures are              line. PNAS 105, 12979–12984 (2008).
+    maintained during colorectal carcinogenesis. Cell Rep. 23,                33. Ma, K. H., Hung, H. A. & Svaren, J. Epigenomic regulation of
+    3407–3418 (2018).                                                             schwann cell reprogramming in peripheral nerve injury. J. Neurosci.
+12. Le, L. Q., Shipman, T., Burns, D. K. & Parada, L. F. Cell of origin and       36, 9135–9147 (2016).
+    microenvironment contribution for NF1-associated dermal neuroﬁ-           34. Raleigh, D. R. & Reiter, J. F. Misactivation of Hedgehog signaling
+    bromas. Cell Stem Cell 4, 453–463 (2009).                                     causes inherited and sporadic cancers. J. Clin. Invest 129,
+13. Koelsche, C. et al. Sarcoma classiﬁcation by DNA methylation                  465–475 (2019).
+    proﬁling. Nat. Commun. 12, 498 (2021).                                    35. Rahrmann, E. P. et al. Forward genetic screen for malignant per-
+14. Pepinsky, R. B. et al. Long-acting forms of Sonic hedgehog with               ipheral nerve sheath tumor formation identiﬁes new genes and
+    improved pharmacokinetic and pharmacodynamic properties are                   pathways driving tumorigenesis. Nat. Genet. 45, 756–766
+    efﬁcacious in a nerve injury model. J. Pharm. Sci. 91,                        (2013).
+    371–387 (2002).                                                           36. Luscan, A. et al. The activation of the WNT signaling pathway is a
+15. Hovestadt, V. & Zapatka, M. conumee: Enhanced copy-number                     hallmark in neuroﬁbromatosis type 1 tumorigenesis. Clin. Cancer
+    variation analysis using Illumina DNA methylation arrays (Version             Res. 20, 358–371 (2014).
+    1.9.0). Retrieved from http://bioconductor.org/packages/                  37. Ahlgren, S. C. & Bronner-Fraser, M. Inhibition of Sonic hedgehog
+    conumee/.                                                                     signaling in vivo results in craniofacial neural crest cell death. Curr.
+16. Solomon, D. A. et al. Mutational inactivation of PTPRD in glio-               Biol. 9, 1304–1314 (1999).
+    blastoma multiforme and malignant melanoma. Cancer Res. 68,               38. Jeong, J., Mao, J., Tenzen, T., Kottmann, A. H. & McMahon, A. P.
+    10300–10306 (2008).                                                           Hedgehog signaling in the neural crest cells regulates the pat-
+17. Veeriah, S. et al. The tyrosine phosphatase PTPRD is a tumor sup-             terning and growth of facial primordia. Genes Dev. 18,
+    pressor that is frequently inactivated and mutated in glioblastoma            937–951 (2004).
+    and other human cancers. PNAS 106, 9435–9440 (2009).                      39. Washington Smoak, I. et al. Sonic hedgehog is required for cardiac
+18. Huang, X., Qin, F., Meng, Q. & Dong, M. Protein tyrosine phospha-             outﬂow tract and neural crest cell development. Dev. Biol. 283,
+    tase receptor type D (PTPRD)—mediated signaling pathways for the              357–372 (2005).
+    potential treatment of hepatocellular carcinoma: a narrative review.      40. Li, H. & Durbin, R. Fast and accurate short read alignment with
+    Ann. Transl. Med. 8, 1192 (2020).                                             Burrows-Wheeler transform. Bioinformatics 25, 1754–1760 (2009).
+19. Funato, K., Yamazumi, Y., Oda, T. & Akiyama, T. Tyrosine phospha-         41. McKenna, A. et al. The Genome Analysis Toolkit: a MapReduce
+    tase PTPRD suppresses colon cancer cell migration in coordination             framework for analyzing next-generation DNA sequencing data.
+    with CD44. Exp. Therapeutic Med. 2, 457–463 (2011).                           Genome Res. 20, 1297–1303 (2010).
+20. Haapasalo, A. Presenilin/γ-secretase-mediated cleavage regulates          42. Van der Auwera, G. A. et al. From FastQ data to high conﬁdence
+    association of leukocyte-common antigen-related (LAR) receptor                variant calls: the Genome Analysis Toolkit best practices pipeline.
+    tyrosine phosphatase with β-catenin. J. Biol. Chem. 282,                      Curr. Protoc. Bioinforma. 43, 11.10.1–11.10.33 (2013).
+    9063–9072 (2007).                                                         43. Cibulskis, K. et al. Sensitive detection of somatic point mutations in
+21. Zhan, T., Rindtorff, N. & Boutros, M. Wnt signaling in cancer.                impure and heterogeneous cancer samples. Nat. Biotechnol. 31,
+    Oncogene 36, 1461–1473 (2017).                                                213–219 (2013).
+22. Watson, A. L. et al. Canonical Wnt/β-catenin signaling drives human       44. Saunders, C. T. et al. Strelka: accurate somatic small-variant calling
+    schwann cell transformation, progression, and tumor maintenance.              from sequenced tumor-normal sample pairs. Bioinformatics 28,
+    Cancer Disco. 3, 674–689 (2013).                                              1811–1817 (2012).
+23. Pasini, D. et al. JARID2 regulates binding of the Polycomb repressive     45. Lek, M. et al. Analysis of protein-coding genetic variation in 60,706
+    complex 2 to target genes in ES cells. Nature 464, 306–310 (2010).            humans. Nature 536, 285–291 (2016).
+24. Thomas, L., Mautner, V.-F., Cooper, D. N. & Upadhyaya, M. Mole-           46. McLaren, W. et al. The ensembl variant effect predictor. Genome
+    cular heterogeneity in malignant peripheral nerve sheath tumors               Biol. 17, 122 (2016).
+    associated with neuroﬁbromatosis type 1. Hum. Genom. 6,                   47. Chakravarty, D. et al. OncoKB: a precision oncology knowledge
+    18 (2012).                                                                    base. JCO Precis. Oncol. 2017, 1–16 (2017).
+25. Mabbott, N. A., Baillie, J. K., Brown, H., Freeman, T. C. & Hume, D. A.   48. Chang, M. T. et al. Identifying recurrent mutations in cancer reveals
+    An expression atlas of human primary cells: inference of gene                 widespread lineage diversity and mutational speciﬁcity. Nat. Bio-
+    function from coexpression networks. BMC Genom. 14, 632 (2013).               technol. 34, 155–163 (2016).
+26. Williams, R. M. et al. Reconstruction of the global neural crest gene     49. Dong, C. et al. Comparison and integration of deleteriousness
+    regulatory network in vivo. Dev. Cell 51, 255–276.e7 (2019).                  prediction methods for nonsynonymous SNVs in whole exome
+27. Kim, H.-S. et al. Schwann cell precursors from human pluripotent              sequencing studies. Hum. Mol. Genet 24, 2125–2137 (2015).
+    stem cells as a potential therapeutic target for myelin repair. Stem      50. Dobin, A. et al. STAR: ultrafast universal RNA-seq aligner. Bioinfor-
+    Cell Rep. 8, 1714–1726 (2017).                                                matics 29, 15–21 (2013).
+28. Achilleos, A. & Trainor, P. A. Neural crest stem cells: discovery,        51. Li, H. et al. The sequence alignment/map format and SAMtools.
+    properties and potential for therapy. Cell Res. 22, 288–304 (2012).           Bioinformatics 25, 2078–2079 (2009).
+29. Mirsky, R. et al. Novel signals controlling embryonic Schwann cell        52. Robinson, M. D., McCarthy, D. J. & Smyth, G. K. edgeR: a Bio-
+    development, myelination and dedifferentiation. J. Peripheral Nerv.           conductor package for differential expression analysis of digital
+    Syst. 13, 122–135 (2008).                                                     gene expression data. Bioinformatics 26, 139–140 (2010).
+
+
+Nature Communications | (2023)14:2696                                                                                                                  14
+Article                                                                                                      https://doi.org/10.1038/s41467-023-38432-6
+
+
+53. Edgren, H. et al. Identiﬁcation of fusion genes in breast cancer by           Author contributions
+    paired-end RNA-sequencing. Genome Biol. https://doi.org/10.1186/              S.S. and G.Z. conceived and designed the study. S.S., N.I., and F.N.
+    gb-2011-12-1-r6 (2011).                                                       collected all the biomaterials and clinical data. S.S., S.M., M.B., P.H., S.B.,
+54. Nicorici, D. et al. FusionCatcher - a tool for ﬁnding somatic fusion          G.V., O.S., N.I., N.P., T.D., S.K., F.N. and Q.W. carried out laboratory
+    genes in paired-end RNA-sequencing data. bioRxiv https://doi.org/             testing. S.S., Y.M., J.L., V.P., P.R., and B.M. contributed to data processing
+    10.1101/011650 (2014).                                                        and analyze. S.S., F.N., Y.M., T.P., G.B., K.A., D.L. and G.Z. contributed to
+55. Langmead, B., Trapnell, C., Pop, M. & Salzberg, S. L. Bowtie: an              data interpretation. S.S. and G.Z. wrote the ﬁrst draft as well as revisions.
+    ultrafast memory-efﬁcient short read aligner. [http://bowtie.cbcb.            All authors contributed to ﬁnal data interpretation and critical revision of
+    umd.edu/]. Genome biol. https://doi.org/10.1186/gb-2009-10-3-                 the manuscript and approved the ﬁnal version of the manuscript. G.Z.
+    r25 (2009).                                                                   supervised all aspects of the study.
+56. Langmead, B. & Salzberg, S. Bowtie2. Nat. Methods https://doi.org/
+    10.1038/nmeth.1923.Fast (2013).
+57. Kent, W. J. BLAT---The BLAST-like alignment tool. Genome Res.                 Competing interests
+    https://doi.org/10.1101/gr.229202 (2002).                                     The authors declare no competing interests.
+58. Dobin, A. et al. STAR: Ultrafast universal RNA-seq aligner. Bioinfor-
+    matics https://doi.org/10.1093/bioinformatics/bts635 (2013).                  Additional information
+59. Korsunsky, I. et al. Fast, sensitive and accurate integration of single-      Supplementary information The online version contains
+    cell data with Harmony. Nat. Methods 16, 1289–1296 (2019).                    supplementary material available at
+60. Mujal, A. M. Holistic characterization of tumor monocyte-to-                  https://doi.org/10.1038/s41467-023-38432-6.
+    macrophage differentiation integrates distinct immune phenotypes
+    in kidney cancer. Cancer Immunol. Res. 10, 403–419. https://                  Correspondence and requests for materials should be addressed to
+    aacrjournals.org/cancerimmunolres/article/10/4/403/689548                     Gelareh Zadeh.
+    (2022).
+61. Trapnell, C. et al. The dynamics and regulators of cell fate decisions        Peer review information Nature Communications thanks Alexander
+    are revealed by pseudotemporal ordering of single cells. Nat. Bio-            Lazar and the other, anonymous, reviewer(s) for their contribution to the
+    technol. 32, 381–386 (2014).                                                  peer review of this work.
+62. Tickle, T., Tirosh, I., Georgescu, C., Brown, M. & Hass, B. inferCNV of
+    the Trinity CTAT Project (Klarman Cell Observatory, Broad Institute           Reprints and permissions information is available at
+    of MIT and Harvard, Cambridge, MA, USA, 2019).                                http://www.nature.com/reprints
+63. Dahlberg, W. K., Little, J. B., Fletcher, J. A., Suit, H. D. & Okunieff, P.
+    Radiosensitivity in vitro of human soft tissue sarcoma cell lines and         Publisher’s note Springer Nature remains neutral with regard to jur-
+    skin ﬁbroblasts derived from the same patients. Int. J. Radiat. Biol.         isdictional claims in published maps and institutional afﬁliations.
+    63, 191–198 (1993).
+64. Frahm, S. et al. Genetic and phenotypic characterization of tumor             Open Access This article is licensed under a Creative Commons
+    cells derived from malignant peripheral nerve sheath tumors of                Attribution 4.0 International License, which permits use, sharing,
+    neuroﬁbromatosis type 1 patients. Neurobiol. Dis. 16, 85–91 (2004).           adaptation, distribution and reproduction in any medium or format, as
+65. Badache, A., Muja, N. & De Vries, G. H. Expression of Kit in                  long as you give appropriate credit to the original author(s) and the
+    neuroﬁbromin-deﬁcient human Schwann cells: role in Schwann                    source, provide a link to the Creative Commons license, and indicate if
+    cell hyperplasia associated with type 1 neuroﬁbromatosis. Onco-               changes were made. The images or other third party material in this
+    gene 17, 795–800 (1998).                                                      article are included in the article’s Creative Commons license, unless
+66. Schneider, C. A., Rasband, W. S. & Eliceiri, K. W. NIH Image to               indicated otherwise in a credit line to the material. If material is not
+    ImageJ: 25 years of image analysis. Nat. Methods 9, 671–675 (2012).           included in the article’s Creative Commons license and your intended
+                                                                                  use is not permitted by statutory regulation or exceeds the permitted
+Acknowledgements                                                                  use, you will need to obtain permission directly from the copyright
+S.S. is supported by the Canadian Institute of Health Research (CIHR)             holder. To view a copy of this license, visit http://creativecommons.org/
+Banting and Best Doctoral Award. G.Z. is funded by a United States                licenses/by/4.0/.
+Department of Defense (DOD) Neuroﬁbromatosis Research: Investigator
+Initiated Award (DoD W81XWH NF180056).                                            © The Author(s) 2023
+
+
+
+
+Nature Communications | (2023)14:2696                                                                                                                         15
+

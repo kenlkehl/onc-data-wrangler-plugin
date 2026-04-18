@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE",
+  "discrepancy_analysis": "A. QUESTION: From Supp Fig 14 xenograft table, what proportion of HSC1\u03bb NF1-/- single-KO cell injections formed tumors?\n\nB. REPORTED RESULT: 6/12 (50%) - per Supplementary Figure 14 xenograft summary table in the paper.\n\nC. MODEL RESULT: DATA_UNAVAILABLE. The model was unable to reproduce this figure because the underlying xenograft tumor formation data (per-injection outcomes for HSC1\u03bb NF1-/- single-KO cells) was not deposited in the available data directory. Only the paper PDF and paper context file are provided.\n\nD. CONCORDANCE: DISCREPANT - the model could not produce any numeric result to compare against the reported 6/12 (50%).\n\nE. ROOT-CAUSE INVESTIGATION: This is a classic case of missing source data. The xenograft experiment summary (tumor-bearing animals / injected animals) is reported in the supplementary figure as an aggregated table, but per-animal raw data was not deposited alongside the paper in the provided data_dir. Without the per-injection records (e.g., animal ID, cell line/genotype, tumor-yes/no), the proportion cannot be independently recomputed.\n\nF. MAGNITUDE: N/A - no numeric model value to compare.\n\nG. PROPOSED FIX: Obtain the source xenograft table (likely an Excel or CSV supplementary file from the paper's data repository, or request from authors). Once per-injection records are available, filter to HSC1\u03bb NF1-/- single-KO cohort and compute the proportion with tumor formation = yes.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Obtain per-injection xenograft source data (Supp Fig 14 underlying table) from supplementary materials or authors; filter to HSC1\u03bb NF1-/- single-KO arm and compute tumor-formation proportion.",
+  "confidence": "HIGH"
+}

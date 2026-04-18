@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "~46% (KM 0.457)",
+  "discrepancy_analysis": "Reported 5-year PFS of MPNST-G2 is ~50%; model reproduced ~46% (KM 0.457) using MOESM10 Fig 1b source data with N=8 MPNST-G2 patients and 3 recurrences. Relative difference = |46 - 50| / 50 = 8%, which is within the ±10% concordance threshold. Values match within expected rounding/estimation tolerance for small-N Kaplan-Meier curves.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

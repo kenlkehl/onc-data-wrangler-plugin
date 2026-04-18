@@ -1,0 +1,108 @@
+PAPER CONTEXT: Suppiah et al. Nature Communications 2023
+
+FULL CITATION:
+Suppiah S, Mansouri S, Mamatjan Y, Liu JC, Bhunia MM, Patil V, Rath P, Mehani B, Heir P, Bunda S, Velez-Reyes GL, Singh O, Ijad N, Pirouzmand N, Dalcourt T, Meng Y, Karimi S, Wei Q, Nassiri F, Pugh TJ, Bader GD, Aldape KD, Largaespada DA, Zadeh G. Multiplatform molecular profiling uncovers two subgroups of malignant peripheral nerve sheath tumors with distinct therapeutic vulnerabilities. Nature Communications. 2023 May 10;14:2696. doi: 10.1038/s41467-023-38432-6.
+
+STUDY DESIGN:
+- Multi-platform integrated molecular profiling study of 108 peripheral nerve sheath tumors (PNSTs)
+- Retrospective cohort from University Health Network and Mount Sinai Hospital Sarcoma Tumor Bank (Toronto, Canada), plus external samples from Children's Tumor Foundation
+- Platforms: Methylation (Illumina MethylationEPIC 850k, n = 108), Bulk RNA-Seq (n = 49 after QC), WES (n = 54 PNSTs + 20 matched blood), snRNA-seq (10X Genomics, 6 samples: 3 MPNST-G1, 2 MPNST-G2, 1 atypical NF)
+- Validation cohorts: TCGA (n = 5) and DKFZ (n = 33) MPNST datasets
+
+PRIMARY COHORT DEFINITION AND SIZE:
+- N = 108 peripheral nerve sheath tumors
+- Tumor type breakdown (MOESM4): 35 Neurofibroma, 33 Cutaneous_NF, 21 Atypical_NF, 16 MPNST, 3 Low-Grade MPNST
+- Combined categories in text: 19 MPNSTs (MPNST + Low-Grade MPNST), 22 premalignant neurofibromas, 34 plexiform neurofibromas, 33 cutaneous neurofibromas
+- Gender: 54 F / 54 M. NF1 syndrome: 77 NF1 / 31 sporadic. Location: 46 peripheral, 33 cutaneous, 29 spinal.
+
+METHYLATION SUBGROUP DEFINITIONS (7 consensus clusters from top 20,000 MAD probes):
+- MPNST-G1: n = 8 (high-grade MPNSTs, SHH pathway)
+- MPNST-G2: n = 8 (high-grade MPNSTs, WNT/beta-catenin/CCND1 pathway)
+- PremalignantNF_G3: n = 29 (atypical NF + low-grade MPNST)
+- Benign_NF-G4: n = 20 (plexiform benign NF)
+- Sporadic_Spinal_NF_G5: n = 10
+- Cutaneous_NF_G6: n = 12 (cutaneous NF subset)
+- Cutaneous_NF_G7: n = 21 (cutaneous NF subset)
+
+KEY INCLUSION/EXCLUSION CRITERIA:
+- Pathologically confirmed nerve sheath tumor by institutional neuropathologist
+- Samples available from institutional biobanks
+- Clinical data (age, sex, NF1 status, WHO grade, extent of surgical resection, adjuvant radiotherapy, tumor recurrence, median follow-up, anatomical location) available
+- One RNA-seq sample excluded for poor data quality
+
+MAJOR TABLES AND FIGURES:
+Figure 1 - Methylation and CNV classification of PNSTs (n = 108 samples)
+  (a) Consensus clustering heatmap top 20,000 CpGs
+  (b) Kaplan-Meier PFS curves by methylation subgroup, log-rank p < 0.0001
+  (c) Cumulative distribution function plot of average beta values
+  (d) Box plot of CpG island mean beta values (ANOVA p < 2.2e-16)
+  (e) Volcano plot MPNST-G1 vs MPNST-G2 (FDR corrected p < 0.05, beta diff > 0.1)
+  (f) Number of methylated and silenced genes in MPNST-G1 vs MPNST-G2 (chi-square p < 0.0001)
+  (g) Top 10 pathways from CpG island hypermethylation in MPNST-G1 (top: HEDGEHOG_SIGNALING, -log FDR = 3.65)
+  (h) CNV heatmap from CONUMEE
+
+Figure 2 - PRC2 mutations unique to MPNST-G1
+  (a) TMB per megabase benign/atypical/MPNST compared to other cancers
+  (b) WES oncoprint (n = 54) gene frequencies: CDKN2A 58%, NF1 55%, PTCH1 15%, EED 13%, SUZ12 11%, NF2 9%, PTPRD 7%, NOTCH1 7%, LZTR1 7%, SMO 5%
+  (c) PTPRD mutation distribution
+
+Figure 3 - MPNST-G1/G2 distinct transcriptome
+  (a) PCA whole transcriptome
+  (b) DEG heatmap (logFC > 1, FDR < 0.05)
+  (c) Top 10 pathways in MPNST-G1 (GSEA NES) and MPNST-G2 (GSEA NES)
+  (d) SHH enrichment plot (G1 FDR 0.0075 NES 1.677; G2 FDR 0.397 NES -1.47), WNT enrichment (G1 FDR 0.319; G2 FDR 0.0201 NES 1.58)
+  (e) Violin plots PTCH1, SMO, GLI2, GLI3, WNT10A, RAC2, RSPO2, APC (n = 49)
+  (f) PTCH1 promoter methylation vs gene expression (r = -0.5129, p = 0.0002)
+
+Figure 4 - snRNA-seq cellular architecture
+  (a-c) t-SNE colored by sample/cell type/subgroup (43,365 nuclei)
+  (d) Pairwise correlations
+  (e) Bulk signatures correlation
+  (f) Schwann/SCP/NCC markers
+
+Figure 5 - SHH pathway therapeutic target
+  (a-c) HSC1λ PTCH1 KO: GLI1 upregulation, proliferation, SHH pathway activation
+  (d-f) ipNF06.2A PTCH1 KO: similar effects
+  (g) HSC1λ anchorage-independent growth (132 vs 0 colonies)
+  (h) HSC1λ migration (81 vs 0 cells)
+  (i) ipNF06.2A migration (87.72 vs 41.07 cells)
+  (j) GLI1/GLI2/SMO qPCR in 4 MPNST cell lines (S462, S462TY, T265 elevated; STS-26T not)
+  (k) Sonidegib IC50 curves (S462TY two-fold lower than STS-26T)
+  (l) Xenograft survival S462TY sonidegib vs vehicle (78 vs 45 days, p = 0.03); STS-26T no benefit
+
+Figure 6 - Synopsis of PNST subgroups with gender, location, NF1, survival, methylation, CNV, mutation, targetable pathways
+
+KEY SUPPLEMENTARY FIGURES:
+Supp Fig 1 - Validation of MPNST-G1/G2 clustering in Toronto (silhouette 1.0, n=16), TCGA (0.98, n=5), DKFZ (0.67, n=33), Combined (0.60, n=54)
+Supp Fig 2 - CpG methylation status by island/shore/shelf/open-sea, promoter/body/exon
+Supp Fig 3 - WES oncoprints: (a) benign NF 41% NF1; (c) TCGA validation: 40% NF1, 20% SUZ12, 20% APC
+Supp Fig 4 - Transcriptome clustering; adjusted Rand index 0.81 (Toronto), 0.76 (combined)
+Supp Fig 5 - NF1 expression (ANOVA p < 0.01), RAS/RAF/MEK pathway no significant enrichment
+Supp Fig 6 - WNT/BCAT/CYCLIN D1 GSEA enrichment plots
+Supp Fig 7 - Promoter methylation vs gene expression correlations (PTCH1 r=-0.48, GAB1 r=-0.54, HIP1 r=-0.43, HES1 r=-0.35, ZEB1 r=-0.35, CTNNA2 r=0.57)
+Supp Fig 8 - Fusion circos plots per subgroup; JARID2-ATP5MC2 in 33% of MPNST-G1
+Supp Fig 9 - snRNA-seq clustering + inferCNV
+Supp Fig 10-11 - snRNA-seq UMAP per subgroup/cluster/sample
+Supp Fig 12 - Cell composition bar chart; LUMP scores Toronto (ANOVA p < 0.0001), DKFZ (p < 0.0001); Immune score (ANOVA p = 0.02)
+Supp Fig 13 - Bulk signatures correlations, SMO/PTCH1/WNT11 expression
+Supp Fig 14 - HSC1λ xenograft table: gGFP 0/4, gPTCH1 3/4, NF1-/- 6/12, NF1-/-;gPTCH1 4/4
+Supp Fig 15 - CCND1 qPCR cell lines; methylation tSNE cell lines
+Supp Fig 16 - Xenograft sonidegib table + GLI1/GLI2/GLI3 qPCR
+
+SURVIVAL ANALYSES:
+- Endpoint: Progression-free survival (PFS), defined as local tumor growth after gross total resection, tumor progression following subtotal resection, or distant metastasis
+- Method: Kaplan-Meier with log-rank test
+- Time variable: Elapsed time from index surgery to first postoperative imaging documenting recurrence (years)
+- Key comparisons:
+  - All methylation subgroups (Fig 1b, 75 samples): p < 0.0001 log-rank
+  - MPNST-G1 vs MPNST-G2: median PFS 0.6 vs 1.4 years, p < 0.05
+  - G3 (premalignant) vs benign NF (G4/G6/G7): p < 0.0001
+  - Xenograft: S462TY-sonidegib vs S462TY-vehicle (78 vs 45 days, p = 0.03); STS-26T no benefit
+
+SUPPLEMENTARY DATA FILES:
+- Supp Data 1 (MOESM4): Patient demographics and data availability
+- Supp Data 2 (MOESM5): All WES mutations (7457 rows)
+- Supp Data 3 (MOESM6): Differentially expressed genes per subgroup
+- Supp Data 4 (MOESM7): Computational drug screen for MPNST-G1 and MPNST-G2
+- Supp Data 5 (MOESM8): All gene fusions identified (1031 fusions)
+- Source data (MOESM10): Multi-sheet workbook with Fig 1b, 1f+g, 3c, 3f, 5a-l source data

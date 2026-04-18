@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "21 samples with Tumor Type == Atypical_NF in the MOESM4 Clinical Data table.",
+  "discrepancy_analysis": "Concordant within 10% relative difference. Reported = 22 premalignant neurofibromas; Model = 21 Atypical_NF samples in MOESM4. Absolute difference = 1 sample; relative difference = 1/22 = 4.5% (< 10% concordance threshold). Verification: MOESM4 'Clinical Data' sheet has 108 rows total; Tumor Type value_counts are Neurofibroma=35, Cutaneous_NF=33, Atypical_NF=21, MPNST=16, Low-Grade MPNST=3. The paper's Methods section states '108 samples in this study (19 MPNSTs, 22 premalignant neurofibromas, 34 plexiform neurofibromas and 33 cutaneous neurofibromas)' — a minor internal discrepancy with the actual MOESM4 contents (which yield 19 MPNSTs when MPNST+Low-Grade MPNST are combined, but only 21 Atypical_NF rather than 22, and 35 non-cutaneous neurofibromas rather than 34). The paper text elsewhere corroborates the table value: 'Atypical neurofibromas (20 of 21, 95%) and all low-grade MPNSTs (3 of 3, 100%) grouped together to form the G3 methylation cluster' — indicating 21 atypical neurofibromas in the table. The 1-sample difference is within concordance tolerance and likely reflects minor inconsistency between the paper's Methods prose and the supplementary table.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p=0.0442 (chi2=4.05). G1 median 0.67 yr (6/8 events), G2 median 1.39 yr (3/8 events). Matches paper.",
+  "discrepancy_analysis": "Reported result states p<0.05 (log-rank) for MPNST-G1 vs MPNST-G2 PFS comparison. Model reproduced p=0.0442 via log-rank test (chi2=4.05), with G1 median PFS 0.67 yr (6/8 events) and G2 median PFS 1.39 yr (3/8 events). The model p-value of 0.0442 satisfies the reported threshold of p<0.05, confirming the reported statistical significance claim. Results are CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

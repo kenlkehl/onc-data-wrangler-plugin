@@ -1,0 +1,805 @@
+patient_id,drug_name,drug_category,start_date,end_date,route,dose,frequency,line_of_therapy,intent,scenario_index,scenario_label
+patient_0c162e08b36b,ipilimumab,Immunotherapy,2023-06-08,2023-06-29,IV,1 mg/kg,every 3 weeks,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,nivolumab,Immunotherapy,2023-06-08,2023-10-15,IV,3 mg/kg (induction); 480 mg (maintenance),"every 3 weeks x4 cycles, then every 4 weeks",1,Palliative,7,rcc_clear
+patient_0c162e08b36b,ondansetron,Supportive Care,2023-06-08,2023-10-15,IV,8 mg,pre-infusion each cycle,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,acetaminophen,Supportive Care,2023-06-08,2023-10-15,PO,650 mg,pre-infusion each cycle,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,prednisone,Supportive Care,2023-07-15,2023-09-10,PO,"1 mg/kg/day, tapered over 8 weeks",daily with taper,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,levothyroxine,Supportive Care,2023-09-08,2024-09-20,PO,50 mcg (increased to 75 mcg at 4 months),daily,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,cabozantinib,Targeted Therapy,2023-12-01,2024-09-20,PO,60 mg (reduced to 40 mg after 3 weeks for HFSR),daily,2,Palliative,7,rcc_clear
+patient_0c162e08b36b,loperamide,Supportive Care,2024-01-05,2024-09-20,PO,2 mg,"as needed after loose stools, up to 8 mg/day",2,Palliative,7,rcc_clear
+patient_0c162e08b36b,amlodipine,Supportive Care,2023-03-15,2024-09-20,PO,5 mg (increased to 10 mg at 8 weeks on cabozantinib),daily,2,Palliative,7,rcc_clear
+patient_0c162e08b36b,metformin,Supportive Care,2023-03-15,2024-09-20,PO,1000 mg,twice daily,1,Palliative,7,rcc_clear
+patient_0c162e08b36b,ferrous sulfate,Supportive Care,2023-04-30,2024-03-01,PO,325 mg,daily,1,Palliative,7,rcc_clear
+patient_0e087caa529d,osimertinib,Targeted Therapy,2023-02-10,2024-04-12,PO,80 mg,daily,1,Curative,0,nsclc_egfr
+patient_0e087caa529d,dexamethasone,Supportive Care,2024-04-12,2024-06-10,PO,4 mg,"twice daily, tapered over 6 weeks",1,Palliative,0,nsclc_egfr
+patient_0e087caa529d,carboplatin,Chemotherapy,2024-08-05,2024-11-06,IV,AUC 5,day 1 every 21 days,2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,pemetrexed,Chemotherapy,2024-08-05,2024-11-06,IV,500 mg/m2,day 1 every 21 days,2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,folic acid,Supportive Care,2024-07-29,2024-11-27,PO,400 mcg,daily,2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,cyanocobalamin,Supportive Care,2024-07-29,2024-11-27,IM,1000 mcg,every 9 weeks,2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,dexamethasone,Supportive Care,2024-08-05,2024-11-06,PO,4 mg,"twice daily on days -1, 0, and +1 of each cycle",2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,ondansetron,Supportive Care,2024-08-05,2024-11-06,PO,8 mg,three times daily as needed,2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,filgrastim,Supportive Care,2024-08-26,2024-11-06,SC,300 mcg,"daily starting day 2 of each cycle, per clinical judgment",2,Palliative,0,nsclc_egfr
+patient_0e087caa529d,savolitinib,Targeted Therapy,2025-01-06,2025-07-14,PO,300 mg,daily,3,Palliative,0,nsclc_egfr
+patient_0e087caa529d,osimertinib,Targeted Therapy,2025-01-06,2025-07-14,PO,80 mg,daily,3,Palliative,0,nsclc_egfr
+patient_0e087caa529d,furosemide,Supportive Care,2025-02-10,2025-07-14,PO,20 mg,daily,3,Palliative,0,nsclc_egfr
+patient_0e087caa529d,amlodipine,Supportive Care,2023-01-31,2025-07-14,PO,5 mg,daily,0,Palliative,0,nsclc_egfr
+patient_0e087caa529d,atorvastatin,Supportive Care,2023-01-31,2025-07-14,PO,20 mg,daily at bedtime,0,Palliative,0,nsclc_egfr
+patient_114882f917b9,cisplatin,Chemotherapy,2023-12-04,2024-01-15,IV,100 mg/m2 (cycle 3 dose-reduced to 75 mg/m2),"days 1, 22, 43 of radiation (every 3 weeks x3 cycles)",1,Curative,9,hnscc_hpv
+patient_114882f917b9,ondansetron,Supportive Care,2023-12-04,2024-01-15,IV,16 mg,prior to each cisplatin dose,1,Curative,9,hnscc_hpv
+patient_114882f917b9,dexamethasone,Supportive Care,2023-12-04,2024-01-15,IV,12 mg,prior to each cisplatin dose,1,Curative,9,hnscc_hpv
+patient_114882f917b9,magnesium sulfate,Supportive Care,2023-12-04,2024-01-22,IV,1 g,with each cisplatin infusion; additional repletion as needed,1,Curative,9,hnscc_hpv
+patient_114882f917b9,normal saline,Supportive Care,2023-12-04,2024-01-22,IV,3 L,per cisplatin cycle (pre- and post-hydration),1,Curative,9,hnscc_hpv
+patient_114882f917b9,levothyroxine,Supportive Care,2023-11-14,2024-09-22,PO,75 mcg,daily,1,Curative,9,hnscc_hpv
+patient_114882f917b9,levothyroxine,Supportive Care,2024-09-22,2026-01-22,PO,100 mcg,daily,1,Curative,9,hnscc_hpv
+patient_114882f917b9,fluconazole,Supportive Care,2024-01-02,2024-01-16,PO,200 mg,daily x 14 days,1,Curative,9,hnscc_hpv
+patient_114882f917b9,morphine,Supportive Care,2024-01-02,2024-01-07,IV,1-2 mg/hr PCA,continuous infusion with demand dosing,1,Curative,9,hnscc_hpv
+patient_114882f917b9,oxycodone,Supportive Care,2024-01-07,2024-02-15,PO,5-10 mg,every 4-6 hours as needed,1,Curative,9,hnscc_hpv
+patient_114882f917b9,omeprazole,Supportive Care,2023-12-04,2026-01-22,PO,20 mg,daily,1,Curative,9,hnscc_hpv
+patient_114882f917b9,magnesium oxide,Supportive Care,2024-01-22,2024-06-01,PO,400 mg,twice daily,1,Curative,9,hnscc_hpv
+patient_202e188a03a9,pembrolizumab,Immunotherapy,2024-02-02,2024-08-02,IV,200 mg,every 3 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,doxorubicin,Chemotherapy,2024-02-02,2024-04-13,IV,60 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,cyclophosphamide,Chemotherapy,2024-02-02,2024-04-13,IV,600 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,paclitaxel,Chemotherapy,2024-05-03,2024-07-26,IV,80 mg/m2 (reduced to 65 mg/m2 after week 10),weekly,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,filgrastim,Supportive Care,2024-02-03,2024-04-20,SC,480 mcg,daily for 7 days post-cycle,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,ondansetron,Supportive Care,2024-02-02,2024-07-26,PO,8 mg,every 8 hours PRN nausea,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,dexamethasone,Supportive Care,2024-02-02,2024-07-26,PO,8 mg,twice daily for 3 days post-chemotherapy,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,fosaprepitant,Supportive Care,2024-02-02,2024-04-13,IV,150 mg,day 1 of each cycle,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,diphenhydramine,Supportive Care,2024-05-03,2024-07-26,IV,50 mg,prior to each paclitaxel infusion,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,capecitabine,Chemotherapy,2025-01-03,2025-07-04,PO,750 mg/m2 (reduced from 1000 mg/m2),twice daily days 1-14 q21d,2,Adjuvant,1,breast_tnbc
+patient_202e188a03a9,pembrolizumab,Immunotherapy,2025-01-03,2025-07-18,IV,200 mg,every 3 weeks,2,Adjuvant,1,breast_tnbc
+patient_202e188a03a9,ondansetron,Supportive Care,2025-01-03,2025-07-04,PO,8 mg,every 8 hours PRN nausea,2,Adjuvant,1,breast_tnbc
+patient_202e188a03a9,sacituzumab govitecan,Targeted Therapy,2025-12-19,2026-04-02,IV,5 mg/kg (reduced from 7.5 mg/kg),days 1 and 8 q21d,3,Palliative,1,breast_tnbc
+patient_202e188a03a9,olaparib,Targeted Therapy,2025-12-19,2026-04-02,PO,300 mg,twice daily,3,Palliative,1,breast_tnbc
+patient_202e188a03a9,pegfilgrastim,Supportive Care,2025-12-20,2026-04-03,SC,6 mg,"once per cycle, day 2",3,Palliative,1,breast_tnbc
+patient_202e188a03a9,ondansetron,Supportive Care,2025-12-19,2026-04-02,PO,8 mg,every 8 hours PRN nausea,3,Palliative,1,breast_tnbc
+patient_202e188a03a9,denosumab,Supportive Care,2026-04-02,2026-04-02,SC,120 mg,every 4 weeks,3,Palliative,1,breast_tnbc
+patient_202e188a03a9,loperamide,Supportive Care,2025-12-19,2026-04-02,PO,2 mg,PRN diarrhea,3,Palliative,1,breast_tnbc
+patient_202e188a03a9,levothyroxine,Supportive Care,2024-04-10,2026-04-02,PO,88 mcg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,duloxetine,Supportive Care,2024-06-07,2026-04-02,PO,30 mg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,metformin,Supportive Care,2024-01-15,2026-04-02,PO,1000 mg,twice daily with meals,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,lisinopril,Supportive Care,2024-01-15,2026-04-02,PO,20 mg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_202e188a03a9,prednisone,Supportive Care,2024-12-06,2025-01-31,PO,60 mg,daily with 8-week taper,2,Adjuvant,1,breast_tnbc
+patient_202e188a03a9,sertraline,Supportive Care,2026-01-20,2026-04-02,PO,50 mg,daily,3,Palliative,1,breast_tnbc
+patient_244fe8f505cc,oxaliplatin,Chemotherapy,2023-04-03,2023-08-21,IV,85 mg/m2 (reduced to 75 mg/m2 at cycle 8),every 2 weeks,1,Palliative,2,crc_kras
+patient_244fe8f505cc,leucovorin,Chemotherapy,2023-04-03,2023-09-12,IV,400 mg/m2,every 2 weeks,1,Palliative,2,crc_kras
+patient_244fe8f505cc,fluorouracil,Chemotherapy,2023-04-03,2023-09-12,IV,400 mg/m2 bolus + 2400 mg/m2 CI over 46 hours,every 2 weeks,1,Palliative,2,crc_kras
+patient_244fe8f505cc,bevacizumab,Targeted Therapy,2023-04-03,2023-09-12,IV,5 mg/kg,every 2 weeks,1,Palliative,2,crc_kras
+patient_244fe8f505cc,ondansetron,Supportive Care,2023-04-03,2023-09-12,IV,8 mg,each infusion day,1,Palliative,2,crc_kras
+patient_244fe8f505cc,dexamethasone,Supportive Care,2023-04-03,2023-09-12,IV,12 mg,each infusion day,1,Palliative,2,crc_kras
+patient_244fe8f505cc,lorazepam,Supportive Care,2023-04-03,2023-09-12,IV,0.5 mg,PRN each infusion day,1,Palliative,2,crc_kras
+patient_244fe8f505cc,fluorouracil,Chemotherapy,2023-09-26,2023-12-04,IV,2400 mg/m2 CI over 46 hours,every 2 weeks,1,Maintenance,2,crc_kras
+patient_244fe8f505cc,leucovorin,Chemotherapy,2023-09-26,2023-12-04,IV,400 mg/m2,every 2 weeks,1,Maintenance,2,crc_kras
+patient_244fe8f505cc,bevacizumab,Targeted Therapy,2023-09-26,2023-12-04,IV,7.5 mg/kg,every 2 weeks,1,Maintenance,2,crc_kras
+patient_244fe8f505cc,gabapentin,Supportive Care,2023-09-05,2024-04-15,PO,300 mg,three times daily,1,Palliative,2,crc_kras
+patient_244fe8f505cc,amlodipine,Supportive Care,2023-05-15,2024-08-19,PO,5 mg (uptitrated to 10 mg at cycle 8),daily,1,Palliative,2,crc_kras
+patient_244fe8f505cc,lisinopril,Supportive Care,2023-09-20,2024-08-19,PO,10 mg,daily,1,Palliative,2,crc_kras
+patient_244fe8f505cc,metformin,Supportive Care,2023-04-03,2024-08-19,PO,1000 mg,twice daily,1,Palliative,2,crc_kras
+patient_244fe8f505cc,irinotecan,Chemotherapy,2023-12-18,2024-07-08,IV,180 mg/m2 (reduced to 150 mg/m2 after cycle 3),every 2 weeks,2,Palliative,2,crc_kras
+patient_244fe8f505cc,leucovorin,Chemotherapy,2023-12-18,2024-07-08,IV,400 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_244fe8f505cc,fluorouracil,Chemotherapy,2023-12-18,2024-07-08,IV,400 mg/m2 bolus + 2400 mg/m2 CI over 46 hours,every 2 weeks,2,Palliative,2,crc_kras
+patient_244fe8f505cc,ramucirumab,Targeted Therapy,2023-12-18,2024-07-08,IV,8 mg/kg,every 2 weeks,2,Palliative,2,crc_kras
+patient_244fe8f505cc,ondansetron,Supportive Care,2023-12-18,2024-07-08,IV,8 mg,each infusion day,2,Palliative,2,crc_kras
+patient_244fe8f505cc,dexamethasone,Supportive Care,2023-12-18,2024-07-08,IV,8 mg,each infusion day,2,Palliative,2,crc_kras
+patient_244fe8f505cc,atropine,Supportive Care,2023-12-18,2024-07-08,IV,0.25 mg,prophylactic each infusion day,2,Palliative,2,crc_kras
+patient_244fe8f505cc,loperamide,Supportive Care,2024-01-29,2024-07-08,PO,"4 mg at first loose stool, then 2 mg every 2 hours",PRN diarrhea,2,Palliative,2,crc_kras
+patient_244fe8f505cc,hydrochlorothiazide,Supportive Care,2024-05-28,2024-08-19,PO,12.5 mg,daily,2,Palliative,2,crc_kras
+patient_244fe8f505cc,trifluridine/tipiracil,Chemotherapy,2024-07-22,2024-08-19,PO,35 mg/m2 (reduced to 30 mg/m2 after cycle 2),twice daily with food days 1-5 and 8-12 of 28-day cycle,3,Palliative,2,crc_kras
+patient_244fe8f505cc,bevacizumab,Targeted Therapy,2024-07-22,2024-08-19,IV,5 mg/kg,every 2 weeks (days 1 and 15 of 28-day cycle),3,Palliative,2,crc_kras
+patient_244fe8f505cc,filgrastim,Supportive Care,2024-06-11,2024-06-15,SC,5 mcg/kg,daily for 5 days,3,Palliative,2,crc_kras
+patient_244fe8f505cc,ondansetron,Supportive Care,2024-07-22,2024-08-19,PO,8 mg,PRN nausea,3,Palliative,2,crc_kras
+patient_244fe8f505cc,prochlorperazine,Supportive Care,2024-08-12,2024-08-19,PO,10 mg,PRN nausea,3,Palliative,2,crc_kras
+patient_244fe8f505cc,morphine,Supportive Care,2024-08-19,2024-08-19,PO,5 mg,PRN pain/dyspnea,3,Palliative,2,crc_kras
+patient_244fe8f505cc,lorazepam,Supportive Care,2024-08-19,2024-08-19,PO,0.5 mg,PRN anxiety,3,Palliative,2,crc_kras
+patient_244fe8f505cc,haloperidol,Supportive Care,2024-08-19,2024-08-19,PO,0.5 mg,PRN nausea,3,Palliative,2,crc_kras
+patient_244fe8f505cc,dexamethasone,Supportive Care,2024-08-19,2024-08-19,PO,2 mg,daily,3,Palliative,2,crc_kras
+patient_2453ca4df148,cisplatin,Chemotherapy,2022-10-12,2022-11-23,IV,40 mg/m2 (69 mg),weekly,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,ondansetron,Supportive Care,2022-10-12,2022-11-23,IV,24 mg,each cisplatin infusion day,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,dexamethasone,Supportive Care,2022-10-12,2022-11-23,IV,12 mg,each cisplatin infusion day,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,magnesium sulfate,Supportive Care,2022-10-12,2022-11-23,IV,2 g,each cisplatin infusion day,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,levothyroxine,Supportive Care,2022-09-01,2023-04-05,PO,75 mcg,daily,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,levothyroxine,Supportive Care,2023-04-05,2025-04-15,PO,100 mcg,daily,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,morphine,Supportive Care,2022-11-02,2022-11-04,IV,variable (PCA),patient-controlled analgesia,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,oxycodone,Supportive Care,2022-11-04,2023-02-01,PO,20 mg ER / 5 mg IR,BID ER; q4h PRN IR,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,omeprazole,Supportive Care,2022-11-02,2023-03-01,PO,20 mg,daily,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,magnesium oxide,Supportive Care,2022-12-10,2023-06-01,PO,400 mg,twice daily,1,Curative,9,hnscc_hpv
+patient_2453ca4df148,pilocarpine,Supportive Care,2023-04-05,2025-04-15,PO,5 mg,"three times daily, tapered to twice daily at 18 months",1,Curative,9,hnscc_hpv
+patient_2453ca4df148,atorvastatin,Supportive Care,2024-10-22,2025-04-15,PO,10 mg,daily,1,Curative,9,hnscc_hpv
+patient_27239fef01a8,oxaliplatin,Chemotherapy,2024-10-01,2025-02-25,IV,85 mg/m2 (reduced to 75 mg/m2 after cycle 3),every 2 weeks,1,Palliative,2,crc_kras
+patient_27239fef01a8,leucovorin,Chemotherapy,2024-10-01,2025-04-05,IV,400 mg/m2,every 2 weeks,1,Palliative,2,crc_kras
+patient_27239fef01a8,fluorouracil,Chemotherapy,2024-10-01,2025-04-05,IV,400 mg/m2 bolus + 2400 mg/m2 CIVI 46h,every 2 weeks,1,Palliative,2,crc_kras
+patient_27239fef01a8,bevacizumab,Targeted Therapy,2024-10-01,2025-07-05,IV,5 mg/kg,every 2 weeks,1,Palliative,2,crc_kras
+patient_27239fef01a8,ondansetron,Supportive Care,2024-10-01,2025-07-22,IV,8 mg,on infusion days,1,Palliative,2,crc_kras
+patient_27239fef01a8,dexamethasone,Supportive Care,2024-10-01,2025-07-22,IV,12 mg,on infusion days as premedication,1,Palliative,2,crc_kras
+patient_27239fef01a8,prochlorperazine,Supportive Care,2024-10-01,2025-07-22,PO,10 mg,every 6 hours as needed for nausea,1,Palliative,2,crc_kras
+patient_27239fef01a8,gabapentin,Supportive Care,2025-02-25,2025-12-20,PO,300 mg,three times daily,1,Palliative,2,crc_kras
+patient_27239fef01a8,fluorouracil,Chemotherapy,2025-05-15,2025-07-22,IV,2400 mg/m2 CIVI 46h,every 2 weeks,1,Maintenance,2,crc_kras
+patient_27239fef01a8,leucovorin,Chemotherapy,2025-05-15,2025-07-22,IV,400 mg/m2,every 2 weeks,1,Maintenance,2,crc_kras
+patient_27239fef01a8,irinotecan,Chemotherapy,2025-08-01,2025-12-20,IV,180 mg/m2 (reduced to 150 mg/m2 after cycle 2),every 2 weeks,2,Palliative,2,crc_kras
+patient_27239fef01a8,leucovorin,Chemotherapy,2025-08-01,2025-12-20,IV,400 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_27239fef01a8,fluorouracil,Chemotherapy,2025-08-01,2025-12-20,IV,400 mg/m2 bolus + 2400 mg/m2 CIVI 46h,every 2 weeks,2,Palliative,2,crc_kras
+patient_27239fef01a8,ramucirumab,Targeted Therapy,2025-08-01,2025-12-20,IV,8 mg/kg,every 2 weeks,2,Palliative,2,crc_kras
+patient_27239fef01a8,ondansetron,Supportive Care,2025-08-01,2025-12-20,IV,8 mg,on infusion days,2,Palliative,2,crc_kras
+patient_27239fef01a8,aprepitant,Supportive Care,2025-08-01,2025-12-20,PO,125 mg day 1; 80 mg days 2-3,per cycle,2,Palliative,2,crc_kras
+patient_27239fef01a8,dexamethasone,Supportive Care,2025-08-01,2025-12-20,IV,8 mg,on infusion days as premedication,2,Palliative,2,crc_kras
+patient_27239fef01a8,atropine,Supportive Care,2025-08-01,2025-12-20,SC,0.25 mg,as needed for cholinergic symptoms during/after irinotecan,2,Palliative,2,crc_kras
+patient_27239fef01a8,loperamide,Supportive Care,2025-08-01,2025-12-20,PO,"4 mg at first loose stool, then 2 mg every 2 hours",as needed for diarrhea,2,Palliative,2,crc_kras
+patient_27239fef01a8,lisinopril,Supportive Care,2024-10-01,2025-12-20,PO,10 mg (increased to 20 mg after cycle 3),daily,1,Palliative,2,crc_kras
+patient_27239fef01a8,amlodipine,Supportive Care,2024-12-05,2025-12-20,PO,5 mg (increased to 10 mg during second-line therapy),daily,1,Palliative,2,crc_kras
+patient_27239fef01a8,hydrochlorothiazide,Supportive Care,2025-08-29,2025-12-20,PO,12.5 mg,daily,2,Palliative,2,crc_kras
+patient_27239fef01a8,metformin,Supportive Care,2024-10-01,2025-12-20,PO,1000 mg,twice daily,1,Palliative,2,crc_kras
+patient_27239fef01a8,atorvastatin,Supportive Care,2024-10-01,2025-12-20,PO,40 mg,nightly,1,Palliative,2,crc_kras
+patient_27af2639d3f8,ipilimumab,Immunotherapy,2022-04-05,2022-06-28,IV,1 mg/kg,every 3 weeks,1,Palliative,7,rcc_clear
+patient_27af2639d3f8,nivolumab,Immunotherapy,2022-04-05,2023-01-05,IV,3 mg/kg (induction); 480 mg (maintenance),"every 3 weeks x4 cycles, then every 4 weeks",1,Palliative,7,rcc_clear
+patient_27af2639d3f8,levothyroxine,Supportive Care,2022-05-31,2023-09-17,PO,75 mcg,daily,1,Palliative,7,rcc_clear
+patient_27af2639d3f8,triamcinolone,Supportive Care,2022-05-10,2022-06-02,PO,0.1% cream,twice daily topical,1,Palliative,7,rcc_clear
+patient_27af2639d3f8,hydroxyzine,Supportive Care,2022-05-10,2022-06-02,PO,25 mg,every 6 hours as needed,1,Palliative,7,rcc_clear
+patient_27af2639d3f8,cabozantinib,Targeted Therapy,2023-01-17,2023-09-17,PO,40 mg,daily,2,Palliative,7,rcc_clear
+patient_27af2639d3f8,loperamide,Supportive Care,2023-02-28,2023-09-17,PO,2 mg,after each loose stool as needed (max 16 mg/day),2,Palliative,7,rcc_clear
+patient_27af2639d3f8,amlodipine,Supportive Care,2023-03-14,2023-09-17,PO,10 mg,daily,2,Palliative,7,rcc_clear
+patient_27af2639d3f8,ferrous sulfate,Supportive Care,2023-06-17,2023-09-17,PO,325 mg,every other day,2,Palliative,7,rcc_clear
+patient_27af2639d3f8,metformin,Supportive Care,2022-04-05,2023-09-17,PO,1000 mg,twice daily,1,Palliative,7,rcc_clear
+patient_2e220a42c192,cytarabine,Chemotherapy,2023-03-07,2023-03-13,IV,200 mg/m2/day,continuous infusion days 1-7,1,Curative,6,aml_flt3
+patient_2e220a42c192,daunorubicin,Chemotherapy,2023-03-07,2023-03-09,IV,60 mg/m2,"IV push days 1, 2, 3",1,Curative,6,aml_flt3
+patient_2e220a42c192,midostaurin,Targeted Therapy,2023-03-15,2023-03-28,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_2e220a42c192,ondansetron,Supportive Care,2023-03-07,2023-04-06,IV,8 mg,every 8 hours PRN,1,Curative,6,aml_flt3
+patient_2e220a42c192,lorazepam,Supportive Care,2023-03-07,2023-04-06,IV,0.5 mg,every 6 hours PRN,1,Curative,6,aml_flt3
+patient_2e220a42c192,fluconazole,Supportive Care,2023-03-07,2023-04-09,PO,400 mg,daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,acyclovir,Supportive Care,2023-03-07,2024-12-03,PO,400 mg,twice daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,levofloxacin,Supportive Care,2023-03-07,2023-04-06,PO,500 mg,daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,allopurinol,Supportive Care,2023-03-07,2023-03-10,PO,300 mg,daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,cefepime,Supportive Care,2023-03-17,2023-03-31,IV,2 g,every 8 hours,1,Curative,6,aml_flt3
+patient_2e220a42c192,cytarabine,Chemotherapy,2023-04-17,2023-04-22,IV,3 g/m2,"every 12 hours days 1, 3, 5 (5 of 6 doses given)",1,Curative,6,aml_flt3
+patient_2e220a42c192,midostaurin,Targeted Therapy,2023-04-25,2023-05-07,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_2e220a42c192,prednisolone acetate,Supportive Care,2023-04-17,2023-05-12,ophthalmic,1% solution,1 drop each eye four times daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,trimethoprim-sulfamethoxazole,Supportive Care,2023-04-09,2024-12-03,PO,1 DS tablet,three times weekly,1,Curative,6,aml_flt3
+patient_2e220a42c192,fludarabine,Chemotherapy,2023-05-26,2023-05-30,IV,30 mg/m2/day,daily days -6 to -2,2,Curative,6,aml_flt3
+patient_2e220a42c192,busulfan,Chemotherapy,2023-05-29,2023-05-30,IV,3.2 mg/kg/day,"daily days -3, -2 (pharmacokinetic-targeted AUC 5000 uM*min/day)",2,Curative,6,aml_flt3
+patient_2e220a42c192,anti-thymocyte globulin (rabbit),Immunotherapy,2023-05-28,2023-05-30,IV,2.5 mg/kg/day,"daily days -3, -2, -1",2,Curative,6,aml_flt3
+patient_2e220a42c192,tacrolimus,Supportive Care,2023-06-01,2024-09-01,PO,titrated to trough 8-12 ng/mL,"twice daily, tapered after day +100",2,Curative,6,aml_flt3
+patient_2e220a42c192,methotrexate,Chemotherapy,2023-06-02,2023-06-12,IV,"15 mg/m2 day +1; 10 mg/m2 days +3, +6, +11","days +1, +3, +6, +11",2,Curative,6,aml_flt3
+patient_2e220a42c192,voriconazole,Supportive Care,2023-06-01,2023-09-09,PO,200 mg,twice daily,2,Curative,6,aml_flt3
+patient_2e220a42c192,ursodiol,Supportive Care,2023-06-01,2023-09-09,PO,300 mg,twice daily,2,Curative,6,aml_flt3
+patient_2e220a42c192,valganciclovir,Supportive Care,2023-07-16,2023-09-09,PO,900 mg,"twice daily x 2 weeks, then 900 mg daily through day +100",2,Curative,6,aml_flt3
+patient_2e220a42c192,clobetasol propionate,Supportive Care,2023-08-30,2024-06-01,topical,0.05% ointment,twice daily to affected skin areas,2,Curative,6,aml_flt3
+patient_2e220a42c192,dexamethasone oral rinse,Supportive Care,2023-08-30,2024-06-01,PO,0.5 mg/5 mL,swish and spit twice daily,2,Curative,6,aml_flt3
+patient_2e220a42c192,cyclosporine ophthalmic emulsion,Supportive Care,2023-08-30,2024-12-03,ophthalmic,0.05%,1 drop each eye twice daily,2,Curative,6,aml_flt3
+patient_2e220a42c192,pilocarpine,Supportive Care,2023-09-09,2024-12-03,PO,5 mg,three times daily,2,Curative,6,aml_flt3
+patient_2e220a42c192,lisinopril,Supportive Care,2023-04-09,2024-12-03,PO,10 mg,daily,1,Curative,6,aml_flt3
+patient_2e220a42c192,metformin,Supportive Care,2023-04-09,2024-12-03,PO,1000 mg,twice daily,1,Curative,6,aml_flt3
+patient_30ab8b07203a,oxaliplatin,Chemotherapy,2022-02-07,2022-05-30,IV,85 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,leucovorin,Chemotherapy,2022-02-07,2022-05-30,IV,400 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,irinotecan,Chemotherapy,2022-02-07,2022-05-30,IV,150 mg/m2 (reduced to 120 mg/m2 after cycle 3),every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,fluorouracil,Chemotherapy,2022-02-07,2022-05-30,IV,2400 mg/m2,continuous infusion over 46 hours every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,filgrastim,Supportive Care,2022-02-09,2022-05-30,SC,480 mcg,days 3-5 per cycle,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,ondansetron,Supportive Care,2022-02-07,2022-05-30,PO,8 mg,every 8 hours as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,prochlorperazine,Supportive Care,2022-02-07,2022-05-30,PO,10 mg,every 6 hours as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,loperamide,Supportive Care,2022-03-07,2022-05-30,PO,2 mg,as needed for diarrhea,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,capecitabine,Chemotherapy,2022-06-21,2022-08-02,PO,825 mg/m2,twice daily on radiation days,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,ondansetron,Supportive Care,2022-06-21,2022-08-02,PO,8 mg,twice daily as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,metoclopramide,Supportive Care,2022-06-21,2022-08-02,PO,10 mg,three times daily as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,gemcitabine,Chemotherapy,2022-12-05,2023-09-05,IV,1000 mg/m2,"days 1, 8, 15 of 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,capecitabine,Chemotherapy,2022-12-05,2023-09-05,PO,"830 mg/m2 twice daily (reduced from 1660 mg/m2/day at cycle 2, then further to 50% at cycle 4)",days 1-21 of 28-day cycle,2,Adjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,ondansetron,Supportive Care,2022-12-05,2023-09-05,PO,8 mg,every 8 hours as needed,2,Adjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,piperacillin-tazobactam,Supportive Care,2023-02-11,2023-02-25,IV,3.375 g,every 6 hours,2,Adjuvant,8,pancreatic_adeno
+patient_30ab8b07203a,gemcitabine,Chemotherapy,2024-10-10,2025-01-07,IV,1000 mg/m2,"days 1, 8, 15 of 28-day cycle",3,Palliative,8,pancreatic_adeno
+patient_30ab8b07203a,nab-paclitaxel,Chemotherapy,2024-10-10,2025-01-07,IV,125 mg/m2 (reduced to 100 mg/m2 after cycle 2),"days 1, 8, 15 of 28-day cycle",3,Palliative,8,pancreatic_adeno
+patient_30ab8b07203a,ondansetron,Supportive Care,2024-10-10,2025-01-07,IV,8 mg,prior to each infusion,3,Palliative,8,pancreatic_adeno
+patient_30ab8b07203a,dexamethasone,Supportive Care,2024-10-10,2025-01-07,IV,8 mg,prior to nab-paclitaxel each infusion day,3,Palliative,8,pancreatic_adeno
+patient_30ab8b07203a,filgrastim,Supportive Care,2024-10-12,2025-01-07,SC,480 mcg,"per institutional protocol, once per cycle",3,Palliative,8,pancreatic_adeno
+patient_3397056c93cc,ipilimumab,Immunotherapy,2023-05-15,2023-07-17,IV,1 mg/kg,every 3 weeks,1,Palliative,7,rcc_clear
+patient_3397056c93cc,nivolumab,Immunotherapy,2023-05-15,2023-11-06,IV,3 mg/kg (induction); 480 mg (maintenance),every 3 weeks (induction x4); every 4 weeks (maintenance),1,Palliative,7,rcc_clear
+patient_3397056c93cc,diphenhydramine,Supportive Care,2023-05-15,2023-11-06,IV,25 mg,prior to each infusion,1,Palliative,7,rcc_clear
+patient_3397056c93cc,acetaminophen,Supportive Care,2023-05-15,2023-11-06,PO,650 mg,prior to each infusion,1,Palliative,7,rcc_clear
+patient_3397056c93cc,levothyroxine,Supportive Care,2023-06-30,2024-08-22,PO,75 mcg,daily,1,Palliative,7,rcc_clear
+patient_3397056c93cc,cabozantinib,Targeted Therapy,2023-11-13,2024-08-22,PO,60 mg (initial); reduced to 40 mg,daily,2,Palliative,7,rcc_clear
+patient_3397056c93cc,loperamide,Supportive Care,2023-12-04,2024-08-22,PO,4 mg initial dose; 2 mg after each loose stool,as needed for diarrhea,2,Palliative,7,rcc_clear
+patient_3397056c93cc,lisinopril,Supportive Care,2023-03-08,2024-08-22,PO,10 mg (baseline); uptitrated to 20 mg at TKI initiation,daily,1,Palliative,7,rcc_clear
+patient_3397056c93cc,amlodipine,Supportive Care,2023-12-18,2024-08-22,PO,5 mg (initial); uptitrated to 10 mg,daily,2,Palliative,7,rcc_clear
+patient_3397056c93cc,metformin,Supportive Care,2023-03-08,2024-08-22,PO,1000 mg,twice daily,1,Palliative,7,rcc_clear
+patient_3397056c93cc,ferrous sulfate,Supportive Care,2023-04-17,2023-08-21,PO,325 mg,daily,1,Palliative,7,rcc_clear
+patient_413a774c3193,oxaliplatin,Chemotherapy,2023-02-22,2023-05-17,IV,85 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,irinotecan,Chemotherapy,2023-02-22,2023-06-14,IV,150 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,leucovorin,Chemotherapy,2023-02-22,2023-06-14,IV,400 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,fluorouracil,Chemotherapy,2023-02-22,2023-06-14,IV,2400 mg/m2,46-hour infusion every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,pegfilgrastim,Supportive Care,2023-02-23,2023-06-15,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,ondansetron,Supportive Care,2023-02-22,2023-06-14,PO,8 mg,every 8 hours as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,prochlorperazine,Supportive Care,2023-02-22,2023-06-14,PO,10 mg,every 6 hours as needed,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,dexamethasone,Supportive Care,2023-02-22,2023-06-14,IV,8 mg,pre-chemotherapy each cycle,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,capecitabine,Chemotherapy,2023-07-19,2023-08-30,PO,825 mg/m2,twice daily on radiation days,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,olanzapine,Supportive Care,2023-07-19,2023-08-30,PO,5 mg,nightly,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,gemcitabine,Chemotherapy,2024-01-09,2024-05-28,IV,750 mg/m2,"days 1, 8, 15 of 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,capecitabine,Chemotherapy,2024-01-09,2024-05-28,PO,1247 mg/m2/day,"daily in 2 divided doses, days 1-21 of 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,ondansetron,Supportive Care,2024-01-09,2024-05-28,PO,8 mg,every 8 hours as needed,2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,pegfilgrastim,Supportive Care,2024-03-10,2024-05-15,SC,6 mg,"once per cycle, day 2",2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,octreotide,Supportive Care,2023-10-22,2023-11-28,SC,200 mcg,three times daily,2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,gemcitabine,Chemotherapy,2025-04-17,2025-04-17,IV,1000 mg/m2,"days 1, 8, 15 of 28-day cycle",3,Palliative,8,pancreatic_adeno
+patient_413a774c3193,nab-paclitaxel,Chemotherapy,2025-04-17,2025-04-17,IV,125 mg/m2,"days 1, 8, 15 of 28-day cycle",3,Palliative,8,pancreatic_adeno
+patient_413a774c3193,ondansetron,Supportive Care,2025-04-17,2025-04-17,PO,8 mg,every 8 hours as needed,3,Palliative,8,pancreatic_adeno
+patient_413a774c3193,dexamethasone,Supportive Care,2025-04-17,2025-04-17,IV,8 mg,pre-chemotherapy each infusion day,3,Palliative,8,pancreatic_adeno
+patient_413a774c3193,amlodipine,Supportive Care,2023-01-15,2025-04-17,PO,5 mg,daily,1,Neoadjuvant,8,pancreatic_adeno
+patient_413a774c3193,pancrelipase,Supportive Care,2023-12-26,2025-04-17,PO,72000 units,with each meal,2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,metformin,Supportive Care,2023-12-26,2025-04-17,PO,500 mg,twice daily,2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,insulin glargine,Supportive Care,2023-12-26,2025-04-17,SC,12 units,nightly,2,Adjuvant,8,pancreatic_adeno
+patient_413a774c3193,gabapentin,Supportive Care,2023-12-26,2025-04-17,PO,300 mg,nightly,2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,oxaliplatin,Chemotherapy,2023-10-02,2024-01-22,IV,85 mg/m2 (reduced to 68 mg/m2 after cycle 2),every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,irinotecan,Chemotherapy,2023-10-02,2024-01-22,IV,150 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,leucovorin,Chemotherapy,2023-10-02,2024-01-22,IV,400 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,fluorouracil,Chemotherapy,2023-10-02,2024-01-22,IV,2400 mg/m2 over 46 hours continuous infusion,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,pegfilgrastim,Supportive Care,2023-10-03,2024-01-23,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,ondansetron,Supportive Care,2023-10-02,2024-01-22,IV,8 mg,every 2 weeks on infusion day,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,dexamethasone,Supportive Care,2023-10-02,2024-01-22,IV,12 mg,every 2 weeks on infusion day,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,olanzapine,Supportive Care,2023-10-02,2024-01-22,PO,5 mg,nightly days 1-4 of each cycle,1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,capecitabine,Chemotherapy,2024-02-19,2024-04-01,PO,825 mg/m2 twice daily,daily on radiation days (Monday-Friday),1,Neoadjuvant,8,pancreatic_adeno
+patient_43ac63a01048,gemcitabine,Chemotherapy,2024-08-12,2025-01-20,IV,1000 mg/m2 (reduced to 750 mg/m2 for cycle 6),"days 1, 8, 15 of 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,capecitabine,Chemotherapy,2024-08-12,2025-01-20,PO,1660 mg/m2/day (reduced to 1250 mg/m2/day after cycle 2),twice daily days 1-21 of 28-day cycle,2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,ondansetron,Supportive Care,2024-08-12,2025-01-20,PO,8 mg,as needed for nausea during infusion days,2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,dexamethasone,Supportive Care,2024-08-12,2025-01-20,IV,8 mg,"days 1, 8, 15 of each cycle as premedication",2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,pancrelipase,Supportive Care,2024-07-15,2025-02-17,PO,40000 lipase units per meal,three times daily with meals,2,Adjuvant,8,pancreatic_adeno
+patient_43ac63a01048,octreotide,Supportive Care,2024-06-08,2024-07-01,SC,100 mcg,three times daily,2,Adjuvant,8,pancreatic_adeno
+patient_46ff8f54d685,pembrolizumab,Immunotherapy,2024-02-27,2025-08-20,IV,200 mg,every 3 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,doxorubicin,Chemotherapy,2024-02-27,2024-04-23,IV,60 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,cyclophosphamide,Chemotherapy,2024-02-27,2024-04-23,IV,600 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,paclitaxel,Chemotherapy,2024-05-07,2024-07-16,IV,80 mg/m2 (reduced to 64 mg/m2 weeks 9-12),weekly,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,pegfilgrastim,Supportive Care,2024-02-28,2024-04-24,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,ondansetron,Supportive Care,2024-02-27,2024-07-16,IV,8 mg,prior to each infusion,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,dexamethasone,Supportive Care,2024-02-27,2024-07-16,IV,12 mg,prior to each infusion,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,lorazepam,Supportive Care,2024-02-27,2024-04-23,IV,0.5 mg,prior to each AC infusion,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,prochlorperazine,Supportive Care,2024-03-12,2024-04-23,PO,10 mg,every 6 hours as needed for breakthrough nausea,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,olanzapine,Supportive Care,2024-03-12,2024-04-23,PO,5 mg,nightly x 3 days per AC cycle,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,prednisone,Supportive Care,2024-06-05,2024-07-03,PO,20 mg,daily with 4-week taper,1,Neoadjuvant,1,breast_tnbc
+patient_46ff8f54d685,capecitabine,Chemotherapy,2024-12-10,2025-08-05,PO,1000 mg/m2 (reduced to 750 mg/m2 from cycle 3),twice daily days 1-14 every 21 days,2,Adjuvant,1,breast_tnbc
+patient_46ff8f54d685,loperamide,Supportive Care,2025-02-11,2025-02-16,PO,2 mg,as needed for diarrhea,2,Adjuvant,1,breast_tnbc
+patient_46ff8f54d685,levothyroxine,Supportive Care,2025-03-25,2026-03-15,PO,"75 mcg (initiated at 50 mcg, uptitrated)",daily,1,Adjuvant,1,breast_tnbc
+patient_4fdaf08b1933,carboplatin,Chemotherapy,2021-04-19,2021-08-02,IV,AUC 5 (525 mg calculated),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,paclitaxel,Chemotherapy,2021-04-19,2021-08-02,IV,175 mg/m2 (cycles 1-4); 135 mg/m2 (cycles 5-6),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,dexamethasone,Supportive Care,2021-04-19,2021-08-02,IV,20 mg,day 1 of each cycle (premedication),1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,diphenhydramine,Supportive Care,2021-04-19,2021-08-02,IV,25 mg,day 1 of each cycle (premedication),1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,famotidine,Supportive Care,2021-04-19,2021-08-02,IV,20 mg,day 1 of each cycle (premedication),1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,ondansetron,Supportive Care,2021-04-19,2021-08-02,PO,8 mg,every 8 hours as needed for nausea,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,prochlorperazine,Supportive Care,2021-04-19,2021-08-02,PO,10 mg,every 6 hours as needed for breakthrough nausea,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,pegfilgrastim,Supportive Care,2021-04-20,2021-08-03,SC,6 mg,"once per cycle, day 2",1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,enoxaparin,Supportive Care,2021-02-23,2021-03-22,SC,40 mg,daily for 28 days post-surgery,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,duloxetine,Supportive Care,2021-06-21,2024-09-20,PO,30 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_4fdaf08b1933,niraparib,Targeted Therapy,2021-09-20,2024-09-20,PO,200 mg (starting); reduced to 100 mg after week 5,daily,1,Maintenance,5,ovarian_brca1
+patient_4fdaf08b1933,ondansetron,Supportive Care,2021-09-20,2022-06-01,PO,8 mg,as needed for nausea,1,Maintenance,5,ovarian_brca1
+patient_4fdaf08b1933,amlodipine,Supportive Care,2021-12-15,2025-01-20,PO,5 mg (increased to 10 mg after 2022-01-10),daily,1,Maintenance,5,ovarian_brca1
+patient_4fdaf08b1933,tamsulosin,Supportive Care,2023-07-15,2023-08-12,PO,0.4 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_52e4ee0b1568,leuprolide acetate,Hormonal Therapy,2022-04-01,2026-10-05,IM,22.5 mg,every 3 months,1,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,abiraterone acetate,Hormonal Therapy,2022-04-01,2024-04-05,PO,1000 mg,daily,1,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,prednisone,Supportive Care,2022-04-01,2024-04-05,PO,5 mg,twice daily,1,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,zoledronic acid,Supportive Care,2024-11-05,2026-08-18,IV,4 mg,every 12 weeks,2,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,enzalutamide,Hormonal Therapy,2024-05-02,2025-06-18,PO,160 mg,daily,2,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,olaparib,Targeted Therapy,2025-07-18,2026-03-22,PO,"300 mg (reduced to 200 mg, then 100 mg)",twice daily,3,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,ondansetron,Supportive Care,2025-09-18,2026-10-05,PO,8 mg,every 8 hours as needed,3,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,ferrous sulfate,Supportive Care,2025-09-18,2026-08-18,PO,325 mg,daily,3,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,carboplatin,Chemotherapy,2026-04-03,2026-08-18,IV,AUC 4 (reduced to AUC 3),every 3 weeks,4,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,cabazitaxel,Chemotherapy,2026-04-03,2026-08-18,IV,20 mg/m2 (reduced to 15 mg/m2),every 3 weeks,4,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,filgrastim,Supportive Care,2026-04-03,2026-08-18,SC,300 mcg,"once per cycle, days 2-10",4,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,dexamethasone,Supportive Care,2026-04-03,2026-08-18,IV,8 mg,premedication per cycle,4,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,prochlorperazine,Supportive Care,2026-04-03,2026-10-05,PO,10 mg,every 6 hours as needed,4,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,oxycodone,Supportive Care,2025-06-18,2026-09-15,PO,10 mg ER (escalated to 20 mg ER),every 12 hours,3,Palliative,4,prostate_crpc
+patient_52e4ee0b1568,fentanyl,Supportive Care,2026-08-18,2026-10-05,SC,25 mcg/hour,every 72 hours (transdermal patch),4,Palliative,4,prostate_crpc
+patient_57d41fd5e943,dabrafenib,Targeted Therapy,2024-03-20,2024-11-25,PO,150 mg,twice daily,1,Palliative,3,melanoma_braf
+patient_57d41fd5e943,trametinib,Targeted Therapy,2024-03-20,2024-11-25,PO,2 mg,daily,1,Palliative,3,melanoma_braf
+patient_57d41fd5e943,acetaminophen,Supportive Care,2024-03-20,2024-11-25,PO,650 mg,every 6 hours as needed for pyrexia,1,Palliative,3,melanoma_braf
+patient_57d41fd5e943,ipilimumab,Immunotherapy,2024-12-20,2025-02-10,IV,3 mg/kg,every 3 weeks,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,nivolumab,Immunotherapy,2024-12-20,2025-02-28,IV,1 mg/kg,every 3 weeks,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,ondansetron,Supportive Care,2024-12-20,2025-02-28,IV,8 mg,prior to each infusion,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,diphenhydramine,Supportive Care,2024-12-20,2025-02-28,IV,25 mg,prior to each infusion,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,methylprednisolone,Supportive Care,2025-02-28,2025-03-09,IV,2 mg/kg,daily,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,infliximab,Supportive Care,2025-03-10,2025-03-10,IV,5 mg/kg,single dose,2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,prednisone,Supportive Care,2025-03-09,2025-12-01,PO,80 mg tapering,"daily, taper by 10 mg every 2 weeks",2,Palliative,3,melanoma_braf
+patient_57d41fd5e943,nivolumab,Immunotherapy,2025-04-20,2026-02-20,IV,480 mg,every 4 weeks,2,Maintenance,3,melanoma_braf
+patient_57d41fd5e943,diphenhydramine,Supportive Care,2025-04-20,2026-02-20,IV,25 mg,prior to each infusion,2,Maintenance,3,melanoma_braf
+patient_57d41fd5e943,levothyroxine,Supportive Care,2025-06-25,2026-02-20,PO,75 mcg,daily,2,Maintenance,3,melanoma_braf
+patient_57d41fd5e943,omeprazole,Supportive Care,2025-02-28,2026-01-01,PO,20 mg,daily,2,Palliative,3,melanoma_braf
+patient_5e1ff657679e,oxaliplatin,Chemotherapy,2023-02-20,2023-06-12,IV,85 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,leucovorin,Chemotherapy,2023-02-20,2023-06-12,IV,400 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,irinotecan,Chemotherapy,2023-02-20,2023-06-12,IV,150 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,fluorouracil,Chemotherapy,2023-02-20,2023-06-12,IV,2400 mg/m2,every 2 weeks (46-hour continuous infusion),1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,pegfilgrastim,Supportive Care,2023-02-21,2023-06-13,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,ondansetron,Supportive Care,2023-02-20,2023-06-12,IV,8 mg,"every 2 weeks, pre-chemotherapy",1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,dexamethasone,Supportive Care,2023-02-20,2023-06-12,IV,8 mg,"every 2 weeks, pre-chemotherapy",1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,aprepitant,Supportive Care,2023-02-20,2023-06-12,PO,125 mg,day 1 of each cycle,1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,capecitabine,Chemotherapy,2023-07-12,2023-08-25,PO,825 mg/m2,twice daily on radiation days,1,Neoadjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,gemcitabine,Chemotherapy,2024-01-08,2024-04-22,IV,750 mg/m2,"days 1, 8, 15 of a 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,capecitabine,Chemotherapy,2024-01-08,2024-04-22,PO,1245 mg/m2/day,"twice daily, days 1-21 of a 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,ondansetron,Supportive Care,2024-01-08,2024-04-22,PO,8 mg,every 8 hours as needed,2,Adjuvant,8,pancreatic_adeno
+patient_5e1ff657679e,nanoliposomal irinotecan,Chemotherapy,2024-05-06,2024-07-01,IV,50 mg/m2,every 2 weeks,3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,leucovorin,Chemotherapy,2024-05-06,2024-07-01,IV,400 mg/m2,every 2 weeks,3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,fluorouracil,Chemotherapy,2024-05-06,2024-07-01,IV,1800 mg/m2,every 2 weeks (46-hour continuous infusion),3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,ondansetron,Supportive Care,2024-05-06,2024-07-01,IV,8 mg,"every 2 weeks, pre-chemotherapy",3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,dexamethasone,Supportive Care,2024-05-06,2024-07-01,IV,4 mg,"every 2 weeks, pre-chemotherapy",3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,hydromorphone,Supportive Care,2024-07-15,2024-08-26,SC,0.2-0.4 mg/hour,continuous infusion via PCA,3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,haloperidol,Supportive Care,2024-07-15,2024-08-26,SC,0.5 mg,every 6 hours as needed,3,Palliative,8,pancreatic_adeno
+patient_5e1ff657679e,dexamethasone,Supportive Care,2024-07-15,2024-08-26,PO,2 mg,daily,3,Palliative,8,pancreatic_adeno
+patient_61c72ae48153,osimertinib,Targeted Therapy,2022-09-15,2023-12-01,PO,80 mg,daily,1,Curative,0,nsclc_egfr
+patient_61c72ae48153,loperamide,Supportive Care,2022-09-15,2023-12-01,PO,2 mg,as needed,1,Curative,0,nsclc_egfr
+patient_61c72ae48153,doxycycline,Supportive Care,2022-10-13,2023-02-15,PO,100 mg,daily,1,Curative,0,nsclc_egfr
+patient_61c72ae48153,dexamethasone,Supportive Care,2023-12-22,2024-01-05,PO,4 mg,twice daily with taper,1,Palliative,0,nsclc_egfr
+patient_61c72ae48153,carboplatin,Chemotherapy,2024-01-19,2024-04-26,IV,AUC 5,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,pemetrexed,Chemotherapy,2024-01-19,2024-04-26,IV,500 mg/m2,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,ondansetron,Supportive Care,2024-01-19,2024-04-26,PO,8 mg,every 8 hours as needed on infusion days,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,prochlorperazine,Supportive Care,2024-01-19,2024-04-26,PO,10 mg,every 6 hours as needed,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,dexamethasone,Supportive Care,2024-01-19,2024-04-26,IV,4 mg,premedication day 1 each cycle,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,filgrastim,Supportive Care,2024-02-12,2024-04-26,SC,480 mcg,daily for 5 days starting day 2 of each cycle,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,folic acid,Supportive Care,2024-01-12,2024-08-31,PO,400 mcg,daily,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,cyanocobalamin,Supportive Care,2024-01-12,2024-08-31,IM,1000 mcg,every 9 weeks,2,Palliative,0,nsclc_egfr
+patient_61c72ae48153,pemetrexed,Chemotherapy,2024-05-07,2024-08-08,IV,500 mg/m2,every 3 weeks,3,Maintenance,0,nsclc_egfr
+patient_61c72ae48153,ondansetron,Supportive Care,2024-05-07,2024-08-08,PO,8 mg,every 8 hours as needed on infusion days,3,Maintenance,0,nsclc_egfr
+patient_61c72ae48153,investigational EGFR inhibitor,Targeted Therapy,2024-09-05,2024-10-30,PO,per protocol,daily,4,Palliative,0,nsclc_egfr
+patient_61c72ae48153,investigational PI3K inhibitor,Targeted Therapy,2024-09-05,2024-10-30,PO,per protocol,daily,4,Palliative,0,nsclc_egfr
+patient_61c72ae48153,metformin,Supportive Care,2024-09-05,2024-10-30,PO,1500 mg,daily in divided doses,4,Palliative,0,nsclc_egfr
+patient_6f213d15e6f1,oxaliplatin,Chemotherapy,2023-03-24,2023-08-04,IV,85 mg/m2 (reduced to 65 mg/m2 after cycle 7),every 2 weeks,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,leucovorin,Chemotherapy,2023-03-24,2023-10-27,IV,400 mg/m2,every 2 weeks,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,fluorouracil,Chemotherapy,2023-03-24,2023-10-27,IV,400 mg/m2 bolus + 2400 mg/m2 CI 46h,every 2 weeks,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,bevacizumab,Targeted Therapy,2023-03-24,2023-10-27,IV,5 mg/kg,every 2 weeks,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,ondansetron,Supportive Care,2023-03-24,2023-10-27,PO,8 mg,"as needed, days 1-2 each cycle",1,Palliative,2,crc_kras
+patient_6f213d15e6f1,prochlorperazine,Supportive Care,2023-03-24,2023-10-27,PO,10 mg,every 6 hours as needed for nausea,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,dexamethasone,Supportive Care,2023-03-24,2023-08-04,IV,8 mg,day 1 each cycle pre-chemotherapy,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,irinotecan,Chemotherapy,2023-10-27,2024-06-18,IV,180 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,leucovorin,Chemotherapy,2023-10-27,2024-06-18,IV,400 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,fluorouracil,Chemotherapy,2023-10-27,2024-06-18,IV,400 mg/m2 bolus + 2400 mg/m2 CI 46h,every 2 weeks,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,ramucirumab,Targeted Therapy,2023-10-27,2024-06-18,IV,8 mg/kg,every 2 weeks,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,dexamethasone,Supportive Care,2023-10-27,2024-06-18,IV,8 mg,"day 1 each cycle, pre-irinotecan",2,Palliative,2,crc_kras
+patient_6f213d15e6f1,diphenhydramine,Supportive Care,2023-10-27,2024-06-18,IV,25 mg,"day 1 each cycle, pre-irinotecan",2,Palliative,2,crc_kras
+patient_6f213d15e6f1,loperamide,Supportive Care,2023-10-27,2024-06-18,PO,2 mg,"as needed for diarrhea, up to 8 mg/day",2,Palliative,2,crc_kras
+patient_6f213d15e6f1,investigational KRAS G12D inhibitor,Targeted Therapy,2024-07-02,2024-10-18,PO,protocol-assigned dose level,twice daily with food,3,Palliative,2,crc_kras
+patient_6f213d15e6f1,ondansetron,Supportive Care,2024-07-02,2024-10-18,PO,8 mg,"as needed, approximately 2-3x per week pre-morning dose",3,Palliative,2,crc_kras
+patient_6f213d15e6f1,clindamycin topical,Supportive Care,2024-07-16,2024-10-18,PO,1% gel,twice daily to face and upper chest,3,Palliative,2,crc_kras
+patient_6f213d15e6f1,lisinopril,Supportive Care,2023-01-10,2024-10-18,PO,20 mg (increased from 10 mg at baseline),daily,1,Palliative,2,crc_kras
+patient_6f213d15e6f1,amlodipine,Supportive Care,2023-06-23,2024-10-18,PO,"10 mg (started at 5 mg, escalated to 10 mg during FOLFIRI/ramu)",daily,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,hydrochlorothiazide,Supportive Care,2024-01-20,2024-10-18,PO,12.5 mg,daily,2,Palliative,2,crc_kras
+patient_6f213d15e6f1,atorvastatin,Supportive Care,2023-01-10,2024-10-18,PO,40 mg,nightly,1,Palliative,2,crc_kras
+patient_74369e745ccb,oxaliplatin,Chemotherapy,2023-07-21,2023-11-18,IV,85 mg/m2 (cycles 1-4); reduced to 68 mg/m2 (cycles 5-8),every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,irinotecan,Chemotherapy,2023-07-21,2023-11-18,IV,180 mg/m2 (cycles 1-6); reduced to 135 mg/m2 (cycles 7-8),every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,leucovorin,Chemotherapy,2023-07-21,2023-11-18,IV,400 mg/m2,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,fluorouracil,Chemotherapy,2023-07-21,2023-11-18,IV,400 mg/m2 bolus then 2400 mg/m2 over 46 hours,every 2 weeks,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,pegfilgrastim,Supportive Care,2023-07-22,2023-11-19,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,ondansetron,Supportive Care,2023-07-21,2023-11-18,IV,8 mg,"every 2 weeks, day 1 pre-chemotherapy",1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,dexamethasone,Supportive Care,2023-07-21,2023-11-18,IV,12 mg,"every 2 weeks, day 1 pre-chemotherapy",1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,loperamide,Supportive Care,2023-07-21,2023-11-18,PO,4 mg at onset then 2 mg every 2 hours,as needed for diarrhea,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,capecitabine,Chemotherapy,2023-12-04,2024-01-13,PO,825 mg/m2 BID (reduced to 750 mg/m2 BID for HFS),daily on radiation days,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,ondansetron,Supportive Care,2023-12-04,2024-01-13,PO,8 mg,twice daily as needed for nausea,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,prochlorperazine,Supportive Care,2023-12-04,2024-01-13,PO,10 mg,every 6 hours as needed for breakthrough nausea,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,gemcitabine,Chemotherapy,2024-05-31,2024-10-04,IV,1000 mg/m2,"days 1, 8, 15 of each 28-day cycle",2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,capecitabine,Chemotherapy,2024-05-31,2024-10-04,PO,830 mg/m2 BID (reduced to 750 mg/m2 BID in cycle 2 for HFS),days 1-21 of each 28-day cycle,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,ondansetron,Supportive Care,2024-05-31,2024-10-04,PO,4 mg,every 8 hours as needed for nausea,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,pancrelipase,Supportive Care,2023-09-22,2024-11-01,PO,36000 lipase units,with each meal; 18000 units with snacks,1,Neoadjuvant,8,pancreatic_adeno
+patient_74369e745ccb,octreotide,Supportive Care,2024-04-05,2024-04-26,SC,100 mcg,three times daily,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,piperacillin-tazobactam,Supportive Care,2024-04-05,2024-04-19,IV,3.375 g,every 6 hours,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,duloxetine,Supportive Care,2024-08-09,2024-11-01,PO,30 mg,daily,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,insulin glargine,Supportive Care,2024-02-16,2024-11-01,SC,18 units,once daily at bedtime,2,Adjuvant,8,pancreatic_adeno
+patient_74369e745ccb,insulin aspart,Supportive Care,2024-02-16,2024-11-01,SC,per sliding scale,with each meal,2,Adjuvant,8,pancreatic_adeno
+patient_76efef3f20ea,cytarabine,Chemotherapy,2024-01-22,2024-01-28,IV,100 mg/m2/day continuous infusion,days 1-7,1,Curative,6,aml_flt3
+patient_76efef3f20ea,daunorubicin,Chemotherapy,2024-01-22,2024-01-24,IV,60 mg/m2,"days 1, 2, 3",1,Curative,6,aml_flt3
+patient_76efef3f20ea,midostaurin,Targeted Therapy,2024-01-30,2024-02-12,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_76efef3f20ea,ondansetron,Supportive Care,2024-01-22,2024-02-12,IV,8 mg,every 8 hours scheduled,1,Curative,6,aml_flt3
+patient_76efef3f20ea,dexamethasone,Supportive Care,2024-01-22,2024-01-24,IV,8 mg,daily days 1-3,1,Curative,6,aml_flt3
+patient_76efef3f20ea,fluconazole,Supportive Care,2024-01-22,2024-02-19,PO,400 mg,daily,1,Curative,6,aml_flt3
+patient_76efef3f20ea,levofloxacin,Supportive Care,2024-01-22,2024-02-19,PO,500 mg,daily,1,Curative,6,aml_flt3
+patient_76efef3f20ea,valacyclovir,Supportive Care,2024-01-22,2024-02-19,PO,500 mg,twice daily,1,Curative,6,aml_flt3
+patient_76efef3f20ea,allopurinol,Supportive Care,2024-01-22,2024-02-05,PO,300 mg,daily,1,Curative,6,aml_flt3
+patient_76efef3f20ea,lorazepam,Supportive Care,2024-01-22,2024-02-12,IV,0.5 mg,as needed for breakthrough nausea,1,Curative,6,aml_flt3
+patient_76efef3f20ea,cefepime,Supportive Care,2024-02-01,2024-02-06,IV,2 g,every 8 hours,1,Curative,6,aml_flt3
+patient_76efef3f20ea,fludarabine,Chemotherapy,2024-03-12,2024-03-16,IV,30 mg/m2,daily days -6 through -2,2,Curative,6,aml_flt3
+patient_76efef3f20ea,busulfan,Chemotherapy,2024-03-13,2024-03-16,IV,3.2 mg/kg,daily days -5 through -2,2,Curative,6,aml_flt3
+patient_76efef3f20ea,tacrolimus,Supportive Care,2024-03-15,2024-11-18,PO,variable per trough,"daily, target trough 10-15 ng/mL with taper",2,Curative,6,aml_flt3
+patient_76efef3f20ea,methotrexate,Chemotherapy,2024-03-19,2024-03-29,IV,"15 mg/m2 day +1; 10 mg/m2 days +3, +6, +11","days +1, +3, +6, +11",2,Curative,6,aml_flt3
+patient_76efef3f20ea,levetiracetam,Supportive Care,2024-03-13,2024-03-17,PO,500 mg,twice daily during busulfan dosing,2,Curative,6,aml_flt3
+patient_76efef3f20ea,acyclovir,Supportive Care,2024-03-12,2025-03-18,PO,400 mg,twice daily (antiviral prophylaxis post-transplant),2,Curative,6,aml_flt3
+patient_76efef3f20ea,trimethoprim-sulfamethoxazole,Supportive Care,2024-03-12,2025-03-18,PO,80/400 mg,daily (PCP prophylaxis),2,Curative,6,aml_flt3
+patient_76efef3f20ea,ondansetron,Supportive Care,2024-03-12,2024-03-28,IV,8 mg,every 8 hours during conditioning and engraftment,2,Curative,6,aml_flt3
+patient_76efef3f20ea,cefepime,Supportive Care,2024-03-26,2024-03-29,IV,2 g,every 8 hours (febrile neutropenia day +8),2,Curative,6,aml_flt3
+patient_76efef3f20ea,lisinopril,Supportive Care,2024-01-22,2025-03-25,PO,10 mg,"daily (held during induction, resumed post-discharge)",1,Curative,6,aml_flt3
+patient_79ab2421610a,carboplatin,Chemotherapy,2022-06-01,2022-09-14,IV,AUC 6 (612 mg),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,paclitaxel,Chemotherapy,2022-06-01,2022-09-14,IV,175 mg/m2 (304 mg),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,dexamethasone,Supportive Care,2022-06-01,2022-09-14,IV,20 mg (40 mg cycles 5-6 desensitization),"every 3 weeks, day 1 premedication",1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,ondansetron,Supportive Care,2022-06-01,2022-09-14,IV,8 mg,"every 3 weeks, day 1 premedication; PRN thereafter",1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,diphenhydramine,Supportive Care,2022-06-01,2022-09-14,IV,50 mg,"every 3 weeks, day 1 premedication",1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,pegfilgrastim,Supportive Care,2022-06-02,2022-09-15,SC,6 mg,"once per cycle, day 2",1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,prochlorperazine,Supportive Care,2022-06-01,2022-09-14,PO,10 mg,every 6 hours PRN breakthrough nausea,1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,niraparib,Targeted Therapy,2022-10-05,2024-04-10,PO,200 mg (reduced to 100 mg after cycle 1 hold for thrombocytopenia),daily,1,Maintenance,5,ovarian_brca1
+patient_79ab2421610a,ondansetron,Supportive Care,2022-10-05,2024-04-10,PO,8 mg,"daily, 30 minutes before niraparib dose",1,Maintenance,5,ovarian_brca1
+patient_79ab2421610a,ferrous sulfate,Supportive Care,2023-01-11,2023-04-10,PO,325 mg,twice daily,1,Maintenance,5,ovarian_brca1
+patient_79ab2421610a,levothyroxine,Supportive Care,2022-03-15,2024-04-10,PO,75 mcg,daily,1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,amlodipine,Supportive Care,2022-03-15,2024-04-10,PO,5 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_79ab2421610a,escitalopram,Supportive Care,2023-07-05,2024-04-10,PO,10 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_79ab2421610a,enoxaparin,Supportive Care,2022-04-21,2022-05-18,SC,40 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_7b0010fa7aba,dabrafenib,Targeted Therapy,2021-03-01,2021-11-03,PO,150 mg (reduced to 100 mg after month 4),twice daily,1,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,trametinib,Targeted Therapy,2021-03-01,2021-11-03,PO,2 mg,daily,1,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,acetaminophen,Supportive Care,2021-03-01,2021-11-03,PO,650 mg,as needed for fever,1,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,triamcinolone topical,Supportive Care,2021-03-22,2021-05-01,PO,0.1% cream,as needed for rash,1,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,ipilimumab,Immunotherapy,2021-11-10,2021-12-01,IV,1 mg/kg,every 3 weeks,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,nivolumab,Immunotherapy,2021-11-10,2023-05-09,IV,3 mg/kg (induction); 480 mg flat dose (maintenance),"every 3 weeks x4 doses, then every 4 weeks",2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,diphenhydramine,Supportive Care,2021-11-10,2023-05-09,IV,25 mg,prior to each infusion,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,methylprednisolone,Supportive Care,2021-12-22,2021-12-27,IV,2 mg/kg/day,daily,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,prednisone,Supportive Care,2021-12-27,2022-02-01,PO,80 mg (tapered over 6-8 weeks),daily with taper,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,omeprazole,Supportive Care,2021-12-27,2023-11-15,PO,20 mg,daily,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,levothyroxine,Supportive Care,2021-01-01,2023-11-15,PO,75 mcg (uptitrated to 100 mcg then 125 mcg),daily,1,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,calcium carbonate,Supportive Care,2021-12-27,2023-11-15,PO,500 mg,twice daily,2,Palliative,3,melanoma_braf
+patient_7b0010fa7aba,cholecalciferol,Supportive Care,2021-12-27,2023-11-15,PO,2000 IU,daily,2,Palliative,3,melanoma_braf
+patient_81044cbb20ca,oxaliplatin,Chemotherapy,2023-02-11,2023-08-05,IV,85 mg/m2 (reduced to 65 mg/m2 after cycle 9),every 2 weeks,1,Palliative,2,crc_kras
+patient_81044cbb20ca,leucovorin,Chemotherapy,2023-02-11,2024-04-13,IV,400 mg/m2,every 2 weeks,1,Palliative,2,crc_kras
+patient_81044cbb20ca,fluorouracil,Chemotherapy,2023-02-11,2024-04-13,IV,400 mg/m2 bolus + 2400 mg/m2 over 46 hours,every 2 weeks,1,Palliative,2,crc_kras
+patient_81044cbb20ca,bevacizumab,Targeted Therapy,2023-02-11,2024-04-13,IV,5 mg/kg,every 2 weeks,1,Palliative,2,crc_kras
+patient_81044cbb20ca,ondansetron,Supportive Care,2023-02-11,2024-04-13,IV,8 mg,prior to each infusion,1,Palliative,2,crc_kras
+patient_81044cbb20ca,dexamethasone,Supportive Care,2023-02-11,2024-04-13,IV,12 mg,prior to each infusion,1,Palliative,2,crc_kras
+patient_81044cbb20ca,pegfilgrastim,Supportive Care,2023-02-25,2023-08-19,SC,6 mg,"once per cycle, day 2",1,Palliative,2,crc_kras
+patient_81044cbb20ca,irinotecan,Chemotherapy,2023-11-04,2024-04-13,IV,"150 mg/m2 (reduced to 135 mg/m2, then 120 mg/m2)",every 2 weeks,2,Palliative,2,crc_kras
+patient_81044cbb20ca,leucovorin,Chemotherapy,2023-11-04,2024-04-13,IV,400 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_81044cbb20ca,fluorouracil,Chemotherapy,2023-11-04,2024-04-13,IV,400 mg/m2 bolus + 2400 mg/m2 over 46 hours,every 2 weeks,2,Palliative,2,crc_kras
+patient_81044cbb20ca,ramucirumab,Targeted Therapy,2023-11-04,2024-04-13,IV,8 mg/kg,every 2 weeks,2,Palliative,2,crc_kras
+patient_81044cbb20ca,ondansetron,Supportive Care,2023-11-04,2024-04-13,PO,8 mg,every 8 hours as needed,2,Palliative,2,crc_kras
+patient_81044cbb20ca,dexamethasone,Supportive Care,2023-11-04,2024-04-13,PO,4 mg,evening before and morning of infusion,2,Palliative,2,crc_kras
+patient_81044cbb20ca,filgrastim,Supportive Care,2023-12-02,2023-12-06,SC,5 mcg/kg,daily until ANC recovery,2,Palliative,2,crc_kras
+patient_81044cbb20ca,duloxetine,Supportive Care,2023-06-10,2024-07-13,PO,60 mg,daily,1,Palliative,2,crc_kras
+patient_81044cbb20ca,lisinopril,Supportive Care,2023-03-11,2024-07-13,PO,20 mg,daily,1,Palliative,2,crc_kras
+patient_8450026f301a,osimertinib,Targeted Therapy,2022-02-25,2023-06-10,PO,80 mg,daily,1,Curative,0,nsclc_egfr
+patient_8450026f301a,doxycycline,Supportive Care,2022-04-25,2022-05-25,PO,100 mg,twice daily,1,Curative,0,nsclc_egfr
+patient_8450026f301a,loperamide,Supportive Care,2022-06-25,2022-08-01,PO,2 mg,as needed,1,Curative,0,nsclc_egfr
+patient_8450026f301a,dexamethasone,Supportive Care,2023-05-25,2023-06-01,PO,4 mg,"twice daily, taper over 7 days",1,Curative,0,nsclc_egfr
+patient_8450026f301a,carboplatin,Chemotherapy,2023-06-15,2023-09-17,IV,AUC 5,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,pemetrexed,Chemotherapy,2023-06-15,2024-05-05,IV,500 mg/m2,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,bevacizumab,Targeted Therapy,2023-06-15,2024-05-05,IV,15 mg/kg,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,ondansetron,Supportive Care,2023-06-15,2024-05-05,IV,8 mg,every 8 hours on infusion days,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,dexamethasone,Supportive Care,2023-06-15,2024-05-05,IV,12 mg,pre-medication day 1 each cycle,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,folic acid,Supportive Care,2023-06-01,2024-05-05,PO,400 mcg,daily,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,vitamin B12,Supportive Care,2023-06-01,2024-05-05,IM,1000 mcg,every 9 weeks,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,duloxetine,Supportive Care,2024-02-05,2024-07-15,PO,60 mg,daily,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,amlodipine,Supportive Care,2024-02-05,2024-07-15,PO,5 mg,daily,2,Palliative,0,nsclc_egfr
+patient_8450026f301a,dexamethasone,Supportive Care,2024-05-28,2024-06-18,PO,4 mg,"twice daily, taper over 3 weeks",3,Palliative,0,nsclc_egfr
+patient_8450026f301a,ABBV-CLS-484 (investigational EGFR/MET bispecific antibody),Targeted Therapy,2024-06-15,2024-07-15,IV,per protocol,every 3 weeks,3,Palliative,0,nsclc_egfr
+patient_8450026f301a,investigational anti-PD-L1 agent,Immunotherapy,2024-06-15,2024-07-15,IV,per protocol,every 3 weeks,3,Palliative,0,nsclc_egfr
+patient_8450026f301a,ondansetron,Supportive Care,2024-06-15,2024-07-15,IV,8 mg,pre-medication each infusion,3,Palliative,0,nsclc_egfr
+patient_8450026f301a,diphenhydramine,Supportive Care,2024-06-15,2024-07-15,IV,25 mg,pre-medication each infusion,3,Palliative,0,nsclc_egfr
+patient_87d9560fa8eb,leuprolide acetate,Hormonal Therapy,2020-04-01,2023-11-15,IM,22.5 mg,every 3 months,1,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,abiraterone acetate,Hormonal Therapy,2020-04-01,2022-05-10,PO,1000 mg,daily,1,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,prednisone,Supportive Care,2020-04-01,2022-05-10,PO,5 mg,twice daily,1,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,enzalutamide,Hormonal Therapy,2022-05-18,2022-12-05,PO,160 mg,daily,2,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,denosumab,Supportive Care,2022-05-18,2023-11-15,SC,120 mg,every 4 weeks,2,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,calcium carbonate,Supportive Care,2020-04-01,2023-11-15,PO,500 mg,twice daily,1,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,cholecalciferol,Supportive Care,2020-04-01,2023-11-15,PO,1000 IU,daily,1,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,olaparib,Targeted Therapy,2023-01-18,2023-11-08,PO,300 mg (reduced to 200 mg after cycle 2),twice daily,3,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,ondansetron,Supportive Care,2023-01-18,2023-11-08,PO,8 mg,as needed,3,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,ferric carboxymaltose,Supportive Care,2023-04-22,2023-07-19,IV,750 mg,as needed for iron deficiency,3,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,carboplatin,Chemotherapy,2023-11-15,2023-11-15,IV,AUC 5,"every 3 weeks, day 1",4,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,etoposide,Chemotherapy,2023-11-15,2023-11-17,IV,100 mg/m2,days 1-3 every 3 weeks,4,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,ondansetron,Supportive Care,2023-11-15,2023-11-17,IV,8 mg,every 8 hours on infusion days,4,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,dexamethasone,Supportive Care,2023-11-15,2023-11-17,IV,12 mg,daily on infusion days,4,Palliative,4,prostate_crpc
+patient_87d9560fa8eb,pegfilgrastim,Supportive Care,2023-11-17,2023-11-17,SC,6 mg,"once per cycle, day 3",4,Palliative,4,prostate_crpc
+patient_8a9145990682,pembrolizumab,Immunotherapy,2023-02-10,2024-03-18,IV,200 mg,every 3 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,doxorubicin,Chemotherapy,2023-02-10,2023-03-24,IV,60 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,cyclophosphamide,Chemotherapy,2023-02-10,2023-03-24,IV,600 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,pegfilgrastim,Supportive Care,2023-02-11,2023-03-25,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,ondansetron,Supportive Care,2023-02-10,2023-03-24,IV,8 mg,prior to each chemotherapy infusion,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,dexamethasone,Supportive Care,2023-02-10,2023-06-19,IV,12 mg,prior to each chemotherapy infusion,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,paclitaxel,Chemotherapy,2023-04-10,2023-06-19,IV,80 mg/m2 (reduced to 64 mg/m2 from week 7),weekly,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,diphenhydramine,Supportive Care,2023-04-10,2023-06-19,IV,25 mg,prior to each paclitaxel infusion,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,atenolol,Supportive Care,2023-03-07,2023-04-05,PO,25 mg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,levothyroxine,Supportive Care,2023-03-28,2024-12-18,PO,75 mcg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_8a9145990682,capecitabine,Chemotherapy,2023-09-05,2024-02-28,PO,1710 mg (reduced to 1250 mg BID from cycle 4),"twice daily, days 1-14 q21d",2,Adjuvant,1,breast_tnbc
+patient_8a9145990682,pembrolizumab,Immunotherapy,2023-09-05,2024-03-18,IV,200 mg,every 3 weeks,2,Adjuvant,1,breast_tnbc
+patient_8a9145990682,prednisone,Supportive Care,2024-03-18,2024-04-30,PO,60 mg,daily with taper over 6 weeks,2,Adjuvant,1,breast_tnbc
+patient_8a9145990682,venlafaxine,Supportive Care,2024-06-12,2024-12-18,PO,75 mg,daily,2,Adjuvant,1,breast_tnbc
+patient_91f8ac36c602,leuprolide acetate,Hormonal Therapy,2021-04-05,2025-07-10,IM,22.5 mg,every 3 months,1,Palliative,4,prostate_crpc
+patient_91f8ac36c602,abiraterone acetate,Hormonal Therapy,2021-04-05,2023-04-20,PO,1000 mg,daily,1,Palliative,4,prostate_crpc
+patient_91f8ac36c602,prednisone,Supportive Care,2021-04-05,2023-04-20,PO,5 mg,twice daily,1,Palliative,4,prostate_crpc
+patient_91f8ac36c602,bicalutamide,Hormonal Therapy,2021-04-05,2021-05-03,PO,50 mg,daily,1,Palliative,4,prostate_crpc
+patient_91f8ac36c602,enzalutamide,Hormonal Therapy,2023-04-20,2023-12-06,PO,160 mg,daily,2,Palliative,4,prostate_crpc
+patient_91f8ac36c602,olaparib,Targeted Therapy,2024-01-08,2024-12-09,PO,300 mg (reduced to 200 mg then 150 mg per dose modifications),twice daily,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,denosumab,Supportive Care,2024-01-08,2025-07-10,SC,120 mg,every 4 weeks,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,calcium carbonate,Supportive Care,2024-01-08,2025-07-10,PO,500 mg,daily,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,cholecalciferol,Supportive Care,2024-01-08,2025-07-10,PO,400 IU,daily,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,ondansetron,Supportive Care,2024-04-10,2024-12-09,PO,8 mg,as needed,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,darbepoetin alfa,Supportive Care,2024-09-05,2024-12-09,SC,500 mcg,every 3 weeks,3,Palliative,4,prostate_crpc
+patient_91f8ac36c602,docetaxel,Chemotherapy,2025-01-07,2025-06-05,IV,60 mg/m2 (reduced to 55 mg/m2 after cycle 1),every 3 weeks,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,carboplatin,Chemotherapy,2025-01-07,2025-06-05,IV,AUC 4,every 3 weeks,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,dexamethasone,Supportive Care,2025-01-07,2025-06-05,IV,8 mg,day 1 every 3 weeks,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,ondansetron,Supportive Care,2025-01-07,2025-06-05,IV,8 mg,day 1 every 3 weeks,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,filgrastim,Supportive Care,2025-01-07,2025-06-05,SC,300 mcg,days 2-7 every 3 weeks,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,prochlorperazine,Supportive Care,2025-01-07,2025-06-05,PO,10 mg,every 6 hours as needed,4,Palliative,4,prostate_crpc
+patient_91f8ac36c602,lutetium-177 PSMA-617,Targeted Therapy,2025-07-10,2025-07-10,IV,7.4 GBq,every 6 weeks,5,Palliative,4,prostate_crpc
+patient_96f97c2435a0,cytarabine,Chemotherapy,2025-01-12,2025-01-18,IV,100 mg/m2/day,continuous infusion days 1-7,1,Curative,6,aml_flt3
+patient_96f97c2435a0,daunorubicin,Chemotherapy,2025-01-12,2025-01-14,IV,60 mg/m2,daily days 1-3,1,Curative,6,aml_flt3
+patient_96f97c2435a0,midostaurin,Targeted Therapy,2025-01-20,2025-02-02,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_96f97c2435a0,ondansetron,Supportive Care,2025-01-12,2025-02-02,IV,8 mg,every 8 hours PRN nausea,1,Curative,6,aml_flt3
+patient_96f97c2435a0,dexamethasone,Supportive Care,2025-01-12,2025-01-14,IV,8 mg,daily with chemotherapy,1,Curative,6,aml_flt3
+patient_96f97c2435a0,allopurinol,Supportive Care,2025-01-10,2025-02-05,PO,300 mg,daily,1,Curative,6,aml_flt3
+patient_96f97c2435a0,prochlorperazine,Supportive Care,2025-01-26,2025-02-14,PO,10 mg,every 6 hours PRN nausea,1,Curative,6,aml_flt3
+patient_96f97c2435a0,cefepime,Supportive Care,2025-01-22,2025-02-05,IV,2 g,every 8 hours,1,Curative,6,aml_flt3
+patient_96f97c2435a0,micafungin,Supportive Care,2025-01-22,2025-02-05,IV,150 mg,daily,1,Curative,6,aml_flt3
+patient_96f97c2435a0,fludarabine,Chemotherapy,2025-03-11,2025-03-14,IV,40 mg/m2,daily days -6 through -3,2,Curative,6,aml_flt3
+patient_96f97c2435a0,busulfan,Chemotherapy,2025-03-11,2025-03-14,IV,3.2 mg/kg,"daily days -6 through -3 (PK-dosed, target AUC 4000-5000 umol*min/L/day)",2,Curative,6,aml_flt3
+patient_96f97c2435a0,tacrolimus,Supportive Care,2025-03-14,2026-02-17,IV,0.03 mg/kg/day,"continuous infusion, then transition to PO; taper starting day +100",2,Curative,6,aml_flt3
+patient_96f97c2435a0,methotrexate,Chemotherapy,2025-03-18,2025-03-28,IV,"15 mg/m2 (day +1); 10 mg/m2 (days +3, +6, +11)","days +1, +3, +6, +11",2,Curative,6,aml_flt3
+patient_96f97c2435a0,letermovir,Supportive Care,2025-03-18,2026-03-18,PO,480 mg,daily,2,Curative,6,aml_flt3
+patient_96f97c2435a0,levetiracetam,Supportive Care,2025-03-11,2025-03-17,PO,500 mg,twice daily (anti-seizure prophylaxis during busulfan),2,Curative,6,aml_flt3
+patient_96f97c2435a0,acyclovir,Supportive Care,2025-03-18,2026-04-08,PO,400 mg,twice daily,2,Curative,6,aml_flt3
+patient_96f97c2435a0,trimethoprim-sulfamethoxazole,Supportive Care,2025-04-10,2026-04-08,PO,160/800 mg (DS),Monday/Wednesday/Friday,2,Curative,6,aml_flt3
+patient_96f97c2435a0,budesonide,Supportive Care,2025-07-20,2026-01-08,PO,3 mg,three times daily (GI cGVHD),2,Curative,6,aml_flt3
+patient_96f97c2435a0,clobetasol,Supportive Care,2025-07-20,2026-04-08,topical,0.05% ointment,twice daily to affected skin areas (cGVHD),2,Curative,6,aml_flt3
+patient_96f97c2435a0,levothyroxine,Supportive Care,2025-01-10,2026-10-08,PO,75 mcg,daily (pre-existing hypothyroidism),1,Curative,6,aml_flt3
+patient_9712b5ef6ac4,ipilimumab,Immunotherapy,2022-12-13,2023-03-21,IV,1 mg/kg,every 3 weeks x4 doses (1 dose held and delayed due to colitis),1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,nivolumab,Immunotherapy,2022-12-13,2023-09-12,IV,3 mg/kg (induction) then 480 mg (maintenance),"every 3 weeks x4 induction doses, then every 4 weeks maintenance",1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,ondansetron,Supportive Care,2022-12-13,2023-09-12,PO,4 mg,every 8 hours as needed,1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,acetaminophen,Supportive Care,2022-12-13,2023-09-12,PO,650 mg,pre-infusion,1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,diphenhydramine,Supportive Care,2022-12-13,2023-09-12,IV,25 mg,pre-infusion,1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,budesonide,Supportive Care,2023-02-21,2023-04-15,PO,9 mg,"daily, tapered to 6 mg then 3 mg over 6 weeks",1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,levothyroxine,Supportive Care,2023-05-20,2024-07-09,PO,100 mcg,"daily (started at 50 mcg, titrated to 75 mcg, then 100 mcg)",1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,cabozantinib,Targeted Therapy,2023-09-26,2024-07-09,PO,40 mg (reduced from 60 mg due to hand-foot syndrome and diarrhea),daily,2,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,loperamide,Supportive Care,2023-09-26,2024-07-09,PO,"4 mg initial, 2 mg after each loose stool",as needed for diarrhea,2,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,lisinopril,Supportive Care,2023-11-07,2024-07-09,PO,10 mg,daily,2,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,amlodipine,Supportive Care,2022-09-28,2024-07-09,PO,10 mg,daily,1,Palliative,7,rcc_clear
+patient_9712b5ef6ac4,atorvastatin,Supportive Care,2022-09-28,2024-07-09,PO,40 mg,daily at bedtime,1,Palliative,7,rcc_clear
+patient_98035ce1e186,cytarabine,Chemotherapy,2022-09-05,2022-09-11,IV,200 mg/m2/day,continuous infusion days 1-7,1,Curative,6,aml_flt3
+patient_98035ce1e186,daunorubicin,Chemotherapy,2022-09-05,2022-09-07,IV,60 mg/m2,"days 1, 2, 3",1,Curative,6,aml_flt3
+patient_98035ce1e186,midostaurin,Targeted Therapy,2022-09-13,2022-09-26,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_98035ce1e186,ondansetron,Supportive Care,2022-09-05,2022-09-26,IV,8 mg,every 8 hours as needed,1,Curative,6,aml_flt3
+patient_98035ce1e186,dexamethasone,Supportive Care,2022-09-05,2022-09-11,IV,8 mg,twice daily with chemotherapy,1,Curative,6,aml_flt3
+patient_98035ce1e186,allopurinol,Supportive Care,2022-09-05,2022-09-19,PO,300 mg,daily,1,Curative,6,aml_flt3
+patient_98035ce1e186,levofloxacin,Supportive Care,2022-09-05,2022-11-06,PO,500 mg,daily,1,Curative,6,aml_flt3
+patient_98035ce1e186,fluconazole,Supportive Care,2022-09-05,2023-03-17,PO,400 mg,daily,1,Curative,6,aml_flt3
+patient_98035ce1e186,acyclovir,Supportive Care,2022-09-05,2024-05-30,PO,400 mg,three times daily,1,Curative,6,aml_flt3
+patient_98035ce1e186,cytarabine,Chemotherapy,2022-11-07,2022-11-12,IV,1.5 g/m2,"every 12 hours days 1, 3, 5 (6 doses)",1,Curative,6,aml_flt3
+patient_98035ce1e186,midostaurin,Targeted Therapy,2022-11-15,2022-11-28,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_98035ce1e186,prednisolone ophthalmic,Supportive Care,2022-11-09,2022-11-25,PO,1% drops,four times daily bilaterally,1,Curative,6,aml_flt3
+patient_98035ce1e186,fludarabine,Chemotherapy,2022-12-01,2022-12-04,IV,40 mg/m2/day,daily days -6 to -3,2,Curative,6,aml_flt3
+patient_98035ce1e186,busulfan,Chemotherapy,2022-12-01,2022-12-04,IV,3.2 mg/kg/day,daily days -6 to -3 (PK-guided),2,Curative,6,aml_flt3
+patient_98035ce1e186,anti-thymocyte globulin,Immunotherapy,2022-12-04,2022-12-06,IV,2.5 mg/kg/day,"daily days -3, -2, -1 (total 7.5 mg/kg)",2,Curative,6,aml_flt3
+patient_98035ce1e186,tacrolimus,Supportive Care,2022-12-04,2024-05-30,PO,per trough monitoring,"twice daily, dose adjusted to target trough 8-12 ng/mL",2,Curative,6,aml_flt3
+patient_98035ce1e186,methotrexate,Chemotherapy,2022-12-08,2022-12-18,IV,"15 mg/m2 day+1, then 10 mg/m2","days +1, +3, +6, +11",2,Curative,6,aml_flt3
+patient_98035ce1e186,ondansetron,Supportive Care,2022-12-01,2022-12-28,IV,8 mg,every 8 hours as needed,2,Curative,6,aml_flt3
+patient_98035ce1e186,valganciclovir,Supportive Care,2023-01-04,2023-03-01,PO,900 mg,twice daily (pre-emptive CMV treatment),2,Curative,6,aml_flt3
+patient_98035ce1e186,trimethoprim-sulfamethoxazole,Supportive Care,2022-09-05,2024-05-30,PO,1 DS tablet,three times weekly,2,Curative,6,aml_flt3
+patient_98035ce1e186,metformin,Supportive Care,2023-03-07,2024-05-30,PO,1000 mg,twice daily,2,Curative,6,aml_flt3
+patient_98035ce1e186,topical tacrolimus,Supportive Care,2023-03-17,2024-02-01,PO,0.1% ointment,twice daily to affected skin areas,2,Curative,6,aml_flt3
+patient_98035ce1e186,cyclosporine ophthalmic emulsion,Supportive Care,2023-04-01,2024-05-30,PO,0.05% drops,1 drop each eye twice daily,2,Curative,6,aml_flt3
+patient_98035ce1e186,transdermal estradiol,Hormonal Therapy,2024-01-01,2024-05-30,PO,0.05 mg/24h patch,changed twice weekly,2,Curative,6,aml_flt3
+patient_98035ce1e186,micronized progesterone,Hormonal Therapy,2024-01-01,2024-05-30,PO,100 mg,nightly,2,Curative,6,aml_flt3
+patient_98035ce1e186,lisinopril,Supportive Care,2023-09-01,2024-05-30,PO,5 mg,daily,2,Curative,6,aml_flt3
+patient_988b151a82bf,dabrafenib,Targeted Therapy,2024-02-22,2024-08-29,PO,150 mg,twice daily,1,Palliative,3,melanoma_braf
+patient_988b151a82bf,trametinib,Targeted Therapy,2024-02-22,2024-08-29,PO,2 mg,once daily,1,Palliative,3,melanoma_braf
+patient_988b151a82bf,ondansetron,Supportive Care,2024-02-22,2024-08-29,PO,8 mg,"as needed, up to three times daily",1,Palliative,3,melanoma_braf
+patient_988b151a82bf,loperamide,Supportive Care,2024-02-22,2024-08-29,PO,2 mg,as needed for diarrhea,1,Palliative,3,melanoma_braf
+patient_988b151a82bf,ipilimumab,Immunotherapy,2024-09-01,2024-09-22,IV,3 mg/kg,every 3 weeks for 4 cycles (discontinued after 2 cycles due to toxicity),2,Palliative,3,melanoma_braf
+patient_988b151a82bf,nivolumab,Immunotherapy,2024-09-01,2024-09-22,IV,1 mg/kg,every 3 weeks for 4 cycles (held after 2 cycles due to toxicity),2,Palliative,3,melanoma_braf
+patient_988b151a82bf,methylprednisolone,Supportive Care,2024-10-06,2024-10-09,IV,1 mg/kg/day,once daily,2,Palliative,3,melanoma_braf
+patient_988b151a82bf,infliximab,Supportive Care,2024-10-09,2024-10-09,IV,5 mg/kg,single dose,2,Palliative,3,melanoma_braf
+patient_988b151a82bf,prednisone,Supportive Care,2024-10-10,2024-12-07,PO,"1 mg/kg/day, tapering over 8 weeks",once daily with taper,2,Palliative,3,melanoma_braf
+patient_988b151a82bf,levothyroxine,Supportive Care,2024-11-01,2026-06-03,PO,75 mcg,once daily,2,Palliative,3,melanoma_braf
+patient_988b151a82bf,nivolumab,Immunotherapy,2024-12-10,2026-06-03,IV,480 mg,every 4 weeks,2,Maintenance,3,melanoma_braf
+patient_a0f169797af0,carboplatin,Chemotherapy,2022-04-11,2022-07-25,IV,AUC 5,every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,paclitaxel,Chemotherapy,2022-04-11,2022-07-25,IV,175 mg/m2 (reduced to 155 mg/m2 cycle 6),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,dexamethasone,Supportive Care,2022-04-11,2022-07-25,IV,20 mg,"pre-chemotherapy each cycle, then 4 mg BID x2 days post-cycle",1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,ondansetron,Supportive Care,2022-04-11,2022-07-25,IV,8 mg,"pre-chemotherapy, then 8 mg orally TID x3 days post-cycle",1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,diphenhydramine,Supportive Care,2022-04-11,2022-07-25,IV,25 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,famotidine,Supportive Care,2022-04-11,2022-07-25,IV,20 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,prochlorperazine,Supportive Care,2022-04-11,2022-07-25,PO,10 mg,PRN breakthrough nausea,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,duloxetine,Supportive Care,2022-08-08,2025-01-06,PO,60 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_a0f169797af0,niraparib,Targeted Therapy,2022-09-19,2025-01-06,PO,200 mg (reduced to 100 mg after grade 3 thrombocytopenia),daily,1,Maintenance,5,ovarian_brca1
+patient_a0f169797af0,lisinopril,Supportive Care,2022-09-19,2025-01-06,PO,20 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_a0f169797af0,amlodipine,Supportive Care,2023-05-22,2025-01-06,PO,5 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_a6d93fc56e31,dabrafenib,Targeted Therapy,2023-02-10,2023-10-17,PO,"150 mg (reduced to 100 mg at 6 weeks, re-escalated to 150 mg at 3 months)",twice daily,1,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,trametinib,Targeted Therapy,2023-02-10,2023-10-17,PO,"2 mg (reduced to 1.5 mg at 6 weeks, re-escalated to 2 mg at 3 months)",once daily,1,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,ondansetron,Supportive Care,2023-02-10,2023-10-17,PO,4 mg,as needed for nausea,1,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,loratadine,Supportive Care,2023-03-24,2023-10-17,PO,10 mg,once daily as needed,1,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,ipilimumab,Immunotherapy,2023-11-18,2023-12-09,IV,3 mg/kg,every 3 weeks (permanently discontinued after 2 cycles due to grade 3 colitis),2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,nivolumab,Immunotherapy,2023-11-18,2023-12-09,IV,1 mg/kg,every 3 weeks (held during colitis hospitalization),2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,triamcinolone,Supportive Care,2023-12-02,2024-01-15,PO,0.1% cream,topically twice daily as needed,2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,methylprednisolone,Supportive Care,2023-12-30,2024-01-04,IV,1 mg/kg/day,once daily,2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,prednisone,Supportive Care,2024-01-05,2024-03-10,PO,"1 mg/kg/day (60 mg), taper over 8 weeks",once daily with taper,2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,pantoprazole,Supportive Care,2023-12-30,2024-03-10,PO,40 mg,once daily,2,Palliative,3,melanoma_braf
+patient_a6d93fc56e31,nivolumab,Immunotherapy,2024-03-15,2025-01-15,IV,480 mg,every 4 weeks,3,Maintenance,3,melanoma_braf
+patient_a6d93fc56e31,levothyroxine,Supportive Care,2024-04-12,2025-01-15,PO,"75 mcg (started at 50 mcg, titrated to 75 mcg)",once daily,3,Maintenance,3,melanoma_braf
+patient_a6d93fc56e31,cetirizine,Supportive Care,2023-12-09,2024-02-01,PO,10 mg,once daily as needed,2,Palliative,3,melanoma_braf
+patient_b073d87a11bd,cisplatin,Chemotherapy,2023-03-13,2023-04-24,IV,40 mg/m2 (65 mg flat dose),"weekly (days 1, 8, 15, 22, 29, 36, 43 of RT; 6 of 7 cycles delivered)",1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,ondansetron,Supportive Care,2023-03-13,2023-04-24,IV,8 mg,prior to each cisplatin infusion,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,dexamethasone,Supportive Care,2023-03-13,2023-04-24,IV,12 mg,prior to each cisplatin infusion,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,fosaprepitant,Supportive Care,2023-03-13,2023-04-24,IV,150 mg,prior to each cisplatin infusion,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,magnesium sulfate,Supportive Care,2023-03-13,2023-04-24,IV,2 g,with each cisplatin infusion for renal protection,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,oxycodone,Supportive Care,2023-04-10,2023-05-26,PO,10 mg extended-release; 5 mg immediate-release PRN,extended-release twice daily; immediate-release every 4 hours as needed,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,fluconazole,Supportive Care,2023-04-28,2023-05-19,PO,100 mg,daily,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,pilocarpine,Supportive Care,2023-06-09,2025-04-04,PO,5 mg,three times daily,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,magnesium oxide,Supportive Care,2023-04-28,2024-10-18,PO,400 mg,twice daily,1,Curative,9,hnscc_hpv
+patient_b073d87a11bd,levothyroxine,Supportive Care,2024-02-28,2025-04-04,PO,100 mcg,daily,1,Curative,9,hnscc_hpv
+patient_b3075cba1999,pembrolizumab,Immunotherapy,2024-01-22,2024-07-08,IV,200 mg,every 3 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,doxorubicin,Chemotherapy,2024-01-22,2024-03-18,IV,60 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,cyclophosphamide,Chemotherapy,2024-01-22,2024-03-18,IV,600 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,paclitaxel,Chemotherapy,2024-04-08,2024-07-01,IV,80 mg/m2 (reduced to 64 mg/m2 after week 8),weekly,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,pegfilgrastim,Supportive Care,2024-01-23,2024-03-19,SC,6 mg,"once per cycle, day 2 of each ddAC cycle",1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,ondansetron,Supportive Care,2024-01-22,2024-03-18,IV,8 mg,day 1 of each ddAC cycle,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,dexamethasone,Supportive Care,2024-01-22,2024-07-01,IV,12-20 mg,day 1 of each infusion cycle (ddAC and paclitaxel),1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,aprepitant,Supportive Care,2024-01-22,2024-03-18,PO,"125 mg day 1, 80 mg days 2-3",each ddAC cycle,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,olanzapine,Supportive Care,2024-02-19,2024-03-18,PO,10 mg,nightly days 1-4 of each ddAC cycle,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,diphenhydramine,Supportive Care,2024-04-08,2024-07-01,IV,25 mg,premedication before each weekly paclitaxel infusion,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,prednisone,Supportive Care,2024-03-06,2024-04-03,PO,60 mg,"daily, tapered over 4 weeks",1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,duloxetine,Supportive Care,2024-06-17,2026-08-28,PO,60 mg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_b3075cba1999,capecitabine,Chemotherapy,2024-11-11,2025-03-10,PO,1000 mg/m2 BID (reduced to 750 mg/m2 BID after cycle 2),days 1-14 of each 21-day cycle,2,Adjuvant,1,breast_tnbc
+patient_b3075cba1999,pembrolizumab,Immunotherapy,2024-11-11,2025-09-15,IV,200 mg,every 3 weeks,2,Adjuvant,1,breast_tnbc
+patient_b3075cba1999,levothyroxine,Supportive Care,2025-03-10,2026-08-28,PO,50 mcg,daily,2,Adjuvant,1,breast_tnbc
+patient_b3075cba1999,olaparib,Targeted Therapy,2026-03-03,2026-08-28,PO,300 mg,"twice daily, continuous",3,Palliative,1,breast_tnbc
+patient_b3075cba1999,zoledronic acid,Supportive Care,2026-03-03,2026-08-28,IV,4 mg,every 4 weeks,3,Palliative,1,breast_tnbc
+patient_b3075cba1999,ondansetron,Supportive Care,2026-03-03,2026-08-28,PO,4 mg,PRN nausea,3,Palliative,1,breast_tnbc
+patient_b3075cba1999,calcium carbonate,Supportive Care,2026-03-03,2026-08-28,PO,600 mg,twice daily,3,Palliative,1,breast_tnbc
+patient_b3075cba1999,cholecalciferol,Supportive Care,2026-03-03,2026-08-28,PO,800 IU,daily,3,Palliative,1,breast_tnbc
+patient_bed5d566709b,ipilimumab,Immunotherapy,2023-05-22,2023-07-24,IV,1 mg/kg,every 3 weeks,1,Palliative,7,rcc_clear
+patient_bed5d566709b,nivolumab,Immunotherapy,2023-05-22,2023-11-28,IV,3 mg/kg (induction); 480 mg flat (maintenance),"every 3 weeks (induction), then every 4 weeks (maintenance)",1,Palliative,7,rcc_clear
+patient_bed5d566709b,ondansetron,Supportive Care,2023-05-22,2023-11-28,IV,8 mg,prior to each infusion,1,Palliative,7,rcc_clear
+patient_bed5d566709b,prednisone,Supportive Care,2023-07-02,2023-08-13,PO,1 mg/kg/day (tapering),daily with 6-week taper,1,Palliative,7,rcc_clear
+patient_bed5d566709b,levothyroxine,Supportive Care,2023-08-10,2024-09-21,PO,75 mcg,daily,1,Palliative,7,rcc_clear
+patient_bed5d566709b,omeprazole,Supportive Care,2023-07-02,2023-08-13,PO,20 mg,daily,1,Palliative,7,rcc_clear
+patient_bed5d566709b,cabozantinib,Targeted Therapy,2023-12-17,2024-09-21,PO,60 mg (starting); reduced to 40 mg after 3 weeks,daily,2,Palliative,7,rcc_clear
+patient_bed5d566709b,loperamide,Supportive Care,2024-01-17,2024-09-21,PO,2 mg,"PRN after each loose stool, up to 8 doses/day",2,Palliative,7,rcc_clear
+patient_bed5d566709b,amlodipine,Supportive Care,2023-03-01,2024-09-21,PO,5 mg (baseline); uptitrated to 10 mg at 6 weeks on cabozantinib,daily,1,Palliative,7,rcc_clear
+patient_c73cc50a0112,leuprolide acetate,Hormonal Therapy,2023-03-10,2026-11-10,IM,22.5 mg,every 3 months,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,abiraterone acetate,Hormonal Therapy,2023-03-10,2024-12-16,PO,1000 mg,daily,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,prednisone,Supportive Care,2023-03-10,2024-12-16,PO,5 mg,twice daily,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,zoledronic acid,Supportive Care,2023-07-05,2026-11-10,IV,4 mg,every 3 months,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,calcium carbonate,Supportive Care,2023-07-05,2026-11-10,PO,1200 mg,daily,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,cholecalciferol,Supportive Care,2023-07-05,2026-11-10,PO,1000 IU,daily,1,Palliative,4,prostate_crpc
+patient_c73cc50a0112,enzalutamide,Hormonal Therapy,2025-01-08,2025-10-14,PO,160 mg,daily,2,Palliative,4,prostate_crpc
+patient_c73cc50a0112,amlodipine,Supportive Care,2025-04-07,2026-11-10,PO,5 mg,daily,2,Palliative,4,prostate_crpc
+patient_c73cc50a0112,olaparib,Targeted Therapy,2025-11-17,2026-08-10,PO,300 mg (reduced to 200 mg after grade 3 anemia),twice daily,3,Palliative,4,prostate_crpc
+patient_c73cc50a0112,ondansetron,Supportive Care,2025-11-17,2026-08-10,PO,8 mg,as needed for nausea,3,Palliative,4,prostate_crpc
+patient_c73cc50a0112,ferrous sulfate,Supportive Care,2026-01-12,2026-08-10,PO,325 mg,twice daily,3,Palliative,4,prostate_crpc
+patient_c73cc50a0112,lutetium Lu 177 vipivotide tetraxetan,Targeted Therapy,2026-09-08,2026-11-10,IV,7.4 GBq,every 6 weeks,4,Palliative,4,prostate_crpc
+patient_c73cc50a0112,ondansetron,Supportive Care,2026-09-08,2026-11-10,PO,8 mg,as needed for nausea,4,Palliative,4,prostate_crpc
+patient_d2d6d6a0319b,dabrafenib,Targeted Therapy,2024-02-01,2024-10-09,PO,150 mg,twice daily,1,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,trametinib,Targeted Therapy,2024-02-01,2024-10-09,PO,2 mg,once daily,1,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,naproxen,Supportive Care,2024-03-15,2024-10-09,PO,250 mg,once daily,1,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,omeprazole,Supportive Care,2024-03-29,2024-10-09,PO,20 mg,once daily,1,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,levothyroxine,Supportive Care,2024-01-18,2026-04-08,PO,75 mcg,once daily,1,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,ipilimumab,Immunotherapy,2024-10-10,2024-11-21,IV,3 mg/kg,every 3 weeks,2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,nivolumab,Immunotherapy,2024-10-10,2024-11-21,IV,1 mg/kg,every 3 weeks,2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,ondansetron,Supportive Care,2024-10-10,2024-11-21,PO,8 mg,"as needed, prior to infusion",2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,diphenhydramine,Supportive Care,2024-11-14,2024-11-28,PO,25 mg,every 6 hours as needed,2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,methylprednisolone,Supportive Care,2024-12-10,2024-12-13,IV,1 mg/kg,once daily,2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,infliximab,Supportive Care,2024-12-13,2024-12-13,IV,5 mg/kg,single dose,2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,prednisone,Supportive Care,2024-12-17,2025-02-11,PO,1 mg/kg,"once daily, tapering over 8 weeks",2,Palliative,3,melanoma_braf
+patient_d2d6d6a0319b,nivolumab,Immunotherapy,2025-02-20,2026-04-08,IV,480 mg,every 4 weeks,2,Maintenance,3,melanoma_braf
+patient_d2d6d6a0319b,levothyroxine,Supportive Care,2025-04-03,2026-04-08,PO,112 mcg,once daily,2,Maintenance,3,melanoma_braf
+patient_d9f415473f47,osimertinib,Targeted Therapy,2023-03-08,2024-06-18,PO,80 mg,daily,1,Curative,0,nsclc_egfr
+patient_d9f415473f47,levothyroxine,Supportive Care,2023-03-08,2025-05-27,PO,88 mcg,daily,1,Palliative,0,nsclc_egfr
+patient_d9f415473f47,amlodipine,Supportive Care,2023-03-08,2025-05-27,PO,5 mg,daily,1,Palliative,0,nsclc_egfr
+patient_d9f415473f47,doxycycline,Supportive Care,2023-04-19,2023-06-14,PO,100 mg,twice daily,1,Palliative,0,nsclc_egfr
+patient_d9f415473f47,loperamide,Supportive Care,2023-04-19,2024-06-18,PO,2 mg,PRN diarrhea,1,Palliative,0,nsclc_egfr
+patient_d9f415473f47,dexamethasone,Supportive Care,2024-06-05,2024-06-15,PO,4 mg,"twice daily, 5-day taper extended to 10 days",2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,carboplatin,Chemotherapy,2024-07-02,2024-10-22,IV,AUC 5 (cycle 1); AUC 4 (cycles 2-4),every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,pemetrexed,Chemotherapy,2024-07-02,2024-10-22,IV,500 mg/m2,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,ondansetron,Supportive Care,2024-07-02,2025-05-27,PO,8 mg,every 8 hours PRN nausea,2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,dexamethasone,Supportive Care,2024-07-02,2024-10-22,PO,4 mg,"twice daily day prior, day of, and day after pemetrexed",2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,folic acid,Supportive Care,2024-06-25,2025-05-27,PO,400 mcg,daily,2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,cyanocobalamin,Supportive Care,2024-07-02,2025-05-27,IM,1000 mcg,every 9 weeks,2,Palliative,0,nsclc_egfr
+patient_d9f415473f47,pemetrexed,Chemotherapy,2024-11-19,2025-01-14,IV,500 mg/m2,every 3 weeks,3,Maintenance,0,nsclc_egfr
+patient_d9f415473f47,investigational EGFR/MET bispecific antibody,Targeted Therapy,2025-01-28,2025-05-27,IV,standard protocol dose,every 2 weeks,4,Palliative,0,nsclc_egfr
+patient_d9f415473f47,investigational SOS1 inhibitor,Targeted Therapy,2025-01-28,2025-05-27,PO,standard protocol dose,daily on 28-day cycle,4,Palliative,0,nsclc_egfr
+patient_d9f415473f47,diphenhydramine,Supportive Care,2025-01-28,2025-05-27,IV,25 mg,prior to each bispecific antibody infusion,4,Palliative,0,nsclc_egfr
+patient_d9f415473f47,acetaminophen,Supportive Care,2025-01-28,2025-05-27,PO,650 mg,prior to each bispecific antibody infusion,4,Palliative,0,nsclc_egfr
+patient_e1c98f1ffd38,carboplatin,Chemotherapy,2023-03-24,2023-07-07,IV,AUC 6,every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,paclitaxel,Chemotherapy,2023-03-24,2023-07-07,IV,175 mg/m2 (cycles 1-4); 135 mg/m2 (cycles 5-6),every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,dexamethasone,Supportive Care,2023-03-24,2023-07-07,IV,20 mg,"each chemotherapy cycle, day 1",1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,diphenhydramine,Supportive Care,2023-03-24,2023-07-07,IV,50 mg,"each chemotherapy cycle, day 1 premedication",1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,famotidine,Supportive Care,2023-03-24,2023-07-07,IV,20 mg,"each chemotherapy cycle, day 1 premedication",1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,ondansetron,Supportive Care,2023-03-24,2023-07-07,IV,8 mg,"each chemotherapy cycle, day 1 and PRN",1,Adjuvant,5,ovarian_brca1
+patient_e1c98f1ffd38,niraparib,Targeted Therapy,2023-08-11,2025-04-10,PO,200 mg (initial); reduced to 150 mg after dose modification,daily,1,Maintenance,5,ovarian_brca1
+patient_e1c98f1ffd38,venlafaxine,Supportive Care,2023-10-15,2025-04-10,PO,37.5 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_e1c98f1ffd38,magnesium oxide,Supportive Care,2023-05-05,2023-09-30,PO,400 mg,twice daily,1,Adjuvant,5,ovarian_brca1
+patient_e8618868a1b4,cisplatin,Chemotherapy,2024-03-06,2024-03-27,IV,100 mg/m2 (actual 165 mg),every 3 weeks x2 cycles,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,ondansetron,Supportive Care,2024-03-06,2024-04-16,IV,8 mg,prior to cisplatin infusion and as needed,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,dexamethasone,Supportive Care,2024-03-06,2024-03-27,IV,12 mg,prior to each cisplatin infusion,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,granisetron,Supportive Care,2024-03-06,2024-04-16,SC,3.1 mg/24 hr patch,"applied with each cisplatin cycle, worn 5-7 days",1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,magnesium sulfate,Supportive Care,2024-03-06,2024-03-27,IV,1 g,with each cisplatin infusion in IV hydration,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,levothyroxine,Supportive Care,2024-01-01,2026-04-17,PO,125 mcg,daily,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,acetaminophen,Supportive Care,2024-03-27,2024-07-17,PO,1000 mg,TID scheduled,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,oxycodone,Supportive Care,2024-04-10,2024-05-20,PO,5 mg,every 4 hours as needed for breakthrough pain,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,pilocarpine,Supportive Care,2024-05-30,2026-04-17,PO,5 mg,TID,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,loratadine,Supportive Care,2024-01-01,2026-04-17,PO,10 mg,daily as needed,1,Curative,9,hnscc_hpv
+patient_e8618868a1b4,magnesium oxide,Supportive Care,2024-05-30,2024-10-17,PO,400 mg,twice daily,1,Curative,9,hnscc_hpv
+patient_eb53e371d4db,leuprolide acetate,Hormonal Therapy,2017-04-03,2021-12-20,IM,22.5 mg,every 3 months,1,Curative,4,prostate_crpc
+patient_eb53e371d4db,abiraterone acetate,Hormonal Therapy,2017-04-03,2020-04-15,PO,1000 mg,daily,1,Curative,4,prostate_crpc
+patient_eb53e371d4db,prednisone,Supportive Care,2017-04-03,2021-12-20,PO,5 mg,twice daily,1,Curative,4,prostate_crpc
+patient_eb53e371d4db,calcium carbonate,Supportive Care,2017-04-03,2021-12-20,PO,500 mg,twice daily,1,Curative,4,prostate_crpc
+patient_eb53e371d4db,cholecalciferol,Supportive Care,2017-04-03,2021-12-20,PO,2000 IU,daily,1,Curative,4,prostate_crpc
+patient_eb53e371d4db,enzalutamide,Hormonal Therapy,2020-06-01,2021-03-25,PO,160 mg,daily,2,Palliative,4,prostate_crpc
+patient_eb53e371d4db,ondansetron,Supportive Care,2020-06-01,2021-03-25,PO,4 mg,every 8 hours as needed,2,Palliative,4,prostate_crpc
+patient_eb53e371d4db,olaparib,Targeted Therapy,2021-03-25,2021-11-22,PO,300 mg (reduced to 200 mg after month 3),twice daily,3,Palliative,4,prostate_crpc
+patient_eb53e371d4db,denosumab,Supportive Care,2021-03-25,2021-12-20,SC,120 mg,every 4 weeks,3,Palliative,4,prostate_crpc
+patient_eb53e371d4db,ondansetron,Supportive Care,2021-03-25,2021-11-22,PO,4 mg,every 8 hours as needed,3,Palliative,4,prostate_crpc
+patient_eb53e371d4db,ferric carboxymaltose,Supportive Care,2021-08-10,2021-12-20,IV,750 mg,per hematology protocol,3,Palliative,4,prostate_crpc
+patient_ebec6e15513f,pembrolizumab,Immunotherapy,2024-02-12,2025-01-20,IV,200 mg,every 3 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,doxorubicin,Chemotherapy,2024-02-12,2024-04-08,IV,60 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,cyclophosphamide,Chemotherapy,2024-02-12,2024-04-08,IV,600 mg/m2,every 2 weeks,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,paclitaxel,Chemotherapy,2024-04-22,2024-07-15,IV,80 mg/m2 (reduced to 64 mg/m2 from week 7),weekly,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,pegfilgrastim,Supportive Care,2024-02-13,2024-04-09,SC,6 mg,"once per cycle, day 2",1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,ondansetron,Supportive Care,2024-02-12,2024-07-15,IV,8 mg,prior to each infusion,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,dexamethasone,Supportive Care,2024-02-12,2024-07-15,IV,20 mg,prior to each infusion,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,lorazepam,Supportive Care,2024-02-12,2024-07-15,IV,0.5 mg,prior to each infusion PRN,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,propranolol,Supportive Care,2024-02-26,2024-03-25,PO,10 mg,three times daily,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,levothyroxine,Supportive Care,2024-03-11,2026-03-30,PO,75 mcg (increased to 88 mcg on 2026-03-16),daily,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,duloxetine,Supportive Care,2024-05-06,2026-03-30,PO,30 mg,daily,1,Neoadjuvant,1,breast_tnbc
+patient_ebec6e15513f,capecitabine,Chemotherapy,2024-09-09,2025-01-27,PO,1500 mg BID (reduced to 1125 mg BID after cycle 3),days 1-14 every 21 days,2,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,ondansetron,Supportive Care,2024-09-09,2025-01-27,PO,4 mg,every 8 hours PRN nausea,2,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,methylprednisolone,Supportive Care,2025-01-20,2025-01-23,IV,80 mg,daily,2,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,prednisone,Supportive Care,2025-01-23,2025-03-10,PO,80 mg (tapering over 8 weeks to discontinuation),"daily, taper",2,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,omeprazole,Supportive Care,2025-01-23,2025-03-10,PO,20 mg,daily,2,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,olaparib,Targeted Therapy,2025-03-17,2026-03-16,PO,300 mg,twice daily,3,Adjuvant,1,breast_tnbc
+patient_ebec6e15513f,ferric carboxymaltose,Supportive Care,2025-05-12,2025-05-12,IV,750 mg,single dose,3,Adjuvant,1,breast_tnbc
+patient_ecc183253e2d,carboplatin,Chemotherapy,2022-04-14,2022-07-28,IV,AUC 5,every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,paclitaxel,Chemotherapy,2022-04-14,2022-05-26,IV,175 mg/m2,every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,paclitaxel,Chemotherapy,2022-06-16,2022-07-28,IV,135 mg/m2,every 3 weeks,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,dexamethasone,Supportive Care,2022-04-14,2022-07-28,IV,20 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,diphenhydramine,Supportive Care,2022-04-14,2022-07-28,IV,50 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,famotidine,Supportive Care,2022-04-14,2022-07-28,IV,20 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,ondansetron,Supportive Care,2022-04-14,2022-07-28,IV,8 mg,pre-chemotherapy each cycle,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,gabapentin,Supportive Care,2022-06-02,2023-06-01,PO,300 mg,daily,1,Adjuvant,5,ovarian_brca1
+patient_ecc183253e2d,niraparib,Targeted Therapy,2022-09-22,2022-11-03,PO,200 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_ecc183253e2d,niraparib,Targeted Therapy,2022-12-01,2025-09-10,PO,100 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_ecc183253e2d,ondansetron,Supportive Care,2022-09-22,2025-09-10,PO,4 mg,PRN nausea,1,Maintenance,5,ovarian_brca1
+patient_ecc183253e2d,venlafaxine,Supportive Care,2022-09-15,2025-09-10,PO,37.5 mg,daily,1,Maintenance,5,ovarian_brca1
+patient_ecc183253e2d,estradiol vaginal cream,Hormonal Therapy,2022-09-15,2025-09-10,PO,0.5 g (low-dose topical),twice weekly,1,Maintenance,5,ovarian_brca1
+patient_eda27964e02c,cytarabine,Chemotherapy,2025-01-10,2025-01-16,IV,100 mg/m2/day,continuous infusion days 1-7,1,Curative,6,aml_flt3
+patient_eda27964e02c,daunorubicin,Chemotherapy,2025-01-10,2025-01-12,IV,60 mg/m2,"days 1, 2, 3",1,Curative,6,aml_flt3
+patient_eda27964e02c,midostaurin,Targeted Therapy,2025-01-17,2025-01-30,PO,50 mg,twice daily days 8-21,1,Curative,6,aml_flt3
+patient_eda27964e02c,allopurinol,Supportive Care,2025-01-06,2025-02-14,PO,300 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,ondansetron,Supportive Care,2025-01-10,2025-02-10,PO,8 mg,every 8 hours as needed,1,Curative,6,aml_flt3
+patient_eda27964e02c,ciprofloxacin,Supportive Care,2025-01-10,2025-01-19,PO,500 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,cefepime,Supportive Care,2025-01-20,2025-01-30,IV,2 g,every 8 hours,1,Curative,6,aml_flt3
+patient_eda27964e02c,fluconazole,Supportive Care,2025-01-10,2025-09-21,PO,400 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,acyclovir,Supportive Care,2025-01-10,2026-03-23,PO,400 mg,twice daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,fludarabine,Chemotherapy,2025-03-17,2025-03-20,IV,40 mg/m2/day,daily days -6 through -3,1,Curative,6,aml_flt3
+patient_eda27964e02c,busulfan,Chemotherapy,2025-03-17,2025-03-20,IV,3.2 mg/kg/day (PK-adjusted to 3.1 mg/kg doses 2-4),daily days -6 through -3,1,Curative,6,aml_flt3
+patient_eda27964e02c,tacrolimus,Supportive Care,2025-03-20,2026-03-08,PO,1 mg (tapered to 0.5 mg),twice daily (tapered to once daily),1,Curative,6,aml_flt3
+patient_eda27964e02c,methotrexate,Supportive Care,2025-03-24,2025-03-29,IV,"15 mg/m2 day +1, 10 mg/m2 days +3 and +6","days +1, +3, +6",1,Curative,6,aml_flt3
+patient_eda27964e02c,letermovir,Supportive Care,2025-03-24,2025-07-01,PO,480 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,levofloxacin,Supportive Care,2025-03-17,2025-04-13,PO,500 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,micafungin,Supportive Care,2025-04-04,2025-04-13,IV,150 mg,daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,methylprednisolone,Supportive Care,2025-05-07,2025-07-02,IV,1 mg/kg/day (tapered over 6 weeks),daily with 10% weekly taper,1,Curative,6,aml_flt3
+patient_eda27964e02c,trimethoprim-sulfamethoxazole,Supportive Care,2025-04-13,2026-03-23,PO,160/800 mg,three times weekly (Mon/Wed/Fri),1,Curative,6,aml_flt3
+patient_eda27964e02c,triamcinolone cream,Supportive Care,2025-07-21,2025-12-21,Topical,0.1%,twice daily to affected skin,1,Curative,6,aml_flt3
+patient_eda27964e02c,cyclosporine ophthalmic emulsion,Supportive Care,2025-07-21,2026-03-23,Ophthalmic,0.05%,one drop each eye twice daily,1,Curative,6,aml_flt3
+patient_eda27964e02c,levothyroxine,Supportive Care,2025-01-06,2026-03-23,PO,75 mcg,daily,1,Curative,6,aml_flt3
+patient_ee42af411894,cisplatin,Chemotherapy,2024-07-15,2024-08-05,IV,100 mg/m2,every 3 weeks,1,Curative,9,hnscc_hpv
+patient_ee42af411894,ondansetron,Supportive Care,2024-07-15,2024-08-10,IV,8 mg,three times daily on cisplatin days and 3 days after,1,Curative,9,hnscc_hpv
+patient_ee42af411894,dexamethasone,Supportive Care,2024-07-15,2024-08-08,IV,20 mg,once on cisplatin days,1,Curative,9,hnscc_hpv
+patient_ee42af411894,prochlorperazine,Supportive Care,2024-07-15,2024-08-10,PO,10 mg,every 6 hours as needed,1,Curative,9,hnscc_hpv
+patient_ee42af411894,oxycodone,Supportive Care,2024-08-05,2024-09-30,PO,5 mg,"every 4-6 hours as needed, then scheduled every 6 hours",1,Curative,9,hnscc_hpv
+patient_ee42af411894,magic mouthwash,Supportive Care,2024-08-05,2024-09-30,PO,15 mL,four times daily,1,Curative,9,hnscc_hpv
+patient_ee42af411894,levothyroxine,Supportive Care,2025-09-01,2026-09-01,PO,75 mcg,daily,1,Curative,9,hnscc_hpv
+patient_f5e6aa648d72,carboplatin,Chemotherapy,2024-02-26,2024-04-01,IV,AUC 2,weekly,1,Curative,0,nsclc_egfr
+patient_f5e6aa648d72,paclitaxel,Chemotherapy,2024-02-26,2024-04-01,IV,45 mg/m2,weekly,1,Curative,0,nsclc_egfr
+patient_f5e6aa648d72,ondansetron,Supportive Care,2024-02-26,2024-04-01,IV,8 mg,"weekly, pre-chemotherapy",1,Curative,0,nsclc_egfr
+patient_f5e6aa648d72,dexamethasone,Supportive Care,2024-02-26,2024-04-01,IV,10 mg,"weekly, pre-chemotherapy",1,Curative,0,nsclc_egfr
+patient_f5e6aa648d72,omeprazole,Supportive Care,2024-03-18,2024-06-03,PO,20 mg,daily,1,Curative,0,nsclc_egfr
+patient_f5e6aa648d72,osimertinib,Targeted Therapy,2024-06-17,2025-08-28,PO,80 mg,daily,1,Maintenance,0,nsclc_egfr
+patient_f5e6aa648d72,dexamethasone,Supportive Care,2025-09-08,2025-09-22,PO,4 mg,"twice daily, tapered over 2 weeks",2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,carboplatin,Chemotherapy,2025-09-29,2026-01-12,IV,AUC 5,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,pemetrexed,Chemotherapy,2025-09-29,2026-01-12,IV,500 mg/m2,every 3 weeks,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,folic acid,Supportive Care,2025-09-22,2026-02-02,PO,400 mcg,daily,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,cyanocobalamin,Supportive Care,2025-09-22,2026-02-02,IM,1000 mcg,every 9 weeks,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,ondansetron,Supportive Care,2025-09-29,2026-01-12,PO,8 mg,"every 8 hours as needed, days 1-3 each cycle",2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,prochlorperazine,Supportive Care,2025-09-29,2026-01-12,PO,10 mg,every 6 hours as needed,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,dexamethasone,Supportive Care,2025-09-29,2026-01-12,IV,8 mg,pre-chemotherapy each cycle,2,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,pemetrexed,Chemotherapy,2026-01-26,2026-02-02,IV,500 mg/m2,every 3 weeks,2,Maintenance,0,nsclc_egfr
+patient_f5e6aa648d72,tepotinib,Targeted Therapy,2026-02-09,2026-03-23,PO,500 mg,daily,3,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,osimertinib,Targeted Therapy,2026-02-09,2026-03-23,PO,80 mg,daily,3,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,loperamide,Supportive Care,2026-02-09,2026-03-23,PO,2 mg,as needed,3,Palliative,0,nsclc_egfr
+patient_f5e6aa648d72,clindamycin topical,Supportive Care,2026-02-09,2026-03-23,PO,1% gel,twice daily to affected areas,3,Palliative,0,nsclc_egfr
+patient_f9ec77c9b3b7,oxaliplatin,Chemotherapy,2024-10-03,2025-03-13,IV,85 mg/m2 (reduced to 64 mg/m2 from cycle 8),every 2 weeks,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,leucovorin,Chemotherapy,2024-10-03,2025-07-17,IV,400 mg/m2,every 2 weeks,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,fluorouracil,Chemotherapy,2024-10-03,2025-07-17,IV,400 mg/m2 bolus + 2400 mg/m2 over 46h,every 2 weeks,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,bevacizumab,Targeted Therapy,2024-10-03,2025-07-17,IV,5 mg/kg,every 2 weeks,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,ondansetron,Supportive Care,2024-10-03,2025-07-17,IV,8 mg,pre-chemotherapy each cycle,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,dexamethasone,Supportive Care,2024-10-03,2025-07-17,IV,12 mg,pre-chemotherapy each cycle,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,palonosetron,Supportive Care,2024-10-03,2025-03-13,IV,0.25 mg,pre-chemotherapy each cycle,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,magnesium oxide,Supportive Care,2024-12-13,2025-03-28,PO,400 mg,twice daily,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,irinotecan,Chemotherapy,2025-08-01,2026-03-24,IV,180 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,leucovorin,Chemotherapy,2025-08-01,2026-03-24,IV,400 mg/m2,every 2 weeks,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,fluorouracil,Chemotherapy,2025-08-01,2026-03-24,IV,400 mg/m2 bolus + 2400 mg/m2 over 46h,every 2 weeks,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,ramucirumab,Targeted Therapy,2025-08-01,2026-03-24,IV,8 mg/kg,every 2 weeks,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,ondansetron,Supportive Care,2025-08-01,2026-03-24,IV,8 mg,pre-chemotherapy each cycle,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,dexamethasone,Supportive Care,2025-08-01,2026-03-24,IV,12 mg,pre-chemotherapy each cycle,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,atropine,Supportive Care,2025-08-01,2026-03-24,IV,0.25 mg,pre-irinotecan PRN,2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,loperamide,Supportive Care,2025-08-01,2026-03-24,PO,4 mg initial then 2 mg PRN,"after each loose stool, max 16 mg/day",2,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,lisinopril,Supportive Care,2024-09-19,2026-03-24,PO,20 mg (increased from 10 mg),daily,1,Palliative,2,crc_kras
+patient_f9ec77c9b3b7,amlodipine,Supportive Care,2025-09-01,2026-03-24,PO,5 mg,daily,2,Palliative,2,crc_kras

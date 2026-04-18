@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "54 tumors with WES = 'X' in MOESM4 (matches paper's 54 PNSTs that underwent WES)",
+  "discrepancy_analysis": "CONCORDANT: Reported 54 PNSTs with WES == Model 54 rows with WES='X' in MOESM4 (exact match, 0% relative difference, well within +/-10% tolerance). Direct count of the WES column in the 108-row Clinical Data sheet of 41467_2023_38432_MOESM4_ESM.xlsx yields exactly 54 rows marked 'X' (remaining 54 are NaN). This matches the paper's statement of '54 PNSTs' that underwent WES. The '20 matched blood samples' noted in the paper refers to germline-reference blood samples used alongside tumor WES and is not expected to be derivable from a single column of MOESM4 (which is a tumor-level sheet); this detail is paper-level context rather than a discrepancy.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

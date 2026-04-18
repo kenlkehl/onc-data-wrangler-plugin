@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "Pearson r = -0.5618, p = 3.261e-05, N = 48",
+  "discrepancy_analysis": "CONCORDANT: Model Pearson r = -0.5618 vs reported r = -0.54, a relative difference of ~4.0%, well within the +/-10% concordance threshold. The sign and magnitude of correlation match. P-values are both highly significant (reported p < 0.00001; model p = 3.26e-05), indicating a strong, statistically significant negative correlation between GAB1 promoter methylation and gene expression, consistent with the paper's Supplementary Figure 7a.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

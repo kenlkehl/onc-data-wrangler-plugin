@@ -1,0 +1,6 @@
+{
+  "analysis_result": "33 samples are located in the Cutaneous region.",
+  "denominator_used": "N = 108; all samples in the 'Clinical Data' sheet of 41467_2023_38432_MOESM4_ESM.xlsx with non-null Tumor_ID.",
+  "assumptions_made": "Filtered to rows with non-null Tumor_ID per data notes; exact string match on Location == 'Cutaneous' (case-sensitive).",
+  "step_by_step_analysis": "A. DATA LOADED\n   - File: 41467_2023_38432_MOESM4_ESM.xlsx, sheet 'Clinical Data'\n   - Shape: 108 rows x 15 columns\n   - Relevant columns: Tumor_ID, Location\n\nB. COHORT DEFINITION\n   - Filter: Tumor_ID non-null -> 108 samples (no rows dropped)\n   - Final analytic cohort: N = 108\n\nC. VARIABLE CODING\n   - Location value_counts: Peripheral=46, Cutaneous=33, Spinal=29\n   - No NaN values present in Location column\n\nD. COMPUTATION\n   - Counted rows where Location == 'Cutaneous' (exact string match)\n   - Numerator: samples with Location == 'Cutaneous'\n   - Denominator: 108 total samples with non-null Tumor_ID\n\nE. RESULT\n   - Number of Cutaneous samples: 33 (30.6% of 108)\n\nF. CAVEATS\n   - Exact string matching is case-sensitive; all entries found use title-case 'Cutaneous' with no extra whitespace issues\n   - No missing values in the Location column, so denominator = full cohort"
+}

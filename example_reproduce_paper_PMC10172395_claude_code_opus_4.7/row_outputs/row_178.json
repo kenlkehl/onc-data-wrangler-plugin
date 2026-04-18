@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE",
+  "discrepancy_analysis": "UNABLE_TO_EVALUATE: The model was unable to compute the NOTCH1 frequency in the TCGA MPNST oncoprint (Supp Fig 3c) because the underlying TCGA MPNST mutation/oncoprint data was not deposited with the paper. The reported value in the paper is 0% (no alterations shown). Without access to the source data, concordance cannot be directly verified, though the reported 0% is plausible given that NOTCH1 is not typically highlighted among MPNST driver genes. Root cause classification is 7:MISSING_DATA_HANDLING because the data required to reproduce the figure was not made available in the paper's deposited materials.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Obtain TCGA MPNST mutation data (e.g., from cBioPortal or TCGA public repository) to reconstruct the oncoprint and compute gene-level alteration frequencies independently.",
+  "confidence": "LOW"
+}

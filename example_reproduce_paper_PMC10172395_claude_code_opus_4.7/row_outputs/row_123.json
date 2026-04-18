@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "Pearson r = 0.569 (positive), p = 2.48e-05, N = 48.",
+  "discrepancy_analysis": "CONCORDANT: Model Pearson r = 0.569 vs reported r = 0.57 (relative difference ~0.18%, well within +/-10%). Model p-value = 2.48e-05 is consistent with reported p < 0.0001. Both correlation magnitude and significance threshold match.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "DATA_UNAVAILABLE - TCGA external cohort not in local data.",
+  "discrepancy_analysis": "The question asks about the proportion of MPNST-G2 patients in the TCGA MPNST validation cohort that harbored PRC2 component (SUZ12 or EED) mutations. The reported result in the paper is 0 of 3 (0%) for TCGA MPNST-G2. The model was unable to reproduce this result because the TCGA MPNST external validation cohort is not available in the local data directory. The analysis requires access to TCGA mutation calls for MPNST samples along with their MPNST-G1/G2 classification, which is an external validation dataset not included in the local data files provided for this reproduction attempt. Without access to the TCGA MPNST mutation data and grade classifications, concordance cannot be evaluated quantitatively. This is a data availability limitation rather than a methodological discrepancy.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "Obtain the TCGA MPNST cohort mutation data (SUZ12, EED mutation calls) along with the MPNST-G1/G2 classification used in the paper to perform the validation analysis. This would typically require downloading TCGA Sarcoma (SARC) MAF files and applying the same methylation-based classification scheme used in the paper.",
+  "confidence": "N/A"
+}

@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "36 unmatched tumor samples (vs 35 reported in Methods). Based on unique Tumor_Sample_Barcode values in MOESM5 MAF (Supplementary Table 2) where Matched_Norm_Sample_Barcode == 'unmatched'.",
+  "discrepancy_analysis": "CONCORDANT: Reported value = 35 unmatched samples; model value = 36 unmatched samples. Absolute difference = 1; relative difference = 1/35 = 2.86%, well within the +/-10% concordance threshold. The one-sample offset likely reflects a minor accounting difference between what was described in the Methods narrative (35) and what actually appears in the supplementary MAF release (36 unique tumor barcodes flagged as 'unmatched'). Sources of this small gap could include (a) one sample being reclassified or added between manuscript drafting and final supplementary data preparation, (b) inclusion of an ancillary validation/technical sample in the MAF that was not counted in the Methods text, or (c) the Methods narrative rounding/approximating. No substantive methodological issue is indicated.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

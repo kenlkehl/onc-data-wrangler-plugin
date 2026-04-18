@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "G5 has highest score (marker-based approximation): mean z-score 0.501 (G5), 0.230 (G3), 0.186 (G4), -0.409 (G2), -1.313 (G1).",
+  "discrepancy_analysis": "Qualitative direction agrees \u2014 G5 (Sporadic Spinal NF_G5) is the highest methylation subgroup for non-syndromic spinal NF CIBERSORTx score in both the reported result and the model's marker-based approximation. CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

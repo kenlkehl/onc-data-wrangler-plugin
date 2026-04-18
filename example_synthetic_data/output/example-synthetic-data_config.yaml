@@ -1,0 +1,136 @@
+project:
+  name: example-synthetic-data
+  input_paths:
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/encounters.csv
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/hospitalizations.csv
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/medications.csv
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/labs.csv
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/pros.csv
+  output_dir: /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/output
+
+cohort:
+  patient_file: /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/encounters.csv
+  patient_id_column: patient_id
+  diagnosis_file: /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/tables/encounters.csv
+  diagnosis_code_column: diagnosis_code
+  diagnosis_code_filter: []
+  demographics_files:
+    - /data1/ken/plugin_testing/onc-data-wrangler-plugin/example_synthetic_data/extractions/extractions.parquet
+  column_mappings:
+    sex: naaccr_sex_code
+    race: race_ethnicity
+    ethnicity: null
+    birth_date: birth_year
+    death_date: null
+
+extraction:
+  llm:
+    provider: claude-code
+    model: ""
+    base_url: ""
+  claude_code_model: opus
+  ontology_ids:
+    - prissmm
+  cancer_type: generic
+  notes_paths: []
+  notes_text_column: text
+  notes_date_column: date
+  patient_id_column: patient_id
+
+database:
+  deidentify_dates: true
+  record_id_prefix: patient
+  min_non_missing: 10
+
+query:
+  privacy_mode: aggregate-only
+  min_cell_size: 10
+  max_query_rows: 500
+
+field_mappings:
+  encounters:
+    - source: date
+      target: encounter_date
+      transform: date_to_yyyy_mm_dd
+    - source: diagnosis_code
+      target: diagnosis_code
+    - source: department
+      target: department
+    - source: visit_type
+      target: visit_type
+    - source: scenario_label
+      target: cancer_type
+
+  hospitalizations:
+    - source: admission_date
+      target: admission_date
+      transform: date_to_yyyy_mm_dd
+    - source: discharge_date
+      target: discharge_date
+      transform: date_to_yyyy_mm_dd
+    - source: principal_dx_code
+      target: principal_diagnosis_code
+    - source: principal_dx_description
+      target: principal_diagnosis_description
+    - source: los_days
+      target: los_days
+      transform: to_numeric
+    - source: discharge_disposition
+      target: discharge_disposition
+    - source: reason
+      target: reason
+
+  medications:
+    - source: drug_name
+      target: drug_name
+    - source: drug_category
+      target: drug_category
+    - source: start_date
+      target: start_date
+      transform: date_to_yyyy_mm_dd
+    - source: end_date
+      target: end_date
+      transform: date_to_yyyy_mm_dd
+    - source: route
+      target: route
+    - source: dose
+      target: dose
+    - source: frequency
+      target: frequency
+    - source: line_of_therapy
+      target: line_of_therapy
+      transform: to_string
+    - source: intent
+      target: intent
+
+  labs:
+    - source: date
+      target: test_date
+      transform: date_to_yyyy_mm_dd
+    - source: test_name
+      target: test_name
+    - source: value
+      target: value
+      transform: to_numeric
+    - source: unit
+      target: unit
+    - source: reference_range
+      target: reference_range
+    - source: abnormal_flag
+      target: abnormal_flag
+
+  pros:
+    - source: date
+      target: assessment_date
+      transform: date_to_yyyy_mm_dd
+    - source: instrument
+      target: instrument_name
+    - source: subscale
+      target: subscale
+    - source: value
+      target: value
+      transform: to_numeric
+    - source: scale_range
+      target: scale_range
+
+patient_id_columns: {}

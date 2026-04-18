@@ -1,0 +1,271 @@
+id: pan_top
+name: "Pan-TOP Thoracic Oncology"
+version: "1.0.0"
+description: "Thoracic oncology (lung, mesothelioma, thymus) -- DFCI Pan-TOP schema"
+is_free_text: false
+
+categories:
+  - id: cancer_diagnosis
+    name: Cancer Diagnosis
+    description: >-
+      Cancer diagnosis information for thoracic malignancies. One entry per
+      cancer diagnosis; recurrences or metastases do not count as a new
+      diagnosis. Be very careful not to include non-cancer diagnoses.
+    per_diagnosis: true
+    items:
+      - id: primary_site
+        name: Primary Site
+        description: "Primary anatomical site of the cancer"
+        data_type: string
+        length: null
+      - id: overall_stage_at_diagnosis
+        name: Overall Stage at Diagnosis
+        description: >-
+          Overall cancer stage at time of INITIAL diagnosis ONLY (e.g., I,
+          IIA, IIIB, IV). Do NOT update based on later recurrence,
+          progression, or metastasis. Stage is set once and does not change.
+        data_type: string
+        length: null
+      - id: t_stage_at_diagnosis
+        name: T Stage at Diagnosis
+        description: >-
+          Tumor stage component at initial diagnosis (e.g., T2a, T3b). Do NOT
+          update based on later restaging or progression.
+        data_type: string
+        length: null
+      - id: n_stage_at_diagnosis
+        name: N Stage at Diagnosis
+        description: >-
+          Nodal stage component at initial diagnosis (e.g., N0, N1, N2, N3).
+          Do NOT update based on later restaging or progression.
+        data_type: string
+        length: null
+      - id: m_stage_at_diagnosis
+        name: M Stage at Diagnosis
+        description: >-
+          Metastasis stage component at initial diagnosis (e.g., M0, M1a,
+          M1b). Record ONLY metastases known at the time of diagnosis.
+          Later-discovered metastases do NOT change this field.
+        data_type: string
+        length: null
+      - id: histology
+        name: Histology
+        description: "Histological type of the cancer"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "non_small_cell_NOS"
+            description: "Non-small cell NOS"
+          - code: "small_cell"
+            description: "Small cell"
+          - code: "adenocarcinoma"
+            description: "Adenocarcinoma"
+          - code: "squamous"
+            description: "Squamous"
+          - code: "adenosquamous"
+            description: "Adenosquamous"
+          - code: "large_cell"
+            description: "Large cell"
+          - code: "large_cell_neuroendocrine"
+            description: "Large cell neuroendocrine"
+          - code: "typical_carcinoid"
+            description: "Typical carcinoid"
+          - code: "atypical_carcinoid"
+            description: "Atypical carcinoid"
+          - code: "carcinoid_nos"
+            description: "Carcinoid NOS"
+          - code: "nut_carcinoma"
+            description: "NUT carcinoma"
+          - code: "epithelioid"
+            description: "Epithelioid"
+          - code: "sarcomatoid"
+            description: "Sarcomatoid"
+          - code: "thymoma"
+            description: "Thymoma"
+          - code: "thymic_carcinoma"
+            description: "Thymic carcinoma"
+      - id: diagnosis_date
+        name: Diagnosis Date
+        description: >-
+          Date of cancer diagnosis. As specific as is known; if only year is
+          indicated, list year; if month is indicated also, list month and year.
+          Format YYYY-MM-DD when possible.
+        data_type: date
+        length: null
+
+  - id: cancer_biomarker
+    name: Cancer Biomarker
+    description: >-
+      Cancer biomarker testing results. Note that EGFR should only refer to an
+      EGFR mutation, not estimated GFR (which is kidney function).
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: biomarker_type
+        name: Biomarker Type
+        description: "Type of biomarker assay (e.g., mutation, rearrangement, expression, amplification)"
+        data_type: string
+        length: null
+      - id: biomarker_tested
+        name: Biomarker Tested
+        description: "Name of the biomarker tested (e.g., EGFR, ALK, ROS1, PD-L1, TTF-1, p40, KRAS, HER2, BRAF, RET, MET, NTRK)"
+        data_type: string
+        length: null
+      - id: biomarker_result
+        name: Biomarker Result
+        description: "Result of the biomarker test (e.g., positive, negative, 60%, L858R mutant, CD74-ROS1 fusion)"
+        data_type: string
+        length: null
+
+  - id: cancer_systemic_therapy_regimen
+    name: Cancer Systemic Therapy Regimen
+    description: >-
+      Systemic therapy regimens administered to the patient. Only extract
+      regimens actually administered, not discussed options.
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: regimen_drug_list
+        name: Regimen Drug List
+        description: "List of individual drug names in the regimen"
+        data_type: string
+        length: null
+      - id: regimen_start_date
+        name: Regimen Start Date
+        description: "Start date of the regimen, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: regimen_end_date
+        name: Regimen End Date
+        description: "End date of the regimen, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: regimen_toxicity_list
+        name: Regimen Toxicity List
+        description: "List of individual toxicities experienced with this regimen"
+        data_type: string
+        length: null
+
+  - id: cancer_surgery
+    name: Cancer Surgery
+    description: "Cancer surgical procedures performed on the patient."
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: surgery_type
+        name: Surgery Type
+        description: "Type of surgical procedure performed"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "lobectomy"
+            description: "Lobectomy"
+          - code: "wedge_resection"
+            description: "Wedge resection"
+          - code: "segmentectomy"
+            description: "Segmentectomy"
+          - code: "pneumonectomy"
+            description: "Pneumonectomy"
+          - code: "thymectomy"
+            description: "Thymectomy"
+          - code: "pleurectomy_decortication"
+            description: "Pleurectomy/decortication"
+          - code: "extrapleural_pneumonectomy"
+            description: "Extrapleural pneumonectomy"
+      - id: surgery_site
+        name: Surgery Site
+        description: "Anatomical site of surgery (e.g., RUL, RML, RLL, LUL, LLL, lingula, left_lung, thymus)"
+        data_type: string
+        length: null
+      - id: surgery_date
+        name: Surgery Date
+        description: "Date of surgery, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+
+  - id: cancer_radiation_therapy
+    name: Cancer Radiation Therapy
+    description: "Radiation therapy courses administered to the patient."
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: radiation_type
+        name: Radiation Type
+        description: "Type of radiation therapy (e.g., long_course, SBRT, SRS)"
+        data_type: string
+        length: null
+      - id: radiation_start_date
+        name: Radiation Start Date
+        description: "Start date of radiation therapy, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: radiation_end_date
+        name: Radiation End Date
+        description: "End date of radiation therapy, as specific as is known. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: radiation_site
+        name: Radiation Site
+        description: "Anatomical site treated with radiation (e.g., RUL, RML, liver, bone, brain)"
+        data_type: string
+        length: null
+
+  - id: cancer_burden
+    name: Cancer Burden
+    description: >-
+      Cancer burden and disease status assessments. Progression/worsening should
+      only be called if the tumor is growing. If burden_type is cancer_site, add
+      another cancer_site subfield to specify the location.
+    per_diagnosis: true
+    multi_instance: true
+    items:
+      - id: burden_assessor_type
+        name: Burden Assessor Type
+        description: "Type of clinician making the assessment (e.g., radiologist, oncologist)"
+        data_type: string
+        length: null
+      - id: burden_assessment_date
+        name: Burden Assessment Date
+        description: "Date of the burden assessment. Format YYYY-MM-DD when possible."
+        data_type: date
+        length: null
+      - id: burden_type
+        name: Burden Type
+        description: "Type of burden assessment result"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "response/improvement"
+            description: "Response or improvement"
+          - code: "progression/worsening"
+            description: "Progression or worsening"
+          - code: "cancer_site"
+            description: "Cancer site indication"
+      - id: cancer_site
+        name: Cancer Site
+        description: "Location of cancer burden when burden_type is cancer_site"
+        data_type: string
+        length: null
+
+  - id: smoking_history
+    name: Smoking History
+    description: "Patient smoking history, relevant for thoracic malignancies."
+    per_diagnosis: true
+    items:
+      - id: categorical_smoking_history
+        name: Categorical Smoking History
+        description: "Categorical smoking status"
+        data_type: string
+        length: null
+        valid_values:
+          - code: "never"
+            description: "Never smoker"
+          - code: "former"
+            description: "Former smoker"
+          - code: "current"
+            description: "Current smoker"
+      - id: pack_years
+        name: Pack Years
+        description: "Smoking exposure in pack-years, extract whatever was documented"
+        data_type: string
+        length: null

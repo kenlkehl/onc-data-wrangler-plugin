@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "HSC1\u03bb-gPTCH1 mean = 78.12 (SD 18.88, n=8) vs HSC1\u03bb-gGFP = 0.00, Welch's t-test p=7.51e-06.",
+  "discrepancy_analysis": "CONCORDANT: Model mean 78.12 for HSC1\u03bb-gPTCH1 matches reported ~81 within 3.6% relative difference (well within \u00b110% threshold). Control group mean (0) matches exactly. Both p-values are highly significant (reported p<0.0001; model p=7.51e-06), supporting the same biological conclusion that PTCH1 knockout dramatically increases transwell migration relative to GFP control. Denominators (n=8 per group) match.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

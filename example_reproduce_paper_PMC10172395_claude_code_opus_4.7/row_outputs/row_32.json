@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "3.645892 (exact match from MOESM10 Fig 1f+g source sheet)",
+  "discrepancy_analysis": "CONCORDANT: Reported value (3.645892) and model value (3.645892) are an exact match (0% relative difference, well within the +/-10% concordance threshold). The -log(FDR) value for the HEDGEHOG_SIGNALING pathway in MPNST-G1 was extracted directly from the MOESM10 Fig 1f+g source sheet.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

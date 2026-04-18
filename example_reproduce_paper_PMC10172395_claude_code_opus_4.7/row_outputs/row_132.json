@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "10.4% (2,961 / 28,476) of cells were immune cell populations in MPNST-G1 samples from the snRNA-seq analysis. Per sample: M803=19.16%, M3048=2.87%, M2372=7.69%.",
+  "discrepancy_analysis": "CONCORDANT: The model's reproduced value of 10.4% immune cells in MPNST-G1 matches the paper's reported value of 10.6% within the +/-10% concordance threshold. Relative difference = |10.6 - 10.4| / 10.6 = 1.89%, which is well below the 10% threshold. Both values are computed from the 3 MPNST-G1 snRNA-seq samples and identify the same immune cell population proportion, with minor variation plausibly attributable to differences in QC thresholds, clustering resolution, and cell-type labeling approach (PTPRC+ cluster identification vs paper's methodology as described in Supp Fig 12 cell composition bar chart).",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

@@ -1,0 +1,52 @@
+id: clinical_summary
+name: "Clinical Summary (Free Text)"
+version: "1.0.0"
+description: "Free-text clinical oncology summary (diagnosis, biomarkers, treatment, eligibility)"
+is_free_text: true
+
+categories:
+  - id: clinical_summary
+    name: Clinical Summary
+    description: "Free-text summary of oncology history"
+    per_diagnosis: false
+    items:
+      - id: age
+        name: Age
+        description: "Current age in years"
+        data_type: string
+        length: null
+      - id: sex
+        name: Sex
+        description: "Patient sex"
+        data_type: string
+        length: null
+      - id: cancer_type
+        name: Cancer Type
+        description: "Cancer type / primary site"
+        data_type: string
+        length: null
+      - id: histology
+        name: Histology
+        description: "Histologic subtype"
+        data_type: string
+        length: null
+      - id: extent
+        name: Current Extent
+        description: "Localized, advanced, metastatic, etc."
+        data_type: string
+        length: null
+      - id: biomarkers
+        name: Biomarkers
+        description: "Genomic results, protein expression, etc."
+        data_type: string
+        length: null
+      - id: treatment_history
+        name: Treatment History
+        description: "Surgery, radiation, systemic therapy with dates and responses"
+        data_type: string
+        length: null
+      - id: boilerplate
+        name: Boilerplate Exclusion Criteria
+        description: "Brain mets, organ dysfunction, infections, etc."
+        data_type: string
+        length: null

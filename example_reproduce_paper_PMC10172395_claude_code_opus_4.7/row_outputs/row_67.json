@@ -1,0 +1,9 @@
+{
+  "concordance_status": "UNABLE_TO_EVALUATE",
+  "analysis_result": "DATA_UNAVAILABLE - TCGA MPNST external validation cohort not included in local data files.",
+  "discrepancy_analysis": "The paper text (page 4) states: 'We further validated these findings in the TCGA dataset, with 2 of 2 (100%) of MPNST-G1 harboring 17q deletions encompassing the NF1 locus, while 2 of 3 (66%) MPNST-G2 tumors harboring NF1 mutations (Supplementary Fig. 3c).' The reported value (2 of 2, 100%) is consistent with the paper text. However, the model was unable to verify this empirically because the TCGA MPNST validation dataset is not included in the local data files. The local data directory contains only the primary Toronto cohort methylation/WES/RNA data (GSE207207, GSE207399, GSE207400) and supplementary Excel files; the TCGA MPNST external validation cohort (n=5; 2 MPNST-G1 + 3 MPNST-G2) referenced in Supplementary Fig. 3c would need to be obtained separately from TCGA/cBioPortal. This represents a legitimate data availability gap for external validation cohorts, not a methodological discrepancy. No concordance determination can be made without access to the TCGA copy number data.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "To verify this claim, the TCGA MPNST copy number/methylation data referenced in the paper (n=5 samples from Supplementary Fig. 1b-d and Supplementary Fig. 3c) would need to be obtained from TCGA/cBioPortal or the paper's Source Data file. Once obtained, one would subset to the 2 MPNST-G1 samples and check for 17q arm-level deletions encompassing the NF1 locus (chromosome 17q11.2) using CONUMEE-derived CNV calls (same pipeline as the primary cohort).",
+  "confidence": "N/A"
+}

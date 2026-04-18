@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "One-way ANOVA p-value comparing NF1 logCPM across the five methylation subgroups yielded F = 5.7951, p = 8.0325e-04. Per-group means (logCPM): MPNST_G1: 7.6735 (n=6), MPNST_G2: 8.8455 (n=6), PremalignantNF_G3: 8.3895 (n=18), Benign_NF-G4: 8.4723 (n=9), Sporadic Spinal NF_G5: 8.6921 (n=9).",
+  "discrepancy_analysis": "CONCORDANT: The paper reports ANOVA p < 0.01 for NF1 expression across the five methylation subgroups (Supp Fig 5a). The model's computed p-value of 8.03e-04 (0.000803) satisfies this threshold, as 0.000803 < 0.01. Both results indicate that NF1 expression differs significantly across the five methylation subgroups at the p < 0.01 level. The model used N = 48 RNA-seq samples across five subgroups (MPNST_G1: n=6, MPNST_G2: n=6, PremalignantNF_G3: n=18, Benign_NF-G4: n=9, Sporadic Spinal NF_G5: n=9), computing one-way ANOVA via scipy.stats.f_oneway on NF1 logCPM values from the GSE207400 matrix. Since the paper's reported result is a threshold statement rather than a specific value, and the model's precise p-value is well below that threshold, the results are in agreement.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

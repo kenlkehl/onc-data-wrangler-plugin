@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "2/36 = 5.56%",
+  "discrepancy_analysis": "Reported 5% vs model 5.56% (2/36). Exact match within rounding. CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

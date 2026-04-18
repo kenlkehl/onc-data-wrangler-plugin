@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "RSPO2, WISP1/CCN4, WNT11, WNT5A, CTNNA2 (over-expressed); different from paper list",
+  "discrepancy_analysis": "A. QUESTION: What is the WNT pathway gene list shown as overexpressed in MPNST-G2 in Fig 3e?\nB. REPORTED: WNT10A, RAC2, RSPO2 (over); APC (under)\nC. MODEL: RSPO2, WISP1/CCN4, WNT11, WNT5A, CTNNA2 (over-expressed); different from paper list\nD. DENOMINATOR: n=49 RNA-seq samples\nE. CONCORDANCE: DISCREPANT (MINOR). RSPO2 overlaps between the paper violin panel and the model's top DEG list. The paper chose specific genes to display in violin plots (WNT10A, RAC2, RSPO2 over-expressed; APC under-expressed), while the model reported the top WNT-pathway DEGs (RSPO2, WISP1/CCN4, WNT11, WNT5A, CTNNA2). The gene lists differ at the item level, though both support overall WNT pathway enrichment in MPNST-G2.\nF. ROOT CAUSE: 2:VARIABLE_CHOICE — the paper and the model selected different subsets of WNT-pathway genes to display. The paper's figure reports a curated set of illustrative violin plots, whereas the model ranked the full WNT gene set by DEG statistics from MOESM6. The two approaches answer the same underlying biological question (WNT activation in G2) but surface different genes.\nG. PROPOSED FIX: Restrict the model output to the specific genes highlighted in Fig 3e (WNT10A, RAC2, RSPO2, APC) by matching against the figure legend rather than returning top-ranked DEGs from the pathway.",
+  "discrepancy_magnitude": "MINOR",
+  "root_cause_classification": "2:VARIABLE_CHOICE",
+  "proposed_fix": "Match reported genes to the specific violin-plot panel genes in Fig 3e (WNT10A, RAC2, RSPO2 over; APC under) rather than returning top DEGs from the WNT pathway.",
+  "confidence": "HIGH"
+}

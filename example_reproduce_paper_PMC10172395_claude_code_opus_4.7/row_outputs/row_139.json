@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "At 120h, HSC1\u03bb-gPTCH1 mean cell count = 316,666.67 (SD 20,816.66, N=3) vs HSC1\u03bb-gGFP mean = 223,333.33 (SD 10,488.09, N=3). Ratio 1.418x; Welch t=6.94, df=2.95, p=0.0065. The gPTCH1 knockout group shows significantly greater proliferation than the gGFP control (p < 0.05), consistent with the paper's reported finding.",
+  "discrepancy_analysis": "Model reproduced the MOESM10 Fig 5b source data values exactly at 120 hours (gGFP mean 223,333.33, SD 10,488.09, N=3; gPTCH1 mean 316,666.67, SD 20,816.66, N=3). The Welch two-sided t-test on these summary statistics yields p=0.0065, which satisfies the reported p<0.05 threshold. The reported result is a qualitative statement (significantly greater proliferation with p<0.05, n=3), and the model's quantitative reproduction is fully consistent with this claim.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

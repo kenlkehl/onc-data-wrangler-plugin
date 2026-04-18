@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "77 samples",
+  "discrepancy_analysis": "Reported result (77 samples) and model result (77 samples) match exactly (0% relative difference), well within the +/-10% concordance threshold. Model's cohort definition (NF1 Status=='NF1') correctly identifies NF1 syndrome samples in the MOESM4 Clinical Data table. Denominator of 108 non-null Tumor_ID samples is consistent with the reported breakdown (NF1=77, Sporadic=31).",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

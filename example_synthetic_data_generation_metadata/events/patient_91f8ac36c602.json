@@ -1,0 +1,136 @@
+{
+  "patient_id": "patient_91f8ac36c602",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 71-year-old male named Raymond Kowalski. He is of Polish-American descent, a retired ironworker, non-smoker, with a family history notable for his father dying of prostate cancer at age 78 and a paternal aunt with ovarian cancer. He has a BMI of 26.4 and an ECOG performance status of 1 at the time of initial diagnosis."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 68 years, the patient had a diagnosis of Stage IVB (AJCC 8th edition) ADENOCARCINOMA OF THE PROSTATE (ICD-O-3 site code C61.9, histology code 8140/3). The Gleason score was 9 (5+4), Grade Group 5. Clinical T3bN1M1b (bone metastases). PSA at diagnosis was 187.4 ng/mL. Summary stage: Distant. Relevant site-specific factors included: lymph node involvement (pelvic LN positive by biopsy), bone scan showing lesions in lumbar spine (L3, L4) and right iliac crest. Laterality: Not applicable (prostate). Confirmation: POSITIVE HISTOLOGY via transrectal ultrasound-guided biopsy (12 cores, 10/12 positive). Tumor Size: Not applicable (diffuse involvement). Perineural invasion: present. Lymphovascular invasion: present."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 68 years, the patient had a pathology result of type ANATOMIC PATHOLOGY (transrectal ultrasound-guided needle core biopsy). Specimen: 12 core prostate needle biopsy. Diagnosis: Prostatic adenocarcinoma, Gleason score 9 (5+4), Grade Group 5. 10 of 12 cores positive. Greatest percentage core involvement: 95% (right apex). Perineural invasion: present. Lymphovascular invasion: present. No seminal vesicle tissue present in cores. IHC: PSA positive, PSAP positive, NKX3.1 positive, p63 negative, HMWCK negative, consistent with prostatic primary. Pathologic stage (biopsy): pT2 (clinical T3b based on imaging)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 68 years, the patient had a Tc-99m bone scintigraphy (whole body bone scan), which showed cancer. Metastatic sites identified: increased tracer uptake at L3 vertebral body, L4 vertebral body, right iliac crest, and right sacral ala, consistent with osseous metastatic disease. No evidence of superscan. CT chest/abdomen/pelvis performed concurrently showed: enlarged right external iliac lymph nodes (largest 1.8 cm), no visceral metastases (lung/liver negative), prostate gland enlarged at 4.8 cm with extracapsular extension and possible seminal vesicle involvement. Impression: Stage IVB prostate adenocarcinoma with bone and lymph node metastases, no visceral metastases."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 68 years, the patient initiated androgen deprivation therapy (ADT) with leuprolide acetate 22.5 mg intramuscular injection every 3 months (luteinizing hormone-releasing hormone agonist) combined with abiraterone acetate 1000 mg orally daily plus prednisone 5 mg orally twice daily for metastatic hormone-sensitive prostate cancer (mHSPC). Treatment intent: life-prolonging (palliative). A bicalutamide flare prophylaxis (50 mg daily for 4 weeks) was administered at ADT initiation."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 68 years (3 months after starting ADT + abiraterone), the patient had an oncologist office assessment. PSA declined from 187.4 to 4.2 ng/mL (97.8% decline). Testosterone was castrate at <10 ng/dL. Bone pain improved significantly (patient reports 2/10 pain vs. 7/10 at diagnosis). ECOG PS: 1. Tolerating abiraterone well with no significant fluid retention or hypokalemia. Blood pressure well controlled. No cancer progression identified. Response assessment: major PSA response."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 69 years (12 months after starting ADT + abiraterone), the patient had an oncologist office assessment. PSA nadir reached at 0.8 ng/mL. Testosterone castrate at <10 ng/dL. Patient reports fatigue (grade 1), no bone pain. ECOG PS: 1. Repeat bone scan showed no new lesions; known lesions stable/sclerotic (healing response). Continuing current regimen. Referral placed for germline genetic counseling given family history."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 69 years, the patient had a pathology result of type GERMLINE GENETIC TESTING (peripheral blood). Specimen: peripheral blood DNA. Testing platform: comprehensive germline cancer panel (84-gene panel). Result: PATHOGENIC VARIANT IDENTIFIED - BRCA2 c.5946delT (p.Ser1982Argfs*22), a well-characterized frameshift pathogenic variant. Zygosity: heterozygous. Additional findings: ATM wild-type, CDK12 wild-type, CHEK2 wild-type. Interpretation: This germline BRCA2 pathogenic variant confers significantly increased risk for prostate, breast, ovarian, and pancreatic cancers. Family members at 50% risk; cascade genetic testing recommended. Genetic counselor note: Patient informed of implications for self and family members."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 69 years (18 months after starting ADT + abiraterone), the patient had a Tc-99m bone scintigraphy, which showed cancer (stable). Known lesions at L3, L4, right iliac crest and right sacral ala show sclerotic changes consistent with treated/healing bone metastases. No new lesions identified. CT chest/abdomen/pelvis: No visceral metastases. Right external iliac lymph nodes decreased in size (now 0.9 cm). PSA at time of scan: 1.1 ng/mL (rising from nadir of 0.8). Impression: Radiographically stable disease; PSA beginning to rise from nadir."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70 years (24 months after starting ADT + abiraterone), the patient had an oncologist office assessment showing rising PSA consistent with castration-resistant prostate cancer (CRPC). PSA now 8.6 ng/mL (three consecutive rises above nadir, with PSA doubling time of approximately 3.5 months). Testosterone confirmed castrate at <10 ng/dL. Patient reports new low back pain (3/10). ECOG PS: 1. Diagnosis: Metastatic castration-resistant prostate cancer (mCRPC). Decision: Transition to enzalutamide monotherapy (continuing LHRH agonist for castrate testosterone maintenance). Rationale: BRCA2-mutant tumor; however, given prior response to AR-pathway therapy and patient preference to defer chemotherapy, enzalutamide chosen. PARP inhibitor (olaparib) deferred as second-line option."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 70 years, the patient discontinued abiraterone/prednisone and initiated enzalutamide 160 mg orally daily for metastatic castration-resistant prostate cancer (second-line AR-pathway inhibitor). Leuprolide acetate continued at 22.5 mg every 3 months to maintain castrate testosterone levels. Treatment intent: life-prolonging (palliative). Baseline PSA at enzalutamide start: 8.6 ng/mL."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 70 years, the patient had next generation sequencing performed for metastatic castration-resistant prostate adenocarcinoma based on a specimen obtained from a CT-guided biopsy of the L3 vertebral metastasis (bone, decalcified). Somatic tumor profile: BRCA2 loss (deep deletion, biallelic loss consistent with LOH of germline allele and somatic deletion of second allele - consistent with second-hit mechanism), TP53 p.R175H (pathogenic), AR amplification (copy number gain ~8x), RB1 loss (homozygous deletion), CDK12 wild-type, PTEN loss (heterozygous), MYC amplification (copy number ~4x). Fusions: none detected. MSI status: MSS (microsatellite stable). TMB: 4 mutations/Mb (low). PD-L1 expression: 1% (low). Actionable alterations: BRCA2 biallelic loss (PARP inhibitor eligible - olaparib FDA-approved indication), AR amplification (enzalutamide resistance mechanism). HRR gene panel: BRCA1 wild-type, BRCA2 biallelic loss (pathogenic), ATM wild-type, CDK12 wild-type, PALB2 wild-type, RAD51B wild-type, FANCA wild-type. Tumor purity: 60%."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70 years (3 months after starting enzalutamide), the patient had an oncologist office assessment showing PSA response to enzalutamide. PSA declined from 8.6 to 2.3 ng/mL (73% decline). Patient reports improvement in back pain (1/10). ECOG PS: 1. Adverse effects: grade 1 fatigue, grade 1 hot flashes (pre-existing from ADT). No seizures or neurologic events. Bone scan deferred per protocol (next imaging at 6 months). Cancer status: responding to therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 70 years (6 months after starting enzalutamide), the patient had a Tc-99m bone scintigraphy and CT chest/abdomen/pelvis, which showed cancer (stable on bone scan, no visceral metastases). Bone scan: known L3, L4, right iliac crest lesions stable without new lesions. CT: no visceral metastases (liver, lung, adrenal glands clear). No new lymphadenopathy. PSA at time of scan: 2.8 ng/mL (slight rise from nadir of 1.9 ng/mL but not clearly progressive by PCWG3 criteria). Impression: Stable osseous metastatic disease; PSA beginning to trend upward from nadir."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 70 years (6 months after starting enzalutamide), the patient had an oncologist office assessment. PSA rising to 4.1 ng/mL; PSA doubling time approximately 2.8 months. Testosterone castrate. Patient reports worsening back pain (4/10) and new right hip pain. ECOG PS: 1-2. Urgent bone scan ordered. Assessment: Early enzalutamide progression by PSA criteria; clinical and radiographic confirmation pending. Plan: Proceed with confirmatory imaging; if confirmed progression, transition to olaparib given BRCA2 biallelic loss (FDA-approved indication per PROfound trial data)."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 70 years (7 months after starting enzalutamide), the patient had a Tc-99m bone scintigraphy (confirmatory), which showed cancer with new bone metastases (progressive disease). New areas of increased tracer uptake identified at: right femoral neck/intertrochanteric region, T11 vertebral body, and left acetabulum. Previously known lesions at L3, L4, right iliac crest, and right sacral ala appear larger. PSMA PET/CT (Ga-68 PSMA-11) also performed: confirmed all bone lesions PSMA-avid, additionally identified 2 small new PSMA-avid right pelvic lymph nodes (largest 0.8 cm). No visceral metastases on PSMA PET. SUVmax of L3 lesion: 18.4. Impression: Progressive metastatic CRPC with new bone metastases (radiographic progression per PCWG3), no visceral disease."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 70 years (7 months after enzalutamide start), the patient discontinued enzalutamide and initiated olaparib 300 mg orally twice daily for metastatic castration-resistant prostate cancer with BRCA2 biallelic loss (FDA-approved, PROfound trial indication). Leuprolide acetate continued for testosterone suppression. Denosumab 120 mg subcutaneously every 4 weeks also initiated for bone metastasis-related skeletal events prevention (with calcium 500 mg and vitamin D 400 IU supplementation). Zoledronic acid was not chosen due to renal function considerations (GFR 52 mL/min). Treatment intent: life-prolonging (palliative)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71 years (3 months after starting olaparib), the patient had an oncologist office assessment showing PSA response to olaparib. PSA declined from 18.2 (at olaparib start) to 5.7 ng/mL (69% decline). Patient reports significant improvement in bone pain (1-2/10). ECOG PS: 1. Adverse effects: Grade 2 fatigue, Grade 1 nausea (improving with ondansetron PRN). CBC: Hemoglobin 10.8 g/dL (Grade 1 anemia, baseline Hgb was 12.4 before olaparib). No thrombocytopenia. Creatinine stable. Monitoring plan: CBC every 4 weeks, comprehensive metabolic panel monthly. Cancer status: responding to PARP inhibitor therapy."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71 years (4 months after starting olaparib), the patient experienced Grade 2 anemia (hemoglobin 9.1 g/dL, decline from baseline 12.4 g/dL). Patient reports increased fatigue (Grade 2), dyspnea on exertion (Grade 1), and reduced exercise tolerance. Reticulocyte count low (0.4%), MCV mildly elevated at 98 fL, consistent with olaparib-associated bone marrow suppression (megaloblastic pattern). Iron studies: serum iron 68 mcg/dL, ferritin 280 ng/mL, TIBC normal - no iron deficiency. Vitamin B12 and folate normal. Assessment: Olaparib-related Grade 2 anemia. Management: Olaparib dose reduced to 200 mg orally twice daily per protocol. EPO-stimulating agents not initiated at this time. Supportive care: folic acid supplementation, activity modification counseling. Next CBC in 2 weeks."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71 years (6 months after starting olaparib), the patient had a Tc-99m bone scintigraphy and CT chest/abdomen/pelvis, which showed cancer (stable/partial response in bone). Bone scan: Previously new lesions at right femoral neck, T11, and left acetabulum show reduced tracer uptake consistent with treatment response. Known lesions at L3, L4, right iliac crest stable/sclerotic. No new bone lesions. CT chest/abdomen/pelvis: No visceral metastases. Previously identified right pelvic lymph nodes decreased to 0.4 cm. PSA at time of scan: 3.9 ng/mL. Impression: Partial radiographic response to olaparib in bone metastases; no visceral disease."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71 years (7 months after starting olaparib), the patient experienced Grade 3 anemia (hemoglobin 7.4 g/dL). Patient symptomatic with fatigue (Grade 3), exertional dyspnea (Grade 2), lightheadedness. Heart rate 104 bpm, BP 118/74 mmHg. CBC: WBC 4.2 K/uL, platelets 128 K/uL (Grade 1 thrombocytopenia). Reticulocyte count 0.3%. Assessment: Grade 3 anemia requiring blood transfusion. Olaparib held pending hemoglobin recovery. Management: Packed red blood cell transfusion administered (2 units pRBC); post-transfusion Hgb 9.8 g/dL. Patient monitored in infusion center. Plan: Resume olaparib at reduced dose (150 mg twice daily) once Hgb >9 g/dL and stable."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71 years (8 months after starting olaparib), the patient had an oncologist office assessment following anemia episode and transfusion. Hemoglobin 9.6 g/dL post-transfusion and dose hold. PSA: 4.4 ng/mL (slight rise during dose hold, not clearly progressive). Olaparib resumed at 150 mg twice daily. Patient fatigue improved to Grade 1 after transfusion. ECOG PS: 1. Erythropoiesis-stimulating agent (darbepoetin alfa) initiated per oncologist discretion for transfusion-dependent anemia in the setting of non-myelosuppressive cancer therapy context. Plan: Darbepoetin alfa 500 mcg subcutaneous every 3 weeks; CBC monitoring every 3 weeks. Hemoglobin target 10-12 g/dL. Cancer status: disease present, on active therapy with partial response."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71 years (9 months after starting olaparib), the patient experienced a second episode of Grade 3 anemia (hemoglobin 7.1 g/dL) despite darbepoetin alfa support. Additionally noted Grade 2 thrombocytopenia (platelets 68 K/uL). Assessment: Progressive myelosuppression on olaparib 150 mg BID despite dose reduction. Patient received second packed red blood cell transfusion (2 units pRBC), post-transfusion Hgb 9.4 g/dL. Platelets monitored (no transfusion required). Olaparib held again. Hematology consultation obtained; bone marrow biopsy deferred given clinical context (PARP inhibitor-associated myelosuppression most likely). Plan: Consider further dose reduction to 100 mg BID vs. permanent discontinuation pending clinical assessment."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71 years (11 months after starting olaparib), the patient had a PSMA PET/CT (Ga-68 PSMA-11) and CT chest/abdomen/pelvis (dedicated), which showed cancer with new visceral metastases (progressive disease). PSMA PET findings: New PSMA-avid hepatic lesion in right lobe (segment VII, 1.4 cm, SUVmax 8.9). New PSMA-avid left lower lobe pulmonary nodule (0.9 cm, SUVmax 6.2). Progressive enlargement of previously known bone lesions with 3 new osseous lesions (right femur shaft, left posterior rib 6, C7 vertebral body). Pelvic lymph nodes re-enlarged (right external iliac 1.6 cm). CT chest/abdomen/pelvis confirmed: hepatic lesion 1.4 cm in right lobe segment VII (new), pulmonary nodule left lower lobe 0.9 cm (new). PSA at time of imaging: 31.7 ng/mL. Impression: Visceral metastatic progression (liver and lung) with progressive osseous and nodal disease. BRCA2-mutant mCRPC with visceral progression on PARP inhibitor therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71 years (11 months after starting olaparib), the patient had an oncologist office assessment confirming radiographic progression with visceral metastases on olaparib. PSA 31.7 ng/mL (rising). ECOG PS: 2 (worsening from baseline). Patient reports new right upper quadrant discomfort (2/10), persistent fatigue (Grade 2), 8-lb unintentional weight loss over 3 months. CBC: Hgb 8.8 g/dL (post-transfusion, last transfusion 3 weeks prior), platelets 92 K/uL, WBC 3.8 K/uL. LFTs: ALT 48 U/L (mildly elevated), AST 52 U/L (mildly elevated), bilirubin normal. Assessment: Progressive mCRPC with visceral metastases (liver, lung) on PARP inhibitor therapy. Olaparib discontinued. Discussion with patient regarding goals of care, performance status, and treatment options. Options discussed: platinum-based chemotherapy (carboplatin + docetaxel or cabazitaxel), VISION trial-eligible for Lu-177 PSMA if PSMA-positive (confirmed on recent scan), clinical trial enrollment, or transition to best supportive care. Patient wishes to pursue further treatment. Plan: Refer for palliative care consultation; proceed with carboplatin + docetaxel chemotherapy given visceral crisis risk."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71 years, the patient discontinued olaparib and initiated platinum-based combination chemotherapy with docetaxel 60 mg/m2 IV day 1 plus carboplatin AUC 4 IV day 1 every 21 days for progressive metastatic CRPC with visceral metastases and BRCA2 biallelic loss (carboplatin chosen given platinum sensitivity expected in HRR-deficient tumors, per retrospective data and BRCA2 germline mutation status). LHRH agonist (leuprolide) continued. G-CSF (filgrastim) prophylaxis given with each cycle (dose-dense schedule, ECOG PS 2, prior myelosuppression history). Pre-medications: dexamethasone 8 mg IV, ondansetron 8 mg IV. Treatment intent: palliative, life-prolonging."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 71 years (during cycle 1 of carboplatin + docetaxel), the patient experienced Grade 3 neutropenia (ANC 0.6 K/uL on day 12), managed with filgrastim support (already on prophylactic G-CSF). Patient did not require hospitalization (afebrile, no infectious symptoms). Additionally: Grade 2 peripheral neuropathy (numbness/tingling bilateral feet, worsening from Grade 1 pre-existing from prior taxane exposure). Grade 2 alopecia (patient counseled at start of therapy). Nausea Grade 2 (controlled with ondansetron + prochlorperazine). Docetaxel dose reduced to 55 mg/m2 for cycle 2 due to neutropenia and neuropathy. Carboplatin dose maintained."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71 years (after 2 cycles of carboplatin + docetaxel), the patient had a CT chest/abdomen/pelvis, which showed cancer with mixed response. Hepatic lesion in segment VII: decreased from 1.4 cm to 0.8 cm (partial response). Pulmonary nodule left lower lobe: stable at 0.9 cm. Bone lesions: stable to minimally improved. Pelvic lymph nodes: decreased (right external iliac now 1.0 cm). PSA at time of imaging: 18.4 ng/mL (declined from 31.7). Impression: Mixed response to platinum-doublet chemotherapy; hepatic metastasis responding, pulmonary lesion stable. PSA declining. Plan: Continue chemotherapy with response assessment after cycle 4."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71 years (after 3 cycles of carboplatin + docetaxel), the patient had an oncologist office assessment. PSA 12.1 ng/mL (continued decline, 62% from pre-chemotherapy peak). ECOG PS: 2. Tolerating chemotherapy with dose reduction in place. Cumulative peripheral neuropathy now Grade 2 bilaterally in feet and hands. CBC: Hgb 9.2 g/dL (stable, last transfusion 6 weeks ago), platelets 102 K/uL, WBC 5.4 K/uL (on filgrastim). Right upper quadrant discomfort resolved. Weight stable. Patient remains engaged in goals of care discussions. Palliative care team actively involved. Supportive care: physical therapy for neuropathy, occupational therapy referral. Cancer status: disease present, partial response to chemotherapy. Continued need for close monitoring given ECOG PS 2 and cumulative treatment toxicity."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 71 years (after 4 cycles of carboplatin + docetaxel), the patient had an oncologist office assessment with PSA re-elevation suggesting resistance emerging. PSA 19.8 ng/mL (rising after initial decline). ECOG PS: 2-3 (worsening functional status, requires assistance with some ADLs). New symptom: Grade 2 fatigue, Grade 2-3 peripheral neuropathy limiting ambulation. Patient and family meeting held with palliative care team, oncologist, and social worker. Discussion regarding treatment goals, burden of therapy, and quality of life. Patient expresses desire to continue treatment if tolerable but prioritizes quality of life and time at home. Assessment: Rising PSA after 4 cycles carboplatin/docetaxel with worsening PS and cumulative toxicity. Plan: Obtain imaging to assess extent of progression. Given PSMA-positive disease on prior imaging, discuss Lu-177-PSMA-617 therapy (VISION trial FDA approved indication) if performance status permits, vs. clinical trial vs. best supportive care. Radium-223 not indicated given visceral metastases. Cabazitaxel considered but limited by PS and prior neuropathy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 71 years (restaging after 4 cycles of carboplatin + docetaxel), the patient had a PSMA PET/CT (Ga-68 PSMA-11) and CT chest/abdomen/pelvis, which showed cancer with progressive disease. Hepatic lesions: prior segment VII lesion re-enlarged (now 2.1 cm) and 2 new hepatic lesions (segments II and V, 1.0 cm and 0.7 cm). Pulmonary nodule: stable. Bone lesions: multiple new lesions (thoracic spine T5, T8; sacrum; bilateral pubic rami). Pelvic lymph nodes: progressive enlargement. PSMA uptake: all lesions strongly PSMA-avid (liver SUVmax 12.4, bone lesions SUVmax 14-21). No salivary gland exclusion concerns. PSMA PET eligibility for Lu-177 therapy: PSMA-positive tumor burden (all metastatic sites PSMA-avid). Impression: Widespread progressive mCRPC with visceral (liver) and bone progression, PSMA-avid disease suitable for Lu-177-PSMA-617 consideration."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 71 years, the patient discontinued carboplatin + docetaxel chemotherapy after 4 cycles due to disease progression and declining performance status (ECOG PS 3). After multidisciplinary discussion including nuclear medicine, medical oncology, palliative care, and the patient/family, the patient was enrolled in lutetium-177 PSMA-617 (Lu-177-PSMA-617; Pluvicto) therapy given strongly PSMA-avid progressive disease (post-AR pathway therapy and post-taxane chemotherapy). Cycle 1 of Lu-177-PSMA-617 7.4 GBq IV administered. Leuprolide acetate continued. Hydration protocol implemented. Pre-treatment salivary gland protection (cooling) utilized. Antiemetics given prophylactically. Treatment intent: palliative, life-prolonging. Patient and family extensively counseled on realistic expectations, supportive care, and advance care planning."
+    }
+  ],
+  "scenario_index": 4,
+  "scenario_label": "prostate_crpc",
+  "scenario_blurb": "Castration-resistant prostate cancer in a 71-year-old with germline BRCA2 loss, rising PSA on ADT + abiraterone. Treated with enzalutamide with PSA response for 6 months, then progression with new bone metastases. Switched to olaparib with PSA decline. Develops anemia requiring transfusions and eventually progresses with visceral metastases."
+}

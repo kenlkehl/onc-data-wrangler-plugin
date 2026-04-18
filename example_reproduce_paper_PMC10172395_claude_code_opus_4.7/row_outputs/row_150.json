@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "Median sonidegib 39 vs vehicle 31 days; log-rank p=0.1357 (not significant)",
+  "discrepancy_analysis": "Both the paper and the model agree that sonidegib treatment did not produce a statistically significant survival benefit in the STS-26T xenograft model. The model reports median survival of 39 days (sonidegib) vs 31 days (vehicle) with log-rank p=0.1357, which is above the conventional significance threshold of 0.05. This matches the paper's reported finding of no statistically significant improvement. CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

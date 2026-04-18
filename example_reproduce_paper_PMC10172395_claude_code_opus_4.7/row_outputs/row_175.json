@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE (TCGA not deposited locally)",
+  "discrepancy_analysis": "A. REPORTED vs MODEL\n   - Reported (paper, Supp Fig 3c): SUZ12 frequency = 20% in TCGA MPNST oncoprint\n   - Model: DATA_UNAVAILABLE - TCGA cohort was not deposited locally; only the Toronto cohort data is available in the deposited data_dir\n\nB. CONCORDANCE ASSESSMENT\n   - Unable to evaluate concordance because the underlying TCGA MPNST data required to reproduce the oncoprint is not accessible\n   - Per the ±10% concordance rule, this cannot be computed without a numeric model result\n\nC. ROOT CAUSE INVESTIGATION\n   - The question asks about the SUZ12 mutation/alteration frequency in the TCGA MPNST cohort as depicted in Supplementary Figure 3c\n   - The local data directory only contains the Toronto cohort (the primary cohort used in the paper)\n   - TCGA MPNST data would need to be retrieved from cBioPortal or the TCGA/GDC data portal\n   - No local files were deposited to allow independent reproduction of the TCGA oncoprint\n\nD. CLASSIFICATION\n   - Root cause: 7:MISSING_DATA_HANDLING - the external TCGA validation cohort data was referenced in the paper but not included in the deposited data package\n\nE. PROPOSED FIX\n   - Retrieve TCGA MPNST mutation data (e.g., from cBioPortal 'mpnst_mskcc_2019' or equivalent TCGA study) and re-compute SUZ12 alteration frequency across the TCGA MPNST cohort\n\nF. CONFIDENCE\n   - LOW - the discrepancy is structural (missing data) rather than methodological; no numeric comparison is possible",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Retrieve TCGA MPNST mutation/CNA data from cBioPortal or GDC and recompute SUZ12 alteration frequency to compare against the reported 20% from Supp Fig 3c",
+  "confidence": "LOW"
+}

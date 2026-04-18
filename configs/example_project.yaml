@@ -1,0 +1,89 @@
+# Example project configuration for onc-data-wrangler
+# Copy this file and modify for your project.
+
+project:
+  name: my_cancer_project
+  input_paths:
+    - /path/to/data/files
+  output_dir: /path/to/output
+
+cohort:
+  patient_file: /path/to/patient_list.csv
+  patient_id_column: record_id
+  # diagnosis_file: /path/to/diagnoses.csv  # optional
+  # diagnosis_code_column: icd_code         # optional
+  # diagnosis_code_filter: ["C34"]          # optional ICD prefix filter
+  # demographics_files:                     # optional
+  #   - /path/to/demographics1.csv
+  #   - /path/to/demographics2.csv
+  sex_column: sex
+  race_column: race
+  ethnicity_column: ethnicity
+  birth_date_column: birth_date
+  death_date_column: death_date
+  death_indicator_column: vital_status
+  followup_date: "2025-07-01"
+
+extraction:
+  llm:
+    # Provider options: openai, azure, anthropic, vertex, gemini, claude-code
+    provider: openai
+    model: gpt-oss-120b
+    base_url: http://localhost:8000/v1
+    # api_key: set via OPENAI_API_KEY env var
+    #
+    # --- Gemini via Vertex AI ---
+    # provider: gemini
+    # model: gemini-3-flash-preview
+    # vertex_project: my-gcp-project     # or set GOOGLE_VERTEX_PROJECT_ID env var
+    # vertex_region: us-central1
+    #
+    # --- Gemini via AI Studio ---
+    # provider: gemini
+    # model: gemini-3-flash-preview
+    # api_key: set via GOOGLE_API_KEY env var
+  # claude_code_model: opus  # only used when provider is "claude-code" (opus, sonnet, haiku)
+  ontology_ids:
+    - naaccr
+  cancer_type: generic
+  chunk_tokens: 40000
+  overlap_tokens: 200
+  items_per_call: 50
+  patient_workers: 8
+  notes_paths:
+    - /path/to/clinical_notes.csv
+  patient_id_column: record_id
+  notes_text_column: text
+  notes_date_column: date
+  notes_type_column: note_type
+
+database:
+  deidentify_dates: true
+  record_id_prefix: patient
+  min_non_missing: 10
+  forbidden_output_columns:
+    - record_id
+
+query:
+  # Privacy mode: aggregate-only, individual-allowed, individual-with-audit
+  privacy_mode: aggregate-only
+  min_cell_size: 10
+  max_query_rows: 500
+  max_output_fraction: 0.5
+
+# Optional: map structured data columns to ontology fields
+# field_mappings:
+#   demographics:
+#     - source: SEX_CODE
+#       target: sex
+#       transform: lowercase
+#     - source: RACE_CODE
+#       target: race
+#       value_map:
+#         "1": "White"
+#         "2": "Black"
+
+# Optional: per-file patient ID column overrides
+# patient_id_columns:
+#   treatment_records.csv: mrn
+#   lab_results.csv: patient_mrn

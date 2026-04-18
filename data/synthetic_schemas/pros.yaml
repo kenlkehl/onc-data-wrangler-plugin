@@ -1,0 +1,34 @@
+table_name: pros
+description: One row per patient-reported outcome (PRO) assessment subscale score.
+columns:
+  - name: patient_id
+    type: string
+    description: Unique patient identifier
+  - name: date
+    type: date
+    description: Date of PRO assessment
+  - name: instrument
+    type: string
+    description: "PRO instrument name (e.g., EORTC QLQ-C30, PRO-CTCAE)"
+  - name: subscale
+    type: string
+    description: Subscale or symptom domain name
+  - name: value
+    type: string
+    description: Score value for this subscale
+  - name: scale_range
+    type: string
+    description: "Valid range for this scale (e.g., 0-100 or 0-4)"
+
+generation_instructions: |
+  Generate PRO assessments at key timepoints (baseline, mid-treatment, end of treatment, follow-up).
+  Common instruments:
+    - EORTC QLQ-C30: functional scales (Physical, Role, Emotional, Cognitive, Social; 0-100, higher=better)
+      and symptom scales (Fatigue, Nausea, Pain, Dyspnea, Insomnia, Appetite Loss, Constipation,
+      Diarrhea, Financial Difficulties; 0-100, higher=worse). Global Health Status (0-100).
+    - PRO-CTCAE: severity of specific symptoms (0=None, 1=Mild, 2=Moderate, 3=Severe, 4=Very Severe).
+      Common items: fatigue, nausea, pain, numbness/tingling, diarrhea, rash, shortness of breath.
+  Scores should reflect disease trajectory:
+    - Worsening functional scores during active treatment
+    - Improving scores during remission
+    - Declining scores with disease progression

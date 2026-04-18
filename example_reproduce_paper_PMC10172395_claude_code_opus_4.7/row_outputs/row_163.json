@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE (TCGA not in local data directory)",
+  "discrepancy_analysis": "A. DATA ATTEMPTED: TCGA MPNST external validation cohort (n=5) silhouette width from Supp Fig 1b.\nB. AVAILABILITY: The TCGA MPNST external validation data are not present in the local data directory. Only the Toronto cohort appears to be deposited.\nC. REPORTED VALUE: 0.98 (silhouette width for TCGA MPNST validation, n=5).\nD. MODEL VALUE: Unable to compute — external validation data absent from the deposit.\nE. ROOT CAUSE: The TCGA external validation cohort required to reproduce this figure panel is not included in the locally shared data. This is a missing-data handling issue rooted in the paper's data-sharing scope (external validation cohorts commonly sit behind TCGA/GDC controlled-access portals rather than being re-deposited with the primary paper).\nF. DISCREPANCY MAGNITUDE: N/A — cannot compute a model value, so magnitude is undefined.\nG. PROPOSED FIX: Obtain the TCGA MPNST methylation beta matrix (n=5) from the GDC/TCGA portal, project into the Toronto cohort's classifier space, and recompute silhouette width with the same distance metric and cluster labels used in Supp Fig 1b.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Acquire the TCGA MPNST methylation data (n=5) from the GDC and project onto the Toronto-trained classes, then recompute silhouette width using the same distance metric/labels as Supp Fig 1b.",
+  "confidence": "HIGH"
+}

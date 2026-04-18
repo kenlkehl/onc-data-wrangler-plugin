@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "21 Atypical_NF present; 20/21 (95.2%) in PremalignantNF_G3, 1 in SporadicSpinalNF_G5; 3/3 LG-MPNST in G3.",
+  "discrepancy_analysis": "CONCORDANT: Model reproduces the paper's reported numbers exactly. MOESM4 Clinical Data shows 21 Atypical_NF tumors total, with 20/21 (95.2%) assigned to Methylation_Group PremalignantNF_G3 and 1/21 to Sporadic Spinal NF_G5. All 3/3 (100%) Low-Grade MPNST tumors are in PremalignantNF_G3. This matches the paper's statement of 20/21 (95%) atypical NF + 3/3 (100%) low-grade MPNST in the G3 cluster. The assumption PremalignantNF_G3 = G3 cluster is validated.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

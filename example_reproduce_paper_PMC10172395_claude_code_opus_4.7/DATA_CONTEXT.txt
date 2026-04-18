@@ -1,0 +1,75 @@
+DATA FILES AVAILABLE (in ./data/):
+
+- 41467_2023_38432_MOESM4_ESM.xlsx (Supplementary Data 1 - "Clinical Data" sheet, 108 samples + header):
+  Columns: Tumor_ID, Tumor Type, Age, Gender, NF1 Status, Location, Recurrence (0/1), Time to Recurrence or Last Follow Up (years),
+  Methylation_Group (e.g., MPNST_G1, MPNST_G2, PremalignantNF_G3, Benign_NF_G4, Sporadic_Spinal_NF_G5, Cutaneous_NF_G6, Cutaneous_NF_G7),
+  Methylation (X = platform run), Sentrix_ID (links to IDAT file names),
+  RNA-Seq (X), RNA label (sample label used in RNA matrix), WES (X), WES label.
+  Tumor Type values include: MPNST, Low-Grade MPNST, Atypical_NF, Neurofibroma, Cutaneous_NF.
+
+- 41467_2023_38432_MOESM5_ESM.xlsx (Supplementary Table 2 - all WES mutations, 7457 rows x 123 cols, MAF-like):
+  Columns: Tumor_Sample_Barcode, Hugo_Symbol, Entrez_Gene_Id, Center, NCBI_Build, Chromosome, Start_Position, End_Position,
+  Strand, Variant_Classification, Variant_Type, ... plus annotation columns (Oncogenic, FILTER, t_alt_count, t_ref_count, etc.).
+  Covers 54 PNST tumor samples + 20 matched blood. Used for oncoprint and TMB analyses.
+
+- 41467_2023_38432_MOESM6_ESM.xlsx (Supplementary Data 3 - DEGs per subgroup, 125 rows x 19 cols):
+  Two-column blocks labeled "MPNST-G1 Differentially Expressed Genes" and "MPNST-G2 Differentially Expressed Genes" etc.
+  Contains gene symbols, logFC, FDR values per subgroup comparison.
+
+- 41467_2023_38432_MOESM7_ESM.xlsx (Supplementary Data 4 - computational drug screen, 1474 rows x 190 cols):
+  First columns: "MPNST-G1 Top Hits in Drug Screen", drug names, scores. Results from DrugBank / LINCS-style predictions.
+
+- 41467_2023_38432_MOESM8_ESM.xlsx (Supplementary Table 4 - all gene fusions, 1031 rows x 19 cols):
+  Columns: Sample_Id, Genome build, Tool, Gene_1_symbol(5end_fusion_partner), Gene_2_symbol(3end_fusion_partner),
+  Fusion_description, Counts_of_common_mapping_reads, Spanning_pairs, Spanning_unique_reads, Longest_anchor_found,
+  Fusion_finding_method, and genomic breakpoint annotations.
+
+- 41467_2023_38432_MOESM10_ESM.xlsx (Source data workbook, multi-sheet):
+  Sheets: Fig 1b (75 PFS rows: Methylation_Group, Recurrence, Time to Recurrence or Last Follow Up),
+  Fig 1f+g (methylated/silenced gene counts + pathway enrichment),
+  Fig 3c (top 10 pathways for MPNST-G1/G2 GSEA),
+  Fig 3f (PTCH1 promoter methylation vs expression, n = 49),
+  Fig 5a-l (experimental in vitro / xenograft source data - GLI1 qPCR, proliferation, soft agar, migration,
+  IC50 curves, xenograft survival in days).
+
+- GSE207207_average_beta_values.txt.gz (methylation beta values matrix, CpG x samples):
+  Tab-separated, gzipped. First column = CpG probe ID (cg*). Remaining columns = 108 sample IDs (e.g., M1014, NF1117, cNF*).
+  Values are beta (0-1). Used for consensus clustering / differential methylation.
+
+- GSE207207_idats/ (217 files): Raw Illumina MethylationEPIC 850k IDAT files (Grn + Red channels per sample)
+  plus GPL21145_MethylationEPIC_15073387_v-1-0.csv.gz (array manifest). Gzipped.
+
+- GSE207207_RAW.tar: Tarball bundle of the above IDATs (identical content extracted into idats/).
+
+- GSE207207_series_matrix.txt.gz: GEO sample metadata (sample IDs, phenotype labels).
+
+- GSE207399_10x/ (18 files): Single-nucleus RNA-seq (10X Genomics) for 6 samples
+  (M1677, M1933, M2372, M3048, NF-atypical). Per sample: barcodes.tsv.gz, features.tsv.gz, matrix.mtx.gz.
+
+- GSE207399_RAW.tar: Tarball of the above.
+
+- GSE207399_series_matrix.txt.gz: snRNA-seq sample metadata.
+
+- GSE207400_Matrix.txt.gz (bulk RNA-seq log-normalised expression matrix, 48 samples):
+  Tab-separated, gzipped. First column = GeneID (HGNC symbol). Remaining columns = sample labels
+  (M* = MPNST, NF* = neurofibroma / atypical / plexiform, one excluded for QC leaving n = 48-49).
+
+- GSE207400_series_matrix.txt.gz: Bulk RNA-seq sample metadata.
+
+DATA DICTIONARIES / DOCUMENTATION:
+- ./supplementary/41467_2023_38432_MOESM1_ESM.pdf (main supplementary materials PDF)
+- ./supplementary/41467_2023_38432_MOESM2_ESM.pdf, MOESM3_ESM.pdf (additional supplements)
+- ./supplementary/41467_2023_38432_MOESM9_ESM.docx (peer review / additional methods document)
+- ./paper_metadata.json (PMC/Nat Commun metadata)
+
+NOTES:
+- When loading .txt.gz matrix files, they are tab-separated with gene/CpG labels in column 1.
+  Use: pd.read_csv(path, sep='\t', compression='gzip', index_col=0).
+- Methylation_Group column values include underscores in MOESM4 ("MPNST_G1", not "MPNST-G1"); the paper text uses hyphens.
+- The Clinical Data table has a small number of rows that are blanks/metadata; use Tumor_ID non-null to filter to the 108 samples.
+- Recurrence is coded 0 (no event) or 1 (event); Time to Recurrence or Last Follow Up is in YEARS (not days).
+- The IDATs directory and matrix files together let R packages (minfi, ChAMP) be re-run if needed, but most
+  downstream analyses can be done directly on GSE207207_average_beta_values.txt.gz.
+- Tumor_Sample_Barcode in MOESM5 MAF matches Tumor_ID/WES label in MOESM4 (e.g., "M1014").
+- Sample labels: M* prefix = MPNST/atypical samples, NF* = neurofibroma (plexiform or atypical) samples,
+  cNF*/Cut* = cutaneous neurofibromas.

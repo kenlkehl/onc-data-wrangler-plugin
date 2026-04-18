@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "4/54 (7.41%) PTPRD mutation frequency in the 54-sample WES cohort",
+  "discrepancy_analysis": "Model result of 4/54 (7.41%) matches the reported paper value of 7% PTPRD (Fig 2b oncoprint) within the \u00b110% relative difference threshold (relative difference = 5.86%). The paper reports the rounded percentage (7%) from the Fig 2b oncoprint while the model computes the exact fraction from the MOESM5 WES MAF in the 54-sample WES cohort.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

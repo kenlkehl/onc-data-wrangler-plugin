@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "8/18 MPNST WES samples (44.4%) harbor >=1 PASS non-synonymous NF1 somatic mutation.",
+  "discrepancy_analysis": "Reported result (44%) and model result (44.4%) match within +/-10% relative difference (relative diff = 0.91%). The model identified 8/18 MPNST WES samples (44.4%) with >=1 PASS non-synonymous NF1 somatic mutation using the MOESM5 WES MAF and MOESM4 clinical annotation, which rounds to 44% as reported in the paper.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

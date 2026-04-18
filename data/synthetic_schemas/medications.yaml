@@ -1,0 +1,86 @@
+table_name: medications
+description: One row per individual drug for each treatment period (cancer-directed therapy and key supportive care medications).
+columns:
+  - name: patient_id
+    type: string
+    description: Unique patient identifier
+  - name: drug_name
+    type: string
+    description: Generic drug name (e.g., pembrolizumab, carboplatin, ondansetron)
+  - name: drug_category
+    type: string
+    description: "Therapeutic category: Chemotherapy, Immunotherapy, Targeted Therapy, Hormonal Therapy, or Supportive Care"
+  - name: start_date
+    type: date
+    description: Date drug was started (YYYY-MM-DD)
+  - name: end_date
+    type: date
+    description: Date drug was stopped or last administered (YYYY-MM-DD)
+  - name: route
+    type: string
+    description: "Route of administration: IV, PO, SC, or IM"
+  - name: dose
+    type: string
+    description: "Dose per administration with units (e.g., 200 mg, 175 mg/m2, AUC 5)"
+  - name: frequency
+    type: string
+    description: "Dosing schedule (e.g., every 3 weeks, daily, days 1-14 q21d)"
+  - name: line_of_therapy
+    type: integer
+    description: Line of therapy number (1=first-line, 2=second-line, etc.). Supportive care drugs share the line of their associated regimen.
+  - name: intent
+    type: string
+    description: "Treatment intent: Curative, Palliative, Adjuvant, Neoadjuvant, or Maintenance"
+generation_instructions: |
+  Generate one row per individual drug for each treatment period in the patient's history.
+
+  Cancer-directed therapy mapping from events:
+    - Each <systemic> event describes a regimen (e.g., "carboplatin/paclitaxel/pembrolizumab").
+      Split multi-drug regimens into separate rows, one per drug, sharing the same start_date and line_of_therapy.
+    - Use generic drug names (e.g., pembrolizumab, not Keytruda) for the drug_name column.
+    - Assign line_of_therapy sequentially: first regimen = 1, second = 2, etc.
+      Drugs within the same regimen share the same line_of_therapy.
+    - Set intent based on event context: Curative, Adjuvant, Neoadjuvant, Palliative, or Maintenance.
+
+  Drug categories:
+    - Chemotherapy: cytotoxic agents (carboplatin, cisplatin, paclitaxel, docetaxel, doxorubicin,
+      fluorouracil, gemcitabine, etoposide, cyclophosphamide, capecitabine, pemetrexed, irinotecan, etc.)
+    - Immunotherapy: checkpoint inhibitors (pembrolizumab, nivolumab, atezolizumab, durvalumab,
+      ipilimumab, cemiplimab)
+    - Targeted Therapy: kinase inhibitors, antibody-drug conjugates, PARP inhibitors, CDK4/6 inhibitors,
+      HER2-targeted agents, etc. (osimertinib, trastuzumab, olaparib, palbociclib, alectinib,
+      trastuzumab deruxtecan, encorafenib, dabrafenib, trametinib, bevacizumab, cetuximab, etc.)
+    - Hormonal Therapy: endocrine agents (letrozole, tamoxifen, anastrozole, enzalutamide,
+      abiraterone, leuprolide, etc.)
+    - Supportive Care: antiemetics, growth factors, bone-modifying agents, steroids used as premedication
+
+  Supportive care medications:
+    - Add 2-4 supportive care rows per chemotherapy regimen:
+      - Antiemetics (ondansetron, granisetron, or palonosetron) for emetogenic regimens
+      - Dexamethasone as premedication for taxanes and highly emetogenic chemotherapy
+      - Growth factors (pegfilgrastim or filgrastim) for dose-dense or myelosuppressive regimens
+      - Bone-modifying agents (denosumab or zoledronic acid) for patients with bone metastases
+    - Supportive care start_date should align with the start of the associated treatment
+
+  Route and dose realism:
+    - IV: most cytotoxics, checkpoint inhibitors, monoclonal antibodies, platinum agents
+    - PO: oral targeted therapies (osimertinib, palbociclib, capecitabine, enzalutamide), oral antiemetics
+    - SC: pegfilgrastim, denosumab, some checkpoint inhibitors
+    - IM: leuprolide
+    - Doses should be realistic standard-of-care doses (e.g., pembrolizumab 200 mg,
+      carboplatin AUC 5, paclitaxel 175 mg/m2, osimertinib 80 mg, palbociclib 125 mg)
+
+  Frequency patterns:
+    - IV chemotherapy: "every 3 weeks", "every 2 weeks", "days 1,8 q21d", "weekly"
+    - Oral targeted therapy: "daily", "daily days 1-21 q28d"
+    - Checkpoint inhibitors: "every 3 weeks", "every 6 weeks"
+    - Growth factors: "once per cycle, day 2"
+    - Bone agents: "every 4 weeks"
+
+  End dates:
+    - For completed regimens, end_date should be the last administration date
+    - For ongoing therapy at last known follow-up, end_date should be the most recent administration date
+    - Duration should be clinically realistic: adjuvant chemo 3-6 months, maintenance therapy months to years,
+      palliative until progression
+
+  Not every systemic event needs supportive care rows; use clinical judgment.

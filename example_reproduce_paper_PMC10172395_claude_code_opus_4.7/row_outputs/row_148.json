@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "S462TY xenografts: sonidegib median survival 78 days vs vehicle 45 days (difference 33 days)",
+  "discrepancy_analysis": "Exact match between reported and model results. Both report median survival of 78 days for sonidegib-treated S462TY xenografts and 45 days for vehicle-treated controls, derived from MOESM10 Fig 5l source data (n=5 per arm).",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

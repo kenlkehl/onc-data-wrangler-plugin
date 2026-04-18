@@ -1,0 +1,54 @@
+{
+  "patient_id": "patient_bed5d566709b",
+  "event_index": 5,
+  "event_type": "pathology_report",
+  "text": "DEPARTMENT OF PATHOLOGY AND LABORATORY MEDICINE\nSURGICAL PATHOLOGY REPORT\n\n--------------------------------------------------------------------------------\nSPECIMEN INFORMATION\n--------------------------------------------------------------------------------\nSpecimen ID:        SP-XXXXXX-A\nPatient:            Okonkwo, Margaret\nDate of Procedure:  [DATE REDACTED]\nDate Received:      [DATE REDACTED]\nDate Reported:      [DATE REDACTED]\nOrdering Physician: [Interventional Radiology / Referring Oncology Service]\nProcedure:          CT-guided percutaneous core needle biopsy, right renal mass\nClinical History:   63-year-old female with newly identified large right renal mass (11.4 x 9.7 x 10.2 cm) on cross-sectional imaging with perinephric fat involvement and retroperitoneal lymphadenopathy, as well as bilateral pulmonary nodules suspicious for metastatic disease. Biopsy performed for histologic diagnosis prior to definitive management.\n\n--------------------------------------------------------------------------------\nSPECIMEN TYPE\n--------------------------------------------------------------------------------\nFour (4) core needle biopsy cores, right kidney mass, CT-guided.\n\n--------------------------------------------------------------------------------\nGROSS DESCRIPTION\n--------------------------------------------------------------------------------\nReceived in formalin, labeled with patient name and \"right renal mass core biopsy,\" are four tan-white cylindrical tissue cores ranging from 1.0 to 1.5 cm in length and 0.1 to 0.15 cm in diameter. The cores have a firm consistency with focal areas of soft, friable, tan-yellow tissue. Submitted entirely in two cassettes (A1: cores 1-2; A2: cores 3-4). Representative sections taken for H&E and immunohistochemistry.\n\n--------------------------------------------------------------------------------\nMICROSCOPIC DESCRIPTION\n--------------------------------------------------------------------------------\nSections show cores of renal parenchyma infiltrated by a malignant epithelial neoplasm. The dominant architectural pattern consists of nests and alveolar clusters of polygonal tumor cells separated by a rich, delicate sinusoidal vasculature characteristic of clear cell renal cell carcinoma. The tumor cells have abundant optically clear to finely granular cytoplasm due to dissolved lipid and glycogen, with distinct cell borders. Nuclei are markedly enlarged and irregular with prominent nucleoli that are clearly visible at 10x objective in the majority of cells, consistent with ISUP/WHO nuclear grade 3.
+
+Mitotic figures are readily identified (estimated 5-6 per 10 high-power fields). Areas of geographic coagulative necrosis are present, comprising approximately 15-20% of the sampled cores.
+
+A distinct component — estimated at approximately 20% of the sampled tumor area — demonstrates high-grade sarcomatoid differentiation. This component is composed of sheets and fascicles of pleomorphic, elongated spindle cells with vesicular nuclei, prominent eosinophilic nucleoli, and brisk mitotic activity (>10 mitoses per 10 HPF). Bizarre multinucleated giant cells are focally present within the sarcomatoid component. Necrosis is disproportionately concentrated in this area. The transition between the conventional clear cell component and the sarcomatoid component is abrupt in some areas and gradual in others.
+
+In one core, fibrous tissue consistent with focally sampled perinephric fat is present, with tumor cells infiltrating between adipocytes, indicating perinephric fat invasion.
+
+No lymphovascular invasion is definitively identified within these limited biopsy cores, though this finding is limited in sampling.
+
+No rhabdoid differentiation identified.
+
+--------------------------------------------------------------------------------\nIMMUNOHISTOCHEMISTRY\n--------------------------------------------------------------------------------\nThe following immunohistochemical stains were performed on sections from block A1 using standard heat-induced epitope retrieval (HIER) and appropriate positive and negative controls. Controls performed satisfactorily.
+
+  Carbonic Anhydrase IX (CA9, clone EP161):       POSITIVE — strong, diffuse membranous staining in >90% of clear cell component; reduced/patchy in sarcomatoid foci
+  PAX8 (clone MRQ-50):                            POSITIVE — strong nuclear staining in clear cell component; focal weak in sarcomatoid foci
+  CD10 (clone 56C6):                              POSITIVE — strong membranous/cytoplasmic staining
+  Vimentin (clone V9):                            POSITIVE — diffuse cytoplasmic staining in both clear cell and sarcomatoid components
+  CK7 (clone OV-TL 12/30):                        NEGATIVE — no immunoreactivity
+  TFE3 (clone MRQ-37):                            NEGATIVE — no nuclear immunoreactivity (excludes Xp11.2 translocation RCC)
+  SOX10:                                          NEGATIVE — excludes melanocytic differentiation in sarcomatoid component
+  Desmin:                                         NEGATIVE — no reactivity in sarcomatoid foci
+  SMA (smooth muscle actin):                      FOCAL WEAK POSITIVE — non-specific, noted in sarcomatoid stroma
+
+PD-L1 (clone 22C3, Dako PharmDx assay):
+  Combined Positive Score (CPS): 15
+    — Tumor cell membranous PD-L1 staining: approximately 8% of viable tumor cells positive
+    — Immune cell PD-L1 staining (tumor-associated macrophages and lymphocytes): moderate infiltrate, contributing substantially to the CPS
+    — Scoring performed by a board-certified pathologist; interpretation: PD-L1 CPS 15 (positive, intermediate expression)
+
+The immunophenotype (CA9+, PAX8+, CD10+, vimentin+, CK7-, TFE3-) is consistent with clear cell renal cell carcinoma and excludes papillary RCC, chromophobe RCC, and Xp11.2 translocation-associated RCC.
+
+--------------------------------------------------------------------------------\nANCILLARY STUDIES — PENDING / ADDITIONAL\n--------------------------------------------------------------------------------\nMolecular profiling (comprehensive genomic profiling): specimen submitted to outside reference laboratory (Foundation Medicine, FoundationOne CDx). Results to be reported separately.
+
+In situ hybridization for TFE3 gene rearrangement: not required given negative TFE3 IHC.
+
+--------------------------------------------------------------------------------\nFINAL DIAGNOSIS\n--------------------------------------------------------------------------------\nRIGHT KIDNEY, MASS — CT-GUIDED CORE NEEDLE BIOPSY:
+
+  RENAL CELL CARCINOMA, CLEAR CELL TYPE
+    - ISUP/WHO Nuclear Grade: 3 (prominent nucleoli visible at 10x objective)
+    - Sarcomatoid differentiation: PRESENT, estimated 20% of sampled tumor
+    - Necrosis: PRESENT (geographic coagulative necrosis, ~15-20% of sampled cores)
+    - Perinephric fat involvement: PRESENT (focal, in one biopsy core)
+    - Rhabdoid differentiation: Absent
+    - Lymphovascular invasion: Not definitively identified in biopsy material (limited sampling)
+    - PD-L1 expression (CPS, Dako 22C3): 15 (intermediate/positive)
+    - Molecular profiling: PENDING (see addendum)
+
+--------------------------------------------------------------------------------\nCOMMENT\n--------------------------------------------------------------------------------\nThe morphologic and immunohistochemical findings are diagnostic of clear cell renal cell carcinoma (ccRCC), ISUP/WHO grade 3, with a significant (approximately 20%) sarcomatoid component. Sarcomatoid differentiation in ccRCC is a recognized adverse prognostic feature associated with aggressive behavior, resistance to VEGFR-targeted therapy, and potentially enhanced response to immune checkpoint inhibitor-based regimens. The presence of perinephric fat invasion in one of the four cores is noted and should be correlated with the imaging and surgical findings. The PD-L1 CPS of 15 by the 22C3 assay is provided for informational purposes. Correlation with final surgical pathology at nephrectomy (if performed) is recommended to fully assess pathologic stage, margin status, and extent of sarcomatoid differentiation.\n\nElectronic signature: [Attending Pathologist, MD — Board Certified in Anatomic and Clinical Pathology]\nDepartment of Pathology and Laboratory Medicine\n[Institution Name]\n\n*** ELECTRONICALLY SIGNED AND VERIFIED ***\n\n--------------------------------------------------------------------------------\nADDENDUM (MOLECULAR PROFILING — PENDING AT TIME OF INITIAL SIGN-OUT)\n--------------------------------------------------------------------------------\nFoundationOne CDx comprehensive genomic profiling results available separately. See molecular pathology addendum (Specimen ID: SP-XXXXXX-A-MOL).\n"
+}

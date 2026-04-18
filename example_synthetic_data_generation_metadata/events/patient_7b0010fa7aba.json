@@ -1,0 +1,124 @@
+{
+  "patient_id": "patient_7b0010fa7aba",
+  "events": [
+    {
+      "type": "demographics",
+      "text": "The patient is a 55-year-old female named Renata Vasquez-Okonkwo. She has a past medical history of hypothyroidism (on levothyroxine) and a 10 pack-year smoking history (quit 20 years prior). She works as a landscape architect and has significant sun exposure history. She is of mixed Afro-Caribbean and Eastern European descent."
+    },
+    {
+      "type": "diagnosis",
+      "text": "At age 55 years, the patient had a diagnosis of Stage IV (AJCC 8th edition, M1c) cutaneous malignant melanoma, superficial spreading type, arising from the left posterior shoulder. Primary lesion measured 4.2 mm Breslow thickness, Clark level V, with ulceration present and 4 mitoses/mm2. Relevant biomarkers included: BRAF V600E mutation positive; PD-L1 expression 45% (tumor proportion score); LDH 387 U/L (elevated, 1.5x upper limit of normal). Histology code: 8720/3 (Melanoma, NOS, malignant). Site code: C44.5 (Skin of trunk). Summary stage: Distant (Stage IV). Sites of metastatic disease at diagnosis: multiple subcutaneous nodules (right flank, left axilla), bilateral axillary lymphadenopathy, and hepatic metastases (4 lesions, largest 3.1 cm in right lobe). ECOG performance status: 1. Confirmation: POSITIVE HISTOLOGY."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55 years, the patient had a PET-CT (whole body, 18F-FDG) at the time of initial staging workup. The study showed: (1) hypermetabolic primary lesion on left posterior shoulder (SUVmax 8.2), (2) bilateral hypermetabolic axillary lymph nodes (right axilla: 2.1 cm, SUVmax 11.4; left axilla: 1.8 cm, SUVmax 9.7), (3) multiple hypermetabolic subcutaneous nodules in the right flank (up to 1.4 cm, SUVmax 6.8) and left axillary region, (4) four hepatic lesions with FDG avidity (right lobe: 3.1 cm SUVmax 14.2, 1.8 cm SUVmax 10.1; left lobe: 1.2 cm SUVmax 7.9, 0.9 cm SUVmax 6.3), and (5) no evidence of brain, bone, or pulmonary metastases. Impression: Widespread metastatic melanoma, M1c disease. Cancer status: present, metastatic."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 55 years, the patient had a pathology result from excision of the primary left posterior shoulder lesion and a core needle biopsy of the right axillary lymph node. Primary lesion: Invasive superficial spreading melanoma, Breslow thickness 4.2 mm, Clark level V, with ulceration, 4 mitoses/mm2, no regression, lymphovascular invasion present, perineural invasion absent, surgical margins clear (deep margin 4 mm, peripheral margins all >5 mm). Lymph node biopsy: Metastatic melanoma in right axillary lymph node, largest deposit 18 mm, with extranodal extension. Immunohistochemistry: S100 positive, SOX10 positive, HMB-45 positive, Melan-A positive, Ki-67 approximately 35%."
+    },
+    {
+      "type": "ngs_report",
+      "text": "At age 55 years, the patient had next-generation sequencing performed for metastatic cutaneous melanoma based on a specimen obtained from a right axillary lymph node core biopsy (FFPE), using a comprehensive solid tumor panel (523-gene panel). Clinically actionable alterations: BRAF p.V600E mutation (VAF 48%, pathogenic, tier 1), CDKN2A homozygous deletion (copy number loss, pathogenic, tier 1), PTEN p.R130Q mutation (VAF 31%, pathogenic, tier 1 - associated with reduced sensitivity to MEK inhibition). Additional somatic alterations: TP53 p.R248W mutation (VAF 39%, tier 2), RAC1 p.P29S mutation (VAF 12%, tier 3), PREX2 frameshift p.T935fs (VAF 22%, tier 3), ARID2 p.Q444* nonsense (VAF 19%, tier 3), MAP2K1 wild-type, NRAS wild-type, NF1 wild-type. Copy number alterations: CDKN2A homozygous deletion (chr9p21.3), MYC amplification (8q24, 6 copies), MITF gain (3q14). No clinically significant fusions detected. Tumor mutational burden: 42 mutations/Mb (high). Microsatellite status: MSS (microsatellite stable). PD-L1 IHC (companion diagnostic): 45% TPS. Germline: BRCA1/2 wild-type, CDK4 wild-type."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55 years, the patient had a new patient oncology consultation. She presented with a rapidly growing subcutaneous nodule on the right flank and palpable bilateral axillary lymphadenopathy. She reported 8 lb unintentional weight loss over 2 months, mild fatigue (ECOG 1), but no fever, night sweats, or abdominal pain. Physical exam notable for a 1.5 cm firm, mobile subcutaneous nodule right flank, bilateral firm axillary lymphadenopathy. Labs: LDH 387 U/L (elevated), CBC and CMP otherwise within normal limits except mild transaminase elevation (ALT 52, AST 48). Given Stage IV melanoma with BRAF V600E mutation, positive PTEN loss, and elevated LDH indicating high tumor burden, decision made to initiate dabrafenib 150 mg BID plus trametinib 2 mg daily as first-line therapy given rapid disease kinetics and need for rapid tumor burden reduction. Plan for restaging imaging at 8 weeks. Discussion of future immunotherapy sequencing. Cancer status: present, with active disease."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 55 years, the patient received first-line targeted therapy with dabrafenib 150 mg orally twice daily plus trametinib 2 mg orally once daily (dabrafenib/trametinib combination; BRAFi/MEKi doublet) for Stage IV BRAF V600E-mutant metastatic cutaneous melanoma. Treatment intent: palliative/disease control. Cycle start date corresponds to approximately 3 weeks after diagnosis confirmation."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 55 years (approximately 3 weeks after starting dabrafenib/trametinib), the patient developed grade 1-2 adverse events attributed to targeted therapy: pyrexia (temperature 38.4 degrees C, grade 1-2, managed with dose interruption of dabrafenib x3 days and acetaminophen), fatigue (grade 1), and a mild maculopapular rash on bilateral forearms (grade 1, managed with topical triamcinolone). Dabrafenib was resumed at full dose after fever resolution. No dose reduction required at this time."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55 years (8 weeks after starting dabrafenib/trametinib), the patient had a CT chest/abdomen/pelvis with contrast for restaging. Results showed: marked interval decrease in size and number of subcutaneous nodules (right flank nodule now 0.3 cm, previously 1.4 cm); bilateral axillary lymphadenopathy significantly decreased (right axilla 0.7 cm, previously 2.1 cm; left axilla 0.5 cm, previously 1.8 cm); hepatic metastases with interval decrease in size (right lobe: 1.2 cm, previously 3.1 cm; 0.6 cm, previously 1.8 cm; left lobe: near-complete resolution of previously noted lesions); no new sites of disease identified; no brain metastases on MRI brain obtained same day. Impression: Partial response (PR) by RECIST 1.1 criteria. Estimated 62% reduction in target lesion sum. Cancer status: present, responding to therapy."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 55 years (8-week restaging), the patient had an oncology office visit. She reported significant symptomatic improvement, weight gain of 5 lbs, improved energy. Right flank nodule no longer palpable. LDH normalized to 198 U/L. LFTs within normal limits. Continued on dabrafenib/trametinib at full dose. Discussed excellent partial response. Noted mild hand-foot syndrome (grade 1) and ongoing fatigue (grade 1). Plan to continue therapy with restaging at 16 weeks. Counseled on signs of progression and importance of adherence. Cancer status: present, responding."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 55 years (approximately 4 months into dabrafenib/trametinib), the patient developed a second episode of pyrexia (temperature 39.1 degrees C, chills, rigors; grade 2) requiring emergency department visit. Infectious workup negative (blood cultures, urinalysis, chest X-ray). Attributed to dabrafenib-related pyrexia. Dabrafenib held for 5 days with resolution of fever. On resumption, dabrafenib dose reduced to 100 mg BID (first dose reduction), trametinib continued at 2 mg daily. Also noted grade 2 peripheral edema managed with elevation and sodium restriction."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55 years (approximately 6 months after starting dabrafenib/trametinib), the patient had a CT chest/abdomen/pelvis with contrast for interval restaging. Results showed: continued stability/slight further decrease in residual axillary lymphadenopathy (right axilla 0.5 cm, left axilla 0.4 cm); residual hepatic lesions stable (right lobe: 1.0 cm and 0.5 cm); subcutaneous nodules not visualized; MRI brain: no evidence of intracranial metastases. Impression: Continued partial response, now best response achieved, with approximately 68% reduction from baseline target lesion sum. No new lesions. Cancer status: present, stable/responding."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 55-56 years (approximately 8 months after starting dabrafenib/trametinib), the patient had a CT chest/abdomen/pelvis with contrast for interval restaging. Results showed: interval increase in the right axillary lymph node (now 1.6 cm, previously 0.5 cm), new left axillary lymph node (1.1 cm), interval growth of hepatic lesions (right lobe: 2.3 cm, previously 1.0 cm; 1.4 cm, previously 0.5 cm), a new right lobe hepatic lesion (0.8 cm), and two new small pulmonary nodules (right lower lobe 0.6 cm and 0.4 cm), not previously identified. MRI brain: no intracranial metastases. LDH 512 U/L (elevated). Impression: Progressive disease (PD) by RECIST 1.1 criteria. New hepatic lesion and pulmonary nodules represent new organ involvement. Cancer status: present, progressive disease."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 56 years (8-month restaging demonstrating progression), the patient had an urgent oncology visit. She reported new right upper quadrant discomfort, mild dyspnea on exertion, and weight loss of 6 lbs over 4 weeks. Labs: LDH 512 U/L (elevated), mild transaminase elevation (ALT 78, AST 65), otherwise normal. Discussion of progression on dabrafenib/trametinib. Given the BRAF V600E mutation-positive disease with acquired resistance to BRAFi/MEKi, and high TMB (42 mut/Mb) and PD-L1 45% suggesting potential immunotherapy sensitivity, decision made to transition to second-line ipilimumab (1 mg/kg) plus nivolumab (3 mg/kg) every 3 weeks x4 doses, then nivolumab maintenance. Discussed immune-related adverse events in detail with patient and family. Dabrafenib/trametinib discontinued. Baseline thyroid function (TSH 2.1), cortisol, and CBC reviewed. ECOG PS: 1. Patient agreed to proceed. Cancer status: present, progressive."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 56 years, the patient received second-line combination immunotherapy with ipilimumab 1 mg/kg IV plus nivolumab 3 mg/kg IV every 3 weeks for 4 induction doses (CheckMate-067 dosing schema), for Stage IV BRAF V600E-mutant metastatic cutaneous melanoma with progression on dabrafenib/trametinib. Treatment intent: palliative with curative potential. Followed by planned nivolumab 480 mg IV every 4 weeks as maintenance."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 56 years (during cycle 3 of ipilimumab/nivolumab, approximately 6 weeks after initiating combination immunotherapy), the patient developed grade 3 immune-mediated colitis. She presented to the emergency department with 10-12 watery/bloody bowel movements per day, severe abdominal cramping, and fever (38.6 degrees C). Labs: CRP 94 mg/L, fecal calprotectin markedly elevated, hemoglobin 10.2 g/dL. Infectious colitis ruled out (C. difficile negative, stool culture/ova and parasites negative, CMV colitis not identified on biopsy). Flexible sigmoidoscopy showed diffuse moderate-severe colitis from rectum to descending colon, consistent with immune-related colitis. Ipilimumab and nivolumab both held. Patient admitted for IV fluids and initiated on high-dose IV methylprednisolone 2 mg/kg/day. Gastroenterology consulted."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 56 years (hospitalization for grade 3 colitis, inpatient day 4), the patient had an inpatient oncology consult note. She showed improvement after 3 days of IV methylprednisolone - bowel movements decreased to 4-5/day, no blood, abdominal pain improved. Transitioned to oral prednisone 1 mg/kg/day with planned slow taper over 6-8 weeks per ASCO immunotherapy toxicity guidelines. Ipilimumab permanently discontinued given grade 3 toxicity. Plan for nivolumab rechallenge after complete steroid taper and colitis resolution, given PD-L1 45% and high TMB. GI follow-up arranged. Patient discharged on hospital day 5 on oral prednisone 80 mg daily, omeprazole, and calcium/vitamin D supplementation. Cancer status: present, but unable to assess treatment response during toxicity management."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56 years (approximately 10 weeks after initiating ipilimumab/nivolumab, following grade 3 colitis, during steroid taper), the patient had a CT chest/abdomen/pelvis with contrast for response assessment. Results showed: interval decrease in right axillary lymphadenopathy (0.9 cm, previously 1.6 cm), left axillary lymphadenopathy decreased (0.6 cm, previously 1.1 cm), hepatic lesions with interval decrease (right lobe: 1.4 cm, previously 2.3 cm; 0.7 cm, previously 1.4 cm; new lesion no longer identified), and previously noted pulmonary nodules decreased in size (right lower lobe: 0.3 cm and 0.2 cm). MRI brain: no intracranial disease. LDH 241 U/L (normalizing). Impression: Partial response to immunotherapy. Cancer status: present, responding to prior immunotherapy."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 56 years (approximately 12 weeks after cycle 1, following complete steroid taper and colitis resolution confirmed on repeat flexible sigmoidoscopy), the patient was rechallenged with nivolumab monotherapy 480 mg IV every 4 weeks as maintenance immunotherapy for metastatic melanoma, after permanently discontinuing ipilimumab due to grade 3 colitis. The decision to rechallenge with nivolumab was supported by partial response seen on CT imaging and high TMB. Prednisone taper completed prior to nivolumab resumption (final dose of prednisone was <10 mg/day at rechallenge)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 56 years (first nivolumab monotherapy maintenance dose), the patient had an oncology visit. She reported resolution of diarrhea (1-2 formed bowel movements daily), no abdominal pain, and weight recovery (+4 lbs). Colitis in clinical remission. TSH checked: 6.8 mIU/L (mildly elevated, new hypothyroidism, likely immune-related thyroiditis). Levothyroxine dose increased from 75 mcg to 100 mcg. Labs: LDH 228 U/L (approaching normal), CBC normal, LFTs normal. ECOG PS: 1. Patient tolerating nivolumab rechallenge well. Bowel prep protocol discussed in case of future colonoscopy. Plan for monthly nivolumab and restaging every 12 weeks. Cancer status: present, partial response maintained."
+    },
+    {
+      "type": "adverse_event",
+      "text": "At age 56 years (approximately 6 weeks into nivolumab maintenance), the patient developed grade 1-2 immune-mediated hypothyroidism (TSH 9.2 mIU/L, free T4 0.7 ng/dL). Managed with further levothyroxine dose increase to 125 mcg daily. No nivolumab dose interruption required. Patient advised to monitor for symptoms of hypothyroidism. Endocrinology referral placed for ongoing thyroid management. This was attributed to immune-related endocrinopathy, a known class effect of checkpoint inhibitor therapy."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 56 years (approximately 6 months into nivolumab maintenance, 9 months from initiation of combination immunotherapy), the patient had a CT chest/abdomen/pelvis with contrast plus MRI brain for restaging. Results showed: right axillary lymph node 0.5 cm (stable/near-normal), left axillary lymph node 0.3 cm (near-normal), hepatic lesions with further interval decrease (right lobe: two lesions now measuring 0.6 cm and 0.3 cm, previously 1.4 cm and 0.7 cm), pulmonary nodules now below CT resolution (not visualized), and no new sites of disease identified. MRI brain: no intracranial metastases. LDH 178 U/L (normal). Impression: Deepening partial response on nivolumab maintenance, approaching near-complete response in liver. Cancer status: present, durable partial response with ongoing response deepening."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 56 years (6-month restaging on nivolumab maintenance), the patient had an oncology office visit. She reported good quality of life, ECOG PS 0, returned to full-time work, no diarrhea recurrence, well-controlled hypothyroidism on levothyroxine 125 mcg. Labs: LDH 178 U/L (normal), TSH 2.8 mIU/L (well-controlled), CBC and CMP normal. Imaging showing deepening partial response. Discussed ongoing nivolumab maintenance - per current evidence (CheckMate-067 long-term data), recommendation to continue nivolumab for at least 2 years total. Patient very engaged in care, enrolled in survivorship clinic. Discussed bowel surveillance protocol given prior colitis. Cancer status: present, durable partial response."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 57 years (approximately 12 months into nivolumab maintenance, 15 months from initiation of combination immunotherapy), the patient had a CT chest/abdomen/pelvis with contrast plus MRI brain for restaging. Results showed: bilateral axillary lymph nodes within normal size limits (right axilla 0.4 cm, left axilla 0.3 cm), residual right hepatic lesion 0.4 cm (previously 0.6 cm, near-complete response), second hepatic lesion not identified, no pulmonary lesions identified, no new sites of disease. MRI brain: no intracranial disease. LDH 162 U/L (normal). Impression: Near-complete response (nCR) by RECIST 1.1, with only a single residual sub-centimeter hepatic lesion. Cancer status: minimal residual disease, near-complete response."
+    },
+    {
+      "type": "pathology_report",
+      "text": "At age 57 years, the patient had an image-guided core needle biopsy of the residual right hepatic lesion (0.4 cm) to assess treatment response and viability. Pathology report: Liver core biopsy showing fibrotic/necrotic tissue with no viable melanoma cells identified. Scattered pigment-laden macrophages and hemosiderin deposition consistent with treated/regressed melanoma. Immunohistochemistry: HMB-45 negative, Melan-A negative, S100 focally positive in reactive stroma only. Impression: No viable tumor identified; findings consistent with complete pathologic response at this site."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 57 years (pathologic complete response confirmed at hepatic site), the patient had an oncology visit. Excellent news - biopsy of residual hepatic lesion shows no viable tumor. Radiographic near-complete response with pathologic confirmation. Discussed treatment duration: plan to continue nivolumab for total of 2 years from initiation of combination immunotherapy per protocol, then consider planned treatment holiday with close surveillance. Patient in excellent health, ECOG PS 0, working full-time, no active immune-related adverse events (hypothyroidism stable on levothyroxine). Cancer status: no viable cancer identified at biopsied site; overall near-complete radiographic response."
+    },
+    {
+      "type": "systemic",
+      "text": "At age 57 years (approximately 18 months into nivolumab maintenance, 2 years total from combination immunotherapy initiation), nivolumab was electively discontinued after completing 2 years of checkpoint inhibitor therapy (per CheckMate-067 and emerging evidence supporting treatment holiday after deep response). Final dose of nivolumab 480 mg IV administered. Patient transitioned to active surveillance with quarterly CT imaging and MRI brain every 6 months. Levothyroxine continued indefinitely. No systemic anti-cancer therapy ongoing at this time."
+    },
+    {
+      "type": "imaging_report",
+      "text": "At age 57-58 years (approximately 6 months after completing nivolumab, 2.5 years from start of combination immunotherapy), the patient had a CT chest/abdomen/pelvis with contrast plus MRI brain for surveillance. Results showed: no axillary lymphadenopathy, no hepatic lesions identified (previously 0.4 cm lesion no longer seen), no pulmonary nodules, no subcutaneous disease, no new sites of disease identified. MRI brain: no intracranial metastases. LDH 155 U/L (normal). Impression: Complete radiographic response maintained 6 months after treatment holiday. Cancer status: no evidence of disease (NED)."
+    },
+    {
+      "type": "clinical_note",
+      "text": "At age 58 years (6-month post-treatment surveillance visit), the patient had an oncology follow-up visit. She is doing exceptionally well, ECOG PS 0, no symptoms of recurrence. Complete radiographic response confirmed. Labs: LDH 155 U/L (normal), CBC normal, CMP normal, TSH 3.1 mIU/L (stable on levothyroxine 125 mcg). Discussed survivorship: continued quarterly CT surveillance for first year off therapy, then transition to every 6 months. Skin surveillance with dermatology every 6 months ongoing (risk of new primary melanoma). Discussed signs and symptoms of recurrence. Patient expressing gratitude; strong engagement in survivorship. Hypothyroidism remains only long-term immune-related sequela. Cancer status: no evidence of disease."
+    }
+  ],
+  "scenario_index": 3,
+  "scenario_label": "melanoma_braf",
+  "scenario_blurb": "Metastatic melanoma with BRAF V600E mutation in a 55-year-old, presenting with widespread cutaneous, lymph node, and hepatic metastases. Initially treated with dabrafenib/trametinib combination with rapid response but progression at 8 months. Switched to ipilimumab/nivolumab combination immunotherapy, experiencing grade 3 colitis requiring steroids, then durable partial response on nivolumab maintenance."
+}

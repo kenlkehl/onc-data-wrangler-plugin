@@ -1,0 +1,191 @@
+id: matchminer_ai
+name: "MatchMiner-AI Clinical Trial Matching"
+version: "1.0.0"
+description: "Clinical trial matching concepts"
+is_free_text: false
+
+categories:
+  - id: patient_level
+    name: Patient Demographics
+    description: "Patient-level demographics for trial matching"
+    per_diagnosis: false
+    items:
+      - id: age
+        name: Age
+        description: "Current age in years"
+        data_type: integer
+        length: null
+      - id: sex
+        name: Sex
+        description: "Patient sex (Male/Female)"
+        data_type: string
+        length: null
+      - id: ecog_performance_status
+        name: ECOG Performance Status
+        description: "ECOG performance status (0-4 scale)"
+        data_type: integer
+        length: null
+
+  - id: per_diagnosis
+    name: Per-Diagnosis Concepts
+    description: "Per-cancer diagnosis concepts for trial matching"
+    per_diagnosis: true
+    items:
+      - id: cancer_type
+        name: Cancer Type
+        description: "Specific cancer type (e.g., Non-Small Cell Lung Cancer)"
+        data_type: string
+        length: null
+      - id: histology
+        name: Histology
+        description: "Histologic subtype"
+        data_type: string
+        length: null
+      - id: extent_of_disease
+        name: Extent of Disease
+        description: "Intent (Curative/Palliative), stage category (Early-stage/Locally Advanced/Metastatic), sites of disease"
+        data_type: string
+        length: null
+      - id: risk_category
+        name: Risk Category
+        description: "Cancer-specific risk stratification"
+        data_type: string
+        length: null
+      - id: biomarkers
+        name: Biomarkers
+        description: "Key actionable biomarkers with status and variant"
+        data_type: string
+        length: null
+      - id: prior_treatments
+        name: Prior Treatments
+        description: "Array of prior systemic treatments (regimen, line_of_therapy, intent, best_response, ongoing)"
+        data_type: string
+        length: null
+
+  - id: disease_status
+    name: Disease Status
+    description: "Current disease status assessment"
+    per_diagnosis: false
+    items:
+      - id: as_of_date
+        name: As Of Date
+        description: "Date of most recent assessment"
+        data_type: date
+        length: null
+      - id: status
+        name: Status
+        description: "NED, Stable disease, Responding, Progressing, Metastatic on treatment, Newly diagnosed"
+        data_type: string
+        length: null
+      - id: evidence_basis
+        name: Evidence Basis
+        description: "Imaging, Labs/Tumor Markers, Clinical, Pathology"
+        data_type: string
+        length: null
+
+  - id: clinical_trial_eligibility
+    name: Clinical Trial Eligibility Concerns
+    description: "Common eligibility and exclusion criteria for clinical trials"
+    per_diagnosis: false
+    items:
+      - id: brain_metastases
+        name: Brain Metastases
+        description: "Present (bool), status (Active/Treated stable/Leptomeningeal)"
+        data_type: string
+        length: null
+      - id: measurable_disease
+        name: Measurable Disease
+        description: "Present (bool) per RECIST 1.1"
+        data_type: string
+        length: null
+      - id: organ_function
+        name: Organ Function
+        description: "Renal (Cr, CrCl), hepatic (AST, ALT, bili), hematologic (ANC, plt, Hgb)"
+        data_type: string
+        length: null
+      - id: prior_immunotherapy
+        name: Prior Immunotherapy
+        description: "Received (bool), agents, immune adverse events"
+        data_type: string
+        length: null
+      - id: autoimmune_conditions
+        name: Autoimmune Conditions
+        description: "Array of autoimmune diseases"
+        data_type: string
+        length: null
+      - id: recent_surgery
+        name: Recent Surgery
+        description: "Major surgery date, procedure type, fully healed"
+        data_type: string
+        length: null
+      - id: active_infections
+        name: Active Infections
+        description: "HIV, HBV, HCV status, other infections"
+        data_type: string
+        length: null
+
+  - id: comorbidities
+    name: Comorbidities
+    description: "Comorbidities by organ system"
+    per_diagnosis: false
+    items:
+      - id: cardiac
+        name: Cardiac
+        description: "Heart conditions (CHF, afib, CAD, etc.)"
+        data_type: string
+        length: null
+      - id: pulmonary
+        name: Pulmonary
+        description: "Lung conditions (COPD, ILD, etc.)"
+        data_type: string
+        length: null
+      - id: renal
+        name: Renal
+        description: "Kidney conditions"
+        data_type: string
+        length: null
+      - id: hepatic
+        name: Hepatic
+        description: "Liver conditions"
+        data_type: string
+        length: null
+      - id: endocrine
+        name: Endocrine
+        description: "Diabetes, thyroid, etc."
+        data_type: string
+        length: null
+      - id: neurologic
+        name: Neurologic
+        description: "Stroke, seizures, neuropathy, etc."
+        data_type: string
+        length: null
+      - id: hematologic
+        name: Hematologic
+        description: "Blood disorders"
+        data_type: string
+        length: null
+      - id: gastrointestinal
+        name: Gastrointestinal
+        description: "GI conditions"
+        data_type: string
+        length: null
+      - id: psychiatric
+        name: Psychiatric
+        description: "Mental health conditions"
+        data_type: string
+        length: null
+      - id: rheumatologic
+        name: Rheumatologic
+        description: "Autoimmune conditions"
+        data_type: string
+        length: null
+      - id: infectious
+        name: Infectious
+        description: "Chronic infections"
+        data_type: string
+        length: null
+      - id: other
+        name: Other
+        description: "Other significant conditions"
+        data_type: string
+        length: null

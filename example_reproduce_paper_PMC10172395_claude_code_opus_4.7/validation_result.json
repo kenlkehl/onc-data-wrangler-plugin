@@ -1,0 +1,75 @@
+{
+  "paper_dir": "/workspace/out/basic_science/PMC10172395",
+  "files_inspected": 11,
+  "analyzable_files": [
+    {
+      "name": "41467_2023_38432_MOESM4_ESM.xlsx",
+      "rows": 108,
+      "columns": 15,
+      "column_names": ["Tumor_ID", "Tumor Type", "Age", "Gender", "NF1 Status", "Location", "Recurrence", "Time to Recurrence or Last Follow Up", "Methylation_Group", "Methylation", "Sentrix_ID", "RNA-Seq", "RNA label", "WES", "WES label"],
+      "assessment": "Tumor-level clinical annotation table for 108 peripheral nerve sheath tumor specimens. Contains patient demographics (age, gender), NF1 status, tumor location, recurrence event and follow-up time (survival endpoints), and assay availability flags for methylation/RNA-seq/WES. Suitable for survival analysis, subgroup comparison, and clinical correlations."
+    },
+    {
+      "name": "41467_2023_38432_MOESM5_ESM.xlsx",
+      "rows": 7457,
+      "columns": 123,
+      "column_names": ["Tumor_Sample_Barcode", "Hugo_Symbol", "Entrez_Gene_Id", "Center", "NCBI_Build", "Chromosome", "Start_Position", "End_Position", "Strand", "Variant_Classification", "Variant_Type", "Reference_Allele", "Tumor_Seq_Allele1", "Tumor_Seq_Allele2", "dbSNP_RS"],
+      "assessment": "MAF-format whole-exome sequencing somatic mutation table with 7,457 variants across tumor samples. Includes variant classification, allele frequencies, genomic coordinates, population frequencies (ExAC, gnomAD), oncogenicity annotations, and therapeutic actionability levels (LEVEL_1 through LEVEL_R1). Suitable for mutation landscape analysis, oncogenic driver identification, and mutational burden calculations."
+    },
+    {
+      "name": "41467_2023_38432_MOESM6_ESM.xlsx",
+      "rows": 124,
+      "columns": 19,
+      "column_names": ["Symbol", "Clust_G1_Mean", "logFCvsOther", "pVal", "FDR", "Unnamed: 5", "Unnamed: 6", "Symbol.1", "Clust_G2_Mean", "logFCvsOther.1"],
+      "assessment": "Differentially expressed genes table for three MPNST subgroups (MPNST-G1, MPNST-G2, NF-G3). Contains gene symbols, mean expression values, log fold-changes versus other groups, p-values, and FDR-adjusted statistics. Suitable for pathway enrichment analysis and subgroup transcriptomic comparisons."
+    },
+    {
+      "name": "41467_2023_38432_MOESM7_ESM.xlsx",
+      "rows": 9,
+      "columns": 190,
+      "column_names": ["Drug_class", "Class284", "Class30", "Class32", "Class308", "Class166", "Class141", "Class74", "Class152", "Class191", "Class81", "Class147", "Class1", "Class85", "Class210"],
+      "assessment": "Drug screen results matrix with drug classes (BestOverlap, BestSigGenes, BestScore metrics) across approximately 190 drug/compound classes for MPNST cell lines. Suitable for identifying top pharmacological hits by subgroup and correlating drug sensitivity with molecular profiles."
+    },
+    {
+      "name": "41467_2023_38432_MOESM8_ESM.xlsx",
+      "rows": 1031,
+      "columns": 19,
+      "column_names": ["Sample_Id", "Genome build", "Tool", "Gene_1_symbol(5end_fusion_partner)", "Gene_2_symbol(3end_fusion_partner)", "Fusion_description", "Counts_of_common_mapping_reads", "Spanning_pairs", "Spanning_unique_reads", "Longest_anchor_found", "Fusion_finding_method", "Fusion_point_for_gene_1(5end_fusion_partner)", "Fusion_point_for_gene_2(3end_fusion_partner)", "Gene_1_id(5end_fusion_partner)", "Gene_2_id(3end_fusion_partner)"],
+      "assessment": "RNA fusion detection results with 1,031 fusion events across tumor samples. Contains fusion partner gene symbols, genomic breakpoints, supporting read counts (spanning pairs, unique reads, anchor lengths), detection tool, and predicted functional effects. Suitable for characterizing recurrent gene fusions and their prevalence across MPNST subgroups."
+    },
+    {
+      "name": "41467_2023_38432_MOESM10_ESM.xlsx",
+      "rows": 75,
+      "columns": 3,
+      "column_names": ["Methylation_Group", "Recurrence", "Time to Recurrence or Last Follow Up"],
+      "assessment": "Source data workbook with 13 sheets backing individual figures. The primary sheet (Fig 1b) contains survival/recurrence data for 75 samples by methylation group, suitable for Kaplan-Meier analysis. Other sheets include PTCH1 promoter methylation vs. gene expression (Fig 3f, 48 samples), in vitro cell viability/migration/colony counts for SHH pathway inhibition experiments (Fig 5b/5e/5g/5h/5i), drug IC50 comparisons across 5 cell lines (Fig 5j), and xenograft mouse survival data (Fig 5l, 20 observations)."
+    },
+    {
+      "name": "GSE207400_Matrix.txt.gz",
+      "rows": 14995,
+      "columns": 49,
+      "column_names": ["GeneID", "M803", "M1014", "M9413", "NF1059", "NF1083", "NF1117", "NF1301", "NF1349", "NF1377", "NF1397", "NF1467", "M1508", "NF1537", "NF1547"],
+      "assessment": "Single-nucleus RNA-seq gene expression count or normalized matrix (GSE207400) with 14,995 genes across 48 MPNST samples. All numeric columns are fully populated (non-null fraction = 1.0). Suitable for differential expression, clustering, pathway analysis, and cross-subgroup transcriptomic comparisons."
+    }
+  ],
+  "non_analyzable_files": [
+    {
+      "name": "GSE207207_series_matrix.txt.gz",
+      "reason": "GEO series matrix file containing only metadata/header lines (69 total lines, all prefixed with '!Series_'). No tabular expression or methylation probe data rows are present; the actual methylation data (EPIC array idat files) is referenced but not included."
+    },
+    {
+      "name": "GSE207399_series_matrix.txt.gz",
+      "reason": "GEO series matrix file with only metadata header lines and no data rows (0 rows returned after comment filtering). References bulk RNA-seq samples (GSM accessions) but contains no expression values."
+    },
+    {
+      "name": "GSE207400_series_matrix.txt.gz",
+      "reason": "GEO series matrix file with only metadata header lines and no data rows (0 rows returned after comment filtering). References snRNA-seq samples but contains no count matrix data."
+    },
+    {
+      "name": "filelist.txt",
+      "reason": "File manifest listing archive names, timestamps, sizes, and file types (TAR, gz, etc.) for the GEO dataset. Contains only file inventory metadata, not analyzable biological data."
+    }
+  ],
+  "overall_analyzable": true,
+  "summary": "This dataset for a multiplatform MPNST molecular profiling study (108 tumors, Nature Communications 2023) contains rich analyzable data across multiple omics layers. Key analyzable files include: (1) clinical annotation with survival endpoints for 108 tumors (MOESM4); (2) whole-exome somatic mutation calls in MAF format with 7,457 variants and oncogenicity/actionability annotations (MOESM5); (3) differentially expressed genes with statistics for three MPNST subgroups (MOESM6); (4) drug screen results across ~190 compound classes (MOESM7); (5) RNA fusion calls with 1,031 events (MOESM8); (6) source data workbook with survival, methylation-expression correlations, and in vitro/in vivo experimental results (MOESM10); and (7) an snRNA-seq expression matrix with 14,995 genes across 48 samples (GSE207400_Matrix.txt.gz). The data supports survival analysis, somatic mutation landscape analysis, subgroup transcriptomics, gene fusion characterization, drug sensitivity analysis, and single-nucleus RNA-seq analysis."
+}

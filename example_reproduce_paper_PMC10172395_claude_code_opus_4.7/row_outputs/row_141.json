@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "HSC1\u03bb-gPTCH1 mean colony count = 125.50 \u00b1 10.85 (SD) vs HSC1\u03bb-gGFP = 0.00, n = 8, Welch's t-test t=32.72, p=6.45e-09.",
+  "discrepancy_analysis": "Model mean (125.50) agrees with reported (~132) within ~4.9% relative difference, well within the \u00b110% concordance tolerance. Both groups' HSC1\u03bb-gGFP means are 0. Both p-values are highly significant (<0.0001). The reported value in the paper is approximate (~132), and the exact underlying mean computed from MOESM10 Fig 5g source data is 125.50. Conclusion: CONCORDANT.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

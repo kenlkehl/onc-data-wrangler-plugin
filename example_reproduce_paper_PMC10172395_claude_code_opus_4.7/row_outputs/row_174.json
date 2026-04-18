@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE (TCGA not deposited locally)",
+  "discrepancy_analysis": "UNABLE_TO_EVALUATE. The reported result from Supplementary Figure 3c references an oncoprint derived from the TCGA MPNST cohort used as an external validation dataset, which is not deposited in the local data directory. Only the Toronto cohort was deposited locally. Without access to the TCGA MPNST somatic mutation data referenced in Supp Fig 3c, the NF1 mutation frequency of 40% cannot be reproduced or verified. Root cause 7:MISSING_DATA_HANDLING - the required external validation dataset (TCGA MPNST) was not included in the local deposit, preventing independent reproduction of the reported statistic.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Obtain TCGA MPNST cohort somatic mutation data (via cBioPortal, GDC, or the study's supplementary materials) and re-run the oncoprint calculation to count NF1-mutated cases / total TCGA MPNST cases. Alternatively, request the authors deposit the TCGA-derived oncoprint source data alongside the Toronto cohort.",
+  "confidence": "LOW"
+}

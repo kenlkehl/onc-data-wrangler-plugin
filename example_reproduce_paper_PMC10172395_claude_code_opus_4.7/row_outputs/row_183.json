@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "p = 0.0406 (6/8 vs 1/8)",
+  "discrepancy_analysis": "Reported result stated p < 0.05 for Fisher's exact test comparing SHH pathway alterations (PTCH1 loss or SMO gain) between G1 (75%, 6/8) and G2 (12.5%, 1/8). Model computed p = 0.0406 using 2x2 contingency with n=16, which satisfies p < 0.05. Results are concordant.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}

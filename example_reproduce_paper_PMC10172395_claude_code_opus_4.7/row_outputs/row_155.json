@@ -1,0 +1,9 @@
+{
+  "concordance_status": "DISCREPANT",
+  "analysis_result": "DATA_UNAVAILABLE (no Supp Fig 16b source data)",
+  "discrepancy_analysis": "UNABLE_TO_EVALUATE. The question requires source data for Supplementary Figure 16b showing GLI1 expression fold change in S462TY cells treated with sonidegib versus control. The reported result (~0.45-0.50 reduction) is a visual reading from the published bar chart, but the underlying numeric qPCR/expression values were not deposited with the paper's supplementary materials or in the associated GEO datasets (GSE207207, GSE207399, GSE207400). Without the source data, the model cannot independently compute the fold change to verify or refute the reported value. Root cause: 7:MISSING_DATA_HANDLING — the raw measurement data underlying Supp Fig 16b are not available in the provided data directory.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "7:MISSING_DATA_HANDLING",
+  "proposed_fix": "Request the authors deposit the raw qPCR/expression values underlying Supplementary Figure 16b, or obtain the figure source data file directly from the corresponding author. Alternative: manually digitize the bar heights from the published figure if a high-resolution version is available.",
+  "confidence": "LOW"
+}

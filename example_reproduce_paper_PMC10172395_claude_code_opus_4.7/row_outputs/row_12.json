@@ -1,0 +1,9 @@
+{
+  "concordance_status": "CONCORDANT",
+  "analysis_result": "n = 54 samples",
+  "discrepancy_analysis": "CONCORDANT: Reported result (n = 54 combined cohort) and model result (n = 54 samples) match exactly (0% relative difference), well within the +/-10% concordance threshold. The combined validation cohort for the methylation clustering analysis in Supplementary Figure 1d is composed of Toronto (16) + TCGA (5) + DKFZ (33) = 54 samples.",
+  "discrepancy_magnitude": "N/A",
+  "root_cause_classification": "N/A",
+  "proposed_fix": "N/A",
+  "confidence": "HIGH"
+}
