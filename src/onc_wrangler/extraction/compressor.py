@@ -34,6 +34,16 @@ OUTPUT FORMAT:
   be three sentences or less.
 - If a concept below is not mentioned in the document, omit that concept from
   the summary rather than writing that it is missing or unknown.
+- Never write meta-commentary about the document itself. Do not state what the
+  document does or does not contain, mention, address, describe, or discuss.
+  Do not write phrases like "The document does not contain...", "No information
+  is provided about...", "This report does not mention...", "The note focuses
+  on...", or "This is not an oncology document." Just summarize the clinical
+  content that is present.
+- If the document has no oncology content (for example a spine imaging report
+  for back pain, a non-cancer-related encounter, or an administrative note),
+  simply summarize the clinical content that is present in three sentences or
+  less. Do not add a disclaimer that the document is unrelated to cancer.
 
 CONTENT TO CAPTURE WHEN PRESENT OR KNOWN:
 - Age and sex.
