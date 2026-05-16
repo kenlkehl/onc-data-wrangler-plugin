@@ -98,6 +98,7 @@ claude --plugin-dir ./onc-data-wrangler-plugin
 |-------|---------|-------------|
 | Make Database | `/onc-data-wrangler:make-database` | Interactively build a DuckDB database from raw tabular data files |
 | Extract Notes | `/onc-data-wrangler:extract-notes` | Standalone extraction from clinical notes |
+| Compress Notes | `/onc-data-wrangler:compress-notes` | Summarize individual clinical documents into concise oncology-focused summaries |
 | Aggregate Database Query | `/onc-data-wrangler:aggregate-database-query` | Interactive database querying with privacy enforcement |
 | Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data. Supports Claude Code subagents (default) or external LLMs via API. |
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
@@ -122,6 +123,7 @@ Multiple skills support external LLM backends in addition to Claude Code native 
 | Skill | External LLM mode | Notes |
 |-------|--------------------|-------|
 | Extract Notes | Single-call extraction per domain group | Stateless prompt-response |
+| Compress Notes | Single-call summarization per clinical document | Stateless prompt-response |
 | Generate Synthetic Data | Single-call generation per patient | Stateless prompt-response |
 | Reproduce Paper | Agentic loop with tool use (execute_python, read_file, list_files) | Multi-turn iterative code execution; requires a model with function-calling support |
 
@@ -293,7 +295,6 @@ Plugin (skills, agents, query CLI)
 ## Running with a Local Model
 
 You can run Claude Code itself against a local model, keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session. See the [Installation & Quick Start](#installation--quick-start) section above for setup instructions.
-
 
 
 
