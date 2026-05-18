@@ -348,13 +348,19 @@ def build_qa_output(final_extractions: dict, output_path: Path) -> None:
     csv_path = output_path.with_suffix(".csv")
     with open(csv_path, "w", newline="") as f:
         writer = csv.writer(f)
-        header = ["patient_id"] + all_questions
+        header = ["patient_id"]
+        for q in all_questions:
+            header.extend([q, f"{q} [evidence]"])
         writer.writerow(header)
         for patient_id, extraction in final_extractions.items():
             answers = _unwrap_qa(extraction)
             row = [patient_id]
             for q in all_questions:
                 ans = answers.get(q, {})
-                row.append(ans.get("value", "") if isinstance(ans, dict) else "")
+                if isinstance(ans, dict):
+                    row.append(ans.get("value", ""))
+                    row.append(ans.get("evidence", ""))
+                else:
+                    row.extend(["", ""])
             writer.writerow(row)
     logger.info("CSV written: %s (%d patients, %d questions)", csv_path, len(final_extractions), len(all_questions))
