@@ -99,6 +99,7 @@ claude --plugin-dir ./onc-data-wrangler-plugin
 | Make Database | `/onc-data-wrangler:make-database` | Interactively build a DuckDB database from raw tabular data files |
 | Extract Notes | `/onc-data-wrangler:extract-notes` | Standalone extraction from clinical notes |
 | Compress Notes | `/onc-data-wrangler:compress-notes` | Summarize individual clinical documents into concise oncology-focused summaries |
+| Deidentify Table | `/onc-data-wrangler:deidentify-table` | De-identify one CSV/TSV/parquet table with stable pseudonyms, realistic fake names, patient-level date shifts, and optional reviewed LLM rewriting for short free-text evidence |
 | Aggregate Database Query | `/onc-data-wrangler:aggregate-database-query` | Interactive database querying with privacy enforcement |
 | Reproduce Paper | `/onc-data-wrangler:reproduce-paper` | Reproduce published paper results from raw data. Supports Claude Code subagents (default) or external LLMs via API. |
 | Build Ontology | `/onc-data-wrangler:build-ontology` | Create custom ontology from a data dictionary |
@@ -239,10 +240,20 @@ This keeps all clinical text on-premises. The `openai` provider works with any O
 
 ### De-identification
 
+For standalone tabular files, use `/onc-data-wrangler:deidentify-table`. It processes one CSV/TSV/parquet file at a time and writes:
+- A de-identified table
+- A private sensitive manifest containing original-to-pseudo mappings and exact date shifts
+- A non-PHI report describing column actions
+- A review queue for cells that may need manual review
+
+The table de-identification skill detects likely PHI columns, replaces patient IDs and MRNs with stable pseudonyms, replaces real patient names with stable realistic fake names, shifts dates consistently per patient, drops date-of-birth columns by default to avoid exact or bounded age derivation, caps exact ages over 89 as `90+`, and applies deterministic redaction to likely free-text evidence columns. Optional LLM rewriting for free text requires explicit opt-in before any cloud or remote endpoint is used.
+
 The database builder applies multiple layers of de-identification:
 - **PII column stripping**: Columns containing MRN, SSN, patient names, addresses, phone numbers, and email are automatically removed
 - **ID anonymization**: Original patient IDs are replaced with sequential de-identified IDs (e.g., `patient_000001`)
 - **Date de-identification** (optional): When `database.deidentify_dates: true`, dates are converted to years-since-birth and calendar year only
+
+These tools are best-effort technical safeguards and are not a legal determination that a dataset satisfies HIPAA de-identification requirements.
 
 ### Query Privacy
 
@@ -295,8 +306,6 @@ Plugin (skills, agents, query CLI)
 ## Running with a Local Model
 
 You can run Claude Code itself against a local model, keeping all data — including the agent's reasoning — on-premises. This is separate from the extraction LLM backend; it replaces the Claude API for the entire Claude Code session. See the [Installation & Quick Start](#installation--quick-start) section above for setup instructions.
-
-
 
 
 
