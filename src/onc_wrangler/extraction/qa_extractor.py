@@ -222,10 +222,29 @@ class QAExtractor:
     with ``ChunkedExtractor`` unchanged.
     """
 
-    def __init__(self, llm_client: LLMClient, questions: list[dict]):
+    def __init__(
+        self,
+        llm_client: LLMClient,
+        questions: list[dict],
+        questions_per_batch: Optional[int] = None,
+    ):
+        """
+        Args:
+            llm_client: LLM client.
+            questions: Parsed questions list.
+            questions_per_batch: If set, split the question list into batches
+                of this size and issue one LLM call per batch (per chunk),
+                merging the per-batch answer dicts. Smaller batches improve
+                answer/question alignment on weaker models; larger batches
+                reduce total call count. ``None`` (default) preserves the
+                legacy single-call-per-chunk behavior.
+        """
         self.llm_client = llm_client
         self.questions = questions
         self._question_texts = [q["question"] for q in questions]
+        if questions_per_batch is not None and questions_per_batch < 1:
+            raise ValueError("questions_per_batch must be >= 1 if provided")
+        self.questions_per_batch = questions_per_batch
 
     def extract_from_text(
         self,
@@ -236,21 +255,29 @@ class QAExtractor:
         """Answer questions from a single text document."""
         return self.extract_single_chunk(text, [], 0, 1, cancer_type, max_tokens)
 
-    def extract_single_chunk(
+    def _question_batches(self) -> list[list[dict]]:
+        """Split self.questions into batches of self.questions_per_batch."""
+        if self.questions_per_batch is None or self.questions_per_batch >= len(self.questions):
+            return [self.questions]
+        n = self.questions_per_batch
+        return [self.questions[i:i + n] for i in range(0, len(self.questions), n)]
+
+    def _call_batch(
         self,
         chunk_text: str,
-        running: Optional[list[dict]] = None,
-        chunk_index: int = 0,
-        total_chunks: int = 1,
-        cancer_type: Optional[str] = None,
-        max_tokens: Optional[int] = 16384,
-        max_retries: int = 3,
-    ) -> list[dict]:
-        """Process one chunk: call LLM, parse response, merge answers."""
-        current_answers = _unwrap_qa(running)
-
+        batch: list[dict],
+        current_answers: dict,
+        chunk_index: int,
+        total_chunks: int,
+        batch_index: int,
+        total_batches: int,
+        max_tokens: Optional[int],
+        max_retries: int,
+    ) -> dict:
+        """Issue one LLM call for one batch of questions and return merged answers dict."""
         prior_block = build_qa_prior_state(current_answers)
-        questions_block = build_questions_block(self.questions)
+        questions_block = build_questions_block(batch)
+        batch_question_texts = [q["question"] for q in batch]
 
         user_prompt = QA_USER_PROMPT_TEMPLATE.format(
             chunk_text=chunk_text,
@@ -269,31 +296,57 @@ class QAExtractor:
                 parsed = parse_json_object(response.text)
                 if parsed is None:
                     logger.warning(
-                        "Chunk %d/%d attempt %d: failed to parse JSON",
-                        chunk_index + 1,
-                        total_chunks,
+                        "Chunk %d/%d batch %d/%d attempt %d: failed to parse JSON",
+                        chunk_index + 1, total_chunks,
+                        batch_index + 1, total_batches,
                         attempt + 1,
                     )
                     continue
 
-                normalized = normalize_qa_keys(parsed, self._question_texts)
-                merged = merge_qa_answers(current_answers, normalized)
-                return _wrap_qa(merged)
+                normalized = normalize_qa_keys(parsed, batch_question_texts)
+                return merge_qa_answers(current_answers, normalized)
 
             except Exception:
                 logger.exception(
-                    "Chunk %d/%d attempt %d: LLM call failed",
-                    chunk_index + 1,
-                    total_chunks,
+                    "Chunk %d/%d batch %d/%d attempt %d: LLM call failed",
+                    chunk_index + 1, total_chunks,
+                    batch_index + 1, total_batches,
                     attempt + 1,
                 )
 
         logger.warning(
-            "Chunk %d/%d: all %d retries failed, keeping prior answers",
-            chunk_index + 1,
-            total_chunks,
+            "Chunk %d/%d batch %d/%d: all %d retries failed, keeping prior answers for this batch",
+            chunk_index + 1, total_chunks,
+            batch_index + 1, total_batches,
             max_retries,
         )
+        return current_answers
+
+    def extract_single_chunk(
+        self,
+        chunk_text: str,
+        running: Optional[list[dict]] = None,
+        chunk_index: int = 0,
+        total_chunks: int = 1,
+        cancer_type: Optional[str] = None,
+        max_tokens: Optional[int] = 16384,
+        max_retries: int = 3,
+    ) -> list[dict]:
+        """Process one chunk: call LLM (once per question batch), parse, merge."""
+        current_answers = _unwrap_qa(running)
+        batches = self._question_batches()
+        for b_idx, batch in enumerate(batches):
+            current_answers = self._call_batch(
+                chunk_text=chunk_text,
+                batch=batch,
+                current_answers=current_answers,
+                chunk_index=chunk_index,
+                total_chunks=total_chunks,
+                batch_index=b_idx,
+                total_batches=len(batches),
+                max_tokens=max_tokens,
+                max_retries=max_retries,
+            )
         return _wrap_qa(current_answers)
 
     def extract_iterative(

@@ -28,6 +28,7 @@ If not provided, ask for each. Also ask for:
 - Date column name (default: `date`)
 - Base URL (if provider is openai, default: `http://localhost:8000/v1`)
 - Model name (optional)
+- **Questions per batch** (`questions_per_batch`): how many questions to ask the LLM in a single call. The default (`None`) sends ALL questions in one call per chunk, which is fastest but degrades on weaker models when the question list grows large — the model can hallucinate valid JSON shape while mismatching answer values to question keys. **Recommended guidance: if there are more than ~10–15 questions and the user is running a small / open-source model (e.g. a 7B–30B local model via vLLM), prompt the user with a recommended batch size of 5–10. Frontier API models (Claude Sonnet/Opus, GPT-4-class) can usually handle 30+ questions per call without alignment drift.** Wall-clock scales roughly linearly with the number of batches per chunk, so don't shrink the batch below what's needed for correct alignment.
 
 ---
 
@@ -60,6 +61,7 @@ CHUNK_TOKENS = 50000
 OVERLAP_TOKENS = 500
 PATIENT_WORKERS = 8
 MAX_TOKENS = 16384
+QUESTIONS_PER_BATCH = None  # set to e.g. 5 or 10 for weaker models with many questions
 
 # --- Load questions ---
 questions = parse_questions(QUESTIONS_PATH)
@@ -88,7 +90,12 @@ client = VLLMClient(base_url=VLLM_URL, api_key='none', model=MODEL)
 # For Azure: from onc_wrangler.llm.azure_client import AzureClient
 
 # --- Create QA extractor ---
-extractor = create_extractor(llm_client=client, ontology_ids=[], questions=questions)
+extractor = create_extractor(
+    llm_client=client,
+    ontology_ids=[],
+    questions=questions,
+    questions_per_batch=QUESTIONS_PER_BATCH,
+)
 
 # --- Run extraction ---
 output_path = Path(OUTPUT_PATH)

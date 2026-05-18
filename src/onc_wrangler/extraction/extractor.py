@@ -1169,12 +1169,20 @@ def create_extractor(
     cancer_type: Optional[str] = "generic",
     items_per_call: int = DEFAULT_ITEMS_PER_CALL,
     questions: Optional[list[dict]] = None,
+    questions_per_batch: Optional[int] = None,
     **kwargs,
 ):
-    """Factory that returns the appropriate extractor based on ontology types."""
+    """Factory that returns the appropriate extractor based on ontology types.
+
+    Args:
+        questions_per_batch: For QAExtractor only. If set, split the question
+            list into batches of this size and issue one LLM call per batch
+            (per chunk). Smaller batches improve answer/question alignment on
+            weaker models. ``None`` keeps the legacy single-call behavior.
+    """
     if questions is not None:
         from .qa_extractor import QAExtractor
-        return QAExtractor(llm_client, questions)
+        return QAExtractor(llm_client, questions, questions_per_batch=questions_per_batch)
     if is_summary_only(ontology_ids):
         return SummaryExtractor(llm_client, cancer_type)
     return Extractor(llm_client, ontology_ids, cancer_type, items_per_call)
