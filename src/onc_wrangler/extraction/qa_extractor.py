@@ -108,6 +108,22 @@ exact question text and the value is an object with "value", "confidence", and "
 
 {questions_block}"""
 
+QA_USER_PROMPT_TEMPLATE_NUMERIC = """\
+Clinical notes:
+---
+{chunk_text}
+---
+
+{prior_state_block}
+
+Answer the following questions. Respond with a JSON object where each key is the \
+QUESTION NUMBER (e.g. "1", "2") and the value is an object with "value", "confidence", \
+and "evidence" fields. Do NOT use the question text as the key -- use only the number.
+
+Example response shape: {{"1": {{"value": "...", "confidence": 0.9, "evidence": "..."}}, "2": {{"value": "...", "confidence": 0.9, "evidence": "..."}}}}
+
+{questions_block}"""
+
 
 # ---------------------------------------------------------------------------
 # Prompt helpers
@@ -227,6 +243,7 @@ class QAExtractor:
         llm_client: LLMClient,
         questions: list[dict],
         questions_per_batch: Optional[int] = None,
+        numeric_keys: bool = False,
     ):
         """
         Args:
@@ -238,6 +255,16 @@ class QAExtractor:
                 answer/question alignment on weaker models; larger batches
                 reduce total call count. ``None`` (default) preserves the
                 legacy single-call-per-chunk behavior.
+            numeric_keys: If True, ask the model to respond with numeric JSON
+                keys ("1", "2", ...) instead of repeating the full question
+                text as keys. Recommended whenever the question text itself
+                contains characters that need escaping inside a JSON string
+                (e.g. unescaped quotes from answer-format hints like
+                ``answer "Unknown"``), which on weaker models produces
+                unparseable JSON. Numeric keys also produce much shorter
+                responses. Mapping back to question text uses the batch's
+                question order; text-keyed responses still fall back through
+                ``normalize_qa_keys`` for backwards compatibility.
         """
         self.llm_client = llm_client
         self.questions = questions
@@ -245,6 +272,7 @@ class QAExtractor:
         if questions_per_batch is not None and questions_per_batch < 1:
             raise ValueError("questions_per_batch must be >= 1 if provided")
         self.questions_per_batch = questions_per_batch
+        self.numeric_keys = numeric_keys
 
     def extract_from_text(
         self,
@@ -279,7 +307,8 @@ class QAExtractor:
         questions_block = build_questions_block(batch)
         batch_question_texts = [q["question"] for q in batch]
 
-        user_prompt = QA_USER_PROMPT_TEMPLATE.format(
+        template = QA_USER_PROMPT_TEMPLATE_NUMERIC if self.numeric_keys else QA_USER_PROMPT_TEMPLATE
+        user_prompt = template.format(
             chunk_text=chunk_text,
             prior_state_block=prior_block,
             questions_block=questions_block,
@@ -303,7 +332,21 @@ class QAExtractor:
                     )
                     continue
 
-                normalized = normalize_qa_keys(parsed, batch_question_texts)
+                if self.numeric_keys:
+                    remapped = {}
+                    for k, v in parsed.items():
+                        if k.startswith("_"):
+                            continue
+                        try:
+                            idx = int(str(k).strip()) - 1
+                        except (TypeError, ValueError):
+                            remapped[k] = v  # fall through to normalize_qa_keys for text-keyed fallback
+                            continue
+                        if 0 <= idx < len(batch_question_texts):
+                            remapped[batch_question_texts[idx]] = v
+                    normalized = normalize_qa_keys(remapped, batch_question_texts)
+                else:
+                    normalized = normalize_qa_keys(parsed, batch_question_texts)
                 return merge_qa_answers(current_answers, normalized)
 
             except Exception:

@@ -149,3 +149,22 @@ After extraction completes, present to the user:
 Suggest next steps:
 - Review the JSONL for per-patient confidence scores and evidence
 - Use the CSV for downstream analysis or import into a spreadsheet
+
+---
+
+## STEP 3: Offer the verification pass
+
+After reporting results, ask the user whether they'd like to chain into the `verify-answers` skill — an agentic second-opinion pass that, per patient, checks each answer against its cited evidence, looks for cross-question contradictions in the full answer dict, and (only for flagged cells) does targeted retrieval against the notes parquet to confirm or correct the value. It uses the existing evidence quotes for the cheap signals and only re-touches notes for disputed cells, so cost scales with disputes, not with note volume.
+
+Use `AskUserQuestion` with a single question. Phrase it concretely so the user knows what they're agreeing to — include the path of the JSONL that would be verified and a one-line summary of what verify-answers does. Recommend running it when the first-pass extractor was a small/local model (Gemma, Llama-class) or when the question count is large (>~30), since those are the regimes where evidence/key misalignment, value hallucination, and cross-question contradictions are most common. When the first-pass model was a frontier API model and the question count is small, recommend skipping.
+
+If the user says yes, invoke the skill:
+
+```
+Skill(
+  skill="onc-data-wrangler:verify-answers",
+  args="qa_jsonl=<path to qa_results.jsonl> notes=<same notes path used above> patient_id_col=<same as above> text_col=<same> date_col=<same>"
+)
+```
+
+Pass through the same notes path and column names that were used in STEP 1 so the verifier targets the same corpus. If the user declines, simply end — they can always invoke `/verify-answers` later against the same JSONL.

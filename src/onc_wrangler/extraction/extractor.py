@@ -1170,6 +1170,7 @@ def create_extractor(
     items_per_call: int = DEFAULT_ITEMS_PER_CALL,
     questions: Optional[list[dict]] = None,
     questions_per_batch: Optional[int] = None,
+    numeric_keys: bool = False,
     **kwargs,
 ):
     """Factory that returns the appropriate extractor based on ontology types.
@@ -1179,10 +1180,18 @@ def create_extractor(
             list into batches of this size and issue one LLM call per batch
             (per chunk). Smaller batches improve answer/question alignment on
             weaker models. ``None`` keeps the legacy single-call behavior.
+        numeric_keys: For QAExtractor only. If True, ask the model to use
+            numeric JSON keys ("1", "2", ...) instead of repeating the full
+            question text as a key -- avoids unparseable JSON when the
+            question text itself contains unescaped quote characters.
     """
     if questions is not None:
         from .qa_extractor import QAExtractor
-        return QAExtractor(llm_client, questions, questions_per_batch=questions_per_batch)
+        return QAExtractor(
+            llm_client, questions,
+            questions_per_batch=questions_per_batch,
+            numeric_keys=numeric_keys,
+        )
     if is_summary_only(ontology_ids):
         return SummaryExtractor(llm_client, cancer_type)
     return Extractor(llm_client, ontology_ids, cancer_type, items_per_call)
