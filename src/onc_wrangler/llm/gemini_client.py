@@ -18,7 +18,7 @@ class GeminiClient(LLMClient):
     - Otherwise: AI Studio with GOOGLE_API_KEY
 
     Args:
-        model: Model identifier (e.g., "gemini-3-flash-preview").
+        model: Model identifier (e.g., "gemini-3.5-flash").
         vertex_project: GCP project ID (for Vertex AI mode).
         vertex_region: GCP region/location (for Vertex AI mode).
         api_key: Google AI Studio API key (for AI Studio mode).
@@ -28,7 +28,7 @@ class GeminiClient(LLMClient):
 
     def __init__(
         self,
-        model: str = "gemini-3-flash-preview",
+        model: str = "gemini-3.5-flash",
         vertex_project: Optional[str] = None,
         vertex_region: str = "us-central1",
         api_key: Optional[str] = None,
@@ -112,10 +112,27 @@ class GeminiClient(LLMClient):
     def _extract_text(self, response) -> str:
         """Safely extract text from a Gemini response."""
         try:
-            return response.text or ""
+            text = response.text or ""
         except (ValueError, AttributeError):
             logger.warning("Gemini response contained no text candidates")
             return ""
+
+        if not text:
+            finish_reason = None
+            try:
+                finish_reason = getattr(response.candidates[0], "finish_reason", None)
+            except (AttributeError, IndexError):
+                pass
+            thoughts = getattr(response.usage_metadata, "thoughts_token_count", None) if response.usage_metadata else None
+            if str(finish_reason).endswith("MAX_TOKENS"):
+                logger.warning(
+                    "Gemini returned empty text: max_output_tokens exhausted (thoughts_token_count=%s). "
+                    "Raise max_tokens — Gemini 2.5+/3.x consume budget on internal thinking before emitting output.",
+                    thoughts,
+                )
+            else:
+                logger.warning("Gemini returned empty text (finish_reason=%s)", finish_reason)
+        return text
 
     def _extract_usage(self, response) -> Optional[dict[str, int]]:
         """Extract token usage from a Gemini response."""

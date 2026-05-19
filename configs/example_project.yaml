@@ -34,13 +34,13 @@ extraction:
     #
     # --- Gemini via Vertex AI ---
     # provider: gemini
-    # model: gemini-3-flash-preview
+    # model: gemini-3.5-flash
     # vertex_project: my-gcp-project     # or set GOOGLE_VERTEX_PROJECT_ID env var
-    # vertex_region: us-central1
+    # vertex_region: global              # gemini-3.x models are only deployed in "global"
     #
     # --- Gemini via AI Studio ---
     # provider: gemini
-    # model: gemini-3-flash-preview
+    # model: gemini-3.5-flash
     # api_key: set via GOOGLE_API_KEY env var
   # claude_code_model: opus  # only used when provider is "claude-code" (opus, sonnet, haiku)
   ontology_ids:
