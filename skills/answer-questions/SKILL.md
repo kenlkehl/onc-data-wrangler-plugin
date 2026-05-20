@@ -20,7 +20,7 @@ Plugin root: `${CLAUDE_PLUGIN_ROOT}`
 Accept:
 - **Questions file path** (text file, one question per line; optionally with valid answers in trailing parentheses delimited by semicolons, e.g. `Has the patient had children? (Yes; No; Unknown)`)
 - **Notes file path** (CSV or parquet with patient_id, text, and optionally date columns)
-- **LLM provider**: openai, azure, anthropic, or vertex
+- **LLM provider**: openai, azure, anthropic, vertex, or gemini
 
 If not provided, ask for each. Also ask for:
 - Patient ID column name (default: `patient_id`)
@@ -88,6 +88,7 @@ print(f"Loaded {len(notes_df)} notes, {n_patients} patients")
 client = VLLMClient(base_url=VLLM_URL, api_key='none', model=MODEL)
 # For Anthropic: from onc_wrangler.llm.claude_client import ClaudeClient
 # For Azure: from onc_wrangler.llm.azure_client import AzureClient
+# For Gemini: from onc_wrangler.llm.gemini_client import GeminiClient
 
 # --- Create QA extractor ---
 extractor = create_extractor(
@@ -133,8 +134,10 @@ Substitute the placeholder values (QUESTIONS_FILE, NOTES_FILE, OUTPUT_JSONL, col
 For different LLM providers, replace the client creation:
 - **openai**: `VLLMClient(base_url=url, api_key=key, model=model)`
 - **anthropic**: `ClaudeClient(provider='anthropic', model=model, api_key=key)`
-- **vertex**: `ClaudeClient(provider='vertex', model=model)`
+- **vertex**: `ClaudeClient(provider='vertex', model=model)` (Claude on Vertex AI; uses Application Default Credentials)
 - **azure**: `AzureClient(azure_endpoint=url, api_key=key, model=model)`
+- **gemini (Vertex AI)**: `GeminiClient(model=model, vertex_project=project_id, vertex_region='us-central1')` — requires `gcloud auth application-default login`; `vertex_project` falls back to `GOOGLE_VERTEX_PROJECT_ID` / `ANTHROPIC_VERTEX_PROJECT_ID` env vars
+- **gemini (AI Studio)**: `GeminiClient(model=model, api_key=key)` — falls back to `GOOGLE_API_KEY` env var when `api_key` is omitted
 
 ---
 

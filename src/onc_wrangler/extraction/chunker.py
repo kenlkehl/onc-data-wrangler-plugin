@@ -491,12 +491,17 @@ class CheckpointManager:
         for patient_id, extraction in final_extractions.items():
             answers = _unwrap_qa(extraction)
             for question, ans in answers.items():
+                v = ans.get("value", "")
+                # Coerce value to string for parquet: questions may have mixed
+                # int / float / string answers across patients (e.g. PD-L1 %
+                # returns ints for some patients and "Unknown" for others),
+                # which pyarrow cannot unify in a single column.
                 rows.append({
                     "patient_id": patient_id,
                     "question": question,
-                    "value": ans.get("value", ""),
-                    "confidence": ans.get("confidence", 0),
-                    "evidence": ans.get("evidence", ""),
+                    "value": "" if v is None else str(v),
+                    "confidence": float(ans.get("confidence", 0) or 0),
+                    "evidence": ans.get("evidence", "") or "",
                 })
 
         df = pd.DataFrame(rows)
