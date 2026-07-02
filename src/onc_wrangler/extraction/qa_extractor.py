@@ -30,6 +30,7 @@ logger = logging.getLogger(__name__)
 # ---------------------------------------------------------------------------
 
 _OPTIONS_RE = re.compile(r"\s*\(([^)]+)\)\s*$")
+_MULTI_SELECT_RE = re.compile(r"^\[multi-select\]\s*", re.IGNORECASE)
 
 
 def parse_questions(path: str) -> list[dict]:
@@ -42,8 +43,9 @@ def parse_questions(path: str) -> list[dict]:
 
         What is the PD-L1 value? (0%; 1-49%; 50%+; unknown/not recorded)
         What is the patient's age at diagnosis?
+        [multi-select] What methods are used for diagnosis? ('MRI'; 'CT')
 
-    Returns list of {"question": str, "options": list[str] | None}.
+    Returns list of {"question": str, "options": list[str] | None, "multi": True | False}.
     """
     questions = []
     with open(path) as f:
@@ -51,13 +53,16 @@ def parse_questions(path: str) -> list[dict]:
             line = line.strip()
             if not line or line.startswith("#"):
                 continue
+            multi = bool(_MULTI_SELECT_RE.match(line))
+            if multi:
+                line = _MULTI_SELECT_RE.sub("", line)
             m = _OPTIONS_RE.search(line)
             if m:
                 q_text = line[: m.start()].strip()
                 options = [o.strip() for o in m.group(1).split(";") if o.strip()]
-                questions.append({"question": q_text, "options": options})
+                questions.append({"question": q_text, "options": options, "multi": multi})
             else:
-                questions.append({"question": line, "options": None})
+                questions.append({"question": line, "options": None, "multi": multi})
     if not questions:
         raise ValueError(f"No questions found in {path}")
     logger.info("Loaded %d questions from %s", len(questions), path)
@@ -85,9 +90,14 @@ RULES:
 and evidence to "".
 3. If you are updating a prior answer, only change it if the current text provides \
 STRONGER evidence or a MORE SPECIFIC answer.
-4. For questions with listed valid options, you MUST choose one of those options as \
-your value. For open-ended questions, provide a concise free-text answer.
-5. Confidence guidelines:
+4. For questions that allow for only one selection at the same time with listed valid options, \
+    you MUST choose one of those options as your value. \
+    For open-ended questions, provide a concise free-text answer.
+5. For questions that allow for multiple selections at the same time with listed valid options \
+    - either mared "[MULTI-SELECT]" in the question, or implied by wording (e.g. "Which methods \
+    were used...", "Select all that apply", "List all...") - you MUST select ALL options that \
+    apply and join them with '; '. (e.g. 'MRI'; 'CT'; 'Unknown')
+6. Confidence guidelines:
    - 0.9-1.0: Explicitly and clearly stated in the text
    - 0.7-0.89: Strongly implied or stated with some ambiguity
    - 0.4-0.69: Partially supported, requires some inference
@@ -135,7 +145,12 @@ def build_questions_block(questions: list[dict]) -> str:
     lines = []
     for i, q in enumerate(questions, 1):
         lines.append(f"{i}. {q['question']}")
-        if q["options"]:
+        if q.get("multi"):
+            if q["options"]:
+                lines.append(f"   ([MULTI-SELECT] List all that apply, separated by '; ') Valid answers: {'; '.join(q['options'])}")
+            else:
+                lines.append(f"   [MULTI-SELECT] List all that apply, separated by '; '")
+        elif q["options"]:
             lines.append(f"   Valid answers: {'; '.join(q['options'])}")
     return "\n".join(lines)
 
@@ -413,16 +428,38 @@ class QAExtractor:
 # ---------------------------------------------------------------------------
 
 
-def build_qa_output(final_extractions: dict, output_path: Path) -> None:
+def question_display_names(questions: list[dict]) -> dict[str, str]:
+    """Map canonical question text -> decorated display text for CSV headers.
+
+    Decorated text prepends "[multi-select] " for multi-select questions and
+    appends " (opt1; opt2; ...)" when valid-answer options are defined, e.g.:
+
+        "Which imaging modalities were used?"
+        -> "[multi-select] Which imaging modalities were used? (CT scan; MRI; ...)"
+    """
+    q_display: dict[str, str] = {}
+    for q in questions:
+        prefix = "[MULTI-SELECT] " if q.get("multi") else ""
+        if q.get("options"):
+            q_display[q["question"]] = f"{prefix}{q['question']} ({'; '.join(q['options'])})"
+        else:
+            q_display[q["question"]] = f"{prefix}{q['question']}"
+    return q_display
+
+
+def build_qa_output(final_extractions: dict, output_path: Path, questions: Optional[list[dict]] = None) -> None:
     """Write JSONL and CSV from QA extraction results.
 
     Args:
         final_extractions: Dict mapping patient_id -> extraction list
             (as returned by ``CheckpointManager.load_final_extractions``).
         output_path: Path for the JSONL file.  CSV is written alongside.
+        questions: the list of questions (=parse_questions(QUESTIONS_PATH))
     """
     output_path = Path(output_path)
-
+    # Build display name: "Question text (opt1; opt2; ...)" if options exist
+    q_display: dict[str, str] = question_display_names(questions) if questions else {}
+    
     # --- JSONL ---
     with open(output_path, "w") as f:
         for patient_id, extraction in final_extractions.items():
@@ -446,7 +483,8 @@ def build_qa_output(final_extractions: dict, output_path: Path) -> None:
         writer = csv.writer(f)
         header = ["patient_id"]
         for q in all_questions:
-            header.extend([q, f"{q} [evidence]"])
+            col = q_display.get(q, q)
+            header.extend([col, f"{col} [evidence]"])
         writer.writerow(header)
         for patient_id, extraction in final_extractions.items():
             answers = _unwrap_qa(extraction)
