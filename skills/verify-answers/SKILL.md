@@ -97,12 +97,19 @@ uv run --directory ${CLAUDE_PLUGIN_ROOT} python3 - << 'PYEOF'
 import json, csv
 from pathlib import Path
 from collections import Counter
+from onc_wrangler.extraction.qa_extractor import question_display_names, parse_questions
 
 WORK_DIR = Path('${output_dir}/work')
 OUT_JSONL = Path('${output_dir}/qa_results_verified.jsonl')
 OUT_CSV = Path('${output_dir}/qa_results_verified.csv')
 AUDIT = Path('${output_dir}/verification_audit.csv')
 SUMMARY = Path('${output_dir}/verification_summary.json')
+
+
+# --- Configuration (fill in from user inputs) ---
+QUESTIONS_PATH = 'QUESTIONS_FILE'
+questions = parse_questions(QUESTIONS_PATH)
+q_display = question_display_names(questions)
 
 patient_outputs = []
 for f in sorted(WORK_DIR.glob('verify_output_*.json')):
@@ -124,7 +131,8 @@ with open(OUT_CSV, 'w', newline='') as fh:
     w = csv.writer(fh)
     header = ['patient_id']
     for q in all_q:
-        header.extend([q, f'{q} [evidence]', f'{q} [verification_status]'])
+        col = q_display.get(q, q)
+        header.extend([col, f'{col} [evidence]', f'{col} [verification_status]'])
     w.writerow(header)
     for p in patient_outputs:
         row = [p['patient_id']]
@@ -134,6 +142,7 @@ with open(OUT_CSV, 'w', newline='') as fh:
             row.append(ans.get('evidence', ''))
             row.append(ans.get('verification_status', 'not_checked'))
         w.writerow(row)
+
 
 # Audit log
 with open(AUDIT, 'w', newline='') as fh:

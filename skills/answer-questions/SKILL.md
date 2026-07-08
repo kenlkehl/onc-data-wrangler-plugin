@@ -122,7 +122,7 @@ chunked.extract_cohort(
 
 # --- Write JSONL + CSV ---
 final = CheckpointManager(work_dir).load_final_extractions()
-build_qa_output(final, output_path)
+build_qa_output(final, output_path, questions)
 print(f"JSONL: {output_path}")
 print(f"CSV:   {output_path.with_suffix('.csv')}")
 print(f"Done: {len(final)} patients, {len(questions)} questions")
