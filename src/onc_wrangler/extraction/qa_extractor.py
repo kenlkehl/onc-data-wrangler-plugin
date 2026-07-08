@@ -90,14 +90,14 @@ RULES:
 and evidence to "".
 3. If you are updating a prior answer, only change it if the current text provides \
 STRONGER evidence or a MORE SPECIFIC answer.
-4. For questions that allow for only one selection at the same time with listed valid options, \
-    you MUST choose one of those options as your value. \
-    For open-ended questions, provide a concise free-text answer.
-5. For questions that allow for multiple selections at the same time with listed valid options \
-    - either mared "[MULTI-SELECT]" in the question, or implied by wording (e.g. "Which methods \
+4. For open-ended questions, provide a concise free-text answer.
+5. For questions that allow for only one selection at the same time with listed valid options, \
+    you MUST choose one of those options as your value. 
+6. For questions that allow for multiple selections at the same time with listed valid options \
+    - either labeled "[MULTI-SELECT]" in the question, or implied by wording (e.g. "Which methods \
     were used...", "Select all that apply", "List all...") - you MUST select ALL options that \
     apply and join them with '; '. (e.g. 'MRI'; 'CT'; 'Unknown')
-6. Confidence guidelines:
+7. Confidence guidelines:
    - 0.9-1.0: Explicitly and clearly stated in the text
    - 0.7-0.89: Strongly implied or stated with some ambiguity
    - 0.4-0.69: Partially supported, requires some inference
